@@ -1,0 +1,310 @@
+[
+  {
+    "id": "q-eng-vocab-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-vocab"],
+    "stem": "判断下列说法是否正确：掌握一个英语单词，只需要记住它的拼写和单词表里的第一个中文义项。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["词汇学习", "词义", "语境"],
+    "answer": false,
+    "explanation": "这种说法是典型误区。高考英语不单独设单词拼写题，词汇考查贯穿阅读、完形、语法填空和写作，考的是「在语境中能不能用对」。真正掌握一个词至少包括四层：核心词义、熟词僻义、词块搭配和构词法。只记第一个义项，遇到 “book a room”（预订）、“The meeting lasted two hours”（持续）、“address the problem”（处理）这类句子就会误判。正确做法是把词放进句子和语篇里记，同时记词性、常见搭配和同根词。"
+  },
+  {
+    "id": "q-eng-vocab-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-vocab"],
+    "stem": "词汇积累通常分为四个层次：核心词义、____（如 book 表示「预订」、last 表示「持续」）、词块搭配和构词法。例如要真正掌握 acquire，除了知道它表示「获得」，还应记住搭配 acquire a skill，并知道它的名词形式是 ____。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["词汇层次", "构词", "词块"],
+    "blanks": [
+      {
+        "accept": ["熟词僻义", "熟词生义"],
+        "hint": "常见词在特定语境中呈现的不常见义项，如 address 表示「处理」"
+      },
+      {
+        "accept": ["acquisition"],
+        "hint": "acquire 加 -tion 后缀，注意拼写中 s 与 i 的顺序"
+      }
+    ],
+    "explanation": "第一空填「熟词僻义」（也称熟词生义）：指 book、last、address、cover 这类高频词在特定语境中的引申义，是阅读理解和完形填空的常考点。第二空 acquire 的名词形式是 acquisition（获得、收购），词尾由 -e 变为 -ition，拼写不要写成 *acquirement 或 *acquisition 的错拼。掌握一个词要「义、性、搭、构」四管齐下，只背中文释义是最低效的做法。"
+  },
+  {
+    "id": "q-eng-vocab-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-vocab"],
+    "stem": "下列词汇学习方法中，最符合高考英语词汇考查方式的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["学习方法", "语境"],
+    "options": [
+      { "key": "A", "text": "只背单词表，熟记每个词的第一个中文义项" },
+      { "key": "B", "text": "在语境和语篇中积累，同时记录词性、常见搭配和一词多义" },
+      { "key": "C", "text": "只记拼写和发音，不必关注单词在句中的用法" },
+      { "key": "D", "text": "考前集中背诵生僻词和专业术语，扩大词汇量" }
+    ],
+    "answer": "B",
+    "explanation": "高考对词汇的考查是「在语篇中运用」，所以 B 关注语境、词性、搭配和多义，与考查方式一致。A 的问题是把词义窄化为第一个义项，遇到熟词僻义和词块就失效；C 割裂了形式与用法，写作和语法填空中必然出错；D 方向错位，高考考的是高频词的深度掌握（搭配、多义、词性转换），不是生僻词的数量。做这类题要抓住「词汇考查不单独设题，而是服务于读写」这一前提。"
+  },
+  {
+    "id": "q-eng-vocab-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-vocab"],
+    "stem": "关于高中英语词汇学习，下列说法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["词块", "一词多义", "构词法"],
+    "options": [
+      { "key": "A", "text": "高频动词应连同常见搭配一起记，如 make a decision、take measures" },
+      { "key": "B", "text": "同一个词在不同语境中可能有不同词义，如 book、last、address" },
+      { "key": "C", "text": "只要认识句子里的每一个单词，就一定能准确理解整句意思" },
+      { "key": "D", "text": "掌握构词法有助于在阅读中推测生词词义" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：词块是整体记忆和整体输出的单位，写作中 make a decision 比单记 decide 更实用；B 正确：这正是熟词僻义的来源，必须靠语境判断；D 正确：-less、-ful、-tion、un-、re- 等前后缀能在阅读中快速给生词定位词性和方向。C 错在把「认词」等同于「理解」：句子的意思还取决于搭配、句法结构和上下文逻辑，例如 “He made no small contribution.” 逐词翻译会得出相反结论。多选题失分多在漏选，可用排除法先锁定 C 这类绝对化表述。"
+  },
+  {
+    "id": "q-eng-vocab-core-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-vocab-core"],
+    "stem": "In “The city government has promised to address the housing problem”, the word “address” means ____.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["熟词僻义", "address"],
+    "options": [
+      { "key": "A", "text": "给……写地址" },
+      { "key": "B", "text": "处理，解决" },
+      { "key": "C", "text": "向……发表演说" },
+      { "key": "D", "text": "称呼" }
+    ],
+    "answer": "B",
+    "explanation": "address 后接 problem、issue、concern 这类词时，意为「处理、应对、解决」，相当于 deal with。A 是 address 的本义（在信封上写地址），C 是 address an audience / a meeting（向……讲话），D 是 address sb as...（称呼某人为……）。四个义项都是真实用法，判断依据只能是宾语：接「问题、需求」时取「处理」义。这正是熟词僻义的典型考法——先看搭配，再定词义，不要凭第一印象。"
+  },
+  {
+    "id": "q-eng-vocab-core-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-vocab-core"],
+    "stem": "用所给动词的正确形式填空：The meeting ____ nearly three hours, and everyone was exhausted. （last）／ She ____ a table for four at the restaurant yesterday. （book）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["熟词僻义", "last", "book"],
+    "blanks": [
+      { "accept": ["lasted"], "hint": "last 作动词表示「持续」，此处描述过去发生的事" },
+      { "accept": ["booked"], "hint": "book 作动词表示「预订」，句末 yesterday 提示时态" }
+    ],
+    "explanation": "两空都考熟词僻义，且都要求把名词义暂时「关掉」：last 本是「最后的」，作动词是「持续」，句子主语是 meeting，用过去式 lasted；book 本是「书」，作动词是「预订」，受 yesterday 限制用过去式 booked。常见错误是看到 last 就填形容词、看到 book 就不敢当动词用，或者填成 *lasted for* 却漏了 -ed。判断步骤：先确定空格处缺谓语，再回到该词的动词义项，最后按时态和主谓一致变形。"
+  },
+  {
+    "id": "q-eng-vocab-core-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-vocab-core"],
+    "stem": "Which of the following sentences uses “book” in the same sense as “She booked a table for four.”?",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["一词多义", "book"],
+    "options": [
+      { "key": "A", "text": "He is reading an interesting book about space." },
+      { "key": "B", "text": "The book on the shelf is mine." },
+      { "key": "C", "text": "We booked a room online before the trip." },
+      { "key": "D", "text": "She wrote a book about her travels." }
+    ],
+    "answer": "C",
+    "explanation": "题干中 booked a table 的 book 是动词，意为「预订」。C 项 booked a room 同样是「预订房间」，词性和词义都一致。A、B、D 三项的 book 都是名词「书」，属于同一个义项但词性不同。做词义辨析题要先判断词性，再看搭配：book 后接 a table、a room、a ticket、a flight 时几乎都是「预订」，后接 about、on the shelf、wrote 时则是名词。不能只凭句子里出现了 book 就当成同义。"
+  },
+  {
+    "id": "q-eng-vocab-core-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-vocab-core"],
+    "stem": "下列句子中划线词（用引号标出）的解释，正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["熟词僻义", "一词多义"],
+    "options": [
+      { "key": "A", "text": "“She booked a flight to Shanghai.” 中 book 意为「预订」" },
+      { "key": "B", "text": "“The rain lasted for three days.” 中 last 意为「持续」" },
+      { "key": "C", "text": "“He addressed the audience for an hour.” 中 address 意为「给……写信」" },
+      { "key": "D", "text": "“The film is well worth seeing.” 中 worth 意为「值得」" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 中 book a flight 是「订机票」，正确；B 中 last 作不及物动词表示「持续」，正确；D 中 be worth doing 是固定结构，worth 意为「值得」，正确。C 错：address the audience 是「向听众讲话、发表演说」，不是「给……写信」；写信给某人应说 write to sb 或 address a letter to sb，后者 address 的宾语必须是 letter 一类的东西。多选题判断熟词僻义的关键是看宾语和搭配，而不是凭中文直觉对号入座。"
+  },
+  {
+    "id": "q-eng-wordformation-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-wordformation"],
+    "stem": "判断下列说法是否正确：动词 succeed 的形容词形式是 successful，副词形式是 successfully。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["派生", "succeed"],
+    "answer": true,
+    "explanation": "正确。succeed（动词，成功；继任）→ success（名词）→ successful（形容词）→ successfully（副词）。这条派生链是语法填空词性转换的高频考点，配套搭配是 succeed in doing sth、be successful in doing sth。易错点是拼写：successful 双写 c 后再加 ful，successfully 在 successful 后加 -ly，不要写成 *succesful、*successfull。判断派生是否正确，要同时看词性是否符合句子成分、拼写是否规范。"
+  },
+  {
+    "id": "q-eng-wordformation-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-wordformation"],
+    "stem": "用括号内单词的正确形式填空：The experiment was a great ____ (succeed), and the team ____ (success) in publishing their results.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["词性转换", "派生"],
+    "blanks": [
+      { "accept": ["success"], "hint": "空前有 a great，需要名词" },
+      { "accept": ["succeeded"], "hint": "and 连接并列谓语，时态与前句一致，另注意 succeed in doing 的搭配" }
+    ],
+    "explanation": "第一空在冠词 a 和形容词 great 之后，必须是名词，故填 success；注意不能说 *a great succeed。第二空 the team 后缺谓语，与 was 并列，用一般过去时 succeeded，同时构成 succeed in doing sth 的固定搭配。这类题的两步法：先看空格在句中的成分定词性，再按提示词派生并变形（时态、单复数、比较级）。学生最常错的是把两个空都填成 success，或把动词过去式拼成 *succeded（只双写一个 c 后仍是 -ed，正确形式是 succeeded）。"
+  },
+  {
+    "id": "q-eng-wordformation-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-wordformation"],
+    "stem": "The ____ of the new railway will greatly improve local transport.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["名词派生", "construction"],
+    "options": [
+      { "key": "A", "text": "construct" },
+      { "key": "B", "text": "construction" },
+      { "key": "C", "text": "constructive" },
+      { "key": "D", "text": "constructively" }
+    ],
+    "answer": "B",
+    "explanation": "空前有定冠词 The、空后有 of the new railway，空格必须是名词，故用 construction（建造、施工）。A 项 construct 是动词，也可作名词但意为「构想、概念」，不表示「建造工程」；C 项 constructive 是形容词「建设性的」；D 项 constructively 是副词。四个选项正好覆盖「动词—名词—形容词—副词」四种词性，这是命题人设置词性转换题的常见套路：先定词性，再选形式，不要凭语感。"
+  },
+  {
+    "id": "q-eng-wordformation-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-wordformation"],
+    "stem": "下列派生词的拼写和词性都正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["派生", "拼写", "词性"],
+    "options": [
+      { "key": "A", "text": "happiness（名词）" },
+      { "key": "B", "text": "carefull（形容词）" },
+      { "key": "C", "text": "useless（形容词）" },
+      { "key": "D", "text": "impossible（形容词）" }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 正确：happy 变 y 为 i 加 -ness 得 happiness（名词）；C 正确：use 加否定后缀 -less 得 useless（形容词）；D 正确：possible 加否定前缀 im- 得 impossible，因词根以 p 开头，用 im- 而不是 in-。B 错在拼写：careful 只写一个 l，正确形式是 careful，双写 l 的 *carefull 是典型错拼；类似的还有 useful、beautiful。构词法题要同时满足两条：词性对得上句子成分，拼写符合「辅音字母双写、y 变 i、前缀同化」等规则。"
+  },
+  {
+    "id": "q-eng-collocation-1",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-collocation"],
+    "stem": "填入恰当的介词：It never occurred ____ me that he could be right. ／ The manager is in charge ____ the whole project.",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["介词搭配", "短语"],
+    "blanks": [
+      { "accept": ["to"], "hint": "occur to sb 表示「某人想到」" },
+      { "accept": ["of"], "hint": "in charge of 表示「负责」" }
+    ],
+    "explanation": "第一空填 to：sth occurs to sb 意为「某事被某人想到」，主语是想法而不是人，所以不能说 *I occurred that...，正确说法是 It occurred to me that...。第二空填 of：be in charge of sth 表示「负责某事物」，而 in the charge of sb 表示「由某人负责」，两个结构方向相反，是常考易混点。介词搭配不能靠中文逐字翻译，要成块记忆：occur to、in charge of、be responsible for、account for。"
+  },
+  {
+    "id": "q-eng-collocation-2",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-collocation"],
+    "stem": "The committee finally ____ a practical solution to the traffic problem.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["短语动词", "come up with"],
+    "options": [
+      { "key": "A", "text": "came up with" },
+      { "key": "B", "text": "came up" },
+      { "key": "C", "text": "put up with" },
+      { "key": "D", "text": "made up for" }
+    ],
+    "answer": "A",
+    "explanation": "come up with sth 意为「想出、提出（主意、办法）」，后接宾语，符合「提出切实可行的解决方案」的语境。B 项 come up 是不及物短语，意为「被提出、发生」，不能直接接宾语（是 The idea came up，不是 came up the idea）；C 项 put up with 意为「忍受」；D 项 make up for 意为「弥补」。四个选项都以 up 为核心，考的就是「动词 + up + 介词」这一族短语的辨析，判断依据是能否带宾语以及宾语的语义类型。"
+  },
+  {
+    "id": "q-eng-collocation-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-collocation"],
+    "stem": "We are looking forward to ____ from you soon.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["非谓语搭配", "look forward to"],
+    "options": [
+      { "key": "A", "text": "hear" },
+      { "key": "B", "text": "hearing" },
+      { "key": "C", "text": "heard" },
+      { "key": "D", "text": "be heard" }
+    ],
+    "answer": "B",
+    "explanation": "look forward to 中的 to 是介词，不是不定式符号，所以后面接动名词 hearing。这是高考最高频的易错点之一：学生看到 to 就条件反射地填动词原形，误选 A。同类结构还有 be used to doing（习惯于）、devote oneself to doing（致力于）、object to doing（反对）、pay attention to doing（注意），它们的 to 都是介词。判断方法：把 to 换成 in 试试，如果意思通顺，to 就是介词，后面必须用 -ing 形式。"
+  },
+  {
+    "id": "q-eng-collocation-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-collocation"],
+    "stem": "下列动词短语的搭配和释义都正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["短语动词", "搭配辨析"],
+    "options": [
+      { "key": "A", "text": "account for — 解释；（在数量上）占" },
+      { "key": "B", "text": "depend in — 依靠，依赖" },
+      { "key": "C", "text": "be responsible for — 对……负责" },
+      { "key": "D", "text": "come up with — 想出，提出" }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 正确：account for 既可表示「解释（原因）」，也可表示「占（比例）」，如 Women account for 60% of the staff；C 正确：be responsible for 后接名词或动名词；D 正确：come up with 后接 idea、plan、solution 等。B 错：表示「依靠」的搭配是 depend on / upon，不存在 *depend in；受中文「在……方面依赖」影响而写 in 是常见错误。短语动词题要盯住介词，因为动词部分往往不变，错误几乎都出在介词上。"
+  },
+  {
+    "id": "q-eng-wordformation-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-wordformation"],
+    "stem": "用括号内单词的正确形式填空，并简要说明所填词的词性及判断依据。\n(1) Her ____ (succeed) in the interview gave her great confidence.\n(2) The ____ (construct) of the bridge took three years.\n(3) Although the task was ____ (hope) difficult, they never gave up.\n(4) The room was in complete ____ (dark).\n(5) The machine must be ____ (proper) maintained.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["词性转换", "派生后缀"],
+    "rubric": [
+      { "text": "第 (1)(2) 空正确写出名词 success、construction，并指出空前有形容词或定冠词、需要名词", "score": 3 },
+      { "text": "第 (3)(4) 空正确写出副词 hopelessly、名词 darkness，并说明 -less/-ness 的构词方式", "score": 3 },
+      { "text": "第 (5) 空正确写出副词 properly，说明修饰过去分词 maintained 需用副词", "score": 2 },
+      { "text": "整体说明「先定词性、再选后缀、最后查拼写」的转换思路，拼写无 -full、-ness 等常见错误", "score": 2 }
+    ],
+    "reference": "(1) success（名词）：空前有形容词性物主代词 Her，空后是谓语 gave，空格作主语，须用名词。\n(2) construction（名词）：空前有定冠词 The，空后 of the bridge 作定语，须用名词。\n(3) hopelessly（副词）：修饰形容词 difficult，须用副词；hope 加否定后缀 -less 变形容词 hopeless，再加 -ly 成副词。\n(4) darkness（名词）：介词 in 之后、形容词 complete 之后须用名词；dark 加 -ness 时注意保留 k。\n(5) properly（副词）：修饰过去分词 maintained，须用副词；proper 直接加 -ly 即 properly，不要误写为 *proply。",
+    "maxScore": 10,
+    "explanation": "本题考查「先定词性、再选后缀、最后核拼写」的完整流程，五个空分别对应名词、名词、副词、名词、副词。判断词性只看句子成分：主语、介词宾语、冠词后一般是名词；修饰形容词或分词、修饰动词的一般是副词。易错点集中在拼写：hopelessly 是 hope + less + ly（不是 *hoplessly 漏 e）；darkness 保留 k；properly 不是 *proply。评分时要求写出词性判断依据，只填词不说明理由的，按对应条目酌情扣分。"
+  },
+  {
+    "id": "q-eng-collocation-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-collocation"],
+    "stem": "按括号内要求完成下列各题，并说明所依据的固定搭配。\n(1) The heavy rain ____ (account) for the delay of the flight. 用所给动词的正确形式填空。\n(2) It never occurred ____ me that she had been a teacher. 填入恰当的介词。\n(3) We are looking forward to ____ (hear) from you. 用所给动词的正确形式填空。\n(4) 写出两个表示「想出（办法、主意）」的英语短语。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["固定搭配", "短语动词", "介词"],
+    "rubric": [
+      { "text": "(1) 填 accounted for，说明 account for 表示「解释、是……的原因」，且全句为过去时", "score": 2 },
+      { "text": "(2) 填 to，说明 occur to sb 表示「某人想到」，主语是想法而非人", "score": 2 },
+      { "text": "(3) 填 hearing，说明 look forward to 中 to 为介词，后接动名词", "score": 2 },
+      { "text": "(4) 写出 come up with 与 think of（或 think up、figure out 等合理答案）中的两个，拼写与介词正确", "score": 2 }
+    ],
+    "reference": "(1) accounted for：account for 意为「解释、（数量上）占」，此处主语 The heavy rain 是过去延误的原因，用一般过去时。\n(2) to：It occurs to sb that... 意为「某人想到……」，it 为形式主语，真正主语是 that 从句。\n(3) hearing：look forward to 中的 to 是介词，后接名词或动名词，故用 hearing。\n(4) come up with、think of（也可答 think up、work out，均需搭配正确）。",
+    "maxScore": 8,
+    "explanation": "本题把短语动词、介词搭配和「to 是介词还是不定式符号」三类高频考点放在一起。第 (1) 问除时态外还要注意 account for 的两种释义，不能只按「解释」理解；第 (2) 问的关键是 occur 的主语不能是人，说 *I occurred that 是典型中式错误；第 (3) 问用「把 to 换成 in 试读」的方法即可判定 to 为介词；第 (4) 问考查输出能力，写出短语时必须连介词一起写对，漏掉 with 或 of 不得分。"
+  }
+]

@@ -1,0 +1,614 @@
+[
+  {
+    "id": "q-eng-reading-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-reading"],
+    "stem": "某同学总结答题策略时说：“Read the questions first, then look for the same idea expressed in different words in the passage.” 这句话倡导的做法是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["答题策略", "同义改写"],
+    "options": [
+      { "key": "A", "text": "把全文逐词译成中文后再看选项" },
+      { "key": "B", "text": "先读题干定位关键词，再回原文寻找同义改写" },
+      { "key": "C", "text": "凭个人经验选一个最符合常识的选项" },
+      { "key": "D", "text": "选与原文重复单词最多的选项" }
+    ],
+    "answer": "B",
+    "explanation": "题干要求先读问题、再在原文中寻找“用不同词语表达的同一意思”，即先定位关键词、后核对同义改写，与 B 一致。A 逐词翻译效率低且容易断章取义；C 把个人经验凌驾于文本之上，是阅读题最常见的失分点；D 正是“词句重复陷阱”，命题人常用原文原词制造干扰项，正确答案反而使用同义词或不同句式。"
+  },
+  {
+    "id": "q-eng-reading-2",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-reading"],
+    "stem": "判断：阅读理解的正确选项常常是对原文信息的同义改写，而不是机械照抄原文词句。",
+    "difficulty": 1,
+    "source": "自编练习",
+    "tags": ["同义改写", "干扰项"],
+    "answer": true,
+    "explanation": "说法正确。命题人刻意让干扰项复现原文原词，使考生“看着眼熟”而误选；正确选项通常用近义词、词性转换或不同句式转述定位句的意思。因此答题的关键是核对“意思是否一致”，而不是“词语是否相同”。"
+  },
+  {
+    "id": "q-eng-reading-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-reading"],
+    "stem": "做阅读时遇到一个选项与你的生活常识相符，但原文并未支持这一说法，正确的处理方式是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["原文依据", "常识陷阱"],
+    "options": [
+      { "key": "A", "text": "选它，因为常识通常不会出错" },
+      { "key": "B", "text": "以原文为依据，原文没有支持的表述一律不选" },
+      { "key": "C", "text": "看它是否为四个选项中最长的一个" },
+      { "key": "D", "text": "只要它含有文章标题里的词就选" }
+    ],
+    "answer": "B",
+    "explanation": "阅读理解考查的是“作者在文中说了什么”，不是“你认为世界应该怎样”。凡是原文没有依据的表述，哪怕与常识一致，也属于“无中生有”，不能选。A 把常识置于文本之上；C 选项长短与正误无关；D 命中标题词恰恰是常见的诱饵设计。"
+  },
+  {
+    "id": "q-eng-reading-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-reading"],
+    "stem": "下列关于阅读理解答题方法的说法，正确的有（多选）（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["定位", "绝对化表达"],
+    "options": [
+      { "key": "A", "text": "用题干关键词回原文定位后，要核对定位句的主语和对象是否与选项一致。" },
+      { "key": "B", "text": "选项中若出现 all、never、must 等绝对化表达，要格外警惕。" },
+      { "key": "C", "text": "文章读懂了就不必再回原文核对选项。" },
+      { "key": "D", "text": "正确选项常用同义词或不同句式复现原文信息。" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：定位只是第一步，还必须核对“谁做什么”是否被偷换，张冠李戴是高频陷阱。B 正确：绝对化表达把原文的可能、部分夸大为必然、全部，常为错误项。C 错误：读懂全文不等于记住每个细节，凭印象作答极易被同义混淆项带走。D 正确：这正是正确选项的典型生成方式。"
+  },
+  {
+    "id": "q-eng-reading-main-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-reading-main"],
+    "stem": "阅读下面短文，回答：\n\nMany cities are turning empty rooftops into small farms. Supporters say rooftop farms cool buildings, absorb rainwater and give residents fresh vegetables. Critics point out that soil is heavy, roofs may leak, and the harvest is small compared with ordinary farms. Still, in crowded cities where land is scarce, a rooftop may be the only spare space available. The idea is therefore likely to spread, though probably as a supplement rather than a replacement for rural agriculture.\n\nWhat is the main idea of the passage?",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["主旨大意", "首尾呼应"],
+    "options": [
+      { "key": "A", "text": "Rooftop farms will soon replace traditional farms." },
+      { "key": "B", "text": "Rooftop farms are a promising but limited addition to city food supply." },
+      { "key": "C", "text": "Rooftop farms are too dangerous to be allowed in cities." },
+      { "key": "D", "text": "Soil and roofs are the main subjects of urban planning." }
+    ],
+    "answer": "B",
+    "explanation": "短文先列支持者理由，再列批评者理由，最后用 therefore 给出结论：屋顶农场 likely to spread，但 as a supplement rather than a replacement。B 的 promising but limited addition 恰好覆盖“会推广”与“只是补充”两层意思。A 把 supplement 偷换成 replace，程度夸大；C 只抓住 critics 的内容以偏概全；D 把文章话题（屋顶农场）偷换成“土壤与屋顶”。"
+  },
+  {
+    "id": "q-eng-reading-main-2",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-reading-main"],
+    "stem": "判断：主旨大意题应优先关注首尾段、段落主题句和反复出现的关键词，而不是某一个细节例子。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["主题句", "关键词"],
+    "answer": true,
+    "explanation": "说法正确。说明文与议论文的主旨多出现在首段引入、末段结论以及各段主题句中；反复出现的实词往往就是全文话题。细节例子只服务于主旨，若以例子代替主旨，就会掉进“以偏概全”的干扰项。"
+  },
+  {
+    "id": "q-eng-reading-main-3",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-reading-main"],
+    "stem": "一段文字中概括该段中心意思的句子叫“主题句”，英文表达为 ______ sentence。",
+    "difficulty": 1,
+    "source": "自编练习",
+    "tags": ["主题句", "术语"],
+    "blanks": [
+      { "accept": ["topic"], "hint": "topic sentence 主题句" }
+    ],
+    "explanation": "主题句的英文是 topic sentence，概括全段中心，其余句子是 supporting details（支撑细节）。阅读时先锁定主题句，段意题和主旨题就都有了依据。"
+  },
+  {
+    "id": "q-eng-reading-main-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-reading-main"],
+    "stem": "关于主旨大意题的干扰项，下列分析正确的有（多选）（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["干扰项", "以偏概全"],
+    "options": [
+      { "key": "A", "text": "以偏概全：只概括了文章某一段或某个例子。" },
+      { "key": "B", "text": "范围过大：把文章讨论的某一类现象扩大到所有现象。" },
+      { "key": "C", "text": "与文章主旨方向一致且覆盖全文的概括。" },
+      { "key": "D", "text": "偷换对象：把文章讨论的对象换成另一个相关概念。" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A、B、D 分别对应主旨题三大典型陷阱：把局部当整体、把个别夸大为普遍、把甲说成乙。C 描述的恰恰是正确答案的特征——方向一致且覆盖全文，不是干扰项，所以不能选。审题时要看清问的是“干扰项”还是“正确项”。"
+  },
+  {
+    "id": "q-eng-reading-title-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-reading-title"],
+    "stem": "阅读下面短文，回答：\n\nFor years scientists wondered how monarch butterflies find their way from Mexico to Canada. Recent studies suggest that the insects use the sun together with an internal clock, and possibly the Earth's magnetic field. On overcast days they still keep their direction, which puzzled researchers until tiny magnetic structures were found in their antennae. The discovery does not explain the whole journey, but it brings us closer to understanding one of nature's most remarkable navigations.\n\nWhich of the following is the best title for the passage?",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["标题", "覆盖全文"],
+    "options": [
+      { "key": "A", "text": "Why Monarch Butterflies Are Disappearing" },
+      { "key": "B", "text": "How Monarch Butterflies Find Their Way" },
+      { "key": "C", "text": "The Life Cycle of a Butterfly" },
+      { "key": "D", "text": "Magnetic Fields in Modern Science" }
+    ],
+    "answer": "B",
+    "explanation": "全文围绕“帝王蝶如何辨别方向”展开：太阳加生物钟、磁场、触角中的磁性结构，末句落在 remarkable navigations 上，B 覆盖全文且简洁。A 的 Disappearing 文中未提，属无中生有；C 的 life cycle 也未被讨论，是话题偷换；D 范围过大，把一篇具体研究拔高成“现代科学中的磁场”。"
+  },
+  {
+    "id": "q-eng-reading-title-2",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-reading-title"],
+    "stem": "判断：拟标题时应做到简短、覆盖全文主要内容；只概括其中某一段的选项不能作为标题。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["标题", "段落大意"],
+    "answer": true,
+    "explanation": "说法正确。标题既要 short（简短），又要 comprehensive（有概括力）：它必须统摄全文，而不是复述某一段。只概括一段的选项属于“以偏概全”，过于宽泛的选项则空洞失焦，两者都不能作为最佳标题。"
+  },
+  {
+    "id": "q-eng-reading-title-3",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-reading-title"],
+    "stem": "The topic sentence of a paragraph most often appears at the beginning or at the ______ of the paragraph.",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["主题句位置", "段落大意"],
+    "blanks": [
+      { "accept": ["end"], "hint": "at the end of 在……末尾" }
+    ],
+    "explanation": "段落主题句最常见于段首（演绎式）或段末（归纳式），少数出现在段中。因此抓段意时先读首句和尾句：首句给出概括，尾句常以 thus、therefore、in short 等收束结论，两者都指向本段中心。"
+  },
+  {
+    "id": "q-eng-reading-title-4",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-reading-title", "eng-reading-main"],
+    "stem": "短文末句写道：“The discovery does not explain the whole journey, but it brings us closer to understanding one of nature's most remarkable navigations.” 下列哪一项最准确地概括了这句话的意思？（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["句意概括", "让步转折"],
+    "options": [
+      { "key": "A", "text": "The research has solved the mystery completely." },
+      { "key": "B", "text": "The research is a meaningful step, though the full explanation is still missing." },
+      { "key": "C", "text": "The research is of little value because it explains nothing." },
+      { "key": "D", "text": "The butterflies' journey cannot be studied at all." }
+    ],
+    "answer": "B",
+    "explanation": "句子结构是“让步（does not explain the whole journey）+ 转折（but brings us closer）”，重点落在 but 之后：研究有价值，但尚未解释全部。B 的 a meaningful step + full explanation still missing 精确对应。A 的 completely 与 does not explain the whole journey 直接矛盾；C 把“未解释全部”读成“毫无价值”，属否定过度；D 与全文研究事实相悖。"
+  },
+  {
+    "id": "q-eng-reading-detail-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-reading-detail"],
+    "stem": "阅读下面短文，回答：\n\nThe Green Library opened in 2015 in a former warehouse. It lends books, tools and even seeds to local residents. Members pay nothing for books, but tools must be returned within seven days. Last year the library recorded 12,000 visits, twice as many as in 2019. The busiest day is Saturday, when a repair workshop runs from 9 a.m. to noon.\n\nAccording to the passage, how long can members keep the tools they borrow?",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["细节理解", "时间信息"],
+    "options": [
+      { "key": "A", "text": "Three days." },
+      { "key": "B", "text": "Seven days." },
+      { "key": "C", "text": "Two weeks." },
+      { "key": "D", "text": "One month." }
+    ],
+    "answer": "B",
+    "explanation": "原文 tools must be returned within seven days 直接给出答案，B 正确。A 是把 repair workshop 的 9 a.m. 到 noon（三小时）误当借期；C、D 属于无中生有，原文未提两周或一个月。细节题务必区分不同信息各自对应的对象。"
+  },
+  {
+    "id": "q-eng-reading-detail-2",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-reading-detail"],
+    "stem": "判断：根据上文短文，会员借书需要付费。",
+    "difficulty": 1,
+    "source": "自编练习",
+    "tags": ["细节理解", "否定信息"],
+    "answer": false,
+    "explanation": "原文说 Members pay nothing for books（会员借书不付费），只是 tools 有七天归还的期限要求。该说法与原文相反，错误。细节题中的否定信息（nothing、never、except）最容易被漏读。"
+  },
+  {
+    "id": "q-eng-reading-detail-3",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-reading-detail"],
+    "stem": "根据上文短文填空：The library recorded ______ times as many visits last year as in 2019.",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["数字信息", "倍数表达"],
+    "blanks": [
+      { "accept": ["two", "2"], "hint": "twice = two times" }
+    ],
+    "explanation": "原文 twice as many as in 2019，twice 即 two times，故填 two。注意 12,000 visits 是去年的总量，而 2019 年是它的一半（6,000），不要把 12,000 当成倍数填进去。"
+  },
+  {
+    "id": "q-eng-reading-detail-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-reading-detail"],
+    "stem": "做细节理解题时，下列做法正确的有（多选）（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["细节定位", "张冠李戴"],
+    "options": [
+      { "key": "A", "text": "用题干中的时间、地点、数字等关键词回原文定位。" },
+      { "key": "B", "text": "正确选项常是原文信息的同义改写。" },
+      { "key": "C", "text": "看到与原文相近的数字就直接选，不必核对单位和对象。" },
+      { "key": "D", "text": "警惕张冠李戴：选项把 A 的特点说成 B 的。" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：时间、地点、数字、专有名词是最稳的定位锚点。B 正确：细节题的正确项多为同义转述而非原词照搬。C 错误：数字陷阱就靠“单位错、对象错、范围错”设伏，必须核对数字描述的是谁、用什么单位。D 正确：把甲的特征安到乙身上是细节题最典型的错项手法。"
+  },
+  {
+    "id": "q-eng-reading-infer-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-reading-infer"],
+    "stem": "阅读下面短文，回答：\n\nWhen the school announced that the old gym would be pulled down, Mr. Alvarez said nothing at the meeting. Afterwards he walked to the gym alone and stood for a long time in front of the door, where his name — painted by students thirty years earlier — had almost faded away.\n\nWhat can be inferred about Mr. Alvarez?",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["推理判断", "言外之意"],
+    "options": [
+      { "key": "A", "text": "He strongly opposed the school's decision in public." },
+      { "key": "B", "text": "He felt a quiet, personal attachment to the old gym." },
+      { "key": "C", "text": "He had forgotten that his name was on the door." },
+      { "key": "D", "text": "He was the person who painted the gym thirty years ago." }
+    ],
+    "answer": "B",
+    "explanation": "证据链是：会上沉默（said nothing）＋会后独自走到体育馆＋在门前站了很久（stood for a long time）＋门上是他三十年前留下的名字。这些细节共同指向一种不张扬的眷恋，故 B 成立。A 与 said nothing 矛盾；C 与“站了很久注视 faded name”相反；D 曲解原文 painted by students（由学生所画），把自己画的名字当成他画的。"
+  },
+  {
+    "id": "q-eng-reading-infer-2",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-reading-infer"],
+    "stem": "关于推理判断题，下列说法正确的有（多选）（　）",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["推理", "过度推断"],
+    "options": [
+      { "key": "A", "text": "答案一般不在原文直接出现，需要依据原文证据推进一步。" },
+      { "key": "B", "text": "推理可以任意发挥，只要结论听起来合理。" },
+      { "key": "C", "text": "含有 must、never、all 等绝对化表达的选项通常需要警惕。" },
+      { "key": "D", "text": "转折、让步处和态度词常是推理的重要依据。" }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 正确：推理题的答案要“有据可推”，比原文多走一步而已。B 错误：推理必须有文本证据，脱离文本的“合理想象”正是过度推断。C 正确：绝对化表达把可能说成必然，多数为错项。D 正确：but、yet、although 之后以及评价性形容词处，往往藏着作者的言外之意。"
+  },
+  {
+    "id": "q-eng-reading-infer-3",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-reading-infer"],
+    "stem": "判断：推理题的正确答案可以远远超出原文提供的信息，只要与文章主题相关即可。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["推理边界", "过度推断"],
+    "answer": false,
+    "explanation": "错误。推理判断要求“基于原文、只推一步”：结论必须能由文中证据支撑，与主题相关并不等于有据可推。一旦超出文本信息，就成了主观臆断，这类选项通常以看似深刻、实则无据的表述出现。"
+  },
+  {
+    "id": "q-eng-reading-infer-4",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-reading-infer"],
+    "stem": "短文说 Mr. Alvarez “said nothing at the meeting”。由这一细节可以作出的合理推断是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["沉默", "推理分寸"],
+    "options": [
+      { "key": "A", "text": "He agreed with the decision completely." },
+      { "key": "B", "text": "He had no interest in the gym at all." },
+      { "key": "C", "text": "His silence does not necessarily mean indifference." },
+      { "key": "D", "text": "He was not allowed to speak at the meeting." }
+    ],
+    "answer": "C",
+    "explanation": "沉默本身不含态度信息：既可能赞同，也可能反对而不愿说、或难过到说不出。C 的 does not necessarily mean 保留了这种不确定性，是分寸最恰当的推断。A、B 把沉默直接等同于赞同或无兴趣，推得过远；D 凭空添加“被禁止发言”，原文毫无依据。"
+  },
+  {
+    "id": "q-eng-reading-guess-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-reading-guess"],
+    "stem": "阅读句子：Unlike her brother, who was gregarious and made friends within minutes, Anna preferred to sit alone with a book. 划线词 gregarious 的意思最接近（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["词义猜测", "对比线索"],
+    "options": [
+      { "key": "A", "text": "sociable" },
+      { "key": "B", "text": "silent" },
+      { "key": "C", "text": "careful" },
+      { "key": "D", "text": "tired" }
+    ],
+    "answer": "A",
+    "explanation": "两条线索：一是 Unlike 引出对比，Anna 喜欢独处，哥哥则相反；二是同位的 made friends within minutes（几分钟就交到朋友）直接解释 gregarious。两相印证，该词意为“爱交际的”，即 sociable。B 恰是 Anna 的特点，被对比关系排除；C、D 与“交朋友”无关。"
+  },
+  {
+    "id": "q-eng-reading-guess-2",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-reading-guess"],
+    "stem": "猜测生词含义时，可以利用的上下文线索包括（多选）（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["语境线索", "构词法"],
+    "options": [
+      { "key": "A", "text": "同义或近义解释，如 or、that is、in other words 之后的内容" },
+      { "key": "B", "text": "反义对比，如 unlike、but、rather than 引出的相反信息" },
+      { "key": "C", "text": "举例与因果说明，如 for example、because、so" },
+      { "key": "D", "text": "直接套用词典第一义项，不必看上下文" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A、B、C 都是可靠的语境线索：同义复现、反义对比、举例与因果都能框定词义范围，此外构词法（前缀、后缀、词根）和标点（破折号、冒号后的解释）同样有效。D 错误：一词多义很常见，脱离语境套用词典首义正是词义猜测题的主要失分原因。"
+  },
+  {
+    "id": "q-eng-reading-guess-3",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-reading-guess"],
+    "stem": "借助构词法推测词义：前缀 in- 表示否定，因此 invisible 意为 “not ______”。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["构词法", "否定前缀"],
+    "blanks": [
+      { "accept": ["visible"], "hint": "in- + visible = invisible 看不见的" }
+    ],
+    "explanation": "invisible = in-（否定）+ visible（看得见的），故为 not visible，即“看不见的”。同类否定前缀还有 un-、dis-、im-（如 impossible）、il-（如 illegal）、ir-（如 irregular），遇到生词先拆前后缀，常能推出大意。"
+  },
+  {
+    "id": "q-eng-reading-guess-4",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-reading-guess", "eng-reading-detail"],
+    "stem": "阅读句子：The road was so treacherous after the storm that even experienced drivers refused to use it. 划线词 treacherous 的意思最可能是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["词义猜测", "结果线索"],
+    "options": [
+      { "key": "A", "text": "dangerous" },
+      { "key": "B", "text": "wide" },
+      { "key": "C", "text": "empty" },
+      { "key": "D", "text": "new" }
+    ],
+    "answer": "A",
+    "explanation": "句子用 so ... that 构成因果：路况差到“连有经验的司机都拒绝走”，可见其危险，故选 dangerous。B、C、D 都无法解释“经验丰富的司机拒走”这一结果——若路只是宽、空或新，没有理由拒走。把选项代回原句检验，是词义猜测最实用的一步。"
+  },
+  {
+    "id": "q-eng-reading-attitude-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-reading-attitude"],
+    "stem": "阅读下面短文，回答：\n\nAdmittedly, the new reading app is beautifully designed, and its colour scheme is easy on the eye. Yet after a week of use I found myself closing it more often than opening it: every update brings another notification, and the free version interrupts reading with full-screen advertisements. I wanted to like it; I simply could not.\n\nWhat is the author's attitude towards the app?",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["观点态度", "转折"],
+    "options": [
+      { "key": "A", "text": "Enthusiastic." },
+      { "key": "B", "text": "Disappointed." },
+      { "key": "C", "text": "Completely indifferent." },
+      { "key": "D", "text": "Objective and neutral." }
+    ],
+    "answer": "B",
+    "explanation": "Admittedly 先让步承认设计漂亮，Yet 一转列出通知频繁、广告打断阅读等问题，结尾 I wanted to like it; I simply could not 明确表达“想喜欢却喜欢不起来”的失望，故为 disappointed。A 与 Yet 之后的内容相反；C 与 wanted to like it 矛盾（在意才会失望）；D 不当，全文有明显褒贬评价，不是中立的客观陈述。"
+  },
+  {
+    "id": "q-eng-reading-attitude-2",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-reading-attitude"],
+    "stem": "判断：作者用 Admittedly 引出的让步内容，通常不是作者最终的态度所在。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["让步", "态度判断"],
+    "answer": true,
+    "explanation": "说法正确。Admittedly、It is true that、Of course 等引出的让步只是“先承认对方有道理”，真正立场在转折词（but、yet、however）之后。阅读时若把让步句当成作者态度，就会把褒贬判反。"
+  },
+  {
+    "id": "q-eng-reading-attitude-3",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-reading-attitude"],
+    "stem": "判断作者态度时，应重点关注（多选）（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["态度词", "情态动词"],
+    "options": [
+      { "key": "A", "text": "形容词和副词，如 beautifully、simply、fortunately" },
+      { "key": "B", "text": "转折与让步结构，如 yet、however、admittedly" },
+      { "key": "C", "text": "情态动词以及引号中他人观点的归属" },
+      { "key": "D", "text": "文章的字体、排版和配图数量" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 正确：评价性形容词、副词是态度最直接的载体。B 正确：转折之后常是真实立场，让步则提示“这还不是结论”。C 正确：should、must、may 透露倾向，引号内的观点要分清是作者还是他人（如专家、批评者）。D 错误：版式属于呈现形式，与作者态度无关。"
+  },
+  {
+    "id": "q-eng-reading-attitude-4",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-reading-attitude"],
+    "stem": "在上文短文中，哪一个词最明显地标示了作者态度的转折点？（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["信号词", "转折"],
+    "options": [
+      { "key": "A", "text": "Admittedly" },
+      { "key": "B", "text": "Yet" },
+      { "key": "C", "text": "beautifully" },
+      { "key": "D", "text": "colour" }
+    ],
+    "answer": "B",
+    "explanation": "Admittedly 只负责开启让步（承认设计好），真正的转折由 Yet 承担，其后才是作者的核心评价：通知频繁、广告打断阅读、想喜欢却做不到。C 是让步部分里的褒义词，D 是中性名词，都不构成转折信号。"
+  },
+  {
+    "id": "q-eng-reading-structure-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-reading-structure"],
+    "stem": "阅读下面短文，回答：\n\nTrees in a forest are not silent neighbours. Below the ground, their roots are linked by networks of fungi that carry water and minerals. Through these networks, a tree under attack can send chemical warnings that reach its neighbours within hours. The trees that receive the warning then produce protective compounds before the insects arrive. This is why some scientists describe a forest as a community rather than a collection of individuals.\n\nIn the last sentence, “This” refers to ______.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["指代", "篇章逻辑"],
+    "options": [
+      { "key": "A", "text": "the fact that trees send warnings and neighbours prepare before the insects arrive" },
+      { "key": "B", "text": "the networks of fungi alone" },
+      { "key": "C", "text": "the insects that attack the trees" },
+      { "key": "D", "text": "the water and minerals carried by the roots" }
+    ],
+    "answer": "A",
+    "explanation": "This 指代前文的整件事，而非某一个名词：树受攻击时通过菌根网络发出化学警报，邻近的树提前产生保护性化合物。正是这一“预警—响应”的协作过程，才使科学家把森林称为 community，故选 A。B、D 只是过程中的手段与物质，C 是威胁来源，都无法支撑“community”这一结论。"
+  },
+  {
+    "id": "q-eng-reading-structure-2",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-reading-structure"],
+    "stem": "关于篇章结构，下列说法正确的有（多选）（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["篇章结构", "问题解决"],
+    "options": [
+      { "key": "A", "text": "总分结构的段落常在首句给出概括，后面用例子或分述展开。" },
+      { "key": "B", "text": "问题—解决结构的文章，通常先提出问题，再分析原因并给出对策。" },
+      { "key": "C", "text": "转折词 but、however 之后往往是作者真正强调的内容。" },
+      { "key": "D", "text": "所有说明文都按时间顺序组织。" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 正确：总分结构＝主题句＋支撑细节，是最常见的段落组织方式。B 正确：problem–solution 是说明文与议论文的高频框架。C 正确：转折之后常是语义重心，也是出题点。D 错误：说明文还可按空间、因果、分类、比较对照等顺序组织，时间顺序只是其中一种。"
+  },
+  {
+    "id": "q-eng-reading-structure-3",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-reading-structure"],
+    "stem": "判断：理解代词 they、it、this 的指代对象时，应回到前文寻找最近且意义通顺的名词或整句，而不是凭感觉猜测。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["代词指代", "回指"],
+    "answer": true,
+    "explanation": "说法正确。代词回指一般遵循“就近＋意义通顺”原则：先看前面最近的名词短语，若单复数或逻辑不通，再往前找，this 还常指代整个句子或上文事件。判断方法是把候选对象代入原句，看句意是否成立。"
+  },
+  {
+    "id": "q-eng-reading-structure-4",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-reading-structure"],
+    "stem": "在“问题—解决”结构的说明文中，作者提出问题后通常给出分析与对策，这种结构英文常称为 problem and ______ structure。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["篇章结构", "术语"],
+    "blanks": [
+      { "accept": ["solution"], "hint": "problem and solution 问题与解决" }
+    ],
+    "explanation": "problem and solution structure 即“问题—解决”结构：先描述问题及其影响，再分析原因或提出对策，最后评价方案。识别这一结构，有助于判断某一段的写作目的（提出问题、分析原因还是给出方案）。"
+  },
+  {
+    "id": "q-eng-reading-long-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-reading-long"],
+    "stem": "分析句子：The report, which was published last week by a group of researchers who have spent a decade studying the region, suggests that the changes observed in the ice are far more rapid than previously assumed. 该句的主干（主句）是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["长难句", "主干"],
+    "options": [
+      { "key": "A", "text": "The report suggests that the changes in the ice are more rapid than assumed." },
+      { "key": "B", "text": "A group of researchers have spent a decade studying the region." },
+      { "key": "C", "text": "The report was published last week." },
+      { "key": "D", "text": "The changes observed in the ice were previously assumed." }
+    ],
+    "answer": "A",
+    "explanation": "主语 The report 与谓语 suggests 之间夹了一个 which 引导的非限制性定语从句（其中又含 who 引导的定语从句修饰 researchers），去掉这两层修饰后，主句即 The report suggests that ...，宾语从句是 the changes (observed in the ice) are far more rapid than previously assumed。B、C 都在定语从句内部，D 把宾语从句的被动含义弄反（原文是“比先前设想的更快”，不是“被设想”）。"
+  },
+  {
+    "id": "q-eng-reading-long-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-reading-long"],
+    "stem": "在句子 The book that I bought yesterday is very useful. 中，修饰 the book 的定语从句由 ______ 引导。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["定语从句", "引导词"],
+    "blanks": [
+      { "accept": ["that"], "hint": "that 引导定语从句，在从句中作 bought 的宾语" }
+    ],
+    "explanation": "that I bought yesterday 是定语从句，修饰先行词 the book，that 在从句中作 bought 的宾语（可省略）。判断从句的关键是先找到主干 The book is very useful，中间插入的整段即为修饰成分。"
+  },
+  {
+    "id": "q-eng-reading-long-3",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-reading-long"],
+    "stem": "分析长难句时，下列步骤正确的有（多选）（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["句法分析", "成分剥离"],
+    "options": [
+      { "key": "A", "text": "先找主句的主语、谓语和宾语。" },
+      { "key": "B", "text": "先把定语从句、同位语、插入语剥离出去，再理解主干。" },
+      { "key": "C", "text": "遇到生词先判断其词性，看它在句中充当什么成分。" },
+      { "key": "D", "text": "逐词译成中文，再按中文语序把每个词重新排一遍。" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 正确：主干是句子的骨架，先抓主谓宾才不会迷失。B 正确：从句、同位语、插入语都是“挂件”，先剥离再理解主干，能大幅降低难度。C 正确：判断词性即可确定成分（作主语、定语还是状语），不必先查清词义。D 错误：英语长句依赖从句与后置修饰，逐词硬译再重排语序往往越理越乱，应先做结构分析。"
+  },
+  {
+    "id": "q-eng-reading-long-4",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-reading-long"],
+    "stem": "判断：句子的谓语动词一定紧跟主语之后，中间不可能插入定语从句或插入语。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["主谓分离", "易错点"],
+    "answer": false,
+    "explanation": "错误。主语与谓语之间常插入非限制性定语从句、同位语或插入语，造成“主谓分离”，如 The report, which was published last week, suggests ...。这正是长难句最容易看错主谓的地方：要先剔除插入成分，再把主语和谓语接上。"
+  },
+  {
+    "id": "q-eng-reading-main-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-reading-main", "eng-reading-title"],
+    "stem": "阅读下面短文，完成（1）（2）两小题。\n\nRepair cafés are free meeting places where people bring broken items — a toaster, a lamp, a torn jacket — and volunteers help them fix it. The idea began in Amsterdam in 2009 and has spread to more than thirty countries. Organisers say the aim is not only to save money but to reduce waste: every repaired appliance is one object fewer in landfill. Visitors often stay for coffee and conversation, so the cafés also strengthen neighbourhood ties. Some manufacturers complain that repairs keep old products in use, but volunteers argue that a repaired object is a better use of resources than a new one.\n\n（1）用一句话概括全文主旨（中文或英文均可）。\n（2）为短文拟一个英文标题，并说明该标题为什么能覆盖全文。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["主旨概括", "拟标题"],
+    "rubric": [
+      { "text": "主旨概括准确，能同时点出“修理旧物、减少浪费、联结邻里”中的核心内容，而不是只复述某一段", "score": 3 },
+      { "text": "标题简洁（一般 3～8 词）、有概括力，且不夸大文章观点（如不说成 replace 或 solve）", "score": 3 },
+      { "text": "能说明标题与全文内容的对应关系，理由清楚、无自相矛盾", "score": 2 }
+    ],
+    "reference": "（1）Repair cafés help people fix broken things, which cuts waste and brings neighbours together, though the idea is not without criticism.（要点：修理再利用、减少垃圾、邻里交流，且不是毫无争议。）（2）示例标题：Repair, Reuse, Reconnect。理由：Repair 对应志愿者帮人修旧物，Reuse 对应减少填埋、延长物品寿命，Reconnect 对应喝咖啡聊天、增强社区联系；标题未提制造商反对，但概括的是文章主线，没有把局部争议或某一细节当作全文中心，也不夸大为“解决垃圾问题”。",
+    "maxScore": 8,
+    "explanation": "本题考主旨概括与拟标题的一致性。概括主旨要抓“Repair cafés 是什么—为什么重要—有无争议”这条主线，只写“修理东西省钱”属以偏概全。拟标题需覆盖全文且不夸大：repair、reuse、community 三个关键词覆盖首段定义与末段社区价值；若拟成 Stop Buying New Things 或 The End of Landfill 则范围过大、观点过强。说明理由时要能指认标题各词与文中信息的对应关系。"
+  },
+  {
+    "id": "q-eng-reading-infer-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-reading-infer", "eng-reading-long"],
+    "stem": "阅读下面短文，完成（1）（2）两小题。\n\nFor three years the small museum had displayed the letter without a label. Visitors walked past it, and most of them assumed it was a copy. Then a postgraduate student, who had come to check a single sentence quoted in her thesis, noticed that the handwriting matched a signature she had been studying for months. The letter, she realised, had been written by the novelist herself — and it had been hanging there, unread, all along.\n\n（1）划分划线句的主干：Then a postgraduate student, who had come to check a single sentence quoted in her thesis, noticed that the handwriting matched a signature she had been studying for months. 并说明两个从句各自的作用。\n（2）推断：作者用结尾的 “unread, all along” 想表达什么？请依据文中证据说明。",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["长难句", "推理判断"],
+    "rubric": [
+      { "text": "找出主干：a postgraduate student（主语）＋ noticed（谓语）＋ that 宾语从句", "score": 4 },
+      { "text": "指出 who had come to check a single sentence... 是定语从句修饰 student；that the handwriting matched... 是宾语从句作 noticed 的宾语（其中 she had been studying 为省略 that/which 的定语从句修饰 signature）", "score": 3 },
+      { "text": "推断合理：珍贵之物长期被忽视、发现带有偶然性，且必须依据 visitors assumed / without a label / three years 等文本证据，而非泛泛而谈", "score": 3 }
+    ],
+    "reference": "（1）主干为 A postgraduate student noticed that the handwriting matched a signature。who had come to check a single sentence quoted in her thesis 是定语从句，修饰 student，交代她来博物馆的目的；that the handwriting matched a signature she had been studying for months 是宾语从句，作 noticed 的宾语，其中 she had been studying for months 是省略关系词的定语从句，修饰 signature。（2）“unread, all along” 强调这封作家亲笔信在展厅里挂了三年却无人真正读过：没有标签，参观者只当它是复制品，匆匆走过。作者借此表达一种反差——最珍贵的展品被长期忽视，而它的被发现完全出于偶然（一位研究生来核对论文中的引文）。这也暗含对博物馆布展（无说明标签）的温和批评。",
+    "maxScore": 10,
+    "explanation": "第（1）问考长难句分析：先剥离 who 引导的定语从句与 that 引导的宾语从句，主干只剩“研究生注意到笔迹与签名相符”，其中 a single sentence quoted in her thesis 是过去分词短语作后置定语，不可误判为谓语。第（2）问考推理分寸：unread 与 without a label、assumed it was a copy、walked past 构成证据链，可推出“被忽视”和“偶然发现”；若推成“博物馆故意隐瞒”或“所有参观者都不识字”，就超出了文本证据。"
+  }
+]

@@ -1,0 +1,932 @@
+/* ============================================================
+ * 试卷录入向导
+ * 全部类名以 imp- 开头，避免和项目现有样式冲突。
+ * 只使用 styles.css 里已有的 CSS 变量。
+ * ============================================================ */
+
+.imp-view {
+  max-width: 860px;
+}
+
+.imp-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 2px 0 10px;
+}
+
+.imp-draft {
+  font-size: 0.7rem;
+  color: var(--text-3);
+  letter-spacing: 0.01em;
+}
+
+.imp-draft.is-saving {
+  color: var(--warn);
+}
+
+.imp-link {
+  appearance: none;
+  border: 0;
+  background: none;
+  padding: 2px 0;
+  color: var(--accent);
+  font: inherit;
+  font-size: 0.72rem;
+  cursor: pointer;
+}
+
+.imp-link:hover {
+  text-decoration: underline;
+}
+
+.imp-link--danger {
+  color: var(--bad);
+}
+
+/* ---------------- 步骤条 ---------------- */
+
+.imp-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+  margin: 0 0 16px;
+}
+
+.imp-step {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--panel) 72%, transparent);
+  color: var(--text-3);
+  font: inherit;
+  font-size: 0.74rem;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.18s ease, background 0.18s ease, color 0.18s ease;
+}
+
+.imp-step i {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+  font-style: normal;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.imp-step span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.imp-step.is-on {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+.imp-step.is-on i {
+  border-color: transparent;
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.imp-step.is-done i {
+  border-color: color-mix(in srgb, var(--ok) 45%, var(--line));
+  color: var(--ok);
+}
+
+/* ---------------- 面板与表单 ---------------- */
+
+.imp-panel {
+  padding: 15px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--panel) 88%, transparent);
+}
+
+.imp-panel + .imp-panel {
+  margin-top: 14px;
+}
+
+.imp-panel > .section-head:first-child {
+  margin-top: 0;
+}
+
+.imp-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0 12px;
+}
+
+@media (min-width: 620px) {
+  .imp-grid--2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.imp-span-2 {
+  grid-column: 1 / -1;
+}
+
+.imp-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  margin-bottom: 13px;
+}
+
+.imp-field:last-child {
+  margin-bottom: 0;
+}
+
+.imp-label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.76rem;
+  color: var(--text-2);
+}
+
+.imp-label em {
+  font-style: normal;
+  color: var(--bad);
+}
+
+.imp-hint {
+  font-size: 0.68rem;
+  line-height: 1.5;
+  color: var(--text-3);
+}
+
+.imp-error {
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: var(--bad);
+}
+
+.imp-input,
+.imp-select,
+.imp-textarea {
+  width: 100%;
+  min-height: 42px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  background: var(--bg-soft);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.88rem;
+  outline: none;
+  transition: border-color 0.16s ease, box-shadow 0.16s ease;
+}
+
+.imp-textarea {
+  min-height: 74px;
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.imp-input::placeholder,
+.imp-textarea::placeholder {
+  color: var(--text-3);
+}
+
+.imp-input:focus,
+.imp-select:focus,
+.imp-textarea:focus {
+  border-color: color-mix(in srgb, var(--accent) 60%, var(--line));
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.imp-input.is-bad,
+.imp-select.is-bad,
+.imp-textarea.is-bad {
+  border-color: color-mix(in srgb, var(--bad) 55%, var(--line));
+}
+
+.imp-input[type='number'] {
+  font-variant-numeric: tabular-nums;
+}
+
+.imp-id-row {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+}
+
+.imp-id-row .imp-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
+.imp-id-row .btn {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.imp-row2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 12px;
+}
+
+/* ---------------- 分段选择 ---------------- */
+
+.imp-seg {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--bg-soft);
+}
+
+.imp-seg button {
+  appearance: none;
+  min-height: 32px;
+  padding: 4px 8px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text-3);
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: background 0.16s ease, color 0.16s ease;
+}
+
+.imp-seg button:hover {
+  color: var(--text);
+}
+
+.imp-seg button.is-on {
+  background: color-mix(in srgb, var(--accent) 20%, var(--panel));
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.imp-seg--5 button {
+  padding: 4px 2px;
+}
+
+/* ---------------- 知识点 chips ---------------- */
+
+.imp-chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.imp-chips .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  max-width: 100%;
+}
+
+.imp-chips .chip button {
+  appearance: none;
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--text) 10%, transparent);
+  color: inherit;
+  cursor: pointer;
+}
+
+.imp-chips .chip button:hover {
+  background: color-mix(in srgb, var(--bad) 25%, transparent);
+}
+
+.imp-chip-bad {
+  border-color: color-mix(in srgb, var(--bad) 50%, var(--line));
+  color: var(--bad);
+}
+
+.imp-chip-add {
+  border-style: dashed;
+  color: var(--text-2);
+  cursor: pointer;
+}
+
+.imp-chip-add:hover {
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+}
+
+/* ---------------- 题目卡片 ---------------- */
+
+.imp-q {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--panel-raise) 55%, transparent);
+}
+
+.imp-q + .imp-q {
+  margin-top: 10px;
+}
+
+.imp-q-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 11px;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.imp-q-head.is-open {
+  background: color-mix(in srgb, var(--accent) 5%, transparent);
+}
+
+.imp-q-no {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.imp-q-main {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.imp-q-title {
+  overflow: hidden;
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.imp-q-meta {
+  overflow: hidden;
+  color: var(--text-3);
+  font-size: 0.66rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.imp-q-thumb {
+  flex: 0 0 auto;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  object-fit: cover;
+  background: var(--bg-soft);
+}
+
+.imp-q-badge {
+  flex: 0 0 auto;
+  padding: 3px 7px;
+  border: 1px solid color-mix(in srgb, var(--bad) 35%, var(--line));
+  border-radius: 99px;
+  color: var(--bad);
+  font-size: 0.62rem;
+  white-space: nowrap;
+}
+
+.imp-chev {
+  flex: 0 0 auto;
+  color: var(--text-3);
+  transition: transform 0.18s ease;
+}
+
+.imp-chev.is-open {
+  transform: rotate(90deg);
+}
+
+.imp-q-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 11px 14px;
+  border-top: 1px solid var(--line);
+}
+
+.imp-q-issues {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 10px;
+  border: 1px solid color-mix(in srgb, var(--bad) 26%, var(--line));
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--bad) 6%, transparent);
+}
+
+.imp-q-issue {
+  display: flex;
+  gap: 6px;
+  color: var(--bad);
+  font-size: 0.7rem;
+  line-height: 1.45;
+}
+
+.imp-q-issue.is-warn {
+  color: var(--warn);
+}
+
+.imp-q-foot {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2px;
+}
+
+/* ---------------- 图片字段 ---------------- */
+
+.imp-img {
+  padding: 10px;
+  border: 1px dashed var(--line-strong);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--panel-raise) 40%, transparent);
+}
+
+.imp-img-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.imp-img-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--text-2);
+  font-size: 0.76rem;
+}
+
+.imp-img-title em {
+  font-style: normal;
+  color: var(--bad);
+}
+
+.imp-img-modes {
+  display: flex;
+  gap: 4px;
+}
+
+.imp-img-mode {
+  appearance: none;
+  padding: 3px 9px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  background: transparent;
+  color: var(--text-3);
+  font: inherit;
+  font-size: 0.66rem;
+  cursor: pointer;
+}
+
+.imp-img-mode.is-on {
+  border-color: color-mix(in srgb, var(--accent) 50%, var(--line));
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.imp-img-preview {
+  display: grid;
+  place-items: center;
+  min-height: 96px;
+  margin-top: 8px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: color-mix(in srgb, #000 24%, var(--bg-soft));
+}
+
+.imp-img-preview img {
+  display: block;
+  max-width: 100%;
+  max-height: 240px;
+  object-fit: contain;
+}
+
+.imp-img-empty {
+  padding: 20px 12px;
+  color: var(--text-3);
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.imp-img-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.imp-img-file {
+  overflow: hidden;
+  color: var(--text-3);
+  font-size: 0.68rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.imp-img-path {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.imp-img-path .imp-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+}
+
+.imp-img-path .btn {
+  flex: 0 0 auto;
+}
+
+/* ---------------- 知识点选择弹层 ---------------- */
+
+.imp-kp-search {
+  margin-bottom: 10px;
+}
+
+.imp-kp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 46dvh;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+.imp-kp-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--panel-raise) 55%, transparent);
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.imp-kp-row.is-on {
+  border-color: color-mix(in srgb, var(--accent) 40%, var(--line));
+  background: var(--accent-soft);
+}
+
+.imp-kp-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.imp-kp-name {
+  overflow: hidden;
+  font-size: 0.8rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.imp-kp-meta {
+  color: var(--text-3);
+  font-size: 0.64rem;
+}
+
+.imp-kp-check {
+  flex: 0 0 auto;
+  color: var(--accent);
+}
+
+.imp-kp-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  color: var(--text-3);
+  font-size: 0.72rem;
+}
+
+/* ---------------- 底部操作 ---------------- */
+
+.imp-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.imp-actions .imp-hint {
+  min-width: 0;
+}
+
+.imp-actions .btn {
+  flex: 0 0 auto;
+}
+
+/* ---------------- 校验结果 ---------------- */
+
+.imp-ok {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 12px;
+  border: 1px solid color-mix(in srgb, var(--ok) 34%, var(--line));
+  border-radius: 11px;
+  background: color-mix(in srgb, var(--ok) 8%, transparent);
+  color: var(--ok);
+  font-size: 0.8rem;
+}
+
+.imp-issues {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.imp-issue {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.imp-issue svg {
+  flex: 0 0 auto;
+  margin-top: 1px;
+}
+
+.imp-issue.is-error {
+  border-color: color-mix(in srgb, var(--bad) 30%, var(--line));
+  background: color-mix(in srgb, var(--bad) 6%, transparent);
+  color: var(--bad);
+}
+
+.imp-issue.is-warn {
+  border-color: color-mix(in srgb, var(--warn) 28%, var(--line));
+  background: color-mix(in srgb, var(--warn) 6%, transparent);
+  color: var(--warn);
+}
+
+/* ---------------- 导出文件 ---------------- */
+
+.imp-files {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.imp-file {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--panel-raise) 48%, transparent);
+}
+
+.imp-file-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+}
+
+.imp-file-head > svg {
+  flex: 0 0 auto;
+  color: var(--text-3);
+}
+
+.imp-file-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.imp-file-size {
+  flex: 0 0 auto;
+  color: var(--text-3);
+  font-size: 0.62rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.imp-file-actions {
+  display: flex;
+  gap: 5px;
+  margin-left: auto;
+}
+
+.imp-file-details {
+  border-top: 1px solid var(--line);
+}
+
+.imp-file-details summary {
+  padding: 7px 10px;
+  color: var(--text-3);
+  font-size: 0.68rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.imp-file-details summary:hover {
+  color: var(--accent);
+}
+
+.imp-json {
+  max-height: 280px;
+  margin: 0;
+  padding: 10px 12px;
+  overflow: auto;
+  border-top: 1px solid var(--line);
+  background: color-mix(in srgb, #000 22%, var(--bg-soft));
+  color: var(--text-2);
+  font-family: var(--font-mono);
+  font-size: 0.67rem;
+  line-height: 1.55;
+  white-space: pre;
+  tab-size: 2;
+}
+
+/* ---------------- 说明区 ---------------- */
+
+.imp-note {
+  padding: 11px 12px;
+  border: 1px solid color-mix(in srgb, var(--warn) 28%, var(--line));
+  border-radius: 11px;
+  background: color-mix(in srgb, var(--warn) 6%, transparent);
+  color: var(--text-2);
+  font-size: 0.74rem;
+  line-height: 1.65;
+}
+
+.imp-note + .imp-note {
+  margin-top: 8px;
+}
+
+.imp-note strong {
+  color: var(--warn);
+}
+
+.imp-tree {
+  margin: 10px 0;
+  padding: 10px 12px;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg-soft);
+  color: var(--text-2);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  line-height: 1.7;
+  white-space: pre;
+}
+
+.imp-list {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  color: var(--text-2);
+  font-size: 0.76rem;
+  line-height: 1.8;
+}
+
+.imp-list li::marker {
+  color: var(--accent);
+}
+
+.imp-list code {
+  padding: 1px 5px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: var(--bg-soft);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+/* ---------------- 导出图片行 ---------------- */
+
+.imp-img-row {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 0;
+  border-top: 1px solid var(--line);
+}
+
+.imp-img-row:first-of-type {
+  border-top: 0;
+}
+
+.imp-img-row img {
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  object-fit: cover;
+  background: var(--bg-soft);
+}
+
+.imp-img-row-main {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.imp-img-row .btn {
+  flex: 0 0 auto;
+}
+
+/* ---------------- 小屏微调 ---------------- */
+
+@media (max-width: 420px) {
+  .imp-panel {
+    padding: 12px;
+  }
+
+  .imp-step {
+    gap: 6px;
+    padding: 8px 7px;
+    font-size: 0.68rem;
+  }
+
+  .imp-step i {
+    width: 20px;
+    height: 20px;
+  }
+
+  .imp-actions .imp-hint {
+    display: none;
+  }
+
+  .imp-file-size {
+    display: none;
+  }
+
+  .imp-id-row {
+    flex-wrap: wrap;
+  }
+
+  .imp-id-row .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

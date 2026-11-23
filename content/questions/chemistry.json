@@ -1,0 +1,41 @@
+[
+  {
+    "id": "chem-001",
+    "subjectId": "chemistry",
+    "kpIds": ["chem-electrolyte"],
+    "type": "single",
+    "difficulty": 1,
+    "stem": "下列物质中，属于电解质的是（　）",
+    "options": [
+      { "key": "A", "text": "铜" },
+      { "key": "B", "text": "蔗糖" },
+      { "key": "C", "text": "氯化钠" },
+      { "key": "D", "text": "二氧化碳" }
+    ],
+    "answer": "C",
+    "explanation": "电解质是在水溶液或熔融状态下能导电的化合物。铜是单质；蔗糖是非电解质；$\\mathrm{CO_2}$ 本身不电离，其水溶液导电是因为生成了碳酸，故 $\\mathrm{CO_2}$ 不是电解质。",
+    "source": "示例题"
+  },
+  {
+    "id": "chem-002",
+    "subjectId": "chemistry",
+    "kpIds": ["chem-formula"],
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "硫酸的化学式为 ____。",
+    "blanks": [{ "accept": ["H2SO4"], "hint": "两个氢、一个硫、四个氧" }],
+    "explanation": "硫酸的化学式为 $\\mathrm{H_2SO_4}$。",
+    "source": "示例题"
+  },
+  {
+    "id": "chem-003",
+    "subjectId": "chemistry",
+    "kpIds": ["chem-basic"],
+    "type": "judge",
+    "difficulty": 1,
+    "stem": "由同种元素组成的物质一定是纯净物。",
+    "answer": false,
+    "explanation": "同种元素可以组成不同单质，如 $\\mathrm{O_2}$ 与 $\\mathrm{O_3}$ 混合、金刚石与石墨混合，它们都是混合物。",
+    "source": "示例题"
+  }
+]

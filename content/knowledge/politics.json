@@ -1,0 +1,983 @@
+[
+  {
+    "id": "pol-m1",
+    "subjectId": "politics",
+    "name": "中国特色社会主义",
+    "group": "必修1《中国特色社会主义》",
+    "parents": [],
+    "related": [],
+    "description": "本模块以“中国特色社会主义”为主题，回答“什么是社会主义、怎样建设社会主义”等根本问题。主线是社会主义从空想到科学、从理论到实践、从一国到多国、从传统到现代的发展，落脚于中国特色社会主义道路、理论、制度、文化。高考常以党的会议、重大成就为情境，考查道路自信、理论自信、制度自信、文化自信；易错点是把中国特色社会主义等同于某一具体理论，或只记结论不作历史分析。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m1-utopia",
+    "subjectId": "politics",
+    "name": "空想社会主义",
+    "group": "必修1《中国特色社会主义》",
+    "parents": [
+      "pol-m1"
+    ],
+    "related": [
+      "pol-m1-scientific"
+    ],
+    "description": "空想社会主义者（莫尔、圣西门、傅立叶、欧文等）揭露资本主义弊端，设想没有剥削的理想社会，但看不到无产阶级的历史作用，找不到变革社会的正确道路，因而只能是空想。它是科学社会主义的思想来源之一。命题常考“为什么空想社会主义不是科学社会主义”，易错点是把它与科学社会主义混为一谈。",
+    "examFrequency": 3,
+    "importance": 3,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m1-scientific",
+    "subjectId": "politics",
+    "name": "科学社会主义",
+    "group": "必修1《中国特色社会主义》",
+    "parents": [
+      "pol-m1"
+    ],
+    "related": [
+      "pol-m1-newdemo"
+    ],
+    "description": "唯物史观和剩余价值学说揭示了人类社会发展的一般规律和资本主义运行的特殊规律，是科学社会主义的两大理论基石；1848年《共产党宣言》发表标志科学社会主义诞生。科学社会主义使社会主义从空想变为科学。高考常结合《共产党宣言》原文考查理论基石和“两个必然”，易错点是把空想社会主义也视为科学。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m1-newdemo",
+    "subjectId": "politics",
+    "name": "新民主主义革命",
+    "group": "必修1《中国特色社会主义》",
+    "parents": [
+      "pol-m1"
+    ],
+    "related": [
+      "pol-m1-socialist"
+    ],
+    "description": "新民主主义革命是无产阶级领导的、人民大众的、反对帝国主义、封建主义和官僚资本主义的革命。中国共产党把马克思主义基本原理同中国具体实际相结合，开辟农村包围城市、武装夺取政权的道路，形成统一战线、武装斗争、党的建设三大法宝。1949年新中国成立标志新民主主义革命取得基本胜利。常考革命性质、领导权和三大法宝，易错点是混淆新旧民主主义革命的领导阶级。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m1-socialist",
+    "subjectId": "politics",
+    "name": "社会主义制度的确立",
+    "group": "必修1《中国特色社会主义》",
+    "parents": [
+      "pol-m1"
+    ],
+    "related": [
+      "pol-m1-reform"
+    ],
+    "description": "1953年党提出过渡时期总路线，实行“一化三改”；1956年三大改造基本完成，生产资料私有制转变为社会主义公有制，社会主义制度在我国确立，实现了中华民族有史以来最为广泛而深刻的社会变革。常考过渡时期总路线的内容和社会主义制度确立的标志，易错点是把新中国成立等同于社会主义制度确立。",
+    "examFrequency": 4,
+    "importance": 4,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m1-reform",
+    "subjectId": "politics",
+    "name": "改革开放",
+    "group": "必修1《中国特色社会主义》",
+    "parents": [
+      "pol-m1"
+    ],
+    "related": [
+      "pol-m1-newera"
+    ],
+    "description": "1978年党的十一届三中全会作出把党和国家工作中心转移到经济建设上来、实行改革开放的历史性决策。改革开放是决定当代中国命运的关键一招，中国特色社会主义是改革开放以来党的全部理论和实践的主题。常结合改革开放历程考查“为什么只有中国特色社会主义才能发展中国”，易错点是割裂改革开放前后两个历史时期。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m1-newera",
+    "subjectId": "politics",
+    "name": "中国特色社会主义进入新时代",
+    "group": "必修1《中国特色社会主义》",
+    "parents": [
+      "pol-m1"
+    ],
+    "related": [],
+    "description": "党的十八大以来，中国特色社会主义进入新时代，我国发展新的历史方位确立；社会主要矛盾转化为人民日益增长的美好生活需要和不平衡不充分的发展之间的矛盾。新时代是全面建设社会主义现代化国家、向第二个百年奋斗目标进军的时代。常考主要矛盾转化及“变”与“不变”，易错点是把主要矛盾变化等同于基本国情变化。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m1-xi",
+    "subjectId": "politics",
+    "name": "习近平新时代中国特色社会主义思想",
+    "group": "必修1《中国特色社会主义》",
+    "parents": [
+      "pol-m1-newera"
+    ],
+    "related": [],
+    "description": "习近平新时代中国特色社会主义思想是当代中国马克思主义、二十一世纪马克思主义，是中华文化和中国精神的时代精华。其主要内容可概括为“十个明确”“十四个坚持”“十三个方面成就”，是全党全国人民为实现中华民族伟大复兴而奋斗的行动指南。常结合重大部署考查“两个确立”的决定性意义，易错点是只背标题、不会结合材料分析。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m2",
+    "subjectId": "politics",
+    "name": "经济与社会",
+    "group": "必修2《经济与社会》",
+    "parents": [],
+    "related": [],
+    "description": "本模块围绕“我国的经济制度与经济体制、经济发展与社会进步”展开，核心是坚持和完善社会主义基本经济制度，推动高质量发展，增进民生福祉。高考常以宏观经济数据、企业案例、乡村振兴、共同富裕等为情境，考查制度优势和政策工具；易错点是混淆公有制主体地位与国有经济主导作用。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m2-ownership",
+    "subjectId": "politics",
+    "name": "生产资料所有制",
+    "group": "必修2《经济与社会》",
+    "parents": [
+      "pol-m2"
+    ],
+    "related": [],
+    "description": "我国的生产资料所有制是公有制为主体、多种所有制经济共同发展，这是社会主义基本经济制度的重要组成部分。公有制主体地位主要体现在公有资产在社会总资产中占优势、国有经济控制国民经济命脉；多种所有制经济共同发展不是权宜之计。常考“两个毫不动摇”，易错点是把“主体”与“主导”画等号。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m2-public",
+    "subjectId": "politics",
+    "name": "公有制经济",
+    "group": "必修2《经济与社会》",
+    "parents": [
+      "pol-m2-ownership"
+    ],
+    "related": [
+      "pol-m2-nonpublic"
+    ],
+    "description": "公有制经济包括国有经济、集体经济以及混合所有制经济中的国有成分和集体成分。国有经济起主导作用，主要体现在控制力上；集体经济是公有制经济的重要组成部分，要发展新型农村集体经济。常结合国企改革、农村集体产权改革命题，易错点是认为公有制经济在所有行业都必须占支配地位。",
+    "examFrequency": 5,
+    "importance": 4,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m2-nonpublic",
+    "subjectId": "politics",
+    "name": "非公有制经济",
+    "group": "必修2《经济与社会》",
+    "parents": [
+      "pol-m2-ownership"
+    ],
+    "related": [
+      "pol-m2-socialmarket"
+    ],
+    "description": "非公有制经济是社会主义市场经济的重要组成部分，在稳定增长、促进创新、增加就业、改善民生等方面发挥重要作用。国家坚持“两个毫不动摇”，优化民营经济发展环境，依法保护民营企业产权和企业家权益。常考民营经济地位与政策，易错点是把非公有制经济等同于社会主义经济或认为应限制其发展。",
+    "examFrequency": 5,
+    "importance": 4,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m2-market",
+    "subjectId": "politics",
+    "name": "市场配置资源",
+    "group": "必修2《经济与社会》",
+    "parents": [
+      "pol-m2"
+    ],
+    "related": [],
+    "description": "市场在资源配置中起决定性作用，主要通过价格、供求、竞争机制实现；市场调节具有自发性、盲目性、滞后性等固有弊端，需要更好发挥政府作用。要建设统一开放、竞争有序的市场体系，维护公平竞争。常考市场机制与市场缺陷，易错点是把“决定性作用”理解为政府无所作为。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m2-socialmarket",
+    "subjectId": "politics",
+    "name": "社会主义市场经济体制",
+    "group": "必修2《经济与社会》",
+    "parents": [
+      "pol-m2",
+      "pol-m2-ownership",
+      "pol-m2-market"
+    ],
+    "related": [
+      "pol-m2-quality"
+    ],
+    "description": "社会主义市场经济体制是社会主义基本经济制度的重要组成部分，基本特征是坚持党的领导、公有制为主体、共同富裕是根本目标。要构建高水平社会主义市场经济体制，实现有效市场和有为政府更好结合。常结合宏观调控、反垄断、全国统一大市场命题，易错点是把社会主义市场经济等同于资本主义市场经济。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m2-newdev",
+    "subjectId": "politics",
+    "name": "新发展理念",
+    "group": "必修2《经济与社会》",
+    "parents": [
+      "pol-m2"
+    ],
+    "related": [],
+    "description": "新发展理念是创新、协调、绿色、开放、共享的发展理念，分别回答发展动力、发展不平衡、人与自然和谐、发展内外联动、社会公平正义等问题。新发展理念是管全局、管根本、管长远的导向。常考五大理念的内涵及对应举措，易错点是机械对应、不会结合材料判断。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m2-quality",
+    "subjectId": "politics",
+    "name": "高质量发展",
+    "group": "必修2《经济与社会》",
+    "parents": [
+      "pol-m2-newdev"
+    ],
+    "related": [
+      "pol-m2-distribution"
+    ],
+    "description": "高质量发展是全面建设社会主义现代化国家的首要任务。要加快构建以国内大循环为主体、国内国际双循环相互促进的新发展格局，建设现代化经济体系，深化供给侧结构性改革，发展新质生产力。常结合现代化产业体系、科技创新命题，易错点是把高质量发展等同于经济增速下降。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m2-distribution",
+    "subjectId": "politics",
+    "name": "分配制度",
+    "group": "必修2《经济与社会》",
+    "parents": [
+      "pol-m2"
+    ],
+    "related": [
+      "pol-m2-security"
+    ],
+    "description": "我国实行按劳分配为主体、多种分配方式并存的分配制度，生产要素由市场评价贡献、按贡献决定报酬。要构建初次分配、再分配、第三次分配协调配套的制度体系，扎实推进共同富裕。常考分配方式判断和共同富裕实现路径，易错点是把按劳分配等同于平均分配。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m2-security",
+    "subjectId": "politics",
+    "name": "社会保障",
+    "group": "必修2《经济与社会》",
+    "parents": [
+      "pol-m2"
+    ],
+    "related": [],
+    "description": "社会保障是保障和改善民生、维护社会公平、增进人民福祉的基本制度保障，主要包括社会保险、社会救助、社会福利、社会优抚等。要健全覆盖全民、统筹城乡、公平统一、安全规范、可持续的多层次社会保障体系。常结合养老金、医保、社会救助命题，易错点是把社会保险等同于商业保险。",
+    "examFrequency": 4,
+    "importance": 4,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m3",
+    "subjectId": "politics",
+    "name": "政治与法治",
+    "group": "必修3《政治与法治》",
+    "parents": [],
+    "related": [],
+    "description": "本模块以“党的领导、人民当家作主、依法治国有机统一”为主线，讲述中国共产党的领导、人民当家作主的制度体系和全面依法治国。三者统一于中国特色社会主义民主政治伟大实践。高考常以人大立法、基层治理、司法案例为情境，考查制度定位和主体职权；易错点是混淆国家机关性质与职权。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m3-party",
+    "subjectId": "politics",
+    "name": "中国共产党的领导",
+    "group": "必修3《政治与法治》",
+    "parents": [
+      "pol-m3"
+    ],
+    "related": [],
+    "description": "中国共产党是中国工人阶级的先锋队，同时是中国人民和中华民族的先锋队，是中国特色社会主义事业的领导核心。党的宗旨是全心全意为人民服务，执政理念是立党为公、执政为民。常结合党史、重大决策考查党的领导地位，易错点是把党的领导等同于党直接包办一切。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m3-party-rule",
+    "subjectId": "politics",
+    "name": "党的执政方式",
+    "group": "必修3《政治与法治》",
+    "parents": [
+      "pol-m3-party"
+    ],
+    "related": [
+      "pol-m3-law"
+    ],
+    "description": "党的执政方式包括科学执政、民主执政、依法执政，依法执政是中国共产党执政的基本方式。要坚持党的领导、人民当家作主、依法治国有机统一，不断提高党的执政能力和领导水平。常考三种执政方式的区别与联系，易错点是把依法执政等同于党制定法律。",
+    "examFrequency": 5,
+    "importance": 4,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m3-country",
+    "subjectId": "politics",
+    "name": "我国的国家性质",
+    "group": "必修3《政治与法治》",
+    "parents": [
+      "pol-m3"
+    ],
+    "related": [],
+    "description": "我国是工人阶级领导的、以工农联盟为基础的人民民主专政的社会主义国家，国家的一切权力属于人民，人民民主专政的本质是人民当家作主。要坚持对人民民主和对敌人专政的统一。常考国家性质与人民民主专政的本质，易错点是把人民民主专政等同于无产阶级专政的简单复制。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m3-democracy",
+    "subjectId": "politics",
+    "name": "全过程人民民主",
+    "group": "必修3《政治与法治》",
+    "parents": [
+      "pol-m3-country"
+    ],
+    "related": [
+      "pol-m3-npc"
+    ],
+    "description": "全过程人民民主是社会主义民主政治的本质属性，是最广泛、最真实、最管用的民主，具有全链条、全方位、全覆盖的特点。它把选举民主与协商民主结合起来，保证人民依法实行民主选举、民主协商、民主决策、民主管理、民主监督。常结合基层立法联系点、协商议事命题，易错点是只把民主理解为选举。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m3-npc",
+    "subjectId": "politics",
+    "name": "人民代表大会制度",
+    "group": "必修3《政治与法治》",
+    "parents": [
+      "pol-m3-country"
+    ],
+    "related": [
+      "pol-m3-ccpp"
+    ],
+    "description": "人民代表大会制度是我国的根本政治制度，人民代表大会是国家权力机关，代表人民统一行使国家权力。坚持民主集中制原则，保证国家机关协调高效运转。常考人大职权（立法权、决定权、任免权、监督权）和民主集中制，易错点是混淆人大与人大常委会、人大与“一府一委两院”的职权。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m3-ccpp",
+    "subjectId": "politics",
+    "name": "中国共产党领导的多党合作和政治协商制度",
+    "group": "必修3《政治与法治》",
+    "parents": [
+      "pol-m3-country"
+    ],
+    "related": [
+      "pol-m3-ethnic"
+    ],
+    "description": "中国共产党领导的多党合作和政治协商制度是我国的一项基本政治制度，坚持长期共存、互相监督、肝胆相照、荣辱与共。人民政协是爱国统一战线组织、中国共产党领导的多党合作和政治协商的重要机构、社会主义民主的重要形式，履行政治协商、民主监督、参政议政职能。易错点是把政协当作国家机关或权力机关。",
+    "examFrequency": 5,
+    "importance": 4,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m3-ethnic",
+    "subjectId": "politics",
+    "name": "民族区域自治制度",
+    "group": "必修3《政治与法治》",
+    "parents": [
+      "pol-m3-country"
+    ],
+    "related": [
+      "pol-m3-grassroots"
+    ],
+    "description": "民族区域自治制度是我国的一项基本政治制度，在国家统一领导下，各少数民族聚居的地方实行区域自治，设立自治机关，行使自治权。要坚持民族平等、民族团结和各民族共同繁荣，铸牢中华民族共同体意识。常考自治地方与自治机关，易错点是认为民族自治地方享有完全自治或可以脱离国家统一领导。",
+    "examFrequency": 4,
+    "importance": 4,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m3-grassroots",
+    "subjectId": "politics",
+    "name": "基层群众自治制度",
+    "group": "必修3《政治与法治》",
+    "parents": [
+      "pol-m3-country"
+    ],
+    "related": [],
+    "description": "基层群众自治制度是我国的一项基本政治制度，村民委员会、居民委员会是基层群众性自治组织，实行自我管理、自我服务、自我教育、自我监督。发展基层民主是全过程人民民主的重要体现。常结合村规民约、社区议事命题，易错点是把村委会、居委会当作基层政权机关。",
+    "examFrequency": 4,
+    "importance": 4,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m3-law",
+    "subjectId": "politics",
+    "name": "全面依法治国",
+    "group": "必修3《政治与法治》",
+    "parents": [
+      "pol-m3"
+    ],
+    "related": [],
+    "description": "全面依法治国是中国特色社会主义的本质要求和重要保障，总目标是建设中国特色社会主义法治体系、建设社会主义法治国家。要坚持依法治国、依法执政、依法行政共同推进，法治国家、法治政府、法治社会一体建设，做到科学立法、严格执法、公正司法、全民守法。易错点是把依法治国仅理解为立法。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m3-constitution",
+    "subjectId": "politics",
+    "name": "宪法",
+    "group": "必修3《政治与法治》",
+    "parents": [
+      "pol-m3-law"
+    ],
+    "related": [
+      "pol-m3-legis-enforce"
+    ],
+    "description": "宪法是国家的根本法，是治国安邦的总章程，具有最高法律效力。坚持依法治国首先要坚持依宪治国，坚持依法执政首先要坚持依宪执政。常结合宪法宣誓、合宪性审查命题，易错点是认为宪法只约束国家机关而不约束公民。",
+    "examFrequency": 4,
+    "importance": 4,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m3-legis-enforce",
+    "subjectId": "politics",
+    "name": "科学立法与严格执法",
+    "group": "必修3《政治与法治》",
+    "parents": [
+      "pol-m3-law"
+    ],
+    "related": [
+      "pol-m3-justice-obey"
+    ],
+    "description": "科学立法要求尊重社会发展规律、体现人民意志、符合国情实际，提高立法质量；严格执法要求规范、公正、文明执法，建设法治政府。二者是全面依法治国基本要求的重要环节。常考立法与执法的主体、要求，易错点是把科学立法等同于专家立法、把严格执法等同于从重处罚。",
+    "examFrequency": 5,
+    "importance": 4,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m3-justice-obey",
+    "subjectId": "politics",
+    "name": "公正司法与全民守法",
+    "group": "必修3《政治与法治》",
+    "parents": [
+      "pol-m3-law"
+    ],
+    "related": [],
+    "description": "公正司法要求以事实为根据、以法律为准绳，保障司法权依法独立公正行使；全民守法要求全体公民尊法学法守法用法，树立法治信仰。公正司法是维护社会公平正义的最后一道防线，全民守法是法治社会的基础。易错点是把司法公正仅理解为结果公正，忽视程序公正。",
+    "examFrequency": 5,
+    "importance": 4,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m4",
+    "subjectId": "politics",
+    "name": "哲学与文化",
+    "group": "必修4《哲学与文化》",
+    "parents": [],
+    "related": [],
+    "description": "本模块包括辩证唯物主义和历史唯物主义的基本观点以及文化传承与文化创新。核心是树立科学的世界观和方法论，坚持实事求是、辩证分析，坚定文化自信。高考常以科技成就、社会热点、文化现象为情境，考查原理与方法论的对应；易错点是原理堆砌、脱离材料。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m4-material",
+    "subjectId": "politics",
+    "name": "世界的物质性",
+    "group": "必修4《哲学与文化》",
+    "parents": [
+      "pol-m4"
+    ],
+    "related": [],
+    "description": "世界是物质的世界，物质决定意识，意识是物质世界长期发展的产物。要坚持一切从实际出发、实事求是，使主观符合客观。常考物质与意识的辩证关系，易错点是把意识对物质的能动反作用夸大为决定作用。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m4-consciousness",
+    "subjectId": "politics",
+    "name": "意识的能动作用",
+    "group": "必修4《哲学与文化》",
+    "parents": [
+      "pol-m4-material"
+    ],
+    "related": [
+      "pol-m4-practice"
+    ],
+    "description": "意识具有目的性、自觉选择性和能动创造性，能够能动地认识世界和改造世界，并对人体生理活动起调节作用。要尊重客观规律，充分发挥主观能动性。常结合科学发现、重大工程考查意识的能动作用，易错点是把主观能动性等同于随意想象。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m4-law",
+    "subjectId": "politics",
+    "name": "规律",
+    "group": "必修4《哲学与文化》",
+    "parents": [
+      "pol-m4-material"
+    ],
+    "related": [
+      "pol-m4-connection"
+    ],
+    "description": "规律是事物运动过程中固有的本质的、必然的、稳定的联系，具有客观性和普遍性。规律不能被创造、消灭，但可以被认识和利用。要坚持实事求是，按客观规律办事，同时发挥主观能动性。易错点是把规律等同于现象或认为人可以改变规律。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m4-connection",
+    "subjectId": "politics",
+    "name": "联系观",
+    "group": "必修4《哲学与文化》",
+    "parents": [
+      "pol-m4"
+    ],
+    "related": [],
+    "description": "联系具有普遍性、客观性和多样性，世界是一个普遍联系的有机整体。要把握整体与部分的关系，树立全局观念，掌握系统优化的方法，用联系的观点看问题。常结合产业链、生态治理命题，易错点是主观臆造联系或把联系绝对化。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m4-development",
+    "subjectId": "politics",
+    "name": "发展观",
+    "group": "必修4《哲学与文化》",
+    "parents": [
+      "pol-m4-connection"
+    ],
+    "related": [],
+    "description": "发展的实质是新事物的产生和旧事物的灭亡，事物发展是前进性与曲折性的统一，量变是质变的必要准备、质变是量变的必然结果。要用发展的观点看问题，支持新事物，做好量变积累。易错点是把运动等同于发展、把曲折性等同于倒退。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m4-contradiction",
+    "subjectId": "politics",
+    "name": "矛盾观",
+    "group": "必修4《哲学与文化》",
+    "parents": [
+      "pol-m4-development"
+    ],
+    "related": [
+      "pol-m4-practice"
+    ],
+    "description": "矛盾即对立统一，矛盾具有同一性和斗争性、普遍性和特殊性。要坚持具体问题具体分析，抓主要矛盾，把握矛盾的主要方面，坚持两点论与重点论相统一。常考矛盾分析法，易错点是混淆主要矛盾与矛盾主要方面，或否认矛盾的普遍性。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 5
+  },
+  {
+    "id": "pol-m4-practice",
+    "subjectId": "politics",
+    "name": "实践与认识",
+    "group": "必修4《哲学与文化》",
+    "parents": [
+      "pol-m4"
+    ],
+    "related": [],
+    "description": "实践是认识的基础，是认识的来源、发展动力、检验标准和目的；认识具有反复性、无限性和上升性。要坚持实践第一，在实践中检验和发展真理。常结合科学实验、改革实践命题，易错点是把实践等同于认识活动或把真理绝对化。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m4-truth",
+    "subjectId": "politics",
+    "name": "真理",
+    "group": "必修4《哲学与文化》",
+    "parents": [
+      "pol-m4-practice"
+    ],
+    "related": [],
+    "description": "真理是标志主观与客观相符合的哲学范畴，具有客观性，是具体的、有条件的。真理与谬误往往相伴而行，要坚持真理、修正错误，在实践中追求和发展真理。易错点是把真理的条件性理解为真理可以被随意修改，或认为多数人认同就是真理。",
+    "examFrequency": 4,
+    "importance": 4,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m4-history",
+    "subjectId": "politics",
+    "name": "社会历史观",
+    "group": "必修4《哲学与文化》",
+    "parents": [
+      "pol-m4"
+    ],
+    "related": [],
+    "description": "社会存在决定社会意识，社会意识具有相对独立性并反作用于社会存在；生产力与生产关系、经济基础与上层建筑的矛盾是社会基本矛盾；人民群众是社会历史的主体和创造者。要坚持群众观点和群众路线。常考社会基本矛盾运动，易错点是把社会意识的反作用夸大为决定作用。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m4-values",
+    "subjectId": "politics",
+    "name": "价值观",
+    "group": "必修4《哲学与文化》",
+    "parents": [
+      "pol-m4-history"
+    ],
+    "related": [],
+    "description": "价值观是人生的重要向导，价值判断和价值选择具有社会历史性、主体差异性，要自觉站在最广大人民的立场上。人的价值在于创造价值、在于对社会的责任和贡献。要在劳动和奉献中、在个人与社会的统一中、在砥砺自我中实现人生价值。易错点是只讲个人需要、忽视社会价值。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m4-culture",
+    "subjectId": "politics",
+    "name": "文化传承与文化创新",
+    "group": "必修4《哲学与文化》",
+    "parents": [
+      "pol-m4"
+    ],
+    "related": [],
+    "description": "文化是相对于经济、政治而言的人类全部精神现象，文化与经济、政治相互影响、相互交融。文化具有引领风尚、教育人民、服务社会、推动发展的功能。要继承和弘扬中华优秀传统文化，推动创造性转化、创新性发展，加强文化交流互鉴。易错点是把传统文化等同于优秀传统文化。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m4-confidence",
+    "subjectId": "politics",
+    "name": "文化自信",
+    "group": "必修4《哲学与文化》",
+    "parents": [
+      "pol-m4-culture"
+    ],
+    "related": [],
+    "description": "文化自信是一个国家、一个民族发展中更基本、更深沉、更持久的力量，来源于中华优秀传统文化、革命文化和社会主义先进文化。要坚持中国特色社会主义文化发展道路，建设社会主义文化强国。常结合文化“两创”、文化出海命题，易错点是文化自信等同于文化封闭或盲目排外。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m5",
+    "subjectId": "politics",
+    "name": "当代国际政治与经济",
+    "group": "选择性必修1《当代国际政治与经济》",
+    "parents": [],
+    "related": [],
+    "description": "本模块围绕国际社会、世界多极化、经济全球化和国际组织展开，落脚于中国特色大国外交和人类命运共同体。要运用国家利益、综合国力、国际秩序等概念分析国际现象。高考常以峰会、冲突、全球治理为情境，易错点是把国家利益等同于意识形态或忽视国家性质。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m5-state",
+    "subjectId": "politics",
+    "name": "国家与主权",
+    "group": "选择性必修1《当代国际政治与经济》",
+    "parents": [
+      "pol-m5"
+    ],
+    "related": [],
+    "description": "国家是阶级统治的工具，人口、领土、政权和主权是国家构成的基本要素，主权是国家的生命和灵魂。主权国家享有独立权、管辖权、平等权和自卫权，同时履行不侵犯别国、不干涉他国内政等义务。易错点是把主权与政权混同，或认为主权可以分割。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m5-interests",
+    "subjectId": "politics",
+    "name": "国家利益",
+    "group": "选择性必修1《当代国际政治与经济》",
+    "parents": [
+      "pol-m5-state"
+    ],
+    "related": [],
+    "description": "国家利益是国际关系的决定性因素，共同利益是国家合作的基础，利益对立是引起国家冲突的根源。维护国家利益是主权国家对外活动的出发点和落脚点。常考国家利益与外交政策，易错点是把国家利益简单等同于经济利益，或认为国家利益可以牺牲他国正当利益。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m5-power",
+    "subjectId": "politics",
+    "name": "世界多极化",
+    "group": "选择性必修1《当代国际政治与经济》",
+    "parents": [
+      "pol-m5-interests"
+    ],
+    "related": [],
+    "description": "世界多极化是当今国际形势的一个突出特点，多极化有利于世界和平与发展。国际竞争的实质是以经济和科技实力为基础的综合国力的较量。要推动国际关系民主化，反对霸权主义和强权政治。易错点是把多极化等同于多极格局已经形成。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m5-order",
+    "subjectId": "politics",
+    "name": "国际秩序",
+    "group": "选择性必修1《当代国际政治与经济》",
+    "parents": [
+      "pol-m5-power"
+    ],
+    "related": [
+      "pol-m5-un",
+      "pol-m5-globalization"
+    ],
+    "description": "国际秩序是国际社会交往的规则和机制安排。要反对霸权主义、强权政治，推动建立更加公正合理的国际政治经济新秩序，践行共商共建共享的全球治理观。常结合联合国改革、全球治理命题，易错点是把国际新秩序等同于由大国主导的秩序。",
+    "examFrequency": 5,
+    "importance": 4,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m5-org",
+    "subjectId": "politics",
+    "name": "国际组织",
+    "group": "选择性必修1《当代国际政治与经济》",
+    "parents": [
+      "pol-m5"
+    ],
+    "related": [],
+    "description": "国际组织是国际社会的重要成员，可分为政府间与非政府间、全球性与区域性等类型。国际组织在促进合作、协调关系、维护和平、推动发展等方面发挥作用，但也可能受大国控制。易错点是把国际组织等同于超国家机构，或认为其决定具有强制约束力。",
+    "examFrequency": 4,
+    "importance": 3,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m5-un",
+    "subjectId": "politics",
+    "name": "联合国",
+    "group": "选择性必修1《当代国际政治与经济》",
+    "parents": [
+      "pol-m5-org"
+    ],
+    "related": [
+      "pol-m5-globalization"
+    ],
+    "description": "联合国是当今世界最具普遍性、代表性和权威性的政府间国际组织，宗旨是维护国际和平与安全、发展各国友好关系、促进国际合作、协调各国行动。联合国及其会员国应遵循主权平等、不侵犯、不干涉内政、和平解决争端等原则。易错点是把联合国大会决议等同于安理会决议。",
+    "examFrequency": 5,
+    "importance": 4,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m5-globalization",
+    "subjectId": "politics",
+    "name": "经济全球化",
+    "group": "选择性必修1《当代国际政治与经济》",
+    "parents": [
+      "pol-m5"
+    ],
+    "related": [
+      "pol-m5-china"
+    ],
+    "description": "经济全球化表现为生产全球化、贸易全球化和资本全球化，是社会生产力发展的客观要求和科技进步的必然结果。它既带来机遇也带来挑战，要推动经济全球化朝着开放、包容、普惠、平衡、共赢的方向发展。易错点是把经济全球化等同于全球一体化或认为其只有利无弊。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m5-china",
+    "subjectId": "politics",
+    "name": "中国特色大国外交",
+    "group": "选择性必修1《当代国际政治与经济》",
+    "parents": [
+      "pol-m5"
+    ],
+    "related": [],
+    "description": "中国奉行独立自主的和平外交政策，宗旨是维护世界和平、促进共同发展，坚持和平共处五项原则。中国推动构建人类命运共同体，提出全球发展倡议、全球安全倡议、全球文明倡议，积极参与全球治理。易错点是把独立自主等同于闭关自守，或把人类命运共同体理解为放弃国家利益。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m6",
+    "subjectId": "politics",
+    "name": "法律与生活",
+    "group": "选择性必修2《法律与生活》",
+    "parents": [],
+    "related": [],
+    "description": "本模块以民事权利与义务、家庭与婚姻、就业与创业、社会争议解决为主线，帮助公民依法行使权利、履行义务、依法维权。高考常以合同纠纷、劳动维权、婚姻继承、侵权案例为情境，考查法律关系和责任承担；易错点是混淆道德责任与法律责任。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m6-civil",
+    "subjectId": "politics",
+    "name": "民事权利与义务",
+    "group": "选择性必修2《法律与生活》",
+    "parents": [
+      "pol-m6"
+    ],
+    "related": [],
+    "description": "民事法律关系由主体、客体和内容构成，民事主体依法享有民事权利能力，民事行为能力按年龄和精神状况划分。民事活动应遵循平等、自愿、公平、诚信、守法、绿色等原则。常考民事权利能力与行为能力的区别，易错点是认为未成年人没有民事权利能力。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m6-contract",
+    "subjectId": "politics",
+    "name": "合同",
+    "group": "选择性必修2《法律与生活》",
+    "parents": [
+      "pol-m6-civil"
+    ],
+    "related": [
+      "pol-m6-dispute"
+    ],
+    "description": "合同是民事主体之间设立、变更、终止民事法律关系的协议，订立一般经过要约和承诺。依法成立的合同受法律保护，当事人应全面履行；违约应承担继续履行、采取补救措施或者赔偿损失等违约责任。常考合同效力与违约责任，易错点是把口头合同一律视为无效。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m6-tort",
+    "subjectId": "politics",
+    "name": "侵权责任",
+    "group": "选择性必修2《法律与生活》",
+    "parents": [
+      "pol-m6-civil"
+    ],
+    "related": [
+      "pol-m6-dispute"
+    ],
+    "description": "侵权责任是行为人因过错侵害他人民事权益造成损害应承担的责任，一般适用过错责任原则，法律有特别规定的适用过错推定或无过错责任。要明确侵权责任构成要件和免责事由，依法维护自身权益。易错点是把有损害就等同于有赔偿责任，忽视因果关系和过错。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m6-marriage",
+    "subjectId": "politics",
+    "name": "婚姻家庭",
+    "group": "选择性必修2《法律与生活》",
+    "parents": [
+      "pol-m6-civil"
+    ],
+    "related": [],
+    "description": "结婚应男女双方完全自愿，达到法定婚龄，符合一夫一妻制，禁止直系血亲和三代以内旁系血亲结婚。夫妻在婚姻家庭中地位平等，依法享有财产权利、承担义务；继承应依照民法典关于法定继承、遗嘱继承等规定处理。易错点是把订婚等同于结婚，或认为夫妻财产一律共同所有。",
+    "examFrequency": 4,
+    "importance": 4,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m6-labor",
+    "subjectId": "politics",
+    "name": "劳动法",
+    "group": "选择性必修2《法律与生活》",
+    "parents": [
+      "pol-m6"
+    ],
+    "related": [
+      "pol-m6-dispute"
+    ],
+    "description": "劳动者享有平等就业和选择职业、取得劳动报酬、休息休假、获得劳动安全卫生保护、接受职业技能培训、享受社会保险和福利等权利，同时应履行完成劳动任务、遵守劳动纪律和职业道德等义务。劳动争议可通过协商、调解、仲裁、诉讼解决。易错点是把劳动争议直接起诉，忽视仲裁前置。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m6-dispute",
+    "subjectId": "politics",
+    "name": "社会争议解决",
+    "group": "选择性必修2《法律与生活》",
+    "parents": [
+      "pol-m6"
+    ],
+    "related": [],
+    "description": "社会争议可通过和解、调解、仲裁、诉讼等方式解决。诉讼是解决纠纷的最后途径，包括民事诉讼、行政诉讼和刑事诉讼；证据是诉讼的核心，要依法收集、保存和提交证据。经济困难公民可依法获得法律援助。易错点是把仲裁与诉讼混同，或忽视证据的合法性。",
+    "examFrequency": 5,
+    "importance": 4,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m7",
+    "subjectId": "politics",
+    "name": "逻辑与思维",
+    "group": "选择性必修3《逻辑与思维》",
+    "parents": [],
+    "related": [],
+    "description": "本模块培养科学思维、逻辑思维、辩证思维和创新思维能力。科学思维追求认识的客观性、结果的预见性和可检验性；逻辑思维遵循形式逻辑规则，辩证思维强调整体性和动态性，创新思维要求突破常规。高考常以生活情境、科学发现、议论文素材命题，易错点是把逻辑规则与辩证方法对立起来。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 3
+  },
+  {
+    "id": "pol-m7-logic",
+    "subjectId": "politics",
+    "name": "逻辑思维",
+    "group": "选择性必修3《逻辑与思维》",
+    "parents": [
+      "pol-m7"
+    ],
+    "related": [],
+    "description": "逻辑思维是借助概念、判断、推理等反映认识对象，揭示事物本质和规律的思维。形式逻辑的基本规律包括同一律、矛盾律和排中律，分别要求思维的确定性、一致性和明确性。常考逻辑错误识别，易错点是把矛盾律与排中律混用，或把辩证矛盾等同于逻辑矛盾。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m7-concept",
+    "subjectId": "politics",
+    "name": "概念",
+    "group": "选择性必修3《逻辑与思维》",
+    "parents": [
+      "pol-m7-logic"
+    ],
+    "related": [],
+    "description": "概念是反映事物本质属性的思维形式，包括内涵和外延。下定义常用“属加种差”的方法，定义项不能直接或间接包含被定义项，一般不能用否定或比喻；划分应做到子项不相容、外延相称、标准同一。易错点是定义过宽或过窄、划分标准不一。",
+    "examFrequency": 4,
+    "importance": 4,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m7-judgment",
+    "subjectId": "politics",
+    "name": "判断",
+    "group": "选择性必修3《逻辑与思维》",
+    "parents": [
+      "pol-m7-concept"
+    ],
+    "related": [],
+    "description": "判断是对认识对象有所断定的思维形式，分为简单判断和复合判断。简单判断包括性质判断和关系判断；复合判断包括联言判断、选言判断和假言判断。判断要准确、恰当，注意量项和联项。易错点是把假言判断的前件与后件关系颠倒，或混淆相容选言与不相容选言。",
+    "examFrequency": 4,
+    "importance": 4,
+    "difficulty": 4
+  },
+  {
+    "id": "pol-m7-reasoning",
+    "subjectId": "politics",
+    "name": "推理",
+    "group": "选择性必修3《逻辑与思维》",
+    "parents": [
+      "pol-m7-judgment"
+    ],
+    "related": [
+      "pol-m7-dialectical"
+    ],
+    "description": "推理是从已知判断推出新判断的思维形式，分为演绎推理、归纳推理和类比推理。演绎推理要保证前提真实、形式有效，三段论要遵循中项至少周延一次、前提中不周延的项在结论中不得周延等规则。易错点是以偏概全、机械类比或违反三段论规则。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 5
+  },
+  {
+    "id": "pol-m7-dialectical",
+    "subjectId": "politics",
+    "name": "辩证思维",
+    "group": "选择性必修3《逻辑与思维》",
+    "parents": [
+      "pol-m7"
+    ],
+    "related": [],
+    "description": "辩证思维具有整体性和动态性，要求用联系、发展、全面的观点看问题，把握分析与综合、质量互变、否定之否定等方法。辩证思维不是否认确定性，而是在对立统一中把握事物。常考辩证思维方法与形而上学思维的区别，易错点是把辩证思维等同于相对主义。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 5
+  },
+  {
+    "id": "pol-m7-innovation",
+    "subjectId": "politics",
+    "name": "创新思维",
+    "group": "选择性必修3《逻辑与思维》",
+    "parents": [
+      "pol-m7-dialectical"
+    ],
+    "related": [],
+    "description": "创新思维要求突破常规、敢于质疑，具有思路多向性、步骤跨越性、结果独特性等特征。常用方法包括联想思维、发散思维与聚合思维、逆向思维和超前思维。培养创新思维要坚持科学精神，立足实践。易错点是把创新等同于凭空想象，或只追求形式新奇。",
+    "examFrequency": 5,
+    "importance": 5,
+    "difficulty": 4
+  }
+]

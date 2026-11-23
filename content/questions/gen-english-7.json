@@ -1,0 +1,477 @@
+[
+  {
+    "id": "q-eng-writing-cont-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-writing-cont"],
+    "stem": "判断下列说法是否正确：「读后续写中，题目给出的两段段首句只是写作提示，续写时可以根据自己的构思另起一段，或改动段首句的措辞。」",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["读后续写", "段首句", "写作要求"],
+    "answer": false,
+    "explanation": "错。给出的两个段首句是硬性约束，不是提示：续写必须紧接每一段的首句往下写，第一段承接原文结尾，第二段承接第一段的收束，两段各自成段、顺序不可调换。改动段首句的措辞、把人称或时态换成与首句不一致，都会被判为不符合题意，属于内容分的大幅扣分项。正确做法是先把段首句中的关键信息（人物、地点、时态、情绪）圈出来，再让后面的每一句都为落实这些信息服务。"
+  },
+  {
+    "id": "q-eng-writing-cont-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-writing-cont"],
+    "stem": "新高考英语读后续写通常要求续写 ____ 段，每段的首句已经给出；续写部分的总词数一般控制在 ____ 词左右。",
+    "difficulty": 1,
+    "source": "自编练习",
+    "tags": ["读后续写", "题型结构", "词数要求"],
+    "blanks": [
+      {
+        "accept": ["2", "两", "二", "两段", "2段", "二段"],
+        "hint": "续写两段，每段首句已给"
+      },
+      {
+        "accept": ["150", "150词", "约150", "一百五十", "150个词"],
+        "hint": "新高考一般 150 词左右"
+      }
+    ],
+    "explanation": "读后续写的标准结构是「一段原文 + 两段续写」：原文约 350 词，结尾留下一个未解决的冲突；续写两段，每段首句印在答题卡上，续写总词数约 150 词，即每段 70 至 80 词。写的时候要按这个篇幅分配笔墨：第一段承接原文、推动情节，第二段走向结局、收束情感。常见失分是前松后紧——第一段写了两百词还没进入正题，第二段只能草草收尾，情节因此断裂。"
+  },
+  {
+    "id": "q-eng-writing-cont-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-writing-cont"],
+    "stem": "阅读下面的原文结尾与所给第一段首句，选出作为第一段后续内容最合理的一项：\n\nLily had practised her speech for two weeks, but every time she stood in front of the mirror, the words disappeared. The night before the contest, she left her notebook with the full speech on the bus.\n\nParagraph 1: On the morning of the contest, Lily stood at the school gate, her hands cold.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["读后续写", "情节推进", "首句承接"],
+    "options": [
+      {
+        "key": "A",
+        "text": "She borrowed a pen and wrote down on a blank sheet whatever she could still remember, then asked her deskmate to listen to her once more before she went in."
+      },
+      {
+        "key": "B",
+        "text": "She decided that the contest was not worth her time and went home to sleep for the rest of the morning."
+      },
+      {
+        "key": "C",
+        "text": "A stranger walked up and handed her a perfect copy of her speech, which she read aloud on the stage."
+      },
+      {
+        "key": "D",
+        "text": "She won the first prize easily, because she had always had a very good memory."
+      }
+    ],
+    "answer": "A",
+    "explanation": "首句已经给出两个关键信息：地点在学校门口、她的手是凉的（紧张），所以第一段必须写「赛前这一刻她怎么应对稿子丢了」。A 正面回应冲突：靠记忆重写、找同学再听一遍，动作具体、符合一个练了两周的学生，也为第二段上台做了铺垫。B 与她练了两周的努力完全矛盾，属于人物形象断裂；C 用陌生人送上完美讲稿制造「天降解围」，既不合现实逻辑，也抹掉了人物自己的努力；D 直接跳到结果，第一段本该展开的冲突被跳过，而且「记性好」与原文「对着镜子就忘词」的设定直接冲突。"
+  },
+  {
+    "id": "q-eng-writing-cont-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-writing-cont"],
+    "stem": "关于读后续写的基本要求，下列说法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["读后续写", "人物一致性", "情节收束"],
+    "options": [
+      {
+        "key": "A",
+        "text": "续写要抓住原文的人物、情节、冲突和伏笔，人物形象、身份与称呼必须与原文一致"
+      },
+      {
+        "key": "B",
+        "text": "续写的语言风格应与原文大体一致，原文轻松幽默，续写不宜突然转为沉重说教"
+      },
+      {
+        "key": "C",
+        "text": "只要续写部分自身情节完整，就可以完全不考虑原文结尾留下的悬念"
+      },
+      {
+        "key": "D",
+        "text": "两段之间要有推进关系，第二段通常走向冲突的解决与情感收束"
+      }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：读后续写的评分首先看「是否与原文构成一个完整故事」，人物性格、身份、彼此称呼一旦走样，故事就散了。B 对：风格一致性是隐性但重要的评分点，原文是温馨校园故事，续写忽然写死亡与哲思，会显得格格不入。D 对：两段不是并列关系，第一段推进冲突，第二段解决冲突并收束情感，这是情节弧线的基本要求。C 错：续写的全部意义就是承接原文留下的悬念，抛开悬念另写一段完整故事，等于答非所问，是内容分最低的一类写法。"
+  },
+  {
+    "id": "q-eng-writing-cont-plot-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-writing-cont-plot"],
+    "stem": "判断下列说法是否正确：「为了让故事尽快收尾，可以在续写结尾突然安排一位素不相识的路人送来主角正需要的物品，从而一举化解矛盾。」",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["情节逻辑", "天降解围", "结局设计"],
+    "answer": false,
+    "explanation": "错。这种做法在叙事学里叫「天降解围」（deus ex machina）：冲突不是由人物自己的选择与行动解决的，而是被一个凭空出现的外部力量抹平。它会让前面的铺垫全部失效，人物也没有任何成长，阅卷时被评为「情节不合理」。合理的收尾应让矛盾由主角自己推动解决——哪怕解决得不完美，只要动机清楚、行动可信，就比一个完美但突兀的结局得分高。若确需外部帮助，也应在原文或第一段埋下伏笔（如前面提过的那位邻居、那部旧电话）。"
+  },
+  {
+    "id": "q-eng-writing-cont-plot-2",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-writing-cont-plot"],
+    "stem": "原文中有这样一句伏笔：Mr. Chen had carried the same old silver whistle in his pocket for thirty years. 下列续写对这一细节的处理，最恰当的一项是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["伏笔呼应", "细节功能", "情节设计"],
+    "options": [
+      {
+        "key": "A",
+        "text": "洪水围住村子时，他吹响这只哨子把散在各处的村民召到高地，哨子成了前后呼应的关键物件"
+      },
+      {
+        "key": "B",
+        "text": "用一整段介绍这只哨子的品牌、价格和当年的购买经过"
+      },
+      {
+        "key": "C",
+        "text": "让他把哨子扔进河里，表示与过去彻底告别，此后不再提及"
+      },
+      {
+        "key": "D",
+        "text": "让这只哨子具有魔法，一吹响洪水就立刻退去"
+      }
+    ],
+    "answer": "A",
+    "explanation": "伏笔的价值在于「前有交代、后有兑现」：原文特意写他三十年随身带着哨子，读者会记住这件物品，续写就该在关键处让它发挥作用，A 正是标准的呼应——哨子的日常功能（召集）与紧急情境（洪水）自然咬合，人物也因此显得可靠。B 把伏笔当成物品说明，冲淡叙事节奏；C 让伏笔彻底落空，读者会觉得交代它是多余的；D 用魔法解决现实困境，属于典型的突兀转折。判断标准很简单：这个细节兑现时，是否既出人意料又在情理之中。"
+  },
+  {
+    "id": "q-eng-writing-cont-plot-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-writing-cont-plot"],
+    "stem": "所给第二段首句是：When the lights came back on, everyone in the hall turned to look at Emma. 据此判断，第一段的结尾最应该停在（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["段落衔接", "首句反推", "情节悬念"],
+    "options": [
+      {
+        "key": "A",
+        "text": "大厅突然停电，而 Emma 正站在台上做一件让所有人意外的事"
+      },
+      {
+        "key": "B",
+        "text": "Emma 已经回到家，准备第二天再去学校"
+      },
+      {
+        "key": "C",
+        "text": "演出结束一个月后，大家渐渐忘记了 Emma"
+      },
+      {
+        "key": "D",
+        "text": "Emma 在图书馆安静地看书，没有别人打扰她"
+      }
+    ],
+    "answer": "A",
+    "explanation": "第二段首句包含两个硬信息：the lights came back on 说明此前停过电，everyone turned to look at Emma 说明灯亮时众人有一个共同关注她的理由。因此第一段必须写到「停电」并且把 Emma 置于众人视线的焦点，A 同时满足这两个条件，还为第二段留足了悬念。B 让她离场，灯亮后大厅里根本没有她；C 时间跳到一个月后，与 the lights came back on 这一即刻场景冲突；D 场景换到图书馆且无人打扰，与 everyone turned to look at her 直接矛盾。做这类题的口诀：从下一段首句倒推，找出它预设的「上文必须已经发生的事」。"
+  },
+  {
+    "id": "q-eng-writing-cont-plot-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-writing-cont-plot"],
+    "stem": "关于读后续写的情节逻辑，下列说法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["情节逻辑", "冲突推进", "人物铺垫"],
+    "options": [
+      {
+        "key": "A",
+        "text": "续写应解决或推进原文结尾尚未解决的冲突，不能另起炉灶讲一个全新的故事"
+      },
+      {
+        "key": "B",
+        "text": "第一段承接原文并推动情节（制造新的紧张或转机），第二段走向结局"
+      },
+      {
+        "key": "C",
+        "text": "续写中新出现的人物应在前文有铺垫，至少不能与原文设定相矛盾"
+      },
+      {
+        "key": "D",
+        "text": "只要句式漂亮、词汇高级，情节与原文有矛盾也是可以接受的"
+      }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A、B、C 是情节逻辑的三条底线：冲突必须承接（原文留下的悬念是续写的起点）；两段各有分工（第一段推进、第二段收束，避免两段都在铺垫或都在收尾）；新人物要有来处（至少不能凭空出现又不作交代，更不能与原文的身份、时代、地点设定冲突）。D 错：评分时内容与语言分开计分，情节不合理会先扣内容分，语言再漂亮也无法弥补；而且句式与词汇是为叙事服务的，脱离情节的华丽表达反而显得空洞。"
+  },
+  {
+    "id": "q-eng-writing-cont-detail-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-writing-cont-detail"],
+    "stem": "下面四句中，最能体现「用具体动作和感官细节代替空泛抒情」的一项是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["细节描写", "动作描写", "空泛抒情"],
+    "options": [
+      {
+        "key": "A",
+        "text": "Her fingers tightened around the letter, and she read it twice before she could breathe again."
+      },
+      {
+        "key": "B",
+        "text": "She was very sad and did not know what to do."
+      },
+      {
+        "key": "C",
+        "text": "She felt a lot of complicated emotions that were hard to describe."
+      },
+      {
+        "key": "D",
+        "text": "It is important to stay strong when you receive bad news."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A 只写了两个可见的动作——手指把信攥紧、读了两遍才敢呼吸——但读者能从中读出震惊、害怕和不敢确认，这就是「以形写神」。B 用 sad 直接贴标签，情绪强度全靠读者自己补；C 承认「难以描述」等于放弃了描写，是典型的空泛抒情；D 是议论句，脱离了具体人物与场景，放在续写里会让叙事停顿。改写时可用一个检验方法：把句子里的情绪形容词删掉，看是否还有可感知的画面，若一无所有，就说明写空了。"
+  },
+  {
+    "id": "q-eng-writing-cont-detail-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-writing-cont-detail"],
+    "stem": "用括号中动词的正确形式填空，使描写与上下文的叙事时态一致：\n\nHer hands ______ (tremble) as she unfolded the letter. Outside, the wind ______ (howl) through the empty street.",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["细节描写", "动词时态", "感官细节"],
+    "blanks": [
+      {
+        "accept": ["trembled"],
+        "hint": "与 unfolds 所在叙事保持一般过去时"
+      },
+      {
+        "accept": ["howled"],
+        "hint": "窗外环境描写，同样用一般过去时"
+      }
+    ],
+    "explanation": "两空都填一般过去时：trembled、howled。续写的叙事主体通常沿用原文的一般过去时，环境描写与动作描写也必须落在同一时间轴上，不能一会儿过去时、一会儿现在时。这两句还是很好的示范——手的颤抖（触觉/视觉）与风穿过空街（听觉）配合，把人物的紧张外化成可感的画面，比直接写 She was nervous 有效得多。注意 howl 是规则动词，直接加 -ed；不要误写成 howled 的进行时，因为此处是背景状态而非正在进行的动作。"
+  },
+  {
+    "id": "q-eng-writing-cont-detail-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-writing-cont-detail"],
+    "stem": "原文写到两个孩子在山中迷了路、天色将晚。下列环境描写中，最能与这一情境配合并推动紧张感的一项是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["环境描写", "氛围营造", "情景配合"],
+    "options": [
+      {
+        "key": "A",
+        "text": "The sun slid behind the ridge, and the path they had come along turned into a grey blur."
+      },
+      {
+        "key": "B",
+        "text": "The mountain was formed millions of years ago and is rich in granite."
+      },
+      {
+        "key": "C",
+        "text": "Thousands of tourists climb this mountain every summer."
+      },
+      {
+        "key": "D",
+        "text": "The mountain rises 2,000 metres above sea level and has three peaks."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A 里有两个与情节直接咬合的信息：太阳落到山脊后（天要黑了）与他们来时的路变成一团灰影（找不到归路），环境描写同时承担了「时间紧迫」和「辨认困难」两重压力，紧张感自然升起。B 是地质知识，C 是旅游信息，D 是地理数据，三者都是说明文式的客观介绍，与迷路儿童的处境无关，写进续写只会让叙事停摆。判断环境描写是否合格，看它是否回答了「此刻人物的处境因此变好还是变坏」——能推动情节或映照心理的才是有用的描写。"
+  },
+  {
+    "id": "q-eng-writing-cont-detail-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-writing-cont-detail"],
+    "stem": "关于读后续写中的细节描写，下列说法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["细节描写", "动作与心理", "描写分寸"],
+    "options": [
+      {
+        "key": "A",
+        "text": "视觉、听觉、触觉等感官细节能让场景具体可感，读者更容易进入情境"
+      },
+      {
+        "key": "B",
+        "text": "动作描写应服务于人物性格与情节推进，而不是为描写而描写"
+      },
+      {
+        "key": "C",
+        "text": "为了显得文采好，形容词和副词堆得越多越好"
+      },
+      {
+        "key": "D",
+        "text": "内心独白能直接呈现人物的犹豫与决断，但应简短，避免长篇说教"
+      }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：感官是细节最经济的入口，一句 the floor creaked under her feet 就能同时交代环境与紧张。B 对：动作要有人物逻辑——一个胆小的孩子推门时会先停顿、侧耳听，这个动作本身就在写性格；与之无关的琐碎动作只会稀释叙事。D 对：心理描写贵在短而准，一两句独白点出抉择即可，长篇剖白会拖慢节奏，还容易滑向说教。C 错：堆砌形容词是续写最典型的「假文采」，H 副词 + 形容词的叠加会让句子臃肿、画面模糊，评分标准要求的是具体而非繁复。"
+  },
+  {
+    "id": "q-eng-writing-cont-coherence-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-writing-cont-coherence"],
+    "stem": "选出最恰当的选项填入空白处：\n\nTom had never spoken in front of a crowd before. ______, when his name was called, he walked to the front without a moment's hesitation.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["衔接手段", "转折关系", "连接词"],
+    "options": [
+      {
+        "key": "A",
+        "text": "However"
+      },
+      {
+        "key": "B",
+        "text": "Therefore"
+      },
+      {
+        "key": "C",
+        "text": "Similarly"
+      },
+      {
+        "key": "D",
+        "text": "For example"
+      }
+    ],
+    "answer": "A",
+    "explanation": "前句说他从没当众讲过话（按常理该怯场），后句却说他被叫到名字时毫不犹豫地走到台前，两句构成明显的反差，因此用表转折的 However。B 的 Therefore 会把人推向「因为没讲过，所以更勇敢」这一荒谬因果；C 的 Similarly 要求两句同向，而此处正相反；D 的 For example 需要后面是对前句的例证，而这里给出的是与预期相反的事实。做题时先判断两句是「同向补充」还是「反向对立」，再在同类连接词里挑，这一步能排除大部分干扰项。"
+  },
+  {
+    "id": "q-eng-writing-cont-coherence-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-writing-cont-coherence"],
+    "stem": "在空白处填入一个恰当的连接词（英文，一个词，首字母大写）：\n\nShe had practised the song a hundred times. ______, on the night of the concert, her voice failed her completely.",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["衔接手段", "转折关系", "连接词填空"],
+    "blanks": [
+      {
+        "accept": ["However", "Yet"],
+        "hint": "练了一百遍却仍失声，前后是反差"
+      }
+    ],
+    "explanation": "前后两句是反差：练了一百遍（预期顺利）与演出当晚彻底失声（结果相反），所以用表转折的 However 或 Yet，句首大写、后接逗号。易错点有三个：一是填 Therefore，把反差误读成因果；二是填 Besides，把两句当成并列补充；三是忘了首字母大写或漏掉逗号。注意这类位于句首的连接词一旦选定，全句语气也随之确定——用 However 是「意外」，用 Therefore 就变成了「顺理成章的后果」，与 the night of the concert 这一关键场景矛盾。"
+  },
+  {
+    "id": "q-eng-writing-cont-coherence-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-writing-cont-coherence"],
+    "stem": "原句：He was tired. He kept walking.\n\n下列改写中，既保留了原意，又通过调整句式提升了表达的一项是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["语言升级", "让步倒装", "句式变化"],
+    "options": [
+      {
+        "key": "A",
+        "text": "Tired as he was, he kept walking."
+      },
+      {
+        "key": "B",
+        "text": "He was tired, and he kept walking, and he was very tired."
+      },
+      {
+        "key": "C",
+        "text": "Being tired, he stopped walking."
+      },
+      {
+        "key": "D",
+        "text": "He kept walking because he was tired, so he was tired and kept walking."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A 用 as 引导的让步倒装（Tired as he was = Although he was tired）把「累」置于句首形成对比，一个分句就完成了让步加转折，原意完全保留，这是最经济的升级方式。B 只是用 and 把原句重复一遍并加了 very，既啰嗦又没改变句式；C 的现在分词作原因状语把逻辑改成了「因为累所以停下」，与 kept walking 的意思相反；D 不但逻辑颠倒（把「累」说成「继续走」的原因），还自我重复，是典型的为复杂而复杂。升级句式的原则是先准确、再变化，任何改变原意的华丽表达都是负分。"
+  },
+  {
+    "id": "q-eng-writing-cont-coherence-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-writing-cont-coherence"],
+    "stem": "关于读后续写的衔接与语言升级，下列说法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["衔接手段", "人称一致", "语言升级"],
+    "options": [
+      {
+        "key": "A",
+        "text": "时间、因果、转折类连接词可以标示句间与段间的逻辑关系，帮助读者跟上情节"
+      },
+      {
+        "key": "B",
+        "text": "续写的人称与叙事视角应与原文保持一致，不能中途从第一人称跳到第三人称"
+      },
+      {
+        "key": "C",
+        "text": "非谓语、从句、倒装等句式应在准确的前提下使用，不能为炫技而堆砌"
+      },
+      {
+        "key": "D",
+        "text": "结尾的情感升华应当靠连续使用 big、great、wonderful 这类大词来实现"
+      }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：衔接词是读者理解情节走向的路标，尤其两段之间用一个 For a moment 或 By then 就能把时间跨度交代清楚。B 对：人称与视角是叙事的基本框架，原文用第一人称写的回忆，续写突然切成第三人称全知视角，读者会立刻出戏。C 对：评分鼓励句式多样，但前提是准确，一个用错的独立主格比一个朴素的简单句扣分更多。D 错：big、great、wonderful 这类大词恰恰是最空泛的表达，堆叠起来只显得虚假；有效的升华靠具体意象和人物行动的收束，比如让主角做出一个与开篇呼应的小动作。"
+  },
+  {
+    "id": "q-eng-writing-cont-plot-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-writing-cont", "eng-writing-cont-plot"],
+    "stem": "阅读下面的原文结尾与一位同学的续写，完成 (1)(2) 两问。\n\n【原文结尾】Emma had trained for the city final for a whole year. On the morning of the race, she woke up with a high fever. Her coach told her to stay at home.\n\n【所给第一段首句】Standing at the starting line, Emma felt her legs shaking.\n\n【同学的续写】She was very nervous and did not know what to do. Suddenly a doctor appeared and gave her a magic pill. She felt great at once and ran faster than everyone. In the end she won the gold medal and everyone cheered. She was very happy and thought that life was beautiful.\n\n(1) 指出这段续写中三处明显的情节或表达问题。\n(2) 就其中两处给出具体的修改建议（可用英文写出修改后的句子）。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["读后续写", "情节逻辑", "续写评析"],
+    "rubric": [
+      {
+        "text": "指出 sudden doctor 与 magic pill 属于天降解围，既不合现实逻辑，也让主角一年的努力失去意义",
+        "score": 2
+      },
+      {
+        "text": "指出续写没有承接所给首句的 legs shaking，也没有处理「带病坚持还是退赛」这一核心冲突",
+        "score": 2
+      },
+      {
+        "text": "指出 She was very nervous、She was very happy、life was beautiful 一类空泛抒情缺少动作与环境细节",
+        "score": 2
+      },
+      {
+        "text": "给出的两处修改建议具体可操作，与原文的人物设定和情节方向一致",
+        "score": 2
+      }
+    ],
+    "reference": "(1) 三处问题：①「医生突然出现并给了一颗神奇药丸」是典型的 deus ex machina，用外部奇迹取代人物行动，与原文的现实设定矛盾；②续写丢掉了所给首句提供的核心信息（她站在起跑线上、腿在抖），原文明明的「高烧」与「教练劝她回家」也没有得到任何回应，冲突被绕过而不是被解决；③「She was very nervous」「She was very happy」以及结尾的 life was beautiful 都是直接贴标签的空泛抒情，没有可感的画面。\n\n(2) 修改示例：①把奇迹换成人物自己的选择与代价：Ignoring the coach's worried look, Emma bent down and tied her shoes again, her fingers clumsy with fever. 让「坚持参赛」成为她主动承担的决定，紧张与病痛都落在动作上；②把结尾的标签换成具体收束：She did not win, but when she crossed the line, the coach was already walking towards her with a bottle of water. 用「没有夺冠却有人接住她」呼应开篇的训练与关心，比夺金更有余味。",
+    "maxScore": 8,
+    "explanation": "这道题把「情节逻辑」与「续写总论」放在一起评析，正是读后续写最常失分的两个维度。判断一段续写好坏的顺序应是：先看它有没有接住原文的冲突和所给首句（内容层），再看矛盾是怎么解决的（逻辑层），最后看解决过程有没有可感的细节（表达层）。这段续写在第一层就断了——首句写腿抖，下文却毫无交代；第二层用 magic pill 跳过；第三层只剩形容词。修改时不必推翻故事，只要把「奇迹」换成「人物带病做出的具体选择」，把「happy」换成「一个动作或一件物品」，整段立刻站得住。答题时注意要「指出问题 + 落到具体词句」，只说「不生动」是拿不到分的。"
+  },
+  {
+    "id": "q-eng-writing-cont-coherence-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-writing-cont-detail", "eng-writing-cont-coherence"],
+    "stem": "下面的续写片段情节没有问题，但描写空泛、句间衔接生硬。请按要求完成 (1)(2)。\n\n【片段】Lucy opened the door. She was surprised. The room was empty. Her grandmother's old clock was gone. She was sad. She did not know what to do. Then she called her mother.\n\n(1) 用动作、感官与心理描写改写这段文字（不少于 60 词，至少三处具体细节）。\n(2) 在改写中加入至少两个衔接手段（连接词或指代），并说明它们各自的作用。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["细节描写", "衔接手段", "语言升级"],
+    "rubric": [
+      {
+        "text": "改写中用具体的动作代替直接贴标签，如手停在门把上、屏住呼吸、又退回去看了一遍",
+        "score": 2
+      },
+      {
+        "text": "改写中包含感官细节（如空房间的回声、钟原来的位置上留下的灰尘印痕）与简短的心理活动",
+        "score": 2
+      },
+      {
+        "text": "至少使用两个衔接手段（如 For a moment、Then、the clock 的指代复现），且能说明各自标示的逻辑关系",
+        "score": 2
+      },
+      {
+        "text": "语言准确，时态统一为一般过去时，无影响理解的语法或用词错误",
+        "score": 2
+      }
+    ],
+    "reference": "(1) 改写示例：Lucy pushed the door open and stopped with her hand still on the handle. The flat was silent in a way it had never been; even the kitchen tap, which always dripped, had nothing to say. Her eyes went to the corner where the clock had stood for as long as she could remember, and there was only a pale square of dust on the wall. For a moment she stood there, listening to her own breathing, telling herself that her grandmother must have moved it upstairs. Then she took out her phone, and her thumb hovered over her mother's number before she pressed it.\n\n(2) 衔接手段示例：①For a moment 标示短暂的停顿，把「惊讶」拉成一个可感的时间段，也让后面的醒悟有落点；②Then 标示时间的推进，从「站在原地」转到「打电话」，句子之间因此有了先后次序；③the clock 承接上文的 her grandmother's old clock，用定冠词加名词复现，使两处描写指向同一物件，读者不会误以为是另一只钟。",
+    "maxScore": 8,
+    "explanation": "这道题针对的是「有情节、没画面」这一常见状况。原片段每句都只有一个判断（surprised、empty、gone、sad），读者拿不到任何可感知的信息，句子之间也只有 Then 一个衔接词。改写的核心操作有三步：第一步把情绪还原成动作——「惊讶」写成手停在门把上、退回去再看一眼；第二步给场景补感官——静得反常的房间、平时总在滴水的水龙头、墙上那块浅色的灰尘印；第三步用衔接手段把散句串成时间线，For a moment 管停顿、Then 管推进、定冠词 the clock 管回指。评分时看的是细节是否「具体到只有这个房间才有」，如果换成任何一间屋子都成立，说明还是空泛。"
+  }
+]

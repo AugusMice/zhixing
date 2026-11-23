@@ -1,0 +1,439 @@
+[
+  {
+    "id": "q-math-vector-1",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": ["math-vector"],
+    "stem": "若向量 $\\vec a$ 与 $\\vec b$ 共线，则一定存在实数 $\\lambda$，使得 $\\vec a=\\lambda\\vec b$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["共线定理", "零向量"],
+    "answer": false,
+    "explanation": "共线定理的完整表述是：若 $\\vec b\\neq\\vec 0$，则 $\\vec a\\parallel\\vec b$ 的充要条件是存在唯一实数 $\\lambda$ 使 $\\vec a=\\lambda\\vec b$。当 $\\vec b=\\vec 0$ 而 $\\vec a\\neq\\vec 0$ 时，零向量与任意向量共线，但不存在这样的 $\\lambda$，所以原命题漏掉了 $\\vec b\\neq\\vec 0$ 这一前提，是假命题。易错点：只记住「共线 $\\Leftrightarrow$ 存在 $\\lambda$」而丢掉零向量的讨论。"
+  },
+  {
+    "id": "q-math-vector-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-vector"],
+    "stem": "在 $\\triangle ABC$ 中，$D$ 是边 $BC$ 的中点，且 $\\overrightarrow{AD}=x\\overrightarrow{AB}+y\\overrightarrow{AC}$，则 $x=$ ____，$y=$ ____。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["中点", "线性运算"],
+    "blanks": [
+      { "accept": ["1/2", "0.5", "\\frac{1}{2}", "1／2"], "hint": "把 $\\overrightarrow{AD}$ 拆成 $\\overrightarrow{AB}+\\overrightarrow{BD}$，$\\overrightarrow{BD}=\\frac12\\overrightarrow{BC}$" },
+      { "accept": ["1/2", "0.5", "\\frac{1}{2}", "1／2"], "hint": "$\\overrightarrow{BC}=\\overrightarrow{AC}-\\overrightarrow{AB}$，合并同类项" }
+    ],
+    "explanation": "由 $D$ 为 $BC$ 中点得 $\\overrightarrow{BD}=\\dfrac12\\overrightarrow{BC}=\\dfrac12(\\overrightarrow{AC}-\\overrightarrow{AB})$，于是 $\\overrightarrow{AD}=\\overrightarrow{AB}+\\overrightarrow{BD}=\\overrightarrow{AB}+\\dfrac12\\overrightarrow{AC}-\\dfrac12\\overrightarrow{AB}=\\dfrac12\\overrightarrow{AB}+\\dfrac12\\overrightarrow{AC}$，故 $x=y=\\dfrac12$。易错点：把中点写成 $\\overrightarrow{AD}=\\overrightarrow{AB}+\\overrightarrow{AC}$（漏 $\\dfrac12$，那是平行四边形法则的对角线）；或把 $\\overrightarrow{BD}$ 方向弄反得 $x=\\dfrac32$、$y=-\\dfrac12$。"
+  },
+  {
+    "id": "q-math-vector-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-vector"],
+    "stem": "设 $\\vec e_1,\\vec e_2$ 是两个不共线的向量，若 $\\vec a=\\vec e_1+2\\vec e_2$ 与 $\\vec b=2\\vec e_1+\\lambda\\vec e_2$（$\\lambda\\in\\mathbf R$）共线，则 $\\lambda$ 的值为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["共线定理", "基底"],
+    "options": [
+      { "key": "A", "text": "$1$" },
+      { "key": "B", "text": "$\\dfrac12$" },
+      { "key": "C", "text": "$3$" },
+      { "key": "D", "text": "$4$" }
+    ],
+    "answer": "D",
+    "explanation": "因 $\\vec e_1,\\vec e_2$ 不共线，它们构成一组基底，向量的坐标表示是唯一的。$\\vec a$ 的坐标为 $(1,2)$，$\\vec b$ 的坐标为 $(2,\\lambda)$，共线即 $1\\cdot\\lambda-2\\cdot 2=0$，得 $\\lambda=4$。也可设 $\\vec b=k\\vec a$，比较系数得 $k=2$、$\\lambda=2k=4$。易错点：把共线条件写成 $x_1x_2-y_1y_2=0$（那是垂直条件）而得到 $\\lambda=1$；或交叉相乘时顺序写反得到 $\\lambda=\\dfrac12$。"
+  },
+  {
+    "id": "q-math-vector-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": ["math-vector"],
+    "stem": "下列命题中，正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["相等向量", "共线", "多选"],
+    "options": [
+      { "key": "A", "text": "所有的单位向量都相等" },
+      { "key": "B", "text": "若 $\\vec a=\\lambda\\vec b$（$\\lambda\\in\\mathbf R$），则 $\\vec a$ 与 $\\vec b$ 共线" },
+      { "key": "C", "text": "若 $\\vec a,\\vec b$ 不共线，则 $\\vec a+\\vec b$ 与 $\\vec a-\\vec b$ 也不共线" },
+      { "key": "D", "text": "若 $|\\vec a|=|\\vec b|$，则 $\\vec a=\\vec b$ 或 $\\vec a=-\\vec b$" }
+    ],
+    "answer": ["B", "C"],
+    "explanation": "A 错：单位向量只要求模为 $1$，方向可以任意，$\\vec a=\\vec b$ 还要求方向相同。B 对：$\\vec a=\\lambda\\vec b$ 说明两者方向相同或相反（$\\lambda=0$ 时 $\\vec a=\\vec 0$，零向量与任意向量共线），一定共线。C 对：反设共线，则 $\\vec a+\\vec b=k(\\vec a-\\vec b)$，整理得 $(1-k)\\vec a=-(1+k)\\vec b$；由 $\\vec a,\\vec b$ 不共线知 $1-k=0$ 且 $1+k=0$，矛盾。D 错：模相等只说明长度相同，方向可以成任意角，例如 $\\vec a=(1,0)$、$\\vec b=(0,1)$。易错点：把「模相等」等同于「向量相等」或「互为相反向量」。"
+  },
+
+  {
+    "id": "q-math-vector-dot-1",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": ["math-vector-dot"],
+    "stem": "若非零向量 $\\vec a,\\vec b$ 满足 $\\vec a\\cdot\\vec b=0$，则 $\\vec a=\\vec 0$ 或 $\\vec b=\\vec 0$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["数量积为零", "垂直"],
+    "answer": false,
+    "explanation": "$\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta$，当 $\\vec a,\\vec b$ 都是非零向量时，$\\vec a\\cdot\\vec b=0$ 等价于 $\\cos\\theta=0$，即 $\\theta=90^\\circ$，两向量垂直。题干已说明 $\\vec a,\\vec b$ 非零，故不可能有 $\\vec a=\\vec 0$ 或 $\\vec b=\\vec 0$，命题为假。正确结论是：两个非零向量数量积为零 $\\Leftrightarrow$ 它们垂直。易错点：把数量积与实数乘法类比，误以为「乘积为零必有一个因数为零」。"
+  },
+  {
+    "id": "q-math-vector-dot-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-vector-dot"],
+    "stem": "已知 $|\\vec a|=2$，$|\\vec b|=3$，$\\vec a$ 与 $\\vec b$ 的夹角为 $120^\\circ$，则 $\\vec a\\cdot\\vec b=$ ____，$\\vec a$ 在 $\\vec b$ 方向上的投影为 ____。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["数量积", "投影"],
+    "blanks": [
+      { "accept": ["-3", "−3", "-3.0"], "hint": "$\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos 120^\\circ$，注意 $\\cos 120^\\circ<0$" },
+      { "accept": ["-1", "−1", "-1.0"], "hint": "投影 $=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec b|}$，除以的是 $|\\vec b|$ 而不是 $|\\vec a|$" }
+    ],
+    "explanation": "$\\vec a\\cdot\\vec b=2\\times 3\\times\\cos 120^\\circ=6\\times\\left(-\\dfrac12\\right)=-3$。$\\vec a$ 在 $\\vec b$ 方向上的投影为 $\\dfrac{\\vec a\\cdot\\vec b}{|\\vec b|}=\\dfrac{-3}{3}=-1$，也可由 $|\\vec a|\\cos 120^\\circ=2\\times\\left(-\\dfrac12\\right)=-1$ 得到。易错点：投影是数量，可以为负（钝角时），不要写成 $3$；求投影时把分母写成 $|\\vec a|$（那是 $\\vec b$ 在 $\\vec a$ 上的投影，值为 $-\\dfrac32$）。"
+  },
+  {
+    "id": "q-math-vector-dot-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-vector-dot"],
+    "stem": "已知 $|\\vec a|=1$，$|\\vec b|=2$，$|\\vec a+\\vec b|=\\sqrt7$，则 $\\vec a$ 与 $\\vec b$ 的夹角为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["求模", "夹角"],
+    "options": [
+      { "key": "A", "text": "$\\dfrac{\\pi}{6}$" },
+      { "key": "B", "text": "$\\dfrac{\\pi}{3}$" },
+      { "key": "C", "text": "$\\dfrac{2\\pi}{3}$" },
+      { "key": "D", "text": "$\\dfrac{5\\pi}{6}$" }
+    ],
+    "answer": "B",
+    "explanation": "把 $|\\vec a+\\vec b|=\\sqrt7$ 两边平方：$\\vec a^2+2\\vec a\\cdot\\vec b+\\vec b^2=7$，即 $1+2\\vec a\\cdot\\vec b+4=7$，得 $\\vec a\\cdot\\vec b=1$。于是 $\\cos\\theta=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}=\\dfrac{1}{2}$，$\\theta=\\dfrac{\\pi}{3}$。易错点：平方时漏掉交叉项 $2\\vec a\\cdot\\vec b$，直接把 $1+4$ 当 $7$；或把 $\\vec a\\cdot\\vec b$ 的符号算反得 $\\cos\\theta=-\\dfrac12$ 而错选 C。"
+  },
+  {
+    "id": "q-math-vector-dot-4",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-vector-dot"],
+    "stem": "已知非零向量 $\\vec a,\\vec b$ 满足 $|\\vec a|=|\\vec b|=|\\vec a-\\vec b|$，则 $\\vec a$ 与 $\\vec a+\\vec b$ 的夹角为（　）",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["数量积求角", "等模条件"],
+    "options": [
+      { "key": "A", "text": "$\\dfrac{\\pi}{6}$" },
+      { "key": "B", "text": "$\\dfrac{\\pi}{4}$" },
+      { "key": "C", "text": "$\\dfrac{\\pi}{3}$" },
+      { "key": "D", "text": "$\\dfrac{5\\pi}{12}$" }
+    ],
+    "answer": "A",
+    "explanation": "由 $|\\vec a-\\vec b|^2=\\vec a^2-2\\vec a\\cdot\\vec b+\\vec b^2=\\vec a^2$ 得 $2\\vec a\\cdot\\vec b=\\vec b^2=\\vec a^2$（这一步用到了 $|\\vec a|=|\\vec b|$ 与 $|\\vec a-\\vec b|=|\\vec a|$）。不妨设 $|\\vec a|=1$，则 $\\vec a\\cdot\\vec b=\\dfrac12$，$|\\vec a+\\vec b|^2=1+1+2\\times\\dfrac12=3$，$|\\vec a+\\vec b|=\\sqrt3$。又 $\\vec a\\cdot(\\vec a+\\vec b)=1+\\dfrac12=\\dfrac32$，故 $\\cos\\varphi=\\dfrac{\\frac32}{1\\cdot\\sqrt3}=\\dfrac{\\sqrt3}{2}$，$\\varphi=\\dfrac{\\pi}{6}$。易错点：只由等模条件得到 $\\vec a,\\vec b$ 夹角为 $60^\\circ$ 就停手，把所求夹角误当成 $\\dfrac{\\pi}{3}$（选项 C）；求 $|\\vec a+\\vec b|$ 时把 $2\\vec a\\cdot\\vec b$ 写成 $-1$ 得 $|\\vec a+\\vec b|=1$。"
+  },
+
+  {
+    "id": "q-math-vector-coord-1",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-vector-coord"],
+    "stem": "已知 $\\vec a=(1,2)$，$\\vec b=(-3,1)$，则 $\\vec a-\\vec b=$ ____，$\\vec a\\cdot\\vec b=$ ____。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["坐标运算", "数量积"],
+    "blanks": [
+      { "accept": ["(4,1)", "(4, 1)", "（4，1）", "（4,1）", "(4，1)"], "hint": "坐标相减：$\\vec a-\\vec b=(1-(-3),\\ 2-1)$" },
+      { "accept": ["-1", "−1", "-1.0"], "hint": "$\\vec a\\cdot\\vec b=x_1x_2+y_1y_2=1\\times(-3)+2\\times 1$" }
+    ],
+    "explanation": "$\\vec a-\\vec b=(1-(-3),\\ 2-1)=(4,1)$；$\\vec a\\cdot\\vec b=1\\times(-3)+2\\times 1=-1$。易错点：减负数时漏变号，得 $(-2,1)$；数量积写成 $x_1x_2-y_1y_2=-5$（那是行列式，与垂直判定 $x_1x_2+y_1y_2=0$ 混淆）。"
+  },
+  {
+    "id": "q-math-vector-coord-2",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-vector-coord"],
+    "stem": "已知 $\\vec a=(x,2)$，$\\vec b=(2,-1)$，且 $(\\vec a+\\vec b)\\perp\\vec b$，则 $x$ 的值为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["垂直条件", "坐标运算"],
+    "options": [
+      { "key": "A", "text": "$-\\dfrac32$" },
+      { "key": "B", "text": "$\\dfrac32$" },
+      { "key": "C", "text": "$-\\dfrac52$" },
+      { "key": "D", "text": "$2$" }
+    ],
+    "answer": "A",
+    "explanation": "$\\vec a+\\vec b=(x+2,1)$，由垂直条件 $(\\vec a+\\vec b)\\cdot\\vec b=0$ 得 $2(x+2)+1\\times(-1)=0$，即 $2x+3=0$，$x=-\\dfrac32$。易错点：把垂直条件写成 $x_1y_2-x_2y_1=0$（即用平行条件），会得到 $(x+2)\\times(-1)-1\\times 2=0$，$x=-4$；符号处理错（把 $+1\\times(-1)$ 写成 $+1$）则得 $x=-\\dfrac52$，对应错项 C。"
+  },
+  {
+    "id": "q-math-vector-coord-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-vector-coord"],
+    "stem": "已知 $\\vec a=(1,2)$，$\\vec b=(2,-3)$，则 $\\vec a$ 在 $\\vec b$ 方向上的投影为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["投影", "坐标运算"],
+    "options": [
+      { "key": "A", "text": "$-\\dfrac{4\\sqrt{13}}{13}$" },
+      { "key": "B", "text": "$\\dfrac{4\\sqrt{13}}{13}$" },
+      { "key": "C", "text": "$-\\dfrac{4}{13}$" },
+      { "key": "D", "text": "$-\\dfrac{2\\sqrt{13}}{13}$" }
+    ],
+    "answer": "A",
+    "explanation": "$\\vec a\\cdot\\vec b=1\\times 2+2\\times(-3)=-4$，$|\\vec b|=\\sqrt{2^2+(-3)^2}=\\sqrt{13}$，故投影为 $\\dfrac{\\vec a\\cdot\\vec b}{|\\vec b|}=-\\dfrac{4}{\\sqrt{13}}=-\\dfrac{4\\sqrt{13}}{13}$，是负数，说明两向量夹角为钝角。易错点：把投影写成 $\\dfrac{\\vec a\\cdot\\vec b}{|\\vec b|^2}=-\\dfrac{4}{13}$（那是投影向量系数的错误形式，选项 C）；忘记分母有理化或丢掉负号得 B；把分母误用 $|\\vec a|=\\sqrt5$ 得 D。"
+  },
+  {
+    "id": "q-math-vector-coord-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": ["math-vector-coord"],
+    "stem": "已知 $\\vec a=(1,2)$，$\\vec b=(-2,1)$，则下列结论正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["垂直判定", "模", "多选"],
+    "options": [
+      { "key": "A", "text": "$\\vec a\\perp\\vec b$" },
+      { "key": "B", "text": "$|\\vec a|=|\\vec b|$" },
+      { "key": "C", "text": "$|\\vec a+\\vec b|=2\\sqrt5$" },
+      { "key": "D", "text": "与 $\\vec a$ 共线的单位向量为 $\\left(\\dfrac{\\sqrt5}{5},\\dfrac{2\\sqrt5}{5}\\right)$ 与 $\\left(-\\dfrac{\\sqrt5}{5},-\\dfrac{2\\sqrt5}{5}\\right)$" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：$\\vec a\\cdot\\vec b=1\\times(-2)+2\\times 1=0$，故垂直。B 对：$|\\vec a|=\\sqrt{1+4}=\\sqrt5=|\\vec b|$。C 错：$\\vec a+\\vec b=(-1,3)$，$|\\vec a+\\vec b|=\\sqrt{1+9}=\\sqrt{10}$；$2\\sqrt5$ 是把模直接相加 $\\sqrt5+\\sqrt5$ 的典型错解。D 对：与 $\\vec a$ 共线的单位向量为 $\\pm\\dfrac{\\vec a}{|\\vec a|}=\\pm\\left(\\dfrac{\\sqrt5}{5},\\dfrac{2\\sqrt5}{5}\\right)$，共两个（同向、反向各一个）。易错点：D 项容易只写一个方向；C 项混淆 $|\\vec a+\\vec b|$ 与 $|\\vec a|+|\\vec b|$。"
+  },
+
+  {
+    "id": "q-math-vector-app-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-vector-app"],
+    "stem": "在 $\\triangle ABC$ 中，$G$ 是 $\\triangle ABC$ 的重心，若 $\\overrightarrow{AG}=x\\overrightarrow{AB}+y\\overrightarrow{AC}$，则 $(x,y)$ 为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["重心", "基底表示"],
+    "options": [
+      { "key": "A", "text": "$\\left(\\dfrac13,\\dfrac13\\right)$" },
+      { "key": "B", "text": "$\\left(\\dfrac12,\\dfrac12\\right)$" },
+      { "key": "C", "text": "$\\left(\\dfrac23,\\dfrac23\\right)$" },
+      { "key": "D", "text": "$\\left(\\dfrac13,\\dfrac23\\right)$" }
+    ],
+    "answer": "A",
+    "explanation": "设 $M$ 为 $BC$ 中点，则 $\\overrightarrow{AM}=\\dfrac12(\\overrightarrow{AB}+\\overrightarrow{AC})$，重心在中线上且 $\\overrightarrow{AG}=\\dfrac23\\overrightarrow{AM}=\\dfrac13(\\overrightarrow{AB}+\\overrightarrow{AC})$，故 $x=y=\\dfrac13$。也可用重心坐标公式 $\\overrightarrow{AG}=\\dfrac13(\\overrightarrow{AB}+\\overrightarrow{AC})$ 直接得到。易错点：把 $\\dfrac23$ 直接当系数（漏掉 $\\overrightarrow{AM}$ 里的 $\\dfrac12$）得 C；把重心与 $BC$ 中点混淆得 B。"
+  },
+  {
+    "id": "q-math-vector-app-2",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": ["math-vector-app"],
+    "stem": "若 $\\overrightarrow{OA}\\neq\\vec 0$，且 $\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=\\overrightarrow{OA}\\cdot\\overrightarrow{OC}$，则 $\\overrightarrow{OA}\\perp\\overrightarrow{CB}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["数量积", "垂直判定"],
+    "answer": true,
+    "explanation": "把条件移项：$\\overrightarrow{OA}\\cdot\\overrightarrow{OB}-\\overrightarrow{OA}\\cdot\\overrightarrow{OC}=\\overrightarrow{OA}\\cdot(\\overrightarrow{OB}-\\overrightarrow{OC})=\\overrightarrow{OA}\\cdot\\overrightarrow{CB}=0$。又 $\\overrightarrow{OA}\\neq\\vec 0$，故 $\\overrightarrow{OA}\\perp\\overrightarrow{CB}$（若 $\\overrightarrow{CB}=\\vec 0$ 则 $B=C$，此时 $\\overrightarrow{CB}$ 与任意向量垂直，结论仍成立）。易错点：把等式两边直接「约去」$\\overrightarrow{OA}$ 得到 $\\overrightarrow{OB}=\\overrightarrow{OC}$——数量积不满足消去律，只能移项后用分配律。"
+  },
+  {
+    "id": "q-math-vector-app-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-vector-app"],
+    "stem": "在 $\\triangle ABC$ 中，$|\\overrightarrow{AB}|=3$，$|\\overrightarrow{AC}|=4$，$\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=6$，则 $|\\overrightarrow{BC}|$ 为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["数量积与余弦定理", "求边长"],
+    "options": [
+      { "key": "A", "text": "$\\sqrt{13}$" },
+      { "key": "B", "text": "$\\sqrt7$" },
+      { "key": "C", "text": "$5$" },
+      { "key": "D", "text": "$\\sqrt{19}$" }
+    ],
+    "answer": "A",
+    "explanation": "$\\overrightarrow{BC}=\\overrightarrow{AC}-\\overrightarrow{AB}$，故 $|\\overrightarrow{BC}|^2=|\\overrightarrow{AC}|^2-2\\overrightarrow{AB}\\cdot\\overrightarrow{AC}+|\\overrightarrow{AB}|^2=16-12+9=13$，$|\\overrightarrow{BC}|=\\sqrt{13}$。这与余弦定理 $BC^2=AB^2+AC^2-2AB\\cdot AC\\cos A$ 一致（由 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=6$ 得 $\\cos A=\\dfrac12$，$A=60^\\circ$）。易错点：把 $2\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$ 写成 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$，得 $16-6+9=19$（选项 D）；把交叉项符号写反得 $16+12+9=37$；完全忽略数量积得 $5$（选项 C，此时 $A=90^\\circ$）。"
+  },
+  {
+    "id": "q-math-vector-app-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": ["math-vector-app", "math-vector-dot"],
+    "stem": "设 $\\triangle ABC$ 的三个内角为 $A,B,C$，则下列结论正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["向量与三角形", "钝角判定", "多选"],
+    "options": [
+      { "key": "A", "text": "若 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}>0$，则 $A$ 为锐角" },
+      { "key": "B", "text": "若 $\\overrightarrow{AB}\\cdot\\overrightarrow{BC}>0$，则 $B$ 为钝角" },
+      { "key": "C", "text": "若 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=0$，则 $\\triangle ABC$ 是以 $A$ 为直角顶点的直角三角形" },
+      { "key": "D", "text": "若 $|\\overrightarrow{AB}|=|\\overrightarrow{AC}|$，则 $\\overrightarrow{AB}+\\overrightarrow{AC}$ 与 $\\overrightarrow{BC}$ 平行" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：$\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=|\\overrightarrow{AB}||\\overrightarrow{AC}|\\cos A>0$，而 $A\\in(0,\\pi)$，故 $\\cos A>0$，$A$ 为锐角。B 对：向量 $\\overrightarrow{AB}$ 与 $\\overrightarrow{BC}$ 首尾相接，其夹角为 $\\pi-B$，于是 $\\overrightarrow{AB}\\cdot\\overrightarrow{BC}=|\\overrightarrow{AB}||\\overrightarrow{BC}|\\cos(\\pi-B)=-|\\overrightarrow{AB}||\\overrightarrow{BC}|\\cos B>0$，得 $\\cos B<0$，$B$ 为钝角。C 对：数量积为零且两向量非零，故 $AB\\perp AC$，$A=90^\\circ$。D 错：$(\\overrightarrow{AB}+\\overrightarrow{AC})\\cdot\\overrightarrow{BC}=(\\overrightarrow{AB}+\\overrightarrow{AC})\\cdot(\\overrightarrow{AC}-\\overrightarrow{AB})=|\\overrightarrow{AC}|^2-|\\overrightarrow{AB}|^2=0$，两者是垂直关系（等腰三角形底边上的中线垂直于底边），不是平行。易错点：B 项忘记两向量夹角是 $\\pi-B$（不是 $B$）而判错；D 项想当然认为「和向量与第三边共线」。"
+  },
+
+  {
+    "id": "q-math-complex-1",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": ["math-complex"],
+    "stem": "复数 $z=a+bi$（$a,b\\in\\mathbf R$）的虚部是 $bi$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["实部虚部", "概念辨析"],
+    "answer": false,
+    "explanation": "按定义，$z=a+bi$（$a,b\\in\\mathbf R$）的实部是 $a$，虚部是 $b$——虚部是一个实数，不带虚数单位 $i$；$bi$ 是整个虚数部分（虚部乘以 $i$）。所以命题为假。易错点：把「虚部」与「虚数部分 $bi$」混为一谈；另外注意若写成 $z=2-3i$，虚部是 $-3$ 而不是 $3$。"
+  },
+  {
+    "id": "q-math-complex-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-complex"],
+    "stem": "已知 $z=\\dfrac{3+i}{1-i}$（$i$ 为虚数单位），则 $z$ 的实部为 ____，虚部为 ____。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["分母实数化", "四则运算"],
+    "blanks": [
+      { "accept": ["1", "1.0"], "hint": "分子分母同乘 $1+i$，再整理成 $a+bi$ 形式" },
+      { "accept": ["2", "2.0"], "hint": "虚部是 $i$ 前面的系数，不带 $i$" }
+    ],
+    "explanation": "$z=\\dfrac{3+i}{1-i}=\\dfrac{(3+i)(1+i)}{(1-i)(1+i)}=\\dfrac{3+3i+i+i^2}{1-i^2}=\\dfrac{2+4i}{2}=1+2i$，故实部为 $1$，虚部为 $2$。易错点：分母实数化时乘错共轭（乘 $1-i$ 而非 $1+i$），分母变成 $2i$ 无法化简；把 $i^2$ 当成 $+1$ 得 $\\dfrac{4+4i}{2}=2+2i$；把虚部答成 $2i$。"
+  },
+  {
+    "id": "q-math-complex-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-complex"],
+    "stem": "已知复数 $z$ 满足 $z(1+i)=2i$，则 $|z|$ 为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["复数除法", "模"],
+    "options": [
+      { "key": "A", "text": "$\\sqrt2$" },
+      { "key": "B", "text": "$2$" },
+      { "key": "C", "text": "$1$" },
+      { "key": "D", "text": "$\\dfrac{\\sqrt2}{2}$" }
+    ],
+    "answer": "A",
+    "explanation": "由 $z(1+i)=2i$ 得 $z=\\dfrac{2i}{1+i}=\\dfrac{2i(1-i)}{(1+i)(1-i)}=\\dfrac{2i-2i^2}{2}=\\dfrac{2+2i}{2}=1+i$，所以 $|z|=\\sqrt{1^2+1^2}=\\sqrt2$。也可用模的性质：$|z||1+i|=|2i|$，即 $|z|\\cdot\\sqrt2=2$，$|z|=\\sqrt2$。易错点：把 $|2i|$ 算成 $2i$ 或 $1$（忘记 $|i|=1$）而错选 C；忘记 $|1+i|=\\sqrt2$ 直接用 $2$ 得 B；把 $z$ 求成 $1-i$（共轭弄错，此时模仍是 $\\sqrt2$，不影响本题，但后续问 $z$ 的虚部就会错）。"
+  },
+  {
+    "id": "q-math-complex-4",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-complex"],
+    "stem": "已知 $z=\\dfrac{1+2i}{2-i}$（$i$ 为虚数单位），则 $z^{2026}$ 为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["化简", "i 的幂"],
+    "options": [
+      { "key": "A", "text": "$1$" },
+      { "key": "B", "text": "$-1$" },
+      { "key": "C", "text": "$i$" },
+      { "key": "D", "text": "$-i$" }
+    ],
+    "answer": "B",
+    "explanation": "$z=\\dfrac{1+2i}{2-i}=\\dfrac{(1+2i)(2+i)}{(2-i)(2+i)}=\\dfrac{2+i+4i+2i^2}{4+1}=\\dfrac{5i}{5}=i$。而 $i$ 的幂以 $4$ 为周期：$2026=4\\times 506+2$，所以 $z^{2026}=i^{2026}=i^2=-1$。易错点：化简时把分母 $-i$ 的共轭取成 $2-i$（分母仍含 $i$）；算 $2026\\div4$ 的余数出错（余 $2$ 对应 $-1$，余 $1$ 对应 $i$，余 $3$ 对应 $-i$）；忽略 $i^2=-1$ 把手算成 $+1$。"
+  },
+
+  {
+    "id": "q-math-complex-geo-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-complex-geo"],
+    "stem": "复数 $z=(m-1)+(m+2)i$（$m\\in\\mathbf R$）在复平面内对应的点位于第三象限，则 $m$ 的取值范围是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["复平面", "象限"],
+    "options": [
+      { "key": "A", "text": "$m<-2$" },
+      { "key": "B", "text": "$-2<m<1$" },
+      { "key": "C", "text": "$m<1$" },
+      { "key": "D", "text": "$m>-2$" }
+    ],
+    "answer": "A",
+    "explanation": "$z$ 对应点 $(m-1,\\ m+2)$，第三象限要求横纵坐标都为负：$m-1<0$ 且 $m+2<0$，即 $m<1$ 且 $m<-2$，取交集得 $m<-2$。易错点：把第三象限符号记成「一负一正」而得 B（那是第二或第四象限的思路）；只解出一个不等式就选 C 或 D，忘记取交集。"
+  },
+  {
+    "id": "q-math-complex-geo-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-complex-geo"],
+    "stem": "已知复数 $z$ 满足 $|z-2i|=1$，则 $|z|$ 的最大值为 ____，最小值为 ____。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["模的几何意义", "圆"],
+    "blanks": [
+      { "accept": ["3", "3.0"], "hint": "圆心到原点的距离 $2$ 加上半径 $1$" },
+      { "accept": ["1", "1.0"], "hint": "圆心到原点的距离减去半径" }
+    ],
+    "explanation": "$|z-2i|=1$ 表示复平面内以 $2i$ 对应点 $(0,2)$ 为圆心、$1$ 为半径的圆。$|z|$ 是圆上点到原点的距离，原点到圆心的距离为 $2$，故 $|z|$ 的最大值为 $2+1=3$，最小值为 $2-1=1$。易错点：把条件看成 $|z|=1$ 或把圆心错放到 $(2,0)$（此时结果仍是 $3$ 与 $1$，但轨迹不同，后续求 $|z-2|$ 就会错）；忽略最小值，直接答 $[0,3]$。"
+  },
+  {
+    "id": "q-math-complex-geo-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-complex-geo"],
+    "stem": "在复平面内，满足 $|z-1|=|z+i|$ 的复数 $z$ 对应的点的轨迹是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["轨迹", "垂直平分线"],
+    "options": [
+      { "key": "A", "text": "直线 $y=-x$" },
+      { "key": "B", "text": "直线 $y=x$" },
+      { "key": "C", "text": "圆 $x^2+y^2=1$" },
+      { "key": "D", "text": "直线 $x+y=1$" }
+    ],
+    "answer": "A",
+    "explanation": "设 $z=x+yi$，则 $|z-1|=|z+i|$ 即点 $(x,y)$ 到 $(1,0)$ 与到 $(0,-1)$ 的距离相等，轨迹是这两点连线的垂直平分线。代数化简：$(x-1)^2+y^2=x^2+(y+1)^2$，展开得 $-2x+1=2y+1$，即 $y=-x$。易错点：把 $z+i$ 对应的点写成 $(0,1)$（得 $y=x$，选项 B）；把「到两点距离相等」误当成「到原点距离为 $1$」而选 C。"
+  },
+  {
+    "id": "q-math-complex-geo-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": ["math-complex-geo", "math-complex"],
+    "stem": "已知复数 $z=1+\\sqrt3 i$，则下列结论正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["模与共轭", "复平面", "多选"],
+    "options": [
+      { "key": "A", "text": "$|z|=2$" },
+      { "key": "B", "text": "$z$ 的共轭复数为 $1-\\sqrt3 i$" },
+      { "key": "C", "text": "$z^2=2+2\\sqrt3 i$" },
+      { "key": "D", "text": "$\\dfrac{z}{\\bar z}$ 是纯虚数" }
+    ],
+    "answer": ["A", "B"],
+    "explanation": "A 对：$|z|=\\sqrt{1^2+(\\sqrt3)^2}=2$。B 对：共轭只改变虚部符号，$\\bar z=1-\\sqrt3 i$。C 错：$z^2=(1+\\sqrt3 i)^2=1+2\\sqrt3 i+3i^2=-2+2\\sqrt3 i$，实部是 $-2$ 而不是 $2$（漏掉 $3i^2=-3$ 才得 $2$）。D 错：$\\dfrac{z}{\\bar z}=\\dfrac{z^2}{|z|^2}=\\dfrac{-2+2\\sqrt3 i}{4}=-\\dfrac12+\\dfrac{\\sqrt3}{2}i$，实部不为 $0$，不是纯虚数；它对应复平面上单位圆上的点，辐角为 $\\dfrac{2\\pi}{3}$。易错点：C 项忘记 $i^2=-1$；D 项误以为「复数除以自己的共轭必为纯虚数」（只有当 $z$ 的实部为 $0$ 时才成立）。"
+  },
+
+  {
+    "id": "q-math-vector-app-5",
+    "subjectId": "math",
+    "type": "short",
+    "kpIds": ["math-vector-app", "math-vector-dot"],
+    "stem": "在 $\\triangle ABC$ 中，$|\\overrightarrow{AB}|=2$，$|\\overrightarrow{AC}|=3$，且 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=3$。\n\n（1）求角 $A$ 的大小及边 $BC$ 的长；\n（2）设 $D$ 为边 $BC$ 的中点，求 $|\\overrightarrow{AD}|$；\n（3）求 $\\overrightarrow{AB}$ 在 $\\overrightarrow{AC}$ 方向上的投影。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["数量积", "中线", "投影"],
+    "rubric": [
+      { "text": "由 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=|\\overrightarrow{AB}||\\overrightarrow{AC}|\\cos A$ 得 $\\cos A=\\dfrac12$，从而 $A=\\dfrac{\\pi}{3}$", "score": 3 },
+      { "text": "用 $|\\overrightarrow{BC}|^2=|\\overrightarrow{AC}|^2-2\\overrightarrow{AB}\\cdot\\overrightarrow{AC}+|\\overrightarrow{AB}|^2$（或余弦定理）求得 $|\\overrightarrow{BC}|=\\sqrt7$", "score": 2 },
+      { "text": "写出 $\\overrightarrow{AD}=\\dfrac12(\\overrightarrow{AB}+\\overrightarrow{AC})$，平方后求得 $|\\overrightarrow{AD}|=\\dfrac{\\sqrt{19}}{2}$", "score": 3 },
+      { "text": "投影 $=\\dfrac{\\overrightarrow{AB}\\cdot\\overrightarrow{AC}}{|\\overrightarrow{AC}|}=1$，并指出投影是数量", "score": 2 }
+    ],
+    "reference": "（1）$\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=2\\times 3\\times\\cos A=6\\cos A=3$，得 $\\cos A=\\dfrac12$，又 $A\\in(0,\\pi)$，故 $A=\\dfrac{\\pi}{3}$。\n于是 $|\\overrightarrow{BC}|^2=|\\overrightarrow{AC}-\\overrightarrow{AB}|^2=9-2\\times 3+4=7$，$|\\overrightarrow{BC}|=\\sqrt7$。\n（2）$D$ 为 $BC$ 中点，$\\overrightarrow{AD}=\\dfrac12(\\overrightarrow{AB}+\\overrightarrow{AC})$，故 $|\\overrightarrow{AD}|^2=\\dfrac14\\left(4+9+2\\times 3\\right)=\\dfrac{19}{4}$，$|\\overrightarrow{AD}|=\\dfrac{\\sqrt{19}}{2}$。\n（3）$\\overrightarrow{AB}$ 在 $\\overrightarrow{AC}$ 方向上的投影为 $\\dfrac{\\overrightarrow{AB}\\cdot\\overrightarrow{AC}}{|\\overrightarrow{AC}|}=\\dfrac{3}{3}=1$。",
+    "maxScore": 10,
+    "explanation": "本题把「数量积求角—求边—求中线—求投影」串成一条链。关键是三处：一是数量积公式里 $\\cos A$ 对应的是两向量起点相同的夹角（$\\overrightarrow{AB}$ 与 $\\overrightarrow{AC}$ 共起点 $A$，夹角就是 $A$）；二是中线向量表示 $\\overrightarrow{AD}=\\dfrac12(\\overrightarrow{AB}+\\overrightarrow{AC})$，平方时不要漏交叉项 $2\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$（漏掉会得 $\\dfrac{\\sqrt{13}}{2}$）；三是投影是有向数量，分母是 $|\\overrightarrow{AC}|$（被投影方向向量的模），本题投影为 $1$，恰为 $|\\overrightarrow{AB}|\\cos 60^\\circ$。常见失分：由 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=3$ 直接得出 $\\cos A=1$ 或 $\\cos A=3$（忘记除以两模之积）；把投影写成 $\\dfrac{\\overrightarrow{AB}\\cdot\\overrightarrow{AC}}{|\\overrightarrow{AB}|}=1.5$。"
+  },
+  {
+    "id": "q-math-complex-geo-5",
+    "subjectId": "math",
+    "type": "short",
+    "kpIds": ["math-complex-geo", "math-complex"],
+    "stem": "已知复数 $z=\\dfrac{2i}{1+i}$（$i$ 为虚数单位）。\n\n（1）化简 $z$，并求 $|z|$ 与 $\\bar z$；\n（2）设复数 $w$ 满足 $|w-z|=1$，求 $|w|$ 的最大值，并说明 $w$ 对应的点的轨迹。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["分母实数化", "模的几何意义", "圆"],
+    "rubric": [
+      { "text": "分子分母同乘 $1-i$，利用 $i^2=-1$ 化简得 $z=1+i$", "score": 3 },
+      { "text": "求出 $|z|=\\sqrt2$，$\\bar z=1-i$", "score": 2 },
+      { "text": "说明 $w$ 对应的点是以 $(1,1)$ 为圆心、$1$ 为半径的圆上的点", "score": 3 },
+      { "text": "由 $|w|\\le|z|+1$ 得 $|w|_{\\max}=\\sqrt2+1$，并指出取到最大值时 $w$ 在射线 $Oz$ 上", "score": 2 }
+    ],
+    "reference": "（1）$z=\\dfrac{2i}{1+i}=\\dfrac{2i(1-i)}{(1+i)(1-i)}=\\dfrac{2i-2i^2}{2}=\\dfrac{2+2i}{2}=1+i$，故 $|z|=\\sqrt{1^2+1^2}=\\sqrt2$，$\\bar z=1-i$。\n（2）$|w-z|=1$ 表示 $w$ 对应的点到点 $(1,1)$ 的距离为 $1$，轨迹是以 $(1,1)$ 为圆心、$1$ 为半径的圆。圆心到原点的距离为 $|z|=\\sqrt2$，故 $|w|$ 的最大值为 $\\sqrt2+1$（此时 $w$ 在从原点出发过 $(1,1)$ 的射线上、且距圆心为 $1$ 的外侧点，即 $|w|_{\\max}$ 在 $w=\\left(1+\\dfrac{\\sqrt2}{2}\\right)+\\left(1+\\dfrac{\\sqrt2}{2}\\right)i$ 处取到）。",
+    "maxScore": 10,
+    "explanation": "第（1）问是分母实数化的标准动作：乘分母的共轭 $1-i$，注意 $i^2=-1$ 带来实部的符号变化，若把 $-2i^2$ 写成 $-2$ 会得到 $\\dfrac{-2+2i}{2}=-1+i$（模仍是 $\\sqrt2$，但共轭与第（2）问的圆心全错）。第（2）问是 $|z-z_0|=r$ 型轨迹的应用：$|w|$ 表示圆上点到原点的距离，最值 $=|z|\\pm r$。常见失分：把轨迹写成「以 $(0,1)$ 为圆心」（把 $2i$ 位置弄错）；直接用三角不等式写成 $|w|\\le|z|+1$ 却不检验等号可取；把 $|w|$ 的最大值算成 $\\sqrt2-1$（那是最小值）。"
+  }
+]

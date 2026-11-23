@@ -1,0 +1,1491 @@
+[
+  {
+    "id": "q-math-func-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-func"
+    ],
+    "stem": "下列各组函数中，表示同一个函数的是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$f(x)=x$ 与 $g(x)=\\dfrac{x^2}{x}$"
+      },
+      {
+        "key": "B",
+        "text": "$f(x)=x^2$ 与 $g(x)=(x+1)^2$"
+      },
+      {
+        "key": "C",
+        "text": "$f(x)=|x|$ 与 $g(x)=\\sqrt{x^2}$"
+      },
+      {
+        "key": "D",
+        "text": "$f(x)=\\sqrt{x-1}\\cdot\\sqrt{x+1}$ 与 $g(x)=\\sqrt{x^2-1}$"
+      }
+    ],
+    "answer": "C",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "函数三要素",
+      "同一函数"
+    ],
+    "explanation": "判断两个函数是否相同，必须定义域与对应关系都相同。A 中 $g(x)$ 要求 $x\\ne 0$，定义域与 $f$ 不同；B 对应关系不同；D 中 $f$ 要求 $x\\ge 1$（两个根号同时有意义），而 $g$ 只要 $x\\le -1$ 或 $x\\ge 1$，定义域不同；C 中 $g(x)=\\sqrt{x^2}=|x|$，两者定义域都是 $\\mathbb{R}$，对应关系一致，是同一函数。"
+  },
+  {
+    "id": "q-math-func-2",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": [
+      "math-func"
+    ],
+    "stem": "判断：函数 $f(x)=\\dfrac{1}{x}$ 在其定义域上是减函数。",
+    "answer": false,
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "单调性",
+      "定义域"
+    ],
+    "explanation": "$f(x)=\\dfrac1x$ 在 $(-\\infty,0)$ 上递减，在 $(0,+\\infty)$ 上也递减，但整体不是减函数。取 $x_1=-1<x_2=1$，则 $f(x_1)=-1<f(x_2)=1$，与减函数的定义矛盾。单调区间不能随便用并集连接，这是本题最大的陷阱。"
+  },
+  {
+    "id": "q-math-func-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-func"
+    ],
+    "stem": "函数 $f(x)=x^2-2x+3$ 在区间 $[0,3]$ 上的值域是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$[3,6]$"
+      },
+      {
+        "key": "B",
+        "text": "$[2,6]$"
+      },
+      {
+        "key": "C",
+        "text": "$[2,3]$"
+      },
+      {
+        "key": "D",
+        "text": "$[2,+\\infty)$"
+      }
+    ],
+    "answer": "B",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "二次函数",
+      "值域"
+    ],
+    "explanation": "$f(x)=(x-1)^2+2$，对称轴 $x=1\\in[0,3]$，故最小值为 $f(1)=2$；端点处 $f(0)=3$，$f(3)=9-6+3=6$，最大值为 6。所以值域为 $[2,6]$。只代端点会得到 $[3,6]$，忘记对称轴在区间内是典型错误。"
+  },
+  {
+    "id": "q-math-func-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": [
+      "math-func"
+    ],
+    "stem": "关于函数 $f(x)=x^3$，下列说法正确的有（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$f(x)$ 是奇函数"
+      },
+      {
+        "key": "B",
+        "text": "$f(x)$ 在 $\\mathbb{R}$ 上单调递增"
+      },
+      {
+        "key": "C",
+        "text": "$f(x)$ 的图象关于 $y$ 轴对称"
+      },
+      {
+        "key": "D",
+        "text": "$f(x)$ 在 $\\mathbb{R}$ 上没有最小值"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "奇偶性",
+      "单调性",
+      "值域"
+    ],
+    "explanation": "$f(-x)=(-x)^3=-x^3=-f(x)$，是奇函数，A 正确；$y=x^3$ 在 $\\mathbb{R}$ 上严格递增，B 正确；奇函数图象关于原点对称而非 $y$ 轴对称，C 错误；当 $x\\to-\\infty$ 时 $x^3\\to-\\infty$，无下界，D 正确。"
+  },
+  {
+    "id": "q-math-domain-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-domain"
+    ],
+    "stem": "函数 $f(x)=\\dfrac{\\sqrt{x+1}}{x-2}$ 的定义域是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(-1,2)\\cup(2,+\\infty)$"
+      },
+      {
+        "key": "B",
+        "text": "$[-1,2)\\cup(2,+\\infty)$"
+      },
+      {
+        "key": "C",
+        "text": "$[-1,+\\infty)$"
+      },
+      {
+        "key": "D",
+        "text": "$(-1,+\\infty)$"
+      }
+    ],
+    "answer": "B",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "定义域",
+      "根式",
+      "分母"
+    ],
+    "explanation": "两个限制：根号内 $x+1\\ge 0$，得 $x\\ge -1$；分母 $x-2\\ne 0$，得 $x\\ne 2$。取交集得 $[-1,2)\\cup(2,+\\infty)$。端点 $-1$ 可以取到（根号内为 0 合法），$2$ 必须挖掉，所以 A 少了一个闭端点、C 漏掉了挖去点。"
+  },
+  {
+    "id": "q-math-domain-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": [
+      "math-domain"
+    ],
+    "stem": "函数 $f(x)=\\log_2(x-1)+\\sqrt{3-x}$ 的定义域是 ____（写成区间形式）。",
+    "blanks": [
+      {
+        "accept": [
+          "(1,3]",
+          "（1,3]",
+          "1<x≤3",
+          "1<x<=3"
+        ],
+        "hint": "真数为正、根号内非负，取交集"
+      }
+    ],
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "定义域",
+      "对数",
+      "根式"
+    ],
+    "explanation": "对数真数为正：$x-1>0$，即 $x>1$；偶次根号内非负：$3-x\\ge 0$，即 $x\\le 3$。两条件同时成立得 $1<x\\le 3$，即 $(1,3]$。易错点是把对数真数写成 $x\\ge 1$，那样会把 $x=1$ 错误地包含进来。"
+  },
+  {
+    "id": "q-math-domain-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-domain",
+      "math-func"
+    ],
+    "stem": "已知函数 $f(x)$ 的定义域为 $[0,2]$，则函数 $g(x)=f(x+1)$ 的定义域是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$[-1,1]$"
+      },
+      {
+        "key": "B",
+        "text": "$[1,3]$"
+      },
+      {
+        "key": "C",
+        "text": "$[0,2]$"
+      },
+      {
+        "key": "D",
+        "text": "$[-1,3]$"
+      }
+    ],
+    "answer": "A",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "抽象函数",
+      "定义域"
+    ],
+    "explanation": "定义域指的是自变量 $x$ 的取值范围。$g(x)=f(x+1)$ 有意义的条件是「括号里的整体」落在 $f$ 的定义域内，即 $0\\le x+1\\le 2$，解得 $-1\\le x\\le 1$。误把 $[0,2]$ 直接平移成 $[1,3]$（选 B）是把定义域和括号内整体的范围搞混了。"
+  },
+  {
+    "id": "q-math-domain-4",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": [
+      "math-domain"
+    ],
+    "stem": "判断：函数 $f(x)=x^0$ 的定义域是 $\\mathbb{R}$。",
+    "answer": false,
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "零次幂",
+      "定义域"
+    ],
+    "explanation": "零次幂要求底数不为零，$x^0=1\\ (x\\ne 0)$，因此定义域是 $\\{x\\mid x\\ne 0\\}$，不是 $\\mathbb{R}$。常见错误是只记住 $x^0=1$ 而漏掉「底数非零」这一限制。"
+  },
+  {
+    "id": "q-math-piecewise-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-piecewise"
+    ],
+    "stem": "已知 $f(x)=\\begin{cases}x+1, & x<0\\\\ x^2, & x\\ge 0\\end{cases}$，则 $f(f(-2))=$（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$4$"
+      },
+      {
+        "key": "B",
+        "text": "$1$"
+      },
+      {
+        "key": "C",
+        "text": "$0$"
+      },
+      {
+        "key": "D",
+        "text": "$-1$"
+      }
+    ],
+    "answer": "C",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "分段函数",
+      "复合求值"
+    ],
+    "explanation": "先算内层：$-2<0$，用第一段，$f(-2)=-2+1=-1$。再算外层：$-1<0$，仍用第一段，$f(-1)=-1+1=0$。选 B 的学生是把 $-1$ 当成非负，误用了 $x^2$ 那一段（$(-1)^2=1$）。"
+  },
+  {
+    "id": "q-math-piecewise-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": [
+      "math-piecewise"
+    ],
+    "stem": "已知 $f(x)=\\begin{cases}x^2, & x\\le 0\\\\ 2x-1, & x>0\\end{cases}$，则 $f(-2)=$ ____，$f(f(-2))=$ ____。",
+    "blanks": [
+      {
+        "accept": [
+          "4"
+        ],
+        "hint": "x=-2 落在 x≤0 这一段"
+      },
+      {
+        "accept": [
+          "7"
+        ],
+        "hint": "先求出内层的值，再判断它落在哪一段"
+      }
+    ],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "分段函数",
+      "求值"
+    ],
+    "explanation": "$-2\\le 0$，所以 $f(-2)=(-2)^2=4$；再算 $f(4)$，因为 $4>0$，用第二段得 $f(4)=2\\times 4-1=7$。关键是每一步都要重新判断自变量落在哪一段，不能一路用同一个解析式。"
+  },
+  {
+    "id": "q-math-piecewise-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-piecewise"
+    ],
+    "stem": "已知 $f(x)=\\begin{cases}x^2-2x, & x\\ge 0\\\\ -x, & x<0\\end{cases}$，若 $f(x)=3$，则所有满足条件的 $x$ 之和为（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$3$"
+      },
+      {
+        "key": "B",
+        "text": "$0$"
+      },
+      {
+        "key": "C",
+        "text": "$-3$"
+      },
+      {
+        "key": "D",
+        "text": "$6$"
+      }
+    ],
+    "answer": "B",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "分段函数",
+      "方程"
+    ],
+    "explanation": "分两段解：当 $x\\ge 0$ 时，$x^2-2x=3$，即 $(x-3)(x+1)=0$，得 $x=3$（$x=-1$ 不在该段，舍去）；当 $x<0$ 时，$-x=3$，得 $x=-3$，符合。两解为 $3$ 与 $-3$，和为 $0$。只解第一段会误选 A，这是最常见的漏解。"
+  },
+  {
+    "id": "q-math-piecewise-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": [
+      "math-piecewise"
+    ],
+    "stem": "已知 $f(x)=\\begin{cases}x+1, & x\\le 1\\\\ 3-x, & x>1\\end{cases}$，下列说法正确的有（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$f(1)=2$"
+      },
+      {
+        "key": "B",
+        "text": "$f(x)$ 的最大值为 $2$"
+      },
+      {
+        "key": "C",
+        "text": "$f(x)$ 在 $\\mathbb{R}$ 上单调递增"
+      },
+      {
+        "key": "D",
+        "text": "方程 $f(x)=0$ 恰有两个实根"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "分段函数",
+      "最值",
+      "零点"
+    ],
+    "explanation": "$x=1$ 属于第一段，$f(1)=2$，A 正确。当 $x\\le 1$ 时 $f(x)=x+1\\le 2$；当 $x>1$ 时 $f(x)=3-x<2$，故最大值为 2，B 正确。函数在 $x>1$ 的部分递减，整体不单调，C 错误。$f(x)=0$：第一段 $x+1=0$ 得 $x=-1$；第二段 $3-x=0$ 得 $x=3$，共两个根，D 正确。"
+  },
+  {
+    "id": "q-math-func-property-1",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": [
+      "math-func-property"
+    ],
+    "stem": "判断：若 $f(x)$ 是奇函数，且 $f(0)$ 有意义，则 $f(0)=0$。",
+    "answer": true,
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "奇函数",
+      "赋值"
+    ],
+    "explanation": "奇函数满足 $f(-x)=-f(x)$ 对定义域内任意 $x$ 成立。取 $x=0$ 得 $f(0)=-f(0)$，即 $2f(0)=0$，所以 $f(0)=0$。前提是 $0$ 在定义域内，例如 $f(x)=\\dfrac1x$ 是奇函数但 $f(0)$ 无意义，此时不能套用这个结论。"
+  },
+  {
+    "id": "q-math-func-property-2",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-func-property"
+    ],
+    "stem": "已知 $f(x)$ 是定义在 $\\mathbb{R}$ 上的偶函数，且在 $[0,+\\infty)$ 上单调递增，则 $f(-2),f(1),f(3)$ 的大小关系是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$f(1)<f(-2)<f(3)$"
+      },
+      {
+        "key": "B",
+        "text": "$f(-2)<f(1)<f(3)$"
+      },
+      {
+        "key": "C",
+        "text": "$f(3)<f(-2)<f(1)$"
+      },
+      {
+        "key": "D",
+        "text": "$f(1)<f(3)<f(-2)$"
+      }
+    ],
+    "answer": "A",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "偶函数",
+      "单调性",
+      "比较大小"
+    ],
+    "explanation": "偶函数满足 $f(-2)=f(2)$，于是只需比较自变量绝对值：$|1|<|-2|<|3|$，即 $1<2<3$。又 $f$ 在 $[0,+\\infty)$ 上递增，所以 $f(1)<f(2)<f(3)$，即 $f(1)<f(-2)<f(3)$。直接把 $-2$ 当作比 $1$ 小去比较（选 B）是没有利用偶函数转化。"
+  },
+  {
+    "id": "q-math-func-property-3",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": [
+      "math-func-property"
+    ],
+    "stem": "已知 $f(x)$ 是定义在 $\\mathbb{R}$ 上的奇函数，当 $x>0$ 时 $f(x)=x^2-2x$，则 $f(-1)=$ ____。",
+    "blanks": [
+      {
+        "accept": [
+          "1"
+        ],
+        "hint": "先用 x>0 的解析式求 f(1)，再用奇函数性质"
+      }
+    ],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "奇函数",
+      "求值"
+    ],
+    "explanation": "先把 $-1$ 转化为正数：由奇函数性质 $f(-1)=-f(1)$；而 $1>0$，代入已知解析式得 $f(1)=1-2=-1$。所以 $f(-1)=-(-1)=1$。易错点是把 $x=-1$ 直接代入 $x^2-2x$ 得 $3$，忽略了该解析式只在 $x>0$ 时成立。"
+  },
+  {
+    "id": "q-math-func-property-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": [
+      "math-func-property"
+    ],
+    "stem": "下列说法正确的有（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "若 $f(x)$ 为奇函数，则对其定义域内任意 $x$ 都有 $f(x)f(-x)\\le 0$"
+      },
+      {
+        "key": "B",
+        "text": "若对任意 $x$ 都有 $f(x+2)=f(x)$，则 $2$ 是 $f(x)$ 的一个周期"
+      },
+      {
+        "key": "C",
+        "text": "偶函数在关于原点对称的两个区间上单调性相反"
+      },
+      {
+        "key": "D",
+        "text": "奇函数在其定义域上一定单调"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "奇偶性",
+      "周期性",
+      "单调性"
+    ],
+    "explanation": "A：奇函数有 $f(-x)=-f(x)$，于是 $f(x)f(-x)=-f^2(x)\\le 0$，正确。B：周期的定义就是存在非零常数 $T$ 使 $f(x+T)=f(x)$ 恒成立，这里 $T=2$，正确。C：设偶函数在 $[0,+\\infty)$ 上递增，则 $x_1<x_2<0$ 时 $-x_2<-x_1$，有 $f(x_1)=f(-x_1)>f(-x_2)=f(x_2)$，即在 $(-\\infty,0]$ 上递减，单调性相反，正确。D：$f(x)=\\dfrac1x$ 是奇函数但在定义域上不单调，错误。"
+  },
+  {
+    "id": "q-math-basic-elem-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-basic-elem"
+    ],
+    "stem": "设 $a=2^{0.3}$，$b=0.3^{2}$，$c=\\log_2 0.3$，则 $a,b,c$ 的大小关系是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$b<a<c$"
+      },
+      {
+        "key": "B",
+        "text": "$a<b<c$"
+      },
+      {
+        "key": "C",
+        "text": "$c<b<a$"
+      },
+      {
+        "key": "D",
+        "text": "$c<a<b$"
+      }
+    ],
+    "answer": "C",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "指数",
+      "对数",
+      "比较大小"
+    ],
+    "explanation": "用中间量 $0$ 和 $1$ 分层：$a=2^{0.3}>2^0=1$；$b=0.3^2=0.09\\in(0,1)$；$c=\\log_2 0.3<\\log_2 1=0$。所以 $c<0<b<1<a$，即 $c<b<a$。这类题的关键是先用 $0,1$ 把三个数分到三个区间，而不是盲目估算。"
+  },
+  {
+    "id": "q-math-basic-elem-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": [
+      "math-basic-elem"
+    ],
+    "stem": "计算：$\\log_2 8+\\left(\\dfrac{1}{2}\\right)^{-1}=$ ____。",
+    "blanks": [
+      {
+        "accept": [
+          "5"
+        ],
+        "hint": "log₂8=3，(1/2)⁻¹=2"
+      }
+    ],
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "对数运算",
+      "负指数幂"
+    ],
+    "explanation": "$\\log_2 8=\\log_2 2^3=3$；$\\left(\\dfrac12\\right)^{-1}=2$。所以原式 $=3+2=5$。负指数幂常被错算成 $-2$，那样会得到 $1$，这是最典型的错误。"
+  },
+  {
+    "id": "q-math-basic-elem-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-basic-elem",
+      "math-func-graph"
+    ],
+    "stem": "函数 $y=\\log_a(x-1)+2\\ (a>1)$ 的图象恒过定点（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(1,2)$"
+      },
+      {
+        "key": "B",
+        "text": "$(2,2)$"
+      },
+      {
+        "key": "C",
+        "text": "$(2,3)$"
+      },
+      {
+        "key": "D",
+        "text": "$(0,2)$"
+      }
+    ],
+    "answer": "B",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "对数函数",
+      "定点"
+    ],
+    "explanation": "利用 $\\log_a 1=0$ 与 $a$ 无关这一性质：令真数 $x-1=1$，得 $x=2$，此时 $y=0+2=2$，所以图象恒过定点 $(2,2)$。把 $x=1$ 代入会得到真数为 0 的不合法情形，这正是选项 A 的陷阱。"
+  },
+  {
+    "id": "q-math-basic-elem-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": [
+      "math-basic-elem"
+    ],
+    "stem": "关于函数 $y=\\log_{0.5}x$，下列说法正确的有（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "定义域为 $(0,+\\infty)$"
+      },
+      {
+        "key": "B",
+        "text": "在 $(0,+\\infty)$ 上单调递减"
+      },
+      {
+        "key": "C",
+        "text": "图象关于 $y$ 轴对称"
+      },
+      {
+        "key": "D",
+        "text": "当 $0<x<1$ 时，$y>0$"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "对数函数",
+      "单调性",
+      "符号"
+    ],
+    "explanation": "对数函数真数为正，定义域 $(0,+\\infty)$，A 正确。底数 $0.5\\in(0,1)$，函数递减，B 正确。$y=\\log_{0.5}x$ 只对 $x>0$ 有定义，不关于 $y$ 轴对称（偶函数才对称），C 错误。由递减性，$0<x<1$ 时 $\\log_{0.5}x>\\log_{0.5}1=0$，D 正确。"
+  },
+  {
+    "id": "q-math-func-graph-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-func-graph"
+    ],
+    "stem": "要由 $y=f(x)$ 的图象得到 $y=f(x+2)-1$ 的图象，应将原图象（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "向右平移 $2$ 个单位，再向下平移 $1$ 个单位"
+      },
+      {
+        "key": "B",
+        "text": "向左平移 $2$ 个单位，再向上平移 $1$ 个单位"
+      },
+      {
+        "key": "C",
+        "text": "向右平移 $2$ 个单位，再向上平移 $1$ 个单位"
+      },
+      {
+        "key": "D",
+        "text": "向左平移 $2$ 个单位，再向下平移 $1$ 个单位"
+      }
+    ],
+    "answer": "D",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "图象变换",
+      "平移"
+    ],
+    "explanation": "口诀「左加右减、上加下减」：$f(x+2)$ 是把 $x$ 换成 $x+2$，图象向左平移 $2$ 个单位（注意是「加在自变量上」向左）；最后的 $-1$ 加在整个函数值上，图象向下平移 $1$ 个单位。两项合起来就是左移 2、下移 1。"
+  },
+  {
+    "id": "q-math-func-graph-2",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": [
+      "math-func-graph",
+      "math-func-property"
+    ],
+    "stem": "判断：函数 $y=f(x)$ 与 $y=f(-x)$ 的图象关于 $y$ 轴对称。",
+    "answer": true,
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "对称变换",
+      "图象"
+    ],
+    "explanation": "设点 $(x_0,y_0)$ 在 $y=f(x)$ 上，即 $y_0=f(x_0)$。则 $f(-(-x_0))=f(x_0)=y_0$，说明 $(-x_0,y_0)$ 在 $y=f(-x)$ 的图象上。两点纵坐标相同、横坐标互为相反数，正是关于 $y$ 轴对称。类似地 $y=-f(x)$ 与 $y=f(x)$ 关于 $x$ 轴对称。"
+  },
+  {
+    "id": "q-math-func-graph-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-func-graph"
+    ],
+    "stem": "函数 $y=\\dfrac{x}{x-1}$ 的图象的对称中心是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(0,1)$"
+      },
+      {
+        "key": "B",
+        "text": "$(-1,1)$"
+      },
+      {
+        "key": "C",
+        "text": "$(1,1)$"
+      },
+      {
+        "key": "D",
+        "text": "$(1,-1)$"
+      }
+    ],
+    "answer": "C",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "分离常数",
+      "对称中心",
+      "双曲线"
+    ],
+    "explanation": "先分离常数：$y=\\dfrac{x-1+1}{x-1}=1+\\dfrac{1}{x-1}$。它是由 $y=\\dfrac1x$ 向右平移 $1$、向上平移 $1$ 得到的，而 $y=\\dfrac1x$ 的对称中心是原点，故所求对称中心为 $(1,1)$。不分离常数直接看分母零点 $x=1$ 只能得到一条渐近线，容易漏掉纵向的平移。"
+  },
+  {
+    "id": "q-math-func-graph-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": [
+      "math-func-graph"
+    ],
+    "stem": "关于函数 $y=|x-1|$ 的图象，下列说法正确的有（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "可由 $y=|x|$ 的图象向右平移 $1$ 个单位得到"
+      },
+      {
+        "key": "B",
+        "text": "图象关于直线 $x=1$ 对称"
+      },
+      {
+        "key": "C",
+        "text": "在 $[1,+\\infty)$ 上单调递增"
+      },
+      {
+        "key": "D",
+        "text": "图象与 $x$ 轴没有公共点"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "绝对值函数",
+      "图象变换",
+      "对称性"
+    ],
+    "explanation": "$y=|x-1|$ 是把 $y=|x|$ 的图象右移 1 个单位，顶点从 $(0,0)$ 移到 $(1,0)$，A 正确；顶点处是折点，图象关于 $x=1$ 对称，B 正确；在 $x\\ge 1$ 上 $y=x-1$ 递增，C 正确；$x=1$ 时 $y=0$，图象与 $x$ 轴相切于 $(1,0)$，有一个公共点，D 错误。"
+  },
+  {
+    "id": "q-math-func-zero-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-func-zero"
+    ],
+    "stem": "函数 $f(x)=2^x+x-4$ 的零点所在的区间是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(0,1)$"
+      },
+      {
+        "key": "B",
+        "text": "$(1,2)$"
+      },
+      {
+        "key": "C",
+        "text": "$(2,3)$"
+      },
+      {
+        "key": "D",
+        "text": "$(3,4)$"
+      }
+    ],
+    "answer": "B",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "零点存在定理",
+      "二分法"
+    ],
+    "explanation": "$f(x)$ 在 $\\mathbb{R}$ 上连续且递增。计算端点值：$f(1)=2+1-4=-1<0$，$f(2)=4+2-4=2>0$，故 $f(1)f(2)<0$，由零点存在定理，零点在 $(1,2)$ 内。只需找到一正一负的相邻整数点，不必真求出零点。"
+  },
+  {
+    "id": "q-math-func-zero-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": [
+      "math-func-zero"
+    ],
+    "stem": "函数 $f(x)=x^2-3x+2$ 的两个零点之和为 ____。",
+    "blanks": [
+      {
+        "accept": [
+          "3"
+        ],
+        "hint": "零点就是方程 x²-3x+2=0 的根，可用韦达定理"
+      }
+    ],
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "零点",
+      "韦达定理"
+    ],
+    "explanation": "零点即方程 $x^2-3x+2=0$ 的根，因式分解得 $(x-1)(x-2)=0$，两根为 $1$ 和 $2$，和为 $3$。也可直接用韦达定理：两根之和 $=-\\dfrac{b}{a}=3$。注意「零点」是横坐标，不是点 $(1,0)$、$(2,0)$。"
+  },
+  {
+    "id": "q-math-func-zero-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-func-zero"
+    ],
+    "stem": "若方程 $x^2-2x+a=0$ 在区间 $(0,3)$ 内有两个不同的实根，则实数 $a$ 的取值范围是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(0,1)$"
+      },
+      {
+        "key": "B",
+        "text": "$(0,1]$"
+      },
+      {
+        "key": "C",
+        "text": "$(-3,1)$"
+      },
+      {
+        "key": "D",
+        "text": "$[0,1)$"
+      }
+    ],
+    "answer": "A",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "含参零点",
+      "二次方程根的分布"
+    ],
+    "explanation": "设 $f(x)=x^2-2x+a$，开口向上，对称轴 $x=1$ 落在 $(0,3)$ 内。两不同实根都在 $(0,3)$ 内需同时满足：判别式 $\\Delta=4-4a>0$，即 $a<1$；$f(0)=a>0$ 且 $f(3)=3+a>0$，即 $a>0$。取交集得 $0<a<1$。当 $a=1$ 时 $\\Delta=0$ 只有一个重根，故不能取端点，B 错；漏掉 $f(0)>0$ 会得到 $(-3,1)$，C 错。"
+  },
+  {
+    "id": "q-math-func-zero-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": [
+      "math-func-zero"
+    ],
+    "stem": "关于函数的零点与方程根，下列说法正确的有（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "函数 $y=f(x)$ 的零点就是方程 $f(x)=0$ 的实根，也是图象与 $x$ 轴交点的横坐标"
+      },
+      {
+        "key": "B",
+        "text": "若 $f(x)$ 在 $[a,b]$ 上连续且 $f(a)f(b)<0$，则 $f(x)$ 在 $(a,b)$ 内至少有一个零点"
+      },
+      {
+        "key": "C",
+        "text": "若 $f(x)$ 在 $[a,b]$ 上连续且单调，$f(a)f(b)<0$，则 $f(x)$ 在 $(a,b)$ 内恰有一个零点"
+      },
+      {
+        "key": "D",
+        "text": "若 $f(a)f(b)>0$，则 $f(x)$ 在 $(a,b)$ 内一定没有零点"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "零点存在定理",
+      "零点个数"
+    ],
+    "explanation": "A 是零点的三种等价说法，正确。B 就是零点存在定理，正确。C 中连续性保证至少一个，单调性保证至多一个，故恰有一个，正确。D 错误：如 $f(x)=x^2-1$ 在 $[-2,2]$ 上满足 $f(-2)f(2)=9>0$，但在 $(-2,2)$ 内有零点 $\\pm1$，所以乘积同号不能否定零点存在。"
+  },
+  {
+    "id": "q-math-derivative-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-derivative"
+    ],
+    "stem": "函数 $f(x)=x^3-3x$ 的单调递减区间是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(-\\infty,-1)$"
+      },
+      {
+        "key": "B",
+        "text": "$(1,+\\infty)$"
+      },
+      {
+        "key": "C",
+        "text": "$(-1,1)$"
+      },
+      {
+        "key": "D",
+        "text": "$(-\\infty,-1)\\cup(1,+\\infty)$"
+      }
+    ],
+    "answer": "C",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "导数",
+      "单调区间"
+    ],
+    "explanation": "$f'(x)=3x^2-3=3(x-1)(x+1)$。令 $f'(x)<0$ 得 $-1<x<1$，所以递减区间为 $(-1,1)$；令 $f'(x)>0$ 得递增区间为 $(-\\infty,-1)$ 和 $(1,+\\infty)$。D 把递增区间当成了递减区间，是最常见的符号判断错误。"
+  },
+  {
+    "id": "q-math-derivative-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": [
+      "math-derivative"
+    ],
+    "stem": "函数 $f(x)=x\\ln x$ 的单调递增区间是 ____。",
+    "blanks": [
+      {
+        "accept": [
+          "(1/e,+∞)",
+          "(1/e, +∞)",
+          "x>1/e",
+          "(e^{-1},+∞)"
+        ],
+        "hint": "先写定义域 x>0，再解 f'(x)>0"
+      }
+    ],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "导数",
+      "单调区间",
+      "对数函数"
+    ],
+    "explanation": "定义域为 $x>0$。$f'(x)=\\ln x+1$，令 $\\ln x+1>0$ 得 $x>\\dfrac1e$，故递增区间为 $\\left(\\dfrac1e,+\\infty\\right)$。容易出错的两处：忘记先写定义域 $x>0$；把 $\\ln x+1>0$ 解成 $x>e$（把 $\\ln x>-1$ 与 $\\ln x>1$ 混淆）。"
+  },
+  {
+    "id": "q-math-derivative-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-derivative"
+    ],
+    "stem": "若函数 $f(x)=x^3+ax$ 在 $\\mathbb{R}$ 上单调递增，则实数 $a$ 的取值范围是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$a\\ge 0$"
+      },
+      {
+        "key": "B",
+        "text": "$a>0$"
+      },
+      {
+        "key": "C",
+        "text": "$a\\le 0$"
+      },
+      {
+        "key": "D",
+        "text": "$a\\ge 3$"
+      }
+    ],
+    "answer": "A",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "含参单调性",
+      "恒成立"
+    ],
+    "explanation": "$f'(x)=3x^2+a$，在 $\\mathbb{R}$ 上递增要求 $f'(x)\\ge 0$ 恒成立（允许个别点等于 0），即 $a\\ge -3x^2$ 恒成立，而 $-3x^2$ 的最大值为 $0$，故 $a\\ge 0$。当 $a=0$ 时 $f(x)=x^3$ 仍严格递增，所以端点 $0$ 可取，选 $a>0$ 会把 $a=0$ 丢掉。"
+  },
+  {
+    "id": "q-math-derivative-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": [
+      "math-derivative",
+      "math-derivative-extrema"
+    ],
+    "stem": "关于导数与单调性，下列说法正确的有（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "若 $f'(x)>0$ 在区间 $I$ 上恒成立，则 $f(x)$ 在 $I$ 上单调递增"
+      },
+      {
+        "key": "B",
+        "text": "若 $f(x)$ 在区间 $I$ 上单调递增，则 $f'(x)>0$ 在 $I$ 上恒成立"
+      },
+      {
+        "key": "C",
+        "text": "$f'(x_0)=0$ 是 $x_0$ 为极值点的必要不充分条件（$f$ 在 $x_0$ 处可导）"
+      },
+      {
+        "key": "D",
+        "text": "求单调区间前必须先确定函数的定义域"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "导数",
+      "单调性",
+      "极值点"
+    ],
+    "explanation": "A 是导数与单调性的基本定理，正确。B 错：$f(x)=x^3$ 在 $\\mathbb{R}$ 上递增，但 $f'(0)=0$，正确结论应是 $f'(x)\\ge 0$。C 正确：可导的极值点必满足 $f'(x_0)=0$（必要性），而 $f'(x_0)=0$ 不一定取极值，如 $f(x)=x^3$ 在 $0$ 处（不充分）。D 正确：如 $f(x)=\\ln x-x$ 只在 $x>0$ 上讨论单调性，漏定义域会写出错误的区间。"
+  },
+  {
+    "id": "q-math-derivative-geo-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-derivative-geo"
+    ],
+    "stem": "曲线 $y=x^3$ 在点 $(1,1)$ 处的切线方程是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$y=3x+2$"
+      },
+      {
+        "key": "B",
+        "text": "$y=3x-2$"
+      },
+      {
+        "key": "C",
+        "text": "$y=3x-1$"
+      },
+      {
+        "key": "D",
+        "text": "$y=x$"
+      }
+    ],
+    "answer": "B",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "切线",
+      "导数几何意义"
+    ],
+    "explanation": "$y'=3x^2$，在 $x=1$ 处斜率 $k=3$。由点斜式：$y-1=3(x-1)$，化简得 $y=3x-2$。只把 $k=3$ 写出而忘记代点 $(1,1)$，就会得到 $y=3x$ 或 $y=3x-1$ 这类错误答案。"
+  },
+  {
+    "id": "q-math-derivative-geo-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": [
+      "math-derivative-geo"
+    ],
+    "stem": "曲线 $y=\\ln x$ 在 $x=1$ 处的切线方程是 ____。",
+    "blanks": [
+      {
+        "accept": [
+          "y=x-1",
+          "y=x−1",
+          "x-y-1=0",
+          "y=x - 1"
+        ],
+        "hint": "斜率为 f'(1)，再代点 (1,0)"
+      }
+    ],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "切线方程",
+      "对数函数"
+    ],
+    "explanation": "$y'=\\dfrac1x$，故 $k=y'\\big|_{x=1}=1$；切点为 $(1,\\ln 1)=(1,0)$。点斜式：$y-0=1\\cdot(x-1)$，即 $y=x-1$。易错点是把切点写成 $(1,1)$（误以为 $\\ln 1=1$），那样会得到 $y=x$。"
+  },
+  {
+    "id": "q-math-derivative-geo-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-derivative-geo"
+    ],
+    "stem": "过点 $(0,-1)$ 且与曲线 $y=x^2$ 相切的直线共有（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0$ 条"
+      },
+      {
+        "key": "B",
+        "text": "$1$ 条"
+      },
+      {
+        "key": "C",
+        "text": "$2$ 条"
+      },
+      {
+        "key": "D",
+        "text": "$3$ 条"
+      }
+    ],
+    "answer": "C",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "过点切线",
+      "设切点"
+    ],
+    "explanation": "点 $(0,-1)$ 不在曲线上，需设切点 $(t,t^2)$。斜率 $k=2t$，切线为 $y-t^2=2t(x-t)$。代入 $x=0,\\ y=-1$：$-1-t^2=-2t^2$，得 $t^2=1$，$t=\\pm 1$。对应两条切线 $y=2x-1$ 与 $y=-2x-1$，故有 2 条。直接把 $(0,-1)$ 当切点会得到 1 条的错误结论（选 B）。"
+  },
+  {
+    "id": "q-math-derivative-geo-4",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": [
+      "math-derivative-geo"
+    ],
+    "stem": "判断：曲线 $y=f(x)$ 在点 $(x_0,f(x_0))$ 处的切线一定存在。",
+    "answer": false,
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "可导",
+      "切线存在性"
+    ],
+    "explanation": "切线斜率等于 $f'(x_0)$，只有 $f$ 在 $x_0$ 处可导时才存在。如 $f(x)=|x|$ 在 $x_0=0$ 处不可导，曲线在该点是一个尖点，没有唯一切线。切线存在等价于该点可导，与函数在附近是否单调无关。"
+  },
+  {
+    "id": "q-math-derivative-extrema-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-derivative-extrema"
+    ],
+    "stem": "函数 $f(x)=x^3-3x^2+2$ 的极大值是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-2$"
+      },
+      {
+        "key": "B",
+        "text": "$0$"
+      },
+      {
+        "key": "C",
+        "text": "$1$"
+      },
+      {
+        "key": "D",
+        "text": "$2$"
+      }
+    ],
+    "answer": "D",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "极值",
+      "导数符号表"
+    ],
+    "explanation": "$f'(x)=3x^2-6x=3x(x-2)$，驻点 $x=0,2$。当 $x<0$ 时 $f'>0$，$0<x<2$ 时 $f'<0$，$x>2$ 时 $f'>0$，故 $x=0$ 处取极大值 $f(0)=2$，$x=2$ 处取极小值 $f(2)=8-12+2=-2$。混淆极大与极小就会错选 A。"
+  },
+  {
+    "id": "q-math-derivative-extrema-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": [
+      "math-derivative-extrema"
+    ],
+    "stem": "函数 $f(x)=x^3-3x$ 在区间 $[-2,2]$ 上的最大值是 ____。",
+    "blanks": [
+      {
+        "accept": [
+          "2"
+        ],
+        "hint": "比较两个极值点与两个端点的函数值"
+      }
+    ],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "闭区间最值",
+      "极值"
+    ],
+    "explanation": "$f'(x)=3x^2-3$，驻点 $x=\\pm1$，均在区间内。计算：$f(-2)=-8+6=-2$，$f(-1)=-1+3=2$，$f(1)=1-3=-2$，$f(2)=8-6=2$。最大值为 $2$。只算极值点、不算端点，或用极大值代替最大值，都会漏掉另一个取到最大值的点。"
+  },
+  {
+    "id": "q-math-derivative-extrema-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-derivative-extrema"
+    ],
+    "stem": "若 $x=1$ 是函数 $f(x)=x^3-3ax$ 的极小值点，则实数 $a$ 的值为（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-1$"
+      },
+      {
+        "key": "B",
+        "text": "$1$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{1}{3}$"
+      },
+      {
+        "key": "D",
+        "text": "$3$"
+      }
+    ],
+    "answer": "B",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "含参极值",
+      "必要条件检验"
+    ],
+    "explanation": "$f'(x)=3x^2-3a$。$x=1$ 是极值点，必有 $f'(1)=3-3a=0$，得 $a=1$。代回检验：$f'(x)=3(x-1)(x+1)$，$x<1$ 且接近 1 时 $f'<0$，$x>1$ 时 $f'>0$，确实是极小值点。只由 $f'(1)=0$ 解出 $a$ 而不检验，可能把极大值点或非极值点误当极小值点。"
+  },
+  {
+    "id": "q-math-derivative-extrema-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": [
+      "math-derivative-extrema"
+    ],
+    "stem": "关于极值与最值，下列说法正确的有（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "函数的极值点只能出现在导数为零或导数不存在的点处"
+      },
+      {
+        "key": "B",
+        "text": "若 $f'(x_0)=0$，则 $x_0$ 一定是 $f(x)$ 的极值点"
+      },
+      {
+        "key": "C",
+        "text": "闭区间上的连续函数一定既有最大值又有最小值"
+      },
+      {
+        "key": "D",
+        "text": "函数在闭区间上的最大值一定是它的某个极大值"
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "极值",
+      "最值",
+      "闭区间"
+    ],
+    "explanation": "A 正确：极值点处若可导则导数为 0，否则导数不存在，没有第三种可能。B 错：$f(x)=x^3$ 在 $0$ 处 $f'(0)=0$，但函数单调递增，$0$ 不是极值点。C 是闭区间上连续函数的最值定理，正确。D 错：最值可能在端点取得，如 $f(x)=x$ 在 $[0,1]$ 上最大值 1 在端点，而端点不是极值点。"
+  },
+  {
+    "id": "q-math-derivative-ineq-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-derivative-ineq"
+    ],
+    "stem": "要用导数证明不等式 $e^x\\ge x+1$ 对任意 $x\\in\\mathbb{R}$ 成立，最自然的做法是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "取 $x=0,1,2$ 代入验证左右两边的大小"
+      },
+      {
+        "key": "B",
+        "text": "构造 $h(x)=e^x-x-1$，用导数求出 $h(x)$ 的最小值并证明最小值不小于 $0$"
+      },
+      {
+        "key": "C",
+        "text": "对不等式两边同时取自然对数"
+      },
+      {
+        "key": "D",
+        "text": "用基本不等式 $e^x+1\\ge 2\\sqrt{e^x}$ 直接放缩"
+      }
+    ],
+    "answer": "B",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "构造函数",
+      "不等式证明"
+    ],
+    "explanation": "证明 $f(x)\\ge g(x)$ 的通法是作差构造 $h(x)=f(x)-g(x)$，把问题转化为 $h_{\\min}\\ge 0$。这里 $h(x)=e^x-x-1$，$h'(x)=e^x-1$，$x<0$ 时 $h'<0$、$x>0$ 时 $h'>0$，故 $h_{\\min}=h(0)=0$，不等式成立且等号仅在 $x=0$ 处成立。A 只是举例，不能代替证明；C 会破坏不等式结构；D 放缩得到的是另一条不等式，方向也无法推出原式。"
+  },
+  {
+    "id": "q-math-derivative-ineq-2",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": [
+      "math-derivative-ineq"
+    ],
+    "stem": "判断：对任意 $x>0$，都有 $\\ln x\\le x-1$。",
+    "answer": true,
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "对数不等式",
+      "最值"
+    ],
+    "explanation": "令 $h(x)=x-1-\\ln x\\ (x>0)$，则 $h'(x)=1-\\dfrac1x=\\dfrac{x-1}{x}$。当 $0<x<1$ 时 $h'<0$，当 $x>1$ 时 $h'>0$，故 $h$ 在 $x=1$ 处取最小值 $h(1)=0$，于是 $h(x)\\ge 0$，即 $\\ln x\\le x-1$，等号仅在 $x=1$ 处成立。这是最常用的切线放缩不等式之一。"
+  },
+  {
+    "id": "q-math-derivative-ineq-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": [
+      "math-derivative-ineq",
+      "math-derivative-extrema"
+    ],
+    "stem": "函数 $f(x)=x-\\ln x\\ (x>0)$ 的最小值是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1$"
+      },
+      {
+        "key": "B",
+        "text": "$0$"
+      },
+      {
+        "key": "C",
+        "text": "$e$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{1}{e}$"
+      }
+    ],
+    "answer": "A",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "最值",
+      "对数函数",
+      "导数"
+    ],
+    "explanation": "$f'(x)=1-\\dfrac1x=\\dfrac{x-1}{x}$。当 $0<x<1$ 时 $f'<0$，当 $x>1$ 时 $f'>0$，所以 $f$ 在 $x=1$ 处取得最小值 $f(1)=1-0=1$。这一结果正是不等式 $x-1\\ge\\ln x$ 的来源，与 $\\ln x\\le x-1$ 等价。"
+  },
+  {
+    "id": "q-math-derivative-ineq-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": [
+      "math-derivative-ineq"
+    ],
+    "stem": "关于用导数证明不等式，下列说法正确的有（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "证明 $f(x)\\ge g(x)$ 常构造 $h(x)=f(x)-g(x)$，再证明 $h(x)$ 的最小值不小于 $0$"
+      },
+      {
+        "key": "B",
+        "text": "若构造出的 $h(x)$ 的最小值恰好为 $0$，则等号在取到最小值的点处成立"
+      },
+      {
+        "key": "C",
+        "text": "用 $e^x\\ge x+1$ 放缩时，可以根据需要随意改变不等号的方向"
+      },
+      {
+        "key": "D",
+        "text": "只要验证了 $h(x)\\ge 0$ 在若干个特殊点成立，就能断定 $h(x)\\ge 0$ 恒成立"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": [
+      "构造函数",
+      "放缩",
+      "等号条件"
+    ],
+    "explanation": "A 是证明不等式的标准套路，正确。B 正确：最小值为 0 说明存在 $x_0$ 使 $h(x_0)=0$，即 $f(x_0)=g(x_0)$，等号成立。C 错：放缩必须保持方向，只能把待证式放大到某个已知成立的上界或缩小到已知成立的下界，随意变号会导致逻辑断裂。D 错：有限个特殊点不能代表整个区间，必须借助单调性或最值说明恒成立。"
+  },
+  {
+    "id": "q-math-derivative-ineq-5",
+    "subjectId": "math",
+    "type": "short",
+    "kpIds": [
+      "math-derivative-ineq",
+      "math-derivative-extrema"
+    ],
+    "stem": "已知函数 $f(x)=x\\ln x$。\n\n（1）求 $f(x)$ 的最小值；\n\n（2）证明：当 $x>0$ 时，$x\\ln x\\ge x-1$。",
+    "rubric": [
+      {
+        "text": "写出定义域 $x>0$，求导得 $f'(x)=\\ln x+1$，并解 $f'(x)=0$ 得 $x=\\dfrac{1}{e}$",
+        "score": 2
+      },
+      {
+        "text": "判断 $f$ 在 $\\left(0,\\dfrac1e\\right)$ 上递减、在 $\\left(\\dfrac1e,+\\infty\\right)$ 上递增，得出最小值 $f\\left(\\dfrac1e\\right)=-\\dfrac1e$",
+        "score": 3
+      },
+      {
+        "text": "构造函数 $h(x)=x\\ln x-x+1$，求导得 $h'(x)=\\ln x$",
+        "score": 2
+      },
+      {
+        "text": "由 $h$ 在 $(0,1)$ 上递减、在 $(1,+\\infty)$ 上递增及 $h(1)=0$，得 $h(x)\\ge 0$，从而原不等式成立（并指出等号在 $x=1$ 处成立）",
+        "score": 3
+      }
+    ],
+    "reference": "（1）定义域 $x>0$，$f'(x)=\\ln x+1$。令 $f'(x)=0$ 得 $x=\\dfrac1e$。当 $0<x<\\dfrac1e$ 时 $f'(x)<0$，当 $x>\\dfrac1e$ 时 $f'(x)>0$，故 $f$ 在 $x=\\dfrac1e$ 处取最小值 $f\\left(\\dfrac1e\\right)=\\dfrac1e\\ln\\dfrac1e=-\\dfrac1e$。\n\n（2）令 $h(x)=x\\ln x-x+1\\ (x>0)$，则 $h'(x)=\\ln x$。当 $0<x<1$ 时 $h'(x)<0$，$h$ 递减；当 $x>1$ 时 $h'(x)>0$，$h$ 递增。所以 $h_{\\min}=h(1)=0$，即 $x\\ln x-x+1\\ge 0$，故 $x\\ln x\\ge x-1$，等号在 $x=1$ 时成立。",
+    "maxScore": 10,
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "不等式证明",
+      "最小值",
+      "构造法"
+    ],
+    "explanation": "第（1）问是常规的求导定最值，务必先写定义域 $x>0$，再列表判断符号变化；不要漏掉「最小值点 $x=\\dfrac1e$ 在定义域内」这一检验。第（2）问的关键是作差构造 $h(x)=x\\ln x-x+1$，注意 $h'(x)=\\ln x$ 恰好很简洁，不需要再求二阶导；最后由最小值为 0 得出恒成立，并说明等号成立的条件，这是拿满分的关键细节。"
+  },
+  {
+    "id": "q-math-derivative-extrema-5",
+    "subjectId": "math",
+    "type": "short",
+    "kpIds": [
+      "math-derivative-extrema",
+      "math-derivative-ineq"
+    ],
+    "stem": "已知函数 $f(x)=e^x-ax-1\\ (a\\in\\mathbb{R})$。\n\n（1）当 $a=1$ 时，求 $f(x)$ 的极小值；\n\n（2）若 $f(x)\\ge 0$ 对任意 $x\\in\\mathbb{R}$ 恒成立，求 $a$ 的值。",
+    "rubric": [
+      {
+        "text": "求导得 $f'(x)=e^x-a$",
+        "score": 2
+      },
+      {
+        "text": "$a=1$ 时由 $f'(x)=0$ 得 $x=0$，说明 $x<0$ 时 $f'<0$、$x>0$ 时 $f'>0$，得出极小值 $f(0)=0$",
+        "score": 3
+      },
+      {
+        "text": "由 $f(0)=0$ 及 $f(x)\\ge 0$ 恒成立，判定 $x=0$ 是最小值点，故 $f'(0)=1-a=0$，得 $a=1$",
+        "score": 3
+      },
+      {
+        "text": "验证 $a=1$ 时 $e^x\\ge x+1$ 恒成立（如说明 $g(x)=e^x-x-1$ 的最小值为 $0$），确认答案",
+        "score": 2
+      }
+    ],
+    "reference": "（1）$a=1$ 时 $f(x)=e^x-x-1$，$f'(x)=e^x-1$。令 $f'(x)=0$ 得 $x=0$；$x<0$ 时 $e^x<1$，$f'(x)<0$；$x>0$ 时 $f'(x)>0$。故 $f$ 在 $x=0$ 处取极小值 $f(0)=1-0-1=0$。\n\n（2）注意 $f(0)=1-0-1=0$。若 $f(x)\\ge 0$ 对一切 $x$ 成立，则 $x=0$ 是 $f$ 的最小值点，而 $f$ 处处可导，故 $f'(0)=0$，即 $1-a=0$，得 $a=1$。反过来当 $a=1$ 时 $f(x)=e^x-x-1$，由（1）知 $f_{\\min}=0$，条件确实成立。所以 $a=1$。",
+    "maxScore": 10,
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": [
+      "含参最值",
+      "恒成立",
+      "必要条件"
+    ],
+    "explanation": "第（1）问按「求导—求驻点—判符号—算极值」四步走，注意极小值是函数值而不是点的坐标。第（2）问是含参恒成立问题，核心技巧是发现 $f(0)=0$ 这个「恰好取等」的点：既然 $f(x)\\ge 0$ 且 $f(0)=0$，则 $0$ 必为最小值点，由可导性得 $f'(0)=0$，一步定出 $a=1$；最后必须回代验证充分性，只由必要性求出参数而不验证是常见失分点。"
+  }
+]

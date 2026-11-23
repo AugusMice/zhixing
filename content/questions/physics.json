@@ -1,0 +1,58 @@
+[
+  {
+    "id": "phy-001",
+    "subjectId": "physics",
+    "kpIds": ["phy-circular"],
+    "type": "single",
+    "difficulty": 1,
+    "stem": "物体做匀速圆周运动时，下列物理量中保持不变的是（　）",
+    "options": [
+      { "key": "A", "text": "速度" },
+      { "key": "B", "text": "速率" },
+      { "key": "C", "text": "加速度" },
+      { "key": "D", "text": "合外力" }
+    ],
+    "answer": "B",
+    "explanation": "匀速圆周运动的「匀速」指速率不变；速度、加速度和合外力的方向都不断改变。",
+    "source": "示例题"
+  },
+  {
+    "id": "phy-002",
+    "subjectId": "physics",
+    "kpIds": ["phy-newton"],
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "质量为 $2\\,\\mathrm{kg}$ 的物体受到 $6\\,\\mathrm{N}$ 的合外力，其加速度大小为 ____ $\\mathrm{m/s^2}$。",
+    "blanks": [{ "accept": ["3"], "hint": "F = ma" }],
+    "explanation": "由牛顿第二定律 $F=ma$，得 $a=\\dfrac{F}{m}=\\dfrac{6}{2}=3\\,\\mathrm{m/s^2}$。",
+    "source": "示例题"
+  },
+  {
+    "id": "phy-003",
+    "subjectId": "physics",
+    "kpIds": ["phy-action"],
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "作用力与反作用力大小相等、方向相反，因此它们的合力为零。",
+    "answer": false,
+    "explanation": "作用力与反作用力分别作用在两个不同物体上，不能求合力；合力为零的是平衡力。",
+    "source": "示例题"
+  },
+  {
+    "id": "phy-004",
+    "subjectId": "physics",
+    "kpIds": ["phy-kinematics"],
+    "type": "single",
+    "difficulty": 2,
+    "stem": "物体做初速度为零的匀加速直线运动，第 1 s 内、第 2 s 内、第 3 s 内的位移之比为（　）",
+    "options": [
+      { "key": "A", "text": "$1:2:3$" },
+      { "key": "B", "text": "$1:3:5$" },
+      { "key": "C", "text": "$1:4:9$" },
+      { "key": "D", "text": "$1:1:1$" }
+    ],
+    "answer": "B",
+    "explanation": "初速度为零的匀加速直线运动，连续相等时间内的位移之比为 $1:3:5:\\cdots$。",
+    "source": "示例题"
+  }
+]

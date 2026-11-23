@@ -1,0 +1,46 @@
+[
+  {
+    "id": "chn-001",
+    "subjectId": "chinese",
+    "kpIds": ["chn-poetry"],
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "长风破浪会有时，____。",
+    "blanks": [{ "accept": ["直挂云帆济沧海"], "hint": "李白《行路难》" }],
+    "explanation": "出自李白《行路难·其一》：「长风破浪会有时，直挂云帆济沧海。」",
+    "source": "示例题"
+  },
+  {
+    "id": "chn-002",
+    "subjectId": "chinese",
+    "kpIds": ["chn-idiom"],
+    "type": "single",
+    "difficulty": 2,
+    "stem": "成语「不刊之论」的意思是（　）",
+    "options": [
+      { "key": "A", "text": "不能改动或不可磨灭的言论" },
+      { "key": "B", "text": "不能刊登的言论" },
+      { "key": "C", "text": "没有价值的言论" },
+      { "key": "D", "text": "刊登后不能修改的言论" }
+    ],
+    "answer": "A",
+    "explanation": "「刊」是削除、修改的意思。不刊之论指不可改动或不可磨灭的言论，是褒义词。",
+    "source": "示例题"
+  },
+  {
+    "id": "chn-003",
+    "subjectId": "chinese",
+    "kpIds": ["chn-rhetoric"],
+    "type": "short",
+    "difficulty": 2,
+    "stem": "请简要说明比喻和拟人的区别，并各举一个例子。",
+    "rubric": [
+      { "text": "指出比喻是用相似的事物打比方，本体与喻体本质不同", "score": 2 },
+      { "text": "指出拟人是把物当作人来写，赋予人的动作或情感", "score": 2 },
+      { "text": "比喻、拟人各举一例，且例子恰当", "score": 2 }
+    ],
+    "reference": "比喻是用本质不同但有相似点的事物打比方，如「月光如流水一般」；拟人是把物当作人来写，赋予人的动作或情感，如「小鸟在枝头唱歌」。",
+    "explanation": "辨析的关键：比喻有本体和喻体，拟人直接把物当人写，不出现「像」。",
+    "source": "示例题"
+  }
+]

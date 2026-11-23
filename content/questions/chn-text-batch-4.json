@@ -1,0 +1,675 @@
+[
+  {
+    "id": "q-chn-t-yulinling-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-dictation-error"],
+    "stem": "柳永《雨霖铃·寒蝉凄切》中「执手相看泪眼，____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-yulinling",
+    "quote": "执手相看泪眼，竟无语凝噎。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["竟无语凝噎"], "hint": "填五个字" }],
+    "explanation": "出自《雨霖铃》上片。上句写「执手相看泪眼」的动作与神态，下句「竟无语凝噎」写千言万语哽在喉间说不出来，「竟」是「竟然」，突出意外与无奈。默写易错在把「竟」写成「竞」、把「噎」写成「咽」。"
+  },
+  {
+    "id": "q-chn-t-yulinling-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "柳永《雨霖铃》中设想别后酒醒、以凄清之景寄寓离愁的名句是「今宵酒醒何处？____，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-yulinling",
+    "quote": "今宵酒醒何处？杨柳岸，晓风残月。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["杨柳岸"], "hint": "三个字，写岸边之柳" },
+      { "accept": ["晓风残月"], "hint": "四个字，写风与月" }
+    ],
+    "explanation": "这两句不写愁而愁自见：酒醒后的恍惚、孤舟中的清冷，全由「杨柳岸」「晓风残月」三个意象叠加托出。「柳」谐「留」，暗含留恋；「残月」点明天将晓，见彻夜难眠。注意「晓风」不作「晓枫」。"
+  },
+  {
+    "id": "q-chn-t-yulinling-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-image"],
+    "stem": "《雨霖铃》开篇以寒蝉、长亭、骤雨三种物象点染送别氛围的句子是「____，对长亭晚，骤雨初歇」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-yulinling",
+    "quote": "寒蝉凄切，对长亭晚，骤雨初歇。",
+    "recite": "context",
+    "blanks": [{ "accept": ["寒蝉凄切"], "hint": "四个字，写蝉声" }],
+    "explanation": "开篇三句一句一景：寒蝉点节候，长亭点送别之地，骤雨初歇点时间，共同营造凄清冷落的氛围，为下文离别蓄势。注意是「凄切」不是「凄厉」，也不是「寒蝉凄切」写作「寒蝉凄测」。"
+  },
+  {
+    "id": "q-chn-t-yulinling-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poem-language"],
+    "stem": "《雨霖铃》「都门帐饮无绪，留恋处，兰舟催发」中「无绪」的意思是：",
+    "difficulty": 2,
+    "source": "自编字词题（据原文）",
+    "textId": "chn-t-yulinling",
+    "quote": "都门帐饮无绪",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "没有头绪，指事情杂乱无章" },
+      { "key": "B", "text": "没有心情，情绪低落" },
+      { "key": "C", "text": "没有次序，指送行的人散乱" },
+      { "key": "D", "text": "没有缘由，指离别来得突然" }
+    ],
+    "answer": "B",
+    "explanation": "「绪」本指丝的头，引申为心绪、情绪。「无绪」即提不起兴致、没有心情，正与下句「留恋处，兰舟催发」的依依不舍相承。不能按现代汉语「头绪」去理解。"
+  },
+  {
+    "id": "q-chn-t-yulinling-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-culture", "chn-poem-emotion"],
+    "stem": "下列对柳永《雨霖铃·寒蝉凄切》的解说，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识题",
+    "textId": "chn-t-yulinling",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "柳永是北宋婉约词的代表作家，长期出入歌楼酒肆，当时有「凡有井水处，即能歌柳词」之说。" },
+      { "key": "B", "text": "「雨霖铃」是词牌名，全词分上下两片，上片写离别时的情景，下片设想别后的况味。" },
+      { "key": "C", "text": "词中「寒蝉」「长亭」「兰舟」「杨柳岸」等意象层层叠加，把抽象的离愁写得具体可感。" },
+      { "key": "D", "text": "本词作于柳永中进士做官之后，写他赴任途中与歌女分别，故全词基调欢快明朗。" }
+    ],
+    "answer": "D",
+    "explanation": "本词一般认为是柳永仕途失意、被迫离开汴京时所作，写与恋人的离别，基调凄婉哀怨，绝非「欢快明朗」。柳永中进士已在中年之后，与词中「此去经年」的漂泊之感也不合。"
+  },
+
+  {
+    "id": "q-chn-t-guizhixiang-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-dictation-error"],
+    "stem": "王安石《桂枝香·金陵怀古》中「千里澄江似练，____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-guizhixiang",
+    "quote": "千里澄江似练，翠峰如簇。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["翠峰如簇"], "hint": "填四个字" }],
+    "explanation": "上句以「练」（白绢）比喻长江，下句以「簇」（箭簇攒聚）比喻群峰，一水一山，一白一翠，对仗工整。「簇」是竹字头，易误写成「族」。"
+  },
+  {
+    "id": "q-chn-t-guizhixiang-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "王安石《桂枝香·金陵怀古》中写六朝旧事随水而逝、只剩一片寒烟衰草的句子是「____，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-guizhixiang",
+    "quote": "六朝旧事随流水，但寒烟衰草凝绿。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["六朝旧事随流水"], "hint": "七个字，以流水喻历史" },
+      { "accept": ["但寒烟衰草凝绿"], "hint": "七个字，以景收束" }
+    ],
+    "explanation": "上句以「流水」喻六朝繁华的一去不返，下句以「寒烟衰草凝绿」的实景收住，虚写历史、实写眼前，兴亡之慨尽在其中。「但」是「只、只剩下」，不是转折连词。异文作「寒烟芳草凝绿」，教材通行作「衰草」。"
+  },
+  {
+    "id": "q-chn-t-guizhixiang-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-technique"],
+    "stem": "《桂枝香·金陵怀古》中以「门外楼头」的典故写隋军压境、陈后主犹在寻欢，并由此引出亡国悲恨的句子是「叹门外楼头，____」。",
+    "difficulty": 4,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-guizhixiang",
+    "quote": "叹门外楼头，悲恨相续。",
+    "recite": "context",
+    "blanks": [{ "accept": ["悲恨相续"], "hint": "四个字，写亡国之恨接连不断" }],
+    "explanation": "「门外楼头」化用杜牧《台城曲》「门外韩擒虎，楼头张丽华」：隋将韩擒虎已兵临宫门，陈后主还与张丽华在结绮阁上寻欢。「悲恨相续」由陈朝推及六朝，指出荒淫亡国的悲剧一代接一代。"
+  },
+  {
+    "id": "q-chn-t-guizhixiang-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poem-language"],
+    "stem": "《桂枝香·金陵怀古》「千古凭高对此，谩嗟荣辱」中「谩」的意思是：",
+    "difficulty": 3,
+    "source": "自编字词题（据原文）",
+    "textId": "chn-t-guizhixiang",
+    "quote": "千古凭高对此，谩嗟荣辱",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "轻慢，不恭敬" },
+      { "key": "B", "text": "徒然，空自" },
+      { "key": "C", "text": "欺骗，蒙蔽" },
+      { "key": "D", "text": "随意，随便" }
+    ],
+    "answer": "B",
+    "explanation": "「谩」在此通「漫」，意为徒然、空自。作者说千古以来人们登高对此江山，只是空叹兴亡荣辱而无补于事，隐含对空谈者的不满，也为下文「至今商女，时时犹唱」的警示作铺垫。异文作「漫嗟」。"
+  },
+  {
+    "id": "q-chn-t-guizhixiang-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-culture", "chn-poem-emotion"],
+    "stem": "下列对王安石《桂枝香·金陵怀古》的解说，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识题",
+    "textId": "chn-t-guizhixiang",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "「桂枝香」是词牌名，这首词被视为词史上第一首成熟的怀古咏史词。" },
+      { "key": "B", "text": "上片写登临所见金陵晚秋景色，下片由「念往昔」转入怀古，结构上由景入情。" },
+      { "key": "C", "text": "结句「至今商女，时时犹唱，后庭遗曲」化用杜牧《泊秦淮》，以古讽今，寄寓对北宋现实的忧虑。" },
+      { "key": "D", "text": "「后庭遗曲」指陈后主所作的《玉树后庭花》，作者用它赞美六朝歌舞之盛、艺术之精。" }
+    ],
+    "answer": "D",
+    "explanation": "《玉树后庭花》历来被视为亡国之音，杜牧「商女不知亡国恨，隔江犹唱后庭花」即用此意。王安石写歌女至今还唱这支曲子，是讽刺世人耽于安乐、不记取历史教训，绝非「赞美」。"
+  },
+
+  {
+    "id": "q-chn-t-jiangchengzi-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-dictation-error"],
+    "stem": "苏轼《江城子·乙卯正月二十日夜记梦》中「相顾无言，____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-jiangchengzi",
+    "quote": "相顾无言，惟有泪千行。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["惟有泪千行", "唯有泪千行"], "hint": "填五个字" }],
+    "explanation": "梦中相逢，本该有千言万语，却「相顾无言」，一切情意都化作「泪千行」。以无声写有声，是白描的高境。教材作「惟有」，异文作「唯有」，两种写法均可。"
+  },
+  {
+    "id": "q-chn-t-jiangchengzi-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-image"],
+    "stem": "苏轼《江城子·乙卯正月二十日夜记梦》中写梦中回到故乡、见妻子在小屋窗前梳妆的两句是「____，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-jiangchengzi",
+    "quote": "夜来幽梦忽还乡，小轩窗，正梳妆。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["小轩窗"], "hint": "三个字，写窗前" },
+      { "accept": ["正梳妆"], "hint": "三个字，写梳洗" }
+    ],
+    "explanation": "「小轩窗，正梳妆」是记忆中最寻常的生活片段，正因寻常才格外真切动人。此处不写梦之虚幻，反以细节之实写梦境，是虚实相生的典型。注意「轩」是车字旁，「妆」不作「装」。"
+  },
+  {
+    "id": "q-chn-t-jiangchengzi-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "《江城子·乙卯正月二十日夜记梦》结尾由梦回到坟茔、以凄清之景收束全词的两句是「料得年年肠断处，____，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-jiangchengzi",
+    "quote": "料得年年肠断处，明月夜，短松冈。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["明月夜"], "hint": "三个字，写月" },
+      { "accept": ["短松冈"], "hint": "三个字，写坟地" }
+    ],
+    "explanation": "「短松冈」指王弗坟所在的长着矮松的山冈。作者由眼前的梦推想今后年年月夜独对孤坟的情景，把一己之痛推向无穷的时间，以景结情，余味深长。注意「冈」不作「岗」。"
+  },
+  {
+    "id": "q-chn-t-jiangchengzi-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poem-language"],
+    "stem": "《江城子·乙卯正月二十日夜记梦》「纵使相逢应不识，尘满面，鬓如霜」中「纵使」的意思是：",
+    "difficulty": 2,
+    "source": "自编字词题（据原文）",
+    "textId": "chn-t-jiangchengzi",
+    "quote": "纵使相逢应不识",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "放纵，听任" },
+      { "key": "B", "text": "即使，即便" },
+      { "key": "C", "text": "纵横，交错" },
+      { "key": "D", "text": "纵情，尽情" }
+    ],
+    "answer": "B",
+    "explanation": "「纵使」是表示假设让步的连词，相当于「即使」。全句意为：即使相逢，你也不会认出我了。这一假设把生死之隔推进一层，又由「尘满面，鬓如霜」落到自身十年的憔悴，愈转愈深。"
+  },
+  {
+    "id": "q-chn-t-jiangchengzi-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-culture", "chn-poem-emotion"],
+    "stem": "下列对苏轼《江城子·乙卯正月二十日夜记梦》的解说，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识题",
+    "textId": "chn-t-jiangchengzi",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "这首词是苏轼为悼念亡妻王弗而作，是古代悼亡词中的名篇。" },
+      { "key": "B", "text": "「江城子」是词牌名，「乙卯正月二十日夜记梦」是词题，乙卯指宋神宗熙宁八年。" },
+      { "key": "C", "text": "全词以「记梦」为线索，上片写梦前的思念，下片写梦中相见与梦醒后的推想，虚实结合。" },
+      { "key": "D", "text": "苏轼是南宋豪放词派的代表作家，这首词笔力雄健、气象开阔，典型地体现了豪放风格。" }
+    ],
+    "answer": "D",
+    "explanation": "苏轼是北宋人，不是南宋；且此词语言家常、情感深婉，属婉约一路的悼亡之作，并非「豪放风格」。豪放与婉约是就总体倾向而言，作家风格本不单一，这一点常被命题者用来设置陷阱。"
+  },
+
+  {
+    "id": "q-chn-t-niannujiao-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-dictation-error"],
+    "stem": "苏轼《念奴娇·赤壁怀古》中「乱石穿空，惊涛拍岸，____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-niannujiao",
+    "quote": "乱石穿空，惊涛拍岸，卷起千堆雪。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["卷起千堆雪"], "hint": "填五个字" }],
+    "explanation": "三句写赤壁之险：山石直插云霄，惊涛拍击江岸，浪花如千堆白雪。「卷」字写出浪的翻涌之势，「雪」是比喻。异文「乱石崩云」不作教材，默写按教材作「穿空」。"
+  },
+  {
+    "id": "q-chn-t-niannujiao-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-technique"],
+    "stem": "《念奴娇·赤壁怀古》中写周瑜手摇羽扇、头戴纶巾，从容谈笑之间即破曹军的句子是「羽扇纶巾，谈笑间，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-niannujiao",
+    "quote": "羽扇纶巾，谈笑间，樯橹灰飞烟灭。",
+    "recite": "context",
+    "blanks": [{ "accept": ["樯橹灰飞烟灭"], "hint": "六个字，写曹军战船被焚" }],
+    "explanation": "「羽扇纶巾」是儒将装束，写周瑜风度闲雅；「谈笑间」写其从容自信，与「灰飞烟灭」的惨烈战果形成强烈对照，愈显其指挥若定。异文作「强虏灰飞烟灭」，教材作「樯橹」。"
+  },
+  {
+    "id": "q-chn-t-niannujiao-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-technique"],
+    "stem": "《念奴娇·赤壁怀古》上片以「江山如画，____」收束，由眼前江山转入对历史人物的追怀。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-niannujiao",
+    "quote": "江山如画，一时多少豪杰。",
+    "recite": "context",
+    "blanks": [{ "accept": ["一时多少豪杰"], "hint": "六个字" }],
+    "explanation": "「江山如画」总收上片写景，「一时多少豪杰」由景及人，把镜头从赤壁山水推向三国群雄，自然过渡到下片对周瑜的专写。这一句是上片的结句，也是全词的转轴。"
+  },
+  {
+    "id": "q-chn-t-niannujiao-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poem-language"],
+    "stem": "《念奴娇·赤壁怀古》「人生如梦，一尊还酹江月」中「酹」的意思是：",
+    "difficulty": 2,
+    "source": "自编字词题（据原文）",
+    "textId": "chn-t-niannujiao",
+    "quote": "一尊还酹江月",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "斟满酒杯" },
+      { "key": "B", "text": "把酒洒在地上，表示祭奠" },
+      { "key": "C", "text": "举起酒杯劝人饮酒" },
+      { "key": "D", "text": "一饮而尽" }
+    ],
+    "answer": "B",
+    "explanation": "「酹」是把酒洒在地上祭奠鬼神或先人。此处作者举杯洒酒祭江月，把满腔的感慨托付给江上明月，以旷达收束全词的悲慨。「尊」同「樽」，酒杯；「还」读 huán，还是。"
+  },
+  {
+    "id": "q-chn-t-niannujiao-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-culture", "chn-poem-emotion"],
+    "stem": "下列对苏轼《念奴娇·赤壁怀古》的解说，不正确的一项是：",
+    "difficulty": 4,
+    "source": "自编文学常识题",
+    "textId": "chn-t-niannujiao",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "此词作于苏轼因乌台诗案被贬黄州期间，所游赤壁并非三国赤壁之战的真正战场。" },
+      { "key": "B", "text": "「念奴娇」是词牌名，因此词又名「大江东去」「酹江月」，属豪放词的代表作。" },
+      { "key": "C", "text": "「小乔初嫁了」写周瑜新婚燕尔，与赤壁之战的时间完全吻合，可见用笔之实。" },
+      { "key": "D", "text": "全词将写景、咏史、抒情熔为一体，以「人生如梦」作结，于悲慨中见旷达。" }
+    ],
+    "answer": "C",
+    "explanation": "史载周瑜娶小乔在建安三年（198），赤壁之战在建安十三年（208），相隔十年，并非「新婚」。词中说「初嫁了」，是为突出周瑜的少年得意，属于艺术处理而非史实实录，这正是命题常设的陷阱。"
+  },
+
+  {
+    "id": "q-chn-t-dengkuaige-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-dictation-error"],
+    "stem": "黄庭坚《登快阁》中「落木千山天远大，____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-dengkuaige",
+    "quote": "落木千山天远大，澄江一道月分明。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["澄江一道月分明"], "hint": "填七个字" }],
+    "explanation": "上句写山与天：千山落叶，天空因之显得高远阔大；下句写江与月：一道澄江，月色分外分明。一纵一横、一高一低，境界阔大而澄澈。注意「澄」是三点水。"
+  },
+  {
+    "id": "q-chn-t-dengkuaige-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-technique"],
+    "stem": "《登快阁》颈联连用伯牙绝弦与阮籍青眼两个典故，写知音难觅、只好借酒自遣，这两句是「____，____」。",
+    "difficulty": 4,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-dengkuaige",
+    "quote": "朱弦已为佳人绝，青眼聊因美酒横。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["朱弦已为佳人绝"], "hint": "七个字，用伯牙绝弦典" },
+      { "accept": ["青眼聊因美酒横"], "hint": "七个字，用阮籍青眼典" }
+    ],
+    "explanation": "上句用伯牙因子期死而破琴绝弦事，说知音已逝、无心弹琴；下句用阮籍青白眼事，说唯有美酒当前才肯以青眼相待。「聊」是姑且，见其无可奈何。两典一悲一放，写尽落寞。"
+  },
+  {
+    "id": "q-chn-t-dengkuaige-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "黄庭坚《登快阁》尾联以「万里归船」「白鸥盟」表明归隐之志，这两句是「万里归船弄长笛，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-dengkuaige",
+    "quote": "万里归船弄长笛，此心吾与白鸥盟。",
+    "recite": "context",
+    "blanks": [{ "accept": ["此心吾与白鸥盟"], "hint": "七个字" }],
+    "explanation": "「弄长笛」写乘船归去的潇洒，「白鸥盟」用《列子·黄帝》海上之人与鸥鸟相忘的典故，表示弃官归隐、与鸥鸟为伴的心愿。尾联由景入情，把全诗收束在超旷之中。"
+  },
+  {
+    "id": "q-chn-t-dengkuaige-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poem-language"],
+    "stem": "《登快阁》「痴儿了却公家事」中「了却」的意思是：",
+    "difficulty": 2,
+    "source": "自编字词题（据原文）",
+    "textId": "chn-t-dengkuaige",
+    "quote": "痴儿了却公家事",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "了解，明白" },
+      { "key": "B", "text": "办完，结束" },
+      { "key": "C", "text": "了结，清算" },
+      { "key": "D", "text": "推辞，摆脱" }
+    ],
+    "answer": "B",
+    "explanation": "「了却」是办完、结束的意思。「痴儿」是作者自称，语出《晋书·傅咸传》「生子痴，了官事」，自嘲只会埋头办公事。此句写公事办完后的轻松，为下文登阁赏景作铺垫。"
+  },
+  {
+    "id": "q-chn-t-dengkuaige-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-culture", "chn-poem-technique"],
+    "stem": "下列对黄庭坚《登快阁》的解说，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识题",
+    "textId": "chn-t-dengkuaige",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "黄庭坚是北宋诗人，江西诗派的开创者，诗风追求瘦硬奇崛，讲究「点铁成金」「夺胎换骨」。" },
+      { "key": "B", "text": "这是一首七言律诗，颔联、颈联对仗工整，符合律诗中间两联必须对仗的要求。" },
+      { "key": "C", "text": "「快阁」在吉州太和县澄江之上，作者写此诗时正任太和县令，故首联有「公家事」之语。" },
+      { "key": "D", "text": "尾联「白鸥盟」用《庄子》濠梁观鱼的典故，表达与鱼鸟同乐、物我两忘的境界。" }
+    ],
+    "answer": "D",
+    "explanation": "「白鸥盟」用《列子·黄帝》海上之人与鸥鸟相忘的典故，指弃官归隐、与鸥鸟为伴，与《庄子》「濠梁观鱼」论鱼之乐并非一事。典故出处张冠李戴，是文学常识题的常见设误方式。"
+  },
+
+  {
+    "id": "q-chn-t-queqiaoxian-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-dictation-error"],
+    "stem": "秦观《鹊桥仙·纤云弄巧》中「两情若是久长时，____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-queqiaoxian",
+    "quote": "两情若是久长时，又岂在朝朝暮暮。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["又岂在朝朝暮暮"], "hint": "填七个字" }],
+    "explanation": "结句以议论作结，把「长相守」的世俗标准改为「长相知」的精神标准，使全词格调由柔婉转为旷达。注意「岂」不作「起」，「暮」不作「幕」。"
+  },
+  {
+    "id": "q-chn-t-queqiaoxian-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-technique"],
+    "stem": "《鹊桥仙·纤云弄巧》中把秋风白露中的一次相逢与人间无数次相聚作比、赞美真挚爱情的句子是「____，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-queqiaoxian",
+    "quote": "金风玉露一相逢，便胜却人间无数。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["金风玉露一相逢"], "hint": "七个字，以秋风白露点秋" },
+      { "accept": ["便胜却人间无数"], "hint": "七个字，作比较" }
+    ],
+    "explanation": "「金风」指秋风，「玉露」指白露，合用即指秋日七夕。一次相逢而「胜却人间无数」，是以少胜多、以质胜量的翻案之笔，为结句的议论埋下伏笔。"
+  },
+  {
+    "id": "q-chn-t-queqiaoxian-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "《鹊桥仙·纤云弄巧》下片写相会短暂、不忍回望归路的三句是「柔情似水，佳期如梦，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-queqiaoxian",
+    "quote": "柔情似水，佳期如梦，忍顾鹊桥归路。",
+    "recite": "context",
+    "blanks": [{ "accept": ["忍顾鹊桥归路"], "hint": "六个字" }],
+    "explanation": "「忍顾」即「怎忍回头看」，不是「忍心回头看」。相聚一夜便要分离，故连归路也不忍回望。此句把七夕的欢会转到离别，为结句的议论蓄势。"
+  },
+  {
+    "id": "q-chn-t-queqiaoxian-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poem-language"],
+    "stem": "《鹊桥仙·纤云弄巧》「忍顾鹊桥归路」中「顾」的意思是：",
+    "difficulty": 2,
+    "source": "自编字词题（据原文）",
+    "textId": "chn-t-queqiaoxian",
+    "quote": "忍顾鹊桥归路",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "照顾，照料" },
+      { "key": "B", "text": "回头看" },
+      { "key": "C", "text": "顾念，想念" },
+      { "key": "D", "text": "拜访，探望" }
+    ],
+    "answer": "B",
+    "explanation": "「顾」的本义是回头看。「忍顾」即怎忍回头再看那条鹊桥归路，写出离别时不忍回望的心理。若解作「顾念」，则与「归路」搭配不通。"
+  },
+  {
+    "id": "q-chn-t-queqiaoxian-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-culture", "chn-poem-emotion"],
+    "stem": "下列对秦观《鹊桥仙·纤云弄巧》的解说，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识题",
+    "textId": "chn-t-queqiaoxian",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "秦观是北宋婉约派词人，为「苏门四学士」之一，词风柔婉清丽。" },
+      { "key": "B", "text": "「鹊桥仙」是词牌名，本词咏七夕牛郎织女相会之事，属咏节令之作。" },
+      { "key": "C", "text": "上片写相逢，下片写离别，结句以议论翻案，使全词格调由柔婉转为旷达。" },
+      { "key": "D", "text": "结句「两情若是久长时，又岂在朝朝暮暮」是说只要曾经相爱，就不必在乎感情能否长久。" }
+    ],
+    "answer": "D",
+    "explanation": "原意恰恰相反：只要两人的感情长久不变，就不必非要朝夕相守。前提是「久长」，落脚在「不在朝朝暮暮」，是对坚贞爱情的肯定，而非「不必在乎能否长久」。"
+  },
+
+  {
+    "id": "q-chn-t-sumuzhe-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-dictation-error"],
+    "stem": "周邦彦《苏幕遮·燎沉香》中「叶上初阳干宿雨，水面清圆，____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-sumuzhe",
+    "quote": "叶上初阳干宿雨，水面清圆，一一风荷举。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["一一风荷举"], "hint": "填五个字" }],
+    "explanation": "「一一」是一枝一枝地，「举」是擎起、挺立。三句写雨后初晴的荷塘：日晒雨干，荷叶清润圆正，一枝枝在风中挺立。王国维称此三句「真能得荷之神理」。"
+  },
+  {
+    "id": "q-chn-t-sumuzhe-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "《苏幕遮·燎沉香》结尾以梦境作结、写自己乘小舟划入故乡荷塘的句子是「小楫轻舟，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-sumuzhe",
+    "quote": "小楫轻舟，梦入芙蓉浦。",
+    "recite": "context",
+    "blanks": [{ "accept": ["梦入芙蓉浦"], "hint": "五个字" }],
+    "explanation": "「芙蓉浦」是开满荷花的浅水湾。上片写眼前荷塘，结尾写梦中划入故乡荷塘，以虚境收束，把羁旅之苦化入江南水乡的轻快画面。注意「楫」是木字旁，「浦」是三点水。"
+  },
+  {
+    "id": "q-chn-t-sumuzhe-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "《苏幕遮·燎沉香》下片点明自己家乡所在、又交代久客京城处境的两句是「家住吴门，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-sumuzhe",
+    "quote": "家住吴门，久作长安旅。",
+    "recite": "context",
+    "blanks": [{ "accept": ["久作长安旅"], "hint": "五个字" }],
+    "explanation": "「吴门」是苏州的别称，这里泛指江南故乡；「长安」借指北宋都城汴京。一「家」一「旅」，对照鲜明，把思乡之情落到具体的身份处境上。"
+  },
+  {
+    "id": "q-chn-t-sumuzhe-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poem-language"],
+    "stem": "《苏幕遮·燎沉香》「燎沉香，消溽暑」中「溽」的意思是：",
+    "difficulty": 3,
+    "source": "自编字词题（据原文）",
+    "textId": "chn-t-sumuzhe",
+    "quote": "燎沉香，消溽暑",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "湿润，潮湿" },
+      { "key": "B", "text": "炎热，酷烈" },
+      { "key": "C", "text": "污浊，混浊" },
+      { "key": "D", "text": "浓重，厚密" }
+    ],
+    "answer": "A",
+    "explanation": "「溽」本义是湿润，「溽暑」即潮湿闷热的暑气。正因为潮湿闷热，才要焚烧沉香来驱散，与下句「鸟雀呼晴」的雨后初晴相呼应。「溽」是三点水，别写成「褥」。"
+  },
+  {
+    "id": "q-chn-t-sumuzhe-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-culture", "chn-poem-technique"],
+    "stem": "下列对周邦彦《苏幕遮·燎沉香》的解说，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识题",
+    "textId": "chn-t-sumuzhe",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "周邦彦是北宋词人，精通音律，长于铺叙，前人推为「词家之冠」。" },
+      { "key": "B", "text": "上片写夏日清晨的荷塘，下片写思乡之情，上下片之间由景入情，过渡自然。" },
+      { "key": "C", "text": "「一一风荷举」的「举」用拟人手法，写出荷花在风中挺立的姿态，富有动态之美。" },
+      { "key": "D", "text": "词中「长安」指唐代都城长安，说明作者曾长期在长安做官，故有「久作长安旅」之叹。" }
+    ],
+    "answer": "D",
+    "explanation": "「长安」在这里是借代，指北宋都城汴京（今河南开封），诗词中常以汉唐都城代指本朝京城。周邦彦并未在长安做官。理解借代义是读词的基本功。"
+  },
+
+  {
+    "id": "q-chn-t-shengshengman-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-dictation-error"],
+    "stem": "李清照《声声慢·寻寻觅觅》开篇「寻寻觅觅，冷冷清清，____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-shengshengman",
+    "quote": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["凄凄惨惨戚戚"], "hint": "填六个字" }],
+    "explanation": "十四个叠字分三层：动作（寻觅）、环境（冷清）、心境（凄惨戚戚），由外而内，层层深入，被誉为叠字创格。注意「戚戚」不写成「凄凄」，前三组叠字各不相同。"
+  },
+  {
+    "id": "q-chn-t-shengshengman-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-image"],
+    "stem": "《声声慢》中以梧桐细雨、黄昏点滴的景物层层渲染愁情的句子是「梧桐更兼细雨，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-shengshengman",
+    "quote": "梧桐更兼细雨，到黄昏、点点滴滴。",
+    "recite": "context",
+    "blanks": [{ "accept": ["到黄昏、点点滴滴", "到黄昏点点滴滴"], "hint": "六个字，中间有顿号" }],
+    "explanation": "梧桐本是悲秋的传统意象，再加上细雨，又到黄昏，时间与景物层层叠加，愁绪也随之浓到极致。「点点滴滴」既是雨声，也是泪痕，虚实莫辨。"
+  },
+  {
+    "id": "q-chn-t-shengshengman-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "《声声慢》结尾以口语直抒、说这般光景一个「愁」字概括不尽的两句是「这次第，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-shengshengman",
+    "quote": "这次第，怎一个愁字了得！",
+    "recite": "context",
+    "blanks": [{ "accept": ["怎一个愁字了得"], "hint": "七个字" }],
+    "explanation": "「次第」是情形、光景，「了得」是概括得了。全句说这般光景哪里是一个「愁」字说得尽的，用反问收束，把前面层层铺写的愁推向无法言说的境地。"
+  },
+  {
+    "id": "q-chn-t-shengshengman-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poem-language"],
+    "stem": "《声声慢》「乍暖还寒时候，最难将息」中「将息」的意思是：",
+    "difficulty": 2,
+    "source": "自编字词题（据原文）",
+    "textId": "chn-t-shengshengman",
+    "quote": "乍暖还寒时候，最难将息",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "将养休息，调养身体" },
+      { "key": "B", "text": "将就凑合，勉强过活" },
+      { "key": "C", "text": "停止，歇息" },
+      { "key": "D", "text": "呼吸，喘息" }
+    ],
+    "answer": "A",
+    "explanation": "「将息」是唐宋口语，意为调养、保养身体。秋日忽暖忽冷，最易伤身，也最难调养，此句由天气写到身体，再由身体写到心境，是层层递进的开端。"
+  },
+  {
+    "id": "q-chn-t-shengshengman-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-culture", "chn-poem-emotion"],
+    "stem": "下列对李清照《声声慢·寻寻觅觅》的解说，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识题",
+    "textId": "chn-t-shengshengman",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "李清照号易安居士，是宋代婉约词的代表作家，著有《词论》，主张词「别是一家」。" },
+      { "key": "B", "text": "此词是她南渡后所作，国破、家亡、夫死，孤身流落江南，词中愁苦由此而来。" },
+      { "key": "C", "text": "开篇十四个叠字连用，由动作而环境而心境，层层递进，历来被视为创格。" },
+      { "key": "D", "text": "「雁过也，正伤心，却是旧时相识」写大雁为她捎来了丈夫赵明诚的书信，故称「旧时相识」。" }
+    ],
+    "answer": "D",
+    "explanation": "此时赵明诚已病故，大雁不可能捎来他的书信。「旧时相识」指这雁是从前在北方见过的，见雁而思乡，又因雁能传书而更觉书信无人可寄，是加倍写法。"
+  }
+]

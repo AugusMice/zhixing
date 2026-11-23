@@ -1,0 +1,32 @@
+{
+  "name": "zhixing",
+  "private": true,
+  "version": "0.7.0",
+  "type": "module",
+  "description": "知星 · 六科知识星图与学习系统（纯净学习模式，预留游戏接口）",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "tsc --noEmit",
+    "check:texts": "node scripts/check-texts.mjs",
+    "check:content": "node scripts/check-content.mjs && node scripts/check-texts.mjs && node scripts/check-qbank-quality.mjs",
+    "check:quality": "node scripts/check-qbank-quality.mjs",
+    "check:kp": "node scripts/check-kp-coverage.mjs"
+  },
+  "dependencies": {
+    "idb-keyval": "^6.2.1",
+    "katex": "^0.16.11",
+    "marked": "^12.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  }
+}

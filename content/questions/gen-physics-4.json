@@ -1,0 +1,558 @@
+[
+  {
+    "id": "q-phy-coulomb-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-coulomb"],
+    "stem": "两个完全相同的金属小球，一个带电荷量 $+4q$、另一个带 $-2q$，把它们接触后再分开到原来的距离，它们之间的库仑力大小保持不变。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电荷分配", "库仑力"],
+    "answer": false,
+    "explanation": "接触前 $F=k\\dfrac{|4q\\cdot(-2q)|}{r^2}=\\dfrac{8kq^2}{r^2}$。两个完全相同的金属球接触时，电荷先中和再平分：总电荷量 $+4q-2q=+2q$，分开后每个球带 $+q$，此时 $F'=k\\dfrac{q\\cdot q}{r^2}=\\dfrac{kq^2}{r^2}=\\dfrac18F$。库仑力变为原来的 $\\dfrac18$，并没有保持不变。易错点：只做“中和”不做“平分”，或误以为接触后电荷量不变；另外库仑力大小只与电荷量的绝对值、距离有关，与正负无关。"
+  },
+  {
+    "id": "q-phy-coulomb-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-coulomb"],
+    "stem": "真空中两个点电荷的电荷量分别为 $+2\\,\\mu\\mathrm{C}$ 和 $-3\\,\\mu\\mathrm{C}$，它们相距 $0.3\\,\\mathrm{m}$，则它们之间的库仑力大小为 ____ $\\mathrm{N}$。（$k=9.0\\times10^9\\,\\mathrm{N\\cdot m^2/C^2}$）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["库仑定律", "单位换算"],
+    "blanks": [
+      { "accept": ["0.6", "0.6N", "0.60", "0.6牛", "3/5"], "hint": "$F=k\\dfrac{q_1q_2}{r^2}$，电荷量代入时取绝对值" }
+    ],
+    "explanation": "$F=k\\dfrac{|q_1q_2|}{r^2}=9.0\\times10^9\\times\\dfrac{2\\times10^{-6}\\times3\\times10^{-6}}{0.3^2}=9.0\\times10^9\\times\\dfrac{6\\times10^{-12}}{0.09}=0.6\\,\\mathrm{N}$，方向沿两电荷连线，因异种电荷而相互吸引。易错点：①把 $1\\,\\mu\\mathrm{C}$ 当成 $10^{-9}\\,\\mathrm{C}$；②忘记对距离平方，用 $0.3$ 去除；③把负号代进公式得到负值——库仑力是大小，取绝对值，方向另行说明。"
+  },
+  {
+    "id": "q-phy-coulomb-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-coulomb"],
+    "stem": "真空中两个点电荷所带电荷量分别为 $+2\\,\\mu\\mathrm{C}$ 和 $+5\\,\\mu\\mathrm{C}$，它们相距 $0.3\\,\\mathrm{m}$，则它们之间的库仑力大小为（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["库仑定律", "计算"],
+    "options": [
+      { "key": "A", "text": "$1\\,\\mathrm{N}$" },
+      { "key": "B", "text": "$0.6\\,\\mathrm{N}$" },
+      { "key": "C", "text": "$3\\,\\mathrm{N}$" },
+      { "key": "D", "text": "$0.1\\,\\mathrm{N}$" }
+    ],
+    "answer": "A",
+    "explanation": "$F=k\\dfrac{q_1q_2}{r^2}=9.0\\times10^9\\times\\dfrac{2\\times10^{-6}\\times5\\times10^{-6}}{0.3^2}=9.0\\times10^9\\times\\dfrac{1.0\\times10^{-11}}{0.09}=1\\,\\mathrm{N}$，同种电荷互相排斥。B 是把其中一个电荷量错取成 $3\\,\\mu\\mathrm{C}$ 所得；C 是忘记对距离平方（除以 $0.3$ 而不是 $0.09$）；D 是把 $10^{-12}$ 的数量级算错一位。"
+  },
+  {
+    "id": "q-phy-coulomb-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-coulomb"],
+    "stem": "关于库仑定律，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["库仑定律", "适用条件", "多选"],
+    "options": [
+      { "key": "A", "text": "库仑定律适用于真空中静止的点电荷之间的相互作用" },
+      { "key": "B", "text": "两个点电荷之间的库仑力方向沿二者的连线" },
+      { "key": "C", "text": "当两个带电体之间的距离趋近于零时，库仑力趋近于无穷大，可见库仑定律在任何距离下都成立" },
+      { "key": "D", "text": "两个点电荷之间的库仑力大小与它们各自所带电荷的正负无关" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：库仑定律的适用条件是真空（或空气）中的静止点电荷；带电体间距远大于自身线度时可近似视为点电荷。B 对：库仑力沿连线，同种电荷相斥、异种电荷相吸。C 错：$r\\to0$ 时两带电体已不能视为点电荷，电荷分布会改变，公式不再适用，不能由此推出“力趋于无穷大”。D 对：$F=k\\dfrac{|q_1q_2|}{r^2}$ 只与电荷量绝对值有关，正负只决定方向。易错点：把“点电荷模型失效”当成“公式仍成立”。"
+  },
+  {
+    "id": "q-phy-electric-field-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-electric-field"],
+    "stem": "电场中某点的电场强度由电场本身决定，与放入该点的试探电荷的电荷量大小及电性无关。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["电场强度", "定义式"],
+    "answer": true,
+    "explanation": "$E=\\dfrac{F}{q}$ 是定义式，$E$ 由场源电荷和该点在电场中的位置共同决定。试探电荷只起“探测”作用：$q$ 变为 2 倍，$F$ 也变为 2 倍，比值 $F/q$ 不变，所以场强与试探电荷的电荷量、电性都无关，也与是否放入电荷无关。易错点：把定义式当成决定式，写成 $E$ 与 $F$ 成正比、与 $q$ 成反比。"
+  },
+  {
+    "id": "q-phy-electric-field-2",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-electric-field"],
+    "stem": "关于电场强度的定义式 $E=\\dfrac{F}{q}$ 与点电荷场强公式 $E=k\\dfrac{Q}{r^2}$，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["定义式", "决定式", "点电荷场强"],
+    "options": [
+      { "key": "A", "text": "由 $E=\\dfrac{F}{q}$ 可知，$E$ 与 $F$ 成正比，与 $q$ 成反比" },
+      { "key": "B", "text": "由 $E=k\\dfrac{Q}{r^2}$ 可知，场源电荷 $Q$ 越大，同一位置的场强越大" },
+      { "key": "C", "text": "电场中某点的场强方向，就是放在该点的负电荷所受电场力的方向" },
+      { "key": "D", "text": "当 $r\\to0$ 时 $E=k\\dfrac{Q}{r^2}\\to\\infty$，说明点电荷附近的场强可以无限大" }
+    ],
+    "answer": "B",
+    "explanation": "A 错：$E=\\dfrac{F}{q}$ 是定义式，$E$ 由电场本身决定，$F$ 随 $q$ 成正比变化，比值不变。B 对：$E=k\\dfrac{Q}{r^2}$ 是点电荷场强的决定式，$Q$ 越大、$r$ 越小，场强越大。C 错：场强方向规定为正电荷所受电场力的方向，负电荷受力方向与之相反。D 错：$r\\to0$ 时点电荷模型失效，公式不再适用。易错点：混淆定义式（比值不变）与决定式（由场源决定）。"
+  },
+  {
+    "id": "q-phy-electric-field-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-electric-field"],
+    "stem": "在电场中某点放入电荷量为 $2\\times10^{-8}\\,\\mathrm{C}$ 的正电荷，它受到的电场力为 $6\\times10^{-4}\\,\\mathrm{N}$，方向水平向右。则该点的电场强度（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["场强计算", "方向判断"],
+    "options": [
+      { "key": "A", "text": "大小为 $1.2\\times10^{-11}\\,\\mathrm{N/C}$，方向水平向右" },
+      { "key": "B", "text": "大小为 $3\\times10^4\\,\\mathrm{N/C}$，方向水平向左" },
+      { "key": "C", "text": "大小为 $3\\times10^4\\,\\mathrm{N/C}$，方向水平向右" },
+      { "key": "D", "text": "大小为 $3\\times10^4\\,\\mathrm{N/C}$，方向无法确定，要看试探电荷的正负" }
+    ],
+    "answer": "C",
+    "explanation": "$E=\\dfrac{F}{q}=\\dfrac{6\\times10^{-4}}{2\\times10^{-8}}=3\\times10^4\\,\\mathrm{N/C}$。场强方向与正电荷所受电场力方向相同，故水平向右。A 是把 $F$ 与 $q$ 相乘（$6\\times10^{-4}\\times2\\times10^{-8}$）；B 是误把“负电荷受力方向”当作场强方向；D 错在方向由电场决定，与试探电荷无关。"
+  },
+  {
+    "id": "q-phy-electric-field-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-electric-field"],
+    "stem": "关于电场线，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电场线", "场强大小", "多选"],
+    "options": [
+      { "key": "A", "text": "电场线上某点的切线方向表示该点的电场强度方向" },
+      { "key": "B", "text": "电场线越密的地方，电场强度越大" },
+      { "key": "C", "text": "电场线可以相交，交点处表示该点有两个电场强度方向" },
+      { "key": "D", "text": "沿电场线方向，电势逐渐降低" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：电场线的切线方向就是该点的场强方向。B 对：电场线的疏密表示场强的相对大小，密处场强大。C 错：若两条电场线相交，交点处将有两个切线方向，即同一点存在两个场强方向，这与“电场中每点场强唯一”矛盾，所以电场线不相交。D 对：沿电场线方向电势降低，这是判断电势高低的基本依据。易错点：把电场线当成电荷的运动轨迹（只有初速度为零且只受电场力时轨迹才与电场线重合）。"
+  },
+  {
+    "id": "q-phy-potential-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-potential"],
+    "stem": "电场中电势越高的位置，正电荷的电势能越大，负电荷的电势能越小。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电势能", "电势", "电荷正负"],
+    "answer": true,
+    "explanation": "由 $E_p=q\\varphi$ 可知：$q>0$ 时 $E_p$ 与 $\\varphi$ 同向变化，电势越高电势能越大；$q<0$ 时 $E_p$ 与 $\\varphi$ 反向变化，电势越高电势能越小（数值更负）。所以题干说法正确。易错点：只记“电势高、电势能大”而不区分电荷正负；或把电势（标量，与电荷无关）与电势能（与电荷有关）混为一谈。"
+  },
+  {
+    "id": "q-phy-potential-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-potential"],
+    "stem": "电场力把电荷量为 $2\\times10^{-6}\\,\\mathrm{C}$ 的正电荷从 $A$ 点移到 $B$ 点，电场力做功 $4\\times10^{-4}\\,\\mathrm{J}$，则 $A$、$B$ 两点间的电势差 $U_{AB}=$ ____ $\\mathrm{V}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电势差", "电场力做功"],
+    "blanks": [
+      { "accept": ["200", "200V", "200伏", "2×10^2"], "hint": "$U_{AB}=\\dfrac{W_{AB}}{q}$，注意 $W_{AB}$ 是电场力做的功" }
+    ],
+    "explanation": "$U_{AB}=\\dfrac{W_{AB}}{q}=\\dfrac{4\\times10^{-4}}{2\\times10^{-6}}=200\\,\\mathrm{V}$，即 $\\varphi_A-\\varphi_B=200\\,\\mathrm{V}$，$\\varphi_A>\\varphi_B$。电场力对正电荷做正功，其电势能减少 $4\\times10^{-4}\\,\\mathrm{J}$。易错点：把 $U_{AB}$ 与 $U_{BA}$ 弄反（$U_{BA}=-200\\,\\mathrm{V}$）；或把 $W=qU$ 中的指数算错，得到 $2\\times10^{2}$ 以外的数量级。"
+  },
+  {
+    "id": "q-phy-potential-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-potential"],
+    "stem": "一个电子从电场中的 $A$ 点移到 $B$ 点，电场力做功 $3.2\\times10^{-17}\\,\\mathrm{J}$。已知电子电荷量 $e=1.6\\times10^{-19}\\,\\mathrm{C}$，则 $A$、$B$ 两点间的电势差 $U_{AB}$ 为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["电势差", "电子", "符号"],
+    "options": [
+      { "key": "A", "text": "$200\\,\\mathrm{V}$" },
+      { "key": "B", "text": "$-200\\,\\mathrm{V}$" },
+      { "key": "C", "text": "$20\\,\\mathrm{V}$" },
+      { "key": "D", "text": "$-20\\,\\mathrm{V}$" }
+    ],
+    "answer": "B",
+    "explanation": "电子的电荷量 $q=-1.6\\times10^{-19}\\,\\mathrm{C}$，由 $W_{AB}=qU_{AB}$ 得 $U_{AB}=\\dfrac{W_{AB}}{q}=\\dfrac{3.2\\times10^{-17}}{-1.6\\times10^{-19}}=-200\\,\\mathrm{V}$，即 $\\varphi_A<\\varphi_B$，$B$ 点电势更高。A 是漏掉电子电荷的负号；C、D 是把数量级 $10^{2}$ 错算成 $10^{1}$。核心易错点：$W=qU$ 中的 $q$ 必须带符号，电势差的下标顺序不能颠倒。"
+  },
+  {
+    "id": "q-phy-potential-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-potential"],
+    "stem": "关于电势、电势差与电势能，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["电势", "电势能", "多选"],
+    "options": [
+      { "key": "A", "text": "电势是标量，其正负表示该点电势比零电势点高还是低" },
+      { "key": "B", "text": "电场力对电荷做正功时，电荷的电势能一定减少" },
+      { "key": "C", "text": "电荷在电势越高的位置，其电势能一定越大" },
+      { "key": "D", "text": "$U_{AB}=\\varphi_A-\\varphi_B$，且 $W_{AB}=qU_{AB}$" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：电势是标量，正负只表示相对零电势点的高低，比较电势大小要先规定零电势点。B 对：由 $W_{AB}=E_{pA}-E_{pB}$，电场力做正功则 $E_{pB}<E_{pA}$，电势能减少。C 错：$E_p=q\\varphi$，负电荷在电势高处电势能反而更小。D 对：这是电势差的定义式与电场力做功公式，注意 $U_{AB}=-U_{BA}$。易错点：把电势高低与电势能大小无条件对应；或把 $W_{AB}=qU_{AB}$ 写成 $W_{AB}=qU_{BA}$。"
+  },
+  {
+    "id": "q-phy-capacitor-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-capacitor"],
+    "stem": "关于电容器的电容 $C=\\dfrac{Q}{U}$，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电容定义", "单位"],
+    "options": [
+      { "key": "A", "text": "电容器所带的电荷量越多，它的电容越大" },
+      { "key": "B", "text": "电容由电容器本身的结构（正对面积、板间距、电介质）决定，与 $Q$、$U$ 无关" },
+      { "key": "C", "text": "电容器两极板间电压为零时，它的电容也为零" },
+      { "key": "D", "text": "$1\\,\\mathrm{F}=10^{3}\\,\\mu\\mathrm{F}$" }
+    ],
+    "answer": "B",
+    "explanation": "$C=\\dfrac{Q}{U}$ 是定义式：对同一电容器，$Q$ 与 $U$ 成正比，比值由电容器本身决定（平行板电容器 $C=\\dfrac{\\varepsilon_r S}{4\\pi kd}$）。A、C 都把定义式误当决定式，认为电容随 $Q$、$U$ 变化；不带电的电容器电容依然存在。D 错：$1\\,\\mathrm{F}=10^{6}\\,\\mu\\mathrm{F}=10^{12}\\,\\mathrm{pF}$。"
+  },
+  {
+    "id": "q-phy-capacitor-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-capacitor"],
+    "stem": "一平行板电容器两板间距为 $d$ 时电容为 $C$。保持正对面积与电介质不变，把两板间距增大到 $2d$，则电容变为原来的 ____ 倍。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["平行板电容器", "板间距"],
+    "blanks": [
+      { "accept": ["1/2", "0.5", "二分之一", "一半", "1／2"], "hint": "$C=\\dfrac{\\varepsilon_r S}{4\\pi kd}$，$C$ 与 $d$ 成反比" }
+    ],
+    "explanation": "由 $C=\\dfrac{\\varepsilon_r S}{4\\pi kd}$，$S$、$\\varepsilon_r$ 不变时 $C\\propto\\dfrac1d$；$d$ 变为 $2d$，电容变为 $\\dfrac{C}{2}$，即原来的 $\\dfrac12$ 倍。易错点：把 $C\\propto d$ 记反答成 2 倍；或误以为要同时考虑电荷量变化——本题只问电容本身，与是否带电、是否接电源无关。"
+  },
+  {
+    "id": "q-phy-capacitor-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-capacitor"],
+    "stem": "平行板电容器充电后与电源断开，再将两极板间的距离增大。下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["断开电源", "场强不变"],
+    "options": [
+      { "key": "A", "text": "电容增大，极板间电压减小" },
+      { "key": "B", "text": "极板间电场强度不变，极板间电压增大" },
+      { "key": "C", "text": "极板间电场强度减小，极板间电压不变" },
+      { "key": "D", "text": "极板所带电荷量减小，极板间场强增大" }
+    ],
+    "answer": "B",
+    "explanation": "与电源断开后极板电荷量 $Q$ 不变。$d$ 增大使 $C=\\dfrac{\\varepsilon_r S}{4\\pi kd}$ 减小，由 $U=\\dfrac{Q}{C}$ 得 $U$ 增大；而 $E=\\dfrac{U}{d}=\\dfrac{Q}{Cd}=\\dfrac{4\\pi kQ}{\\varepsilon_r S}$，与 $d$ 无关，故 $E$ 不变。A 把电容的变化方向弄反；C 错在场强不变；D 错在 $Q$ 不变。易错点：不先判断“$Q$ 不变”还是“$U$ 不变”就乱套公式。"
+  },
+  {
+    "id": "q-phy-capacitor-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-capacitor"],
+    "stem": "关于平行板电容器，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["电介质", "接电源与断电源", "多选"],
+    "options": [
+      { "key": "A", "text": "始终与电源相连时，在两板间插入电介质（$\\varepsilon_r$ 增大），电容增大，极板所带电荷量也增大" },
+      { "key": "B", "text": "充电后与电源断开，再在两板间插入电介质，极板间电压减小" },
+      { "key": "C", "text": "电容器两极板间的电压越高，它的电容越大" },
+      { "key": "D", "text": "电容器充电后与电源断开，极板所带电荷量保持不变" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：接电源时 $U$ 不变，插入电介质使 $C$ 增大，由 $Q=CU$ 得 $Q$ 增大。B 对：断开电源时 $Q$ 不变，$C$ 增大使 $U=\\dfrac{Q}{C}$ 减小。C 错：电容由结构决定，与电压无关。D 对：断开后极板间无电荷通路，$Q$ 不变。易错点：不区分“$U$ 不变”和“$Q$ 不变”两种情形，导致 $Q$、$U$ 的变化判断相反。"
+  },
+  {
+    "id": "q-phy-ohm-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-ohm"],
+    "stem": "由 $R=\\dfrac{U}{I}$ 可知，导体的电阻与它两端的电压成正比、与通过它的电流成反比。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["电阻定义式", "决定因素"],
+    "answer": false,
+    "explanation": "$R=\\dfrac{U}{I}$ 是电阻的定义式（测量式）。对确定的导体，$U$ 与 $I$ 成正比，比值 $R$ 不变；电阻由导体本身的材料、长度、横截面积和温度决定（$R=\\rho\\dfrac{l}{S}$），不随 $U$、$I$ 变化。所以题干说法错误。这是“定义式不等于决定式”的典型陷阱，与 $E=\\dfrac{F}{q}$、$C=\\dfrac{Q}{U}$ 的辨析同类。"
+  },
+  {
+    "id": "q-phy-ohm-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-ohm"],
+    "stem": "一根粗细均匀的电阻丝电阻为 $R$。把它均匀拉长到原来的 $2$ 倍长度（体积不变），则它的电阻变为原来的 ____ 倍。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电阻定律", "拉伸"],
+    "blanks": [
+      { "accept": ["4", "4倍", "4R"], "hint": "体积不变：$l$ 变 $2l$，$S$ 变 $\\dfrac{S}{2}$，再代 $R=\\rho\\dfrac{l}{S}$" }
+    ],
+    "explanation": "体积不变时，长度变为 $2l$，横截面积变为 $\\dfrac{S}{2}$。由 $R=\\rho\\dfrac{l}{S}$ 得 $R'=\\rho\\dfrac{2l}{S/2}=4\\rho\\dfrac{l}{S}=4R$。易错点：只考虑长度加倍而答 2 倍；拉伸过程中长度与横截面积同时变化，这是本题的关键。"
+  },
+  {
+    "id": "q-phy-ohm-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-ohm"],
+    "stem": "某导体两端加上 $6\\,\\mathrm{V}$ 电压时，通过它的电流为 $0.3\\,\\mathrm{A}$。若把它两端的电压改为 $3\\,\\mathrm{V}$（导体温度不变），则通过它的电流为（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["欧姆定律", "线性元件"],
+    "options": [
+      { "key": "A", "text": "$0.3\\,\\mathrm{A}$" },
+      { "key": "B", "text": "$0.6\\,\\mathrm{A}$" },
+      { "key": "C", "text": "$0.15\\,\\mathrm{A}$" },
+      { "key": "D", "text": "$0.1\\,\\mathrm{A}$" }
+    ],
+    "answer": "C",
+    "explanation": "由 $R=\\dfrac{U}{I}=\\dfrac{6}{0.3}=20\\,\\Omega$，温度不变时 $R$ 不变，电压变为 $3\\,\\mathrm{V}$ 后 $I=\\dfrac{U}{R}=\\dfrac{3}{20}=0.15\\,\\mathrm{A}$。也可直接用 $I\\propto U$（$R$ 不变），电压减半则电流减半。A 是认为电流与电压无关；B 是把电压加倍；D 是把 $R$ 算成 $30\\,\\Omega$ 的结果。"
+  },
+  {
+    "id": "q-phy-ohm-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-ohm"],
+    "stem": "关于电阻率，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电阻率", "温度", "多选"],
+    "options": [
+      { "key": "A", "text": "电阻率是反映材料导电性能好坏的物理量" },
+      { "key": "B", "text": "电阻率与导体的长度和横截面积无关" },
+      { "key": "C", "text": "金属导体的电阻率随温度升高而增大" },
+      { "key": "D", "text": "电阻率越大的材料做成的导体，电阻一定越大" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：电阻率 $\\rho$ 由材料本身决定，是导电性能的标志（银、铜小，镍铬合金大）。B 对：$\\rho$ 只与材料和温度有关，与 $l$、$S$ 无关，它在 $R=\\rho\\dfrac{l}{S}$ 中是比例系数。C 对：金属的电阻率随温度升高而增大（半导体相反，随温度升高而减小）。D 错：$R$ 还取决于 $l$ 和 $S$，又粗又短的导体即使 $\\rho$ 大，电阻也可能很小。"
+  },
+  {
+    "id": "q-phy-circuit-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-circuit"],
+    "stem": "关于电源的电动势和内阻，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电动势", "路端电压"],
+    "options": [
+      { "key": "A", "text": "电源的电动势就是电源两极间的电压" },
+      { "key": "B", "text": "电动势由电源本身决定，与外电路无关" },
+      { "key": "C", "text": "电源断路时，路端电压为零" },
+      { "key": "D", "text": "电源短路时，路端电压等于电动势" }
+    ],
+    "answer": "B",
+    "explanation": "A 错：电动势描述电源把其他形式的能转化为电能的本领，$E=U+Ir$，只有断路（$I=0$）时路端电压才等于电动势。B 对：电动势由电源本身（非静电力做功的特性）决定。C 错：断路时 $I=0$，路端电压 $U=E$，是最大值而不是零。D 错：短路时外电阻为零，$U=0$，电流 $I=\\dfrac{E}{r}$ 达到最大。易错点：把电动势与路端电压混为一谈。"
+  },
+  {
+    "id": "q-phy-circuit-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-circuit"],
+    "stem": "电源电动势 $E=6\\,\\mathrm{V}$、内阻 $r=1\\,\\Omega$，外接一个 $R=5\\,\\Omega$ 的电阻。则电路中的电流 $I=$ ____ $\\mathrm{A}$，路端电压 $U=$ ____ $\\mathrm{V}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["闭合电路欧姆定律", "路端电压"],
+    "blanks": [
+      { "accept": ["1", "1A", "1安"], "hint": "$I=\\dfrac{E}{R+r}$，分母要加上内阻" },
+      { "accept": ["5", "5V", "5伏"], "hint": "$U=IR$，也可用 $U=E-Ir$" }
+    ],
+    "explanation": "$I=\\dfrac{E}{R+r}=\\dfrac{6}{5+1}=1\\,\\mathrm{A}$；$U=IR=1\\times5=5\\,\\mathrm{V}$（或 $U=E-Ir=6-1\\times1=5\\,\\mathrm{V}$）。易错点：用 $I=\\dfrac{E}{R}=1.2\\,\\mathrm{A}$（漏掉内阻）；或把路端电压写成电动势 $6\\,\\mathrm{V}$。"
+  },
+  {
+    "id": "q-phy-circuit-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-circuit"],
+    "stem": "电源的电动势 $E$ 和内阻 $r$ 恒定，外电路为纯电阻 $R$。当 $R$ 的阻值增大时（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["动态变化", "路端电压"],
+    "options": [
+      { "key": "A", "text": "总电流增大，路端电压减小" },
+      { "key": "B", "text": "总电流减小，路端电压增大" },
+      { "key": "C", "text": "总电流减小，路端电压减小" },
+      { "key": "D", "text": "总电流增大，路端电压增大" }
+    ],
+    "answer": "B",
+    "explanation": "由 $I=\\dfrac{E}{R+r}$，$R$ 增大则 $I$ 减小；由 $U=E-Ir$，$I$ 减小使 $Ir$ 减小，故路端电压 $U$ 增大（也可理解为外电阻增大时分得的电压增多）。用极端情况检验：$R\\to\\infty$（断路）时 $I\\to0$、$U\\to E$，与结论一致。易错点：把 $U=E-Ir$ 的符号关系弄反。"
+  },
+  {
+    "id": "q-phy-circuit-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-circuit"],
+    "stem": "关于闭合电路，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["U-I图像", "输出功率", "多选"],
+    "options": [
+      { "key": "A", "text": "闭合电路欧姆定律可写成 $I=\\dfrac{E}{R+r}$" },
+      { "key": "B", "text": "路端电压与电流的关系为 $U=E-Ir$" },
+      { "key": "C", "text": "电源的 $U-I$ 图像中，图线与纵轴的交点表示 $E$，斜率的绝对值表示 $r$" },
+      { "key": "D", "text": "电源输出功率最大时，外电阻 $R$ 小于内阻 $r$" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A、B 对：这是闭合电路欧姆定律的两种常用形式，$U=E-Ir$ 表明路端电压随电流增大而线性减小。C 对：$U=E-Ir$ 是一次函数，纵截距为 $E$，斜率为 $-r$，绝对值即内阻。D 错：$P_{出}=I^2R=\\dfrac{E^2R}{(R+r)^2}$，当 $R=r$ 时输出功率最大（最大值为 $\\dfrac{E^2}{4r}$）。易错点：把“输出功率最大”与“效率最高”混淆——效率 $\\eta=\\dfrac{R}{R+r}$，$R$ 越大效率越高，$R=r$ 时效率仅 50%。"
+  },
+  {
+    "id": "q-phy-circuit-analysis-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-circuit-analysis"],
+    "stem": "一个小量程电流表（表头）的满偏电流 $I_g=1\\,\\mathrm{mA}$、内阻 $R_g=100\\,\\Omega$。要把它改装成量程为 $3\\,\\mathrm{V}$ 的电压表，应（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["电表改装", "串联分压"],
+    "options": [
+      { "key": "A", "text": "并联一个 $2900\\,\\Omega$ 的电阻" },
+      { "key": "B", "text": "串联一个 $100\\,\\Omega$ 的电阻" },
+      { "key": "C", "text": "串联一个 $2900\\,\\Omega$ 的电阻" },
+      { "key": "D", "text": "并联一个 $100\\,\\Omega$ 的电阻" }
+    ],
+    "answer": "C",
+    "explanation": "改装电压表需串联分压电阻 $R$。满偏时表头两端电压 $U_g=I_gR_g=1\\times10^{-3}\\times100=0.1\\,\\mathrm{V}$，串联电阻需分担 $U-U_g=3-0.1=2.9\\,\\mathrm{V}$，故 $R=\\dfrac{2.9}{1\\times10^{-3}}=2900\\,\\Omega$。A 错在并联（并联是改装电流表的做法）；B 把 $R_g$ 误当作要串的电阻，漏算分压；D 既接法错误又阻值错误。口诀：改装电压表串大电阻，改装电流表并小电阻。"
+  },
+  {
+    "id": "q-phy-circuit-analysis-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-circuit-analysis"],
+    "stem": "把 $R_1=4\\,\\Omega$ 和 $R_2=12\\,\\Omega$ 的两个电阻并联，总电阻为 ____ $\\Omega$；若把它们串联后接在电动势 $16\\,\\mathrm{V}$、内阻不计的电源上，则 $R_1$ 两端的电压为 ____ $\\mathrm{V}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["并联电阻", "串联分压"],
+    "blanks": [
+      { "accept": ["3", "3Ω", "3欧"], "hint": "$\\dfrac{1}{R}=\\dfrac{1}{R_1}+\\dfrac{1}{R_2}$，或 $R=\\dfrac{R_1R_2}{R_1+R_2}$" },
+      { "accept": ["4", "4V", "4伏"], "hint": "串联分压 $U_1=\\dfrac{R_1}{R_1+R_2}U$" }
+    ],
+    "explanation": "并联：$R=\\dfrac{R_1R_2}{R_1+R_2}=\\dfrac{4\\times12}{16}=3\\,\\Omega$（并联总电阻小于任一支路电阻）。串联接 $16\\,\\mathrm{V}$：$I=\\dfrac{16}{4+12}=1\\,\\mathrm{A}$，$U_1=IR_1=4\\,\\mathrm{V}$（或按分压比 $\\dfrac{4}{16}\\times16=4\\,\\mathrm{V}$）。易错点：并联总电阻直接相加得 $16\\,\\Omega$；分压时比例写反成 $\\dfrac{R_2}{R_1+R_2}$，得 $12\\,\\mathrm{V}$。"
+  },
+  {
+    "id": "q-phy-circuit-analysis-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-circuit-analysis"],
+    "stem": "某电路中，定值电阻 $R_1$ 与滑动变阻器 $R_2$ 串联后接在电源上（电源内阻不可忽略），电流表串联在干路，电压表并联在 $R_1$ 两端。当 $R_2$ 的阻值增大时（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["动态电路", "局部—整体—局部"],
+    "options": [
+      { "key": "A", "text": "电流表示数增大，电压表示数增大" },
+      { "key": "B", "text": "电流表示数减小，电压表示数减小" },
+      { "key": "C", "text": "电流表示数减小，电压表示数增大" },
+      { "key": "D", "text": "电流表示数增大，电压表示数减小" }
+    ],
+    "answer": "B",
+    "explanation": "按“局部—整体—局部”分析：$R_2$ 增大 → 外电路总电阻增大 → 干路电流 $I=\\dfrac{E}{R_1+R_2+r}$ 减小，电流表示数减小；$R_1$ 两端电压 $U_1=IR_1$ 随 $I$ 减小而减小，电压表示数减小。此时路端电压 $U=E-Ir$ 是增大的，但电压表测的是 $R_1$ 而不是路端电压。易错点：把电压表示数当作路端电压而误选 C。"
+  },
+  {
+    "id": "q-phy-circuit-analysis-4",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-circuit-analysis"],
+    "stem": "用伏安法测电阻时，若待测电阻的阻值远大于电流表的内阻，应采用电流表内接法，此时电阻的测量值偏大。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["伏安法", "内接外接"],
+    "answer": true,
+    "explanation": "内接法中电流表与待测电阻串联，电压表测的是二者串联的总电压，$R_{测}=\\dfrac{U}{I}=R_x+R_A>R_x$，测量值偏大；当 $R_x\\gg R_A$ 时 $R_A$ 的影响可忽略，所以大电阻用内接法（口诀“大内偏大”）。反之，$R_x\\ll R_V$ 时用外接法，电压表分流影响小，测量值偏小（“小外偏小”）。临界值可用 $R_x$ 与 $\\sqrt{R_AR_V}$ 比较。易错点：不看阻值大小一律用一种接法，或把“偏大、偏小”记反。"
+  },
+  {
+    "id": "q-phy-electrical-energy-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-electrical-energy"],
+    "stem": "一台电动机接在 $220\\,\\mathrm{V}$ 的电源上，正常工作时通过的电流为 $5\\,\\mathrm{A}$，线圈电阻为 $2\\,\\Omega$。则电动机的输入功率和发热功率分别为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["非纯电阻", "焦耳定律"],
+    "options": [
+      { "key": "A", "text": "$1100\\,\\mathrm{W}$、$50\\,\\mathrm{W}$" },
+      { "key": "B", "text": "$1100\\,\\mathrm{W}$、$100\\,\\mathrm{W}$" },
+      { "key": "C", "text": "$50\\,\\mathrm{W}$、$1100\\,\\mathrm{W}$" },
+      { "key": "D", "text": "$1000\\,\\mathrm{W}$、$50\\,\\mathrm{W}$" }
+    ],
+    "answer": "A",
+    "explanation": "输入功率 $P=UI=220\\times5=1100\\,\\mathrm{W}$；发热功率由焦耳定律 $P_{热}=I^2R=5^2\\times2=50\\,\\mathrm{W}$。B 相当于把 $R$ 当成 $4\\,\\Omega$；C 把两者对调；D 的 $1000\\,\\mathrm{W}$ 是把 $R$ 当作 $40\\,\\Omega$ 用 $I^2R$ 凑出的错误值。转化为机械能的功率为 $1100-50=1050\\,\\mathrm{W}$。注意非纯电阻电路中 $P\\neq\\dfrac{U^2}{R}$。"
+  },
+  {
+    "id": "q-phy-electrical-energy-2",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-electrical-energy"],
+    "stem": "一只标有“$36\\,\\mathrm{V}\\ 18\\,\\mathrm{W}$”的灯泡正常发光（设灯丝电阻不随温度变化），则通过灯丝的电流和灯丝的电阻分别为（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["额定值", "电功率"],
+    "options": [
+      { "key": "A", "text": "$2\\,\\mathrm{A}$、$18\\,\\Omega$" },
+      { "key": "B", "text": "$0.5\\,\\mathrm{A}$、$36\\,\\Omega$" },
+      { "key": "C", "text": "$0.5\\,\\mathrm{A}$、$72\\,\\Omega$" },
+      { "key": "D", "text": "$0.5\\,\\mathrm{A}$、$18\\,\\Omega$" }
+    ],
+    "answer": "C",
+    "explanation": "正常发光即处于额定状态：$I=\\dfrac{P}{U}=\\dfrac{18}{36}=0.5\\,\\mathrm{A}$，$R=\\dfrac{U}{I}=\\dfrac{36}{0.5}=72\\,\\Omega$（也可用 $R=\\dfrac{U^2}{P}=\\dfrac{36^2}{18}=72\\,\\Omega$）。A 把 $I=\\dfrac{P}{U}$ 写成 $I=\\dfrac{U}{P}$；B 直接把电压数值当成电阻；D 直接把功率数值当成电阻——都是量纲用错的典型错解。"
+  },
+  {
+    "id": "q-phy-electrical-energy-3",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-electrical-energy"],
+    "stem": "在非纯电阻电路中，用 $P=UI$ 算出的是电路消耗的总电功率，用 $P=I^2R$ 算出的是发热功率，且前者大于后者。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电功与电热", "能量转化"],
+    "answer": true,
+    "explanation": "$P=UI$ 是电功率的普遍公式，表示输入的总功率；$P_{热}=I^2R$ 由焦耳定律给出，表示发热功率。非纯电阻元件（电动机、电解槽等）把一部分电能转化为机械能或化学能，故 $UI>I^2R$，二者之差就是转化为其他形式能的功率。易错点：认为 $P=\\dfrac{U^2}{R}$ 处处成立——它只对纯电阻成立，非纯电阻中 $U\\neq IR$。"
+  },
+  {
+    "id": "q-phy-electrical-energy-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-electrical-energy"],
+    "stem": "关于电功与电热，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["纯电阻", "非纯电阻", "多选"],
+    "options": [
+      { "key": "A", "text": "纯电阻电路中，电功等于电热，即 $W=Q$" },
+      { "key": "B", "text": "非纯电阻电路中，电功大于电热，即 $W>Q$" },
+      { "key": "C", "text": "电动机正常工作时，可用 $P=\\dfrac{U^2}{R}$ 求它的发热功率" },
+      { "key": "D", "text": "焦耳定律 $Q=I^2Rt$ 对纯电阻电路和非纯电阻电路都适用" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：纯电阻中电能全部转化为内能，$W=UIt=I^2Rt=Q$。B 对：非纯电阻中电能还转化为机械能、化学能等，$W>Q$。C 错：$P=\\dfrac{U^2}{R}$ 只适用于纯电阻；电动机的发热功率只能用 $P_{热}=I^2R$ 求。D 对：焦耳定律是计算电热的普遍规律，与电路是否为纯电阻无关。易错点：把 $P=UI$、$P=I^2R$、$P=\\dfrac{U^2}{R}$ 三个式子不加条件地混用。"
+  },
+  {
+    "id": "q-phy-circuit-5",
+    "subjectId": "physics",
+    "type": "short",
+    "kpIds": ["phy-circuit", "phy-electrical-energy"],
+    "stem": "电源的电动势 $E=12\\,\\mathrm{V}$，内阻 $r=2\\,\\Omega$，外接一个阻值可在 $0\\sim10\\,\\Omega$ 之间调节的滑动变阻器 $R$（电流表为理想电表，导线电阻不计）。\n\n（1）当 $R=6\\,\\Omega$ 时，求电路中的电流和路端电压；\n（2）$R$ 取何值时电源的输出功率最大？最大输出功率是多少？\n（3）在（2）的情形下，电源的效率是多少？",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["闭合电路", "输出功率", "效率"],
+    "rubric": [
+      { "text": "由 $I=\\dfrac{E}{R+r}$ 求得 $R=6\\,\\Omega$ 时 $I=1.5\\,\\mathrm{A}$", "score": 2 },
+      { "text": "由 $U=IR$（或 $U=E-Ir$）求得路端电压 $U=9\\,\\mathrm{V}$", "score": 2 },
+      { "text": "写出 $P_{出}=\\dfrac{E^2R}{(R+r)^2}$，说明 $R=r=2\\,\\Omega$ 时输出功率最大，求得 $P_{max}=18\\,\\mathrm{W}$", "score": 4 },
+      { "text": "由 $\\eta=\\dfrac{R}{R+r}\\times100\\%$ 求得效率为 $50\\%$", "score": 2 }
+    ],
+    "reference": "（1）$I=\\dfrac{E}{R+r}=\\dfrac{12}{6+2}=1.5\\,\\mathrm{A}$，路端电压 $U=IR=1.5\\times6=9\\,\\mathrm{V}$（也可用 $U=E-Ir=12-1.5\\times2=9\\,\\mathrm{V}$）。\n（2）$P_{出}=I^2R=\\dfrac{E^2R}{(R+r)^2}$，变形得 $P_{出}=\\dfrac{E^2}{\\dfrac{(R-r)^2}{R}+4r}$，故当 $R=r=2\\,\\Omega$ 时输出功率最大，$P_{max}=\\dfrac{E^2}{4r}=\\dfrac{144}{8}=18\\,\\mathrm{W}$。\n（3）$\\eta=\\dfrac{P_{出}}{P_{总}}=\\dfrac{I^2R}{I^2(R+r)}=\\dfrac{R}{R+r}=\\dfrac{2}{2+2}=50\\%$。",
+    "maxScore": 10,
+    "explanation": "本题把闭合电路欧姆定律、功率与效率串成一条链。第（1）问的路端电压是外电路两端电压 $U=IR$，不是电动势 $12\\,\\mathrm{V}$；第（2）问的结论“$R=r$ 时输出功率最大”只适用于电源内阻恒定、外电阻可调的情形，最大值 $P=\\dfrac{E^2}{4r}$；第（3）问要区分输出功率与总功率，效率 $\\eta=\\dfrac{R}{R+r}$ 随 $R$ 增大而增大，因此输出功率最大时效率并不高（仅 50%）。常见失分：把 $P_{出}$ 写成 $I^2r$（那是内阻消耗的功率）；认为 $R$ 越大输出功率越大；把效率算成 $\\dfrac{P_{max}}{E}$。"
+  },
+  {
+    "id": "q-phy-potential-5",
+    "subjectId": "physics",
+    "type": "short",
+    "kpIds": ["phy-potential", "phy-electric-field"],
+    "stem": "匀强电场的电场线水平向右。一电荷量 $q=+2\\times10^{-6}\\,\\mathrm{C}$ 的粒子从 $A$ 点由静止释放，仅在电场力作用下沿电场线方向运动到 $B$ 点。已知 $A$、$B$ 相距 $0.2\\,\\mathrm{m}$，$A$、$B$ 两点间的电势差 $U_{AB}=400\\,\\mathrm{V}$。\n\n（1）求该匀强电场的电场强度大小与方向；\n（2）求粒子从 $A$ 到 $B$ 的过程中电场力做的功，并说明电势能如何变化、变化了多少；\n（3）求粒子到达 $B$ 点时的动能；\n（4）若换成电荷量为 $-2\\times10^{-6}\\,\\mathrm{C}$ 的粒子，仍把它从 $A$ 点移到 $B$ 点，其电势能如何变化、变化了多少？",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["匀强电场", "电势能", "动能定理"],
+    "rubric": [
+      { "text": "由 $E=\\dfrac{U_{AB}}{d}$ 求得 $E=2000\\,\\mathrm{V/m}$，并指出方向水平向右", "score": 2 },
+      { "text": "由 $W_{AB}=qU_{AB}$ 求得电场力做功 $W=8\\times10^{-4}\\,\\mathrm{J}$", "score": 2 },
+      { "text": "判断电场力做正功、电势能减少 $8\\times10^{-4}\\,\\mathrm{J}$，并由动能定理得 $E_k=8\\times10^{-4}\\,\\mathrm{J}$", "score": 4 },
+      { "text": "换成负电荷时电场力做负功，电势能增加 $8\\times10^{-4}\\,\\mathrm{J}$", "score": 2 }
+    ],
+    "reference": "（1）匀强电场中 $E=\\dfrac{U_{AB}}{d}=\\dfrac{400}{0.2}=2000\\,\\mathrm{V/m}=2.0\\times10^3\\,\\mathrm{V/m}$，方向沿电场线水平向右。\n（2）$W_{AB}=qU_{AB}=2\\times10^{-6}\\times400=8\\times10^{-4}\\,\\mathrm{J}>0$，电场力做正功，电势能减少 $8\\times10^{-4}\\,\\mathrm{J}$（$E_{pA}-E_{pB}=8\\times10^{-4}\\,\\mathrm{J}$）。\n（3）由动能定理，仅电场力做功，$E_{kB}=W_{AB}=8\\times10^{-4}\\,\\mathrm{J}$。\n（4）对 $-2\\times10^{-6}\\,\\mathrm{C}$ 的负电荷，由 $A$ 到 $B$ 沿电场线方向移动，电场力方向与位移方向相反，电场力做负功 $W'=q'U_{AB}=(-2\\times10^{-6})\\times400=-8\\times10^{-4}\\,\\mathrm{J}$，电势能增加 $8\\times10^{-4}\\,\\mathrm{J}$。",
+    "maxScore": 10,
+    "explanation": "本题把场强、电势差、电势能与动能定理连成一体。三个关键：一是 $E=\\dfrac{U}{d}$ 中 $d$ 必须是沿场强方向的距离，本题 $A$、$B$ 在同一条电场线上，故直接取 $0.2\\,\\mathrm{m}$；二是 $W_{AB}=qU_{AB}$ 中的 $q$ 要带符号，正电荷做正功、电势能减少，负电荷做负功、电势能增加，而 $|\\Delta E_p|$ 与电荷正负无关，都等于 $|qU_{AB}|$；三是只有电场力做功时，动能定理给出 $E_k=W_{AB}$，不必再用牛顿定律加运动学公式。常见失分：把 $E=\\dfrac{U}{d}$ 算成 $400\\times0.2=80\\,\\mathrm{V/m}$；把 $U_{AB}$ 与 $U_{BA}$ 混用导致 $W$ 的符号相反；第（4）问只写“电势能增大”却算不出具体数值。"
+  }
+]

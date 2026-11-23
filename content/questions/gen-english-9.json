@@ -1,0 +1,316 @@
+[
+  {
+    "id": "q-eng-grammarfill-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-grammarfill"],
+    "stem": "做语法填空时，下列解题顺序最合理的是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["解题步骤", "通读全文", "语法填空总述"],
+    "options": [
+      { "key": "A", "text": "从第一个空开始按顺序逐空填，填完再通读全文检查" },
+      { "key": "B", "text": "先通读全文，把握大意、主要时态和人物关系，再逐空判断，最后通读复查" },
+      { "key": "C", "text": "先看有几个提示词，有提示词的空一律填过去式，无提示词的空一律填 the" },
+      { "key": "D", "text": "先把十个空都填成同一个最熟悉的词，再回头逐个修改" }
+    ],
+    "answer": "B",
+    "explanation": "语法填空是在语篇中考查语法，单句层面「读得通」不等于篇章层面「讲得对」。先通读的价值在于确定三件事：全文话题（决定名词的单复数与搭配）、主要时态基调（记叙文常以一般过去时为主，说明文多为一般现在时）、以及上下文的逻辑关系（转折、因果、并列），这些信息直接决定后面每一空的填法。A 的问题是把语篇题当单句题做，容易在时态上前后矛盾；C 把「有提示词＝过去式」当成公式，实际上提示词还可能是名词（单复数）、形容词（比较级或副词）、动词（非谓语或语态）；D 只是碰运气。填完后必须再通读一遍，检查时态、主谓一致和逻辑是否连贯，这一步往往能救回两三个空。"
+  },
+  {
+    "id": "q-eng-grammarfill-2",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-grammarfill"],
+    "stem": "判断下列说法是否正确：语法填空中，只要空格后给出了提示词，这个空就一定是在考查动词的时态。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["有提示词", "词性判断", "易错点"],
+    "answer": false,
+    "explanation": "错。提示词只是「原词」，考什么是看空格在句中作什么成分决定的，大致有四类：① 提示词是动词且该空作谓语——考时态、语态、主谓一致（如 was built / has grown）；② 提示词是动词但句中已有谓语——考非谓语（如 looking / to be told）；③ 提示词是名词——考单复数或所有格（如 children / children's）；④ 提示词是形容词或名词——考词性转换、比较级、副词（如 wonderfully / warmer）。所以正确的第一步不是「想时态」，而是先判断这个空在句中充当什么成分、该用什么词性，再落到具体形式。把「有提示词」直接等同于「考时态」，是这一题型最常见的思维定式错误。"
+  },
+  {
+    "id": "q-eng-grammarfill-3",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-grammarfill"],
+    "stem": "用括号内单词的适当形式填空：There are three ______ (child) playing in the garden.",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["有提示词", "名词单复数", "不规则变化"],
+    "blanks": [
+      {
+        "accept": ["children", "Children"],
+        "hint": "空前有基数词 three，名词要用复数；child 的复数是不规则变化"
+      }
+    ],
+    "explanation": "有提示词的空先看词性，再看形式。本题提示词 child 是名词，空前的 three 是基数词，其后必须接可数名词复数，所以填 children。child 属于不规则复数（child → children），不能写成 childs；同类还有 man → men、tooth → teeth、mouse → mice。这也说明「有提示词」并不等于考动词：名词提示词考的是单复数或所有格，判断依据是空前的限定词（a / three / many / one of the）和空后的名词搭配。"
+  },
+  {
+    "id": "q-eng-grammarfill-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-grammarfill"],
+    "stem": "下列关于语法填空做题方法的说法，正确的有（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["做题方法", "词性判断", "逻辑关系"],
+    "options": [
+      { "key": "A", "text": "先通读全文，确定全文的主要时态基调和人称，再动笔填空" },
+      { "key": "B", "text": "有提示词的空，先判断该空在句中作什么成分、需要什么词性，再决定具体形式" },
+      { "key": "C", "text": "无提示词的空，看空前后词语的搭配和句间的逻辑关系，优先考虑冠词、介词、连词、代词" },
+      { "key": "D", "text": "拿不准的空一律填 the，因为冠词在语法填空中出现频率最高" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A、B、C 构成完整的解题链条：先定基调（时态、人称），再定成分与词性（决定形式），最后看搭配与逻辑（决定无提示词填什么）。无提示词的空并非「随便填个小词」，而是句子缺什么补什么：名词前缺限定就填冠词或代词，名词或动词后缺搭配就填介词，两个分句之间缺关系就填连词。D 错在两点：一是把频率当成依据，语法填空从来不考「哪个词出现得多」，而考「这个位置需要什么」；二是 the 只能用于特指，遇到泛指（a pianist）、零冠词（at school）或非名词位置时，填 the 必然错，而且一错就连带影响整句理解。"
+  },
+  {
+    "id": "q-eng-grammarfill-verb-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-grammarfill-verb"],
+    "stem": "The song ______ by the children was written by a famous musician. 空格处应填（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["非谓语", "过去分词作定语", "被动关系"],
+    "options": [
+      { "key": "A", "text": "sang" },
+      { "key": "B", "text": "sung" },
+      { "key": "C", "text": "singing" },
+      { "key": "D", "text": "to sing" }
+    ],
+    "answer": "B",
+    "explanation": "第一步判断谓语还是非谓语：句中已有谓语 was written，且两个动词之间没有连词，所以空格处只能是非谓语，A（过去式）先排除。第二步看逻辑关系：空格修饰 The song，song 与 sing 之间是被动关系（歌被孩子们唱），且 by the children 已明确点出动作的发出者，故用过去分词 sung 作后置定语，等于 the song that was sung by the children。C 是现在分词，表主动或进行，会变成「歌自己在唱」，逻辑不通；D 不定式作定语多表将来或目的，与 was written 的已发生语义冲突。"
+  },
+  {
+    "id": "q-eng-grammarfill-verb-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-grammarfill-verb"],
+    "stem": "用括号内动词的适当形式填空：So far, the number of volunteers in our city ______ (grow) to over 5,000.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["谓语动词", "现在完成时", "主谓一致"],
+    "blanks": [
+      {
+        "accept": ["has grown", "Has grown"],
+        "hint": "So far 提示现在完成时；主语中心词是 the number，谓语用单数"
+      }
+    ],
+    "explanation": "这一空同时考三件事。① 谓语还是非谓语：全句只有一个谓语位置，空格处就是谓语。② 时态：So far（迄今为止）是现在完成时的典型标志，强调从过去持续到现在的累积结果，故用 has grown，不能填 grew（一般过去时只陈述过去的事实，与 so far 的「至今」语义冲突）。③ 主谓一致：主语是 the number of volunteers，中心词是 the number（单数），of volunteers 只是修饰语，所以助动词用 has 而不是 have；若是 a number of volunteers（许多志愿者），中心词变成 volunteers，才用 have grown。这三步顺序不能颠倒，先定时态再定单复数，是最稳的做法。"
+  },
+  {
+    "id": "q-eng-grammarfill-verb-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-grammarfill-verb"],
+    "stem": "He hurried to the station, only ______ that the train had left. 空格处应填（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["不定式", "only to do", "意外结果"],
+    "options": [
+      { "key": "A", "text": "to tell" },
+      { "key": "B", "text": "to be told" },
+      { "key": "C", "text": "telling" },
+      { "key": "D", "text": "told" }
+    ],
+    "answer": "B",
+    "explanation": "句中已有谓语 hurried，空格处作结果状语，且前面有 only，构成 only to do 结构，表示「出乎意料的、往往令人失望的结果」——他赶到车站，结果却被告知火车已经开走，语义完全吻合。再看语态：he 与 tell 是被动关系（他是「被告知」的一方），所以不定式要用被动式 to be told，A 的主动形式 to tell 会变成「他去告诉别人」，与语境矛盾。C 现在分词作结果状语通常表自然而然的结果（如 He fell, breaking his leg），不带 only；D 过去分词作状语表被动或完成，不能跟在 only 后表意外结果。"
+  },
+  {
+    "id": "q-eng-grammarfill-verb-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-grammarfill-verb"],
+    "stem": "关于句中动词该填谓语形式还是非谓语形式，下列说法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["谓语与非谓语", "并列谓语", "垂悬修饰"],
+    "options": [
+      { "key": "A", "text": "句中已有谓语动词，且两个动词之间没有连词时，另一个动词通常用非谓语形式" },
+      { "key": "B", "text": "两个动词构成并列谓语时，中间要有 and、but、or 等连词，且前后时态和形式保持一致" },
+      { "key": "C", "text": "现在分词作状语时，其逻辑主语必须与主句主语一致" },
+      { "key": "D", "text": "只要句中出现了逗号，逗号后面的动词就必须用 -ing 形式" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 是判断谓语与非谓语的第一条依据：英语一个简单句只能有一个谓语，第二个动词要么用连词并列成并列谓语，要么降级为非谓语或从句。B 是 A 的另一面：The room is clean and smells nice 这类并列谓语必须靠连词连接，且时态一致，不能写成 is clean smells nice。C 是分词作状语的红线：Walking in the street, I saw him 中 walking 的逻辑主语是 I；若写成 Walking in the street, a car hit him，逻辑主语变成 a car，就成了「垂悬修饰」，句子荒谬。D 错：逗号只是标点，不能决定动词形式；逗号后既可能是并列谓语（He came in, sat down and opened the book），也可能是从句或独立主格，判断依据仍然是句子成分与连词，而不是标点。"
+  },
+  {
+    "id": "q-eng-grammarfill-blank-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-grammarfill-blank"],
+    "stem": "It was not ______ he took off his glasses that I recognized him. 空格处应填（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["无提示词", "连词", "not until 强调句"],
+    "options": [
+      { "key": "A", "text": "until" },
+      { "key": "B", "text": "when" },
+      { "key": "C", "text": "since" },
+      { "key": "D", "text": "before" }
+    ],
+    "answer": "A",
+    "explanation": "无提示词的空先看结构：It was ... that ... 是强调句型，被强调的部分是时间状语，而句中有 not，正好构成 not ... until 的强调式 It was not until ... that ...，还原后是 I didn't recognize him until he took off his glasses（直到他摘下眼镜我才认出他）。B when 无法与 not 构成固定结构，且「当他摘下眼镜时我没有认出他」与后半句 that I recognized him 的肯定语义矛盾；C since 表「自从」，要与完成时连用；D before 放进来会变成「在他摘眼镜之前」，逻辑颠倒。判断这类题的关键是把强调句还原成普通句，再检查 not 与哪个连词搭配。"
+  },
+  {
+    "id": "q-eng-grammarfill-blank-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-grammarfill-blank"],
+    "stem": "在下面句子的两个空格处各填一个词：She has a gift ______ music and hopes to become ______ pianist.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["无提示词", "介词搭配", "冠词"],
+    "blanks": [
+      {
+        "accept": ["for", "For"],
+        "hint": "have a gift for sth. 有……的天赋"
+      },
+      {
+        "accept": ["a", "A"],
+        "hint": "pianist 是可数名词单数，此处泛指「一名钢琴家」"
+      }
+    ],
+    "explanation": "第一空考固定搭配：have a gift for (doing) sth. 意为「有……的天赋」，介词只能用 for，不能按中文「对音乐的天赋」写成 of 或 in。第二空考冠词：pianist 是可数名词单数，此处第一次提及、表示身份类别，属泛指，用不定冠词 a；因为 pianist 以辅音音素 /p/ 开头，所以是 a 而不是 an（对比 an artist、an hour，后者看的是读音不是字母）。无提示词的两大高频答案就是介词和冠词，判断依据分别是「固定搭配」和「泛指／特指／零冠词」。"
+  },
+  {
+    "id": "q-eng-grammarfill-blank-3",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-grammarfill-blank"],
+    "stem": "判断下列说法是否正确：在非限制性定语从句中，先行词是物且从句缺主语时，空格处可以填 that。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["无提示词", "定语从句", "非限制性"],
+    "answer": false,
+    "explanation": "错。非限制性定语从句（用逗号与主句隔开）不能用 that，指物只能用 which，指人只能用 who 或 whom；这是 that 与 which 最硬的一条区别。例如 The book, which I bought last week, is very useful. 不能写成 The book, that I bought last week, ...。反过来，限制性定语从句中 that 和 which 常可互换（先行词被 all、the only、序数词或最高级修饰时更倾向用 that）。判断步骤：先看有没有逗号，再看先行词是人还是物、在从句中作什么成分——逗号一出，that 立刻出局。"
+  },
+  {
+    "id": "q-eng-grammarfill-blank-4",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-grammarfill-blank"],
+    "stem": "Some students prefer online courses, while ______ prefer traditional ones. 空格处应填（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["无提示词", "代词", "others"],
+    "options": [
+      { "key": "A", "text": "other" },
+      { "key": "B", "text": "others" },
+      { "key": "C", "text": "the other" },
+      { "key": "D", "text": "another" }
+    ],
+    "answer": "B",
+    "explanation": "空格处单独作主语，后面没有名词，说明需要一个代词而不是限定词，A（other 是形容词性，须后接名词）直接排除。再看所指范围：some ... others ... 是固定搭配，表示「一些……另一些……」，指整体中不确定的其余部分，用复数代词 others。C the other 指已知两者中的「另一个」，是特指单数，与 prefer（复数动词）不一致；D another 意为「再一个、又一个」，是单数，也不能作复数谓语 prefer 的主语。判断代词题要同时看两件事：后接不接名词（限定词还是代词），以及所指范围是特指还是泛指。"
+  },
+  {
+    "id": "q-eng-grammarfill-derive-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-grammarfill-derive"],
+    "stem": "The soup tastes ______ . 空格处应填（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["词性转换", "系动词", "形容词作表语"],
+    "options": [
+      { "key": "A", "text": "wonderful" },
+      { "key": "B", "text": "wonderfully" },
+      { "key": "C", "text": "wonder" },
+      { "key": "D", "text": "wondering" }
+    ],
+    "answer": "A",
+    "explanation": "taste 在这里是系动词（意为「尝起来」），系动词后接形容词作表语，说明主语的性质，所以填形容词 wonderful。B 是副词，副词只能修饰动词、形容词或整句，不能单独作系动词的表语——除非是 taste wonderfully 这种把 taste 当实义动词（品尝）用的结构，但那样后面必须带宾语。C wonder 作名词或动词，均不能作表语；D wondering 是分词，语义不通。同类系动词还有 look、sound、smell、feel、seem、stay、remain，后面一律接形容词。"
+  },
+  {
+    "id": "q-eng-grammarfill-derive-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-grammarfill-derive"],
+    "stem": "用括号内单词的适当形式填空：His ______ (arrive) at the airport was delayed by the storm.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["词性转换", "名词化", "不规则派生"],
+    "blanks": [
+      {
+        "accept": ["arrival", "Arrival"],
+        "hint": "形容词性物主代词 His 后接名词；arrive 的名词形式是 arrival"
+      }
+    ],
+    "explanation": "空格前是形容词性物主代词 His，其后必须是名词，且该名词作全句主语，后接 was delayed，所以要把动词 arrive 转换成名词 arrival。arrive 的名词化属不规则派生：去掉词尾的 e 再加 -al（arrive → arrival），不能写成 arrivement 或 arriving（动名词虽也是名词性质，但此处强调的是「到达」这一事件的名词，且 His arriving 与 His arrival 相比，本题标准答案为 arrival）。同类以 -al 结尾的名词还有 refuse → refusal、approve → approval、survive → survival。"
+  },
+  {
+    "id": "q-eng-grammarfill-derive-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-grammarfill-derive"],
+    "stem": "The instructions are so ______ that many users gave up. 空格处应填（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["词性转换", "-ing 与 -ed 形容词", "so...that"],
+    "options": [
+      { "key": "A", "text": "confusing" },
+      { "key": "B", "text": "confused" },
+      { "key": "C", "text": "confusion" },
+      { "key": "D", "text": "confuse" }
+    ],
+    "answer": "A",
+    "explanation": "so ... that 结构中，so 后接形容词作表语，先排除 C（名词）和 D（动词原形）。关键是 -ing 与 -ed 的区分：-ing 形容词表示「使人……的」，描述引起感受的事物；-ed 形容词表示「感到……的」，描述人的感受。本句主语是 The instructions（说明书），是让人困惑的来源，故用 confusing；若主语是人（The users were confused），才用 confused。判断口诀：主语是「物」或「引起感受的一方」用 -ing，主语是「人」或「产生感受的一方」用 -ed。同类：interesting / interested、boring / bored、satisfying / satisfied。"
+  },
+  {
+    "id": "q-eng-grammarfill-derive-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-grammarfill-derive"],
+    "stem": "下列词性转换（箭头后为转换所得词及其词性）正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["词性转换", "派生后缀", "拼写"],
+    "options": [
+      { "key": "A", "text": "succeed → success（名词）" },
+      { "key": "B", "text": "attract → attractive（形容词）" },
+      { "key": "C", "text": "difficult → difficulty（名词）" },
+      { "key": "D", "text": "happy → happly（副词）" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 正确：succeed 是动词，加 -cess 构成名词 success，同类有 proceed → process 之外的 successful（形容词）、successfully（副词），注意 success 中只有一个 c、两个 s。B 正确：attract 加 -ive 构成形容词 attractive，同类有 impress → impressive、create → creative。C 正确：difficult 变名词时把词尾 -t 改为 -y，得到 difficulty，同类有 honest → honesty、modest → modesty。D 错：happy 变副词是 happily（把 y 变 i 再加 -ly），happly 不是英语单词；这条规则适用于「辅音字母 + y」结尾的形容词：easy → easily、lucky → luckily、angry → angrily。"
+  },
+  {
+    "id": "q-eng-grammarfill-verb-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-grammarfill-verb", "eng-grammarfill"],
+    "stem": "用括号内动词的适当形式填空，并说明每一空在句中作谓语还是非谓语、判断依据是什么。\n\n(1) The old man sat by the window, ______ (look) at the children playing outside.\n(2) A new bridge ______ (build) across the river last year.\n(3) ______ (walk) along the street, I met an old friend of mine.\n(4) He was the first student ______ (win) the national prize.\n(5) The teacher told us that light ______ (travel) faster than sound.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["谓语与非谓语", "被动语态", "宾语从句时态"],
+    "rubric": [
+      { "text": "第(1)空填 looking，并说明句中已有谓语 sat，此处作伴随状语，老人与 look 是主动关系", "score": 2 },
+      { "text": "第(2)空填 was built，并说明 last year 定一般过去时、bridge 与 build 是被动关系", "score": 2 },
+      { "text": "第(3)空填 Walking，并说明分词作时间状语，逻辑主语是主句主语 I，主动关系", "score": 2 },
+      { "text": "第(4)空填 to win，第(5)空填 travels；并说明序数词后用不定式作定语、客观真理用一般现在时", "score": 2 }
+    ],
+    "reference": "(1) looking。句中已有谓语 sat，两动词间无连词，故用非谓语；the old man 与 look 是主动关系，且与 sat 同时发生，用现在分词作伴随状语。\n\n(2) was built。全句只有一个谓语位置，作谓语；last year 是过去时间标志，用一般过去时；bridge 是 build 的承受者，用被动语态 was built（主语单数）。\n\n(3) Walking。句中已有谓语 met，空格处作时间状语；逻辑主语是 I，与 walk 是主动关系，用现在分词；相当于 When I was walking along the street。\n\n(4) to win。句中已有谓语 was，空格处作定语修饰 the first student；名词前有序数词（the first）修饰时，常用动词不定式作后置定语。\n\n(5) travels。空格处是从句谓语；宾语从句表示客观真理、自然规律时，时态不受主句过去时 told 的影响，一律用一般现在时，主语 light 为不可数单数，故用 travels。",
+    "maxScore": 8,
+    "explanation": "本题把「有提示词：动词」的判断流程完整走了一遍，五空覆盖三类情形。第一类作非谓语（1）（3）（4）：判断依据是句中已有谓语且无连词——(1) 已有 sat，作伴随状语，主动用 -ing；(3) 已有 met，作时间状语，主动用 -ing，且要检查逻辑主语是否为 I（若是 a car 就成垂悬修饰）；(4) 已有 was，序数词后用不定式作定语。第二类作谓语（2）（5）：(2) 看时间状语定过去时，看主语与动词关系定被动；(5) 考「宾语从句表客观真理用一般现在时」这条规则，主句是过去时 told 也不影响。答题时必须写出「形式＋成分＋依据」，只填词不说明理由，说明题的分数拿不到。"
+  },
+  {
+    "id": "q-eng-grammarfill-blank-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-grammarfill-blank", "eng-grammarfill-derive"],
+    "stem": "下面短文中 5 个空，其中 2 个无提示词，3 个给出了提示词。请填入恰当的词，并逐空说明判断依据。\n\nLast summer I spent two weeks in a small village ___1___ the foot of a mountain. Life there is simple ___2___ happy. What impressed me most was ___3___ warmly the villagers treated every guest. ___4___ (tradition), the village holds a music festival every August, and the ___5___ (warm) of the people made me feel at home.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["无提示词", "词性转换", "表语从句"],
+    "rubric": [
+      { "text": "空1 填 at，并说明 at the foot of 是固定搭配，表位置", "score": 2 },
+      { "text": "空2 填 but，并说明 simple 与 happy 之间是转折关系，两个形容词并列作表语", "score": 2 },
+      { "text": "空3 填 how，并说明 was 后是表语从句，从句缺方式状语，warmly 被提前", "score": 2 },
+      { "text": "空4 填 Traditionally、空5 填 warmth，并说明前者用副词修饰整句、后者用名词作主语", "score": 2 }
+    ],
+    "reference": "1 at。无提示词，空后是 the foot of a mountain，at the foot of 为固定搭配，表示「在……脚下」。\n\n2 but。无提示词，空连接两个并列形容词 simple 与 happy 作表语；生活「简朴」与「快乐」构成让步转折，用 but。\n\n3 how。无提示词，was 后接表语从句；从句 the villagers treated every guest 成分完整，缺的是方式状语，且副词 warmly 已被提到从句开头，故用 how 引导（how warmly ...）。\n\n4 Traditionally。有提示词，位于句首并用逗号与主句隔开，修饰整个句子，须用副词；tradition → traditional → traditionally。\n\n5 warmth。有提示词，空前有定冠词 the、空后有 of the people，该空作从句主语，须用名词；warm 加 -th 构成名词 warmth（拼写注意保留 m）。",
+    "maxScore": 8,
+    "explanation": "本题把无提示词与词性转换放在同一语篇中对比。无提示词的空（1）（2）（3）依次考三种判断：空后是名词短语且属固定搭配→介词 at；连接两个并列成分且语义相反→连词 but；从句成分完整却缺方式状语→疑问副词 how。注意第 3 空最容易错填 that 或 what：that 不作成分、无词义，填进去 warmly 就没有着落；what 需在从句中作主语或宾语，而此处已有主语 the villagers 和宾语 every guest。有提示词的空（4）（5）考词性：句首修饰整句用副词 Traditionally（构词链为 tradition → traditional → traditionally，注意 -ally 是双写 l），the ... of 结构中的主语位置用名词 warmth（warm 加 -th，拼写保留词尾的 m）。答题时先定词性、再定形式，是这一类题最稳的顺序。"
+  }
+]

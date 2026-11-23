@@ -1,0 +1,431 @@
+[
+  {
+    "id": "q-chem-atomic-structure-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-atomic-structure"],
+    "stem": "判断：$^{235}_{92}\\mathrm{U}$ 与 $^{238}_{92}\\mathrm{U}$ 互为同位素，二者核内质子数相同、中子数不同，化学性质几乎相同，但物理性质有差异。",
+    "answer": true,
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["同位素", "核素", "质子数"],
+    "explanation": "正确。同位素是质子数相同、中子数不同的同一元素的不同原子：$^{235}_{92}\\mathrm{U}$ 的中子数为 $235-92=143$，$^{238}_{92}\\mathrm{U}$ 为 $238-92=146$，质子数都是 92。由于核外电子排布完全相同，二者化学性质几乎相同；但原子核的质量不同，放射性、密度等物理性质有差异。易错点是把同位素与同素异形体（如 $\\mathrm{O_2}$ 与 $\\mathrm{O_3}$）、同分异构体混为一谈——前者是原子层面，后两者分别是单质与分子层面。"
+  },
+  {
+    "id": "q-chem-atomic-structure-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-atomic-structure"],
+    "stem": "某中性原子的原子核内有 20 个中子，核外有 19 个电子。则该原子的质子数 $Z=$ ____，质量数 $A=$ ____。",
+    "blanks": [
+      { "accept": ["19", "19个", "19 个"], "hint": "中性原子中核外电子数等于质子数" },
+      { "accept": ["39", "39个", "39 个"], "hint": "质量数等于质子数加中子数" }
+    ],
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["质子数", "质量数", "核素"],
+    "explanation": "中性原子中质子数等于核外电子数，故 $Z=19$；质量数 $A=Z+N=19+20=39$，该核素即 $^{39}_{19}\\mathrm{K}$。易错点有两个：一是把质量数当成质子数加电子数（对中性原子恰好与加中子数同值，一旦是离子就出错）；二是忽略“中性原子”这一前提，若题目给出的是离子，必须先由电荷数换算出质子数。"
+  },
+  {
+    "id": "q-chem-atomic-structure-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-atomic-structure"],
+    "stem": "基态铁原子（$Z=26$）的核外电子排布式，以及 $\\mathrm{Fe^{2+}}$ 的价电子排布式分别是（　）",
+    "options": [
+      { "key": "A", "text": "$\\mathrm{[Ar]3d^6 4s^2}$；$\\mathrm{3d^6}$" },
+      { "key": "B", "text": "$\\mathrm{[Ar]3d^8}$；$\\mathrm{3d^6}$" },
+      { "key": "C", "text": "$\\mathrm{[Ar]3d^6 4s^2}$；$\\mathrm{3d^4 4s^2}$" },
+      { "key": "D", "text": "$\\mathrm{[Ar]3d^5 4s^2 4p^1}$；$\\mathrm{3d^6}$" }
+    ],
+    "answer": "A",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电子排布式", "构造原理", "价电子"],
+    "explanation": "Fe 有 26 个电子，$\\mathrm{[Ar]}$ 占 18 个，余下 8 个按构造原理先填 4s 两个、再填 3d 六个，得 $\\mathrm{[Ar]3d^6 4s^2}$（书写时 3d 写在 4s 之前，但填充时 4s 优先）。$\\mathrm{Fe^{2+}}$ 是铁原子失去 2 个电子，失的正是最外层的 4s 电子，故为 $\\mathrm{[Ar]3d^6}$，选 A。B 把 3d 填成 8 个，那是 $\\mathrm{Ni^{2+}}$ 的构型；C 误以为先失 3d 电子，是本题最主要的陷阱——“先失最外层”指的是电子层序数最大的 4s，而不是能级较高的 3d；D 的 4p 未按顺序填充，属于激发态。"
+  },
+  {
+    "id": "q-chem-atomic-structure-4",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-atomic-structure"],
+    "stem": "下列说法正确的是（　）",
+    "options": [
+      { "key": "A", "text": "$^{40}_{20}\\mathrm{Ca}$ 与 $^{40}_{19}\\mathrm{K}$ 的中子数相同" },
+      { "key": "B", "text": "所有原子的原子核都由质子和中子构成" },
+      { "key": "C", "text": "同一元素的不同核素，其质量数一定相同" },
+      { "key": "D", "text": "阴离子的核外电子数一定大于其质子数" }
+    ],
+    "answer": "D",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["中子数", "核素", "离子"],
+    "explanation": "D 正确：阴离子是原子得到电子形成的，核外电子数等于质子数加所带电荷数，必然大于质子数。A 错：$^{40}_{20}\\mathrm{Ca}$ 的中子数为 20，$^{40}_{19}\\mathrm{K}$ 为 $40-19=21$，质量数相同不代表中子数相同。B 错：$^{1}_{1}\\mathrm{H}$（氕）的原子核内只有 1 个质子，没有中子，这是最容易被忽略的特例。C 错：同位素之所以称为“同位”，正因其质子数相同而质量数不同。判断这类题的关键是把“质量数、质子数、中子数、电子数”四个量分开算，不要见到相同数字就想当然。"
+  },
+  {
+    "id": "q-chem-periodic-table-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-periodic-table"],
+    "stem": "关于元素周期表的结构，下列说法正确的是（　）",
+    "options": [
+      { "key": "A", "text": "周期表共 7 个周期、18 个族（含 0 族）" },
+      { "key": "B", "text": "第 3 周期有 8 种元素，第 4 周期有 18 种元素" },
+      { "key": "C", "text": "主族序数等于最外层电子数，故 0 族也属于主族" },
+      { "key": "D", "text": "过渡元素全部位于第 4 周期" }
+    ],
+    "answer": "B",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["周期", "族", "周期表结构"],
+    "explanation": "B 正确：第 3 周期从 Na 到 Ar 共 8 种元素，第 4 周期从 K 到 Kr 共 18 种（含 10 种过渡元素）。A 错：18 是纵列数，18 个纵列合并为 16 个族——7 个主族、7 个副族、1 个Ⅷ族（占第 8、9、10 三列）、1 个 0 族。C 错：0 族是稀有气体，最外层已达稳定结构，不属于主族。D 错：过渡元素分布在 d 区和 ds 区，跨第 4 至第 7 周期，还包括镧系和锕系。"
+  },
+  {
+    "id": "q-chem-periodic-table-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-periodic-table"],
+    "stem": "元素周期表中共有 ____ 个周期、____ 个族（含 0 族，Ⅷ族按一个族计）。",
+    "blanks": [
+      { "accept": ["7", "七", "7个", "7 个"], "hint": "第 1~3 周期为短周期，第 4~7 周期为长周期" },
+      { "accept": ["16", "十六", "16个", "16 个"], "hint": "18 个纵列中第 8、9、10 三列合为Ⅷ族" }
+    ],
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["周期数", "族数", "纵列"],
+    "explanation": "周期表共 7 个周期（1~3 为短周期，分别含 2、8、8 种元素；4~7 为长周期），18 个纵列合并为 16 个族：7 个主族（ⅠA~ⅦA）、7 个副族（ⅠB~ⅦB）、1 个Ⅷ族（第 8、9、10 三列）和 1 个 0 族。最典型的错误是把族数写成 18（那是列数），其次是写成 14（漏算Ⅷ族与 0 族）。记忆要点：列数 18、族数 16，差 2 就来自Ⅷ族多占的那两列。"
+  },
+  {
+    "id": "q-chem-periodic-table-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-periodic-table"],
+    "stem": "短周期元素 X 的原子最外层电子数是其电子层数的 3 倍，则 X 是（　）",
+    "options": [
+      { "key": "A", "text": "$\\mathrm{O}$" },
+      { "key": "B", "text": "$\\mathrm{F}$" },
+      { "key": "C", "text": "$\\mathrm{S}$" },
+      { "key": "D", "text": "$\\mathrm{Al}$" }
+    ],
+    "answer": "A",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["最外层电子数", "周期与族", "位置推断"],
+    "explanation": "设电子层数为 $n$，则最外层电子数为 $3n$，且必须不超过 8。$n=1$ 时 $3n=3>2$，不可能；$n=2$ 时最外层 6 个电子，核外排布 2、6，即氧，位于第 2 周期第ⅥA 族；$n=3$ 时 $3n=9>8$，同样不可能。故只有 O 符合，选 A。易错点：只盯着“3 倍”而忘记最外层电子数不超过 8，于是把 $n=3$ 的情形也算进去；另外 S 的最外层 6 个电子是电子层数 3 的 2 倍，并非 3 倍。"
+  },
+  {
+    "id": "q-chem-periodic-table-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-periodic-table"],
+    "stem": "下列关于元素周期表的叙述正确的有（　）",
+    "options": [
+      { "key": "A", "text": "原子序数为 17 的元素位于第 3 周期第ⅦA 族" },
+      { "key": "B", "text": "金属元素与非金属元素分界线附近的元素，其单质常用作半导体材料" },
+      { "key": "C", "text": "第Ⅷ族包含 3 个纵列，共 9 种元素" },
+      { "key": "D", "text": "同一周期从左到右，元素的原子半径逐渐增大" }
+    ],
+    "answer": ["A", "B", "C"],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["族序数", "分界线", "Ⅷ族", "原子半径"],
+    "explanation": "A 正确：17 号元素 Cl 的电子排布为 2、8、7，三个电子层即第 3 周期，最外层 7 个电子即第ⅦA 族。B 正确：分界线附近的 Si、Ge、As 等性质介于金属与非金属之间，是典型的半导体材料。C 正确：Ⅷ族占第 8、9、10 三列，第 4、5、6 周期各有 3 种（Fe、Co、Ni；Ru、Rh、Pd；Os、Ir、Pt），共 9 种。D 错误：同周期从左到右核电荷数增大而电子层数不变，核对最外层电子的吸引增强，原子半径逐渐减小（稀有气体一般不参与比较）。"
+  },
+  {
+    "id": "q-chem-periodic-law-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-periodic-law"],
+    "stem": "判断：同周期元素从左到右，第一电离能一定逐渐增大。",
+    "answer": false,
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["第一电离能", "反常", "半充满"],
+    "explanation": "错误。同周期第一电离能总体呈增大趋势，但并不单调，存在两类反常：ⅡA 族大于ⅢA 族（如 $\\mathrm{Be}>\\mathrm{B}$、$\\mathrm{Mg}>\\mathrm{Al}$），ⅤA 族大于ⅥA 族（如 $\\mathrm{N}>\\mathrm{O}$、$\\mathrm{P}>\\mathrm{S}$）。原因在于 $\\mathrm{ns^2}$ 全充满、$\\mathrm{np^3}$ 半充满的结构能量较低、较稳定，失去一个电子反而更困难。相比之下，同周期从左到右电负性、非金属性才是单调变化的，答题时不要把“电离能”“电负性”的规律混用。"
+  },
+  {
+    "id": "q-chem-periodic-law-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-periodic-law"],
+    "stem": "第 3 周期元素中（稀有气体不参与比较），原子半径最大的元素是 ____，非金属性最强的元素是 ____（均填元素符号）。",
+    "blanks": [
+      { "accept": ["Na", "钠"], "hint": "同周期从左到右原子半径逐渐减小" },
+      { "accept": ["Cl", "氯"], "hint": "第ⅦA 族元素的非金属性在同周期中最强" }
+    ],
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["原子半径", "非金属性", "同周期递变"],
+    "explanation": "第 3 周期从 Na 到 Cl，核电荷数依次增大而电子层数都是 3 层，原子核对最外层电子的吸引逐渐增强，半径依次减小，故半径最大的是 Na（186 pm），最小的是 Cl。非金属性随核电荷数增大而增强，同周期中最强的是 Cl（$\\mathrm{Cl_2}$ 能与多数金属、非金属直接化合，最高价氧化物对应水化物 $\\mathrm{HClO_4}$ 是已知最强含氧酸之一）。易错点：把半径最大的填成 Ar——稀有气体的半径测定基准与其他元素不同，中学比较时一律不计入。"
+  },
+  {
+    "id": "q-chem-periodic-law-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-periodic-law"],
+    "stem": "短周期主族元素 W、X、Y、Z 的原子序数依次增大。W 是原子序数最小的元素；X 的简单氢化物的水溶液呈碱性；Y 与 X 同主族；Z 的原子最外层电子数是其电子层数的 2 倍。下列说法正确的是（　）",
+    "options": [
+      { "key": "A", "text": "简单氢化物的稳定性：$\\mathrm{PH_3}>\\mathrm{H_2S}>\\mathrm{NH_3}$" },
+      { "key": "B", "text": "非金属性：$\\mathrm{S}>\\mathrm{P}>\\mathrm{N}$" },
+      { "key": "C", "text": "原子半径：$r(\\mathrm{P})>r(\\mathrm{S})>r(\\mathrm{N})$" },
+      { "key": "D", "text": "Z 的氧化物只有一种" }
+    ],
+    "answer": "C",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["位置推断", "周期律综合", "氢化物稳定性"],
+    "explanation": "先推断：W 原子序数最小，为 H；X 的简单氢化物水溶液显碱性，即 $\\mathrm{NH_3}$，X 为 N；Y 与 N 同主族且原子序数更大，Y 为 P；Z 的最外层电子数是电子层数的 2 倍，可能是 C（2 层 4 个）或 S（3 层 6 个），又因原子序数大于 P（15），只能是 S，即 Z 为 S。A 错：非金属性 $\\mathrm{N}\\gg\\mathrm{S}>\\mathrm{P}$，氢化物稳定性为 $\\mathrm{NH_3}>\\mathrm{H_2S}>\\mathrm{PH_3}$。B 错：非金属性应为 $\\mathrm{N}>\\mathrm{S}>\\mathrm{P}$。C 对：P、S 同周期且 $r(\\mathrm{P})>r(\\mathrm{S})$，而 N 只有 2 个电子层，半径明显小于 P、S。D 错：S 有 $\\mathrm{SO_2}$ 与 $\\mathrm{SO_3}$ 两种常见氧化物。本题的关键是 Z 的推断要用“原子序数依次增大”排除 C。"
+  },
+  {
+    "id": "q-chem-periodic-law-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-periodic-law", "chem-chemical-bond"],
+    "stem": "下列比较中正确的有（　）",
+    "options": [
+      { "key": "A", "text": "离子半径：$r(\\mathrm{O^{2-}})>r(\\mathrm{F^-})>r(\\mathrm{Na^+})>r(\\mathrm{Mg^{2+}})$" },
+      { "key": "B", "text": "电负性：$\\mathrm{F}>\\mathrm{O}>\\mathrm{N}$" },
+      { "key": "C", "text": "第一电离能：$\\mathrm{Be}>\\mathrm{B}$" },
+      { "key": "D", "text": "金属性：$\\mathrm{Na}<\\mathrm{Mg}<\\mathrm{Al}$" }
+    ],
+    "answer": ["A", "B", "C"],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["离子半径", "电负性", "第一电离能", "金属性"],
+    "explanation": "A 正确：四种离子核外都是 10 个电子，电子层结构相同，此时核电荷数越大、核对电子吸引越强、半径越小，核电荷数 8、9、11、12 依次增大，半径依次减小。B 正确：同周期从左到右电负性增大，F 是电负性最大的元素。C 正确：Be 的价电子为 $2s^2$，全充满较稳定，第一电离能反常地大于 B（$2s^22p^1$）。D 错误：金属性随同周期从左到右减弱，正确顺序是 $\\mathrm{Na}>\\mathrm{Mg}>\\mathrm{Al}$。比较微粒半径的口诀是“先看层数，层多半径大；层数相同看核电荷，核电荷大半径小”。"
+  },
+  {
+    "id": "q-chem-chemical-bond-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-chemical-bond"],
+    "stem": "判断：含有共价键的化合物一定是共价化合物。",
+    "answer": false,
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["化学键", "离子化合物", "共价化合物"],
+    "explanation": "错误。$\\mathrm{NaOH}$（含 O—H 键）、$\\mathrm{Na_2O_2}$（含 O—O 键）、$\\mathrm{NH_4Cl}$（含 N—H 键）、$\\mathrm{NaHCO_3}$ 等离子化合物中同样含有共价键。判断共价化合物的依据是“只含共价键、不含离子键”，而不是“是否含共价键”。反过来说，含有离子键的化合物一定是离子化合物，这条才是无例外的。"
+  },
+  {
+    "id": "q-chem-chemical-bond-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-chemical-bond"],
+    "stem": "$\\mathrm{Na_2O_2}$ 中存在的化学键有 ____ 和 ____（从「离子键」「极性共价键」「非极性共价键」中选择）。",
+    "blanks": [
+      { "accept": ["离子键"], "hint": "钠离子与过氧根离子之间" },
+      { "accept": ["非极性共价键", "非极性键"], "hint": "过氧根内部两个氧原子之间的键" }
+    ],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["过氧化钠", "离子键", "非极性键"],
+    "explanation": "$\\mathrm{Na_2O_2}$ 由 $\\mathrm{Na^+}$ 与 $\\mathrm{O_2^{2-}}$ 构成，阴阳离子之间的静电作用为离子键；过氧根内部两个氧原子共用一对电子，而 $\\mathrm{Na_2O_2}$ 中氧为 −1 价，两个氧原子吸引电子能力完全相同，故该键为非极性共价键。易错点：一是把 $\\mathrm{O_2^{2-}}$ 中的键误判为极性键，二是以为两个氧原子只是“靠在一起”而没有化学键。可用对比记忆：$\\mathrm{Na_2O}$ 中只有离子键，$\\mathrm{Na_2O_2}$ 中离子键加非极性键，$\\mathrm{NaOH}$ 中离子键加极性键。"
+  },
+  {
+    "id": "q-chem-chemical-bond-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-chemical-bond"],
+    "stem": "下列物质中，既含离子键又含极性共价键的是（　）",
+    "options": [
+      { "key": "A", "text": "$\\mathrm{Na_2O_2}$" },
+      { "key": "B", "text": "$\\mathrm{NaOH}$" },
+      { "key": "C", "text": "$\\mathrm{HCl}$" },
+      { "key": "D", "text": "$\\mathrm{MgCl_2}$" }
+    ],
+    "answer": "B",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["键型判断", "氢氧化钠", "极性键"],
+    "explanation": "$\\mathrm{NaOH}$ 中 $\\mathrm{Na^+}$ 与 $\\mathrm{OH^-}$ 之间是离子键，$\\mathrm{OH^-}$ 内部 O 与 H 是不同非金属原子成键，为极性共价键，B 符合。A 中 $\\mathrm{Na_2O_2}$ 的 O—O 键两端是同种元素，属非极性共价键。C 中 HCl 只含极性共价键，没有离子键。D 中 $\\mathrm{MgCl_2}$ 只含离子键。判断顺序应为：先看有无活泼金属阳离子或 $\\mathrm{NH_4^+}$ 与阴离子（有则含离子键），再看共价键两端是否为同种元素（同种为非极性，不同为极性）。"
+  },
+  {
+    "id": "q-chem-chemical-bond-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-chemical-bond", "chem-molecular-structure"],
+    "stem": "关于化学键与分子极性，下列说法正确的有（　）",
+    "options": [
+      { "key": "A", "text": "只有非金属元素之间才能形成共价键" },
+      { "key": "B", "text": "$\\mathrm{CO_2}$ 中 C=O 键是极性键，但 $\\mathrm{CO_2}$ 是非极性分子" },
+      { "key": "C", "text": "$\\mathrm{NH_4Cl}$ 中既含离子键又含共价键，属于离子化合物" },
+      { "key": "D", "text": "稀有气体单质分子中不存在化学键" }
+    ],
+    "answer": ["B", "C", "D"],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["共价键", "分子极性", "稀有气体"],
+    "explanation": "A 错误：$\\mathrm{AlCl_3}$、$\\mathrm{BeCl_2}$ 等由金属与非金属元素组成的化合物中，成键原子电负性差较小，形成的仍是共价键。键型取决于成键原子吸引电子能力的差异，而不是元素是否属于金属。B 正确：C 与 O 电负性不同，C=O 为极性键；但 $\\mathrm{CO_2}$ 为直线形，两个 C=O 键的极性方向相反、大小相等，彼此抵消，分子整体无极性。C 正确：$\\mathrm{NH_4^+}$ 与 $\\mathrm{Cl^-}$ 之间是离子键，$\\mathrm{NH_4^+}$ 内部 N—H 是共价键。D 正确：稀有气体是单原子分子，分子内没有化学键，其“分子间作用力”只是范德华力。判断分子极性务必“先看键的极性，再看空间构型是否对称”。"
+  },
+  {
+    "id": "q-chem-molecular-structure-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-molecular-structure"],
+    "stem": "$\\mathrm{SO_2}$ 分子的空间构型是（　）",
+    "options": [
+      { "key": "A", "text": "直线形" },
+      { "key": "B", "text": "平面三角形" },
+      { "key": "C", "text": "V 形（角形）" },
+      { "key": "D", "text": "三角锥形" }
+    ],
+    "answer": "C",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["VSEPR", "SO2", "空间构型"],
+    "explanation": "中心原子 S 的价层电子对数 = σ 键电子对数 2 + 孤对电子对数 $\\dfrac{6-2\\times2}{2}=1$，共 3 对，S 为 $\\mathrm{sp^2}$ 杂化，VSEPR 模型为平面三角形；去掉 1 对孤对电子所占的位置后，分子呈 V 形，键角约 119°（略小于 120°，因为孤对电子排斥力更大）。本题最主要的错误是选 B——把“价层电子对的空间排布（平面三角形）”当成了“分子的空间构型”，两者只有在中枢原子无孤对电子时才一致。"
+  },
+  {
+    "id": "q-chem-molecular-structure-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-molecular-structure"],
+    "stem": "$\\mathrm{NH_3}$ 分子中 N 原子的杂化轨道类型为 ____，分子的空间构型为 ____。",
+    "blanks": [
+      { "accept": ["sp3", "sp³", "sp3杂化", "sp³杂化"], "hint": "价层电子对数 = (5+3)/2 = 4" },
+      { "accept": ["三角锥形", "三角锥", "三角锥型"], "hint": "4 个杂化轨道中有 1 个被孤对电子占据" }
+    ],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["杂化轨道", "氨分子", "孤对电子"],
+    "explanation": "N 的价层电子对数 $=\\dfrac{5+3}{2}=4$，故为 $\\mathrm{sp^3}$ 杂化。4 个 $\\mathrm{sp^3}$ 杂化轨道中，3 个与 H 形成 σ 键，1 个被孤对电子占据，因此分子的空间构型是三角锥形，键角 107°，小于 109.5°。易错点：把 $\\mathrm{sp^3}$ 杂化直接等同于正四面体形——杂化类型只说明轨道如何组合，决定最终构型的是成键电子对与孤对电子的分布。同理 $\\mathrm{H_2O}$ 也是 $\\mathrm{sp^3}$ 杂化，但因有 2 对孤对电子而成 V 形。"
+  },
+  {
+    "id": "q-chem-molecular-structure-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-molecular-structure"],
+    "stem": "下列分子键角由大到小的顺序正确的是（　）",
+    "options": [
+      { "key": "A", "text": "$\\mathrm{CH_4}>\\mathrm{NH_3}>\\mathrm{H_2O}$" },
+      { "key": "B", "text": "$\\mathrm{H_2O}>\\mathrm{NH_3}>\\mathrm{CH_4}$" },
+      { "key": "C", "text": "$\\mathrm{NH_3}>\\mathrm{CH_4}>\\mathrm{H_2O}$" },
+      { "key": "D", "text": "$\\mathrm{CH_4}>\\mathrm{H_2O}>\\mathrm{NH_3}$" }
+    ],
+    "answer": "A",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["键角", "孤对电子", "sp3杂化"],
+    "explanation": "三者中心原子均为 $\\mathrm{sp^3}$ 杂化，孤对电子数分别为 0、1、2。由于孤对电子只受一个原子核吸引，电子云更“胖”，对成键电子对的排斥作用大于成键电子对之间的排斥，孤对越多，成键电子对被压得越紧、键角越小。故键角 $109.5°(\\mathrm{CH_4})>107°(\\mathrm{NH_3})>104.5°(\\mathrm{H_2O})$，选 A。D 项是把 $\\mathrm{H_2O}$ 与 $\\mathrm{NH_3}$ 的顺序记反的典型错解。"
+  },
+  {
+    "id": "q-chem-molecular-structure-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-molecular-structure"],
+    "stem": "下列关于分子（或离子）空间构型的说法正确的有（　）",
+    "options": [
+      { "key": "A", "text": "$\\mathrm{BF_3}$ 与 $\\mathrm{NH_3}$ 均为平面三角形" },
+      { "key": "B", "text": "$\\mathrm{CO_3^{2-}}$ 中 C 为 $\\mathrm{sp^2}$ 杂化，离子呈平面三角形" },
+      { "key": "C", "text": "$\\mathrm{NH_4^+}$ 与 $\\mathrm{CH_4}$ 的空间构型相同，均为正四面体形" },
+      { "key": "D", "text": "$\\mathrm{H_2O}$ 与 $\\mathrm{H_2S}$ 的键角相等" }
+    ],
+    "answer": ["B", "C"],
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["等电子体", "sp2杂化", "键角比较"],
+    "explanation": "A 错误：$\\mathrm{BF_3}$ 中 B 的价层电子对数为 3 且无孤对电子，是平面三角形；$\\mathrm{NH_3}$ 中 N 有 1 对孤对电子，是三角锥形。B 正确：$\\mathrm{CO_3^{2-}}$ 中 C 与 3 个 O 成 σ 键、无孤对电子，价层电子对数为 3，$\\mathrm{sp^2}$ 杂化，平面三角形，键角 120°。C 正确：$\\mathrm{NH_4^+}$ 与 $\\mathrm{CH_4}$ 中心原子均有 4 个成键电子对、无孤对电子，都是正四面体形（二者还互为等电子体，原子数与价电子数之和均为 8 与 8）。D 错误：$\\mathrm{H_2O}$ 键角 104.5°，$\\mathrm{H_2S}$ 约 92°——S 的半径大、电负性小，成键电子对离中心原子较远，相互排斥减弱，且 S 成键时接近未杂化的 p 轨道，键角明显更小。"
+  },
+  {
+    "id": "q-chem-crystal-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-crystal"],
+    "stem": "下列晶体中属于共价晶体（原子晶体）的是（　）",
+    "options": [
+      { "key": "A", "text": "干冰" },
+      { "key": "B", "text": "金刚石" },
+      { "key": "C", "text": "氯化钠" },
+      { "key": "D", "text": "铜" }
+    ],
+    "answer": "B",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["晶体类型", "共价晶体", "金刚石"],
+    "explanation": "金刚石中每个碳原子与相邻的 4 个碳原子以共价键结合，向空间延伸成网状结构，属于共价晶体，硬度最大、熔点极高、不导电。干冰的构成微粒是 $\\mathrm{CO_2}$ 分子，分子间只有范德华力，属分子晶体；氯化钠由 $\\mathrm{Na^+}$ 与 $\\mathrm{Cl^-}$ 通过离子键结合，属离子晶体；铜由金属阳离子与自由电子构成，属金属晶体。判断晶体类型的核心是“构成微粒 + 微粒间作用力”，而不是看物质由哪些元素组成。"
+  },
+  {
+    "id": "q-chem-crystal-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-crystal"],
+    "stem": "$\\mathrm{NaCl}$ 晶体中，$\\mathrm{Na^+}$ 与 $\\mathrm{Cl^-}$ 之间的作用力是 ____；干冰升华时需要克服的作用力是 ____。",
+    "blanks": [
+      { "accept": ["离子键"], "hint": "阴阳离子之间的静电作用" },
+      { "accept": ["分子间作用力", "范德华力", "分子间的作用力", "分子间作用力（范德华力）"], "hint": "分子晶体的熔化、升华只破坏分子之间的作用力" }
+    ],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["离子键", "范德华力", "分子晶体"],
+    "explanation": "$\\mathrm{NaCl}$ 是离子晶体，$\\mathrm{Na^+}$ 与 $\\mathrm{Cl^-}$ 之间通过静电作用（离子键）结合，因此熔融状态或水溶液能导电。干冰是分子晶体，构成微粒是 $\\mathrm{CO_2}$ 分子，分子之间只有较弱的分子间作用力（范德华力），升华时克服的正是它，分子内部的 C=O 共价键并不断裂——这也是干冰升华温度很低（−78.5 ℃）的原因。常见错误是答“共价键”，把分子内与分子间的作用力混为一谈。"
+  },
+  {
+    "id": "q-chem-crystal-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-crystal", "chem-periodic-law"],
+    "stem": "下列物质熔点高低比较正确的是（　）",
+    "options": [
+      { "key": "A", "text": "$\\mathrm{NaCl}>\\mathrm{KCl}$" },
+      { "key": "B", "text": "$\\mathrm{H_2O}<\\mathrm{H_2S}$" },
+      { "key": "C", "text": "金刚石 $<$ 晶体硅" },
+      { "key": "D", "text": "$\\mathrm{CO_2}>\\mathrm{SiO_2}$" }
+    ],
+    "answer": "A",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["熔点比较", "晶格能", "晶体类型"],
+    "explanation": "A 正确：NaCl 与 KCl 同为离子晶体，$\\mathrm{Na^+}$ 的半径小于 $\\mathrm{K^+}$，离子间距更小、晶格能更大，熔点更高（NaCl 801 ℃，KCl 770 ℃）。B 错：$\\mathrm{H_2O}$ 分子间存在氢键，熔点、沸点均高于 $\\mathrm{H_2S}$，这是“氢键使熔沸点反常升高”的经典例子。C 错：金刚石与晶体硅都是共价晶体，C—C 键比 Si—Si 键短、键能大，故金刚石熔点更高。D 错：$\\mathrm{CO_2}$ 是分子晶体（升华温度 −78.5 ℃），$\\mathrm{SiO_2}$ 是共价晶体（约 1700 ℃），相差极大。比较熔点的通用顺序：共价晶体 > 离子晶体 > 分子晶体，同类型再比作用力强弱。"
+  },
+  {
+    "id": "q-chem-crystal-4",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-crystal"],
+    "stem": "判断：石墨能导电，是因为石墨层与层之间存在自由移动的电子，且石墨属于分子晶体。",
+    "answer": false,
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["石墨", "混合型晶体", "离域电子"],
+    "explanation": "错误，这句话有两处错。第一，导电的电子不在层间而在层内：石墨中每个碳原子采取 $\\mathrm{sp^2}$ 杂化，与相邻 3 个碳原子形成共价键构成平面层，剩余 1 个未杂化的 p 电子在层内离域形成大 π 键，这些电子可在层内自由移动，使石墨具有导电性和润滑性。第二，石墨不是分子晶体，而是混合型晶体——层内是共价键（类似共价晶体），层间是范德华力（类似分子晶体）。此外石墨层内 C—C 键很强，故熔点很高，这也说明它不能简单归入分子晶体。"
+  },
+  {
+    "id": "q-chem-periodic-law-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-periodic-law", "chem-periodic-table"],
+    "stem": "短周期主族元素 A、B、C、D、E 的原子序数依次增大。已知：\n\n① A 是原子序数最小的元素；\n\n② B 的基态原子 2p 轨道处于半充满状态；\n\n③ C 是地壳中含量最多的元素；\n\n④ D 与 A 同主族；\n\n⑤ E 的最高价氧化物对应的水化物是两性氢氧化物。\n\n请回答：\n\n（1）写出 B、C、E 的元素符号；\n\n（2）比较 B 与 C 的第一电离能大小，并说明原因；\n\n（3）比较 D 与 E 的原子半径大小，并用原子结构知识解释；\n\n（4）写出 D 的最高价氧化物对应的水化物与 E 的最高价氧化物对应的水化物反应的离子方程式。",
+    "rubric": [
+      { "text": "由①②③④⑤推出 A=H、B=N、C=O、D=Na、E=Al，并正确写出 B、C、E 的符号", "score": 2 },
+      { "text": "判断第一电离能 N > O，并指出 N 的 2p 轨道半充满、结构较稳定", "score": 2 },
+      { "text": "判断 $r(\\mathrm{Na})>r(\\mathrm{Al})$，并说明二者电子层数相同、Al 核电荷数大、对最外层电子吸引更强", "score": 2 },
+      { "text": "正确写出 $\\mathrm{Al(OH)_3+OH^-=AlO_2^-+2H_2O}$，配平且电荷守恒", "score": 2 }
+    ],
+    "reference": "（1）由①，A 为 H（原子序数 1）。由②，B 的基态原子 2p 半充满，即 $1s^22s^22p^3$，B 为 N（7）。由③，C 为 O（8）。由④，D 与 H 同主族且原子序数大于 O，D 为 Na（11）。由⑤，短周期中最高价氧化物对应的水化物为两性氢氧化物的是 $\\mathrm{Al(OH)_3}$，E 为 Al（13）。原子序数 1<7<8<11<13，与题意一致。故 B=N、C=O、E=Al。\n\n（2）第一电离能 N > O。N 的价电子排布为 $2s^22p^3$，2p 轨道半充满，体系能量较低、较稳定，再失去 1 个电子需要更高能量；O 的价电子为 $2s^22p^4$，失去 1 个电子后正好变成半充满结构，因此反而较易失电子。\n\n（3）$r(\\mathrm{Na})>r(\\mathrm{Al})$。二者同处第 3 周期，电子层数相同（均为 3 层），而 Al 的核电荷数（13）大于 Na（11），原子核对最外层电子的吸引更强，故 Al 的原子半径更小。\n\n（4）$\\mathrm{Al(OH)_3+OH^-=AlO_2^-+2H_2O}$（也可写作 $\\mathrm{Al(OH)_3+OH^-=[Al(OH)_4]^-}$）。检验：两边 Al 均为 1，O 均为 4，H 均为 4，电荷均为 −1，原子守恒与电荷守恒同时成立。",
+    "maxScore": 8,
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["元素推断", "第一电离能", "原子半径", "离子方程式"],
+    "explanation": "本题把“结构特征推元素”与“周期律解释性质”串成一条链，是本章最典型的综合题型。推断环节最易卡在②⑤：2p 半充满要求 2p 上有 3 个电子，故只能是 N，不能误推为 O；短周期中两性氢氧化物只有 $\\mathrm{Al(OH)_3}$，可直接定位 Al。第（2）问是主要得分点，也必须写出“半充满”的构型原因，只答“同周期从左到右电离能增大”反而与本结论矛盾（O 在 N 右侧却电离能更小），说明规律有例外。第（3）问要用规范表述“电子层数相同，核电荷数越大，对最外层电子吸引越强，半径越小”。第（4）问注意三点：必须写离子方程式，$\\mathrm{Al(OH)_3}$ 难溶不能拆；必须配平并检查电荷守恒；$\\mathrm{NaOH}$ 是强碱要拆成 $\\mathrm{OH^-}$。"
+  },
+  {
+    "id": "q-chem-molecular-structure-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-molecular-structure", "chem-crystal"],
+    "stem": "四种物质的熔点数据如下：$\\mathrm{NaCl}$ 801 ℃、$\\mathrm{MgO}$ 2852 ℃、金刚石 3550 ℃、干冰（$\\mathrm{CO_2}$）−78.5 ℃（升华）。请回答：\n\n（1）分别指出四种物质所属的晶体类型，并写出各自的构成微粒；\n\n（2）解释 $\\mathrm{MgO}$ 的熔点远高于 $\\mathrm{NaCl}$ 的原因；\n\n（3）干冰升华时克服的是哪种作用力？为什么干冰的熔点远低于金刚石？\n\n（4）写出 $\\mathrm{CO_2}$ 的空间构型及中心碳原子的杂化轨道类型。",
+    "rubric": [
+      { "text": "正确判断晶体类型：$\\mathrm{NaCl}$、$\\mathrm{MgO}$ 为离子晶体，金刚石为共价晶体，干冰为分子晶体", "score": 2 },
+      { "text": "正确写出构成微粒：$\\mathrm{Na^+}$ 与 $\\mathrm{Cl^-}$、$\\mathrm{Mg^{2+}}$ 与 $\\mathrm{O^{2-}}$、碳原子、$\\mathrm{CO_2}$ 分子", "score": 2 },
+      { "text": "指出熔点由晶格能决定，$\\mathrm{Mg^{2+}}$、$\\mathrm{O^{2-}}$ 电荷高、半径小、核间距短，晶格能远大于 $\\mathrm{NaCl}$", "score": 2 },
+      { "text": "答出干冰升华克服分子间作用力（范德华力），金刚石熔化需断裂共价键、键能大", "score": 1 },
+      { "text": "答出 $\\mathrm{CO_2}$ 为直线形，C 采取 sp 杂化", "score": 1 }
+    ],
+    "reference": "（1）$\\mathrm{NaCl}$、$\\mathrm{MgO}$ 均为离子晶体，构成微粒分别是 $\\mathrm{Na^+}$ 与 $\\mathrm{Cl^-}$、$\\mathrm{Mg^{2+}}$ 与 $\\mathrm{O^{2-}}$；金刚石为共价晶体，构成微粒是碳原子；干冰为分子晶体，构成微粒是 $\\mathrm{CO_2}$ 分子。\n\n（2）离子晶体的熔点由晶格能决定。$\\mathrm{Mg^{2+}}$、$\\mathrm{O^{2-}}$ 所带电荷分别为 +2、−2，高于 $\\mathrm{Na^+}$、$\\mathrm{Cl^-}$ 的 +1、−1；同时 $\\mathrm{Mg^{2+}}$、$\\mathrm{O^{2-}}$ 的半径更小、核间距更短。电荷高、距离近，离子间静电作用强，晶格能大，故 $\\mathrm{MgO}$ 熔点远高于 $\\mathrm{NaCl}$。\n\n（3）干冰升华时只克服 $\\mathrm{CO_2}$ 分子之间的分子间作用力（范德华力），分子内的 C=O 共价键并未断裂。金刚石是共价晶体，熔化时必须断裂碳原子之间的共价键，共价键键能大，故熔点极高，两种物质熔点相差数千度。\n\n（4）$\\mathrm{CO_2}$ 中 C 的价层电子对数为 2（2 个 σ 键、无孤对电子），C 采取 sp 杂化，分子为直线形，键角 180°。",
+    "maxScore": 8,
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["晶体类型", "晶格能", "熔点", "直线形分子"],
+    "explanation": "本题训练“由熔点数据反推晶体类型，再由结构解释性质”的完整思路。判断晶体类型要看构成微粒和微粒间作用力，而不是看组成元素：$\\mathrm{NaCl}$ 与 $\\mathrm{MgO}$ 都由金属元素与非金属元素组成，却都是离子晶体；金刚石与干冰都由非金属元素组成，却分别是共价晶体与分子晶体。第（2）问的得分点必须落在“离子电荷高、核间距小 → 晶格能大”，只写“MgO 更稳定”不得分。第（3）问最常见的错误是认为干冰升华时 C=O 键断裂，实际上分子晶体的熔化、升华只破坏分子间作用力。第（4）问要把 $\\mathrm{CO_2}$ 的直线形与 $\\mathrm{SO_2}$ 的 V 形区分开：二者中心原子的价层电子对数分别为 2 和 3，孤对电子数分别为 0 和 1，构型自然不同。"
+  }
+]

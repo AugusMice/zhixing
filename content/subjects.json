@@ -1,0 +1,8 @@
+[
+  { "id": "math", "name": "数学", "color": "#6ea8fe", "order": 1 },
+  { "id": "physics", "name": "物理", "color": "#5ee0c0", "order": 2 },
+  { "id": "chemistry", "name": "化学", "color": "#ffb86b", "order": 3 },
+  { "id": "politics", "name": "政治", "color": "#f47373", "order": 4 },
+  { "id": "english", "name": "英语", "color": "#c792ea", "order": 5 },
+  { "id": "chinese", "name": "语文", "color": "#ff8fab", "order": 6 }
+]

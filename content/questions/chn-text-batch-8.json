@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "q-chn-t-yueyanglou-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation"
+    ],
+    "stem": "《岳阳楼记》中总写洞庭湖气势的句子「衔远山，吞长江，____，横无际涯」中，空缺处应填：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-yueyanglou",
+    "quote": "衔远山，吞长江，浩浩汤汤，横无际涯",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "浩浩汤汤"
+        ],
+        "hint": "填四个字，形容水势浩大"
+      }
+    ],
+    "explanation": "出自第一段写景部分。「浩浩汤汤」形容水势浩大，读 hào hào shāng shāng，「汤」不读 tāng，这是最常见的失分点；「汤汤」不能写成「荡荡」。"
+  },
+  {
+    "id": "q-chn-t-yueyanglou-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-context"
+    ],
+    "stem": "《岳阳楼记》中体现作者政治抱负、被后人反复引用的名句是：「____，后天下之乐而乐」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-yueyanglou",
+    "quote": "先天下之忧而忧，后天下之乐而乐",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "先天下之忧而忧"
+        ],
+        "hint": "填七个字"
+      }
+    ],
+    "explanation": "出自末段。注意「忧」在前、「乐」在后，顺序颠倒就变成消极待乐；「忧」字不能写成「优」。"
+  },
+  {
+    "id": "q-chn-t-yueyanglou-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《岳阳楼记》写洞庭月夜波光与月影的两句是「浮光跃金，____」，以动写静，色彩明丽。",
+    "difficulty": 3,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-yueyanglou",
+    "quote": "浮光跃金，静影沉璧",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "静影沉璧"
+        ],
+        "hint": "填四个字，与「浮光跃金」相对"
+      }
+    ],
+    "explanation": "「静影沉璧」把水中月影比作沉入水中的玉璧，「璧」是玉器，下面是「玉」不是「土」，写作「壁」即错。此句与「浮光跃金」一动一静，构成对偶。"
+  },
+  {
+    "id": "q-chn-t-yueyanglou-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "「予观夫巴陵胜状，在洞庭一湖」中「胜」的意思是：",
+    "difficulty": 2,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-yueyanglou",
+    "quote": "予观夫巴陵胜状，在洞庭一湖",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "美好、优美"
+      },
+      {
+        "key": "B",
+        "text": "胜利"
+      },
+      {
+        "key": "C",
+        "text": "超过、胜过"
+      },
+      {
+        "key": "D",
+        "text": "尽、完"
+      }
+    ],
+    "answer": "A",
+    "explanation": "「胜状」即美好的景象，「胜」是形容词「美好」。若按今义解作「胜利」，句子就讲不通。同类用法如「胜景」「胜地」。"
+  },
+  {
+    "id": "q-chn-t-yueyanglou-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "下列对《岳阳楼记》相关文学常识的表述，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识练习",
+    "textId": "chn-t-yueyanglou",
+    "quote": "迁客骚人，多会于此",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "范仲淹，字希文，北宋政治家、文学家，谥号文正。"
+      },
+      {
+        "key": "B",
+        "text": "「记」是古代一种文体，可叙事、写景、议论，本文即以记为名而重在议论。"
+      },
+      {
+        "key": "C",
+        "text": "文章应被贬岳州的滕子京之请而作，作者当时也因庆历新政失败被贬。"
+      },
+      {
+        "key": "D",
+        "text": "「骚人」指《诗经》的作者，因《诗经》又称「骚」而得名。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "「骚人」源于屈原《离骚》，指诗人、文人，与《诗经》无关；《诗经》与《离骚》并称「风骚」，但不能因此把「骚人」解作《诗经》作者。"
+  },
+  {
+    "id": "q-chn-t-zuiweng-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation"
+    ],
+    "stem": "《醉翁亭记》中揭示全文主旨、常被引用的名句是「醉翁之意不在酒，____」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-zuiweng",
+    "quote": "醉翁之意不在酒，在乎山水之间也",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "在乎山水之间也"
+        ],
+        "hint": "填六个字"
+      }
+    ],
+    "explanation": "出自第一段。注意是「在乎」不是「在于」；句末「也」是判断语气词，全文二十一个「也」字句正是本文的语言标志，不能漏写。"
+  },
+  {
+    "id": "q-chn-t-zuiweng-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《醉翁亭记》写山间早晨与傍晚明暗变化的句子是「日出而林霏开，____」。",
+    "difficulty": 3,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-zuiweng",
+    "quote": "日出而林霏开，云归而岩穴暝",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "云归而岩穴暝"
+        ],
+        "hint": "填六个字，与「日出而林霏开」相对"
+      }
+    ],
+    "explanation": "「云归」指云烟聚拢，「暝」是昏暗，读 míng，不要写成「冥」。「日出」对「云归」、「林霏开」对「岩穴暝」，是工整的对偶。"
+  },
+  {
+    "id": "q-chn-t-zuiweng-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《醉翁亭记》写山间春夏景色的句子是「____，佳木秀而繁阴」。",
+    "difficulty": 3,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-zuiweng",
+    "quote": "野芳发而幽香，佳木秀而繁阴",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "野芳发而幽香"
+        ],
+        "hint": "填六个字，写春景"
+      }
+    ],
+    "explanation": "「野芳」指野花，「发」是开放，「幽香」是清幽的香气。此句写春，下句「佳木秀而繁阴」写夏，再下「风霜高洁」写秋、「水落而石出」写冬。"
+  },
+  {
+    "id": "q-chn-t-zuiweng-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "「名之者谁？太守自谓也」中「名」的用法是：",
+    "difficulty": 2,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-zuiweng",
+    "quote": "名之者谁？太守自谓也",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "名词作动词，命名、取名"
+      },
+      {
+        "key": "B",
+        "text": "名词，名字"
+      },
+      {
+        "key": "C",
+        "text": "形容词作动词，出名"
+      },
+      {
+        "key": "D",
+        "text": "使动用法，使……有名"
+      }
+    ],
+    "answer": "A",
+    "explanation": "「名之」是「给它命名」，名词「名」带宾语「之」，活用为动词。同类如「名其室曰苦斋」。注意与「名闻天下」中「出名」义区分。"
+  },
+  {
+    "id": "q-chn-t-zuiweng-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "下列对《醉翁亭记》的理解，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识练习",
+    "textId": "chn-t-zuiweng",
+    "quote": "苍颜白发，颓然乎其间者，太守醉也",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "作者欧阳修，字永叔，号醉翁，又号六一居士。"
+      },
+      {
+        "key": "B",
+        "text": "全文连用二十一个「也」字收束句末，形成回环往复的韵律。"
+      },
+      {
+        "key": "C",
+        "text": "「颓然」在这里形容醉醺醺将要倒下的样子，并非「颓废消沉」。"
+      },
+      {
+        "key": "D",
+        "text": "文章写于作者晚年致仕归隐之后，故以「翁」自称。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "本文写于庆历六年，欧阳修因支持新政被贬滁州，时年四十岁，自称「翁」是自嘲与自适，并非晚年归隐之作。"
+  },
+  {
+    "id": "q-chn-t-linguan-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation"
+    ],
+    "stem": "《五代史伶官传序》中概括盛衰之理的名句是「忧劳可以兴国，____」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-linguan",
+    "quote": "忧劳可以兴国，逸豫可以亡身",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "逸豫可以亡身"
+        ],
+        "hint": "填六个字"
+      }
+    ],
+    "explanation": "「逸豫」是安逸享乐，「豫」不能写成「预」；「忧劳」对「逸豫」、「兴国」对「亡身」，一正一反，是全文的结论句。"
+  },
+  {
+    "id": "q-chn-t-linguan-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《五代史伶官传序》结尾由伶人之事推及普遍教训的句子是「夫祸患常积于忽微，____」。",
+    "difficulty": 3,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-linguan",
+    "quote": "夫祸患常积于忽微，而智勇多困于所溺",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "而智勇多困于所溺"
+        ],
+        "hint": "填七个字"
+      }
+    ],
+    "explanation": "「忽微」指极细微的事，「所溺」指所沉溺迷恋的事物。注意「溺」三点水；此句与上句构成对偶，是议论文引用率极高的名句。"
+  },
+  {
+    "id": "q-chn-t-linguan-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context",
+      "chn-classical-summary"
+    ],
+    "stem": "《五代史伶官传序》开篇即以反问提出中心论点：「盛衰之理，虽曰天命，____！」",
+    "difficulty": 3,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-linguan",
+    "quote": "盛衰之理，虽曰天命，岂非人事哉",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "岂非人事哉"
+        ],
+        "hint": "填五个字，以及反问语气"
+      }
+    ],
+    "explanation": "「岂非……哉」是反问句式，意为「难道不是……吗」，强调人事决定盛衰。注意「岂」不能写成「其」，「哉」不能漏。"
+  },
+  {
+    "id": "q-chn-t-linguan-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "「原庄宗之所以得天下，与其所以失之者」中「原」的意思是：",
+    "difficulty": 2,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-linguan",
+    "quote": "原庄宗之所以得天下，与其所以失之者",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "推究、推原"
+      },
+      {
+        "key": "B",
+        "text": "原野"
+      },
+      {
+        "key": "C",
+        "text": "原谅"
+      },
+      {
+        "key": "D",
+        "text": "本来"
+      }
+    ],
+    "answer": "A",
+    "explanation": "「原」在此是名词作动词，推究本源，与下文「抑本其成败之迹」的「本」用法相同。全句意为推究庄宗得天下与失天下的原因。"
+  },
+  {
+    "id": "q-chn-t-linguan-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "下列对《五代史伶官传序》相关常识的表述，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识练习",
+    "textId": "chn-t-linguan",
+    "quote": "数十伶人困之，而身死国灭",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "本文是欧阳修所撰《新五代史·伶官传》前的序论，属史论。"
+      },
+      {
+        "key": "B",
+        "text": "「伶人」指宫廷中的乐工、演艺之人，地位低微。"
+      },
+      {
+        "key": "C",
+        "text": "文中的「庄宗」指后唐庄宗李存勖，他曾灭后梁、建立后唐。"
+      },
+      {
+        "key": "D",
+        "text": "「少牢」指祭祀时牛、羊、猪三牲俱全，是最高规格的祭礼。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "少牢只有羊、猪各一头，牛、羊、猪俱全才叫太牢。文中「以一少牢告庙」说明庄宗出兵前用少牢祭告宗庙。"
+  },
+  {
+    "id": "q-chn-t-liuguolun-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation"
+    ],
+    "stem": "《六国论》开篇即提出中心论点：「六国破灭，非兵不利，战不善，____」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-liuguolun",
+    "quote": "六国破灭，非兵不利，战不善，弊在赂秦",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "弊在赂秦"
+        ],
+        "hint": "填四个字"
+      }
+    ],
+    "explanation": "「弊」是弊病，不能写成「敝」；「赂」是贿赂、割地求和，贝字旁。此句先破后立，是全文论证的总纲。"
+  },
+  {
+    "id": "q-chn-t-liuguolun-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation"
+    ],
+    "stem": "《六国论》引古人语说明赂秦之害：「以地事秦，犹抱薪救火，____，火不灭。」",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-liuguolun",
+    "quote": "以地事秦，犹抱薪救火，薪不尽，火不灭",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "薪不尽"
+        ],
+        "hint": "填三个字"
+      }
+    ],
+    "explanation": "此喻说明割地求和只会助长秦国贪欲，如同抱柴救火。注意「薪」是柴，不要写成「新」；语序是「薪不尽，火不灭」。"
+  },
+  {
+    "id": "q-chn-t-liuguolun-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《六国论》结尾借古讽今，警告北宋统治者不要重蹈六国覆辙：「苟以天下之大，下而从六国破亡之故事，____。」",
+    "difficulty": 4,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-liuguolun",
+    "quote": "苟以天下之大，下而从六国破亡之故事，是又在六国下矣",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "是又在六国下矣"
+        ],
+        "hint": "填六个字"
+      }
+    ],
+    "explanation": "「故事」是旧事、前例，不是今天所说的「故事」；「是」作代词，这。此句点明写作意图：讽谏宋王朝对辽、西夏的输币退让。"
+  },
+  {
+    "id": "q-chn-t-liuguolun-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "「与嬴而不助五国也」中「与」的意思是：",
+    "difficulty": 3,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-liuguolun",
+    "quote": "与嬴而不助五国也",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "亲附、结交"
+      },
+      {
+        "key": "B",
+        "text": "和、跟"
+      },
+      {
+        "key": "C",
+        "text": "给予"
+      },
+      {
+        "key": "D",
+        "text": "参与"
+      }
+    ],
+    "answer": "A",
+    "explanation": "「与」在此为动词，亲附、结交；「嬴」是秦王之姓，代指秦国。全句说齐国亲附秦国而不援助五国，这是它「终继五国迁灭」的原因。"
+  },
+  {
+    "id": "q-chn-t-liuguolun-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "下列对《六国论》中相关内容的解说，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识练习",
+    "textId": "chn-t-liuguolun",
+    "quote": "洎牧以谗诛，邯郸为郡",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "苏洵，字明允，与子苏轼、苏辙合称「三苏」，同列「唐宋八大家」。"
+      },
+      {
+        "key": "B",
+        "text": "「邯郸为郡」指赵国灭亡后，其都城邯郸成为秦国的一个郡。"
+      },
+      {
+        "key": "C",
+        "text": "「荆卿」即荆轲，文中「至丹以荆卿为计」指燕太子丹派荆轲刺秦王。"
+      },
+      {
+        "key": "D",
+        "text": "「李牧连却之」中的「李牧」是秦国名将，曾两次击败赵国。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "李牧是赵国名将，曾连败秦军；他因谗言被杀后赵国才失去屏障。把他说成秦国名将，是把人物张冠李戴。"
+  },
+  {
+    "id": "q-chn-t-dasima-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation"
+    ],
+    "stem": "《答司马谏议书》中确立驳论逻辑起点的句子是「名实已明，____」。",
+    "difficulty": 3,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-dasima",
+    "quote": "名实已明，而天下之理得矣",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "而天下之理得矣"
+        ],
+        "hint": "填七个字"
+      }
+    ],
+    "explanation": "「名实」指名分与实际，作者先立此标准，再逐条驳斥「侵官、生事、征利、拒谏」的指责，属釜底抽薪之法。注意「矣」不能写成「已」。"
+  },
+  {
+    "id": "q-chn-t-dasima-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《答司马谏议书》开头指出二人分歧的根源在于：「议事每不合，____。」",
+    "difficulty": 3,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-dasima",
+    "quote": "议事每不合，所操之术多异故也",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "所操之术多异故也"
+        ],
+        "hint": "填七个字"
+      }
+    ],
+    "explanation": "「所操之术」指所持的政治主张，「操」是持。此句把私人情谊与政见分歧分开，为下文逐条批驳留出余地，措辞委婉而立场坚定。"
+  },
+  {
+    "id": "q-chn-t-dasima-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context",
+      "chn-classical-summary"
+    ],
+    "stem": "《答司马谏议书》中揭示士大夫因循积习、为下文「汹汹然」作铺垫的句子是：「____，士大夫多以不恤国事、同俗自媚于众为善。」",
+    "difficulty": 4,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-dasima",
+    "quote": "人习于苟且非一日，士大夫多以不恤国事、同俗自媚于众为善",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "人习于苟且非一日"
+        ],
+        "hint": "填八个字"
+      }
+    ],
+    "explanation": "「苟且」指得过且过，「不恤」是不顾念。作者把反对声浪归因于积习，而非新法有失，这是驳论中转移论证方向的关键一笔。"
+  },
+  {
+    "id": "q-chn-t-dasima-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "「盘庚不为怨者故改其度，度义而后动」中，后一个「度」的意思是：",
+    "difficulty": 4,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-dasima",
+    "quote": "度义而后动，是而不见可悔故也",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "揣度、考虑，读 duó"
+      },
+      {
+        "key": "B",
+        "text": "制度、法度，读 dù"
+      },
+      {
+        "key": "C",
+        "text": "度过、越过，读 dù"
+      },
+      {
+        "key": "D",
+        "text": "量长短，读 duó"
+      }
+    ],
+    "answer": "A",
+    "explanation": "前一个「度」是名词「计划、制度」，读 dù；后一个「度」是动词「揣度、考虑」，读 duó。同形异音异义，是本文最典型的实词考点。"
+  },
+  {
+    "id": "q-chn-t-dasima-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "下列对《答司马谏议书》相关常识的表述，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识练习",
+    "textId": "chn-t-dasima",
+    "quote": "某启：昨日蒙教",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "「某」是作者自称的谦辞，「启」是陈述、禀告，属书信开头的格式语。"
+      },
+      {
+        "key": "B",
+        "text": "「君实」是司马光的字，古人称字表示敬重。"
+      },
+      {
+        "key": "C",
+        "text": "「有司」指主管某方面事务的官吏，因设官分职、各有专司而得名。"
+      },
+      {
+        "key": "D",
+        "text": "「盘庚之迁」指周平王东迁洛邑，曾遭到臣民怨恨。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "盘庚是商代君主，他迁都于殷（今河南安阳），不是周平王东迁洛邑。作者引此事表明自己如盘庚一样「不为怨者故改其度」。"
+  },
+  {
+    "id": "q-chn-t-chibifu-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation"
+    ],
+    "stem": "《赤壁赋》开篇写秋江夜景的句子是「清风徐来，____」。",
+    "difficulty": 1,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-chibifu",
+    "quote": "清风徐来，水波不兴",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "水波不兴"
+        ],
+        "hint": "填四个字"
+      }
+    ],
+    "explanation": "「兴」是兴起、扬起，「水波不兴」即水面不起波浪。此句以极静之景起笔，与后文「纵一苇之所如」的飘然相承。"
+  },
+  {
+    "id": "q-chn-t-chibifu-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation"
+    ],
+    "stem": "《赤壁赋》中客人感叹人生短暂、个体渺小的名句是「寄蜉蝣于天地，____」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-chibifu",
+    "quote": "寄蜉蝣于天地，渺沧海之一粟",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "渺沧海之一粟"
+        ],
+        "hint": "填六个字"
+      }
+    ],
+    "explanation": "「蜉蝣」是朝生暮死的小虫，喻生命短暂；「一粟」是大海中的一粒米，喻个体渺小。「蜉蝣」两字都是虫字旁，不能写成「浮游」。"
+  },
+  {
+    "id": "q-chn-t-chibifu-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《赤壁赋》中苏子从「变」的角度看待天地万物，说：「自其变者而观之，____。」",
+    "difficulty": 4,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-chibifu",
+    "quote": "自其变者而观之，则天地曾不能以一瞬",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "则天地曾不能以一瞬"
+        ],
+        "hint": "填八个字"
+      }
+    ],
+    "explanation": "「曾」读 zēng，竟、连；「一瞬」即一眨眼。此句与下句「自其不变者而观之，则物与我皆无尽也」构成对照，是全文哲思的核心。"
+  },
+  {
+    "id": "q-chn-t-chibifu-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "「举酒属客，诵明月之诗」中「属」的意思是：",
+    "difficulty": 2,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-chibifu",
+    "quote": "举酒属客，诵明月之诗",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "同「嘱」，劝人饮酒，读 zhǔ"
+      },
+      {
+        "key": "B",
+        "text": "隶属、归属"
+      },
+      {
+        "key": "C",
+        "text": "连接、相连"
+      },
+      {
+        "key": "D",
+        "text": "嘱托事情"
+      }
+    ],
+    "answer": "A",
+    "explanation": "「属客」是向客人劝酒，「属」通「嘱」，读 zhǔ。下文「举匏樽以相属」的「属」同此义，可互相印证。"
+  },
+  {
+    "id": "q-chn-t-chibifu-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "下列对《赤壁赋》相关常识的表述，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识练习",
+    "textId": "chn-t-chibifu",
+    "quote": "壬戌之秋，七月既望",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "「壬戌」是干支纪年，这年即宋神宗元丰五年。"
+      },
+      {
+        "key": "B",
+        "text": "「既望」指农历每月十六日，「望」为十五日。"
+      },
+      {
+        "key": "C",
+        "text": "赋是介于诗与散文之间的文体，讲究铺陈排比、主客问答。"
+      },
+      {
+        "key": "D",
+        "text": "文中「望美人兮天一方」的「美人」实指苏轼的妻子王氏。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "「美人」承《楚辞》香草美人的传统，喻指君王或理想，不是具体某人。解读时若坐实为妻子，就把政治寄托误读成了私情。"
+  },
+  {
+    "id": "q-chn-t-shizhongshan-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation"
+    ],
+    "stem": "《石钟山记》中点明全文主旨的句子是「事不目见耳闻，____，可乎？」",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-shizhongshan",
+    "quote": "事不目见耳闻，而臆断其有无，可乎",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "而臆断其有无"
+        ],
+        "hint": "填六个字"
+      }
+    ],
+    "explanation": "「臆断」指凭主观猜测判断，不能写成「意断」；「有无」指存在与否。此句以反问收束，把游记提升为认识论的讨论。"
+  },
+  {
+    "id": "q-chn-t-shizhongshan-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《石钟山记》中苏轼夜探绝壁、听明水声成因后，用一句倒装句感叹古人并未欺骗自己：「____！」",
+    "difficulty": 4,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-shizhongshan",
+    "quote": "古之人不余欺也",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "古之人不余欺也"
+        ],
+        "hint": "填七个字，注意宾语前置"
+      }
+    ],
+    "explanation": "「不余欺」是宾语前置，即「不欺余」。否定句中代词作宾语要前置，这是文言特殊句式的常考点，翻译时须还原语序。"
+  },
+  {
+    "id": "q-chn-t-shizhongshan-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《石钟山记》写夜泊绝壁下所见大石的阴森之状：「大石侧立千尺，____，森然欲搏人。」",
+    "difficulty": 3,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-shizhongshan",
+    "quote": "大石侧立千尺，如猛兽奇鬼，森然欲搏人",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "如猛兽奇鬼"
+        ],
+        "hint": "填五个字，是比喻"
+      }
+    ],
+    "explanation": "以「猛兽奇鬼」比喻大石，加上「森然欲搏人」的拟人化描写，渲染恐怖气氛，为下文「余方心动欲还」作铺垫。"
+  },
+  {
+    "id": "q-chn-t-shizhongshan-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-grammar"
+    ],
+    "stem": "「今以钟磬置水中，虽大风浪不能鸣也」中「鸣」的用法是：",
+    "difficulty": 3,
+    "source": "自编语法练习（据原文）",
+    "textId": "chn-t-shizhongshan",
+    "quote": "今以钟磬置水中，虽大风浪不能鸣也",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "使动用法，使……发出声响"
+      },
+      {
+        "key": "B",
+        "text": "一般动词，鸣叫"
+      },
+      {
+        "key": "C",
+        "text": "名词，声音"
+      },
+      {
+        "key": "D",
+        "text": "通「明」，显明"
+      }
+    ],
+    "answer": "A",
+    "explanation": "「不能鸣」是「不能使之鸣」，省略了宾语「之」，属使动用法。作者以此反驳郦道元「水石相搏，声如洪钟」之说：钟磬置于水中尚不能自鸣，何况石头。"
+  },
+  {
+    "id": "q-chn-t-shizhongshan-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "下列对《石钟山记》相关常识的表述，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识练习",
+    "textId": "chn-t-shizhongshan",
+    "quote": "噌吰者，周景王之无射也",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "郦道元是北魏地理学家，撰有《水经注》。"
+      },
+      {
+        "key": "B",
+        "text": "苏轼字子瞻，号东坡居士，本文写于他由黄州移任汝州途中。"
+      },
+      {
+        "key": "C",
+        "text": "本文先疑旧说、再实地考察、最后立论，是考辨性游记的代表。"
+      },
+      {
+        "key": "D",
+        "text": "「无射」是周景王所铸大钟，其名出自十二律，「射」读 shè。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "「无射」是十二律之一，这里的「射」读 yì，不读 shè。文中借无射钟、歌钟的声音来比拟水石相激的声响。"
+  },
+  {
+    "id": "q-chn-t-jichengtian-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation"
+    ],
+    "stem": "《记承天寺夜游》中以水喻月、写竹柏倒影的名句是「庭下如积水空明，____，盖竹柏影也」。",
+    "difficulty": 3,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-jichengtian",
+    "quote": "庭下如积水空明，水中藻、荇交横，盖竹柏影也",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "水中藻、荇交横",
+          "水中藻荇交横"
+        ],
+        "hint": "填六个字，注意顿号"
+      }
+    ],
+    "explanation": "「藻、荇」是两种水草，教材用顿号隔开，漏写顿号在默写中一般也算错。「盖」是「原来是」，点破前面的比喻。"
+  },
+  {
+    "id": "q-chn-t-jichengtian-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《记承天寺夜游》交代夜访缘由的句子是「念无与为乐者，____」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-jichengtian",
+    "quote": "念无与为乐者，遂至承天寺寻张怀民",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "遂至承天寺寻张怀民"
+        ],
+        "hint": "填八个字"
+      }
+    ],
+    "explanation": "「念」是想到，「无与为乐者」即没有可以共同游乐的人。这一句既是叙事，也透出贬谪中知音难觅的孤独。"
+  },
+  {
+    "id": "q-chn-t-jichengtian-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《记承天寺夜游》以反问收束、寄寓贬谪感慨的句子是「何夜无月？何处无竹柏？____」。",
+    "difficulty": 4,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-jichengtian",
+    "quote": "但少闲人如吾两人者耳",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "但少闲人如吾两人者耳"
+        ],
+        "hint": "填八个字"
+      }
+    ],
+    "explanation": "「但」是只是，「耳」是「罢了」。「闲人」表面自嘲清闲无事，实则自许心境澄明，悲凉与旷达兼有，是全文的点睛之笔。"
+  },
+  {
+    "id": "q-chn-t-jichengtian-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "「水中藻、荇交横，盖竹柏影也」中「盖」的意思是：",
+    "difficulty": 2,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-jichengtian",
+    "quote": "水中藻、荇交横，盖竹柏影也",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "表推测判断，原来是"
+      },
+      {
+        "key": "B",
+        "text": "遮盖、覆盖"
+      },
+      {
+        "key": "C",
+        "text": "大概、也许"
+      },
+      {
+        "key": "D",
+        "text": "超过、胜过"
+      }
+    ],
+    "answer": "A",
+    "explanation": "「盖」在此表解释判断，可译为「原来是」，与《赤壁赋》「盖将自其变者而观之」的「盖」（表假设推论）不同，须结合语境辨析。"
+  },
+  {
+    "id": "q-chn-t-jichengtian-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "下列对《记承天寺夜游》相关常识的表述，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识练习",
+    "textId": "chn-t-jichengtian",
+    "quote": "元丰六年十月十二日夜",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "本文写于苏轼被贬黄州期间，当时他名义上任团练副使而不得签书公事。"
+      },
+      {
+        "key": "B",
+        "text": "张怀民名梦得，字怀民，当时也贬官黄州，寓居承天寺。"
+      },
+      {
+        "key": "C",
+        "text": "全文仅八十余字，随手写来而意境澄澈，是宋代小品文的代表。"
+      },
+      {
+        "key": "D",
+        "text": "「元丰」是宋哲宗的年号，元丰六年即公元 1083 年。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "「元丰」是宋神宗赵顼的年号，不是宋哲宗。哲宗年号为元祐、绍圣等。年号与帝王对应是文化常识的常考点。"
+  }
+]

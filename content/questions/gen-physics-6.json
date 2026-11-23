@@ -1,0 +1,474 @@
+[
+  {
+    "id": "q-phy-geometric-optics-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": [
+      "phy-geometric-optics"
+    ],
+    "stem": "判断：物体在平面镜中所成像的大小，与物体到平面镜的距离无关。",
+    "answer": true,
+    "difficulty": 1,
+    "source": "自编练习",
+    "tags": [
+      "平面镜成像",
+      "像的大小"
+    ],
+    "explanation": "平面镜成像的特点是：正立、等大的虚像，像与物关于镜面对称。像的大小始终等于物的大小，与物体到镜面的距离无关；距离变化只改变像的位置。生活中「人往后退觉得像变小」是观察视角变小造成的错觉，不是像真的变小。"
+  },
+  {
+    "id": "q-phy-geometric-optics-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": [
+      "phy-geometric-optics"
+    ],
+    "stem": "一个人站在竖直平面镜前 $2\\,\\mathrm{m}$ 处，则他的像到人的距离为 ____ $\\mathrm{m}$；若他沿垂直于镜面的方向向镜面走近 $0.5\\,\\mathrm{m}$，则像到人的距离变为 ____ $\\mathrm{m}$。",
+    "blanks": [
+      {
+        "accept": [
+          "4",
+          "4m",
+          "4米",
+          "4.0"
+        ],
+        "hint": "像与物到镜面的距离相等，像到人 = 2 倍物距"
+      },
+      {
+        "accept": [
+          "3",
+          "3m",
+          "3米",
+          "3.0"
+        ],
+        "hint": "人离镜面 1.5 m，像也离镜面 1.5 m"
+      }
+    ],
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "平面镜成像",
+      "像距"
+    ],
+    "explanation": "平面镜成像时像与物关于镜面对称，像到镜面的距离总等于物到镜面的距离。人离镜 $2\\,\\mathrm{m}$，像也离镜 $2\\,\\mathrm{m}$，故像到人为 $4\\,\\mathrm{m}$。走近 $0.5\\,\\mathrm{m}$ 后物距为 $1.5\\,\\mathrm{m}$，像距也为 $1.5\\,\\mathrm{m}$，像到人变为 $3\\,\\mathrm{m}$。易错点：直接把「走近 $0.5\\,\\mathrm{m}$」从 $4\\,\\mathrm{m}$ 里减一次，得到 $3.5\\,\\mathrm{m}$，忽略了像也同步移动 $0.5\\,\\mathrm{m}$，实际应减小 $1\\,\\mathrm{m}$。"
+  },
+  {
+    "id": "q-phy-geometric-optics-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": [
+      "phy-geometric-optics"
+    ],
+    "stem": "下列现象中，主要由光的折射形成的是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "平静湖面上出现山的倒影"
+      },
+      {
+        "key": "B",
+        "text": "树荫下地面上的圆形光斑"
+      },
+      {
+        "key": "C",
+        "text": "斜插入水中的筷子看起来向上弯折"
+      },
+      {
+        "key": "D",
+        "text": "阳光下电线杆在地面上留下的影子"
+      }
+    ],
+    "answer": "C",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "光的折射",
+      "现象辨析"
+    ],
+    "explanation": "A 是平面镜成像，属于光的反射；B 是树缝形成的小孔成像，属于光在同种均匀介质中沿直线传播；D 是光的直线传播被不透明物体遮挡形成的影；只有 C 是水中筷子反射的光从水射入空气时发生折射，人眼逆着折射光线看到偏上的虚像，所以筷子「向上弯折」。判断这类题的关键是先分清光的直线传播、反射、折射三类现象的特征。"
+  },
+  {
+    "id": "q-phy-geometric-optics-4",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": [
+      "phy-geometric-optics"
+    ],
+    "stem": "关于平面镜成像，下列说法正确的是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "物体到镜面的距离越大，所成的像越大"
+      },
+      {
+        "key": "B",
+        "text": "像到镜面的距离总是大于物到镜面的距离"
+      },
+      {
+        "key": "C",
+        "text": "把平面镜沿镜面所在平面平移一段距离，像的位置不变"
+      },
+      {
+        "key": "D",
+        "text": "人向镜面走近时，像向远离镜面的方向移动"
+      }
+    ],
+    "answer": "C",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "平面镜成像",
+      "对称性"
+    ],
+    "explanation": "平面镜成像由「像与物关于镜面对称」唯一确定，像的位置只取决于物和镜面所在平面。C 中镜面沿自身平面平移，镜面所在平面没有变化，对称位置不变，像的位置也就不变，C 正确。A 错：像始终与物等大，与距离无关（觉得变小是视角效应）。B 错：像距恒等于物距。D 错：人靠近镜面时像也靠近镜面，二者同步移动。"
+  },
+  {
+    "id": "q-phy-refraction-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": [
+      "phy-refraction"
+    ],
+    "stem": "关于光的全反射，下列说法正确的是（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "光从光疏介质射入光密介质时，只要入射角足够大就可能发生全反射"
+      },
+      {
+        "key": "B",
+        "text": "发生全反射时折射光线消失，反射光线的能量等于入射光线的能量（忽略介质吸收）"
+      },
+      {
+        "key": "C",
+        "text": "只要光从光密介质射向光疏介质，就一定能发生全反射"
+      },
+      {
+        "key": "D",
+        "text": "临界角 $C$ 满足 $\\sin C=n$（$n$ 为光密介质的折射率）"
+      }
+    ],
+    "answer": "B",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "全反射",
+      "临界角"
+    ],
+    "explanation": "全反射必须同时满足两个条件：光从光密介质射向光疏介质，且入射角大于或等于临界角，二者缺一不可，所以 A、C 都错。发生全反射时没有折射光射出，入射光的能量全部转化为反射光（忽略吸收），B 正确。临界角由 $\\sin C=\\dfrac{1}{n}$ 给出，D 把倒数关系记反了。"
+  },
+  {
+    "id": "q-phy-refraction-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": [
+      "phy-refraction"
+    ],
+    "stem": "一束单色光以 $60^\\circ$ 的入射角从空气射入某种透明介质，折射角为 $30^\\circ$。则该介质的折射率 $n=$ ____（保留根号形式），光在该介质中的传播速度 $v=$ ____ $\\mathrm{m/s}$（取 $c=3.0\\times10^{8}\\,\\mathrm{m/s}$，结果保留两位有效数字）。",
+    "blanks": [
+      {
+        "accept": [
+          "√3",
+          "\\sqrt{3}",
+          "根号3",
+          "1.73",
+          "1.7"
+        ],
+        "hint": "空气折射率取 1，用 $n=\\dfrac{\\sin i}{\\sin r}$"
+      },
+      {
+        "accept": [
+          "1.7×10^8",
+          "1.7×10^{8}",
+          "1.7*10^8",
+          "1.7e8",
+          "1.73×10^8",
+          "√3×10^8"
+        ],
+        "hint": "$v=\\dfrac{c}{n}$，注意 $n>1$ 时 $v<c$"
+      }
+    ],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "折射率",
+      "光速"
+    ],
+    "explanation": "由折射定律 $n=\\dfrac{\\sin i}{\\sin r}=\\dfrac{\\sin60^\\circ}{\\sin30^\\circ}=\\dfrac{\\sqrt3/2}{1/2}=\\sqrt3\\approx1.73$。再由 $v=\\dfrac{c}{n}=\\dfrac{3.0\\times10^{8}}{1.73}\\approx1.7\\times10^{8}\\,\\mathrm{m/s}$。易错点有两个：一是把 $n$ 写成 $\\dfrac{\\sin r}{\\sin i}=\\dfrac{1}{\\sqrt3}$（折射率必大于 1，可据此检验）；二是把 $v=cn$ 记反，得到 $5.2\\times10^{8}\\,\\mathrm{m/s}$ 这种超过真空中光速的荒谬结果。"
+  },
+  {
+    "id": "q-phy-refraction-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": [
+      "phy-refraction"
+    ],
+    "stem": "某种透明介质的折射率 $n=\\sqrt{2}$，光从该介质射向空气。当入射角为下列哪个值时，光恰好发生全反射（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "$30^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$45^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$60^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$90^\\circ$"
+      }
+    ],
+    "answer": "B",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "临界角",
+      "全反射"
+    ],
+    "explanation": "临界角满足 $\\sin C=\\dfrac{1}{n}=\\dfrac{1}{\\sqrt2}=\\dfrac{\\sqrt2}{2}$，故 $C=45^\\circ$。入射角等于临界角时折射光恰好沿界面掠过，是「恰好发生全反射」的临界状态，入射角大于 $45^\\circ$ 才真正全反射。C 项容易误选：$60^\\circ$ 确实能发生全反射，但不是「恰好」；A 项 $30^\\circ$ 小于临界角，光仍会射出介质，不会全反射。"
+  },
+  {
+    "id": "q-phy-refraction-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": [
+      "phy-refraction"
+    ],
+    "stem": "一束单色光从空气斜射入某种透明介质中，下列说法正确的有（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "光在介质中的传播速度小于在空气中的传播速度"
+      },
+      {
+        "key": "B",
+        "text": "光的频率在介质中变小"
+      },
+      {
+        "key": "C",
+        "text": "光的波长在介质中变短"
+      },
+      {
+        "key": "D",
+        "text": "入射角增大时折射角也增大，但折射角总小于入射角"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "折射率",
+      "频率与波长"
+    ],
+    "explanation": "折射率 $n=\\dfrac{c}{v}>1$，故介质中光速变小，A 正确。光的频率由光源决定，进入介质后频率不变，B 错误（这是最常见的错点）。由 $v=\\lambda f$，$f$ 不变而 $v$ 变小，故波长变短，C 正确。由 $n=\\dfrac{\\sin i}{\\sin r}$ 且 $n>1$ 知 $\\sin r<\\sin i$，即 $r<i$，且折射角随入射角单调增大，D 正确。"
+  },
+  {
+    "id": "q-phy-refraction-5",
+    "subjectId": "physics",
+    "type": "short",
+    "kpIds": [
+      "phy-refraction",
+      "phy-geometric-optics"
+    ],
+    "stem": "一块厚度 $d=6.0\\,\\mathrm{cm}$ 的平行玻璃砖水平放置（上下表面平行），其折射率 $n=\\sqrt{3}$。一束单色光以入射角 $i=60^\\circ$ 射到玻璃砖上表面，光在玻璃砖内传播后从下表面射出。\n\n（1）求光在玻璃砖中的折射角 $r$；\n\n（2）求光线从下表面射出时相对原入射方向的侧移量 $\\Delta x$（结果保留两位有效数字）；\n\n（3）若把入射角增大到 $80^\\circ$，光能否从下表面射出？请简要说明理由。",
+    "rubric": [
+      {
+        "text": "由折射定律 $n=\\dfrac{\\sin i}{\\sin r}$ 得 $\\sin r=\\dfrac{\\sin60^\\circ}{\\sqrt3}=\\dfrac12$，故 $r=30^\\circ$",
+        "score": 3
+      },
+      {
+        "text": "写出玻璃砖内光路长度 $\\dfrac{d}{\\cos r}$，并指出侧移量 $\\Delta x=\\dfrac{d}{\\cos r}\\cdot\\sin(i-r)$",
+        "score": 2
+      },
+      {
+        "text": "代入数据得 $\\Delta x=\\dfrac{6.0\\times\\sin30^\\circ}{\\cos30^\\circ}\\approx3.5\\,\\mathrm{cm}$",
+        "score": 2
+      },
+      {
+        "text": "判断光从光疏介质射入光密介质，不可能发生全反射，光一定能进入玻璃砖",
+        "score": 1
+      },
+      {
+        "text": "说明光到达下表面时入射角等于 $r\\le C$（因 $\\sin r=\\dfrac{\\sin i}{n}\\le\\dfrac1n=\\sin C$），故能射出下表面",
+        "score": 2
+      }
+    ],
+    "reference": "（1）光从空气射入玻璃，由 $n=\\dfrac{\\sin i}{\\sin r}$ 得 $\\sin r=\\dfrac{\\sin 60^\\circ}{\\sqrt3}=\\dfrac{\\sqrt3/2}{\\sqrt3}=\\dfrac12$，所以 $r=30^\\circ$。\n\n（2）光在玻璃砖内沿直线传播，路程 $s=\\dfrac{d}{\\cos r}=\\dfrac{6.0}{\\cos30^\\circ}\\approx6.93\\,\\mathrm{cm}$。侧移量 $\\Delta x=s\\sin(i-r)=\\dfrac{6.0}{\\cos30^\\circ}\\sin30^\\circ=\\dfrac{3.0}{0.866}\\approx3.5\\,\\mathrm{cm}$，方向与入射光平行。\n\n（3）能。光是从光疏介质（空气）射向光密介质（玻璃），此时只可能折射、不可能全反射，光一定能进入玻璃砖。到达下表面时，由光路可逆与平行表面关系知入射角等于 $r$；又 $\\sin r=\\dfrac{\\sin i}{n}\\le\\dfrac{1}{n}=\\sin C$，即 $r\\le C$，所以不会在下表面发生全反射，光一定能射出。",
+    "maxScore": 10,
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "平行玻璃砖",
+      "侧移量",
+      "全反射条件"
+    ],
+    "explanation": "本题把折射定律与全反射条件放在同一情境中考查。第（1）问是基本运算，注意 $n$ 用 $\\sqrt3$ 而不是近似值，能直接得到 $r=30^\\circ$ 这个「好角」；第（2）问的关键是几何关系：光在砖内走的是斜线，路程是 $\\dfrac{d}{\\cos r}$，侧移量对应 $\\sin(i-r)$，两个因子容易漏掉 $\\cos r$ 或错写成 $\\sin i$；第（3）问是全题的分水岭——很多同学一看「角度很大」就判全反射，忽略了全反射只可能发生在光密射向光疏时。也可以换个角度：光穿过平行玻璃砖后出射光线与入射光线平行，入射角再大也只是侧移变大，出射方向不变。"
+  },
+  {
+    "id": "q-phy-interference-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": [
+      "phy-interference"
+    ],
+    "stem": "在双缝干涉实验中，若其他条件都不变，只把双缝之间的距离 $d$ 增大，则屏上相邻两条亮条纹的中心间距 $\\Delta x$ 将（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "增大"
+      },
+      {
+        "key": "B",
+        "text": "减小"
+      },
+      {
+        "key": "C",
+        "text": "不变"
+      },
+      {
+        "key": "D",
+        "text": "先增大后减小"
+      }
+    ],
+    "answer": "B",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "双缝干涉",
+      "条纹间距"
+    ],
+    "explanation": "双缝干涉相邻亮条纹间距 $\\Delta x=\\dfrac{L}{d}\\lambda$，$d$ 在分母上，故 $d$ 增大时 $\\Delta x$ 减小，选 B。常见错误是记成 $\\Delta x=\\dfrac{d}{L}\\lambda$ 而误选 A，判断时可记「双缝越靠得近、条纹越疏」这一直观结论来检验公式。"
+  },
+  {
+    "id": "q-phy-interference-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": [
+      "phy-interference"
+    ],
+    "stem": "用波长 $\\lambda=5.0\\times10^{-7}\\,\\mathrm{m}$ 的单色光做双缝干涉实验，双缝到屏的距离 $L=1.0\\,\\mathrm{m}$，双缝间距 $d=5.0\\times10^{-4}\\,\\mathrm{m}$。则屏上相邻两条亮条纹的中心间距 $\\Delta x=$ ____ $\\mathrm{m}$。",
+    "blanks": [
+      {
+        "accept": [
+          "1.0×10^-3",
+          "1×10^-3",
+          "1.0×10^{-3}",
+          "10^-3",
+          "0.001",
+          "1mm"
+        ],
+        "hint": "$\\Delta x=\\dfrac{L}{d}\\lambda$，注意 $\\lambda$ 与 $d$ 的单位统一"
+      }
+    ],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": [
+      "双缝干涉",
+      "条纹间距计算"
+    ],
+    "explanation": "$\\Delta x=\\dfrac{L}{d}\\lambda=\\dfrac{1.0}{5.0\\times10^{-4}}\\times5.0\\times10^{-7}=2.0\\times10^{3}\\times5.0\\times10^{-7}=1.0\\times10^{-3}\\,\\mathrm{m}=1.0\\,\\mathrm{mm}$。这题最容易错在指数运算：$\\dfrac{10^{-7}}{10^{-4}}=10^{-3}$，若写成 $10^{-11}$ 或忘了把 $d$ 化成米，结果会差好几个数量级，可用「可见光条纹间距约 1 mm 量级」的经验结论检验答案是否合理。"
+  },
+  {
+    "id": "q-phy-interference-3",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": [
+      "phy-interference"
+    ],
+    "stem": "判断：任意两束光在空间中相遇，都能产生稳定的干涉条纹。",
+    "answer": false,
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": [
+      "相干条件",
+      "干涉"
+    ],
+    "explanation": "产生稳定干涉必须满足相干条件：两束光频率相同、相位差恒定、振动方向相同（且光程差不超过相干长度）。普通两个独立光源发出的光，由于发光是原子自发辐射的随机过程，相位差随时间无规则变化，相遇后只能得到亮度叠加，看不到稳定条纹——这正是历史上难以观察到光的干涉、需要借助同一光源分束（如双缝）的原因。"
+  },
+  {
+    "id": "q-phy-interference-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": [
+      "phy-interference"
+    ],
+    "stem": "关于光的干涉和衍射，下列说法正确的有（　）",
+    "options": [
+      {
+        "key": "A",
+        "text": "光的干涉现象和衍射现象都表明光具有波动性"
+      },
+      {
+        "key": "B",
+        "text": "单缝衍射的图样是明暗相间的条纹，其中中央亮纹最宽、最亮"
+      },
+      {
+        "key": "C",
+        "text": "照相机镜头表面的增透膜利用薄膜干涉，使反射光相互加强从而提高透射光能量"
+      },
+      {
+        "key": "D",
+        "text": "双缝干涉中，若把入射光由红光换成紫光，其他条件不变，条纹间距变小"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "干涉与衍射",
+      "增透膜",
+      "条纹间距"
+    ],
+    "explanation": "干涉和衍射都是波特有的现象，A 正确。单缝衍射条纹宽度不等，中央亮纹最宽最亮，B 正确。增透膜的原理是让膜前后表面反射的光相互抵消（减弱反射），从而增加透射光，C 说「反射光相互加强」正好相反，错误。由 $\\Delta x=\\dfrac{L}{d}\\lambda$，紫光波长小于红光，故条纹间距变小，D 正确。"
+  },
+  {
+    "id": "q-phy-interference-5",
+    "subjectId": "physics",
+    "type": "short",
+    "kpIds": [
+      "phy-interference",
+      "phy-geometric-optics"
+    ],
+    "stem": "在双缝干涉实验中，双缝间距 $d=0.20\\,\\mathrm{mm}$，双缝到屏的距离 $L=1.00\\,\\mathrm{m}$。用某种单色光照射双缝，测得屏上第 1 条亮纹中心与第 6 条亮纹中心之间的距离为 $15.0\\,\\mathrm{mm}$。\n\n（1）求相邻两条亮纹的中心间距 $\\Delta x$；\n\n（2）求该单色光的波长 $\\lambda$；\n\n（3）若改用波长更长的红光重做实验，条纹间距如何变化？若要减小条纹间距，可以采取哪些措施？",
+    "rubric": [
+      {
+        "text": "指出第 1 条与第 6 条亮纹之间包含 5 个条纹间距，得 $\\Delta x=\\dfrac{15.0}{5}=3.0\\,\\mathrm{mm}=3.0\\times10^{-3}\\,\\mathrm{m}$",
+        "score": 3
+      },
+      {
+        "text": "写出 $\\Delta x=\\dfrac{L}{d}\\lambda$，变形得 $\\lambda=\\dfrac{\\Delta x\\cdot d}{L}$",
+        "score": 2
+      },
+      {
+        "text": "代入 $d=2.0\\times10^{-4}\\,\\mathrm{m}$、$L=1.00\\,\\mathrm{m}$，得 $\\lambda=6.0\\times10^{-7}\\,\\mathrm{m}=600\\,\\mathrm{nm}$",
+        "score": 4
+      },
+      {
+        "text": "由 $\\Delta x\\propto\\lambda$ 判断红光条纹间距变大，并给出减小条纹间距的措施：增大双缝间距 $d$ 或减小缝到屏的距离 $L$",
+        "score": 1
+      }
+    ],
+    "reference": "（1）第 1 条到第 6 条亮纹之间有 $6-1=5$ 个间隔，故 $\\Delta x=\\dfrac{15.0\\,\\mathrm{mm}}{5}=3.0\\,\\mathrm{mm}=3.0\\times10^{-3}\\,\\mathrm{m}$。\n\n（2）由 $\\Delta x=\\dfrac{L}{d}\\lambda$ 得 $\\lambda=\\dfrac{\\Delta x\\,d}{L}=\\dfrac{3.0\\times10^{-3}\\times0.20\\times10^{-3}}{1.00}=6.0\\times10^{-7}\\,\\mathrm{m}=600\\,\\mathrm{nm}$。\n\n（3）由 $\\Delta x=\\dfrac{L}{d}\\lambda$ 知 $\\Delta x$ 与 $\\lambda$ 成正比，红光波长更长，故条纹间距变大（条纹变疏）。要减小条纹间距，可以增大双缝间距 $d$，或减小双缝到屏的距离 $L$。",
+    "maxScore": 10,
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": [
+      "双缝干涉",
+      "波长测量",
+      "条纹间距"
+    ],
+    "explanation": "本题是「用双缝干涉测光的波长」的典型计算。第（1）问的关键是数间隔而不是数条纹：$n$ 条亮纹之间只有 $n-1$ 个间距，误算成 $\\dfrac{15.0}{6}$ 会得到 $2.5\\,\\mathrm{mm}$，导致波长偏小。第（2）问代入时务必把 $d=0.20\\,\\mathrm{mm}$ 化成 $2.0\\times10^{-4}\\,\\mathrm{m}$，单位不统一是本题最主要的失分点；得到 $600\\,\\mathrm{nm}$ 后应能判断它落在可见光范围内（$400\\sim760\\,\\mathrm{nm}$），这是很好的自检。第（3）问考查对公式的比例关系的理解：$\\Delta x\\propto\\lambda$、$\\Delta x\\propto\\dfrac{1}{d}$、$\\Delta x\\propto L$。"
+  }
+]

@@ -1,0 +1,1404 @@
+[
+  {
+    "id": "q-phy-kinematics-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-kinematics"],
+    "stem": "判断下列说法是否正确：做直线运动的物体，位移的大小一定等于路程。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["位移与路程", "矢量与标量"],
+    "answer": false,
+    "explanation": "位移是矢量，由初、末位置决定，大小为两点间直线距离；路程是标量，是轨迹的实际长度。只有**单向直线运动**时二者大小才相等。若物体先前进 $3\\ \\mathrm{m}$ 又返回 $2\\ \\mathrm{m}$，路程为 $5\\ \\mathrm{m}$，而位移大小只有 $1\\ \\mathrm{m}$。题目用「一定」二字，忽略了往返的情况，故错误。"
+  },
+  {
+    "id": "q-phy-kinematics-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-kinematics"],
+    "stem": "一质点沿直线单向运动，前一半位移内的速度为 $4\\ \\mathrm{m/s}$，后一半位移内的速度为 $6\\ \\mathrm{m/s}$，则全程的平均速度为 ____（结果保留一位小数，带单位）。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["平均速度", "分段运动"],
+    "blanks": [
+      {
+        "accept": ["4.8 m/s", "4.8m/s", "4.8"],
+        "hint": "设总位移为 $2s$，分别求出两段所用时间再合并"
+      }
+    ],
+    "explanation": "设总位移为 $2s$，则前一半用时 $t_1=\\dfrac{s}{4}$，后一半用时 $t_2=\\dfrac{s}{6}$，总时间 $t=\\dfrac{s}{4}+\\dfrac{s}{6}=\\dfrac{5s}{12}$。平均速度 $\\bar v=\\dfrac{2s}{t}=\\dfrac{2s\\times12}{5s}=4.8\\ \\mathrm{m/s}$。平均速度是**总位移除以总时间**，不能把两段速度取算术平均（那会得到错误的 $5\\ \\mathrm{m/s}$），因为慢速段占用的时间更长、权重更大。"
+  },
+  {
+    "id": "q-phy-kinematics-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-kinematics"],
+    "stem": "某同学沿直线晨跑，前 $300\\ \\mathrm{s}$ 以 $3\\ \\mathrm{m/s}$ 匀速运动，随后 $200\\ \\mathrm{s}$ 以 $5\\ \\mathrm{m/s}$ 匀速运动，则全程平均速度的大小为（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["平均速度", "分段计程"],
+    "options": [
+      { "key": "A", "text": "$4.0\\ \\mathrm{m/s}$" },
+      { "key": "B", "text": "$3.8\\ \\mathrm{m/s}$" },
+      { "key": "C", "text": "$3.5\\ \\mathrm{m/s}$" },
+      { "key": "D", "text": "$4.2\\ \\mathrm{m/s}$" }
+    ],
+    "answer": "B",
+    "explanation": "两段位移之和 $x=3\\times300+5\\times200=900+1000=1900\\ \\mathrm{m}$，总时间 $t=500\\ \\mathrm{s}$，故 $\\bar v=\\dfrac{1900}{500}=3.8\\ \\mathrm{m/s}$。选 A 是把速度直接取算术平均 $(3+5)/2=4.0$；本题按**时间分段**，用「总位移除以总时间」才不会错。对比按位移等分的情形，答案会不同，关键看题目按什么量等分。"
+  },
+  {
+    "id": "q-phy-kinematics-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-kinematics"],
+    "stem": "关于位移、路程、速度和加速度，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["位移", "平均速度", "加速度"],
+    "options": [
+      { "key": "A", "text": "位移是矢量，路程是标量" },
+      { "key": "B", "text": "平均速度等于位移与所用时间的比值，方向与位移方向相同" },
+      { "key": "C", "text": "物体的速度为零时，加速度也一定为零" },
+      { "key": "D", "text": "加速度方向与速度方向相反时，物体做减速运动" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A、B 是定义层面的结论，正确。C 错：竖直上抛到最高点时速度为零，但加速度仍为 $g$；速度与加速度没有必然的大小同步关系。D 正确：加速度与速度反向即减速，反向时加速度可增大也可减小，只要方向不变就仍在减速。判断减速只看**方向关系**，不看加速度大小如何变化。"
+  },
+  {
+    "id": "q-phy-uniform-accel-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-uniform-accel"],
+    "stem": "判断下列说法是否正确：汽车以 $10\\ \\mathrm{m/s}$ 行驶，刹车时加速度大小为 $2\\ \\mathrm{m/s^2}$，则刹车后 $6\\ \\mathrm{s}$ 内的位移为 $24\\ \\mathrm{m}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["刹车问题", "匀减速", "停止时间"],
+    "answer": false,
+    "explanation": "刹车问题必须先判断何时停止：$t_0=\\dfrac{v_0}{a}=\\dfrac{10}{2}=5\\ \\mathrm{s}$，即 $5\\ \\mathrm{s}$ 后汽车已静止，之后不再运动。位移 $x=\\dfrac{v_0^2}{2a}=\\dfrac{100}{4}=25\\ \\mathrm{m}$。若硬套 $x=v_0t-\\frac12at^2=10\\times6-\\frac12\\times2\\times36=24\\ \\mathrm{m}$，等于让汽车在停止后又「倒着走」$1\\ \\mathrm{m}$，物理上不可能。故该说法错误，正确位移为 $25\\ \\mathrm{m}$。"
+  },
+  {
+    "id": "q-phy-uniform-accel-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-uniform-accel"],
+    "stem": "一物体做匀加速直线运动，第 $1\\ \\mathrm{s}$ 内的位移为 $2\\ \\mathrm{m}$，第 $2\\ \\mathrm{s}$ 内的位移为 $4\\ \\mathrm{m}$，则加速度 $a=$ ____ $\\mathrm{m/s^2}$，第 $1\\ \\mathrm{s}$ 末的速度 $v_1=$ ____ $\\mathrm{m/s}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["逐差法", "中间时刻速度"],
+    "blanks": [
+      {
+        "accept": ["2", "2 m/s^2", "2m/s²", "2 m/s²"],
+        "hint": "连续相等时间内的位移差 $\\Delta x=aT^2$"
+      },
+      {
+        "accept": ["3", "3 m/s", "3m/s"],
+        "hint": "第 $1\\ \\mathrm{s}$ 末正是前 $2\\ \\mathrm{s}$ 的中间时刻"
+      }
+    ],
+    "explanation": "由 $\\Delta x=aT^2$ 得 $a=\\dfrac{4-2}{1^2}=2\\ \\mathrm{m/s^2}$。第 $1\\ \\mathrm{s}$ 末是 $0\\sim2\\ \\mathrm{s}$ 的中间时刻，该段平均速度等于中间时刻瞬时速度，故 $v_1=\\dfrac{2+4}{2}=3\\ \\mathrm{m/s}$。也可用 $v_0$ 验证：由 $x_1=v_0T+\\frac12aT^2=2$ 得 $v_0=1\\ \\mathrm{m/s}$，$v_1=v_0+aT=3\\ \\mathrm{m/s}$，自洽。"
+  },
+  {
+    "id": "q-phy-uniform-accel-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-uniform-accel"],
+    "stem": "汽车从静止开始做匀加速直线运动，第 $3\\ \\mathrm{s}$ 末的速度为 $6\\ \\mathrm{m/s}$，则前 $4\\ \\mathrm{s}$ 内的位移为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["匀加速", "位移公式"],
+    "options": [
+      { "key": "A", "text": "$8\\ \\mathrm{m}$" },
+      { "key": "B", "text": "$12\\ \\mathrm{m}$" },
+      { "key": "C", "text": "$16\\ \\mathrm{m}$" },
+      { "key": "D", "text": "$24\\ \\mathrm{m}$" }
+    ],
+    "answer": "C",
+    "explanation": "由 $v=at$ 得 $a=\\dfrac{6}{3}=2\\ \\mathrm{m/s^2}$，再由 $x=\\frac12at^2=\\frac12\\times2\\times16=16\\ \\mathrm{m}$。选 B 是错把 $6\\ \\mathrm{m/s}$ 当成全程平均速度（$6\\times\\frac{4}{2}=12$）；选 D 是直接算 $6\\times4$，把末速度当全程速度。匀加速且初速为零时，平均速度为 $\\bar v=\\dfrac{v_4}{2}=\\dfrac{8}{2}=4\\ \\mathrm{m/s}$，$x=4\\times4=16\\ \\mathrm{m}$，与公式一致。"
+  },
+  {
+    "id": "q-phy-uniform-accel-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-uniform-accel"],
+    "stem": "关于匀变速直线运动及其图像，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["位移差", "图像意义"],
+    "options": [
+      { "key": "A", "text": "连续相等时间内的位移之差为常量 $aT^2$" },
+      { "key": "B", "text": "某段时间内的平均速度等于该段时间中间时刻的瞬时速度" },
+      { "key": "C", "text": "速度—时间图像的斜率表示加速度，图线与时间轴围成的面积表示位移" },
+      { "key": "D", "text": "物体的速度减小时，加速度一定也在减小" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 即逐差法结论，注意它只对匀变速成立。B 由 $\\bar v=\\dfrac{v_0+v}{2}=v_{t/2}$ 得到，是匀变速的专属性质。C 中 $v\\text{-}t$ 图斜率 $=\\dfrac{\\Delta v}{\\Delta t}=a$，面积即 $\\sum v\\Delta t$ 对应位移，正确。D 错：速度减小只要求 $a$ 与 $v$ 反向，$a$ 可以越来越大（如刹车时踩得更狠），这种情形下减速反而更快。"
+  },
+  {
+    "id": "q-phy-free-fall-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-free-fall"],
+    "stem": "判断下列说法是否正确：竖直上抛的物体到达最高点时，速度为零，加速度也为零。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["竖直上抛", "最高点"],
+    "answer": false,
+    "explanation": "最高点只是**速度**为零，物体仍只受重力，加速度恒为 $g$（方向竖直向下），正因如此它才不能停在那里。若加速度也为零，物体将保持静止，与「上抛后落回」的事实矛盾。这类题要区分「速度为零」与「处于平衡状态」：只有合外力为零时加速度才为零。"
+  },
+  {
+    "id": "q-phy-free-fall-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-free-fall"],
+    "stem": "物体从 $45\\ \\mathrm{m}$ 高处由静止自由下落（不计空气阻力，$g=10\\ \\mathrm{m/s^2}$），落地所用时间为 ____ $\\mathrm{s}$，落地速度大小为 ____ $\\mathrm{m/s}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["自由落体", "落地时间"],
+    "blanks": [
+      {
+        "accept": ["3", "3 s", "3s"],
+        "hint": "由 $h=\\frac12gt^2$ 反解 $t$"
+      },
+      {
+        "accept": ["30", "30 m/s", "30m/s"],
+        "hint": "也可用 $v=\\sqrt{2gh}$"
+      }
+    ],
+    "explanation": "由 $h=\\frac12gt^2$ 得 $t=\\sqrt{\\dfrac{2h}{g}}=\\sqrt{\\dfrac{90}{10}}=3\\ \\mathrm{s}$；落地速度 $v=gt=30\\ \\mathrm{m/s}$，或用 $v^2=2gh$ 得 $v=\\sqrt{2\\times10\\times45}=30\\ \\mathrm{m/s}$。注意 $45=5\\times3^2$ 这一组常见数据；若误用 $h=gt^2$ 会得到 $t=\\sqrt{4.5}$，是漏掉系数 $\\frac12$ 的典型错误。"
+  },
+  {
+    "id": "q-phy-free-fall-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-free-fall"],
+    "stem": "以 $20\\ \\mathrm{m/s}$ 的初速度竖直上抛一小球（不计空气阻力，$g=10\\ \\mathrm{m/s^2}$），则 $3\\ \\mathrm{s}$ 末小球（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["竖直上抛", "位移与速度方向"],
+    "options": [
+      { "key": "A", "text": "在抛出点上方 $15\\ \\mathrm{m}$ 处，速度 $10\\ \\mathrm{m/s}$，方向向下" },
+      { "key": "B", "text": "在抛出点上方 $15\\ \\mathrm{m}$ 处，速度 $10\\ \\mathrm{m/s}$，方向向上" },
+      { "key": "C", "text": "在抛出点下方 $15\\ \\mathrm{m}$ 处，速度 $10\\ \\mathrm{m/s}$，方向向下" },
+      { "key": "D", "text": "在抛出点上方 $15\\ \\mathrm{m}$ 处，速度 $30\\ \\mathrm{m/s}$，方向向下" }
+    ],
+    "answer": "A",
+    "explanation": "取向上为正：$h=v_0t-\\frac12gt^2=20\\times3-5\\times9=60-45=15\\ \\mathrm{m}>0$，说明在抛出点上方 $15\\ \\mathrm{m}$。$v=v_0-gt=20-30=-10\\ \\mathrm{m/s}$，负号表示方向向下。上升时间 $t_0=\\dfrac{20}{10}=2\\ \\mathrm{s}$，故 $3\\ \\mathrm{s}$ 时已过最高点、正在下落，B 的方向判断错误；C 把正负号理解成位置在下方；D 漏掉重力加速度的累计效果。"
+  },
+  {
+    "id": "q-phy-free-fall-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-free-fall"],
+    "stem": "关于自由落体运动和竖直上抛运动，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["自由落体", "对称性"],
+    "options": [
+      { "key": "A", "text": "自由落体运动是初速度为零、加速度为 $g$ 的匀加速直线运动" },
+      { "key": "B", "text": "竖直上抛运动上升与下落经过同一位置时，速度大小相等、方向相反" },
+      { "key": "C", "text": "竖直上抛上升到最高点所用时间与从最高点落回抛出点所用时间相等" },
+      { "key": "D", "text": "自由落体运动中，下落高度与下落时间成正比" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 是自由落体的定义，前提是只受重力（忽略空气阻力）。B、C 是竖直上抛的对称性：同一高度处速率相等、方向相反；上升与下落阶段互逆，时间相等，这是「$h$ 与 $v$ 关系只依赖 $v^2$」的结果。D 错：$h=\\frac12gt^2$，高度与时间**平方**成正比，$t$ 加倍则 $h$ 变 4 倍，这是最常被误判成「正比」的结论。"
+  },
+  {
+    "id": "q-phy-relative-motion-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-relative-motion"],
+    "stem": "小船在静水中的速度为 $3\\ \\mathrm{m/s}$，河水流速为 $4\\ \\mathrm{m/s}$，河宽 $60\\ \\mathrm{m}$。若船头始终垂直河岸，则渡河时间为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["小船渡河", "分运动独立性"],
+    "options": [
+      { "key": "A", "text": "$12\\ \\mathrm{s}$" },
+      { "key": "B", "text": "$15\\ \\mathrm{s}$" },
+      { "key": "C", "text": "$20\\ \\mathrm{s}$" },
+      { "key": "D", "text": "$25\\ \\mathrm{s}$" }
+    ],
+    "answer": "C",
+    "explanation": "渡河时间只由垂直河岸的分运动决定：$t=\\dfrac{d}{v_{船}}=\\dfrac{60}{3}=20\\ \\mathrm{s}$，水流只让船沿岸漂移，不改变渡河时间（分运动的独立性、等时性）。选 A 是把合速度 $\\sqrt{3^2+4^2}=5\\ \\mathrm{m/s}$ 当成渡河速度，得 $60/5=12\\ \\mathrm{s}$，这是最典型的错误；选 B 是误用 $60/4$。"
+  },
+  {
+    "id": "q-phy-relative-motion-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-relative-motion"],
+    "stem": "条件同上题（船速 $3\\ \\mathrm{m/s}$、水速 $4\\ \\mathrm{m/s}$、河宽 $60\\ \\mathrm{m}$、船头垂直河岸），船到达对岸时沿河岸方向漂移了 ____ $\\mathrm{m}$，船相对河岸的速度大小为 ____ $\\mathrm{m/s}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["小船渡河", "速度合成"],
+    "blanks": [
+      {
+        "accept": ["80", "80 m", "80m"],
+        "hint": "漂移距离 = 水速 × 渡河时间"
+      },
+      {
+        "accept": ["5", "5 m/s", "5m/s"],
+        "hint": "两个分速度互相垂直，用勾股定理"
+      }
+    ],
+    "explanation": "渡河时间 $t=20\\ \\mathrm{s}$，沿岸漂移 $x=v_水t=4\\times20=80\\ \\mathrm{m}$。合速度与船速、水速互相垂直，故 $v=\\sqrt{3^2+4^2}=5\\ \\mathrm{m/s}$，方向与河岸夹角满足 $\\sin\\alpha=\\dfrac{3}{5}$。常见错误是把分速度直接相加得 $7\\ \\mathrm{m/s}$——速度是矢量，合成要用平行四边形（此处即勾股定理）。"
+  },
+  {
+    "id": "q-phy-relative-motion-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-relative-motion"],
+    "stem": "河宽 $60\\ \\mathrm{m}$，小船在静水中速度为 $3\\ \\mathrm{m/s}$，河水流速为 $4\\ \\mathrm{m/s}$。若要使渡河位移最短，最短位移为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["最短位移", "船速小于水速"],
+    "options": [
+      { "key": "A", "text": "$60\\ \\mathrm{m}$" },
+      { "key": "B", "text": "$75\\ \\mathrm{m}$" },
+      { "key": "C", "text": "$80\\ \\mathrm{m}$" },
+      { "key": "D", "text": "$100\\ \\mathrm{m}$" }
+    ],
+    "answer": "C",
+    "explanation": "船速 $3<水速 4$，无论船头怎么指，合速度都不可能垂直河岸，因此不可能到达正对岸，A 不成立。此时最短位移为 $s_{min}=\\dfrac{v_水}{v_船}d=\\dfrac{4}{3}\\times60=80\\ \\mathrm{m}$，对应条件 $\\cos\\theta=\\dfrac{v_船}{v_水}=\\dfrac34$（$\\theta$ 为船头与上游河岸方向的夹角）。若船速大于水速，才可垂直到达，最短位移等于河宽 $60\\ \\mathrm{m}$。选 D 是错把合速度 $5\\ \\mathrm{m/s}$ 与漂移 $80\\ \\mathrm{m}$ 混算。"
+  },
+  {
+    "id": "q-phy-relative-motion-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-relative-motion"],
+    "stem": "关于运动的合成与分解，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["合运动", "等时性", "曲线运动条件"],
+    "options": [
+      { "key": "A", "text": "合运动与分运动具有等时性，合运动所用时间等于各分运动所用时间" },
+      { "key": "B", "text": "两个匀速直线运动的合运动一定是匀速直线运动" },
+      { "key": "C", "text": "合速度的大小一定大于每一个分速度的大小" },
+      { "key": "D", "text": "一个匀速直线运动与一个匀变速直线运动的合运动可能是曲线运动" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 是运动合成的基本性质。B 中两个分运动加速度均为零，合加速度也为零，故合运动为匀速直线运动（含静止）。C 错：合速度由平行四边形定则决定，夹角为钝角时合速度可以小于任一分速度，如 $3\\ \\mathrm{m/s}$ 与 $4\\ \\mathrm{m/s}$ 夹角 $120^\\circ$ 时合速度为 $\\sqrt{9+16-12}=\\sqrt{13}<4$。D 正确，平抛运动就是水平匀速与竖直匀变速合成的曲线运动。判断轨迹是直线还是曲线，看合速度与合加速度是否共线。"
+  },
+  {
+    "id": "q-phy-interaction-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-interaction"],
+    "stem": "判断下列说法是否正确：物体所受的重力一定等于地球对它的万有引力。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["重力", "万有引力"],
+    "answer": false,
+    "explanation": "严格地说，重力是万有引力的一个分力，另一个分力提供物体随地球自转的向心力，故 $mg<G\\dfrac{Mm}{R^2}$。只有在忽略地球自转（或粗略计算）时才近似认为二者相等，且随纬度变化 $g$ 略有不同。题目用「一定等于」，把近似关系当成了严格相等，故错误。"
+  },
+  {
+    "id": "q-phy-interaction-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-interaction"],
+    "stem": "质量为 $2\\ \\mathrm{kg}$ 的物体放在水平桌面上，用 $10\\ \\mathrm{N}$ 的力竖直向上提它但没有提起（$g=10\\ \\mathrm{m/s^2}$），则桌面对物体的支持力为 ____ $\\mathrm{N}$，物体所受合力为 ____ $\\mathrm{N}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["受力分析", "平衡"],
+    "blanks": [
+      {
+        "accept": ["10", "10 N", "10N"],
+        "hint": "竖直方向三力平衡：$N+F=mg$"
+      },
+      {
+        "accept": ["0", "0 N", "零"],
+        "hint": "物体保持静止，合外力必为零"
+      }
+    ],
+    "explanation": "重力 $mg=20\\ \\mathrm{N}$，向上有拉力 $10\\ \\mathrm{N}$，由竖直方向平衡 $N+10=20$ 得 $N=10\\ \\mathrm{N}$。物体静止，合外力为零。易错点：认为「提了但没提起，合外力向上」——物体没有加速度，合外力只能为零；也别把支持力算成 $20\\ \\mathrm{N}$ 而漏掉向上的拉力。"
+  },
+  {
+    "id": "q-phy-interaction-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-interaction"],
+    "stem": "一根轻弹簧原长 $10\\ \\mathrm{cm}$，下端挂 $2\\ \\mathrm{N}$ 的重物时长度变为 $12\\ \\mathrm{cm}$（在弹性限度内），则该弹簧的劲度系数为（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["胡克定律", "劲度系数"],
+    "options": [
+      { "key": "A", "text": "$50\\ \\mathrm{N/m}$" },
+      { "key": "B", "text": "$100\\ \\mathrm{N/m}$" },
+      { "key": "C", "text": "$200\\ \\mathrm{N/m}$" },
+      { "key": "D", "text": "$20\\ \\mathrm{N/m}$" }
+    ],
+    "answer": "B",
+    "explanation": "胡克定律 $F=kx$ 中的 $x$ 是**形变量**而非弹簧长度：$x=12-10=2\\ \\mathrm{cm}=0.02\\ \\mathrm{m}$，故 $k=\\dfrac{2}{0.02}=100\\ \\mathrm{N/m}$。选 A 是把 $0.04\\ \\mathrm{m}$ 当成形变量；选 D 直接用 $2/0.1$，把原长当形变量；选 C 是把形变量误算成 $1\\ \\mathrm{cm}$。单位换算（cm 转 m）也是本题的常错点。"
+  },
+  {
+    "id": "q-phy-interaction-4",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-interaction"],
+    "stem": "一个物体沿光滑斜面下滑，对它进行受力分析，它受到的力是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["受力分析", "效果力与性质力"],
+    "options": [
+      { "key": "A", "text": "重力、支持力、下滑力" },
+      { "key": "B", "text": "重力、支持力" },
+      { "key": "C", "text": "重力、支持力、摩擦力" },
+      { "key": "D", "text": "重力、下滑力、摩擦力" }
+    ],
+    "answer": "B",
+    "explanation": "受力分析按「重力—接触力—其他力」的顺序：物体受重力；与斜面接触且相互挤压，受支持力；斜面**光滑**，无摩擦力。所谓「下滑力」是重力沿斜面方向的分力，属于效果力，不是独立的性质力，不能单独计入，故 A、D 错；C 多算了摩擦力。判断受力时要问「这个力是谁施加的」，找不到施力物体的力不存在。"
+  },
+  {
+    "id": "q-phy-friction-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-friction"],
+    "stem": "判断下列说法是否正确：摩擦力总是阻碍物体的运动，因此摩擦力的方向总是与物体运动方向相反。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["摩擦力方向", "相对运动"],
+    "answer": false,
+    "explanation": "摩擦力的方向与**相对运动（或相对运动趋势）方向**相反，而不是与物体的运动方向相反。物体随传送带一起加速时，静摩擦力与运动方向相同，是动力；人走路时地面对脚的静摩擦力也是动力。所以摩擦力可以是阻力也可以是动力，说「总是阻碍运动」错误。判断依据是「相对」二字。"
+  },
+  {
+    "id": "q-phy-friction-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-friction"],
+    "stem": "质量为 $5\\ \\mathrm{kg}$ 的物体放在水平地面上，物体与地面间的动摩擦因数为 $0.4$，最大静摩擦力可认为等于滑动摩擦力。用 $15\\ \\mathrm{N}$ 的水平力拉它，物体保持静止（$g=10\\ \\mathrm{m/s^2}$），则它受到的摩擦力大小为 ____ $\\mathrm{N}$。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["静摩擦力", "最大静摩擦力"],
+    "blanks": [
+      {
+        "accept": ["15", "15 N", "15N"],
+        "hint": "物体静止，静摩擦力由平衡条件决定，不是 $\\mu N$"
+      }
+    ],
+    "explanation": "最大静摩擦力约为 $f_{max}=\\mu mg=0.4\\times50=20\\ \\mathrm{N}$，而拉力 $15\\ \\mathrm{N}<20\\ \\mathrm{N}$，物体保持静止。静止时由水平方向平衡得 $f=15\\ \\mathrm{N}$，方向与拉力相反。最典型的错误是套 $f=\\mu N=20\\ \\mathrm{N}$——该公式只适用于**滑动**摩擦力；静摩擦力的大小随外力变化，范围是 $0<f\\le f_{max}$，必须由平衡条件或牛顿第二定律求出。"
+  },
+  {
+    "id": "q-phy-friction-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-friction"],
+    "stem": "质量为 $2\\ \\mathrm{kg}$ 的物体在水平面上滑行，物体与水平面间的动摩擦因数为 $0.2$，则物体受到的滑动摩擦力大小为（　，$g=10\\ \\mathrm{m/s^2}$）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["滑动摩擦力", "正压力"],
+    "options": [
+      { "key": "A", "text": "$0.4\\ \\mathrm{N}$" },
+      { "key": "B", "text": "$2\\ \\mathrm{N}$" },
+      { "key": "C", "text": "$4\\ \\mathrm{N}$" },
+      { "key": "D", "text": "$20\\ \\mathrm{N}$" }
+    ],
+    "answer": "C",
+    "explanation": "水平面上正压力等于重力 $N=mg=20\\ \\mathrm{N}$，故 $f=\\mu N=0.2\\times20=4\\ \\mathrm{N}$，方向与相对运动方向相反。选 A 是漏乘重力（把 $\\mu m$ 当结果）；选 D 是漏乘 $\\mu$；选 B 是把 $m$ 与 $\\mu$ 之外的量混算。若物体在斜面上或受斜向拉力，$N\\ne mg$，必须先求正压力。"
+  },
+  {
+    "id": "q-phy-friction-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-friction"],
+    "stem": "关于摩擦力，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["滑动摩擦", "静摩擦", "做功"],
+    "options": [
+      { "key": "A", "text": "滑动摩擦力大小 $f=\\mu N$，与接触面积大小无关" },
+      { "key": "B", "text": "静摩擦力的大小由平衡条件或牛顿第二定律决定，在 $0<f\\le f_{max}$ 之间变化" },
+      { "key": "C", "text": "摩擦力一定对物体做负功" },
+      { "key": "D", "text": "传送带把物体加速时，物体所受的摩擦力是动力，方向与物体运动方向相同" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：$\\mu$ 由材料和粗糙程度决定，与接触面积、相对速度（近似）无关，这是「面积大摩擦力大」这一直觉的反例。B 是静摩擦力的基本特征。C 错：摩擦力可以做正功（如传送带加速物体），也可以不做功（静摩擦提供向心力时）。D 正确，此时物体相对传送带向后滑动，摩擦力向前。判断做功正负要看力与位移的夹角。"
+  },
+  {
+    "id": "q-phy-force-balance-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-force-balance"],
+    "stem": "物体在三个共点力作用下处于平衡状态，则其中任意两个力的合力（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["共点力平衡", "三力平衡"],
+    "options": [
+      { "key": "A", "text": "一定大于第三个力" },
+      { "key": "B", "text": "与第三个力大小相等、方向相反" },
+      { "key": "C", "text": "与第三个力大小相等、方向相同" },
+      { "key": "D", "text": "一定小于第三个力" }
+    ],
+    "answer": "B",
+    "explanation": "三力平衡等价于合力为零，即 $F_1+F_2+F_3=0$，移项得 $F_1+F_2=-F_3$：前两个力的合力与第三个力等大反向。这也就是「三力平衡时三力首尾相接构成闭合三角形」。A、D 把「大小关系」绝对化，实际三个力可以大小各不相同。注意这一结论只对**平衡**成立，有加速度时不成立。"
+  },
+  {
+    "id": "q-phy-force-balance-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-force-balance"],
+    "stem": "质量为 $10\\ \\mathrm{kg}$ 的物体用两根等长细绳悬挂，两绳与竖直方向的夹角均为 $37^\\circ$（$\\sin37^\\circ=0.6$，$\\cos37^\\circ=0.8$，$g=10\\ \\mathrm{m/s^2}$），则每根绳的拉力为 ____ $\\mathrm{N}$。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["正交分解", "对称悬挂"],
+    "blanks": [
+      {
+        "accept": ["62.5", "62.5 N", "62.5N"],
+        "hint": "两绳拉力竖直分量之和等于重力：$2T\\cos37^\\circ=mg$"
+      }
+    ],
+    "explanation": "两绳对称，拉力大小相等设为 $T$。竖直方向：$2T\\cos37^\\circ=mg=100\\ \\mathrm{N}$，即 $2T\\times0.8=100$，得 $T=62.5\\ \\mathrm{N}$。水平方向两绳分力等大反向，自动抵消。易错点：把角度取错（用 $\\sin$ 代 $\\cos$）得 $T\\approx83.3\\ \\mathrm{N}$；或误以为每根绳只承担一半重力而直接写 $50\\ \\mathrm{N}$，忽略了绳倾斜时竖直分量被「打折」。"
+  },
+  {
+    "id": "q-phy-force-balance-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-force-balance"],
+    "stem": "物体恰好能沿倾角为 $30^\\circ$ 的斜面匀速下滑，则物体与斜面间的动摩擦因数为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["斜面", "匀速下滑", "动摩擦因数"],
+    "options": [
+      { "key": "A", "text": "$\\dfrac{1}{2}$" },
+      { "key": "B", "text": "$\\dfrac{\\sqrt{3}}{3}$" },
+      { "key": "C", "text": "$\\dfrac{\\sqrt{3}}{2}$" },
+      { "key": "D", "text": "$\\sqrt{3}$" }
+    ],
+    "answer": "B",
+    "explanation": "匀速下滑即平衡：沿斜面方向 $mg\\sin30^\\circ=\\mu mg\\cos30^\\circ$，故 $\\mu=\\tan30^\\circ=\\dfrac{\\sqrt{3}}{3}\\approx0.58$。选 C 是漏掉 $\\tan$ 而用了 $\\sin$；选 A 对应 $\\tan26.6^\\circ$。记住结论：恰好匀速下滑（或恰好不上滑）时 $\\mu=\\tan\\theta$，其中 $\\theta$ 是斜面倾角，这一结论与质量无关。"
+  },
+  {
+    "id": "q-phy-force-balance-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-force-balance"],
+    "stem": "关于共点力平衡，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["平衡状态", "平衡条件"],
+    "options": [
+      { "key": "A", "text": "平衡状态指物体保持静止或匀速直线运动状态" },
+      { "key": "B", "text": "共点力作用下物体平衡的条件是合力为零" },
+      { "key": "C", "text": "三力平衡时，任意两个力的合力与第三个力等大反向" },
+      { "key": "D", "text": "物体的速度为零时，一定处于平衡状态" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 是平衡状态的定义（加速度为零）。B 是平衡的矢量条件。C 由合力为零直接推出。D 错：速度为零只是瞬时现象，竖直上抛到最高点、弹簧振子在最大位移处速度都为零，但加速度不为零，不处于平衡状态。判断平衡要看**合外力是否为零**，而不是看瞬时速度。"
+  },
+  {
+    "id": "q-phy-newton-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-newton"],
+    "stem": "关于牛顿第二定律 $F=ma$，下列说法正确的是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["牛顿第二定律", "合外力"],
+    "options": [
+      { "key": "A", "text": "物体所受合外力为零时，速度一定为零" },
+      { "key": "B", "text": "物体的加速度方向总与合外力方向相同" },
+      { "key": "C", "text": "物体质量越大，加速度一定越大" },
+      { "key": "D", "text": "合外力增大时，物体的速度立即增大" }
+    ],
+    "answer": "B",
+    "explanation": "B 正确：$a=\\dfrac{F_{合}}{m}$ 是矢量式，$a$ 与 $F_{合}$ 同向、同时产生、同时变化。A 错：合外力为零时物体做匀速直线运动或静止，速度可以很大。C 错：$a$ 与 $m$ 成反比，质量大加速度小。D 错：合外力增大只说明加速度增大，若 $a$ 与 $v$ 反向，速度仍在减小，只是减小得更快；力与速度没有直接同步关系。"
+  },
+  {
+    "id": "q-phy-newton-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-newton"],
+    "stem": "质量为 $4\\ \\mathrm{kg}$ 的物体在水平面上受到 $20\\ \\mathrm{N}$ 的水平拉力，同时受到 $4\\ \\mathrm{N}$ 的滑动摩擦力，则物体的加速度为 ____ $\\mathrm{m/s^2}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["牛顿第二定律", "合力"],
+    "blanks": [
+      {
+        "accept": ["4", "4 m/s^2", "4m/s²", "4 m/s²"],
+        "hint": "先求合外力，再除以质量"
+      }
+    ],
+    "explanation": "合外力 $F_{合}=20-4=16\\ \\mathrm{N}$，故 $a=\\dfrac{16}{4}=4\\ \\mathrm{m/s^2}$，方向与拉力方向相同。易错点：直接用 $20/4=5\\ \\mathrm{m/s^2}$，漏算摩擦力；或把摩擦力方向搞反变成 $24/4=6$。用牛顿第二定律必须先用**合外力**，不能取某一个力。"
+  },
+  {
+    "id": "q-phy-newton-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-newton"],
+    "stem": "质量为 $50\\ \\mathrm{kg}$ 的人站在电梯内的体重计上，电梯以 $2\\ \\mathrm{m/s^2}$ 的加速度匀加速上升，则体重计的示数为（　，$g=10\\ \\mathrm{m/s^2}$）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["超重", "视重"],
+    "options": [
+      { "key": "A", "text": "$400\\ \\mathrm{N}$" },
+      { "key": "B", "text": "$500\\ \\mathrm{N}$" },
+      { "key": "C", "text": "$600\\ \\mathrm{N}$" },
+      { "key": "D", "text": "$1000\\ \\mathrm{N}$" }
+    ],
+    "answer": "C",
+    "explanation": "体重计示数是支持力 $N$（视重）。对人：$N-mg=ma$，得 $N=m(g+a)=50\\times12=600\\ \\mathrm{N}$，属于超重。选 B 是忽略了加速度，把示数当重力；选 A 是把加速度方向当成向下（失重，$m(g-a)=400$）；选 D 是把 $mg$ 与 $ma$ 相乘之类的量纲错误。注意超重时**重力并未改变**，改变的只是视重。"
+  },
+  {
+    "id": "q-phy-newton-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-newton"],
+    "stem": "关于牛顿运动定律与惯性，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["惯性", "适用范围", "牛顿第三定律"],
+    "options": [
+      { "key": "A", "text": "牛顿运动定律适用于惯性参考系中的宏观、低速运动" },
+      { "key": "B", "text": "惯性的大小只由质量决定，与物体的速度无关" },
+      { "key": "C", "text": "物体不受力时一定处于静止状态" },
+      { "key": "D", "text": "加速度与合外力同时产生、同时变化、同时消失" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：牛顿定律在非惯性系中不直接成立（需引入惯性力），且不适用于接近光速或微观尺度。B 正确：质量是惯性的唯一量度，速度大只说明动量大、更难停下，不表示惯性大。C 错：不受力时物体保持静止**或匀速直线运动**，这是牛顿第一定律的内容。D 正确：$a$ 与 $F_{合}$ 是同一瞬间的对应关系，力撤去加速度立即为零。"
+  },
+  {
+    "id": "q-phy-action-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-action"],
+    "stem": "判断下列说法是否正确：作用力与反作用力大小相等、方向相反，作用在同一物体上，因此它们可以相互抵消。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["作用力与反作用力", "平衡力"],
+    "answer": false,
+    "explanation": "作用力与反作用力分别作用在**两个不同物体**上，作用点不同，谈不上「抵消」——求合力只能对同一物体上的力进行。能与某个力抵消的是平衡力，平衡力作用在同一物体上。此外作用力与反作用力性质相同、同时产生同时消失，这也是平衡力不具备的特征。"
+  },
+  {
+    "id": "q-phy-action-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-action"],
+    "stem": "鸡蛋碰石头，鸡蛋碎了。设鸡蛋对石头的作用力大小为 $F_1$，石头对鸡蛋的作用力大小为 $F_2$，则 $F_1$ ____ $F_2$（填「大于」「小于」或「等于」）。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["牛顿第三定律", "相互作用"],
+    "blanks": [
+      {
+        "accept": ["等于", "相等", "=", "一样大"],
+        "hint": "牛顿第三定律：作用力与反作用力总是等大反向"
+      }
+    ],
+    "explanation": "不论两物体质量、硬度如何，作用力与反作用力总是大小相等、方向相反，故 $F_1=F_2$。鸡蛋碎而石头不碎，原因在于二者**能承受的压强（承受能力）不同**，而不是受力大小不同。这是最典型的「凭结果倒推受力」的错误。"
+  },
+  {
+    "id": "q-phy-action-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-action"],
+    "stem": "马拉车在水平路面上前进，下列说法正确的是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["相互作用", "平衡力辨析"],
+    "options": [
+      { "key": "A", "text": "马拉车的力大于车拉马的力，所以车能前进" },
+      { "key": "B", "text": "马拉车的力与车拉马的力大小相等" },
+      { "key": "C", "text": "马拉车的力与车拉马的力是一对平衡力" },
+      { "key": "D", "text": "车前进是因为马拉车的力大于地面对车的摩擦力，这对力是作用力与反作用力" }
+    ],
+    "answer": "B",
+    "explanation": "马拉车的力与车拉马的力是作用力与反作用力，必定等大反向，B 正确、A 错；它们分别作用在车和马两个物体上，不能构成平衡力，C 错。车能加速前进的真正原因是「马拉车的力 > 车受到的阻力」，这两个力作用在**同一物体（车）**上，属于同一直线上方向相反的一对力，而不是作用力与反作用力，故 D 的后半句错误。"
+  },
+  {
+    "id": "q-phy-action-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-action"],
+    "stem": "关于作用力与反作用力、平衡力，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["相互作用", "平衡力", "性质相同"],
+    "options": [
+      { "key": "A", "text": "作用力与反作用力分别作用在两个物体上" },
+      { "key": "B", "text": "一对平衡力作用在同一个物体上" },
+      { "key": "C", "text": "作用力与反作用力的性质一定相同" },
+      { "key": "D", "text": "作用力与反作用力的合力为零" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A、B 是两者的核心区别：作用点是否在同一物体上，决定了能否求合力、能否抵消。C 正确：摩擦力的反作用力仍是摩擦力，弹力的反作用力仍是弹力，二者同性质、同时产生同时消失；而平衡力可以是不同性质的力（如重力与支持力）。D 错：作用在不同物体上的力不能合成，「合力为零」只对同一物体上的平衡力成立。"
+  },
+  {
+    "id": "q-phy-newton-model-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-newton-model"],
+    "stem": "光滑水平面上有两个物体 $A$、$B$，质量分别为 $2\\ \\mathrm{kg}$ 和 $3\\ \\mathrm{kg}$，用轻绳相连。水平拉力 $F=10\\ \\mathrm{N}$ 作用在 $B$ 上，则绳中张力为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["连接体", "整体法与隔离法"],
+    "options": [
+      { "key": "A", "text": "$4\\ \\mathrm{N}$" },
+      { "key": "B", "text": "$5\\ \\mathrm{N}$" },
+      { "key": "C", "text": "$6\\ \\mathrm{N}$" },
+      { "key": "D", "text": "$10\\ \\mathrm{N}$" }
+    ],
+    "answer": "A",
+    "explanation": "先用整体法求加速度：$a=\\dfrac{F}{m_A+m_B}=\\dfrac{10}{5}=2\\ \\mathrm{m/s^2}$；再隔离受力较少的 $A$：绳的张力提供其加速度，$T=m_Aa=2\\times2=4\\ \\mathrm{N}$。选 C 是把张力当成 $B$ 所受的合力（$3\\times2=6$ 是 $F-T$，张力的互补量）；选 B 是按质量「对半分」的直觉。若拉力作用在 $A$ 上，答案会变成 $m_Ba=6\\ \\mathrm{N}$，说明张力与施力位置有关。"
+  },
+  {
+    "id": "q-phy-newton-model-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-newton-model", "phy-newton"],
+    "stem": "质量为 $60\\ \\mathrm{kg}$ 的人站在电梯内的体重计上，电梯以 $2\\ \\mathrm{m/s^2}$ 的加速度匀加速下降（$g=10\\ \\mathrm{m/s^2}$），则体重计的示数为 ____ $\\mathrm{N}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["失重", "视重"],
+    "blanks": [
+      {
+        "accept": ["480", "480 N", "480N"],
+        "hint": "加速度向下：$mg-N=ma$"
+      }
+    ],
+    "explanation": "加速度方向向下，属于失重：$mg-N=ma$，得 $N=m(g-a)=60\\times8=480\\ \\mathrm{N}$。注意「加速下降」和「减速上升」都是加速度向下，都失重；而「加速上升」「减速下降」加速度向上，都超重。判断超重失重只看**加速度方向**，不看运动方向。"
+  },
+  {
+    "id": "q-phy-newton-model-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-newton-model"],
+    "stem": "水平传送带以 $2\\ \\mathrm{m/s}$ 的速度向右匀速运动。将一小物块轻放到传送带左端，物块初速度为 $4\\ \\mathrm{m/s}$、方向向右，物块与传送带间的动摩擦因数为 $0.2$（$g=10\\ \\mathrm{m/s^2}$）。则物块速度减小到与传送带相同所需的时间为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["传送带", "相对运动", "摩擦力方向"],
+    "options": [
+      { "key": "A", "text": "$0.5\\ \\mathrm{s}$" },
+      { "key": "B", "text": "$1\\ \\mathrm{s}$" },
+      { "key": "C", "text": "$2\\ \\mathrm{s}$" },
+      { "key": "D", "text": "$4\\ \\mathrm{s}$" }
+    ],
+    "answer": "B",
+    "explanation": "物块速度 $4\\ \\mathrm{m/s}$ 大于带速 $2\\ \\mathrm{m/s}$，相对传送带向前滑动，故摩擦力方向向左，$a=\\mu g=2\\ \\mathrm{m/s^2}$ 向左，物块做匀减速。由 $v=v_0-at$ 得 $t=\\dfrac{4-2}{2}=1\\ \\mathrm{s}$。选 D 是没考虑相对运动直接把 $4/1$ 之类算错；关键是先判断**相对运动方向**再定摩擦力方向，共速后摩擦力变为零（水平方向无其他力），物块与带一起匀速。"
+  },
+  {
+    "id": "q-phy-newton-model-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-newton-model"],
+    "stem": "关于连接体、传送带、板块模型与超重失重，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["传送带", "板块模型", "超重失重"],
+    "options": [
+      { "key": "A", "text": "传送带上物体的速度小于带速时，物体所受滑动摩擦力方向与物体运动方向相同" },
+      { "key": "B", "text": "板块模型中判断两物体是否发生相对滑动，要比较所需的静摩擦力与最大静摩擦力" },
+      { "key": "C", "text": "物体处于超重状态时，它所受的重力变大了" },
+      { "key": "D", "text": "连接体问题通常先用整体法求加速度，再用隔离法求内力" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：物体相对传送带向后滑动，摩擦力向前，起加速作用。B 正确：这是判断「一起运动」还是「相对滑动」的标准方法，所需静摩擦力超过最大值才发生相对滑动。C 错：超重只是视重（支持力或拉力）变大，重力由质量和 $g$ 决定，并未改变。D 是连接体的通用策略：整体法回避内力，隔离法求内力，两者配合最省力。"
+  },
+  {
+    "id": "q-phy-projectile-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-projectile"],
+    "stem": "判断下列说法是否正确：平抛运动可以分解为水平方向的匀速直线运动和竖直方向的自由落体运动，且两个分运动的时间相等。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["平抛运动", "运动的分解"],
+    "answer": true,
+    "explanation": "平抛只受重力，水平方向无加速度故为匀速直线运动（$x=v_0t$），竖直方向初速为零、加速度为 $g$，即自由落体（$y=\\frac12gt^2$）。两个分运动与合运动具有等时性，都由下落高度决定总时间 $t=\\sqrt{\\dfrac{2h}{g}}$。该说法正确。"
+  },
+  {
+    "id": "q-phy-projectile-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-projectile"],
+    "stem": "从 $20\\ \\mathrm{m}$ 高处以 $10\\ \\mathrm{m/s}$ 的速度水平抛出一个小球（$g=10\\ \\mathrm{m/s^2}$，不计空气阻力），则小球在空中运动的时间为 ____ $\\mathrm{s}$，水平射程为 ____ $\\mathrm{m}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["平抛", "落地时间", "射程"],
+    "blanks": [
+      {
+        "accept": ["2", "2 s", "2s"],
+        "hint": "时间只由高度决定：$h=\\frac12gt^2$"
+      },
+      {
+        "accept": ["20", "20 m", "20m"],
+        "hint": "射程 $x=v_0t$"
+      }
+    ],
+    "explanation": "竖直方向 $h=\\frac12gt^2$，$t=\\sqrt{\\dfrac{2\\times20}{10}}=2\\ \\mathrm{s}$；水平方向匀速，$x=v_0t=10\\times2=20\\ \\mathrm{m}$。常见错误是用水平速度去算时间（$20/10=2$ 恰好相同属巧合），或把两个分运动的时间分开算。竖直方向落地速度 $v_y=gt=20\\ \\mathrm{m/s}$，合速度 $\\sqrt{10^2+20^2}=10\\sqrt5\\ \\mathrm{m/s}$。"
+  },
+  {
+    "id": "q-phy-projectile-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-projectile"],
+    "stem": "以 $10\\ \\mathrm{m/s}$ 的初速度水平抛出一物体，落地时速度方向与水平方向成 $45^\\circ$（$g=10\\ \\mathrm{m/s^2}$），则物体在空中运动的时间为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["平抛", "速度方向", "分解"],
+    "options": [
+      { "key": "A", "text": "$0.5\\ \\mathrm{s}$" },
+      { "key": "B", "text": "$1\\ \\mathrm{s}$" },
+      { "key": "C", "text": "$\\sqrt{2}\\ \\mathrm{s}$" },
+      { "key": "D", "text": "$2\\ \\mathrm{s}$" }
+    ],
+    "answer": "B",
+    "explanation": "落地时 $\\tan45^\\circ=\\dfrac{v_y}{v_0}=1$，故 $v_y=v_0=10\\ \\mathrm{m/s}$。由 $v_y=gt$ 得 $t=1\\ \\mathrm{s}$。选 C 是把合速度当成 $10\\sqrt2$ 后再除以 $g$ 之类的错误；选 A 是把 $45^\\circ$ 误用于位移偏角。关键区分：$45^\\circ$ 若指**速度**方向，则 $v_y=v_0$；若指**位移**方向，则 $y=x$，对应 $t=\\dfrac{2v_0\\tan\\alpha}{g}$，两者不同。"
+  },
+  {
+    "id": "q-phy-projectile-4",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-projectile"],
+    "stem": "做平抛运动的物体，某时刻速度方向与水平方向的夹角为 $\\theta$，此时位移方向与水平方向的夹角为 $\\alpha$，则 $\\tan\\theta$ 与 $\\tan\\alpha$ 的关系是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["速度偏角", "位移偏角"],
+    "options": [
+      { "key": "A", "text": "$\\tan\\theta=\\dfrac12\\tan\\alpha$" },
+      { "key": "B", "text": "$\\tan\\theta=\\tan\\alpha$" },
+      { "key": "C", "text": "$\\tan\\theta=2\\tan\\alpha$" },
+      { "key": "D", "text": "$\\tan\\theta=4\\tan\\alpha$" }
+    ],
+    "answer": "C",
+    "explanation": "$\\tan\\theta=\\dfrac{v_y}{v_0}=\\dfrac{gt}{v_0}$，而 $\\tan\\alpha=\\dfrac{y}{x}=\\dfrac{\\frac12gt^2}{v_0t}=\\dfrac{gt}{2v_0}$，比较得 $\\tan\\theta=2\\tan\\alpha$。这一关系说明速度偏角总大于位移偏角，且速度方向的反向延长线过水平位移的中点。若某时刻 $\\theta=45^\\circ$，则 $\\tan\\alpha=\\frac12$。把 $\\theta$ 与 $\\alpha$ 混为一谈是本题的主要陷阱。"
+  },
+  {
+    "id": "q-phy-circular-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-circular"],
+    "stem": "判断下列说法是否正确：做匀速圆周运动的物体，速度保持不变。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["匀速圆周运动", "速度方向"],
+    "answer": false,
+    "explanation": "匀速圆周运动的「匀速」指**速率**不变，速度方向沿切线时刻改变，因此速度（矢量）在变，是变速运动。相应地加速度不为零，方向始终指向圆心。若速度真的不变，物体将做匀速直线运动。判断矢量是否变化，大小和方向有其一改变就变。"
+  },
+  {
+    "id": "q-phy-circular-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-circular"],
+    "stem": "一物体做半径 $r=0.5\\ \\mathrm{m}$ 的匀速圆周运动，周期 $T=2\\ \\mathrm{s}$，则其向心加速度大小为 ____ $\\mathrm{m/s^2}$（取 $\\pi^2\\approx10$）。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["向心加速度", "周期"],
+    "blanks": [
+      {
+        "accept": ["5", "5 m/s^2", "5m/s²", "5 m/s²"],
+        "hint": "$a=\\dfrac{4\\pi^2r}{T^2}$"
+      }
+    ],
+    "explanation": "$\\omega=\\dfrac{2\\pi}{T}=\\pi\\ \\mathrm{rad/s}$，$a=\\omega^2r=\\pi^2\\times0.5\\approx10\\times0.5=5\\ \\mathrm{m/s^2}$。也可用 $a=\\dfrac{4\\pi^2r}{T^2}=\\dfrac{4\\times10\\times0.5}{4}=5\\ \\mathrm{m/s^2}$。常见错误是漏掉 $\\pi^2$ 或把 $r$ 单位当成 cm；向心加速度的方向指向圆心，大小恒定但方向时刻改变。"
+  },
+  {
+    "id": "q-phy-circular-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-circular", "phy-newton"],
+    "stem": "质量为 $1000\\ \\mathrm{kg}$ 的汽车以 $10\\ \\mathrm{m/s}$ 的速度通过半径 $R=20\\ \\mathrm{m}$ 的拱形桥最高点（$g=10\\ \\mathrm{m/s^2}$），则汽车对桥面的压力为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["拱形桥", "向心力", "牛顿第二定律"],
+    "options": [
+      { "key": "A", "text": "$0$" },
+      { "key": "B", "text": "$5000\\ \\mathrm{N}$" },
+      { "key": "C", "text": "$10000\\ \\mathrm{N}$" },
+      { "key": "D", "text": "$15000\\ \\mathrm{N}$" }
+    ],
+    "answer": "B",
+    "explanation": "最高点重力与支持力的合力提供向心力，方向指向圆心（向下）：$mg-N=\\dfrac{mv^2}{R}$，得 $N=m\\left(g-\\dfrac{v^2}{R}\\right)=1000\\times\\left(10-\\dfrac{100}{20}\\right)=1000\\times5=5000\\ \\mathrm{N}$。由牛顿第三定律，车对桥的压力也是 $5000\\ \\mathrm{N}$（小于重力，属于失重）。选 C 是漏掉向心力项；选 A 对应 $v=\\sqrt{gR}=\\sqrt{200}\\approx14.1\\ \\mathrm{m/s}$ 的临界情况。"
+  },
+  {
+    "id": "q-phy-circular-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-circular"],
+    "stem": "关于圆周运动，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["向心力", "离心现象", "变速运动"],
+    "options": [
+      { "key": "A", "text": "向心力是按效果命名的力，由合外力沿半径方向的分力提供" },
+      { "key": "B", "text": "匀速圆周运动是变速运动，加速度方向始终指向圆心" },
+      { "key": "C", "text": "做圆周运动的物体所受合外力一定指向圆心" },
+      { "key": "D", "text": "洗衣机脱水筒脱水利用了离心现象" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：向心力不是「多出来」的一种性质力，受力分析时不能画它，只能说某个力或某几个力的合力充当向心力。B 正确：速率不变但方向变，加速度大小恒定、方向指向圆心。C 错：只有**匀速**圆周运动合外力才全部充当向心力；变速圆周运动还有切向分力改变速率。D 正确，水与衣物间附着力不足以提供所需向心力时水被甩出。"
+  },
+  {
+    "id": "q-phy-gravity-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-gravity"],
+    "stem": "判断下列说法是否正确：两物体间的万有引力与它们质量的乘积成正比，与它们间距离成反比。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["万有引力定律", "平方反比"],
+    "answer": false,
+    "explanation": "万有引力定律为 $F=G\\dfrac{m_1m_2}{r^2}$：与质量乘积成正比，与距离的**平方**成反比。题目说「与距离成反比」，漏掉了平方，例如距离变为 3 倍时引力变为 $\\frac19$ 而不是 $\\frac13$。此外 $r$ 指两质点间距离（均匀球体取球心距），不能取半径。"
+  },
+  {
+    "id": "q-phy-gravity-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-gravity"],
+    "stem": "设地球半径为 $R$，地面处的重力加速度为 $g$。则距地面高度为 $R$ 处的重力加速度为地面处的 ____（填分数或小数）。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["重力加速度", "高度"],
+    "blanks": [
+      {
+        "accept": ["1/4", "0.25", "四分之一", "1／4"],
+        "hint": "该处到地心距离为 $2R$，$g\\propto\\dfrac{1}{r^2}$"
+      }
+    ],
+    "explanation": "地面处 $mg=G\\dfrac{Mm}{R^2}$，即 $g=\\dfrac{GM}{R^2}$；距地面 $R$ 处到地心距离为 $2R$，$g'=\\dfrac{GM}{(2R)^2}=\\dfrac{g}{4}$。关键是把「距地面高度」换算成「到地心距离」，漏加 $R$ 会误得 $\\frac{1}{1}$ 或其它错误值。$g$ 随高度按平方反比衰减，这是「越高的地方重力越小」的定量表达。"
+  },
+  {
+    "id": "q-phy-gravity-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-gravity", "phy-space"],
+    "stem": "已知火星的半径约为地球半径的 $\\dfrac12$，质量约为地球质量的 $\\dfrac19$。则火星表面的重力加速度约为地球表面重力加速度的（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["星球表面重力加速度", "比例计算"],
+    "options": [
+      { "key": "A", "text": "$\\dfrac{1}{9}$" },
+      { "key": "B", "text": "$\\dfrac{1}{3}$" },
+      { "key": "C", "text": "$\\dfrac{4}{9}$" },
+      { "key": "D", "text": "$\\dfrac{2}{3}$" }
+    ],
+    "answer": "C",
+    "explanation": "星球表面 $g=\\dfrac{GM}{R^2}$，故 $\\dfrac{g_火}{g_地}=\\dfrac{M_火}{M_地}\\cdot\\left(\\dfrac{R_地}{R_火}\\right)^2=\\dfrac19\\times2^2=\\dfrac49$。选 A 是只比质量；选 B 是把半径比当成线性关系（$\\dfrac{1}{9}\\times2=\\dfrac29$ 之类）；选 D 是把平方关系用错方向。比例计算要先写公式，再把比值代入，注意半径在分母上、要平方。"
+  },
+  {
+    "id": "q-phy-gravity-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-gravity"],
+    "stem": "关于万有引力定律，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["万有引力定律", "引力常量"],
+    "options": [
+      { "key": "A", "text": "公式适用于两质点之间，也适用于质量分布均匀的球体（此时 $r$ 为两球心间距离）" },
+      { "key": "B", "text": "引力常量 $G$ 由卡文迪什用扭秤实验测出" },
+      { "key": "C", "text": "两物体间的引力总是大小相等、方向相反，是一对作用力与反作用力" },
+      { "key": "D", "text": "当两物体间距离 $r\\to0$ 时，它们之间的万有引力趋于无穷大" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 正确，这是公式的适用条件；对非均匀形状不规则的物体不能直接用 $r$ 表示距离。B 正确，卡文迪什实验被称为「称量地球质量」的实验。C 正确，引力遵循牛顿第三定律。D 错：$r\\to0$ 时物体已不能视为质点，公式本身失效，谈「引力无穷大」没有物理意义；对真实物体靠近时引力会趋于某个有限值。"
+  },
+  {
+    "id": "q-phy-space-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-space"],
+    "stem": "关于地球同步卫星，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["同步卫星", "轨道平面"],
+    "options": [
+      { "key": "A", "text": "它可以定点在北京的正上方" },
+      { "key": "B", "text": "它的轨道平面必须与赤道平面重合" },
+      { "key": "C", "text": "它的线速度一定大于 $7.9\\ \\mathrm{km/s}$" },
+      { "key": "D", "text": "它的向心加速度大于地面处的重力加速度" }
+    ],
+    "answer": "B",
+    "explanation": "同步卫星的周期等于地球自转周期，其向心力由万有引力提供、方向必指向地心，因此轨道平面必须过地心且与赤道平面重合，只能定点在赤道上空某处（高度约 $3.6\\times10^4\\ \\mathrm{km}$），A 错、B 对。由 $v=\\sqrt{\\dfrac{GM}{r}}$，$r$ 越大 $v$ 越小，同步卫星速度小于近地卫星的 $7.9\\ \\mathrm{km/s}$，C 错；$a=\\dfrac{GM}{r^2}$，$r>R$，故 $a<g$，D 错。"
+  },
+  {
+    "id": "q-phy-space-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-space"],
+    "stem": "某行星的质量是地球的 $4$ 倍，半径是地球的 $2$ 倍。则该行星近表面卫星的环绕速度是地球近地卫星环绕速度的 ____ 倍。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["环绕速度", "比例关系"],
+    "blanks": [
+      {
+        "accept": ["√2", "根号2", "1.41", "1.414", "\\sqrt{2}"],
+        "hint": "近表面环绕速度 $v=\\sqrt{gR}=\\sqrt{\\dfrac{GM}{R}}$"
+      }
+    ],
+    "explanation": "近表面环绕速度满足 $\\dfrac{GMm}{R^2}=\\dfrac{mv^2}{R}$，即 $v=\\sqrt{\\dfrac{GM}{R}}$。代入比例：$\\dfrac{v'}{v}=\\sqrt{\\dfrac{4}{2}}=\\sqrt2$。注意这里是**环绕速度**（卫星贴近表面飞行），不是发射速度；而且 $M$ 增大使 $v$ 增大、$R$ 增大会使 $v$ 减小，二者作用方向相反，需开方后比较。"
+  },
+  {
+    "id": "q-phy-space-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-space"],
+    "stem": "某卫星绕地球做匀速圆周运动，若其轨道半径变为原来的 $4$ 倍，则其运行周期变为原来的（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["开普勒第三定律", "周期与半径"],
+    "options": [
+      { "key": "A", "text": "$2$ 倍" },
+      { "key": "B", "text": "$4$ 倍" },
+      { "key": "C", "text": "$8$ 倍" },
+      { "key": "D", "text": "$16$ 倍" }
+    ],
+    "answer": "C",
+    "explanation": "由 $G\\dfrac{Mm}{r^2}=m\\dfrac{4\\pi^2}{T^2}r$ 得 $T=2\\pi\\sqrt{\\dfrac{r^3}{GM}}$，即 $T\\propto r^{3/2}$。$r$ 变 $4$ 倍，$T$ 变 $4^{3/2}=8$ 倍。选 B 是误用 $T\\propto r$；选 D 是误用 $T\\propto r^2$；选 A 是把开方方向搞反。也可用开普勒第三定律 $\\dfrac{r^3}{T^2}=$ 常量直接得。"
+  },
+  {
+    "id": "q-phy-space-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-space"],
+    "stem": "关于人造卫星与宇宙速度，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["宇宙速度", "完全失重", "轨道半径"],
+    "options": [
+      { "key": "A", "text": "$7.9\\ \\mathrm{km/s}$ 是近地圆轨道卫星的环绕速度，也是把卫星送入轨道所需的最小发射速度" },
+      { "key": "B", "text": "卫星的轨道半径越大，线速度越小、周期越大" },
+      { "key": "C", "text": "卫星中的物体处于完全失重状态，是因为它不受重力作用" },
+      { "key": "D", "text": "同步卫星的角速度与地球自转角速度相同" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：$v_1=\\sqrt{gR}\\approx7.9\\ \\mathrm{km/s}$，既是近地环绕速度也是最小发射速度。B 正确：$v=\\sqrt{\\dfrac{GM}{r}}$ 随 $r$ 增大而减小，$T\\propto r^{3/2}$ 随 $r$ 增大而增大。C 错：完全失重是因为重力全部用来提供向心加速度，物体并非不受重力，重力依然存在且充当向心力。D 正确，这正是「同步」的含义。"
+  },
+  {
+    "id": "q-phy-work-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-work"],
+    "stem": "判断下列说法是否正确：作用力与反作用力做功的代数和一定为零。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["功", "作用力与反作用力"],
+    "answer": false,
+    "explanation": "作用力与反作用力等大反向，但两个物体的位移一般不同，故做功之和不一定为零。例如物块在粗糙地面上滑行，物块受的摩擦力做负功，地面受的摩擦力因地面不动而不做功，代数和为负，正好对应产生的内能；两物块相互摩擦时两边都做负功，和为负。只有两物体位移相同（如一起平动）时和才为零。"
+  },
+  {
+    "id": "q-phy-work-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-work"],
+    "stem": "质量为 $2\\ \\mathrm{kg}$ 的物体在水平拉力 $F=10\\ \\mathrm{N}$ 作用下沿水平面前进 $5\\ \\mathrm{m}$，同时受到 $4\\ \\mathrm{N}$ 的摩擦力，则拉力做的功为 ____ $\\mathrm{J}$，合外力做的功为 ____ $\\mathrm{J}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["功的计算", "合力做功"],
+    "blanks": [
+      {
+        "accept": ["50", "50 J", "50J"],
+        "hint": "$W=Fl\\cos0^\\circ$"
+      },
+      {
+        "accept": ["30", "30 J", "30J"],
+        "hint": "$W_{合}=F_{合}l$，也可把各力做功求代数和"
+      }
+    ],
+    "explanation": "拉力与位移同向，$W_F=10\\times5=50\\ \\mathrm{J}$；摩擦力做负功 $W_f=-4\\times5=-20\\ \\mathrm{J}$；重力与支持力垂直位移不做功。合外力 $F_{合}=6\\ \\mathrm{N}$，$W_{合}=6\\times5=30\\ \\mathrm{J}$，与 $50-20=30\\ \\mathrm{J}$ 一致。常见错误是把摩擦力的功也算成正的（得 $70\\ \\mathrm{J}$），或只算拉力。"
+  },
+  {
+    "id": "q-phy-work-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-work"],
+    "stem": "起重机以 $2\\ \\mathrm{m/s}$ 的速度匀速提起质量为 $500\\ \\mathrm{kg}$ 的货物（$g=10\\ \\mathrm{m/s^2}$），则起重机拉力的功率为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["功率", "瞬时功率"],
+    "options": [
+      { "key": "A", "text": "$1\\ \\mathrm{kW}$" },
+      { "key": "B", "text": "$5\\ \\mathrm{kW}$" },
+      { "key": "C", "text": "$10\\ \\mathrm{kW}$" },
+      { "key": "D", "text": "$20\\ \\mathrm{kW}$" }
+    ],
+    "answer": "C",
+    "explanation": "匀速提起说明拉力等于重力 $F=mg=5000\\ \\mathrm{N}$，由 $P=Fv=5000\\times2=10000\\ \\mathrm{W}=10\\ \\mathrm{kW}$。选 B 是用了 $m v$ 之类的错误组合；选 A 是漏乘 $g$（$500\\times2=1000$）。注意 $P=Fv\\cos\\alpha$ 中 $\\alpha$ 是力与速度的夹角，此处为 $0$。若加速提升，拉力大于重力，功率会更大。"
+  },
+  {
+    "id": "q-phy-work-4",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-work"],
+    "stem": "某人提着 $100\\ \\mathrm{N}$ 重的水桶在水平路面上匀速行走 $10\\ \\mathrm{m}$，则人对水桶做的功为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["做功条件", "力与位移垂直"],
+    "options": [
+      { "key": "A", "text": "$0$" },
+      { "key": "B", "text": "$100\\ \\mathrm{J}$" },
+      { "key": "C", "text": "$500\\ \\mathrm{J}$" },
+      { "key": "D", "text": "$1000\\ \\mathrm{J}$" }
+    ],
+    "answer": "A",
+    "explanation": "人提水桶的力竖直向上，位移水平，二者夹角 $90^\\circ$，$W=Fl\\cos90^\\circ=0$。选 D 是直接算 $100\\times10$，忽略夹角。做功的两个必要因素是力和**沿力方向的位移**，垂直时不做功。同理，匀速行走时水桶动能不变，人对水桶也没有净做功（重力与支持力在竖直方向一正一负相互抵消）。"
+  },
+  {
+    "id": "q-phy-kinetic-energy-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-kinetic-energy"],
+    "stem": "关于动能定理，下列说法正确的是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["动能定理", "合外力做功"],
+    "options": [
+      { "key": "A", "text": "动能定理只适用于恒力做功的情形" },
+      { "key": "B", "text": "合外力对物体做的功等于物体动能的变化" },
+      { "key": "C", "text": "物体的动能不变，则它所受合外力一定为零" },
+      { "key": "D", "text": "动能是矢量，方向与速度方向相同" }
+    ],
+    "answer": "B",
+    "explanation": "B 是动能定理的表述 $W_{合}=\\Delta E_k$，对恒力、变力、直线、曲线都成立，故 A 错。C 错：匀速圆周运动动能不变，但合外力（向心力）不为零，只是始终与速度垂直不做功。D 错：动能 $E_k=\\frac12mv^2$ 是标量，只有大小没有方向；动量才是矢量。"
+  },
+  {
+    "id": "q-phy-kinetic-energy-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-kinetic-energy"],
+    "stem": "质量为 $2\\ \\mathrm{kg}$ 的物体，速度由 $2\\ \\mathrm{m/s}$ 增大到 $6\\ \\mathrm{m/s}$，则合外力对物体做的功为 ____ $\\mathrm{J}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["动能定理", "动能变化"],
+    "blanks": [
+      {
+        "accept": ["32", "32 J", "32J"],
+        "hint": "$W=\\frac12mv^2-\\frac12mv_0^2$"
+      }
+    ],
+    "explanation": "$W_{合}=\\frac12\\times2\\times6^2-\\frac12\\times2\\times2^2=36-4=32\\ \\mathrm{J}$。常见错误是先求速度变化 $\\Delta v=4$ 再算 $\\frac12m(\\Delta v)^2=16\\ \\mathrm{J}$——动能不是速度的线性函数，不能对速度差套公式；正确做法是分别算初、末动能再作差。"
+  },
+  {
+    "id": "q-phy-kinetic-energy-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-kinetic-energy"],
+    "stem": "质量为 $1\\ \\mathrm{kg}$ 的物体以 $10\\ \\mathrm{m/s}$ 的初速度在粗糙水平面上滑行，滑行 $10\\ \\mathrm{m}$ 后停止，则物体所受的摩擦力大小为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["动能定理", "摩擦力"],
+    "options": [
+      { "key": "A", "text": "$2\\ \\mathrm{N}$" },
+      { "key": "B", "text": "$5\\ \\mathrm{N}$" },
+      { "key": "C", "text": "$10\\ \\mathrm{N}$" },
+      { "key": "D", "text": "$50\\ \\mathrm{N}$" }
+    ],
+    "answer": "B",
+    "explanation": "由动能定理 $-fl=0-\\frac12mv_0^2$，得 $f=\\dfrac{mv_0^2}{2l}=\\dfrac{1\\times100}{2\\times10}=5\\ \\mathrm{N}$。选 D 是漏掉分母的 $2l$（写成 $100/2$ 之外的错算），选 C 是把 $\\frac12mv^2$ 当 $100$ 后除以 $10$ 忘了系数。用动能定理求力时，只需关注初末动能与各力做功，不必求加速度和时间。"
+  },
+  {
+    "id": "q-phy-kinetic-energy-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-kinetic-energy", "phy-momentum"],
+    "stem": "关于功、动能与动量，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["动能", "动量", "标量与矢量"],
+    "options": [
+      { "key": "A", "text": "合外力做功为零，物体的动能一定不变" },
+      { "key": "B", "text": "合外力的冲量为零，物体的动量一定不变" },
+      { "key": "C", "text": "物体动能的变化为零，则合外力的冲量一定为零" },
+      { "key": "D", "text": "动能是标量，动量是矢量" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A、B 分别是动能定理与动量定理的直接推论。C 错：匀速圆周运动动能不变（合外力做功为零），但速度方向不断改变，动量一直在变，合外力冲量不为零——这正是动能（标量）与动量（矢量）的区别所在。D 正确：$E_k=\\frac12mv^2$ 无方向，$p=mv$ 有方向。判断时先问「量是标量还是矢量」，可避免大量混淆。"
+  },
+  {
+    "id": "q-phy-mechanical-energy-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-mechanical-energy"],
+    "stem": "关于机械能守恒的条件，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["机械能守恒条件", "做功判断"],
+    "options": [
+      { "key": "A", "text": "物体只受重力作用时，其机械能一定守恒" },
+      { "key": "B", "text": "物体所受合外力为零时，其机械能一定守恒" },
+      { "key": "C", "text": "只要存在摩擦力，物体的机械能就一定不守恒" },
+      { "key": "D", "text": "物体做匀速运动时，其机械能一定守恒" }
+    ],
+    "answer": "A",
+    "explanation": "机械能守恒的条件是「只有重力或系统内弹力做功」。A 中只受重力，满足条件，正确。B 错：合外力为零只保证动能不变，若物体匀速上升，重力势能增加，机械能增大（如匀速提升）。C 错：有摩擦力但摩擦力不做功（如静摩擦提供向心力）时机械能仍可守恒。D 错：匀速上升即反例。判断依据是**做功情况**，不是「有没有摩擦」或「是否匀速」。"
+  },
+  {
+    "id": "q-phy-mechanical-energy-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-mechanical-energy"],
+    "stem": "质量为 $1\\ \\mathrm{kg}$ 的物体从高 $5\\ \\mathrm{m}$ 的光滑斜面顶端由静止滑下（$g=10\\ \\mathrm{m/s^2}$），则它到达斜面底端时的速度大小为 ____ $\\mathrm{m/s}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["机械能守恒", "斜面"],
+    "blanks": [
+      {
+        "accept": ["10", "10 m/s", "10m/s"],
+        "hint": "光滑斜面无摩擦，机械能守恒：$mgh=\\frac12mv^2$"
+      }
+    ],
+    "explanation": "斜面光滑，只有重力做功，机械能守恒：$mgh=\\frac12mv^2$，得 $v=\\sqrt{2gh}=\\sqrt{2\\times10\\times5}=10\\ \\mathrm{m/s}$。注意结果与斜面倾角、物体质量都无关（「等高的光滑斜面，到底端速率相同」）。若斜面粗糙，则需用动能定理并计入摩擦做功，速度会小于 $10\\ \\mathrm{m/s}$。"
+  },
+  {
+    "id": "q-phy-mechanical-energy-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-mechanical-energy", "phy-kinetic-energy"],
+    "stem": "质量为 $0.5\\ \\mathrm{kg}$ 的小球从 $2\\ \\mathrm{m}$ 高处由静止下落，与地面碰撞后弹起，最高到达 $1.5\\ \\mathrm{m}$ 处（$g=10\\ \\mathrm{m/s^2}$，不计空气阻力）。则碰撞过程中损失的机械能为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["机械能损失", "非弹性碰撞"],
+    "options": [
+      { "key": "A", "text": "$1.25\\ \\mathrm{J}$" },
+      { "key": "B", "text": "$2.5\\ \\mathrm{J}$" },
+      { "key": "C", "text": "$5\\ \\mathrm{J}$" },
+      { "key": "D", "text": "$10\\ \\mathrm{J}$" }
+    ],
+    "answer": "B",
+    "explanation": "下落与上升过程均只有重力做功，机械能各自守恒，损失只发生在碰撞瞬间：$\\Delta E=mg(h_1-h_2)=0.5\\times10\\times(2-1.5)=2.5\\ \\mathrm{J}$。选 C 是只算下落段的重力势能 $mgh_1=10$ 的一半之类的错算；选 A 是漏乘 $m$ 或 $g$。也可分别算落地速率 $v_1=\\sqrt{40}$、反弹速率 $v_2=\\sqrt{30}$，动能差同样是 $2.5\\ \\mathrm{J}$，可用来验算。"
+  },
+  {
+    "id": "q-phy-mechanical-energy-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-mechanical-energy"],
+    "stem": "关于机械能守恒的判断，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["机械能守恒", "做功分析"],
+    "options": [
+      { "key": "A", "text": "系统内只有重力做功时，系统的机械能守恒" },
+      { "key": "B", "text": "物体沿粗糙斜面匀速下滑时，物体的机械能守恒" },
+      { "key": "C", "text": "用细绳悬挂的小球在竖直平面内摆动（不计阻力）时，小球的机械能守恒" },
+      { "key": "D", "text": "判断机械能是否守恒，看的是除重力、弹力外其他力是否做功，而不是看是否受摩擦力" }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 是守恒条件的标准表述。C 中绳的拉力始终与速度垂直、不做功，只有重力做功，机械能守恒。D 是判断方法的核心：受力情况不等于做功情况。B 错：匀速下滑意味着动能不变而重力势能减少，机械能必然减少，减少的部分转化为内能（$\\mu mg\\cos\\theta\\cdot s$）；此时合外力为零，恰好说明不能用「合外力为零」代替守恒条件。"
+  },
+  {
+    "id": "q-phy-momentum-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-momentum"],
+    "stem": "判断下列说法是否正确：物体动量变化的方向与它所受合外力的方向相同。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["动量定理", "矢量性"],
+    "answer": true,
+    "explanation": "动量定理 $I_{合}=\\Delta p$ 是矢量式，冲量的方向即合外力的方向，故 $\\Delta p$ 与合外力同向。例如小球垂直撞墙后反弹，动量变化指向离开墙的方向，也正是墙对球的平均冲力方向。注意动量变化方向与**初动量方向无关**，也与末动量方向不一定相同。"
+  },
+  {
+    "id": "q-phy-momentum-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-momentum"],
+    "stem": "质量为 $0.5\\ \\mathrm{kg}$ 的小球以 $8\\ \\mathrm{m/s}$ 的速度垂直撞向墙壁，反弹后速度大小为 $6\\ \\mathrm{m/s}$。取初速度方向为正方向，则小球动量变化量的大小为 ____ $\\mathrm{kg\\cdot m/s}$。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["动量变化", "方向与符号"],
+    "blanks": [
+      {
+        "accept": ["7", "7 kg·m/s", "7kg·m/s", "7 kg*m/s"],
+        "hint": "反弹后速度为 $-6\\ \\mathrm{m/s}$，$\\Delta p=mv'-mv$"
+      }
+    ],
+    "explanation": "取初速方向为正：$p=mv=0.5\\times8=4\\ \\mathrm{kg\\cdot m/s}$，$p'=0.5\\times(-6)=-3\\ \\mathrm{kg\\cdot m/s}$，故 $\\Delta p=p'-p=-7\\ \\mathrm{kg\\cdot m/s}$，大小为 $7\\ \\mathrm{kg\\cdot m/s}$，方向与初速度相反。最典型的错误是写成 $0.5\\times(8-6)=1$，忘掉反弹后速度反向。动量是矢量，一维问题必须先规定正方向。"
+  },
+  {
+    "id": "q-phy-momentum-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-momentum"],
+    "stem": "质量为 $2\\ \\mathrm{kg}$ 的物体原来静止，受到 $10\\ \\mathrm{N}$ 的恒力作用 $3\\ \\mathrm{s}$，则 $3\\ \\mathrm{s}$ 末物体的速度大小为（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["动量定理", "冲量"],
+    "options": [
+      { "key": "A", "text": "$5\\ \\mathrm{m/s}$" },
+      { "key": "B", "text": "$6\\ \\mathrm{m/s}$" },
+      { "key": "C", "text": "$15\\ \\mathrm{m/s}$" },
+      { "key": "D", "text": "$30\\ \\mathrm{m/s}$" }
+    ],
+    "answer": "C",
+    "explanation": "冲量 $I=Ft=10\\times3=30\\ \\mathrm{N\\cdot s}$，由动量定理 $I=\\Delta p=mv-0$ 得 $v=\\dfrac{30}{2}=15\\ \\mathrm{m/s}$。也可用 $a=5\\ \\mathrm{m/s^2}$、$v=at=15\\ \\mathrm{m/s}$ 验证。选 D 是漏除以质量（把冲量当成动量后直接当速度）；选 B 是把 $F/m$ 当速度。冲量的单位 $\\mathrm{N\\cdot s}$ 与动量单位 $\\mathrm{kg\\cdot m/s}$ 等价。"
+  },
+  {
+    "id": "q-phy-momentum-4",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-momentum"],
+    "stem": "同一只玻璃杯从同一高度自由落下，掉在水泥地上比掉在地毯上更容易碎，其原因是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["动量定理", "缓冲", "冲力"],
+    "options": [
+      { "key": "A", "text": "掉在水泥地上时，杯子的动量变化量更大" },
+      { "key": "B", "text": "掉在水泥地上时，杯子的动量变化率更大，受到的平均冲力更大" },
+      { "key": "C", "text": "掉在水泥地上时，杯子受到的冲量更大" },
+      { "key": "D", "text": "掉在水泥地上时，杯子的惯性更小" }
+    ],
+    "answer": "B",
+    "explanation": "两种情况杯子落地前速度相同、碰后都静止，动量变化量 $\\Delta p$ 相同，冲量 $I=\\Delta p$ 也相同，故 A、C 错。区别在于作用时间：水泥地硬，作用时间极短，由 $F=\\dfrac{\\Delta p}{\\Delta t}$ 知平均冲力极大，超过杯子的承受能力而破碎；地毯延长了作用时间，冲力减小。D 错，惯性只与质量有关。这是「缓冲」类问题的统一思路：冲量一定时，延长时间以减小冲力。"
+  },
+  {
+    "id": "q-phy-momentum-conservation-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-momentum-conservation"],
+    "stem": "判断下列说法是否正确：系统动量守恒时，系统内每个物体的动量都保持不变。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["动量守恒", "系统与个体"],
+    "answer": false,
+    "explanation": "动量守恒指**系统总动量**不变，系统内各物体通过内力相互作用，各自的动量通常都在改变，只是变化量等大反向、相互抵消。例如两球碰撞，各自速度都变了，但总动量不变。这也说明动量守恒是针对系统的规律，不能直接套到单个物体上。"
+  },
+  {
+    "id": "q-phy-momentum-conservation-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-momentum-conservation"],
+    "stem": "质量为 $1\\ \\mathrm{kg}$ 的小球以 $6\\ \\mathrm{m/s}$ 的速度在光滑水平面上运动，与静止的质量为 $2\\ \\mathrm{kg}$ 的小球发生正碰，碰后两球粘在一起，则它们的共同速度为 ____ $\\mathrm{m/s}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["完全非弹性碰撞", "动量守恒"],
+    "blanks": [
+      {
+        "accept": ["2", "2 m/s", "2m/s"],
+        "hint": "$m_1v_1=(m_1+m_2)v$"
+      }
+    ],
+    "explanation": "碰撞过程水平方向不受外力，动量守恒：$1\\times6=(1+2)v$，得 $v=2\\ \\mathrm{m/s}$，方向与原速度相同。这是完全非弹性碰撞，动量守恒但动能不守恒：碰前 $E_k=18\\ \\mathrm{J}$，碰后 $E_k=6\\ \\mathrm{J}$，损失 $12\\ \\mathrm{J}$。常见错误是用「能量守恒」去算，那样会得出错误结论；也有同学把质量弄错写成 $6/2=3$。"
+  },
+  {
+    "id": "q-phy-momentum-conservation-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-momentum-conservation"],
+    "stem": "质量为 $0.02\\ \\mathrm{kg}$ 的子弹以 $300\\ \\mathrm{m/s}$ 的水平速度射入静止在光滑水平面上的木块（质量 $0.98\\ \\mathrm{kg}$）并留在其中，则子弹与木块的共同速度为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["子弹打木块", "动量守恒"],
+    "options": [
+      { "key": "A", "text": "$5.88\\ \\mathrm{m/s}$" },
+      { "key": "B", "text": "$6\\ \\mathrm{m/s}$" },
+      { "key": "C", "text": "$12\\ \\mathrm{m/s}$" },
+      { "key": "D", "text": "$300\\ \\mathrm{m/s}$" }
+    ],
+    "answer": "B",
+    "explanation": "水平方向动量守恒：$0.02\\times300=(0.02+0.98)v$，得 $6=1.0\\times v$，$v=6\\ \\mathrm{m/s}$。选 A 是把总质量只算木块（$6/0.98\\approx6.12$ 也不对，A 实际来自 $6\\times0.98$ 的错算）；选 C 是漏掉子弹质量把分母写成 $0.5$。注意系统动能大幅减少（$900\\ \\mathrm{J}\\to18\\ \\mathrm{J}$），这部分转化为内能，符合完全非弹性碰撞的特征。"
+  },
+  {
+    "id": "q-phy-momentum-conservation-4",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-momentum-conservation"],
+    "stem": "质量为 $1000\\ \\mathrm{kg}$ 的车厢以 $2\\ \\mathrm{m/s}$ 的速度在光滑水平轨道上匀速行驶，途中从上方竖直落入 $1000\\ \\mathrm{kg}$ 的砂子（砂子竖直方向速度落地前已减为零）。则砂子落稳后车厢的速度为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["动量守恒", "水平方向", "变质量"],
+    "options": [
+      { "key": "A", "text": "$0.5\\ \\mathrm{m/s}$" },
+      { "key": "B", "text": "$1\\ \\mathrm{m/s}$" },
+      { "key": "C", "text": "$2\\ \\mathrm{m/s}$" },
+      { "key": "D", "text": "$4\\ \\mathrm{m/s}$" }
+    ],
+    "answer": "B",
+    "explanation": "砂子竖直落入，水平方向初动量为零，系统水平方向不受外力，故水平动量守恒：$1000\\times2=(1000+1000)v$，得 $v=1\\ \\mathrm{m/s}$。选 C 是误以为速度不变；选 D 是把质量关系用反。注意竖直方向动量不守恒（地面对车厢的支持力是外力），所以只能对水平方向列式——「分方向守恒」是这类题的关键。"
+  },
+  {
+    "id": "q-phy-collision-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-collision"],
+    "stem": "判断下列说法是否正确：弹性碰撞过程中，系统的动量和机械能都守恒。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["弹性碰撞", "守恒条件"],
+    "answer": true,
+    "explanation": "弹性碰撞中两物体接触后能完全恢复形变，没有机械能转化为内能，故同时满足动量守恒与动能（机械能）守恒。反过来说，动量守恒是各类碰撞的共性，动能守恒只有弹性碰撞才有；完全非弹性碰撞动能损失最大（碰后共速）。该说法正确。"
+  },
+  {
+    "id": "q-phy-collision-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-collision"],
+    "stem": "两个质量相等的物体在光滑水平面上发生弹性正碰，其中一个静止、另一个以一定速度撞来，则碰后两物体的速度关系是 ____（用文字描述）。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["弹性碰撞", "等质量"],
+    "blanks": [
+      {
+        "accept": ["交换速度", "互换速度", "两球交换速度", "速度交换", "二者交换速度"],
+        "hint": "联立 $mv=mv_1+mv_2$ 与 $\\frac12mv^2=\\frac12mv_1^2+\\frac12mv_2^2$"
+      }
+    ],
+    "explanation": "等质量弹性正碰：动量守恒给出 $v=v_1+v_2$，动能守恒给出 $v^2=v_1^2+v_2^2$，两式联立得 $v_1v_2=0$，即一个物体停下、另一个以原速度前进——表现为两者**交换速度**。这一结论只在质量相等且为弹性正碰时成立，不要推广到一般情形；一般弹性碰撞可用 $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1$ 计算。"
+  },
+  {
+    "id": "q-phy-collision-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-collision", "phy-momentum-conservation"],
+    "stem": "质量为 $1\\ \\mathrm{kg}$ 的小球以 $4\\ \\mathrm{m/s}$ 的速度与静止的质量为 $1\\ \\mathrm{kg}$ 的小球发生完全非弹性碰撞（碰后粘在一起），则碰撞中损失的动能为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["完全非弹性碰撞", "动能损失"],
+    "options": [
+      { "key": "A", "text": "$0$" },
+      { "key": "B", "text": "$2\\ \\mathrm{J}$" },
+      { "key": "C", "text": "$4\\ \\mathrm{J}$" },
+      { "key": "D", "text": "$8\\ \\mathrm{J}$" }
+    ],
+    "answer": "C",
+    "explanation": "碰后共同速度 $v=\\dfrac{1\\times4}{1+1}=2\\ \\mathrm{m/s}$，碰前动能 $\\frac12\\times1\\times16=8\\ \\mathrm{J}$，碰后 $\\frac12\\times2\\times4=4\\ \\mathrm{J}$，损失 $4\\ \\mathrm{J}$。选 A 是误以为动量守恒则动能守恒；选 D 是把碰前动能当成损失。等质量完全非弹性碰撞损失正好是碰前动能的一半，可用 $\\Delta E_k=\\dfrac{m_1m_2}{2(m_1+m_2)}v_{rel}^2$ 验算：$\\dfrac{1}{4}\\times16=4\\ \\mathrm{J}$。"
+  },
+  {
+    "id": "q-phy-collision-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-collision"],
+    "stem": "关于碰撞与爆炸模型，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["碰撞分类", "爆炸", "质量亏损"],
+    "options": [
+      { "key": "A", "text": "弹性碰撞同时满足动量守恒和动能守恒" },
+      { "key": "B", "text": "完全非弹性碰撞后两物体速度相同，动能损失最大" },
+      { "key": "C", "text": "爆炸过程中系统动量守恒，动能增加" },
+      { "key": "D", "text": "任何碰撞过程中，系统的动能都守恒" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A、B 是碰撞分类的基本结论：弹性碰撞无动能损失；完全非弹性碰撞（碰后共速）动能损失最大。C 正确：爆炸时间极短、内力远大于外力，动量可视为守恒，化学能转化为动能使总动能增加，这是与碰撞的重要区别。D 错：只有弹性碰撞动能才守恒，一般碰撞都有部分动能转化为内能。判断碰撞是否可能，还需检验动能不增加与速度合理性。"
+  },
+  {
+    "id": "q-phy-mechanical-energy-5",
+    "subjectId": "physics",
+    "type": "short",
+    "kpIds": ["phy-mechanical-energy", "phy-kinetic-energy"],
+    "stem": "质量为 $m=2\\ \\mathrm{kg}$ 的滑块从高 $h=5\\ \\mathrm{m}$ 的光滑斜面顶端由静止滑下，到达底端后进入水平粗糙面，滑块与水平面间的动摩擦因数 $\\mu=0.2$（$g=10\\ \\mathrm{m/s^2}$，斜面与水平面平滑连接）。\n(1) 求滑块到达斜面底端时的速度大小；\n(2) 求滑块在水平面上能滑行的最大距离；\n(3) 求滑块在水平面上滑行 $10\\ \\mathrm{m}$ 时的速度大小（结果可保留根号）。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["机械能守恒", "动能定理", "斜面与水平面"],
+    "rubric": [
+      { "text": "指出斜面光滑、只有重力做功，用机械能守恒（或动能定理）得 $v=\\sqrt{2gh}=10\\ \\mathrm{m/s}$", "score": 3 },
+      { "text": "对水平面段用动能定理 $-\\mu mgs=0-\\frac12mv^2$，解得 $s=\\dfrac{v^2}{2\\mu g}=25\\ \\mathrm{m}$", "score": 3 },
+      { "text": "对滑行 $10\\ \\mathrm{m}$ 的过程列 $-\\mu mgs'=\\frac12mv'^2-\\frac12mv^2$，得 $v'=\\sqrt{60}\\approx7.7\\ \\mathrm{m/s}$", "score": 2 }
+    ],
+    "reference": "(1) 斜面光滑，滑块只受重力和支持力，支持力不做功，机械能守恒：\n$$mgh=\\frac12mv^2\\ \\Rightarrow\\ v=\\sqrt{2gh}=\\sqrt{2\\times10\\times5}=10\\ \\mathrm{m/s}.$$\n方向沿斜面向下（进入水平面后即为水平方向）。\n(2) 在水平面上只有摩擦力做功，由动能定理：\n$$-\\mu mgs=0-\\frac12mv^2\\ \\Rightarrow\\ s=\\frac{v^2}{2\\mu g}=\\frac{100}{2\\times0.2\\times10}=25\\ \\mathrm{m}.$$\n(3) 滑行 $s'=10\\ \\mathrm{m}$ 时，由动能定理：\n$$\\frac12mv'^2-\\frac12mv^2=-\\mu mgs'\\ \\Rightarrow\\ v'^2=100-2\\times0.2\\times10\\times10=60,$$\n故 $v'=\\sqrt{60}=2\\sqrt{15}\\approx7.7\\ \\mathrm{m/s}$。",
+    "maxScore": 8,
+    "explanation": "本题考查「分段使用能量观点」的基本功：光滑段用机械能守恒（等价于只有重力做功的动能定理），粗糙段用动能定理并单独计算摩擦力做功。三问共用同一个初动能，第 (2) 问的结果 $25\\ \\mathrm{m}$ 也可由第 (3) 问的式子令 $v'=0$ 得到，可用于验算。常见错误：① 第 (1) 问把支持力当成做功的力，或误以为速度与斜面倾角有关；② 第 (2) 问漏掉质量（写成 $\\dfrac{v}{2\\mu g}$）或把 $\\mu mg$ 写成 $\\mu m$；③ 第 (3) 问忘记摩擦力做负功，直接把 $v'$ 算成 $10-\\mu g t$ 之类。注意第 (2) 问的距离 $25\\ \\mathrm{m}$ 大于第 (3) 问的 $10\\ \\mathrm{m}$，物理上自洽。"
+  },
+  {
+    "id": "q-phy-momentum-conservation-5",
+    "subjectId": "physics",
+    "type": "short",
+    "kpIds": ["phy-momentum-conservation", "phy-collision"],
+    "stem": "质量为 $M=0.99\\ \\mathrm{kg}$ 的木块静止在光滑水平面上，一质量为 $m=0.01\\ \\mathrm{kg}$ 的子弹以 $v_0=400\\ \\mathrm{m/s}$ 的水平速度射向木块。\n(1) 若子弹射入木块后留在其中，求两者的共同速度；\n(2) 在 (1) 的情形下，求系统损失的动能；\n(3) 若子弹射穿木块后速度变为 $100\\ \\mathrm{m/s}$（方向不变），求此时木块的速度。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["动量守恒", "子弹打木块", "动能损失"],
+    "rubric": [
+      { "text": "指出水平方向不受外力、动量守恒，列 $mv_0=(M+m)v$ 并解得 $v=4\\ \\mathrm{m/s}$", "score": 3 },
+      { "text": "分别算出碰前动能 $800\\ \\mathrm{J}$ 与碰后动能 $8\\ \\mathrm{J}$，得损失 $792\\ \\mathrm{J}$", "score": 3 },
+      { "text": "第 (3) 问再次用动量守恒 $mv_0=mv_1+Mv_2$，解得 $v_2\\approx3.03\\ \\mathrm{m/s}$", "score": 2 }
+    ],
+    "reference": "(1) 系统水平方向不受外力，动量守恒：\n$$mv_0=(m+M)v\\ \\Rightarrow\\ v=\\frac{0.01\\times400}{1.00}=4\\ \\mathrm{m/s}.$$\n(2) 碰前 $E_{k0}=\\frac12\\times0.01\\times400^2=800\\ \\mathrm{J}$，碰后 $E_k=\\frac12\\times1.00\\times4^2=8\\ \\mathrm{J}$，损失\n$$\\Delta E=800-8=792\\ \\mathrm{J},$$\n转化为内能（子弹与木块摩擦生热）。\n(3) 子弹穿透时动量仍守恒：\n$$mv_0=mv_1+Mv_2\\ \\Rightarrow\\ 0.01\\times400=0.01\\times100+0.99v_2,$$\n$$4=1+0.99v_2\\ \\Rightarrow\\ v_2=\\frac{3}{0.99}\\approx3.03\\ \\mathrm{m/s}.$$",
+    "maxScore": 8,
+    "explanation": "本题考查动量守恒的两种典型情形（完全非弹性打入与穿透），核心是「水平方向外力为零」这一条件的识别与矢量式的代入。第 (1) 问的分母必须是 $M+m$，只写 $M$ 会得 $4.04\\ \\mathrm{m/s}$，属于典型错误。第 (2) 问只能算动能差，不能假定动能守恒——损失的 $792\\ \\mathrm{J}$ 正是摩擦力做功生热。第 (3) 问穿透后子弹速度仍为正，说明方向未变，木块速度 $3.03\\ \\mathrm{m/s}$ 小于第 (1) 问的 $4\\ \\mathrm{m/s}$，符合「穿透比嵌入带走更多动能、留给木块更少」的规律；可再用能量检验：$E_{k}'=50+0.5\\times0.99\\times9.18\\approx54.5\\ \\mathrm{J}<800\\ \\mathrm{J}$，动能未增加，结果合理。"
+  }
+]

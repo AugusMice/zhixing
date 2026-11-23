@@ -1,0 +1,619 @@
+[
+  {
+    "id": "q-chn-t-jingnv-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation"],
+    "stem": "《静女》中「静女其姝，____」的下一句是：",
+    "difficulty": 1,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-jingnv",
+    "quote": "静女其姝，俟我于城隅。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["俟我于城隅"], "hint": "填五个字，注意「俟」是等待" }],
+    "explanation": "出自《静女》首章。「俟」读 sì，意为等待；「城隅」指城角。易错字是「俟」，左边是「亻」，不要写成「彳」。"
+  },
+  {
+    "id": "q-chn-t-jingnv-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context"],
+    "stem": "《静女》中男子明知茅草芽并不稀奇，却因是心上人所赠而倍加珍爱的两句是「____，____」：",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-jingnv",
+    "quote": "匪女之为美，美人之贻。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["匪女之为美"], "hint": "五个字，「匪」通「非」" },
+      { "accept": ["美人之贻"], "hint": "五个字，「贻」是赠送" }
+    ],
+    "explanation": "题干「并不稀奇」对应「匪女之为美」，「因是心上人所赠」对应「美人之贻」。这是全诗诗眼：物之美不在物本身，而在赠物之人。注意「匪」通「非」、「女」通「汝」、「贻」从「贝」。"
+  },
+  {
+    "id": "q-chn-t-jingnv-3",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words"],
+    "stem": "「爱而不见，搔首踟蹰」中「爱」的意思是（　）",
+    "difficulty": 3,
+    "source": "自编字词辨析（据教材注释）",
+    "textId": "chn-t-jingnv",
+    "quote": "爱而不见，搔首踟蹰。",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "喜爱，爱慕" },
+      { "key": "B", "text": "通「薆」，隐藏" },
+      { "key": "C", "text": "吝惜，舍不得" },
+      { "key": "D", "text": "爱护，怜惜" }
+    ],
+    "answer": "B",
+    "explanation": "「爱」通「薆」，意为隐藏。全句写女子故意躲起来不出现，男子急得抓耳挠腮。若按今义解作「喜爱」，则与「不见」矛盾。同章「说怿女美」的「说」通「悦」、「女」通「汝」，也是通假。"
+  },
+  {
+    "id": "q-chn-t-jingnv-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry"],
+    "stem": "下列对《静女》的解说，不正确的一项是（　）",
+    "difficulty": 3,
+    "source": "自编文学常识（据教材）",
+    "textId": "chn-t-jingnv",
+    "quote": "静女其姝，俟我于城隅。",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "选自《诗经·邶风》，是《诗经》中写民间恋情的名篇" },
+      { "key": "B", "text": "《诗经》是我国最早的诗歌总集，收录西周至春秋中叶的诗歌305篇" },
+      { "key": "C", "text": "全诗三章，采用重章叠句、以物寄情的手法" },
+      { "key": "D", "text": "诗中的「静女」是贵族少女，男子是贵族青年，写的是贵族婚恋" }
+    ],
+    "answer": "D",
+    "explanation": "《静女》写的是民间青年男女的恋爱，地点在「城隅」，赠物是「彤管」「荑」这样的寻常之物，情调活泼质朴，并无贵族气象。A、B、C 均符合教材表述。"
+  },
+
+  {
+    "id": "q-chn-t-wuyi-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation"],
+    "stem": "《无衣》中「岂曰无衣？____」的下一句是：",
+    "difficulty": 1,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-wuyi",
+    "quote": "岂曰无衣？与子同袍。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["与子同袍"], "hint": "填四个字" }],
+    "explanation": "出自《无衣》首章。全诗三章以「与子同袍」「与子同泽」「与子同裳」递进，衣物由外及内，写同甘共苦之深。「袍」是长衣，白天当衣、夜里当被。"
+  },
+  {
+    "id": "q-chn-t-wuyi-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context"],
+    "stem": "《无衣》末章写将士修整铠甲兵器、准备与战友一同前进的两句是「____，____」：",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-wuyi",
+    "quote": "王于兴师，修我甲兵。与子偕行！",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["修我甲兵"], "hint": "四个字，「甲兵」指铠甲兵器" },
+      { "accept": ["与子偕行"], "hint": "四个字，「偕」是一同" }
+    ],
+    "explanation": "题干「修整铠甲兵器」对应「修我甲兵」，「一同前进」对应「与子偕行」。三章末句「同仇—偕作—偕行」由心到身层层推进，是重章叠句的典型用法。注意「偕」从「亻」，不要写成「皆」。"
+  },
+  {
+    "id": "q-chn-t-wuyi-3",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words"],
+    "stem": "「岂曰无衣？与子同泽」中「泽」的意思是（　）",
+    "difficulty": 3,
+    "source": "自编字词辨析（据教材注释）",
+    "textId": "chn-t-wuyi",
+    "quote": "岂曰无衣？与子同泽。",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "恩泽，恩惠" },
+      { "key": "B", "text": "光泽，润泽" },
+      { "key": "C", "text": "通「襗」，贴身的内衣" },
+      { "key": "D", "text": "沼泽，低湿之地" }
+    ],
+    "answer": "C",
+    "explanation": "「泽」通「襗」，指贴身内衣。三章「袍—泽—裳」由外及内，正说明将士同甘共苦之深。若解作「恩泽」「沼泽」，与「同」字搭配不通。"
+  },
+  {
+    "id": "q-chn-t-wuyi-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry", "chn-classical-words"],
+    "stem": "下列对《无衣》的解说，不正确的一项是（　）",
+    "difficulty": 3,
+    "source": "自编文学常识（据教材）",
+    "textId": "chn-t-wuyi",
+    "quote": "王于兴师，修我戈矛。",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "选自《诗经·秦风》，是秦地的一首军中战歌" },
+      { "key": "B", "text": "全诗三章采用重章叠句，三章只换少数词语，情感层层递进" },
+      { "key": "C", "text": "「王于兴师」的「于」是介词，意为「在」，全句意为「君王在兴兵」" },
+      { "key": "D", "text": "「与子同仇」的「仇」指仇敌，句意为与你共同对付敌人" }
+    ],
+    "answer": "C",
+    "explanation": "「王于兴师」的「于」是语助词，用于凑足音节、加强语气，一说意为「往」（君王往而兴师），不能解作介词「在」。这是《诗经》中「于」的常见用法，与「于嗟鸠兮」的「于」通「吁」不同。"
+  },
+
+  {
+    "id": "q-chn-t-meng-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation"],
+    "stem": "《氓》中「桑之未落，____」的下一句是：",
+    "difficulty": 1,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-meng",
+    "quote": "桑之未落，其叶沃若。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["其叶沃若"], "hint": "填四个字，「沃若」是润泽的样子" }],
+    "explanation": "出自《氓》第三章。此句以桑叶润泽起兴，暗喻女子年轻貌美、爱情正浓，与第四章「桑之落矣，其黄而陨」形成对照。易错字是「沃若」，不要写成「沃弱」。"
+  },
+  {
+    "id": "q-chn-t-meng-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation"],
+    "stem": "《氓》中「____，不思其反」的上一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-meng",
+    "quote": "信誓旦旦，不思其反。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["信誓旦旦"], "hint": "填四个字，形容誓言诚恳" }],
+    "explanation": "出自《氓》末章。「信誓」指诚恳的誓言，「旦旦」是诚恳的样子；「反」指违背。此句与「总角之宴，言笑晏晏」连读，写当年欢好与今日背弃的对比。"
+  },
+  {
+    "id": "q-chn-t-meng-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context"],
+    "stem": "《氓》中女子以淇水有岸、沼泽有边反衬自己痛苦无边、怨恨无尽的两句是「____，____」：",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-meng",
+    "quote": "淇则有岸，隰则有泮。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["淇则有岸"], "hint": "四个字，淇水名" },
+      { "accept": ["隰则有泮"], "hint": "四个字，「隰」读 xí，「泮」通「畔」" }
+    ],
+    "explanation": "题干「有岸」「有边」正对应「岸」「泮（畔）」。此为反衬：物皆有尽，唯怨无穷。「隰」指低湿之地，「泮」通「畔」，两个字都是默写易错点。"
+  },
+  {
+    "id": "q-chn-t-meng-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words"],
+    "stem": "「士也罔极，二三其德」中「罔极」的意思是（　）",
+    "difficulty": 3,
+    "source": "自编字词辨析（据教材注释）",
+    "textId": "chn-t-meng",
+    "quote": "士也罔极，二三其德。",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "没有尽头" },
+      { "key": "B", "text": "没有准则" },
+      { "key": "C", "text": "不加节制" },
+      { "key": "D", "text": "心地不善" }
+    ],
+    "answer": "B",
+    "explanation": "「罔」意为无，「极」意为标准、准则，「罔极」即没有定准、反复无常。下句「二三其德」正是对「罔极」的具体说明，两句互为解释。"
+  },
+  {
+    "id": "q-chn-t-meng-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry", "chn-classical-culture"],
+    "stem": "下列对《氓》的解说，不正确的一项是（　）",
+    "difficulty": 4,
+    "source": "自编文学常识（据教材）",
+    "textId": "chn-t-meng",
+    "quote": "总角之宴，言笑晏晏。",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "选自《诗经·卫风》，是一首弃妇自诉婚姻悲剧的叙事诗" },
+      { "key": "B", "text": "全诗六章，赋、比、兴兼用，以桑叶的荣枯喻容颜与爱情的盛衰" },
+      { "key": "C", "text": "「总角之宴」的「总角」指少年男女把头发扎成两个角，代指童年" },
+      { "key": "D", "text": "「送子涉淇」「以我贿迁」表明女子出身贵族，出嫁时嫁妆丰厚" }
+    ],
+    "answer": "D",
+    "explanation": "「贿」指财物、嫁妆，但全诗写的是普通民间的婚恋：「氓」是「民」，男子「抱布贸丝」以布换丝，女子「三岁食贫」「靡室劳矣」，终年操劳家务，并无贵族气象。C 项「总角」代指童年，是教材注释，正确。"
+  },
+
+  {
+    "id": "q-chn-t-lisao-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation"],
+    "stem": "《离骚》中「亦余心之所善兮，____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-lisao",
+    "quote": "亦余心之所善兮，虽九死其犹未悔。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["虽九死其犹未悔"], "hint": "填七个字，「九死」是虚数" }],
+    "explanation": "出自节选第一段。「九死」极言其多，「犹」意为仍然。此句表明志节所在，虽万死不改，是《离骚》全篇的精神纲领。注意「犹」不要写成「尤」。"
+  },
+  {
+    "id": "q-chn-t-lisao-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation"],
+    "stem": "《离骚》中「制芰荷以为衣兮，____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-lisao",
+    "quote": "制芰荷以为衣兮，集芙蓉以为裳。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["集芙蓉以为裳"], "hint": "填六个字，「芙蓉」即荷花" }],
+    "explanation": "出自节选第三段。以荷叶为衣、荷花为裳，是「香草美人」比兴的具体化，象征诗人修洁自持、不与世俗同污。注意「芰」读 jì，「裳」读 cháng。"
+  },
+  {
+    "id": "q-chn-t-lisao-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context"],
+    "stem": "《离骚》中诗人以反问表明即使身体被肢解也决不改变心志的两句是「____，____」：",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-lisao",
+    "quote": "虽体解吾犹未变兮，岂余心之可惩？",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["虽体解吾犹未变兮"], "hint": "八个字，「体解」是肢解之刑" },
+      { "accept": ["岂余心之可惩"], "hint": "七个字，以反问收束" }
+    ],
+    "explanation": "题干「身体被肢解」对应「体解」，「决不改变」对应「未变」，「反问」对应「岂……可惩」。此二句为节选末句，是全篇志节的总结。「惩」意为受创而改变，不是「惩罚」。"
+  },
+  {
+    "id": "q-chn-t-lisao-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words"],
+    "stem": "「固时俗之工巧兮，偭规矩而改错」中「错」的意思是（　）",
+    "difficulty": 3,
+    "source": "自编字词辨析（据教材注释）",
+    "textId": "chn-t-lisao",
+    "quote": "固时俗之工巧兮，偭规矩而改错。",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "错误，过失" },
+      { "key": "B", "text": "通「措」，措施、安排" },
+      { "key": "C", "text": "交错，更迭" },
+      { "key": "D", "text": "磨错，打磨" }
+    ],
+    "answer": "B",
+    "explanation": "「错」通「措」，指措施、法度。「改错」即改变（正常的）措施，与上句「偭规矩」（违背规矩）并列，写世俗之人投机取巧、破坏法度。若解作「错误」，则「改错」反成褒义，与全句批判语气不符。"
+  },
+  {
+    "id": "q-chn-t-lisao-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry", "chn-classical-culture"],
+    "stem": "下列对《离骚》的解说，不正确的一项是（　）",
+    "difficulty": 3,
+    "source": "自编文学常识（据教材）",
+    "textId": "chn-t-lisao",
+    "quote": "长太息以掩涕兮，哀民生之多艰。",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "屈原是战国末期楚国人，我国文学史上第一位伟大的浪漫主义诗人" },
+      { "key": "B", "text": "「离骚」意为「遭遇忧愁」，「离」通「罹」，遭受" },
+      { "key": "C", "text": "全诗大量运用「香草美人」的比兴手法，以香草喻高洁品格" },
+      { "key": "D", "text": "《离骚》是我国第一部诗歌总集，与《诗经》并称「风骚」" }
+    ],
+    "answer": "D",
+    "explanation": "我国第一部诗歌总集是《诗经》，《离骚》是屈原的长篇抒情诗，是我国古代最长的政治抒情诗。「风骚」并称不错，但「第一部诗歌总集」的桂冠属于《诗经》。"
+  },
+
+  {
+    "id": "q-chn-t-shejiang-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation"],
+    "stem": "《涉江采芙蓉》中「还顾望旧乡，____」的下一句是：",
+    "difficulty": 1,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-shejiang",
+    "quote": "还顾望旧乡，长路漫浩浩。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["长路漫浩浩"], "hint": "填五个字" }],
+    "explanation": "出自第三联。「还顾」是回头看，「漫浩浩」形容路途无边无际。此句既是游子回望，也可理解为悬想对方同样在望，是全诗由景入情的关键转折。"
+  },
+  {
+    "id": "q-chn-t-shejiang-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context"],
+    "stem": "《涉江采芙蓉》中直抒胸臆，写同心之人却分隔两地、只能忧伤到老的两句是「____，____」：",
+    "difficulty": 2,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-shejiang",
+    "quote": "同心而离居，忧伤以终老。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["同心而离居"], "hint": "五个字" },
+      { "accept": ["忧伤以终老"], "hint": "五个字，「以」表结果" }
+    ],
+    "explanation": "题干「同心却分隔两地」对应「同心而离居」，「忧伤到老」对应「忧伤以终老」。这是全诗唯一的直接抒情，前面三联动植物象，全为这两句蓄势。"
+  },
+  {
+    "id": "q-chn-t-shejiang-3",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words"],
+    "stem": "「采之欲遗谁？所思在远道」中「遗」的意思是（　）",
+    "difficulty": 2,
+    "source": "自编字词辨析（据教材注释）",
+    "textId": "chn-t-shejiang",
+    "quote": "采之欲遗谁？所思在远道。",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "遗留，留下" },
+      { "key": "B", "text": "赠送，送给" },
+      { "key": "C", "text": "遗漏，漏掉" },
+      { "key": "D", "text": "遗弃，抛弃" }
+    ],
+    "answer": "B",
+    "explanation": "「遗」在此读 wèi，意为赠送。采荷花本欲赠人，故下句接「所思在远道」。同类的「遗」在《静女》「自牧归荑」的「归」（通「馈」）中也是赠予义，可对读。"
+  },
+  {
+    "id": "q-chn-t-shejiang-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry"],
+    "stem": "下列对《涉江采芙蓉》的解说，不正确的一项是（　）",
+    "difficulty": 3,
+    "source": "自编文学常识（据教材）",
+    "textId": "chn-t-shejiang",
+    "quote": "涉江采芙蓉，兰泽多芳草。",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "选自《古诗十九首》，最早见于南朝萧统所编《文选》" },
+      { "key": "B", "text": "《古诗十九首》作者不详，一般认为是东汉末年文人所作" },
+      { "key": "C", "text": "刘勰《文心雕龙》称《古诗十九首》为「五言之冠冕」" },
+      { "key": "D", "text": "本诗是七言律诗，讲究平仄对仗，中间两联必须对偶" }
+    ],
+    "answer": "D",
+    "explanation": "《涉江采芙蓉》是五言古诗，共八句，不讲平仄，也不要求中间两联对仗。律诗是唐代才定型的格律诗，不能用来指称汉末古诗。"
+  },
+
+  {
+    "id": "q-chn-t-duange-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation"],
+    "stem": "《短歌行》中「慨当以慷，____」的下一句是：",
+    "difficulty": 1,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-duange",
+    "quote": "慨当以慷，忧思难忘。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["忧思难忘"], "hint": "填四个字" }],
+    "explanation": "出自第二解。「慨当以慷」即「当慨以慷」，「当」「以」是凑足音节的助词，意为慷慨激昂。此句写放歌之际忧思反而更难排遣，为下句「何以解忧」蓄势。"
+  },
+  {
+    "id": "q-chn-t-duange-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation"],
+    "stem": "《短歌行》中「____，天下归心」的上一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-duange",
+    "quote": "周公吐哺，天下归心。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["周公吐哺"], "hint": "填四个字，用周公礼贤的典故" }],
+    "explanation": "出自末解。「吐哺」指吐出嘴里正在嚼的食物，周公一饭三吐哺以接待贤士。曹操以此自比，表明广纳贤才、成就大业的胸襟。易错字是「哺」，从「口」。"
+  },
+  {
+    "id": "q-chn-t-duange-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context"],
+    "stem": "《短歌行》中以乌鹊绕树、无枝可依比喻贤才尚在徘徊、无所依托的两句是「____，____」：",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-duange",
+    "quote": "绕树三匝，何枝可依？",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["绕树三匝"], "hint": "四个字，「匝」是一圈" },
+      { "accept": ["何枝可依"], "hint": "四个字，反问句" }
+    ],
+    "explanation": "「三匝」是绕了几圈，「何枝可依」以反问写无处栖身。乌鹊喻贤才，绕树喻徘徊择主，是比兴手法的典型。注意「匝」读 zā，不要写成「咂」。"
+  },
+  {
+    "id": "q-chn-t-duange-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words"],
+    "stem": "「越陌度阡，枉用相存」中「存」的意思是（　）",
+    "difficulty": 3,
+    "source": "自编字词辨析（据教材注释）",
+    "textId": "chn-t-duange",
+    "quote": "越陌度阡，枉用相存。",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "存在，生存" },
+      { "key": "B", "text": "保存，保全" },
+      { "key": "C", "text": "问候，探望" },
+      { "key": "D", "text": "思念，挂念" }
+    ],
+    "answer": "C",
+    "explanation": "「存」在此为问候、探望义。「枉」是谦辞，屈驾；「用」是以。「枉用相存」即屈驾前来探望我，写贤才远道而来，与上句「越陌度阡」相接。"
+  },
+  {
+    "id": "q-chn-t-duange-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry"],
+    "stem": "下列对《短歌行》的解说，不正确的一项是（　）",
+    "difficulty": 3,
+    "source": "自编文学常识（据教材）",
+    "textId": "chn-t-duange",
+    "quote": "对酒当歌，人生几何！",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "曹操，字孟德，建安文学的代表作家，诗风苍凉悲壮" },
+      { "key": "B", "text": "「短歌行」是乐府旧题，属《相和歌·平调曲》" },
+      { "key": "C", "text": "「青青子衿」出自《诗经·郑风·子衿》，「呦呦鹿鸣」出自《诗经·小雅·鹿鸣》" },
+      { "key": "D", "text": "全诗为五言古诗，一韵到底，中间没有换韵" }
+    ],
+    "answer": "D",
+    "explanation": "《短歌行》是四言诗，不是五言；且全诗多次换韵（如「歌、何、多」与「康」「心、今」等各成韵脚），并非一韵到底。A、B、C 均符合教材与文学史常识。"
+  },
+
+  {
+    "id": "q-chn-t-guiyuan-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation"],
+    "stem": "《归园田居（其一）》中「羁鸟恋旧林，____」的下一句是：",
+    "difficulty": 1,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-guiyuan",
+    "quote": "羁鸟恋旧林，池鱼思故渊。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["池鱼思故渊"], "hint": "填五个字" }],
+    "explanation": "出自第三联。以「羁鸟」「池鱼」自比，以「旧林」「故渊」喻田园故乡，把厌弃官场、思念田园之情写得具体可感。易错字是「羁」，笔画繁密。"
+  },
+  {
+    "id": "q-chn-t-guiyuan-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context"],
+    "stem": "《归园田居（其一）》中以远景写村落朦胧、炊烟轻柔，营造宁静恬淡意境的两句是「____，____」：",
+    "difficulty": 2,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-guiyuan",
+    "quote": "暧暧远人村，依依墟里烟。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["暧暧远人村"], "hint": "五个字，「暧暧」是昏暗模糊" },
+      { "accept": ["依依墟里烟"], "hint": "五个字，「依依」是轻柔飘拂" }
+    ],
+    "explanation": "题干「村落朦胧」对应「暧暧远人村」，「炊烟轻柔」对应「依依墟里烟」。叠词「暧暧」「依依」既摹状又传神，是全诗写景最见功力的一联，与下联「狗吠」「鸡鸣」的声响相配，静中有动。"
+  },
+  {
+    "id": "q-chn-t-guiyuan-3",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words"],
+    "stem": "「少无适俗韵，性本爱丘山」中「韵」的意思是（　）",
+    "difficulty": 3,
+    "source": "自编字词辨析（据教材注释）",
+    "textId": "chn-t-guiyuan",
+    "quote": "少无适俗韵，性本爱丘山。",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "韵味，情趣" },
+      { "key": "B", "text": "本性，气质" },
+      { "key": "C", "text": "韵律，声韵" },
+      { "key": "D", "text": "风韵，风度" }
+    ],
+    "answer": "B",
+    "explanation": "「韵」在此指本性、气质。「适俗韵」即迎合世俗的本性，与下句「性本爱丘山」的「性」互文见义。若解作「韵味」「韵律」，与「适俗」搭配不通。"
+  },
+  {
+    "id": "q-chn-t-guiyuan-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry", "chn-classical-words"],
+    "stem": "下列对《归园田居（其一）》的解说，不正确的一项是（　）",
+    "difficulty": 3,
+    "source": "自编文学常识（据教材）",
+    "textId": "chn-t-guiyuan",
+    "quote": "方宅十余亩，草屋八九间。",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "陶渊明，字元亮，号五柳先生，东晋田园诗派的开创者" },
+      { "key": "B", "text": "本诗是《归园田居》组诗的第一首，写辞官归田后的欣喜" },
+      { "key": "C", "text": "「守拙」意为守住愚拙的本性，即不随俗逢迎、保持本真" },
+      { "key": "D", "text": "「方宅十余亩」的「方」意为「方形」，是说宅院呈方形、有十余亩大" }
+    ],
+    "answer": "D",
+    "explanation": "「方」意为「旁、四周」，「方宅十余亩」即住宅四周有十余亩地。若解作「方形」，既与「十余亩」（面积单位）搭配不当，也与下句「草屋八九间」的并列结构不合。"
+  },
+
+  {
+    "id": "q-chn-t-nixing-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation"],
+    "stem": "《拟行路难（其四）》中「泻水置平地，____」的下一句是：",
+    "difficulty": 1,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-nixing",
+    "quote": "泻水置平地，各自东西南北流。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["各自东西南北流"], "hint": "填七个字" }],
+    "explanation": "出自首联。以水倒地上四处流散起兴，暗喻人因门第不同而贵贱殊途。这一比喻是理解全诗的关键：看似写水，实则写人。易错字是「泻」，氵旁。"
+  },
+  {
+    "id": "q-chn-t-nixing-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context"],
+    "stem": "《拟行路难（其四）》中写诗人满怀悲愤却只能忍气吞声、欲言又止的两句是「____，____」：",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-nixing",
+    "quote": "心非木石岂无感？吞声踯躅不敢言。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["心非木石岂无感"], "hint": "七个字，以反问出之" },
+      { "accept": ["吞声踯躅不敢言"], "hint": "七个字，「踯躅」是徘徊不前" }
+    ],
+    "explanation": "「心非木石岂无感」以反问强调感受之真切，「吞声踯躅不敢言」写压抑之深。一扬一抑，构成全诗最强烈的顿挫。注意「踯躅」读 zhí zhú，与《静女》的「踟蹰」形近而不同。"
+  },
+  {
+    "id": "q-chn-t-nixing-3",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words"],
+    "stem": "「酌酒以自宽，举杯断绝歌路难」中「断绝」的意思是（　）",
+    "difficulty": 3,
+    "source": "自编字词辨析（据教材注释）",
+    "textId": "chn-t-nixing",
+    "quote": "酌酒以自宽，举杯断绝歌路难。",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "隔绝，阻隔" },
+      { "key": "B", "text": "中断，停止" },
+      { "key": "C", "text": "断然拒绝" },
+      { "key": "D", "text": "断绝往来" }
+    ],
+    "answer": "B",
+    "explanation": "「断绝」意为中断、停止，指举杯之际连《行路难》也唱不下去。若解作「断绝关系」「断然拒绝」，则与「歌路难」这一宾语搭配不通。此句写借酒也无法排遣的压抑。"
+  },
+  {
+    "id": "q-chn-t-nixing-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry"],
+    "stem": "下列对《拟行路难（其四）》的解说，不正确的一项是（　）",
+    "difficulty": 3,
+    "source": "自编文学常识（据教材）",
+    "textId": "chn-t-nixing",
+    "quote": "人生亦有命，安能行叹复坐愁！",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "鲍照是南朝宋文学家，与谢灵运、颜延之并称「元嘉三大家」" },
+      { "key": "B", "text": "《拟行路难》是鲍照拟乐府旧题《行路难》而作，共十八首" },
+      { "key": "C", "text": "本诗以「泻水置平地」起兴，暗喻人的贵贱穷达由门第决定" },
+      { "key": "D", "text": "本诗是七言律诗，中间两联对仗工整，讲究平仄" }
+    ],
+    "answer": "D",
+    "explanation": "本诗五言、七言杂用（首二句七言，后六句五言），是乐府体的拟作，并非唐代定型的七言律诗，也不要求中间两联对仗。鲍照此作正以句式错落、气骨遒劲见长。"
+  }
+]

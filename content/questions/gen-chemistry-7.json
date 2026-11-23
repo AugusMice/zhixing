@@ -1,0 +1,567 @@
+[
+ {
+  "id": "q-chem-organic-basic-1",
+  "subjectId": "chemistry",
+  "type": "judge",
+  "kpIds": ["chem-organic-basic"],
+  "stem": "分子组成上相差一个或若干个 $\\mathrm{CH_2}$ 原子团的两种有机物一定互为同系物。",
+  "difficulty": 2,
+  "source": "自编练习",
+  "tags": ["同系物", "概念辨析"],
+  "answer": false,
+  "explanation": "错误。同系物要求“结构相似”，即官能团种类和数目相同、碳骨架类型相同，仅仅组成相差 $\\mathrm{CH_2}$ 并不够。例如环己烷 $\\mathrm{C_6H_{12}}$ 与乙烯 $\\mathrm{C_2H_4}$ 相差 4 个 $\\mathrm{CH_2}$，但一个是环状烷烃、一个是链状烯烃，不互为同系物；丙烯与环丙烷分子式同为 $\\mathrm{C_3H_6}$，属于同分异构体而不是同系物。易错点：把“相差 $\\mathrm{CH_2}$”当成同系物的充分条件，忽略了结构相似这一前提。"
+ },
+ {
+  "id": "q-chem-organic-basic-2",
+  "subjectId": "chemistry",
+  "type": "fill",
+  "kpIds": ["chem-organic-basic"],
+  "stem": "有机物 $\\mathrm{CH_2=CHCH_2OH}$（烯丙醇）中含有的官能团名称为 ____ 和 ____。",
+  "difficulty": 3,
+  "source": "自编练习",
+  "tags": ["官能团", "分类"],
+  "blanks": [
+   { "accept": ["碳碳双键", "双键", "碳碳双键（烯键）"], "hint": "结构中 $\\mathrm{C=C}$ 那部分" },
+   { "accept": ["羟基", "醇羟基", "—OH"], "hint": "与碳原子直接相连的 $\\mathrm{-OH}$" }
+  ],
+  "explanation": "烯丙醇的结构为 $\\mathrm{CH_2=CH-CH_2-OH}$，含碳碳双键和羟基两种官能团，因此它既表现烯烃的性质（加成、加聚、被酸性 $\\mathrm{KMnO_4}$ 氧化），又表现醇的性质（与钠反应、酯化、被催化氧化为醛）。易错点：①把羟基写成“氢氧根”，羟基是电中性的原子团，与 $\\mathrm{OH^-}$ 不同；②把该物质归为“酚”，酚要求羟基直接连在苯环上。"
+ },
+ {
+  "id": "q-chem-organic-basic-3",
+  "subjectId": "chemistry",
+  "type": "single",
+  "kpIds": ["chem-organic-basic"],
+  "stem": "下列各组物质中，互为同分异构体的是（　）",
+  "difficulty": 3,
+  "source": "自编练习",
+  "tags": ["同分异构体", "同素异形体"],
+  "options": [
+   { "key": "A", "text": "乙烯与丙烯" },
+   { "key": "B", "text": "乙醇（$\\mathrm{CH_3CH_2OH}$）与二甲醚（$\\mathrm{CH_3OCH_3}$）" },
+   { "key": "C", "text": "淀粉与纤维素" },
+   { "key": "D", "text": "金刚石与石墨" }
+  ],
+  "answer": "B",
+  "explanation": "同分异构体要求分子式相同而结构不同。B 中两者分子式都是 $\\mathrm{C_2H_6O}$，一个是醇、一个是醚，属官能团异构，正确。A 中乙烯 $\\mathrm{C_2H_4}$ 与丙烯 $\\mathrm{C_3H_6}$ 组成相差一个 $\\mathrm{CH_2}$，是相邻同系物。C 中淀粉与纤维素化学式虽都写作 $\\mathrm{(C_6H_{10}O_5)_n}$，但 $n$ 值不同（聚合度不同），分子式并不相同，二者不是同分异构体。D 中金刚石与石墨是碳元素的不同单质，属同素异形体。易错点：看到“都是 $\\mathrm{(C_6H_{10}O_5)_n}$”就误判为同分异构体。"
+ },
+ {
+  "id": "q-chem-organic-basic-4",
+  "subjectId": "chemistry",
+  "type": "multiple",
+  "kpIds": ["chem-organic-basic"],
+  "stem": "关于有机物的分类，下列说法正确的是（　）",
+  "difficulty": 3,
+  "source": "自编练习",
+  "tags": ["分类", "官能团", "多选"],
+  "options": [
+   { "key": "A", "text": "羟基直接连在苯环上的化合物属于酚类" },
+   { "key": "B", "text": "分子中含有醛基的有机物一定属于醛类" },
+   { "key": "C", "text": "有机物分子中碳原子之间只能形成单键" },
+   { "key": "D", "text": "分子式相同而结构不同的两种有机物互为同分异构体" }
+  ],
+  "answer": ["A", "D"],
+  "explanation": "A 对：酚的定义就是羟基直接与苯环碳相连（如苯酚 $\\mathrm{C_6H_5OH}$），若羟基连在侧链碳上则属于醇（如苯甲醇 $\\mathrm{C_6H_5CH_2OH}$）。B 错：醛类要求醛基与烃基相连，甲酸 $\\mathrm{HCOOH}$、甲酸乙酯 $\\mathrm{HCOOC_2H_5}$、葡萄糖中都含醛基（或相当于醛基的 $\\mathrm{HCOO-}$），但它们分别属于羧酸、酯和糖类。C 错：碳原子间可形成单键、双键和三键，如乙烯含 $\\mathrm{C=C}$、乙炔含 $\\mathrm{C\\equiv C}$。D 对：这是同分异构体的定义。"
+ },
+ {
+  "id": "q-chem-hydrocarbon-1",
+  "subjectId": "chemistry",
+  "type": "single",
+  "kpIds": ["chem-hydrocarbon"],
+  "stem": "下列反应中，属于取代反应且需要光照条件的是（　）",
+  "difficulty": 3,
+  "source": "自编练习",
+  "tags": ["甲烷", "取代反应", "反应条件"],
+  "options": [
+   { "key": "A", "text": "甲烷与氯气的混合气体在光照下反应" },
+   { "key": "B", "text": "乙烯通入溴的四氯化碳溶液" },
+   { "key": "C", "text": "苯与浓硝酸、浓硫酸的混合物在 $50\\sim60\\,^\\circ\\mathrm{C}$ 水浴中反应" },
+   { "key": "D", "text": "乙烯与氢气在镍催化、加热条件下反应" }
+  ],
+  "answer": "A",
+  "explanation": "A 中甲烷的氢原子被氯原子逐步取代，生成一氯甲烷、二氯甲烷等和 $\\mathrm{HCl}$，属取代反应，条件是光照，正确。B 是乙烯与溴的加成反应，不需光照；C 是苯的硝化反应，虽属取代反应，但条件是浓硫酸催化、$50\\sim60\\,^\\circ\\mathrm{C}$ 水浴加热，不是光照；D 是乙烯的加成（还原）反应。易错点：只抓“取代反应”而忽略“光照”这一条限制，误选 C。"
+ },
+ {
+  "id": "q-chem-hydrocarbon-2",
+  "subjectId": "chemistry",
+  "type": "single",
+  "kpIds": ["chem-hydrocarbon"],
+  "stem": "下列关于烃的组成的说法正确的是（　）",
+  "difficulty": 2,
+  "source": "自编练习",
+  "tags": ["通式", "烃的分类"],
+  "options": [
+   { "key": "A", "text": "烷烃的通式为 $\\mathrm{C_nH_{2n+2}}$，环烷烃也符合这一通式" },
+   { "key": "B", "text": "苯的同系物的通式为 $\\mathrm{C_nH_{2n-6}}$（$n\\ge 6$）" },
+   { "key": "C", "text": "炔烃与二烯烃的通式不同" },
+   { "key": "D", "text": "分子式为 $\\mathrm{C_3H_8}$ 的烃既可能是烷烃也可能是烯烃" }
+  ],
+  "answer": "B",
+  "explanation": "B 对：苯的同系物可看作苯环上的氢被烷基取代，通式 $\\mathrm{C_nH_{2n-6}}$（$n\\ge6$），如甲苯 $\\mathrm{C_7H_8}$。A 错：环烷烃含一个环，比同碳数的烷烃少 2 个氢，通式为 $\\mathrm{C_nH_{2n}}$（如环己烷 $\\mathrm{C_6H_{12}}$）。C 错：炔烃与二烯烃都含两个不饱和度，通式同为 $\\mathrm{C_nH_{2n-2}}$。D 错：$\\mathrm{C_3H_8}$ 中氢已达到 $2n+2$ 的上限，只能是丙烷，不可能是烯烃（烯烃为 $\\mathrm{C_3H_6}$）。"
+ },
+ {
+  "id": "q-chem-hydrocarbon-3",
+  "subjectId": "chemistry",
+  "type": "single",
+  "kpIds": ["chem-hydrocarbon"],
+  "stem": "除去乙烷中混有的少量乙烯，最佳方法是（　）",
+  "difficulty": 3,
+  "source": "自编练习",
+  "tags": ["除杂", "乙烯", "溴水"],
+  "options": [
+   { "key": "A", "text": "将混合气体通入足量溴水中" },
+   { "key": "B", "text": "将混合气体通入足量酸性高锰酸钾溶液中" },
+   { "key": "C", "text": "与适量氢气混合后在镍催化、加热条件下反应" },
+   { "key": "D", "text": "将混合气体通入水中" }
+  ],
+  "answer": "A",
+  "explanation": "A 中乙烯与溴发生加成生成液态的 1,2-二溴乙烷而被吸收，乙烷不反应也不溶于溴水，可同时实现“除去”和“不引入新杂质”，最佳。B 中酸性 $\\mathrm{KMnO_4}$ 把乙烯氧化为 $\\mathrm{CO_2}$，虽除去了乙烯却又混入新的气体杂质，错误。C 中氢气用量难以控制，过量会引入 $\\mathrm{H_2}$，且乙烯可能只部分反应，错误。D 中二者均难溶于水，无法除去。易错点：把“能使溶液褪色”等同于“可用于除杂”，忽略除杂还要求不引入新杂质。"
+ },
+ {
+  "id": "q-chem-hydrocarbon-4",
+  "subjectId": "chemistry",
+  "type": "multiple",
+  "kpIds": ["chem-hydrocarbon"],
+  "stem": "关于苯的结构与性质，下列说法正确的是（　）",
+  "difficulty": 4,
+  "source": "自编练习",
+  "tags": ["苯", "结构", "多选"],
+  "options": [
+   { "key": "A", "text": "苯分子中不存在单、双键交替的结构，六个碳碳键完全相同" },
+   { "key": "B", "text": "苯使溴水褪色是因为苯与溴发生了加成反应" },
+   { "key": "C", "text": "苯的硝化、卤代、磺化反应都属于取代反应" },
+   { "key": "D", "text": "苯在空气中燃烧时火焰明亮并伴有浓烟" }
+  ],
+  "answer": ["A", "C", "D"],
+  "explanation": "A 对：苯是平面正六边形结构，六个碳碳键完全等同，是介于单键与双键之间的独特化学键。B 错：苯使溴水褪色是因为苯把溴从水中萃取到苯层（物理变化），苯环上的氢需在 $\\mathrm{FeBr_3}$ 催化下才能被溴取代，苯本身不与溴水发生加成。C 对：硝化（$-\\mathrm{H}$ 被 $-\\mathrm{NO_2}$ 取代）、卤代、磺化（$-\\mathrm{H}$ 被 $-\\mathrm{SO_3H}$ 取代）都是“有上有下”的取代反应。D 对：苯含碳量高（质量分数约 92.3%），燃烧不充分，火焰明亮且有浓烟。易错点：把苯萃取溴的现象误判为加成反应。"
+ },
+ {
+  "id": "q-chem-halide-alcohol-1",
+  "subjectId": "chemistry",
+  "type": "single",
+  "kpIds": ["chem-halide-alcohol"],
+  "stem": "下列醇中，不能发生消去反应的是（　）",
+  "difficulty": 4,
+  "source": "自编练习",
+  "tags": ["醇的消去", "结构条件"],
+  "options": [
+   { "key": "A", "text": "乙醇（$\\mathrm{CH_3CH_2OH}$）" },
+   { "key": "B", "text": "2-丁醇（$\\mathrm{CH_3CH(OH)CH_2CH_3}$）" },
+   { "key": "C", "text": "甲醇（$\\mathrm{CH_3OH}$）" },
+   { "key": "D", "text": "环己醇" }
+  ],
+  "answer": "C",
+  "explanation": "醇发生消去反应（浓硫酸、$170\\,^\\circ\\mathrm{C}$）的条件是：与 $-\\mathrm{OH}$ 相连的碳原子的相邻碳上必须有氢。C 中甲醇只有 1 个碳，不存在相邻碳，无法脱水成烯，不能发生消去反应，符合题意。A 中乙醇的相邻碳（$-\\mathrm{CH_3}$）有 3 个氢，生成乙烯；B 中 2-丁醇消去可得 2-丁烯（及少量 1-丁烯）；D 中环己醇的相邻碳上有氢，消去生成环己烯。易错点：把“所有醇都能消去”当成通性，忽略 $\\beta$-H 这一结构前提（同理新戊醇也不能消去）。"
+ },
+ {
+  "id": "q-chem-halide-alcohol-2",
+  "subjectId": "chemistry",
+  "type": "fill",
+  "kpIds": ["chem-halide-alcohol"],
+  "stem": "1-溴丙烷在 $\\mathrm{NaOH}$ 的乙醇溶液中加热，主要产物是 ____（写名称）；1-溴丙烷在 $\\mathrm{NaOH}$ 水溶液中加热，主要产物是 ____（写名称）。",
+  "difficulty": 3,
+  "source": "自编练习",
+  "tags": ["卤代烃", "水解与消去", "反应条件"],
+  "blanks": [
+   { "accept": ["丙烯", "propene", "C3H6"], "hint": "醇溶液中发生消去" },
+   { "accept": ["1-丙醇", "正丙醇", "1-propanol", "丙醇"], "hint": "水溶液中发生水解" }
+  ],
+  "explanation": "卤代烃与 $\\mathrm{NaOH}$ 的反应因溶剂不同而产物不同：在乙醇溶液中加热，$\\mathrm{NaOH}$ 起“脱 $\\mathrm{HBr}$”作用，发生消去反应生成丙烯 $\\mathrm{CH_3CH=CH_2}$；在水溶液中加热，$-\\mathrm{Br}$ 被 $-\\mathrm{OH}$ 取代，发生水解（取代）反应生成 1-丙醇 $\\mathrm{CH_3CH_2CH_2OH}$。易错点：①把两种条件的产物写反；②水解产物写成“丙醇”而不区分 1-丙醇与 2-丙醇（1-溴丙烷水解只得到 1-丙醇）；③写成 $\\mathrm{NaOH}$ 醇溶液“水解”、水溶液“消去”的口诀式颠倒记忆。记忆方法：水多则“水解”，醇多则“消去”。"
+ },
+ {
+  "id": "q-chem-halide-alcohol-3",
+  "subjectId": "chemistry",
+  "type": "judge",
+  "kpIds": ["chem-halide-alcohol"],
+  "stem": "伯醇被催化氧化（铜或银催化、加热）生成醛，仲醇被催化氧化生成酮，叔醇不能被催化氧化。",
+  "difficulty": 3,
+  "source": "自编练习",
+  "tags": ["醇的氧化", "伯仲叔醇"],
+  "answer": true,
+  "explanation": "正确。醇的催化氧化实质是脱去与羟基相连碳上的氢和羟基上的氢：伯醇（$-\\mathrm{CH_2OH}$）有 2 个这样的氢，氧化后生成醛，如 $\\mathrm{2CH_3CH_2OH+O_2\\xrightarrow{Cu,\\ \\Delta}2CH_3CHO+2H_2O}$；仲醇（$-\\mathrm{CH(OH)-}$）只有 1 个这样的氢，氧化后生成酮，如 2-丙醇氧化为丙酮；叔醇与羟基相连的碳上没有氢，不能被催化氧化。注意：叔醇不能被“催化氧化”，但在强氧化剂（如酸性 $\\mathrm{KMnO_4}$ 长时间作用）下可发生碳碳键断裂，二者不要混淆。"
+ },
+ {
+  "id": "q-chem-halide-alcohol-4",
+  "subjectId": "chemistry",
+  "type": "multiple",
+  "kpIds": ["chem-halide-alcohol"],
+  "stem": "关于卤代烃和醇的性质，下列说法正确的是（　）",
+  "difficulty": 4,
+  "source": "自编练习",
+  "tags": ["卤代烃", "乙醇", "多选"],
+  "options": [
+   { "key": "A", "text": "卤代烃在 $\\mathrm{NaOH}$ 的乙醇溶液中加热发生水解反应" },
+   { "key": "B", "text": "乙醇与浓硫酸共热到 $170\\,^\\circ\\mathrm{C}$，主要发生消去反应生成乙烯" },
+   { "key": "C", "text": "乙醇与浓硫酸共热到 $140\\,^\\circ\\mathrm{C}$，主要生成乙醚，该反应属于取代反应" },
+   { "key": "D", "text": "所有的卤代烃都能发生消去反应" }
+  ],
+  "answer": ["B", "C"],
+  "explanation": "A 错：$\\mathrm{NaOH}$ 醇溶液加热是消去反应的条件，水解要用 $\\mathrm{NaOH}$ 水溶液。B 对：$170\\,^\\circ\\mathrm{C}$ 时分子内脱水生成乙烯（消去），方程式 $\\mathrm{CH_3CH_2OH\\xrightarrow[170\\,^\\circ\\mathrm{C}]{\\text{浓}H_2SO_4}CH_2=CH_2\\uparrow+H_2O}$。C 对：$140\\,^\\circ\\mathrm{C}$ 时两分子乙醇分子间脱水生成乙醚 $\\mathrm{CH_3CH_2OCH_2CH_3}$，属取代反应。D 错：消去要求与卤素相连碳的相邻碳上有氢，$\\mathrm{CH_3Cl}$、$\\mathrm{(CH_3)_3CCH_2Cl}$ 等无 $\\beta$-H 的卤代烃不能消去。易错点：温度不同产物不同（$140\\,^\\circ\\mathrm{C}$ 成醚、$170\\,^\\circ\\mathrm{C}$ 成烯），这是高频考点。"
+ },
+ {
+  "id": "q-chem-aldehyde-acid-1",
+  "subjectId": "chemistry",
+  "type": "single",
+  "kpIds": ["chem-aldehyde-acid"],
+  "stem": "下列物质中，不能发生银镜反应的是（　）",
+  "difficulty": 4,
+  "source": "自编练习",
+  "tags": ["银镜反应", "醛基"],
+  "options": [
+   { "key": "A", "text": "乙醛" },
+   { "key": "B", "text": "甲酸" },
+   { "key": "C", "text": "甲酸乙酯" },
+   { "key": "D", "text": "乙酸" }
+  ],
+  "answer": "D",
+  "explanation": "银镜反应的本质是醛基（$-\\mathrm{CHO}$）被弱氧化剂 $\\mathrm{Ag(NH_3)_2OH}$ 氧化。A 中乙醛含 $-\\mathrm{CHO}$，能反应。B 中甲酸结构为 $\\mathrm{H-CO-OH}$，其中的 $\\mathrm{H-CO-}$ 部分相当于醛基，能发生银镜反应。C 中甲酸乙酯 $\\mathrm{HCOOC_2H_5}$ 含 $\\mathrm{H-CO-O-}$ 结构，同样能反应。D 中乙酸 $\\mathrm{CH_3COOH}$ 不含 $-\\mathrm{CHO}$，不能发生银镜反应，符合题意。易错点：误认为“甲酸是羧酸所以不能银镜”，或误认为“只有醛类才能银镜”。"
+ },
+ {
+  "id": "q-chem-aldehyde-acid-2",
+  "subjectId": "chemistry",
+  "type": "fill",
+  "kpIds": ["chem-aldehyde-acid"],
+  "stem": "乙醛与新制氢氧化铜悬浊液混合加热，可观察到 ____ 色沉淀；乙醛在碱性条件下被氧化，生成的有机产物是 ____（写名称或化学式）。",
+  "difficulty": 3,
+  "source": "自编练习",
+  "tags": ["新制氢氧化铜", "氧化产物"],
+  "blanks": [
+   { "accept": ["砖红", "砖红色", "红"], "hint": "$\\mathrm{Cu_2O}$ 的颜色" },
+   { "accept": ["乙酸钠", "醋酸钠", "CH3COONa", "乙酸钠（CH3COONa）"], "hint": "碱性溶液中羧酸以盐的形式存在" }
+  ],
+  "explanation": "反应为 $\\mathrm{CH_3CHO+2Cu(OH)_2+NaOH\\xrightarrow{\\Delta}CH_3COONa+Cu_2O\\downarrow+3H_2O}$，砖红色的 $\\mathrm{Cu_2O}$ 沉淀是醛基的特征现象。关键易错点：反应在碱性介质中进行，乙酸会立即被 $\\mathrm{NaOH}$ 中和，故有机产物必须写成乙酸钠（$\\mathrm{CH_3COONa}$）而不是乙酸；另外反应需加热，与银镜反应（水浴加热）条件不同但都要求碱性环境。"
+ },
+ {
+  "id": "q-chem-aldehyde-acid-3",
+  "subjectId": "chemistry",
+  "type": "single",
+  "kpIds": ["chem-aldehyde-acid"],
+  "stem": "用 $^{18}\\mathrm{O}$ 标记乙醇（$\\mathrm{CH_3CH_2^{18}OH}$）与乙酸在浓硫酸催化下反应，$^{18}\\mathrm{O}$ 将存在于（　）",
+  "difficulty": 4,
+  "source": "自编练习",
+  "tags": ["酯化反应", "同位素标记"],
+  "options": [
+   { "key": "A", "text": "乙酸乙酯分子中酯基的“单键氧”上" },
+   { "key": "B", "text": "生成的水分子中" },
+   { "key": "C", "text": "未反应的乙酸分子中" },
+   { "key": "D", "text": "乙酸乙酯分子中酯基的“双键氧”上" }
+  ],
+  "answer": "A",
+  "explanation": "酯化反应的机理是“酸脱羟基、醇脱氢”：乙酸断裂 $\\mathrm{C-O}$ 键失去 $-\\mathrm{OH}$，乙醇断裂 $\\mathrm{O-H}$ 键失去 $-\\mathrm{H}$，两者结合成水，其余部分结合成酯。因此乙醇中的氧原子留在酯分子里，成为酯基 $-\\mathrm{COO-}$ 中与烃基相连的那个单键氧，产物为 $\\mathrm{CH_3CO^{18}OCH_2CH_3}$，水中的氧来自乙酸。B 错：水中的氧来自乙酸的羟基。D 错：酯基的羰基（双键）氧来自乙酸的羧基。易错点：记反“谁脱羟基”，从而误选 B。"
+ },
+ {
+  "id": "q-chem-aldehyde-acid-4",
+  "subjectId": "chemistry",
+  "type": "multiple",
+  "kpIds": ["chem-aldehyde-acid"],
+  "stem": "关于醛、羧酸和酯的性质，下列说法正确的是（　）",
+  "difficulty": 4,
+  "source": "自编练习",
+  "tags": ["醛基检验", "酸性比较", "酯的水解"],
+  "options": [
+   { "key": "A", "text": "新制 $\\mathrm{Cu(OH)_2}$ 悬浊液可以用来区分乙醛和丙酮" },
+   { "key": "B", "text": "乙酸能与 $\\mathrm{NaHCO_3}$ 反应放出 $\\mathrm{CO_2}$，说明乙酸的酸性比碳酸强" },
+   { "key": "C", "text": "酯在酸性条件下的水解是可逆的，在碱性条件下可以进行到底" },
+   { "key": "D", "text": "乙酸乙酯在 $\\mathrm{NaOH}$ 溶液中水解生成乙酸和乙醇" }
+  ],
+  "answer": ["A", "B", "C"],
+  "explanation": "A 对：乙醛含 $-\\mathrm{CHO}$，加热时使新制 $\\mathrm{Cu(OH)_2}$ 转化为砖红色 $\\mathrm{Cu_2O}$ 沉淀；丙酮是酮，无此现象。B 对：“强酸制弱酸”原理，能放出 $\\mathrm{CO_2}$ 说明乙酸酸性强于碳酸（$K_a$ 比较：乙酸 $1.8\\times10^{-5}$，碳酸 $K_{a1}=4.3\\times10^{-7}$）。C 对：酸性水解生成酸和醇，是可逆反应；碱性条件下生成的羧酸被中和，平衡右移，水解趋于完全（皂化反应）。D 错：碱性条件下产物是乙酸钠和乙醇，不是乙酸。易错点：忽略介质酸碱性对产物形式的影响。"
+ },
+ {
+  "id": "q-chem-organic-reaction-1",
+  "subjectId": "chemistry",
+  "type": "single",
+  "kpIds": ["chem-organic-reaction"],
+  "stem": "下列反应中属于加成反应的是（　）",
+  "difficulty": 3,
+  "source": "自编练习",
+  "tags": ["反应类型", "加成"],
+  "options": [
+   { "key": "A", "text": "$\\mathrm{CH_4+Cl_2\\xrightarrow{光照}CH_3Cl+HCl}$" },
+   { "key": "B", "text": "$\\mathrm{CH_2=CH_2+Br_2\\rightarrow CH_2BrCH_2Br}$" },
+   { "key": "C", "text": "$\\mathrm{CH_3COOH+C_2H_5OH\\xrightarrow[\\Delta]{\\text{浓}H_2SO_4}CH_3COOC_2H_5+H_2O}$" },
+   { "key": "D", "text": "$\\mathrm{CH_3CH_2Br+NaOH\\xrightarrow[\u0394]{\\text{乙醇}}CH_2=CH_2\\uparrow+NaBr+H_2O}$" }
+  ],
+  "answer": "B",
+  "explanation": "B 中乙烯的碳碳双键断裂，两个溴原子分别加到两个碳上，产物只有一种、无小分子副产物，属加成反应。A 是甲烷的取代（氢被氯取代，有上有下）。C 是酯化反应，属取代反应的一种。D 是溴乙烷的消去反应（脱去 $\\mathrm{HBr}$ 形成双键）。判断口诀：只上不下为加成，有上有下为取代，生成双键或三键为消去。"
+ },
+ {
+  "id": "q-chem-organic-reaction-2",
+  "subjectId": "chemistry",
+  "type": "fill",
+  "kpIds": ["chem-organic-reaction"],
+  "stem": "判断下列反应的类型（填“加聚反应”或“缩聚反应”）：由氯乙烯制聚氯乙烯属于 ____；由乙二醇与对苯二甲酸制聚酯属于 ____。",
+  "difficulty": 3,
+  "source": "自编练习",
+  "tags": ["加聚", "缩聚", "反应类型判断"],
+  "blanks": [
+   { "accept": ["加聚反应", "加聚", "加成聚合反应"], "hint": "单体含碳碳双键，链节与单体组成相同" },
+   { "accept": ["缩聚反应", "缩聚", "缩合聚合反应"], "hint": "有 $\\mathrm{H_2O}$ 等小分子生成" }
+  ],
+  "explanation": "氯乙烯 $\\mathrm{CH_2=CHCl}$ 含碳碳双键，打开双键相互连接成高分子，链节 $-\\mathrm{CH_2-CHCl}-$ 与单体组成相同，是加聚反应：$n\\mathrm{CH_2=CHCl}\\rightarrow \\mathrm{[-CH_2-CHCl-]}_n$。乙二醇与对苯二甲酸各有两个官能团（$-\\mathrm{OH}$ 与 $-\\mathrm{COOH}$），两者缩合脱去 $\\mathrm{H_2O}$ 形成酯键并连成高分子，是缩聚反应，链节组成小于单体组成。判断依据：看单体是否含不饱和键（加聚），看是否脱去小分子且单体为双官能团（缩聚）。"
+ },
+ {
+  "id": "q-chem-organic-reaction-3",
+  "subjectId": "chemistry",
+  "type": "judge",
+  "kpIds": ["chem-organic-reaction"],
+  "stem": "取代反应“有上有下”，加成反应“只上不下”，因此有机物分子中只增加原子团而不减少任何原子的反应一定是加成反应。",
+  "difficulty": 3,
+  "source": "自编练习",
+  "tags": ["反应类型", "概念辨析"],
+  "answer": false,
+  "explanation": "错误。“只上不下”只是加成反应的一个表面特征，并非充分条件。加聚反应同样是只上不下：$n\\mathrm{CH_2=CH_2}\\rightarrow\\mathrm{[-CH_2-CH_2-]}_n$ 中没有任何原子被脱去，但它是加聚而不是加成；此外烯烃被酸性 $\\mathrm{KMnO_4}$ 氧化时也可能只引入氧原子，却属氧化反应。判断反应类型要看官能团变化实质：加成是双键（三键）断裂、两端各加上原子或原子团、产物唯一；加聚是双键断开相互连接成高分子；取代是原子或原子团被替换并生成小分子。"
+ },
+ {
+  "id": "q-chem-organic-reaction-4",
+  "subjectId": "chemistry",
+  "type": "multiple",
+  "kpIds": ["chem-organic-reaction"],
+  "stem": "下列反应属于取代反应的是（　）",
+  "difficulty": 4,
+  "source": "自编练习",
+  "tags": ["取代反应", "多选", "反应类型判断"],
+  "options": [
+   { "key": "A", "text": "苯与液溴在 $\\mathrm{FeBr_3}$ 催化下生成溴苯" },
+   { "key": "B", "text": "乙烯使酸性高锰酸钾溶液褪色" },
+   { "key": "C", "text": "乙醇与氢溴酸共热生成溴乙烷" },
+   { "key": "D", "text": "乙醛与氢气在催化剂作用下生成乙醇" }
+  ],
+  "answer": ["A", "C"],
+  "explanation": "A 对：苯环上的氢被溴原子取代，同时生成 $\\mathrm{HBr}$：$\\mathrm{C_6H_6+Br_2\\xrightarrow{FeBr_3}C_6H_5Br+HBr}$。C 对：乙醇中的 $-\\mathrm{OH}$ 被 $-\\mathrm{Br}$ 取代：$\\mathrm{CH_3CH_2OH+HBr\\xrightarrow{\\Delta}CH_3CH_2Br+H_2O}$。B 错：乙烯被酸性 $\\mathrm{KMnO_4}$ 氧化为 $\\mathrm{CO_2}$（或乙二醇等中间产物），属氧化反应。D 错：乙醛的 $\\mathrm{C=O}$ 与 $\\mathrm{H_2}$ 加成生成醇，属加成（还原）反应。易错点：把“酯化”“卤代烃水解”漏算作取代反应。"
+ },
+ {
+  "id": "q-chem-polymer-1",
+  "subjectId": "chemistry",
+  "type": "single",
+  "kpIds": ["chem-polymer"],
+  "stem": "下列高分子化合物中，由缩聚反应制得的是（　）",
+  "difficulty": 4,
+  "source": "自编练习",
+  "tags": ["缩聚", "高分子", "涤纶"],
+  "options": [
+   { "key": "A", "text": "聚乙烯" },
+   { "key": "B", "text": "聚氯乙烯" },
+   { "key": "C", "text": "聚对苯二甲酸乙二酯（涤纶）" },
+   { "key": "D", "text": "聚丙烯" }
+  ],
+  "answer": "C",
+  "explanation": "C 由对苯二甲酸与乙二醇缩合脱水制得，属缩聚反应，链节组成为 $-\\mathrm{OC-C_6H_4-COOCH_2CH_2O-}$，比两种单体之和少 2 个 $\\mathrm{H_2O}$。A、B、D 的单体分别为乙烯、氯乙烯、丙烯，都含碳碳双键，通过加聚反应打开双键连成高分子，链节组成与单体相同。判断方法：单体含 $\\mathrm{C=C}$ 且产物无小分子生成 → 加聚；单体为双官能团（二元酸与二元醇、二元胺等）且脱去小分子 → 缩聚。"
+ },
+ {
+  "id": "q-chem-polymer-2",
+  "subjectId": "chemistry",
+  "type": "fill",
+  "kpIds": ["chem-polymer"],
+  "stem": "天然橡胶（聚异戊二烯）的单体是 ____（写名称）；涤纶由对苯二甲酸与 ____（写名称）缩聚而成。",
+  "difficulty": 4,
+  "source": "自编练习",
+  "tags": ["单体判断", "天然橡胶", "涤纶"],
+  "blanks": [
+   { "accept": ["异戊二烯", "2-甲基-1,3-丁二烯", "2-甲基1,3-丁二烯"], "hint": "链节为 $-\\mathrm{CH_2-C(CH_3)=CH-CH_2}-$" },
+   { "accept": ["乙二醇", "HOCH2CH2OH", "乙二醇（HOCH2CH2OH）"], "hint": "提供两个 $-\\mathrm{OH}$" }
+  ],
+  "explanation": "由加聚物找单体：把主链上每两个碳一组还原出一个 $\\mathrm{C=C}$，天然橡胶链节为 $-\\mathrm{CH_2-C(CH_3)=CH-CH_2}-$，回推单体为异戊二烯 $\\mathrm{CH_2=C(CH_3)-CH=CH_2}$。由缩聚物找单体：在酯键（或酰胺键）处断开，羰基一侧补 $-\\mathrm{OH}$ 得羧酸、氧一侧补 $-\\mathrm{H}$ 得醇，故涤纶 $\\mathrm{[-OC-C_6H_4-COOCH_2CH_2O-]}_n$ 的单体是对苯二甲酸与乙二醇。易错点：把天然橡胶单体写成“异戊烷”或“丁二烯”（漏掉甲基）；把涤纶的单体写成“乙醇”。"
+ },
+ {
+  "id": "q-chem-polymer-3",
+  "subjectId": "chemistry",
+  "type": "judge",
+  "kpIds": ["chem-polymer"],
+  "stem": "加聚反应所得高分子的链节与单体在组成上相同，因此聚乙烯的链节 $-\\mathrm{CH_2-CH_2}-$ 与乙烯的组成相同。",
+  "difficulty": 3,
+  "source": "自编练习",
+  "tags": ["加聚", "链节", "组成"],
+  "answer": true,
+  "explanation": "正确。加聚反应只是双键打开相互连接，没有原子或原子团被脱去，故链节的元素组成和原子个数比与单体一致：乙烯 $\\mathrm{C_2H_4}$ 与链节 $-\\mathrm{CH_2-CH_2}-$（即 $\\mathrm{C_2H_4}$）组成相同。注意区分：缩聚反应中链节组成小于单体组成之和，例如涤纶链节比“对苯二甲酸 + 乙二醇”少 2 个 $\\mathrm{H_2O}$；但聚乳酸的链节组成也比单体少一个 $\\mathrm{H_2O}$。此外“组成相同”指原子种类和个数比相同，不表示相对分子质量相同（聚合度 $n$ 可以不同）。"
+ },
+ {
+  "id": "q-chem-polymer-4",
+  "subjectId": "chemistry",
+  "type": "multiple",
+  "kpIds": ["chem-polymer"],
+  "stem": "关于加聚反应与缩聚反应，下列说法正确的是（　）",
+  "difficulty": 4,
+  "source": "自编练习",
+  "tags": ["加聚", "缩聚", "多选"],
+  "options": [
+   { "key": "A", "text": "加聚反应的单体通常含有碳碳双键或碳碳三键" },
+   { "key": "B", "text": "缩聚反应除生成高分子外，还有小分子（如水、$\\mathrm{HCl}$）生成" },
+   { "key": "C", "text": "由一种单体经缩聚得到的高分子（如聚乳酸），其链节组成与单体组成相同" },
+   { "key": "D", "text": "聚乙烯、聚氯乙烯、聚苯乙烯都是加聚反应的产物" }
+  ],
+  "answer": ["A", "B", "D"],
+  "explanation": "A 对：加聚靠不饱和键打开相连，单体须含 $\\mathrm{C=C}$ 或 $\\mathrm{C\\equiv C}$（如乙烯、氯乙烯、丙烯腈）。B 对：缩聚是官能团间缩合，必然脱去小分子，如聚酯脱 $\\mathrm{H_2O}$、聚酰胺脱 $\\mathrm{H_2O}$、酚醛树脂脱 $\\mathrm{H_2O}$。C 错：即使是单一单体缩聚，链节也比单体少一个小分子，如乳酸 $\\mathrm{CH_3CH(OH)COOH}$ 缩聚成聚乳酸时每个链节脱去 1 个 $\\mathrm{H_2O}$，链节组成为 $\\mathrm{C_3H_4O_2}$ 而非 $\\mathrm{C_3H_6O_3}$。D 对：三者单体分别为乙烯、氯乙烯、苯乙烯，均含 $\\mathrm{C=C}$，都是加聚产物。易错点：误认为“一种单体聚合就一定是加聚”。"
+ },
+ {
+  "id": "q-chem-organic-synthesis-1",
+  "subjectId": "chemistry",
+  "type": "single",
+  "kpIds": ["chem-organic-synthesis"],
+  "stem": "以乙烯为原料合成乙酸乙酯，下列步骤顺序正确的是（　）\n①乙烯与水加成得乙醇　②乙醇催化氧化得乙醛　③乙醛氧化得乙酸　④乙醇与乙酸在浓硫酸催化下酯化　⑤乙烯与溴水加成",
+  "difficulty": 5,
+  "source": "自编练习",
+  "tags": ["合成路线", "逆推", "乙酸乙酯"],
+  "options": [
+   { "key": "A", "text": "①⑤③④" },
+   { "key": "B", "text": "①②③④" },
+   { "key": "C", "text": "②①③④" },
+   { "key": "D", "text": "①③②④" }
+  ],
+  "answer": "B",
+  "explanation": "逆推：乙酸乙酯由乙酸与乙醇酯化得到，乙酸由乙醛氧化得到，乙醛由乙醇催化氧化得到，乙醇由乙烯水化（加成）得到，故顺序为 ①②③④。A 中 ⑤（与溴水加成得 1,2-二溴乙烷）与本路线无关，且 1,2-二溴乙烷不能直接变成乙酸；C 中 ②不能在 ①之前，乙烯不能直接催化氧化成乙醛；D 中 ③在 ②之前，没有乙醛就无法氧化成乙酸。易错点：只记“乙烯→乙醇→乙醛→乙酸”的链条，却在选项中被“先溴代再水解”的支路干扰。"
+ },
+ {
+  "id": "q-chem-organic-synthesis-2",
+  "subjectId": "chemistry",
+  "type": "single",
+  "kpIds": ["chem-organic-synthesis"],
+  "stem": "以丙烯为原料合成 1,2-丙二醇（$\\mathrm{CH_3CH(OH)CH_2OH}$），下列路线中最合理的是（　）",
+  "difficulty": 4,
+  "source": "自编练习",
+  "tags": ["官能团引入", "加成方向", "二醇"],
+  "options": [
+   { "key": "A", "text": "丙烯与溴水加成得 1,2-二溴丙烷，再在 $\\mathrm{NaOH}$ 水溶液中加热水解" },
+   { "key": "B", "text": "丙烯与 $\\mathrm{HCl}$ 加成得 2-氯丙烷，再在 $\\mathrm{NaOH}$ 水溶液中水解" },
+   { "key": "C", "text": "丙烯与水加成得 2-丙醇，再用酸性 $\\mathrm{KMnO_4}$ 氧化" },
+   { "key": "D", "text": "丙烯与 $\\mathrm{HBr}$ 加成得 1-溴丙烷，再水解" }
+  ],
+  "answer": "A",
+  "explanation": "目标分子在 C1、C2 上各有一个羟基，需在这两个位置各引入一个可水解的基团。A 中丙烯与溴加成，两个溴正好加在双键的两个碳（C1、C2）上得 1,2-二溴丙烷，再水解即得 1,2-丙二醇，路线合理。B 只引入一个氯，水解得 2-丙醇（一元醇），不符合。C 得 2-丙醇，氧化得丙酮，也不符合。D 中丙烯与 $\\mathrm{HBr}$ 加成按马氏规则主要得 2-溴丙烷而非 1-溴丙烷，且即使水解也只得到一元醇。易错点：忽略加成的位置选择性，误以为“溴加到哪都一样”。"
+ },
+ {
+  "id": "q-chem-organic-synthesis-3",
+  "subjectId": "chemistry",
+  "type": "judge",
+  "kpIds": ["chem-organic-synthesis"],
+  "stem": "在有机合成中，若目标分子含有易被氧化的官能团（如醛基），在后续需要氧化其他部位时，应先把该官能团保护起来（如转化为缩醛），反应完成后再水解脱保护。",
+  "difficulty": 4,
+  "source": "自编练习",
+  "tags": ["官能团保护", "合成策略"],
+  "answer": true,
+  "explanation": "正确。官能团保护是有机合成的常用策略：醛基易被氧化，若分子中还含有需要氧化（如将伯醇氧化为羧酸）的部位，直接氧化会把醛基一并氧化。通常把醛与醇在酸催化下制成缩醛（$\\mathrm{-CH(OR)_2}$），缩醛对碱和氧化剂稳定，待其他部位反应完毕，再在酸性条件下水解恢复醛基。类似地，合成中还可通过成盐保护羧基、用酯保护羟基等。这一思想说明：合成路线不仅要考虑“能否反应”，还要考虑“会不会误伤其他官能团”。"
+ },
+ {
+  "id": "q-chem-organic-synthesis-4",
+  "subjectId": "chemistry",
+  "type": "multiple",
+  "kpIds": ["chem-organic-synthesis"],
+  "stem": "关于有机合成路线的设计，下列说法正确的是（　）",
+  "difficulty": 5,
+  "source": "自编练习",
+  "tags": ["逆合成分析", "碳链增长", "绿色化学"],
+  "options": [
+   { "key": "A", "text": "逆合成分析从目标分子出发，通过切断碳骨架或官能团转化逐步推出前体，直至回到简单原料" },
+   { "key": "B", "text": "增长碳链可选用乙炔钠与卤代烃反应、醛酮与 $\\mathrm{HCN}$ 加成等方法" },
+   { "key": "C", "text": "官能团引入的先后顺序无关紧要，先做哪一步结果都相同" },
+   { "key": "D", "text": "设计路线时应尽量选择步骤少、副反应少、原子经济性高且污染小的方案" }
+  ],
+  "answer": ["A", "B", "D"],
+  "explanation": "A 对：逆合成分析（从产物往前推）是路线设计的核心方法，可避免盲目试错。B 对：$\\mathrm{HC\\equiv CNa}$ 与卤代烃发生取代可增长碳链（如制 1-丁炔），醛酮与 $\\mathrm{HCN}$ 加成再水解可得 $\\alpha$-羟基酸，也是增长碳链的经典方法。C 错：顺序至关重要，例如先氧化醇再引入对氧化敏感的基团会破坏目标产物，必要时还需保护基，顺序错了路线就作废。D 对：这是绿色化学与实用性要求。易错点：低估反应顺序的影响，只关注“每一步能否发生”。"
+ },
+ {
+  "id": "q-chem-isomer-1",
+  "subjectId": "chemistry",
+  "type": "single",
+  "kpIds": ["chem-isomer"],
+  "stem": "分子式为 $\\mathrm{C_4H_9Cl}$ 的有机物（不考虑立体异构）共有（　）",
+  "difficulty": 4,
+  "source": "自编练习",
+  "tags": ["同分异构体数", "卤代烃"],
+  "options": [
+   { "key": "A", "text": "2 种" },
+   { "key": "B", "text": "3 种" },
+   { "key": "C", "text": "4 种" },
+   { "key": "D", "text": "5 种" }
+  ],
+  "answer": "C",
+  "explanation": "先把 $-\\mathrm{Cl}$ 看作取代基，问题转化为“丁基（$-\\mathrm{C_4H_9}$）有几种”。丁基有 4 种：正丁基、仲丁基、异丁基、叔丁基，对应 4 种一氯代物：$\\mathrm{CH_3CH_2CH_2CH_2Cl}$（1-氯丁烷）、$\\mathrm{CH_3CHClCH_2CH_3}$（2-氯丁烷）、$\\mathrm{ClCH_2CH(CH_3)_2}$（1-氯-2-甲基丙烷）、$\\mathrm{(CH_3)_3CCl}$（2-氯-2-甲基丙烷）。B 是只考虑直链和一种支链时的漏解；A 是只枚举直链两种的漏解。易错点：忘记“碳链异构 + 位置异构”要分别枚举，尤其漏掉叔碳上的那一种。"
+ },
+ {
+  "id": "q-chem-isomer-2",
+  "subjectId": "chemistry",
+  "type": "fill",
+  "kpIds": ["chem-isomer"],
+  "stem": "分子式为 $\\mathrm{C_5H_{12}}$ 的烷烃共有 ____ 种；其中一氯代物只有一种的是 ____（写名称）。",
+  "difficulty": 4,
+  "source": "自编练习",
+  "tags": ["碳链异构", "等效氢"],
+  "blanks": [
+   { "accept": ["3", "三", "3种"], "hint": "正戊烷、异戊烷、新戊烷" },
+   { "accept": ["新戊烷", "2,2-二甲基丙烷", "2,2二甲基丙烷", "2，2-二甲基丙烷"], "hint": "四个甲基连在同一个碳上" }
+  ],
+  "explanation": "$\\mathrm{C_5H_{12}}$ 的同分异构体有 3 种：正戊烷 $\\mathrm{CH_3CH_2CH_2CH_2CH_3}$、异戊烷 $\\mathrm{CH_3CH(CH_3)CH_2CH_3}$、新戊烷 $\\mathrm{C(CH_3)_4}$。一氯代物只有一种，说明分子中只有一种化学环境的氢：新戊烷的 12 个氢全部等效（4 个甲基完全对称），故只有 1 种一氯代物；正戊烷有 3 种氢（1 种一氯代物有 3 种），异戊烷有 4 种氢（一氯代物 4 种）。易错点：把“一氯代物数目”与“同分异构体数目”混为一谈。"
+ },
+ {
+  "id": "q-chem-isomer-3",
+  "subjectId": "chemistry",
+  "type": "single",
+  "kpIds": ["chem-isomer"],
+  "stem": "下列有机物中，一氯代物只有一种的是（　）",
+  "difficulty": 3,
+  "source": "自编练习",
+  "tags": ["等效氢", "一氯代物"],
+  "options": [
+   { "key": "A", "text": "丙烷" },
+   { "key": "B", "text": "正丁烷" },
+   { "key": "C", "text": "新戊烷" },
+   { "key": "D", "text": "异戊烷" }
+  ],
+  "answer": "C",
+  "explanation": "一氯代物数目取决于分子中氢原子的种类数（等效氢）。新戊烷 $\\mathrm{C(CH_3)_4}$ 高度对称，12 个氢全等效，只有 1 种一氯代物，C 正确。丙烷 $\\mathrm{CH_3CH_2CH_3}$ 有 2 种氢（两端甲基等效、中间 $\\mathrm{CH_2}$ 一种），一氯代物 2 种；正丁烷 $\\mathrm{CH_3CH_2CH_2CH_3}$ 有 2 种氢，一氯代物 2 种；异戊烷 $\\mathrm{CH_3CH(CH_3)CH_2CH_3}$ 有 4 种氢，一氯代物 4 种。判断等效氢的三条原则：同一碳上的氢等效、同一碳上甲基的氢等效、处于对称位置的氢等效。"
+ },
+ {
+  "id": "q-chem-isomer-4",
+  "subjectId": "chemistry",
+  "type": "multiple",
+  "kpIds": ["chem-isomer"],
+  "stem": "某芳香族化合物 A 的分子式为 $\\mathrm{C_8H_8O_2}$（含一个苯环）。下列说法正确的是（　）",
+  "difficulty": 5,
+  "source": "自编练习",
+  "tags": ["芳香族", "官能团异构", "同分异构体数"],
+  "options": [
+   { "key": "A", "text": "若 A 能与 $\\mathrm{NaHCO_3}$ 反应放出 $\\mathrm{CO_2}$，则符合条件的 A（含苯环）共有 4 种" },
+   { "key": "B", "text": "苯甲酸甲酯（$\\mathrm{C_6H_5COOCH_3}$）的分子式也是 $\\mathrm{C_8H_8O_2}$，可能是 A" },
+   { "key": "C", "text": "若 A 为苯甲酸甲酯，其水解产物均能使 $\\mathrm{FeCl_3}$ 溶液显紫色" },
+   { "key": "D", "text": "A 的同分异构体中含酯基的只有 1 种" }
+  ],
+  "answer": ["A", "B"],
+  "explanation": "A 对：能与 $\\mathrm{NaHCO_3}$ 放气说明含 $-\\mathrm{COOH}$，除去 2 个氧还剩 $\\mathrm{C_8H_8O_2}$ 中的 $\\mathrm{C_7H_8}$ 部分需含苯环：苯乙酸 $\\mathrm{C_6H_5CH_2COOH}$ 1 种，甲基苯甲酸（邻、间、对）3 种，共 4 种。B 对：苯甲酸甲酯 $\\mathrm{C_6H_5COOCH_3}$ 含 8 个 C、8 个 H、2 个 O，且含苯环，符合同分异构关系。C 错：水解得苯甲酸和甲醇，二者都不含酚羟基，不能使 $\\mathrm{FeCl_3}$ 显紫色。D 错：含酯基的还有甲酸苄酯 $\\mathrm{HCOOCH_2C_6H_5}$、乙酸苯酯 $\\mathrm{CH_3COOC_6H_5}$ 等，不止 1 种。易错点：遗漏“邻、间、对”三种位置异构，或把苯环上的取代基位置数错。"
+ },
+ {
+  "id": "q-chem-organic-synthesis-5",
+  "subjectId": "chemistry",
+  "type": "short",
+  "kpIds": ["chem-organic-synthesis", "chem-organic-reaction"],
+  "stem": "以乙烯为唯一有机原料（无机试剂任选），设计一条合成乙酸乙酯的合理路线，回答下列问题：\n（1）依次写出各步反应的化学方程式，并注明每步的反应类型；\n（2）酯化一步中，为提高乙酸乙酯的产率可采取哪些措施？从化学平衡角度说明理由；\n（3）若实验室用 $^{18}\\mathrm{O}$ 标记乙醇（$\\mathrm{CH_3CH_2^{18}OH}$）与乙酸反应，写出酯化产物的结构简式，并标明 $^{18}\\mathrm{O}$ 的位置。",
+  "difficulty": 5,
+  "source": "自编练习",
+  "tags": ["合成路线", "酯化", "综合"],
+  "rubric": [
+   { "text": "正确写出乙烯水化制乙醇的方程式 $\\mathrm{CH_2=CH_2+H_2O\\xrightarrow[\\text{加热加压}]{\\text{催化剂}}CH_3CH_2OH}$，并注明加成反应", "score": 3 },
+   { "text": "正确写出乙醇催化氧化制乙醛 $\\mathrm{2CH_3CH_2OH+O_2\\xrightarrow{Cu,\\ \\Delta}2CH_3CHO+2H_2O}$ 与乙醛氧化制乙酸 $\\mathrm{2CH_3CHO+O_2\\xrightarrow{\\text{催化剂},\\ \\Delta}2CH_3COOH}$，并注明氧化反应", "score": 3 },
+   { "text": "写出酯化方程式 $\\mathrm{CH_3COOH+C_2H_5OH\\underset{\\Delta}{\\overset{\\text{浓}H_2SO_4}{\\rightleftharpoons}}CH_3COOC_2H_5+H_2O}$，注明取代（酯化）反应；指出增大乙醇用量、及时蒸出酯、浓硫酸吸水等措施及平衡移动理由", "score": 3 },
+   { "text": "写出 $^{18}\\mathrm{O}$ 标记产物 $\\mathrm{CH_3CO^{18}OCH_2CH_3}$，并说明“酸脱羟基、醇脱氢”", "score": 2 }
+  ],
+  "reference": "（1）路线：乙烯 → 乙醇 → 乙醛 → 乙酸，再与乙醇酯化。\n① $\\mathrm{CH_2=CH_2+H_2O\\xrightarrow[\\text{加热、加压}]{\\text{催化剂}}CH_3CH_2OH}$（加成反应）\n② $\\mathrm{2CH_3CH_2OH+O_2\\xrightarrow{Cu,\\ \\Delta}2CH_3CHO+2H_2O}$（氧化反应）\n③ $\\mathrm{2CH_3CHO+O_2\\xrightarrow{\\text{催化剂},\\ \\Delta}2CH_3COOH}$（氧化反应）\n④ $\\mathrm{CH_3COOH+CH_3CH_2OH\\underset{\\Delta}{\\overset{\\text{浓}H_2SO_4}{\\rightleftharpoons}}CH_3COOCH_2CH_3+H_2O}$（酯化反应，属取代反应）\n（2）措施：①增大乙醇（或乙酸）的用量，使平衡向生成酯的方向移动；②及时将乙酸乙酯蒸出（其沸点 77 ℃，低于乙酸和乙醇），降低生成物浓度使平衡右移；③用浓硫酸作催化剂并吸水，减少生成物中的水。理由：酯化是可逆反应，依据勒夏特列原理，增大反应物浓度或减小生成物浓度都使平衡正向移动。\n（3）酯化时“酸脱羟基、醇脱氢”，乙醇中的 $^{18}\\mathrm{O}$ 留在酯基中，产物为 $\\mathrm{CH_3CO^{18}OCH_2CH_3}$，即 $^{18}\\mathrm{O}$ 位于酯基的单键氧上。",
+  "maxScore": 11,
+  "explanation": "本题把“烃→醇→醛→酸→酯”这条主干路线与反应类型判断、平衡移动、同位素标记三个考点串起来。评分要点：①每一步必须配平且条件（催化剂、加热、浓硫酸）写全；②反应类型要区分“加成/氧化/取代（酯化）”，乙烯水化是加成而非“水化反应”之外的新类型；③第（2）问必须给出“平衡移动”的解释，只写“多加乙醇”不得满分；④第（3）问的关键是记住“酸脱羟基、醇脱氢”，因此 $^{18}\\mathrm{O}$ 来自醇、留在酯中。常见失分：乙醛氧化方程式漏配平；把酯化写成“$\\mathrm{CH_3COOH+C_2H_5OH\\rightarrow CH_3COOC_2H_5}$”漏掉水；误认为水中的氧来自乙醇。"
+ },
+ {
+  "id": "q-chem-isomer-5",
+  "subjectId": "chemistry",
+  "type": "short",
+  "kpIds": ["chem-isomer", "chem-organic-basic"],
+  "stem": "分子式为 $\\mathrm{C_4H_8O_2}$ 的有机物有多种同分异构体，回答：\n（1）若该有机物属于羧酸，写出所有可能的结构简式并命名；\n（2）若该有机物属于酯，写出所有可能的结构简式；\n（3）在（2）的酯中，能发生银镜反应的是哪几种？说明判断依据。",
+  "difficulty": 5,
+  "source": "自编练习",
+  "tags": ["同分异构体", "羧酸", "酯", "官能团异构"],
+  "rubric": [
+   { "text": "写出 2 种羧酸：$\\mathrm{CH_3CH_2CH_2COOH}$（丁酸）与 $\\mathrm{(CH_3)_2CHCOOH}$（2-甲基丙酸），命名正确", "score": 3 },
+   { "text": "写出 4 种酯：$\\mathrm{HCOOCH_2CH_2CH_3}$（甲酸丙酯）、$\\mathrm{HCOOCH(CH_3)_2}$（甲酸异丙酯）、$\\mathrm{CH_3COOCH_2CH_3}$（乙酸乙酯）、$\\mathrm{CH_3CH_2COOCH_3}$（丙酸甲酯），无遗漏无重复", "score": 4 },
+   { "text": "指出能银镜的是甲酸丙酯与甲酸异丙酯，依据是分子中含 $\\mathrm{HCOO-}$（相当于醛基）", "score": 2 }
+  ],
+  "reference": "（1）羧酸 2 种：$\\mathrm{CH_3CH_2CH_2COOH}$（丁酸）、$\\mathrm{(CH_3)_2CHCOOH}$（2-甲基丙酸）。\n（2）酯 4 种，按“酸 + 醇”拆分碳数（总碳 4，羧基碳 1 个）：\n①甲酸（C1）+ 丙醇（C3）：$\\mathrm{HCOOCH_2CH_2CH_3}$（甲酸丙酯）、$\\mathrm{HCOOCH(CH_3)_2}$（甲酸异丙酯）；\n②乙酸（C2）+ 乙醇（C2）：$\\mathrm{CH_3COOCH_2CH_3}$（乙酸乙酯）；\n③丙酸（C3）+ 甲醇（C1）：$\\mathrm{CH_3CH_2COOCH_3}$（丙酸甲酯）。\n（3）能发生银镜反应的是甲酸丙酯和甲酸异丙酯。因为它们含 $\\mathrm{HCOO-}$ 结构，其中的 $\\mathrm{H-C}$ 部分相当于醛基，可被 $\\mathrm{Ag(NH_3)_2OH}$ 氧化；乙酸乙酯和丙酸甲酯不含该结构。",
+  "maxScore": 9,
+  "explanation": "本题考查“按官能团异构分类—按碳数拆分—按等效结构去重”的完整枚举流程。关键点：①$\\mathrm{C_4H_8O_2}$ 的不饱和度为 1，除羧酸、酯外还可为羟基醛、羟基酮等，但题目限定了类别，故只需在限定类别内枚举；②羧酸只由“烃基 + $-\\mathrm{COOH}$”构成，即枚举丙基的 2 种形式，得 2 种；③酯要按“羧酸部分碳数 + 醇部分碳数 = 4”逐一拆分，注意丙醇有正、异两种，故甲酸酯有 2 种，合计 4 种；④银镜反应的判断抓 $\\mathrm{HCOO-}$，这是甲酸及甲酸酯的共性。常见失分：酯只写出 3 种（漏掉甲酸异丙酯或丙酸甲酯）；把“甲酸丙酯”与“丙酸甲酯”混为一种；误认为所有酯都能银镜。"
+ }
+]

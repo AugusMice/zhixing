@@ -1,0 +1,41 @@
+[
+  {
+    "id": "eng-001",
+    "subjectId": "english",
+    "kpIds": ["eng-participle"],
+    "type": "single",
+    "difficulty": 2,
+    "stem": "The book ____ on the desk belongs to me.",
+    "options": [
+      { "key": "A", "text": "lay" },
+      { "key": "B", "text": "lying" },
+      { "key": "C", "text": "laid" },
+      { "key": "D", "text": "lain" }
+    ],
+    "answer": "B",
+    "explanation": "句中已有谓语 belongs，空格处作后置定语。book 与 lie（躺、位于）是主动关系，用现在分词 lying。",
+    "source": "示例题"
+  },
+  {
+    "id": "eng-002",
+    "subjectId": "english",
+    "kpIds": ["eng-tense"],
+    "type": "fill",
+    "difficulty": 1,
+    "stem": "He has been working here ____ 2019.",
+    "blanks": [{ "accept": ["since"], "hint": "since + 时间点" }],
+    "explanation": "since 后接时间点，常与现在完成时或现在完成进行时连用。",
+    "source": "示例题"
+  },
+  {
+    "id": "eng-003",
+    "subjectId": "english",
+    "kpIds": ["eng-agreement"],
+    "type": "judge",
+    "difficulty": 2,
+    "stem": "判断句子语法是否正确：Neither of the answers is correct.",
+    "answer": true,
+    "explanation": "neither of + 复数名词作主语时，谓语动词通常用单数，is 正确。",
+    "source": "示例题"
+  }
+]

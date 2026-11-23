@@ -1,0 +1,366 @@
+[
+  {
+    "id": "q-math-sequence-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-sequence"],
+    "stem": "已知数列 $\\{a_n\\}$ 的前 $n$ 项和 $S_n=n^2+n+1$，则 $a_1$ 与 $a_n$（$n\\ge 2$）分别是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["前n项和求通项", "首项检验"],
+    "options": [
+      { "key": "A", "text": "$2$，$2n$" },
+      { "key": "B", "text": "$3$，$2n$" },
+      { "key": "C", "text": "$3$，$2n+1$" },
+      { "key": "D", "text": "$2$，$2n-1$" }
+    ],
+    "answer": "B",
+    "explanation": "首项只能由 $S_1$ 求：$a_1=S_1=1+1+1=3$。当 $n\\ge 2$ 时 $a_n=S_n-S_{n-1}=(n^2+n+1)-\\left[(n-1)^2+(n-1)+1\\right]=2n$。注意这里 $2\\times 1=2\\neq 3$，说明“$a_n=2n$”只对 $n\\ge 2$ 成立，通项须分段。易错点：直接套 $a_n=S_n-S_{n-1}$ 得 $2n$ 就写 $a_1=2$（错项 A、D）；或把 $n\\ge 2$ 时的通项当成对所有 $n$ 成立后再“补 $+1$”（错项 C）。"
+  },
+  {
+    "id": "q-math-sequence-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-sequence"],
+    "stem": "已知数列 $\\{a_n\\}$ 的前 $n$ 项和 $S_n=n^2+2n$，则 $a_n=$ ____（$n\\in\\mathbb{N}^*$）。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["前n项和求通项", "回代检验"],
+    "blanks": [
+      { "accept": ["2n+1", "2n + 1", "2n＋1"], "hint": "先算 $S_n-S_{n-1}$（$n\\ge2$），再把 $n=1$ 代回检验是否合并" }
+    ],
+    "explanation": "当 $n\\ge 2$ 时，$a_n=S_n-S_{n-1}=(n^2+2n)-\\left[(n-1)^2+2(n-1)\\right]=n^2+2n-(n^2-1)=2n+1$。再检验 $n=1$：$a_1=S_1=1+2=3$，而 $2\\times 1+1=3$，恰好吻合，因此不必分段，$a_n=2n+1$ 对所有 $n\\in\\mathbb{N}^*$ 成立。易错点：机械地“分段写”却忘记写出 $a_1=S_1$；或把 $a_n=2n+1$ 错算成 $2n+3$（把 $S_{n-1}$ 的平方展开错）。"
+  },
+  {
+    "id": "q-math-sequence-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-sequence"],
+    "stem": "数列 $\\{a_n\\}$ 的通项为 $a_n=n^2-7n$（$n\\in\\mathbb{N}^*$），则 $\\{a_n\\}$ 的最小项的值是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["数列最值", "二次型通项"],
+    "options": [
+      { "key": "A", "text": "$-12$" },
+      { "key": "B", "text": "$-\\dfrac{49}{4}$" },
+      { "key": "C", "text": "$-10$" },
+      { "key": "D", "text": "$-6$" }
+    ],
+    "answer": "A",
+    "explanation": "$a_n=n^2-7n=\\left(n-\\dfrac{7}{2}\\right)^2-\\dfrac{49}{4}$，其图象是开口向上的抛物线，对称轴为 $n=\\dfrac{7}{2}=3.5$。由于 $n$ 只能取正整数，$n=3$ 与 $n=4$ 关于对称轴对称，故同时取到最小值：$a_3=9-21=-12$，$a_4=16-28=-12$。易错点：把抛物线顶点的函数值 $-\\dfrac{49}{4}=-12.25$ 当成数列的最小项（错项 B，这是 $n$ 可以取实数时的结果）；或只代入 $n=3$ 后算错符号。"
+  },
+  {
+    "id": "q-math-sequence-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": ["math-sequence"],
+    "stem": "关于数列及其前 $n$ 项和 $S_n$，下列说法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["S_n与a_n的关系", "数列概念", "多选"],
+    "options": [
+      { "key": "A", "text": "若 $S_n=n^2$，则 $a_n=2n-1$ 对一切 $n\\in\\mathbb{N}^*$ 成立" },
+      { "key": "B", "text": "若 $a_n=2n-1$ 对一切 $n\\in\\mathbb{N}^*$ 成立，则 $S_n=n^2$" },
+      { "key": "C", "text": "对任意数列，$a_n=S_n-S_{n-1}$ 对 $n=1$ 也成立" },
+      { "key": "D", "text": "若 $S_n=2^n$，则 $a_n=2^{n-1}$ 对一切 $n\\in\\mathbb{N}^*$ 成立" }
+    ],
+    "answer": ["A", "B"],
+    "explanation": "A：$n\\ge 2$ 时 $a_n=n^2-(n-1)^2=2n-1$，又 $a_1=S_1=1=2\\times 1-1$，首项吻合，故对一切 $n$ 成立，正确。B：$a_n=2n-1$ 的前 $n$ 项和为 $\\dfrac{n(1+2n-1)}{2}=n^2$，正确。C：$n=1$ 时公式中会出现 $S_0$，而 $S_0$ 一般无定义，这正是必须单独检验 $a_1=S_1$ 的原因，错误。D：$a_1=S_1=2$，而 $2^{1-1}=1$，首项不符；正确结果是 $a_1=2$，$a_n=2^{n-1}$（$n\\ge 2$），错误。易错点：把 $S_n-S_{n-1}$ 当成万能公式而漏掉首项检验，就会误选 C、D。"
+  },
+
+  {
+    "id": "q-math-arithmetic-1",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": ["math-arithmetic"],
+    "stem": "在等差数列 $\\{a_n\\}$ 中，若 $a_3+a_7=10$，则一定有 $a_5=5$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["等差中项", "下标和性质"],
+    "answer": true,
+    "explanation": "$a_3,a_5,a_7$ 三项下标成等差，故 $a_5$ 是 $a_3$ 与 $a_7$ 的等差中项：$a_3+a_7=2a_5$。由 $2a_5=10$ 得 $a_5=5$。更一般地，若 $m+n=p+q$，则 $a_m+a_n=a_p+a_q$。易错点：误以为“只有中间那一项才成立”——这里 $3+7=2\\times 5$，恰好满足下标和相等，所以必然成立；反过来若给的是 $a_3+a_8$，就不能直接推 $a_5$。"
+  },
+  {
+    "id": "q-math-arithmetic-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-arithmetic"],
+    "stem": "等差数列 $\\{a_n\\}$ 中，$a_1=3$，公差 $d=-2$，则 $S_{10}=$ ____。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["等差数列求和", "基本量计算"],
+    "blanks": [
+      { "accept": ["-60", "−60", "负60"], "hint": "先求 $a_{10}=a_1+9d$，再用 $S_{10}=\\dfrac{10(a_1+a_{10})}{2}$" }
+    ],
+    "explanation": "$a_{10}=a_1+9d=3+9\\times(-2)=-15$，于是 $S_{10}=\\dfrac{10(a_1+a_{10})}{2}=5\\times(3-15)=-60$。也可用 $S_n=na_1+\\dfrac{n(n-1)}{2}d=30+45\\times(-2)=-60$，两种算法互相验证。易错点：把 $a_{10}$ 写成 $3+10\\times(-2)=-17$（项数差一）；或求和时漏掉负号得 $60$。"
+  },
+  {
+    "id": "q-math-arithmetic-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-arithmetic"],
+    "stem": "等差数列 $\\{a_n\\}$ 中，$a_1=20$，公差 $d=-3$，则前 $n$ 项和 $S_n$ 取得最大值时 $n$ 的值为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["等差数列前n项和最值", "项的符号分界"],
+    "options": [
+      { "key": "A", "text": "$7$" },
+      { "key": "B", "text": "$6$" },
+      { "key": "C", "text": "$8$" },
+      { "key": "D", "text": "$5$" }
+    ],
+    "answer": "A",
+    "explanation": "$a_n=20-3(n-1)=23-3n$。由 $a_n\\ge 0$ 得 $n\\le\\dfrac{23}{3}\\approx 7.67$，故 $a_7=2>0$，$a_8=-1<0$：加到第 $7$ 项仍在增大，第 $8$ 项起开始减小，所以 $n=7$ 时最大。验算：$S_6=6\\times\\dfrac{20+5}{2}=75$，$S_7=7\\times\\dfrac{20+2}{2}=77$，$S_8=77+(-1)=76$。易错点：把 $7.67$ 四舍五入成 $8$（错项 C）；或忘记“$a_n\\ge 0$”应取整而不是四舍五入。"
+  },
+  {
+    "id": "q-math-arithmetic-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": ["math-arithmetic"],
+    "stem": "设等差数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，且 $S_5<S_6$，$S_6=S_7$，$S_7>S_8$，则下列判断正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["前n项和最值", "差分法", "多选"],
+    "options": [
+      { "key": "A", "text": "公差 $d>0$" },
+      { "key": "B", "text": "$a_7=0$" },
+      { "key": "C", "text": "$S_6$ 与 $S_7$ 都是 $S_n$ 的最大值" },
+      { "key": "D", "text": "$a_6<0$" }
+    ],
+    "answer": ["B", "C"],
+    "explanation": "关键是记住 $S_n-S_{n-1}=a_n$：由 $S_6-S_5=a_6>0$，$S_7-S_6=a_7=0$，$S_8-S_7=a_8<0$；于是 $d=a_8-a_7<0$，A 错、B 对、D 错。又 $a_7=0$，故 $n\\le 7$ 时 $S_n$ 不减（$S_6=S_7$），$n\\ge 7$ 时递减，因此 $S_6=S_7$ 为最大值，C 对。易错点：把 $S_7>S_8$ 误读成 $a_7>a_8$ 之后又判断 $d>0$；或只看 $S_6=S_7$ 就认为最大值只有一个。"
+  },
+
+  {
+    "id": "q-math-geometric-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-geometric"],
+    "stem": "在等比数列 $\\{a_n\\}$ 中，$a_2=2$，$a_4=8$，则 $a_3$ 的值为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["等比中项", "分类讨论"],
+    "options": [
+      { "key": "A", "text": "$4$" },
+      { "key": "B", "text": "$-4$" },
+      { "key": "C", "text": "$4$ 或 $-4$" },
+      { "key": "D", "text": "$2$ 或 $-2$" }
+    ],
+    "answer": "C",
+    "explanation": "由 $a_3^2=a_2a_4=16$ 得 $a_3=\\pm 4$，两种情况都真实存在：由 $a_4=a_2q^2$ 得 $q^2=4$，$q=2$ 时数列为 $1,2,4,8$，$a_3=4$；$q=-2$ 时首项 $a_1=\\dfrac{a_2}{q}=-1$，数列为 $-1,2,-4,8$，$a_3=-4$。题目未给出任何正负条件，故不能唯一确定。易错点：只写 $4$（错项 A），把“等比中项”和“算术中项”混为一谈；或误用 $a_3=\\dfrac{a_2+a_4}{2}=5$ 的等差数列思路。"
+  },
+  {
+    "id": "q-math-geometric-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-geometric"],
+    "stem": "等比数列 $\\{a_n\\}$ 中，$a_1=2$，公比 $q=-3$，则 $S_4=$ ____。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["等比数列求和", "负公比"],
+    "blanks": [
+      { "accept": ["-40", "−40", "负40"], "hint": "$S_4=\\dfrac{a_1(1-q^4)}{1-q}$，注意 $1-(-3)=4$" }
+    ],
+    "explanation": "逐项验算最稳：$a_1=2$，$a_2=-6$，$a_3=18$，$a_4=-54$，四项之和为 $2-6+18-54=-40$。用公式：$S_4=\\dfrac{a_1(1-q^4)}{1-q}=\\dfrac{2\\left[1-(-3)^4\\right]}{1-(-3)}=\\dfrac{2(1-81)}{4}=-40$。易错点：分母写成 $1+q=1-3=-2$，得 $40$ 的相反数；或把 $(-3)^4$ 算成 $-81$。"
+  },
+  {
+    "id": "q-math-geometric-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-geometric"],
+    "stem": "已知等比数列 $\\{a_n\\}$ 的各项均为正数，且 $a_1a_9=16$，则 $a_5$ 等于（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["等比中项", "下标和性质"],
+    "options": [
+      { "key": "A", "text": "$4$" },
+      { "key": "B", "text": "$\\pm 4$" },
+      { "key": "C", "text": "$2$" },
+      { "key": "D", "text": "$8$" }
+    ],
+    "answer": "A",
+    "explanation": "等比数列中若 $m+n=2p$，则 $a_m a_n=a_p^2$（与等差中“$a_m+a_n=2a_p$”对应）。这里 $1+9=2\\times 5$，故 $a_5^2=a_1a_9=16$，$a_5=\\pm 4$；再由“各项均为正数”舍去负值，得 $a_5=4$。易错点：忘记正项条件而选 B（等比中项本身确实有两个）；或误用等差中项 $a_5=\\dfrac{a_1+a_9}{2}$。"
+  },
+  {
+    "id": "q-math-geometric-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": ["math-geometric"],
+    "stem": "关于等比数列 $\\{a_n\\}$（公比为 $q$），下列说法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["公比对单调性的影响", "求和公式分类", "多选"],
+    "options": [
+      { "key": "A", "text": "若 $a_1>0$ 且 $q>1$，则 $\\{a_n\\}$ 是递增数列" },
+      { "key": "B", "text": "若 $\\{a_n\\}$ 是递增数列，则必有 $a_1>0$ 且 $q>1$" },
+      { "key": "C", "text": "对任意等比数列都有 $a_3^2=a_2a_4$" },
+      { "key": "D", "text": "求和公式 $S_n=\\dfrac{a_1(1-q^n)}{1-q}$ 对任意等比数列都适用" }
+    ],
+    "answer": ["A", "C"],
+    "explanation": "A：$a_1>0$，$q>1$ 时 $a_{n+1}=qa_n>a_n>0$，确实递增，正确。B：反例 $a_1=-8$，$q=\\dfrac{1}{2}$ 的数列 $-8,-4,-2,-1$ 是递增的，但 $a_1<0$、$q<1$，错误。C：等比数列要求 $q\\ne 0$ 且各项非零，故 $a_3^2=a_2a_4$ 恒成立（$a_2,a_3,a_4$ 同号），正确。D：当 $q=1$ 时分母为 $0$，公式失效，此时 $S_n=na_1$，错误。易错点：把“$a_1>0,q>1$ 推出递增”与“递增推出 $a_1>0,q>1$”当成等价命题（B 是常见的逆命题错误）；求和时忘记 $q=1$ 要单独讨论。"
+  },
+
+  {
+    "id": "q-math-seq-sum-1",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": ["math-seq-sum"],
+    "stem": "因为 $\\dfrac{1}{k(k+1)}=\\dfrac{1}{k}-\\dfrac{1}{k+1}$，所以 $\\displaystyle\\sum_{k=1}^{n}\\dfrac{1}{k(k+1)}=1-\\dfrac{1}{n}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["裂项相消", "剩余项"],
+    "answer": false,
+    "explanation": "裂项本身没错，但相消后剩下的是首项 $\\dfrac{1}{1}$ 与末项 $-\\dfrac{1}{n+1}$：$\\left(1-\\dfrac{1}{2}\\right)+\\left(\\dfrac{1}{2}-\\dfrac{1}{3}\\right)+\\cdots+\\left(\\dfrac{1}{n}-\\dfrac{1}{n+1}\\right)=1-\\dfrac{1}{n+1}=\\dfrac{n}{n+1}$。验证：$n=1$ 时和为 $\\dfrac{1}{2}$，而 $1-\\dfrac{1}{1}=0$，明显不符，故命题错误。易错点：相消后只保留首项，把最后一个负项的下标写成 $\\dfrac{1}{n}$（应整体看 $\\dfrac{1}{k}$ 的末尾是 $\\dfrac{1}{n}$、$-\\dfrac{1}{k+1}$ 的末尾是 $-\\dfrac{1}{n+1}$）。"
+  },
+  {
+    "id": "q-math-seq-sum-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-seq-sum"],
+    "stem": "计算：$\\dfrac{1}{1\\times 2}+\\dfrac{1}{2\\times 3}+\\cdots+\\dfrac{1}{10\\times 11}=$ ____。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["裂项相消", "数值计算"],
+    "blanks": [
+      { "accept": ["10/11", "\\frac{10}{11}", "0.909", "10/11（约0.909）"], "hint": "裂项后剩下 $1-\\dfrac{1}{11}$" }
+    ],
+    "explanation": "由 $\\dfrac{1}{k(k+1)}=\\dfrac{1}{k}-\\dfrac{1}{k+1}$，原式 $=\\left(1-\\dfrac{1}{2}\\right)+\\left(\\dfrac{1}{2}-\\dfrac{1}{3}\\right)+\\cdots+\\left(\\dfrac{1}{10}-\\dfrac{1}{11}\\right)=1-\\dfrac{1}{11}=\\dfrac{10}{11}$。易错点：把项数数成 $11$ 项（实际 $k$ 从 $1$ 到 $10$，共 $10$ 项）；或末项写成 $1-\\dfrac{1}{10}=\\dfrac{9}{10}$。"
+  },
+  {
+    "id": "q-math-seq-sum-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-seq-sum"],
+    "stem": "数列 $\\{a_n\\}$ 的通项为 $a_n=n\\cdot 2^{n-1}$，则其前 $4$ 项和 $S_4$ 等于（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["错位相减", "等差乘等比"],
+    "options": [
+      { "key": "A", "text": "$49$" },
+      { "key": "B", "text": "$48$" },
+      { "key": "C", "text": "$50$" },
+      { "key": "D", "text": "$33$" }
+    ],
+    "answer": "A",
+    "explanation": "通项是“等差 $\\times$ 等比”，用错位相减：$S_n=1+2\\cdot 2+3\\cdot 2^2+\\cdots+n\\cdot 2^{n-1}$，$2S_n=1\\cdot 2+2\\cdot 2^2+\\cdots+(n-1)2^{n-1}+n\\cdot 2^{n}$，两式相减得 $-S_n=1+2+2^2+\\cdots+2^{n-1}-n\\cdot 2^n=2^n-1-n2^n$，即 $S_n=(n-1)2^n+1$。取 $n=4$：$S_4=3\\times 16+1=49$；直接验算 $1+4+12+32=49$，一致。易错点：忘记减去 $n\\cdot 2^n$ 那一项得 $48$（B）；把 $2^n-1$ 的项数算错导致差 $1$（C）；把最后一项的指数算成 $2^4$ 得 $33$（D）。"
+  },
+  {
+    "id": "q-math-seq-sum-4",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-seq-sum"],
+    "stem": "数列 $\\{a_n\\}$ 的通项为 $a_n=(2n-1)+2^{n-1}$，则其前 $n$ 项和 $S_n=$（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["分组求和", "公式法"],
+    "options": [
+      { "key": "A", "text": "$n^2+2^n-1$" },
+      { "key": "B", "text": "$n^2+2^n$" },
+      { "key": "C", "text": "$n^2+2^{n-1}-1$" },
+      { "key": "D", "text": "$2n^2+2^n-1$" }
+    ],
+    "answer": "A",
+    "explanation": "通项是两组数列之和，分组求和：$\\sum\\limits_{k=1}^{n}(2k-1)=n^2$（前 $n$ 个奇数之和），$\\sum\\limits_{k=1}^{n}2^{k-1}=\\dfrac{1\\cdot(2^n-1)}{2-1}=2^n-1$。故 $S_n=n^2+2^n-1$。验算 $n=1$：$a_1=1+1=2$，公式给 $1+2-1=2$；$n=2$：$a_2=3+2=5$，$S_2=7$，公式给 $4+4-1=7$，都对。易错点：等比部分用错公式的项数得 $2^{n-1}-1$（C）；把奇数之和写成 $2n^2$（D）；忘记等比首项是 $2^0=1$ 而要减 $1$（B）。"
+  },
+  {
+    "id": "q-math-seq-sum-5",
+    "subjectId": "math",
+    "type": "short",
+    "kpIds": ["math-seq-sum", "math-geometric"],
+    "stem": "已知数列 $\\{a_n\\}$ 的通项为 $a_n=(2n-1)\\cdot 2^{n}$。\n\n（1）求 $\\{a_n\\}$ 的前 $n$ 项和 $S_n$；\n（2）证明：对一切 $n\\in\\mathbb{N}^*$，都有 $S_n<(2n-1)2^{n+1}$。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["错位相减", "数列不等式"],
+    "rubric": [
+      { "text": "写出 $S_n$ 与 $2S_n$ 的表达式，并把两式错位对齐相减（次数相同的项相减）", "score": 2 },
+      { "text": "正确算出中间部分 $2\\cdot 2^2+2\\cdot 2^3+\\cdots+2\\cdot 2^{n}$ 的和，得 $2^{n+2}-8$", "score": 3 },
+      { "text": "整理得 $S_n=6+(2n-3)2^{n+1}$", "score": 2 },
+      { "text": "作差 $S_n-(2n-1)2^{n+1}=6-2^{n+2}<0$，说明 $2^{n+2}\\ge 8>6$，完成证明", "score": 1 }
+    ],
+    "reference": "（1）$S_n=1\\cdot 2+3\\cdot 2^2+5\\cdot 2^3+\\cdots+(2n-1)2^n$，两边乘 $2$ 得\n$2S_n=1\\cdot 2^2+3\\cdot 2^3+\\cdots+(2n-3)2^{n}+(2n-1)2^{n+1}$。\n两式相减：$-S_n=1\\cdot 2+\\left[2\\cdot 2^2+2\\cdot 2^3+\\cdots+2\\cdot 2^{n}\\right]-(2n-1)2^{n+1}$。\n其中 $2\\cdot 2^2+2\\cdot 2^3+\\cdots+2\\cdot 2^n=2\\left(2^2+2^3+\\cdots+2^n\\right)=2\\cdot\\dfrac{4(2^{n-1}-1)}{2-1}=2^{n+2}-8$，所以\n$-S_n=2+2^{n+2}-8-(2n-1)2^{n+1}=-6+2^{n+1}\\left[2-(2n-1)\\right]=-6+(3-2n)2^{n+1}$，\n即 $S_n=6+(2n-3)2^{n+1}$。\n（2）$S_n-(2n-1)2^{n+1}=6+(2n-3)2^{n+1}-(2n-1)2^{n+1}=6-2\\cdot 2^{n+1}=6-2^{n+2}$。因为 $n\\ge 1$ 时 $2^{n+2}\\ge 8>6$，所以 $S_n-(2n-1)2^{n+1}<0$，即 $S_n<(2n-1)2^{n+1}$。",
+    "maxScore": 8,
+    "explanation": "本题是错位相减的标准流程：通项为“等差 $\\times$ 等比”，乘公比 $2$ 后错位相减，中间部分变成等比数列求和，最后处理首项与末项。三个失分点：一是错位时没有把 $2S_n$ 整体后移一位，导致相减后系数全乱；二是中间等比数列的项数算错（从 $2^2$ 到 $2^n$ 共 $n-1$ 项），常见错误结果是 $2^{n+1}-4$；三是第（2）问忘记把 $S_n$ 的表达式化到能与 $(2n-1)2^{n+1}$ 相消的形式，直接放缩反而更繁。检验方法：用 $n=1,2$ 代入 $S_1=2$、$S_2=14$ 与公式比对，可快速自查。"
+  },
+
+  {
+    "id": "q-math-seq-comprehensive-1",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": ["math-seq-comprehensive"],
+    "stem": "已知数列 $\\{a_n\\}$ 满足 $a_1=1$，$a_{n+1}=2a_n+1$，则 $\\{a_n+1\\}$ 是公比为 $2$ 的等比数列。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["构造等比数列", "待定常数法"],
+    "answer": true,
+    "explanation": "设 $a_{n+1}+\\lambda=2(a_n+\\lambda)$，展开得 $a_{n+1}=2a_n+\\lambda$，与 $a_{n+1}=2a_n+1$ 比较得 $\\lambda=1$。于是 $a_{n+1}+1=2(a_n+1)$，且首项 $a_1+1=2\\neq 0$，故 $\\{a_n+1\\}$ 是以 $2$ 为首项、公比为 $2$ 的等比数列，$a_n+1=2^n$，$a_n=2^n-1$。验算 $a_2=2\\times 1+1=3=2^2-1$。易错点：只写出递推关系却漏掉“首项非零”的说明（若首项为 $0$，该数列各项都为 $0$，不能称等比数列）。"
+  },
+  {
+    "id": "q-math-seq-comprehensive-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-seq-comprehensive"],
+    "stem": "已知数列 $\\{a_n\\}$ 满足 $a_1=1$，$a_{n+1}=a_n+2n$，则 $a_n=$ ____（$n\\in\\mathbb{N}^*$）。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["累加法", "递推求通项"],
+    "blanks": [
+      { "accept": ["n^2-n+1", "n^{2}-n+1", "n²-n+1", "n*n-n+1"], "hint": "把 $a_{n+1}-a_n=2n$ 从 $1$ 到 $n-1$ 累加" }
+    ],
+    "explanation": "由 $a_{k+1}-a_k=2k$ 累加（$k=1,2,\\dots,n-1$）：$a_n-a_1=2(1+2+\\cdots+(n-1))=2\\cdot\\dfrac{(n-1)n}{2}=n^2-n$，故 $a_n=n^2-n+1$。验算：$a_1=1$，$a_2=1+2=3$，而 $4-2+1=3$ ✓；$a_3=3+4=7$，而 $9-3+1=7$ ✓。易错点：累加时把最后一项取到 $2n$ 而不是 $2(n-1)$，多算一项得 $n^2+n$；忘记加回 $a_1=1$ 得 $n^2-n$。"
+  },
+  {
+    "id": "q-math-seq-comprehensive-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-seq-comprehensive"],
+    "stem": "已知数列 $\\{a_n\\}$ 满足 $a_1=2$，$a_{n+1}=3a_n-2$，则 $a_5$ 等于（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["一阶线性递推", "构造法"],
+    "options": [
+      { "key": "A", "text": "$82$" },
+      { "key": "B", "text": "$81$" },
+      { "key": "C", "text": "$80$" },
+      { "key": "D", "text": "$241$" }
+    ],
+    "answer": "A",
+    "explanation": "设 $a_{n+1}+\\lambda=3(a_n+\\lambda)$，得 $a_{n+1}=3a_n+2\\lambda$，比较得 $\\lambda=-1$。故 $a_{n+1}-1=3(a_n-1)$，$\\{a_n-1\\}$ 是首项 $a_1-1=1$、公比 $3$ 的等比数列，$a_n-1=3^{n-1}$，即 $a_n=3^{n-1}+1$。所以 $a_5=3^4+1=82$。直接迭代验算：$2\\to 4\\to 10\\to 28\\to 82$。易错点：只算 $3^{n-1}$ 忘记加 $1$，得 $81$（B）；把通项写成 $a_n=3^n-2$ 再代入 $n=5$，得 $241$（D）；迭代次数差一（只乘到 $3^4$ 却从 $a_1$ 起算四次）得 $3^4+1$ 与 $3^5+1$ 混淆。稳妥做法是写出 $a_n=3^{n-1}+1$ 后用 $a_1=2$、$a_2=4$ 两个值反向验证。"
+  },
+  {
+    "id": "q-math-seq-comprehensive-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": ["math-seq-comprehensive", "math-sequence"],
+    "stem": "已知数列 $\\{a_n\\}$ 满足 $a_1=1$，$a_{n+1}=2a_n+3$，则下列说法正确的有（　）",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["构造等比数列", "通项公式", "多选"],
+    "options": [
+      { "key": "A", "text": "$\\{a_n+3\\}$ 是公比为 $2$ 的等比数列" },
+      { "key": "B", "text": "$a_n=2^{n+1}-3$" },
+      { "key": "C", "text": "$\\{a_n\\}$ 是等差数列" },
+      { "key": "D", "text": "$a_4=32$" }
+    ],
+    "answer": ["A", "B"],
+    "explanation": "设 $a_{n+1}+\\lambda=2(a_n+\\lambda)$，展开比较得 $\\lambda=3$，故 $a_{n+1}+3=2(a_n+3)$，首项 $a_1+3=4\\ne 0$，A 正确。于是 $a_n+3=4\\cdot 2^{n-1}=2^{n+1}$，$a_n=2^{n+1}-3$，B 正确。C 错：$a_1=1,a_2=5,a_3=13$，差为 $4,8$，不是等差。D 错：$a_4=2^5-3=29$（迭代 $1\\to5\\to13\\to29$），不是 $32$。易错点：构造时 $\\lambda$ 的符号搞反（写成 $a_{n+1}-3=2(a_n-3)$）会得到 $a_n=3-2^n$，从而全盘皆错；只记住通项而忘记验证首项，会把 D 的 $2^{n+1}=32$ 附近数值当成答案。"
+  },
+  {
+    "id": "q-math-seq-comprehensive-5",
+    "subjectId": "math",
+    "type": "short",
+    "kpIds": ["math-seq-comprehensive", "math-sequence"],
+    "stem": "已知数列 $\\{a_n\\}$ 满足 $a_1=2$，$a_{n+1}=3a_n-2$（$n\\in\\mathbb{N}^*$）。\n\n（1）证明数列 $\\{a_n-1\\}$ 是等比数列，并求 $\\{a_n\\}$ 的通项公式；\n（2）求 $\\{a_n\\}$ 的前 $n$ 项和 $S_n$，并用 $n=1,2$ 检验结果。",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["构造法", "等比数列求和", "检验"],
+    "rubric": [
+      { "text": "由 $a_{n+1}-1=3a_n-3=3(a_n-1)$ 得出相邻两项的倍数关系", "score": 3 },
+      { "text": "说明 $a_1-1=1\\neq 0$，从而 $\\{a_n-1\\}$ 是首项 $1$、公比 $3$ 的等比数列，并写出 $a_n-1=3^{n-1}$", "score": 2 },
+      { "text": "得 $a_n=3^{n-1}+1$，并得 $S_n=\\dfrac{3^n-1}{2}+n$", "score": 2 },
+      { "text": "用 $n=1,2$ 检验：$S_1=2$，$S_2=6$，与逐项相加一致", "score": 1 }
+    ],
+    "reference": "（1）由 $a_{n+1}=3a_n-2$ 两边减 $1$：$a_{n+1}-1=3a_n-3=3(a_n-1)$。又 $a_1-1=2-1=1\\neq 0$，所以 $\\{a_n-1\\}$ 是首项为 $1$、公比为 $3$ 的等比数列，故 $a_n-1=1\\cdot 3^{n-1}$，即 $a_n=3^{n-1}+1$。\n（2）$S_n=\\sum\\limits_{k=1}^{n}\\left(3^{k-1}+1\\right)=\\dfrac{1\\cdot(3^n-1)}{3-1}+n=\\dfrac{3^n-1}{2}+n$。\n检验：$n=1$ 时 $S_1=\\dfrac{3-1}{2}+1=2=a_1$；$n=2$ 时 $S_2=\\dfrac{9-1}{2}+2=6$，而 $a_1+a_2=2+4=6$，一致。",
+    "maxScore": 8,
+    "explanation": "本题考“$a_{n+1}=pa_n+q$ 型”递推的标准处理：两边同减不动点 $\\dfrac{q}{1-p}=-1$（即减 $1$），把递推化为纯等比。评分要点有三：一是必须写出 $a_{n+1}-1=3(a_n-1)$ 这个“成倍数”的式子，只写“猜出通项”不给构造分；二是必须交代首项 $a_1-1\\neq 0$，否则不能称为等比数列；三是求和时要拆成等比部分与常数部分，$n$ 个 $1$ 相加是 $n$ 而不是 $1$。常见失分：把 $\\dfrac{3^n-1}{2}$ 写成 $\\dfrac{3^{n-1}-1}{2}$（等比求和项数错）；忘记检验，导致形如 $S_n=\\dfrac{3^n-1}{2}+n$ 的笔误无法被发现。"
+  }
+]

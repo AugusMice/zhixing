@@ -1,0 +1,243 @@
+[
+  {
+    "id": "q-eng-seven-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-seven"],
+    "stem": "七选五中，一个选项要成为正确答案，除了填入后语法通得过，还必须满足（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["七选五", "选项判断", "语篇连贯"],
+    "options": [
+      { "key": "A", "text": "与空格所在段落的话题一致、逻辑连贯，且选项中的代词在上下文中有明确的指代对象" },
+      { "key": "B", "text": "与文章的每一个段落都有直接关系" },
+      { "key": "C", "text": "包含尽可能多的生词和复杂句式" },
+      { "key": "D", "text": "与空格前一句使用完全相同的句子结构" }
+    ],
+    "answer": "A",
+    "explanation": "七选五的设空本质是「语篇填空」，判断标准有两条且必须同时成立：一是语法上能嵌入，二是语义与逻辑上与上下文连贯。B 错在夸大范围——一个选项只需与所在段落的局部语境吻合，不必与全文每一段都相关；C、D 把「难」和「结构相同」误当成正确标志，命题人恰恰常用结构漂亮但与话题无关的句子做干扰项。此外，选项中出现的 it、they、this、these 必须能在空格前后找到明确的指代对象，找不到的多为干扰项。"
+  },
+  {
+    "id": "q-eng-seven-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-seven"],
+    "stem": "七选五每篇文章设 5 个空白，并给出 7 个选项，每个选项最多使用一次，因此有 ____ 个选项是多余的干扰项。",
+    "difficulty": 1,
+    "source": "自编练习",
+    "tags": ["七选五", "题量结构"],
+    "blanks": [
+      {
+        "accept": ["2", "两", "二", "2个", "两个"],
+        "hint": "7 个选项减去 5 个空白"
+      }
+    ],
+    "explanation": "七选五的基本结构是「7 选 5」：给出 7 个选项，填入 5 个空白，每个选项只能用一次，因此 7 − 5 = 2 个选项一定是多余的。这两个干扰项并非随意编写，通常与文章话题相近、句式也很像，只是逻辑关系不符（如把因果说成转折、把举例说成总结）。正因为有两项注定多余，做题时先排除明显不符的选项，是压缩选择范围最有效的一步。"
+  },
+  {
+    "id": "q-eng-seven-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-seven"],
+    "stem": "阅读下面短文，选出能填入空白处的最佳选项：\n\nKeeping a learning diary sounds simple, but many students give it up within a week. ________ Instead of recording what they have really understood, they copy long passages from their textbooks, and the diary soon becomes a boring duty.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["七选五", "段中设空", "语境推断"],
+    "options": [
+      { "key": "A", "text": "The trouble is that they treat the diary as a record of everything." },
+      { "key": "B", "text": "A learning diary can also help teachers design better lessons." },
+      { "key": "C", "text": "Some students prefer to study in the morning." },
+      { "key": "D", "text": "Writing by hand is much slower than typing." }
+    ],
+    "answer": "A",
+    "explanation": "空格后的句子以 Instead of recording what they have really understood 开头，说明上文必须先点出「他们想记下一切」这一错误做法，A 中的 a record of everything 与空后的 what they have really understood 正好构成对比，语义咬合。B 讲的是日记对老师的作用，与下文「学生抄书、失去兴趣」的主体不一致；C 谈学习时间，D 谈书写方式，都与本段「为什么坚持不下去」的话题无关，属于话题偏离型干扰项。做题时要盯住空格后的 Instead of 这一信号：它要求前文出现被否定的做法。"
+  },
+  {
+    "id": "q-eng-seven-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-seven"],
+    "stem": "关于七选五的解题方法，下列说法正确的有（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["七选五", "解题方法", "代词指代"],
+    "options": [
+      { "key": "A", "text": "选项中的代词 it、they、this 必须能在空格附近的上下文中找到明确的指代对象" },
+      { "key": "B", "text": "一个选项只要与空格前一句在语法上能连接，就一定是正确答案" },
+      { "key": "C", "text": "正确选项通常在原文中有原词复现或同义复现的线索" },
+      { "key": "D", "text": "应先把 7 个选项逐字译成中文，再按译文是否通顺挑出 5 个" }
+    ],
+    "answer": ["A", "C"],
+    "explanation": "A 对：代词是七选五最可靠的定位线索之一，若选项里的 they 在上下文中找不到复数指代对象，该选项基本可以排除。C 对：命题人常把原文关键词以原词或同义替换的形式放进正确选项，形成「词汇衔接」。B 错：语法通顺只是必要条件而非充分条件，这正是「语法通、语义不通」类干扰项的设置原理。D 错：七选五考的是语篇逻辑，逐字翻译后凭译文的「通顺感」判断，既费时又容易误选，正确做法是先读全文抓主线，再按空格位置与逻辑词定位。"
+  },
+  {
+    "id": "q-eng-seven-cohesion-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-seven-cohesion"],
+    "stem": "判断下列说法是否正确：「选项填入空格后语法上通得过」是判断七选五正确选项的充分条件。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["语篇衔接", "充分条件", "逻辑判断"],
+    "answer": false,
+    "explanation": "错。语法通得过只是必要条件：句子可以在语法上无缝嵌入，却与上下文话题不符、逻辑关系相反或代词无所指，这类句子正是七选五最常见的干扰项。判断正确选项还需同时满足三条——话题与所在段落一致、与前后句构成合理的逻辑关系（并列、转折、因果、举例、总结等）、衔接手段（代词、冠词、同义复现）能落到实处。把必要条件误当充分条件，是学生在这一题型上失分的主要根源。"
+  },
+  {
+    "id": "q-eng-seven-cohesion-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-seven-cohesion"],
+    "stem": "根据前后句的逻辑关系，在空白处填入一个表示「此外、而且」的副词（英文，一个词）：\n\nOnline courses are cheap and flexible. ________, they allow learners to study at their own pace.",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["逻辑连接词", "递进关系", "语篇衔接"],
+    "blanks": [
+      {
+        "accept": ["Besides", "Moreover", "Furthermore", "Additionally"],
+        "hint": "两句是并列递进，不是转折，也不是因果"
+      }
+    ],
+    "explanation": "前句说网络课程便宜、灵活，后句说它还能让学习者按自己的节奏学习，后者是对前者的补充与递进，因此用 Besides、Moreover、Furthermore、Additionally 一类表示「此外」的连接词，且置于句首后加逗号。易错点：误填 However（转折）——两句并不对立；误填 Therefore（因果）——后句并非前句的结果，而是另一条并列的优点。判断连接词的关键是看两句之间是「同向补充」还是「反向对立」，而不是凭语感。"
+  },
+  {
+    "id": "q-eng-seven-cohesion-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-seven-cohesion"],
+    "stem": "阅读下面短文，选出能填入空白处的最佳选项：\n\nLearning a language is a long journey. ________ Every small step you take today will make the next step easier.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["语篇衔接", "段中设空", "语义照应"],
+    "options": [
+      { "key": "A", "text": "So do not be afraid of making progress slowly." },
+      { "key": "B", "text": "Grammar rules are hard to remember." },
+      { "key": "C", "text": "Many learners give up after a few weeks." },
+      { "key": "D", "text": "Teachers should correct every mistake at once." }
+    ],
+    "answer": "A",
+    "explanation": "空格前说学语言是 long journey（漫长旅程），空格后说 Every small step ... will make the next step easier（每一小步都让下一步更容易），两句都在讲「慢而持续」，A 用 So 承接前句的「长」，用 not be afraid of making progress slowly 引出后句的「小步前进」，衔接最紧。B、D 转向语法记忆与教师纠错，话题偏离；C 说很多人几周就放弃，与后句积极鼓励的语气相反，且 So 无法引出这种转折。注意空格前后的 So 与 Every small step 都是语义路标，做题应先抓这类词。"
+  },
+  {
+    "id": "q-eng-seven-cohesion-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-seven-cohesion"],
+    "stem": "关于七选五中的语篇衔接手段，下列说法正确的有（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["语篇衔接", "衔接手段", "同义替换"],
+    "options": [
+      { "key": "A", "text": "however、therefore、for example 等连接词往往直接提示空格与上下文的逻辑关系" },
+      { "key": "B", "text": "选项中 this / these 后接名词时，常回指上文已经提到的内容" },
+      { "key": "C", "text": "原词复现和同义替换都是重要的词汇衔接线索" },
+      { "key": "D", "text": "选项中出现的生词越多，说明它越可能是正确答案" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A、B、C 都是七选五的基本衔接手段：连接词标示逻辑关系（转折 however、因果 therefore、举例 for example）；指示代词 this / these 加名词常回指前文内容，是定位的关键；原词复现与同义替换（如 cost 与 price、buy 与 purchase）构成词汇衔接。D 错：生词多少与正确性毫无关系，正确选项之所以难认，恰恰是因为它用了同义替换而非原词，命题人还会故意在干扰项里堆砌复杂词汇制造「高级感」。"
+  },
+  {
+    "id": "q-eng-seven-clue-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-seven-clue"],
+    "stem": "判断下列说法是否正确：七选五中，段首的空格多填概括本段大意的主题句，段中的空格多是对前文的展开或转折，段尾的空格多是总结或收束。",
+    "difficulty": 1,
+    "source": "自编练习",
+    "tags": ["设空位置", "主题句", "段落功能"],
+    "answer": true,
+    "explanation": "对。这是七选五设空位置的基本规律：段首空承担「主题句」或「承上启下的过渡句」的功能；段中空承接上文、引出下文，常见展开（举例、解释）或转折；段尾空收束本段，常见总结、结论或引出下一段。掌握这一规律的价值在于「先判断空格的功能，再按功能去筛选项」，可以大幅减少逐词比对的时间。注意这只是概率规律而非铁律，仍须回到上下文验证。"
+  },
+  {
+    "id": "q-eng-seven-clue-2",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-seven-clue"],
+    "stem": "某空格后的句子以 These three habits are worth building early. 开头。据此判断，空格处最应出现的内容是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["设空线索", "指代与数词", "前后照应"],
+    "options": [
+      { "key": "A", "text": "具体列出三个好习惯的句子" },
+      { "key": "B", "text": "一个与习惯无关的生活例子" },
+      { "key": "C", "text": "表示转折、否定前文的句子" },
+      { "key": "D", "text": "对上一段全部内容的重复概括" }
+    ],
+    "answer": "A",
+    "explanation": "空后句用 These three habits 回指，These 是近指、three 是确数，说明空格处必须已经明确列出三个习惯，否则 These 无所指、three 无着落。这是「代词 + 数词」双线索的典型用法。B 与 habits 话题不符；C 的转折会与「值得从小培养」的评价语气冲突；D 只是笼统重复，无法提供 These three 所需的三项具体内容。做题时看到空后的 this / these / such / the + 名词，应立刻回到空格处找它指代的对象。"
+  },
+  {
+    "id": "q-eng-seven-clue-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-seven-clue"],
+    "stem": "阅读下面文字，选出能填入段首空白处的最佳选项：\n\n________ First, set a clear goal for each week. Then, break the goal into small tasks. Finally, review what you have done and adjust your plan.",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["段首设空", "主题句", "列举结构"],
+    "options": [
+      { "key": "A", "text": "A workable study plan can be built in three steps." },
+      { "key": "B", "text": "Studying late at night is harmful to your health." },
+      { "key": "C", "text": "Many students hate making plans." },
+      { "key": "D", "text": "Goals should always be kept secret." }
+    ],
+    "answer": "A",
+    "explanation": "空格位于段首，后面用 First、Then、Finally 引出三个步骤，可见本段是「三步制定学习计划」的说明文，段首句必须概括这三步，A 中的 three steps 与后文的三个序数词一一对应，是标准的主题句。B 谈熬夜，C 谈学生厌恶计划，D 谈目标保密，都无法统领 First / Then / Finally 的列举结构；C 若填入，后文应转向「为什么讨厌」，而实际后文在讲方法，逻辑断裂。段首空的判断口诀：看后文有没有列举、有没有分号或序数词，答案多半是含数字或概括词的总起句。"
+  },
+  {
+    "id": "q-eng-seven-clue-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-seven-clue"],
+    "stem": "关于七选五的设空位置与线索判断，下列说法正确的有（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["设空位置", "冠词线索", "排除法"],
+    "options": [
+      { "key": "A", "text": "空格后出现 they 且指代复数名词时，空格处应出现能与 they 呼应的复数概念" },
+      { "key": "B", "text": "空格前一句以冒号结尾时，空格处常是对前文的解释或列举" },
+      { "key": "C", "text": "段尾空只能填总结句，绝不能填承上启下的过渡句" },
+      { "key": "D", "text": "冠词 a / the 与指示代词 this / that 的出现，常暗示空格处需提供相应的名词信息" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A、B、D 都是可操作的定位线索：代词 they 要求前文有复数先行词；冒号表示后文是对前文的具体化，故空格常为解释或列举；不定冠词 a 引出新信息、定冠词 the 与 this / that 回指旧信息，据此可判断空格处该「首次提及」还是「再次提及」。C 错：段尾空虽以总结居多，但也可填承上启下的过渡句，把经验规律说成「绝不能」的绝对表述正是常见错误选项的写法。做题策略上，应先做线索明确的空，再用排除法处理疑难空。"
+  },
+  {
+    "id": "q-eng-seven-clue-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-seven-clue", "eng-seven-cohesion"],
+    "stem": "阅读下面的短文，从 A–F 六个选项中为 (1)–(4) 四个空白选出最佳选项，每项只能用一次；并简要说明你判断每个空的依据。\n\nStudying in a small group can be far more effective than studying alone — but only if the group is organised well. (1)________\n\nA group of three or four works best. With ten members, it becomes difficult for everyone to speak, and a few people end up doing all the work. (2)________\n\nPreparation matters even more than size. (3)________ Before each meeting, every member should prepare one question that he or she could not solve alone. This keeps the discussion focused and makes sure that nobody comes empty-handed.\n\nFinally, remember that a study group is not a place to chat. (4)________\n\nA. In other words, keep the group small enough for everyone to take part.\nB. If you treat it as a social club, you will leave with nothing but a good time.\nC. Here are a few rules that make a group work.\nD. The rule is simple: nobody should come empty-handed.\nE. Some students prefer to study in the library.\nF. Reading widely is also important for language learners.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["七选五", "设空位置", "衔接线索"],
+    "rubric": [
+      { "text": "(1) 选 C，并指出该句位于首段段尾、起承上启下的过渡作用，引出下文分条讲述的规则", "score": 2 },
+      { "text": "(2) 选 A，并指出该句是对本段「人数不宜过多」的总结，In other words 标明同义复述", "score": 2 },
+      { "text": "(3) 选 D，并指出空后 nobody comes empty-handed 与选项构成原词复现，是强线索", "score": 2 },
+      { "text": "(4) 选 B，并说明其与 not a place to chat 的语气呼应；同时指出 E、F 因话题偏离被排除", "score": 2 }
+    ],
+    "reference": "(1) C。(2) A。(3) D。(4) B。\n\n依据：(1) 空在首段末尾，下文以三段分述「人数、准备、复习」，C 用 Here are a few rules 预告下文，是承上启下的过渡句。(2) 空在本段末尾，前文说三四人最合适、十人则会有人包揽全部工作，A 以 In other words 作同义总结，把「人数少」落到「每人都能参与」。(3) 空前说 Preparation matters even more than size，空后句末出现 nobody comes empty-handed，与 D 的 nobody should come empty-handed 构成原词复现，且 D 位于段中起展开说明的作用。(4) 空前是否定句 is not a place to chat，B 从反面说明「把它当社交俱乐部」的后果，语气与话题都吻合。E 谈学习地点、F 谈阅读，均与「学习小组的组织」无关。",
+    "maxScore": 8,
+    "explanation": "本题考查「按设空位置判断功能，再按衔接线索锁定选项」的完整流程。四个空分别对应四种典型位置与线索：(1) 首段段尾的过渡句，靠下文的列举结构（三段分述）反推；(2) 段尾总结句，靠 In other words 这一同义复述标记确认；(3) 段中展开句，靠原词复现（come empty-handed 前后呼应）确认；(4) 段尾的评价句，靠语气一致（否定 + 后果）确认。常见失分点有三：一是只看单句语法通顺就下笔，把 C 误填到 (2)、(3)；二是忽略 In other words 与空后原词复现这类显性线索，凭翻译语感选择；三是不做全局校验——七个选项只能选五个、每项一次，最后必须回读全文检查段落是否各得其所、代词是否都有指代对象。"
+  },
+  {
+    "id": "q-eng-seven-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-seven", "eng-seven-cohesion"],
+    "stem": "阅读下面的短文，从所给连接词中选择最合适的填入 (1)–(4) 处，每词只能用一次，并说明 (1)(2) 两处的判断依据。\n\n备选连接词：However / By contrast / In short / For this reason\n\nThe number of students taking online courses has grown quickly in recent years. (1)________, not every student benefits from this way of learning. Some learners need the pressure of a classroom; without it, they keep putting off their work. (2)________, others find the freedom of online study exactly what they need, because they can arrange their time around a job or a family. (3)________, online learning is neither good nor bad in itself; what matters is whether it suits the learner. (4)________, schools should offer both kinds of courses so that students can choose.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["逻辑连接词", "语篇衔接", "因果与转折"],
+    "rubric": [
+      { "text": "(1) 填 However，并说明其表示转折：前句说网络课程兴起，后句转向「并非人人受益」", "score": 2 },
+      { "text": "(2) 填 By contrast，并说明其表示对比：前句讲需要课堂压力的学习者，后句讲喜欢自由的学习者", "score": 2 },
+      { "text": "(3) 填 In short，并说明其用于总结上文两类学生的不同情况，得出结论", "score": 1 },
+      { "text": "(4) 填 For this reason，并说明其表示因果：由「是否适合学习者」推出学校应同时开设两类课程", "score": 1 },
+      { "text": "四点判断均紧扣前后句的逻辑关系，而非仅凭译文的通顺感", "score": 2 }
+    ],
+    "reference": "(1) However (2) By contrast (3) In short (4) For this reason\n\n依据：(1) 前句陈述「选网络课的人数快速增长」，后句说「并非每个学生都能从中受益」，前后构成转折，且空后有逗号，用 However。(2) 前句讲一部分学习者离不开课堂压力（否则拖延），后句讲另一部分学习者偏爱网络课的自由（可兼顾工作与家庭），两句是两类人的对比，用 By contrast（On the other hand 亦可）。(3) 前文分别讨论了两类学习者，此处归纳「网络学习本身无好坏，关键看是否适合」，是总结，用 In short。(4) 由「关键看是否适合」这一结论推出「学校应同时开设两类课程，让学生自由选择」，是因果，用 For this reason（Therefore 亦可）。",
+    "maxScore": 8,
+    "explanation": "本题把七选五最核心的「逻辑关系判断」单独拎出来训练。四个空恰好覆盖四种关系：转折（However）、对比（By contrast）、总结（In short）、因果（For this reason），做题时应在空的前后各找一句，判断它们属于「同向补充」「反向对立」还是「前因后果」。易错点：其一，(2) 处误填 However——However 强调同一对象的转折，而此处是两类学习者的对照，用 By contrast 更准；其二，(4) 处只凭「所以」的语感填词而说不出推理链条，实际是从「适合与否」推出「两种课程并存」；其三，忽略连接词的位置与标点——句首连接词后须有逗号，而 However 与 In short 的使用语境也不同（前者转折、后者收束）。书写时注意首字母大写。"
+  }
+]

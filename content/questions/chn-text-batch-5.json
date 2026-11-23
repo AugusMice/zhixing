@@ -1,0 +1,851 @@
+[
+  {
+    "id": "q-chn-t-shufen-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-poetry"],
+    "stem": "陆游《书愤》中「楼船夜雪瓜洲渡，____」的下一句是：",
+    "difficulty": 1,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-shufen",
+    "quote": "楼船夜雪瓜洲渡，铁马秋风大散关。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["铁马秋风大散关"], "hint": "填七个字" }],
+    "explanation": "出自《书愤》颔联。上句写水战，下句写陆战，全用名词性意象并置：铁马、秋风、大散关。易错在「散」不要写成「撒」。"
+  },
+  {
+    "id": "q-chn-t-shufen-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-technique"],
+    "stem": "《书愤》中以六个名词性意象组合成句、不用一个动词而再现当年抗金壮阔场面的一联是「____，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-shufen",
+    "quote": "楼船夜雪瓜洲渡，铁马秋风大散关。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["楼船夜雪瓜洲渡"], "hint": "填七个字，写雪夜战船" },
+      { "accept": ["铁马秋风大散关"], "hint": "填七个字，写秋风铁骑" }
+    ],
+    "explanation": "题干的关键提示是「六个名词性意象」「不用动词」。这一联只把楼船、夜雪、瓜洲渡、铁马、秋风、大散关叠加，靠意象并置造出动势，后人称为「列锦」。"
+  },
+  {
+    "id": "q-chn-t-shufen-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "《书愤》尾联以「出师一表真名世，____」称颂诸葛亮，暗讽当朝再无名臣。",
+    "difficulty": 2,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-shufen",
+    "quote": "出师一表真名世，千载谁堪伯仲间。",
+    "recite": "context",
+    "blanks": [{ "accept": ["千载谁堪伯仲间"], "hint": "填七个字，以反问收束" }],
+    "explanation": "「谁堪伯仲」意为「谁能够与他相提并论」。表面颂扬诸葛亮，实则以反问讥刺南宋朝廷无人。易错字：堪、仲。"
+  },
+  {
+    "id": "q-chn-t-shufen-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words", "chn-word"],
+    "stem": "「早岁那知世事艰」中「那」的意思是：",
+    "difficulty": 2,
+    "source": "自编字词辨析（据原文）",
+    "textId": "chn-t-shufen",
+    "quote": "早岁那知世事艰，中原北望气如山。",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "那个，指示代词" },
+      { "key": "B", "text": "同「哪」，怎么、哪里" },
+      { "key": "C", "text": "那里，指地方" },
+      { "key": "D", "text": "那么，表程度" }
+    ],
+    "answer": "B",
+    "explanation": "「那知」即「哪知」，是疑问代词作状语，全句意为「年轻时哪里知道世事的艰难」。古汉语中「那」常借作「哪」，此处读 nǎ，不是远指代词。"
+  },
+  {
+    "id": "q-chn-t-shufen-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry", "chn-poem-technique"],
+    "stem": "下列对《书愤》的表述，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识题（据原文）",
+    "textId": "chn-t-shufen",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "作者陆游，字务观，号放翁，南宋爱国诗人" },
+      { "key": "B", "text": "全诗为七言律诗，共八句四联，「书愤」即书写愤慨之情" },
+      { "key": "C", "text": "「出师一表」指诸葛亮北伐前所上《出师表》" },
+      { "key": "D", "text": "「楼船夜雪」「铁马秋风」写的是作者眼前所见的实景" }
+    ],
+    "answer": "D",
+    "explanation": "「楼船夜雪瓜洲渡，铁马秋风大散关」是追忆当年宋金交战的往事（一说含想象），并非眼前实景。作此诗时作者已六十二岁，闲居多年后被起用，人在临安，不可能同时见到瓜洲渡与大散关。"
+  },
+
+  {
+    "id": "q-chn-t-linan-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-poetry"],
+    "stem": "陆游《临安春雨初霁》中「小楼一夜听春雨，____」的下一句是：",
+    "difficulty": 1,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-linan",
+    "quote": "小楼一夜听春雨，深巷明朝卖杏花。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["深巷明朝卖杏花"], "hint": "填七个字" }],
+    "explanation": "上句写夜里听雨，下句写想象中明朝的卖花声，一暗一明、一静一动。易错字：巷（不写成「港」）。"
+  },
+  {
+    "id": "q-chn-t-linan-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "《临安春雨初霁》中看似写闲适自得、实则透出客居无聊的一联是「矮纸斜行闲作草，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-linan",
+    "quote": "矮纸斜行闲作草，晴窗细乳戏分茶。",
+    "recite": "context",
+    "blanks": [{ "accept": ["晴窗细乳戏分茶"], "hint": "填七个字，写晴窗下煎茶" }],
+    "explanation": "「闲作草」「戏分茶」两个「闲」「戏」字最见心境：写草书、玩分茶都是消磨时日的雅事，愈雅愈显百无聊赖。「细乳」指煎茶时茶面泛起的白色浮沫，不是乳汁。"
+  },
+  {
+    "id": "q-chn-t-linan-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-technique"],
+    "stem": "《临安春雨初霁》尾联化用陆机「京洛多风尘，素衣化为缁」之意，表示不愿被京城风尘沾染、盼早归家：「____，____」。",
+    "difficulty": 4,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-linan",
+    "quote": "素衣莫起风尘叹，犹及清明可到家。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["素衣莫起风尘叹"], "hint": "填七个字，以「素衣」起" },
+      { "accept": ["犹及清明可到家"], "hint": "填七个字，以「犹及」起" }
+    ],
+    "explanation": "「素衣」用陆机诗意，白衣被京城风尘染黑，喻世俗污浊。「犹及」是「还赶得上」，语气中已有去意。这一联把倦于仕宦、急于归家的心情说得十分含蓄。"
+  },
+  {
+    "id": "q-chn-t-linan-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words", "chn-word"],
+    "stem": "「世味年来薄似纱」中「世味」的意思是：",
+    "difficulty": 2,
+    "source": "自编字词辨析（据原文）",
+    "textId": "chn-t-linan",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "世上的各种滋味" },
+      { "key": "B", "text": "时令风物" },
+      { "key": "C", "text": "世态人情，此指做官的兴味" },
+      { "key": "D", "text": "世俗的礼法" }
+    ],
+    "answer": "C",
+    "explanation": "「世味」在宋诗中多指世态人情、仕宦滋味。陆游此时被闲置多年，忽被召入京却只授闲职，故有「薄似纱」之叹。若解作「滋味」则与下句「谁令骑马客京华」的仕宦语境脱节。"
+  },
+  {
+    "id": "q-chn-t-linan-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry", "chn-classical-culture"],
+    "stem": "下列对《临安春雨初霁》的表述，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识题（据原文）",
+    "textId": "chn-t-linan",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "「临安」是南宋都城，即今浙江杭州；「初霁」指雨雪初停" },
+      { "key": "B", "text": "「分茶」指把煎好的茶分给客人饮用，是宋代的待客礼节" },
+      { "key": "C", "text": "「矮纸」指短小的纸，「草」指草书" },
+      { "key": "D", "text": "「犹及清明可到家」的「犹及」意为「还赶得上」" }
+    ],
+    "answer": "B",
+    "explanation": "「分茶」是宋代一种烹茶游艺（又称茶百戏），注水时以茶筅击拂，使茶汤纹脉幻成禽兽虫鱼等物象，与「分给客人喝」无关。故选 B。"
+  },
+
+  {
+    "id": "q-chn-t-guodongting-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-poetry"],
+    "stem": "张孝祥《念奴娇·过洞庭》中「玉鉴琼田三万顷，____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-guodongting",
+    "quote": "玉鉴琼田三万顷，著我扁舟一叶。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["著我扁舟一叶", "着我扁舟一叶"], "hint": "填六个字" }],
+    "explanation": "「著」同「着」，读 zhuó，安置、让。三万顷湖面只容「我」一叶扁舟，以阔衬小，境界顿开。异文作「着我扁舟一叶」，两种写法均可。"
+  },
+  {
+    "id": "q-chn-t-guodongting-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-image"],
+    "stem": "《念奴娇·过洞庭》中写月光、银河与湖水交相辉映、天上地下一样澄明的一句是「素月分辉，明河共影，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-guodongting",
+    "quote": "素月分辉，明河共影，表里俱澄澈。",
+    "recite": "context",
+    "blanks": [{ "accept": ["表里俱澄澈"], "hint": "填五个字" }],
+    "explanation": "「表里」指内外、上下，「澄澈」是清澈透明。此句既写湖光月色，又暗喻胸襟，是上片的词眼。易错字：澈（三点水，不写成「彻」）。"
+  },
+  {
+    "id": "q-chn-t-guodongting-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-technique"],
+    "stem": "《念奴娇·过洞庭》下片以「____，____，____」写舀尽长江水当酒、以北斗为酒器、邀万物为宾客，想象奇伟。",
+    "difficulty": 4,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-guodongting",
+    "quote": "尽挹西江，细斟北斗，万象为宾客。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["尽挹西江"], "hint": "填四个字，写舀尽长江" },
+      { "accept": ["细斟北斗"], "hint": "填四个字，写以北斗为酒器" },
+      { "accept": ["万象为宾客"], "hint": "填五个字，写邀万物为客" }
+    ],
+    "explanation": "三句由「取酒」到「斟酒」到「待客」，层层放大，把整个宇宙纳入一场宴席。「挹」是舀取，易误写为「揖」；「斟」是倒酒。"
+  },
+  {
+    "id": "q-chn-t-guodongting-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words", "chn-word"],
+    "stem": "「短发萧骚襟袖冷」中「萧骚」的意思是：",
+    "difficulty": 3,
+    "source": "自编字词辨析（据原文）",
+    "textId": "chn-t-guodongting",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "风声萧瑟" },
+      { "key": "B", "text": "心情萧索" },
+      { "key": "C", "text": "衣袖飘动" },
+      { "key": "D", "text": "头发稀疏" }
+    ],
+    "answer": "D",
+    "explanation": "「萧骚」本指草木稀疏，此形容短发稀落，与下句「襟袖冷」相承，写人在湖上受寒之状。若解作「风声」则与「短发」搭配不通。"
+  },
+  {
+    "id": "q-chn-t-guodongting-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry", "chn-poem-emotion"],
+    "stem": "下列对《念奴娇·过洞庭》的表述，不正确的一项是：",
+    "difficulty": 4,
+    "source": "自编文学常识题（据原文）",
+    "textId": "chn-t-guodongting",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "张孝祥，字安国，号于湖居士，南宋豪放派词人" },
+      { "key": "B", "text": "「岭海」指五岭以南近海之地，作者此前曾被贬于广南西路" },
+      { "key": "C", "text": "本词作于作者仕途顺遂、春风得意途经洞庭之时" },
+      { "key": "D", "text": "「扣舷独啸」的「啸」指撮口发出长而清越的声音" }
+    ],
+    "answer": "C",
+    "explanation": "乾道二年（1166），张孝祥在静江府任上遭谗罢官，北归途中过洞庭而作此词，故有「应念岭海经年，孤光自照，肝肺皆冰雪」的自证清白之语。C 项说「仕途顺遂、春风得意」与词意、本事皆不合。"
+  },
+
+  {
+    "id": "q-chn-t-yongyule-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-poetry"],
+    "stem": "辛弃疾《永遇乐·京口北固亭怀古》中「想当年，金戈铁马，____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-yongyule",
+    "quote": "想当年，金戈铁马，气吞万里如虎。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["气吞万里如虎"], "hint": "填六个字" }],
+    "explanation": "此句写刘裕两次北伐的声势。「气吞万里如虎」以虎喻人，写尽英雄气概。易错：不要把「气吞」写成「气吞山河」之类的成句。"
+  },
+  {
+    "id": "q-chn-t-yongyule-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-technique"],
+    "stem": "《永遇乐·京口北固亭怀古》中借刘义隆草率北伐、只落得惨败之事告诫当政者不可轻举的一层是「元嘉草草，封狼居胥，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-yongyule",
+    "quote": "元嘉草草，封狼居胥，赢得仓皇北顾。",
+    "recite": "context",
+    "blanks": [{ "accept": ["赢得仓皇北顾"], "hint": "填六个字，以「赢得」起" }],
+    "explanation": "「赢得」在这里是「只落得」，含强烈的讽刺。「仓皇北顾」写宋文帝北伐失败后登石头城北望、仓皇失措之状。此句表面咏史，实为对韩侂胄草率北伐的警告。"
+  },
+  {
+    "id": "q-chn-t-yongyule-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "《永遇乐·京口北固亭怀古》结尾以「凭谁问：____，____？」借廉颇自比，抒发虽老仍愿报国却无人过问的悲愤。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-yongyule",
+    "quote": "凭谁问：廉颇老矣，尚能饭否？",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["廉颇老矣"], "hint": "填四个字" },
+      { "accept": ["尚能饭否"], "hint": "填四个字" }
+    ],
+    "explanation": "用《史记·廉颇蔺相如列传》典：赵王派人探视廉颇，廉颇一饭斗米、肉十斤，披甲上马，以示可用，终因使者受赂诋毁而未被起用。辛弃疾此时六十六岁，与廉颇同老，故以之自况。"
+  },
+  {
+    "id": "q-chn-t-yongyule-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words", "chn-word"],
+    "stem": "「舞榭歌台，风流总被，雨打风吹去」中「风流」的意思是：",
+    "difficulty": 3,
+    "source": "自编字词辨析（据原文）",
+    "textId": "chn-t-yongyule",
+    "quote": "舞榭歌台，风流总被，雨打风吹去。",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "英雄业绩的风采、流风余韵" },
+      { "key": "B", "text": "风韵姿态" },
+      { "key": "C", "text": "放荡不羁的生活" },
+      { "key": "D", "text": "男女之间的情爱" }
+    ],
+    "answer": "A",
+    "explanation": "此句承上文孙权而来，「风流」指孙权当年建功立业的英雄风采与流风余韵，如今都被雨打风吹尽。解作「风韵姿态」或「情爱」都把豪放词读窄了。"
+  },
+  {
+    "id": "q-chn-t-yongyule-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry", "chn-classical-culture"],
+    "stem": "下列对《永遇乐·京口北固亭怀古》的表述，不正确的一项是：",
+    "difficulty": 4,
+    "source": "自编文学常识题（据原文）",
+    "textId": "chn-t-yongyule",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "「四十三年」指作此词时距北宋灭亡已四十三年" },
+      { "key": "B", "text": "京口即今江苏镇江，北固亭在城北北固山上，下临长江" },
+      { "key": "C", "text": "「寄奴」是南朝宋武帝刘裕的小名，他生长于京口" },
+      { "key": "D", "text": "「佛狸」是北魏太武帝拓跋焘的小名，佛狸祠即其南侵时所建行宫" }
+    ],
+    "answer": "A",
+    "explanation": "「四十三年」指作者绍兴三十二年（1162）率众南归，至开禧元年（1205）知镇江府作此词，前后约四十三年，与「望中犹记，烽火扬州路」相应。北宋亡于 1127 年，距此已近八十年。"
+  },
+
+  {
+    "id": "q-chn-t-qingyuan-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-poetry"],
+    "stem": "辛弃疾《青玉案·元夕》中「东风夜放花千树。____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-qingyuan",
+    "quote": "东风夜放花千树。更吹落、星如雨。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["更吹落、星如雨", "更吹落星如雨"], "hint": "填七个字（含顿号）" }],
+    "explanation": "「花千树」写满城灯火，「星如雨」写焰火纷落。两句都在写「光」，一静一动。注意「更吹落」后是顿号。"
+  },
+  {
+    "id": "q-chn-t-qingyuan-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-image"],
+    "stem": "《青玉案·元夕》中写月轮流转、鱼龙彩灯舞了整夜的一句是「凤箫声动，玉壶光转，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-qingyuan",
+    "quote": "凤箫声动，玉壶光转，一夜鱼龙舞。",
+    "recite": "context",
+    "blanks": [{ "accept": ["一夜鱼龙舞"], "hint": "填五个字" }],
+    "explanation": "「玉壶」指月亮，「光转」是月轮移动，暗示时间流逝；「鱼龙舞」指鱼形、龙形的彩灯（也兼指百戏）。三句从听觉、视觉、时间三个角度写足元夕之盛。"
+  },
+  {
+    "id": "q-chn-t-qingyuan-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "《青玉案·元夕》写遍寻不遇、忽然回首的惊喜：「众里寻他千百度，____，那人却在，____」。王国维借以喻治学第三境界。",
+    "difficulty": 4,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-qingyuan",
+    "quote": "众里寻他千百度。蓦然回首，那人却在，灯火阑珊处。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["蓦然回首"], "hint": "填四个字，写忽然回头" },
+      { "accept": ["灯火阑珊处"], "hint": "填五个字，写灯火冷落之地" }
+    ],
+    "explanation": "「蓦然」是忽然，「阑珊」是零落将尽。全词前面愈是繁华，此处愈见清冷，那位不肯趋附的女子正是词人自况。易错字：蓦（草字头下「马」）、阑（门内「柬」）。"
+  },
+  {
+    "id": "q-chn-t-qingyuan-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words", "chn-classical-culture"],
+    "stem": "「蛾儿雪柳黄金缕」中「蛾儿雪柳」指的是：",
+    "difficulty": 3,
+    "source": "自编字词辨析（据原文）",
+    "textId": "chn-t-qingyuan",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "早春的蛾与柳，泛指春景" },
+      { "key": "B", "text": "花灯的一种样式" },
+      { "key": "C", "text": "宋代妇女元宵夜所戴的应节头饰" },
+      { "key": "D", "text": "元宵所卖的应景点心" }
+    ],
+    "answer": "C",
+    "explanation": "「蛾儿」「雪柳」「黄金缕」都是宋代女子元宵所戴的头饰，以纸、绢、金线制成，行走时颤动生姿。下句「笑语盈盈暗香去」正写戴此饰物的观灯女子。"
+  },
+  {
+    "id": "q-chn-t-qingyuan-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry", "chn-poem-language"],
+    "stem": "下列对《青玉案·元夕》的表述，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识题（据原文）",
+    "textId": "chn-t-qingyuan",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "「青玉案」是词牌名，取自汉张衡《四愁诗》「美人赠我锦绣段，何以报之青玉案」" },
+      { "key": "B", "text": "「灯火阑珊」形容灯火通明、热闹非凡" },
+      { "key": "C", "text": "辛弃疾，字幼安，号稼轩，南宋豪放派代表词人" },
+      { "key": "D", "text": "词中「玉壶」指月亮，也可指玉制的灯" }
+    ],
+    "answer": "B",
+    "explanation": "「阑珊」是零落、将尽，「灯火阑珊」指灯火稀疏冷落，正与全词前面的火树银花形成反衬，也是「那人」孤高不群的注脚。把它解成「热闹非凡」是望文生义，属高频误读。"
+  },
+
+  {
+    "id": "q-chn-t-hexinlang-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-poetry"],
+    "stem": "刘克庄《贺新郎·国脉微如缕》中「未必人间无好汉，____？」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-hexinlang",
+    "quote": "未必人间无好汉，谁与宽些尺度？",
+    "recite": "direct",
+    "blanks": [{ "accept": ["谁与宽些尺度"], "hint": "填六个字，以反问收" }],
+    "explanation": "「谁与」是「谁肯」「谁能」，「宽些尺度」指放宽用人的标准。此句直指南宋用人拘守资格、不敢破格的积弊。"
+  },
+  {
+    "id": "q-chn-t-hexinlang-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-technique"],
+    "stem": "《贺新郎·国脉微如缕》中以「____，____」连用黄石公授张良兵书、骊山老母授李筌兵法两个传说，说明英雄豪杰并非神仙传授。",
+    "difficulty": 5,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-hexinlang",
+    "quote": "岂有谷城公付授，也不干、曾遇骊山母。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["岂有谷城公付授"], "hint": "填七个字，以「岂有」起" },
+      { "accept": ["也不干、曾遇骊山母"], "hint": "填八个字（含顿号），以「也不干」起" }
+    ],
+    "explanation": "两句以反问和否定撇清「英雄出于神授」的迷信：韩世忠出身行伍，既无黄石公授书，也未遇骊山老母，照样「谈笑起，两河路」。这是为「破格用人」立论的关键一驳。"
+  },
+  {
+    "id": "q-chn-t-hexinlang-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "《贺新郎·国脉微如缕》中强调贤才胜于坚城、以张巡许远守睢阳为证的一句是「自古一贤能制难，____？」",
+    "difficulty": 4,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-hexinlang",
+    "quote": "自古一贤能制难，有金汤、便可无张许？",
+    "recite": "context",
+    "blanks": [{ "accept": ["有金汤、便可无张许"], "hint": "填七个字（含顿号）" }],
+    "explanation": "「金汤」是金城汤池的省称，指坚固的城池；「张许」指安史之乱中死守睢阳的张巡、许远。句意是：城再坚固，没有良将也守不住。这一反问把全词的用人主张推向结论。"
+  },
+  {
+    "id": "q-chn-t-hexinlang-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words", "chn-word"],
+    "stem": "「少时棋柝曾联句」中「棋柝」的意思是：",
+    "difficulty": 3,
+    "source": "自编字词辨析（据原文）",
+    "textId": "chn-t-hexinlang",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "棋盘和棋子" },
+      { "key": "B", "text": "下棋与击柝（军中打更），代指军旅中的夜生活" },
+      { "key": "C", "text": "棋局与战阵" },
+      { "key": "D", "text": "棋子和木梆，泛指杂物" }
+    ],
+    "answer": "B",
+    "explanation": "「柝」是打更用的木梆。「棋柝」指夜间对弈与听更，写少年时与友人（实之）同处幕府的情景，与下句「叹而今、登楼揽镜」的衰老形成对照。"
+  },
+  {
+    "id": "q-chn-t-hexinlang-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry", "chn-classical-culture"],
+    "stem": "下列对《贺新郎·国脉微如缕》的表述，不正确的一项是：",
+    "difficulty": 4,
+    "source": "自编文学常识题（据原文）",
+    "textId": "chn-t-hexinlang",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "刘克庄，字潜夫，号后村，南宋后期豪放派词人" },
+      { "key": "B", "text": "「国脉微如缕」以一根细线比喻国家命脉的危急" },
+      { "key": "C", "text": "「投笔」用班超典，「题柱」用司马相如典，两者都指投军报国" },
+      { "key": "D", "text": "「韩五」指抗金名将韩世忠，他排行第五，出身行伍" }
+    ],
+    "answer": "C",
+    "explanation": "「投笔」用班超投笔从戎，确指弃文就武、杀敌报国；但「题柱」用司马相如过升仙桥题柱「不乘高车驷马，不过此桥」之典，指追求功名富贵。作者说「快投笔，莫题柱」，正是要人弃功名而赴国难，两者取向相反。"
+  },
+
+  {
+    "id": "q-chn-t-yangzhou-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-poetry"],
+    "stem": "姜夔《扬州慢·淮左名都》中「二十四桥仍在，____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-yangzhou",
+    "quote": "二十四桥仍在，波心荡、冷月无声。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["波心荡、冷月无声", "波心荡冷月无声"], "hint": "填七个字（含顿号）" }],
+    "explanation": "桥还在，人已非；水波摇荡而月色无声。「无声」二字把冷月写成有情，愈静愈见凄凉。注意「波心荡」后是顿号。"
+  },
+  {
+    "id": "q-chn-t-yangzhou-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-technique"],
+    "stem": "《扬州慢》中写金兵南侵之后，连废弃的池台、高大的树木都厌恶再谈起战争，以物拟人的名句是「自胡马窥江去后，废池乔木，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-yangzhou",
+    "quote": "自胡马窥江去后，废池乔木，犹厌言兵。",
+    "recite": "context",
+    "blanks": [{ "accept": ["犹厌言兵"], "hint": "填四个字" }],
+    "explanation": "「犹厌言兵」的主语是「废池乔木」，草木尚且厌谈兵事，何况劫后余生的人。以物拟人，把战祸之惨写得含蓄而沉痛，是这首词最见功力处。"
+  },
+  {
+    "id": "q-chn-t-yangzhou-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-image"],
+    "stem": "《扬州慢》中写昔日「春风十里」的繁华长街如今长满荠菜野麦的一联是「____，____」。",
+    "difficulty": 4,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-yangzhou",
+    "quote": "过春风十里，尽荠麦青青。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["过春风十里"], "hint": "填五个字，用杜牧诗句" },
+      { "accept": ["尽荠麦青青"], "hint": "填五个字" }
+    ],
+    "explanation": "「春风十里」用杜牧《赠别》「春风十里扬州路」，本是写繁华；下一句「尽荠麦青青」陡然跌落，满街只剩野草。今昔对照，全在这一联。易错字：荠（草字头，荠菜）。"
+  },
+  {
+    "id": "q-chn-t-yangzhou-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words", "chn-word"],
+    "stem": "「杜郎俊赏，算而今重到须惊」中「俊赏」的意思是：",
+    "difficulty": 3,
+    "source": "自编字词辨析（据原文）",
+    "textId": "chn-t-yangzhou",
+    "quote": "杜郎俊赏，算而今重到须惊。",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "英俊潇洒的风度" },
+      { "key": "B", "text": "美好的游赏经历" },
+      { "key": "C", "text": "杰出的政治才干" },
+      { "key": "D", "text": "俊逸超群的赏鉴之力" }
+    ],
+    "answer": "D",
+    "explanation": "「俊赏」指高超的鉴赏力。杜牧当年在扬州写下许多咏扬州的名句，可谓最懂扬州之美的人；如今他若重来，也要为扬州的残破而震惊。这样写比直说「扬州残破」更有力。"
+  },
+  {
+    "id": "q-chn-t-yangzhou-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry", "chn-poem-emotion"],
+    "stem": "下列对《扬州慢·淮左名都》的表述，不正确的一项是：",
+    "difficulty": 4,
+    "source": "自编文学常识题（据原文）",
+    "textId": "chn-t-yangzhou",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "姜夔，字尧章，号白石道人，南宋词人、音乐家，此词为其自度曲" },
+      { "key": "B", "text": "小序中「千岩老人」指萧德藻，他认为此词有《黍离》之悲" },
+      { "key": "C", "text": "「黍离之悲」出自《诗经·王风·黍离》，后指故国残破的悲痛" },
+      { "key": "D", "text": "「渐黄昏，清角吹寒，都在空城」以号角声反衬扬州城的繁华热闹" }
+    ],
+    "answer": "D",
+    "explanation": "「清角吹寒」是凄清的号角在寒风中吹响，落点在「空城」二字——城是空的，所以号角声才显得格外凄冷。全词基调是黍离之悲，绝无「繁华热闹」之意。"
+  },
+
+  {
+    "id": "q-chn-t-changting-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-poetry"],
+    "stem": "王实甫《长亭送别》【端正好】中「碧云天，____，西风紧，北雁南飞」的空缺处是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-changting",
+    "quote": "碧云天，黄花地，西风紧，北雁南飞。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["黄花地"], "hint": "填三个字" }],
+    "explanation": "此句化用范仲淹《苏幕遮》「碧云天，黄叶地，秋色连波」。「黄花」即菊花，与「碧云」形成黄碧相映的秋色。注意是「黄花地」，不是「黄叶地」。"
+  },
+  {
+    "id": "q-chn-t-changting-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-technique"],
+    "stem": "【端正好】中以设问把满林红叶说成离人血泪所染的两句是「____？____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-changting",
+    "quote": "晓来谁染霜林醉？总是离人泪。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["晓来谁染霜林醉"], "hint": "填七个字，以设问起" },
+      { "accept": ["总是离人泪"], "hint": "填五个字" }
+    ],
+    "explanation": "「霜林醉」是把经霜的枫林比作醉后酡颜，已是一层比喻；再用设问一问，答以「总是离人泪」，把自然之红说成泪血所染，景语遂成情语。这是《西厢记》最著名的化景为情之笔。"
+  },
+  {
+    "id": "q-chn-t-changting-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "【滚绣球】中写莺莺想用柳丝系住马、请疏林挂住夕阳，以留住时间的两句是「____，____」。",
+    "difficulty": 4,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-changting",
+    "quote": "柳丝长玉骢难系，恨不倩疏林挂住斜晖。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["柳丝长玉骢难系"], "hint": "填七个字，以「柳丝长」起" },
+      { "accept": ["恨不倩疏林挂住斜晖"], "hint": "填九个字，以「恨不倩」起" }
+    ],
+    "explanation": "上句是留人而留不住，下句是留时间而留不住，一实一虚，层层加紧。「倩」读 qìng，是「请、央求」；「斜晖」指西斜的日光。易错字：骢、倩、晖。"
+  },
+  {
+    "id": "q-chn-t-changting-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words", "chn-word"],
+    "stem": "「马儿迍迍的行，车儿快快的随」中「迍迍」的意思是：",
+    "difficulty": 3,
+    "source": "自编字词辨析（据原文）",
+    "textId": "chn-t-changting",
+    "quote": "马儿迍迍的行，车儿快快的随，却告了相思回避，破题儿又早别离。",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "行动迟缓的样子" },
+      { "key": "B", "text": "匆忙急促" },
+      { "key": "C", "text": "颠簸摇晃" },
+      { "key": "D", "text": "徘徊不前" }
+    ],
+    "answer": "A",
+    "explanation": "「迍迍」读 zhūn zhūn，形容行动迟缓。张生骑马在前，因不舍而慢行；莺莺坐车在后，因不舍而快随——一慢一快，正写两人都不愿走远、只想贴近的心情。"
+  },
+  {
+    "id": "q-chn-t-changting-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry", "chn-classical-culture"],
+    "stem": "下列对《长亭送别》的表述，不正确的一项是：",
+    "difficulty": 4,
+    "source": "自编文学常识题（据原文）",
+    "textId": "chn-t-changting",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "元杂剧一折中的曲词由生、旦、净、丑等角色轮流演唱，此折即多人轮唱" },
+      { "key": "B", "text": "王实甫，元代杂剧作家，《西厢记》写张生与崔莺莺的爱情故事" },
+      { "key": "C", "text": "本折是《西厢记》第四本第三折，写莺莺在长亭送张生赴京应试" },
+      { "key": "D", "text": "「兀的不闷杀人也么哥」中「也么哥」是元曲中表感叹的语助词，无实义" }
+    ],
+    "answer": "A",
+    "explanation": "元杂剧一本四折，每折的套曲通常由一人主唱（旦本由正旦唱，末本由正末唱）。《长亭送别》属旦本，全部曲词由正旦（崔莺莺）一人独唱，其他角色只有宾白，故 A 项「多人轮唱」错误。"
+  },
+
+  {
+    "id": "q-chn-t-chaotianzi-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-poetry"],
+    "stem": "王磐《朝天子·咏喇叭》开头「喇叭，唢呐，____」的一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-chaotianzi",
+    "quote": "喇叭，唢呐，曲儿小腔儿大。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["曲儿小腔儿大"], "hint": "填六个字" }],
+    "explanation": "「曲儿小腔儿大」是全曲的枢纽：曲子短小而声音大，正喻宦官本事不大而气焰嚣张。下文「抬声价」「吹翻」「吹伤」都由此生发。"
+  },
+  {
+    "id": "q-chn-t-chaotianzi-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-technique"],
+    "stem": "《朝天子·咏喇叭》中写宦官所乘官船往来频繁、全靠喇叭抬高威风的一句是「官船来往乱如麻，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-chaotianzi",
+    "quote": "官船来往乱如麻，全仗你抬声价。",
+    "recite": "context",
+    "blanks": [{ "accept": ["全仗你抬声价"], "hint": "填六个字" }],
+    "explanation": "「全仗你」的「你」表面指喇叭，实指宦官；「抬声价」是抬高身价威风。一个「仗」字点破：宦官的威风全靠虚张声势撑起来。易错：仗（单人旁，不写成「杖」）。"
+  },
+  {
+    "id": "q-chn-t-chaotianzi-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "《朝天子·咏喇叭》结尾以三个「吹」字层层递进，写百姓被搜刮殆尽：「____，____，____！」",
+    "difficulty": 4,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-chaotianzi",
+    "quote": "眼见的吹翻了这家，吹伤了那家，只吹的水尽鹅飞罢！",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["眼见的吹翻了这家"], "hint": "填八个字，以「眼见的」起" },
+      { "accept": ["吹伤了那家"], "hint": "填六个字" },
+      { "accept": ["只吹的水尽鹅飞罢"], "hint": "填八个字，以「只吹的」起" }
+    ],
+    "explanation": "由「这家」到「那家」，再到「水尽鹅飞」，范围层层扩大，程度层层加深。「水尽鹅飞」喻民财被搜刮一空，不是写天旱。注意「眼见的」的「的」同「得」。"
+  },
+  {
+    "id": "q-chn-t-chaotianzi-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words", "chn-word"],
+    "stem": "「哪里去辨甚么真共假」中「共」的意思是：",
+    "difficulty": 2,
+    "source": "自编字词辨析（据原文）",
+    "textId": "chn-t-chaotianzi",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "共同，一起" },
+      { "key": "B", "text": "总共，一共" },
+      { "key": "C", "text": "和，与" },
+      { "key": "D", "text": "供给" }
+    ],
+    "answer": "C",
+    "explanation": "「真共假」即「真和假」，「共」是连词，相当于「与、和」，元曲中常见此种用法。全句意为：哪里还分得清什么是真、什么是假（指宦官假借朝廷之名勒索）。"
+  },
+  {
+    "id": "q-chn-t-chaotianzi-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry", "chn-poem-technique"],
+    "stem": "下列对《朝天子·咏喇叭》的表述，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识题（据原文）",
+    "textId": "chn-t-chaotianzi",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "王磐，字鸿渐，号西楼，明代散曲家，著有《王西楼乐府》" },
+      { "key": "B", "text": "「水尽鹅飞」意为水被晒干、鹅四散飞走，是写天旱成灾" },
+      { "key": "C", "text": "「朝天子」是曲牌名，属北曲中吕宫" },
+      { "key": "D", "text": "全曲借喇叭、唢呐讽刺宦官恃势逞威、鱼肉百姓，属于咏物讽刺" }
+    ],
+    "answer": "B",
+    "explanation": "「水尽鹅飞」是比喻：水被吸干，鹅也无处安身，喻百姓被宦官搜刮得倾家荡产。全曲写的是人祸而非天灾，若解作天旱便离开了讽刺宦官的主题。"
+  },
+
+  {
+    "id": "q-chn-t-shanyangyang-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation", "chn-poetry"],
+    "stem": "张养浩《山坡羊·潼关怀古》中「峰峦如聚，____，山河表里潼关路」的空缺处是：",
+    "difficulty": 1,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-shanyangyang",
+    "quote": "峰峦如聚，波涛如怒，山河表里潼关路。",
+    "recite": "direct",
+    "blanks": [{ "accept": ["波涛如怒"], "hint": "填四个字" }],
+    "explanation": "「聚」写群山攒拥，「怒」写黄河奔涌，两个动词把静景写活。潼关北临黄河、西接华山，故云「山河表里」。"
+  },
+  {
+    "id": "q-chn-t-shanyangyang-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-emotion"],
+    "stem": "《山坡羊·潼关怀古》结尾由怀古转入议论，揭示历代王朝兴亡都给百姓带来苦难的两句是「兴，____；亡，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-shanyangyang",
+    "quote": "兴，百姓苦；亡，百姓苦。",
+    "recite": "context",
+    "blanks": [
+      { "accept": ["百姓苦"], "hint": "填三个字" },
+      { "accept": ["百姓苦"], "hint": "填三个字（与上格同）" }
+    ],
+    "explanation": "「兴」与「亡」对举，结论却是同一个「百姓苦」，形式上像格言，力量上像判决。这八个字把怀古提升为对百姓命运的悲悯，是元曲中最沉痛的一笔。"
+  },
+  {
+    "id": "q-chn-t-shanyangyang-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": ["chn-dictation-context", "chn-poem-image"],
+    "stem": "《山坡羊·潼关怀古》中写秦汉宫殿遗址、感叹千万间宫室化为尘土的一句是「伤心秦汉经行处，____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-shanyangyang",
+    "quote": "伤心秦汉经行处，宫阙万间都做了土。",
+    "recite": "context",
+    "blanks": [{ "accept": ["宫阙万间都做了土"], "hint": "填八个字" }],
+    "explanation": "「经行处」指经过的地方，即秦汉宫殿的遗址。「宫阙万间」与「都做了土」形成巨大落差，为结尾「百姓苦」的议论蓄势。易错字：阙（门内「柬」）、做（教材作「做」）。"
+  },
+  {
+    "id": "q-chn-t-shanyangyang-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-classical-words", "chn-word"],
+    "stem": "「望西都，意踌躇」中「踌躇」的意思是：",
+    "difficulty": 3,
+    "source": "自编字词辨析（据原文）",
+    "textId": "chn-t-shanyangyang",
+    "quote": "望西都，意踌躇。",
+    "recite": "word",
+    "options": [
+      { "key": "A", "text": "犹豫不决，拿不定主意" },
+      { "key": "B", "text": "心绪起伏，感慨万千" },
+      { "key": "C", "text": "徘徊不前，来回走动" },
+      { "key": "D", "text": "志得意满，意气风发" }
+    ],
+    "answer": "B",
+    "explanation": "「踌躇」在古诗文中除「犹豫」外，还可表示心潮起伏、感慨万端。此处作者遥望长安故都，想到历代王朝的兴亡，正是一片翻涌的感慨，故不能解作「拿不定主意」。"
+  },
+  {
+    "id": "q-chn-t-shanyangyang-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": ["chn-poetry", "chn-classical-culture"],
+    "stem": "下列对《山坡羊·潼关怀古》的表述，不正确的一项是：",
+    "difficulty": 3,
+    "source": "自编文学常识题（据原文）",
+    "textId": "chn-t-shanyangyang",
+    "recite": "culture",
+    "options": [
+      { "key": "A", "text": "张养浩，字希孟，号云庄，元代散曲家，此曲作于赴陕西赈灾途中" },
+      { "key": "B", "text": "「山坡羊」是曲牌名，属北曲中吕宫" },
+      { "key": "C", "text": "「山河表里」是说潼关外有华山、内有黄河，故称「表里」" },
+      { "key": "D", "text": "「西都」指长安，西汉建都于此，与东都洛阳相对" }
+    ],
+    "answer": "C",
+    "explanation": "「山河表里」是说潼关外有黄河、内有华山（华山在潼关之西、关中之内），黄河为表、华山为里，故称表里山河。C 项把内外说反了。"
+  }
+]

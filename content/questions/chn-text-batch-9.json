@@ -1,0 +1,1114 @@
+[
+  {
+    "id": "q-chn-t-xiangjixuan-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《项脊轩志》中「然余居于此，____」的下一句是：",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-xiangjixuan",
+    "quote": "然余居于此，多可喜，亦多可悲。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "多可喜，亦多可悲"
+        ],
+        "hint": "填七个字，两个「多」字领起"
+      }
+    ],
+    "explanation": "这是全文的结构句，上承轩中可喜之事，下启家庭变故与悼亡之悲。易错处是把「亦多可悲」写成「亦多可悲矣」，原文无「矣」。"
+  },
+  {
+    "id": "q-chn-t-xiangjixuan-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《项脊轩志》结尾「庭有枇杷树，吾妻死之年所手植也，____」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-xiangjixuan",
+    "quote": "庭有枇杷树，吾妻死之年所手植也，今已亭亭如盖矣。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "今已亭亭如盖矣"
+        ],
+        "hint": "填六个字，形容树已高大如伞"
+      }
+    ],
+    "explanation": "以树写人，树愈茂而人愈远，是「以景结情」的典范。注意「亭亭」不写成「婷婷」，「盖」指伞盖。"
+  },
+  {
+    "id": "q-chn-t-xiangjixuan-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "归有光在《项脊轩志》中用「____」描写十五月夜桂影摇曳、惹人喜爱的景象，是全篇最富诗意的画面。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-xiangjixuan",
+    "quote": "三五之夜，明月半墙，桂影斑驳，风移影动，珊珊可爱。",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "三五之夜，明月半墙，桂影斑驳，风移影动，珊珊可爱"
+        ],
+        "hint": "四句二十二字，先点时间，再写月、影、风"
+      }
+    ],
+    "explanation": "「三五」指农历十五；「斑驳」写桂影错落；「珊珊」形容树影移动的美好姿态。教材作「珊珊」，不作「姗姗」，默写按教材。"
+  },
+  {
+    "id": "q-chn-t-xiangjixuan-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "《项脊轩志》「迨诸父异爨，内外多置小门墙」中「迨」的意思是（　）",
+    "difficulty": 2,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-xiangjixuan",
+    "quote": "迨诸父异爨，内外多置小门墙，往往而是。",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "等到"
+      },
+      {
+        "key": "B",
+        "text": "趁着"
+      },
+      {
+        "key": "C",
+        "text": "追赶"
+      },
+      {
+        "key": "D",
+        "text": "及得上"
+      }
+    ],
+    "answer": "A",
+    "explanation": "「迨」作「等到」讲，与「逮」同义，「迨诸父异爨」即等到伯父叔父们分家。「趁」义虽相近，但此处强调的是时间上的「到……时」，故选 A。"
+  },
+  {
+    "id": "q-chn-t-xiangjixuan-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "关于《项脊轩志》及作者归有光，下列表述不正确的一项是（　）",
+    "difficulty": 3,
+    "source": "自编文学常识练习",
+    "textId": "chn-t-xiangjixuan",
+    "quote": "余既为此志，后五年，吾妻来归。",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "归有光是明代唐宋派代表作家，主张文章要「本色」，反对模拟古人。"
+      },
+      {
+        "key": "B",
+        "text": "「项脊轩」是归有光书斋的名字，本文以轩为线索贯串全篇。"
+      },
+      {
+        "key": "C",
+        "text": "本文是一篇典型的台阁体文章，以颂圣颂德为能事，情感庄重肃穆。"
+      },
+      {
+        "key": "D",
+        "text": "文中「余既为此志」以下数段是后来补写的，写亡妻旧事，故有「续记」之说。"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本文写家常琐事、写一己哀乐，正是台阁体的反面。归有光以「明文第一」著称，其文清淡朴素、以情动人，与台阁体的雍容颂圣截然不同。"
+  },
+  {
+    "id": "q-chn-t-songdongyang-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《送东阳马生序》开篇「余幼时即嗜学。家贫，____」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-songdongyang",
+    "quote": "余幼时即嗜学。家贫，无从致书以观。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "无从致书以观"
+        ],
+        "hint": "填六个字，「致」是取得"
+      }
+    ],
+    "explanation": "「致」是「取得、得到」，不是「送达」。这句交代求学之难的第一层——得书难，为下文借书手抄作铺垫。"
+  },
+  {
+    "id": "q-chn-t-songdongyang-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《送东阳马生序》中「以中有足乐者，____」一句道出精神富足可战胜物质匮乏。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-songdongyang",
+    "quote": "以中有足乐者，不知口体之奉不若人也。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "不知口体之奉不若人也"
+        ],
+        "hint": "填九个字，「口体之奉」指吃的穿的"
+      }
+    ],
+    "explanation": "「口体之奉」即供养口和身体的物质享受。此句是全文文眼，把「缊袍敝衣」而不慕艳的原因说透。"
+  },
+  {
+    "id": "q-chn-t-songdongyang-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "宋濂在《送东阳马生序》中以「____」极写抄书时的严寒之苦，而自己仍不懈怠。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-songdongyang",
+    "quote": "天大寒，砚冰坚，手指不可屈伸，弗之怠。",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "天大寒，砚冰坚，手指不可屈伸，弗之怠"
+        ],
+        "hint": "四句十五字，从天气写到砚台、手指，最后落到态度"
+      }
+    ],
+    "explanation": "「弗之怠」是宾语前置，即「弗怠之」，不放松抄书。「砚冰坚」指砚台里的墨汁结成硬冰，不是砚台本身结冰。"
+  },
+  {
+    "id": "q-chn-t-songdongyang-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "《送东阳马生序》「录毕，走送之，不敢稍逾约」中「走」的意思是（　）",
+    "difficulty": 2,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-songdongyang",
+    "quote": "录毕，走送之，不敢稍逾约。",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "行走"
+      },
+      {
+        "key": "B",
+        "text": "逃跑"
+      },
+      {
+        "key": "C",
+        "text": "跑，快步"
+      },
+      {
+        "key": "D",
+        "text": "离开"
+      }
+    ],
+    "answer": "C",
+    "explanation": "文言中「走」是「跑」，「行」才是「走」。「走送之」是跑着去送还，正见其守信之切、还书之速。"
+  },
+  {
+    "id": "q-chn-t-songdongyang-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "《送东阳马生序》的文体是（　）",
+    "difficulty": 2,
+    "source": "自编文学常识练习",
+    "textId": "chn-t-songdongyang",
+    "quote": "盖余之勤且艰若此。",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "书序，写在著作前面，说明写作缘起与体例"
+      },
+      {
+        "key": "B",
+        "text": "赠序，临别赠言，用以勉励、规劝友人后辈"
+      },
+      {
+        "key": "C",
+        "text": "表，臣子向君主陈情言事的奏章"
+      },
+      {
+        "key": "D",
+        "text": "记，记事写景、抒发感慨的散文"
+      }
+    ],
+    "answer": "B",
+    "explanation": "「序」有书序、赠序两类。本文是宋濂写给太学生马君则的临别赠言，以自身经历勉励后学，属赠序，与《兰亭集序》的书序性质不同。"
+  },
+  {
+    "id": "q-chn-t-dengtaishan-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《登泰山记》中「苍山负雪，____」写雪光映照南天，是全文最著名的写景句。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-dengtaishan",
+    "quote": "及既上，苍山负雪，明烛天南。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "明烛天南"
+        ],
+        "hint": "填四个字，「烛」作动词"
+      }
+    ],
+    "explanation": "「烛」是名词作动词，照亮。「负」把山写活，像背负积雪；「烛」把雪光写亮。四字而境界全出。"
+  },
+  {
+    "id": "q-chn-t-dengtaishan-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《登泰山记》写日出前云色变化：「极天云一线异色，____」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-dengtaishan",
+    "quote": "极天云一线异色，须臾成五采。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "须臾成五采"
+        ],
+        "hint": "填五个字，「五采」通「五彩」"
+      }
+    ],
+    "explanation": "「须臾」是片刻；「五采」教材作「采」，通「彩」。此句写日出前云霞由一线异色骤变为五彩，节奏极快。"
+  },
+  {
+    "id": "q-chn-t-dengtaishan-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "姚鼐在《登泰山记》中以「____」一句，用比喻写出半山腰云雾停留不散的景象。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-dengtaishan",
+    "quote": "望晚日照城郭，汶水、徂徕如画，而半山居雾若带然。",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "而半山居雾若带然"
+        ],
+        "hint": "填七个字，「居」是停留"
+      }
+    ],
+    "explanation": "「居雾」是停留不动的雾，「若带然」以带喻雾，写其横束山腰之形。此句与「苍山负雪」同为色彩与光影交织的画面。"
+  },
+  {
+    "id": "q-chn-t-dengtaishan-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "《登泰山记》「余以乾隆三十九年十二月，自京师乘风雪」中「乘」的意思是（　）",
+    "difficulty": 2,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-dengtaishan",
+    "quote": "余以乾隆三十九年十二月，自京师乘风雪，历齐河、长清。",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "乘坐"
+      },
+      {
+        "key": "B",
+        "text": "冒着"
+      },
+      {
+        "key": "C",
+        "text": "趁着"
+      },
+      {
+        "key": "D",
+        "text": "登上"
+      }
+    ],
+    "answer": "B",
+    "explanation": "「乘风雪」是冒着风雪，与「乘奔御风」的「乘」（驾驭）不同。此处写作者辞官后冒雪赴泰山的行程之艰。"
+  },
+  {
+    "id": "q-chn-t-dengtaishan-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "关于《登泰山记》，下列表述正确的一项是（　）",
+    "difficulty": 3,
+    "source": "自编文学常识练习",
+    "textId": "chn-t-dengtaishan",
+    "quote": "桐城姚鼐记。",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "作者姚鼐是清代桐城派集大成者，主张义理、考据、辞章三者兼备。"
+      },
+      {
+        "key": "B",
+        "text": "本文是一篇骈体游记，通篇对偶，辞藻华美。"
+      },
+      {
+        "key": "C",
+        "text": "文中「戊申晦」指戊申年除夕，与下文「五鼓」同属纪年。"
+      },
+      {
+        "key": "D",
+        "text": "结尾「桐城姚鼐记」是为标明写作时间，与流派无关。"
+      }
+    ],
+    "answer": "A",
+    "explanation": "B 项误，本文是散体，语言简净；C 项「晦」是月末，「戊申」是纪日，「五鼓」是纪时，都不是纪年；D 项「桐城」正是籍贯兼流派标识。"
+  },
+  {
+    "id": "q-chn-t-yuwosuoyu-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《鱼我所欲也》中「生，亦我所欲也；义，亦我所欲也。二者不可得兼，____」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-yuwosuoyu",
+    "quote": "二者不可得兼，舍生而取义者也。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "舍生而取义者也"
+        ],
+        "hint": "填七个字，与上文「舍鱼而取熊掌」相对"
+      }
+    ],
+    "explanation": "上句以鱼与熊掌设喻，此句揭出本旨。「舍生取义」由此成为成语。注意「义」前不能漏「取」。"
+  },
+  {
+    "id": "q-chn-t-yuwosuoyu-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《鱼我所欲也》中「非独贤者有是心也，人皆有之，____」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-yuwosuoyu",
+    "quote": "非独贤者有是心也，人皆有之，贤者能勿丧耳。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "贤者能勿丧耳"
+        ],
+        "hint": "填六个字，「丧」是丧失"
+      }
+    ],
+    "explanation": "这是孟子性善论的关键句：羞恶之心人人本有，贤者只是不失掉它。「勿丧」与下文「失其本心」遥相呼应。"
+  },
+  {
+    "id": "q-chn-t-yuwosuoyu-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《鱼我所欲也》中以「____」两句，写饥饿的路人和乞丐宁可饿死也不接受侮辱性的施舍。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-yuwosuoyu",
+    "quote": "呼尔而与之，行道之人弗受；蹴尔而与之，乞人不屑也。",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "呼尔而与之，行道之人弗受；蹴尔而与之，乞人不屑也"
+        ],
+        "hint": "两组对句，「呼尔」「蹴尔」都是轻慢之态"
+      }
+    ],
+    "explanation": "「呼尔」是吆喝，「蹴尔」是用脚踢，都指不尊重地给予。「不屑」是不值得一看，即拒绝。此例为下文「万钟则不辩礼义而受之」作反衬。"
+  },
+  {
+    "id": "q-chn-t-yuwosuoyu-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "《鱼我所欲也》「死亦我所恶，所恶有甚于死者，故患有所不辟也」中「辟」的意思是（　）",
+    "difficulty": 2,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-yuwosuoyu",
+    "quote": "故患有所不辟也。",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "开辟"
+      },
+      {
+        "key": "B",
+        "text": "通「避」，躲避"
+      },
+      {
+        "key": "C",
+        "text": "通「僻」，偏僻"
+      },
+      {
+        "key": "D",
+        "text": "驳斥"
+      }
+    ],
+    "answer": "B",
+    "explanation": "「辟」通「避」，躲避。同段「则凡可以辟患者何不为也」的「辟」同此。默写时须按教材写「辟」，不可径写作「避」。"
+  },
+  {
+    "id": "q-chn-t-yuwosuoyu-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "关于《鱼我所欲也》，下列表述不正确的一项是（　）",
+    "difficulty": 3,
+    "source": "自编文学常识练习",
+    "textId": "chn-t-yuwosuoyu",
+    "quote": "此之谓失其本心。",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "本文选自《孟子·告子上》，是孟子论述人性本善的重要篇章。"
+      },
+      {
+        "key": "B",
+        "text": "孟子名轲，战国时期邹人，是儒家学派仅次于孔子的代表人物。"
+      },
+      {
+        "key": "C",
+        "text": "《孟子》一书由孟子本人独力写成，全书为整齐的四言韵语。"
+      },
+      {
+        "key": "D",
+        "text": "「本心」指人固有的羞恶之心，与孟子「性善」的主张一致。"
+      }
+    ],
+    "answer": "C",
+    "explanation": "《孟子》是孟子及其弟子万章等人共同编订的语录体散文，以对话、论辩为主，并非四言韵语。C 项两处皆误。"
+  },
+  {
+    "id": "q-chn-t-shengyuhuan-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《生于忧患，死于安乐》中「故天将降大任于是人也，必先苦其心志，____」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-shengyuhuan",
+    "quote": "故天将降大任于是人也，必先苦其心志，劳其筋骨。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "劳其筋骨"
+        ],
+        "hint": "填四个字，与「苦其心志」结构相同"
+      }
+    ],
+    "explanation": "「苦」「劳」都是使动用法：使他的心志痛苦，使他的筋骨劳累。注意教材作「是人」，不作「斯人」。"
+  },
+  {
+    "id": "q-chn-t-shengyuhuan-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《生于忧患，死于安乐》中「入则无法家拂士，____，国恒亡」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-shengyuhuan",
+    "quote": "入则无法家拂士，出则无敌国外患者，国恒亡。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "出则无敌国外患者"
+        ],
+        "hint": "填八个字，与「入则无法家拂士」相对"
+      }
+    ],
+    "explanation": "「入」「出」指国内、国外；「法家拂士」的「拂」通「弼」，读 bì，辅佐。此句由个人推及国家，是全文转折处。"
+  },
+  {
+    "id": "q-chn-t-shengyuhuan-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《生于忧患，死于安乐》一文最后点明中心论点的句子是「____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-shengyuhuan",
+    "quote": "然后知生于忧患而死于安乐也。",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "然后知生于忧患而死于安乐也"
+        ],
+        "hint": "十一个字，两个「于」字并列"
+      }
+    ],
+    "explanation": "这是全文的结论句，也是篇名所本。注意「然后知」三字不可省，「而」连接两个并列短语，不是转折。"
+  },
+  {
+    "id": "q-chn-t-shengyuhuan-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "《生于忧患，死于安乐》「所以动心忍性，曾益其所不能」中「曾」的意思是（　）",
+    "difficulty": 2,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-shengyuhuan",
+    "quote": "所以动心忍性，曾益其所不能。",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "曾经"
+      },
+      {
+        "key": "B",
+        "text": "竟然"
+      },
+      {
+        "key": "C",
+        "text": "通「增」，增加"
+      },
+      {
+        "key": "D",
+        "text": "通「层」，重叠"
+      }
+    ],
+    "answer": "C",
+    "explanation": "「曾」通「增」，「曾益」即增加。同篇「曾不能损魁父之丘」（《愚公移山》）的「曾」才作「竟」讲，须依语境判断。"
+  },
+  {
+    "id": "q-chn-t-shengyuhuan-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "《生于忧患，死于安乐》开头连举舜、傅说、胶鬲等六人事例，其作用是（　）",
+    "difficulty": 3,
+    "source": "自编手法赏析练习",
+    "textId": "chn-t-shengyuhuan",
+    "quote": "舜发于畎亩之中，傅说举于版筑之间，胶鬲举于鱼盐之中",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "以六位圣贤出身微贱而终成大业的事实，为下文「天将降大任」的说理提供例证"
+      },
+      {
+        "key": "B",
+        "text": "以六人互相比较，突出舜的德行最高"
+      },
+      {
+        "key": "C",
+        "text": "以六人的遭遇说明命运由天定，人力无可奈何"
+      },
+      {
+        "key": "D",
+        "text": "以六人故事构成寓言，讽刺当时君主不识人才"
+      }
+    ],
+    "answer": "A",
+    "explanation": "六句「发于」「举于」排比而下，是典型的举例论证，为「故天将降大任于是人也」的推论蓄势。B、C、D 均无文本依据。"
+  },
+  {
+    "id": "q-chn-t-caogui-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《曹刿论战》中曹刿对乡人评价当权者的话是「肉食者鄙，____」。",
+    "difficulty": 1,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-caogui",
+    "quote": "刿曰：“肉食者鄙，未能远谋。”",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "未能远谋"
+        ],
+        "hint": "填四个字"
+      }
+    ],
+    "explanation": "「鄙」是浅陋、目光短浅，不是「卑鄙」。「未能远谋」四字既是对庄公的判语，也总起下文曹刿的两次「未可」。"
+  },
+  {
+    "id": "q-chn-t-caogui-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《曹刿论战》中「夫战，勇气也。一鼓作气，____，三而竭」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-caogui",
+    "quote": "一鼓作气，再而衰，三而竭。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "再而衰"
+        ],
+        "hint": "填三个字，「再」是第二次"
+      }
+    ],
+    "explanation": "「再」在古汉语中作「第二次」讲，不是「又一次」。「作」是振作，「衰」是衰减，「竭」是枯竭，三层递降。"
+  },
+  {
+    "id": "q-chn-t-caogui-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《曹刿论战》中曹刿认为庄公「可以一战」的真正依据是「____」，即尽职尽责、取信于民。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-caogui",
+    "quote": "公曰：“小大之狱，虽不能察，必以情。”对曰：“忠之属也。可以一战。”",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "小大之狱，虽不能察，必以情"
+        ],
+        "hint": "三句十一字，「狱」是案件"
+      }
+    ],
+    "explanation": "前两答「小惠未遍」「小信未孚」均被否定，唯此答得到肯定。「狱」指案件，古今异义；「情」是实情，不是感情。"
+  },
+  {
+    "id": "q-chn-t-caogui-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "《曹刿论战》「其乡人曰：肉食者谋之，又何间焉」中「间」的意思是（　）",
+    "difficulty": 2,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-caogui",
+    "quote": "肉食者谋之，又何间焉？",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "参与"
+      },
+      {
+        "key": "B",
+        "text": "中间"
+      },
+      {
+        "key": "C",
+        "text": "离间"
+      },
+      {
+        "key": "D",
+        "text": "间隙、机会"
+      }
+    ],
+    "answer": "A",
+    "explanation": "「间」读 jiàn，参与。「又何间焉」即你又何必参与呢。下文「时时而间进」的「间」是「间或」，「中间力拉崩倒之声」的「间」是「夹杂」，须依语境分辨。"
+  },
+  {
+    "id": "q-chn-t-caogui-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "关于《曹刿论战》及《左传》，下列表述正确的一项是（　）",
+    "difficulty": 3,
+    "source": "自编文学常识练习",
+    "textId": "chn-t-caogui",
+    "quote": "十年春，齐师伐我。",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "《左传》是我国第一部国别体史书，分国记事，与《国语》体例相同。"
+      },
+      {
+        "key": "B",
+        "text": "《左传》是编年体史书，相传为左丘明所作，长于记述战争与外交辞令。"
+      },
+      {
+        "key": "C",
+        "text": "「十年春」指鲁庄公十年的春天，文中「我」指齐国。"
+      },
+      {
+        "key": "D",
+        "text": "本文详写战斗场面，略写战前战后议论，以情节紧张取胜。"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A 项误，《左传》是编年体，国别体是《国语》《战国策》；C 项「我」指鲁国，《左传》以鲁国纪年；D 项恰好相反，本文详于议论、略于战斗。"
+  },
+  {
+    "id": "q-chn-t-zouji-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《邹忌讽齐王纳谏》中「吾妻之美我者，私我也；妾之美我者，畏我也；____」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-zouji",
+    "quote": "吾妻之美我者，私我也；妾之美我者，畏我也；客之美我者，欲有求于我也。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "客之美我者，欲有求于我也"
+        ],
+        "hint": "三句十一字，「有求于」是固定说法"
+      }
+    ],
+    "explanation": "三句排比，把受蒙蔽的三种动因（私、畏、有求）说尽，是全文说理的基石。「美我」的「美」是意动用法，认为我美。"
+  },
+  {
+    "id": "q-chn-t-zouji-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《邹忌讽齐王纳谏》中写齐王下令之初进谏盛况的句子是「令初下，群臣进谏，____」。",
+    "difficulty": 1,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-zouji",
+    "quote": "令初下，群臣进谏，门庭若市。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "门庭若市"
+        ],
+        "hint": "填四个字，后成为成语"
+      }
+    ],
+    "explanation": "「门庭若市」形容进谏的人多得像集市，与下文「时时而间进」「无可进者」构成递减三步，见纳谏之效。"
+  },
+  {
+    "id": "q-chn-t-zouji-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《邹忌讽齐王纳谏》中，邹忌由家事推及国事，得出齐王受蒙蔽严重的结论：「____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-zouji",
+    "quote": "由此观之，王之蔽甚矣。",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "由此观之，王之蔽甚矣"
+        ],
+        "hint": "两句八字，「蔽」是受蒙蔽"
+      }
+    ],
+    "explanation": "这是讽谏的落脚点。前面「宫妇左右莫不私王，朝廷之臣莫不畏王，四境之内莫不有求于王」三层铺排，至此一句收束，水到渠成。"
+  },
+  {
+    "id": "q-chn-t-zouji-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "《邹忌讽齐王纳谏》「邹忌修八尺有余，而形貌昳丽」中「修」的意思是（　）",
+    "difficulty": 2,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-zouji",
+    "quote": "邹忌修八尺有余，而形貌昳丽。",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "修养"
+      },
+      {
+        "key": "B",
+        "text": "修建"
+      },
+      {
+        "key": "C",
+        "text": "长，这里指身高"
+      },
+      {
+        "key": "D",
+        "text": "美好"
+      }
+    ],
+    "answer": "C",
+    "explanation": "「修」本义为长，「修八尺有余」即身高八尺多。若解作「修养」「修建」，与「八尺有余」无法搭配。"
+  },
+  {
+    "id": "q-chn-t-zouji-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-culture"
+    ],
+    "stem": "关于《邹忌讽齐王纳谏》及《战国策》，下列表述不正确的一项是（　）",
+    "difficulty": 3,
+    "source": "自编文学常识练习",
+    "textId": "chn-t-zouji",
+    "quote": "此所谓战胜于朝廷。",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "《战国策》是国别体史书，主要记载战国时期谋臣策士的言论与活动。"
+      },
+      {
+        "key": "B",
+        "text": "本文以「三问三答」起，以「三赏」「三变」承，形成整齐的三叠式结构。"
+      },
+      {
+        "key": "C",
+        "text": "邹忌以自身受蒙蔽的小事设喻，属于类比推理，而非直接说理。"
+      },
+      {
+        "key": "D",
+        "text": "「战胜于朝廷」意即齐王亲率大军在朝廷上击退敌军，是武力取胜。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "「战胜于朝廷」指修明内政、广开言路，使敌国畏服来朝，不战而胜，正与「皆朝于齐」相应。D 项望文生义。"
+  },
+  {
+    "id": "q-chn-t-ailian-1",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《爱莲说》中「予独爱莲之出淤泥而不染，____」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-ailian",
+    "quote": "予独爱莲之出淤泥而不染，濯清涟而不妖。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "濯清涟而不妖"
+        ],
+        "hint": "填六个字，「濯」是洗"
+      }
+    ],
+    "explanation": "「濯」读 zhuó，洗涤；「清涟」指清水；「妖」是艳丽而不端庄。一「染」一「妖」，写出既不污浊也不炫示的君子之品。"
+  },
+  {
+    "id": "q-chn-t-ailian-2",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation",
+      "chn-dictation-error"
+    ],
+    "stem": "《爱莲说》中「中通外直，不蔓不枝，香远益清，____」。",
+    "difficulty": 2,
+    "source": "自编默写练习（据原文）",
+    "textId": "chn-t-ailian",
+    "quote": "中通外直，不蔓不枝，香远益清，亭亭净植。",
+    "recite": "direct",
+    "blanks": [
+      {
+        "accept": [
+          "亭亭净植"
+        ],
+        "hint": "填四个字，写挺立之态"
+      }
+    ],
+    "explanation": "「亭亭」是耸立的样子，「植」是竖立。这四句由茎写到香再写到整体姿态，句句是写莲，也句句是写君子。"
+  },
+  {
+    "id": "q-chn-t-ailian-3",
+    "subjectId": "chinese",
+    "type": "fill",
+    "kpIds": [
+      "chn-dictation-context"
+    ],
+    "stem": "《爱莲说》中直接点明莲的象征意义、与菊、牡丹对举的判断句是「____」。",
+    "difficulty": 3,
+    "source": "自编理解性默写（据原文）",
+    "textId": "chn-t-ailian",
+    "quote": "予谓菊，花之隐逸者也；牡丹，花之富贵者也；莲，花之君子者也。",
+    "recite": "context",
+    "blanks": [
+      {
+        "accept": [
+          "莲，花之君子者也"
+        ],
+        "hint": "六个字，判断句"
+      }
+    ],
+    "explanation": "三句判断构成一组比喻：菊喻隐士，牡丹喻富贵者，莲喻君子。作者以莲自况，托物言志的用意在此点明。"
+  },
+  {
+    "id": "q-chn-t-ailian-4",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-classical-words"
+    ],
+    "stem": "《爱莲说》「水陆草木之花，可爱者甚蕃」中「蕃」的意思是（　）",
+    "difficulty": 2,
+    "source": "自编字词练习（据原文）",
+    "textId": "chn-t-ailian",
+    "quote": "水陆草木之花，可爱者甚蕃。",
+    "recite": "word",
+    "options": [
+      {
+        "key": "A",
+        "text": "繁多"
+      },
+      {
+        "key": "B",
+        "text": "茂盛"
+      },
+      {
+        "key": "C",
+        "text": "繁殖"
+      },
+      {
+        "key": "D",
+        "text": "藩篱"
+      }
+    ],
+    "answer": "A",
+    "explanation": "「蕃」读 fán，多。「可爱者甚蕃」即值得喜爱的很多。下文「陶后鲜有闻」的「鲜」是少，一多一少，前后照应。"
+  },
+  {
+    "id": "q-chn-t-ailian-5",
+    "subjectId": "chinese",
+    "type": "single",
+    "kpIds": [
+      "chn-rhetoric"
+    ],
+    "stem": "《爱莲说》通篇写莲，实则写人，这种手法是（　）",
+    "difficulty": 3,
+    "source": "自编手法赏析练习",
+    "textId": "chn-t-ailian",
+    "quote": "莲，花之君子者也。",
+    "recite": "culture",
+    "options": [
+      {
+        "key": "A",
+        "text": "借景抒情"
+      },
+      {
+        "key": "B",
+        "text": "托物言志"
+      },
+      {
+        "key": "C",
+        "text": "欲扬先抑"
+      },
+      {
+        "key": "D",
+        "text": "直抒胸臆"
+      }
+    ],
+    "answer": "B",
+    "explanation": "托物言志是借具体物象寄托志向品格；借景抒情则重在景物引发的情感。本文以莲的形态对应君子之德（不染、不妖、中通外直、不蔓不枝），物我合一，故为托物言志。"
+  }
+]

@@ -1,0 +1,483 @@
+[
+  {
+    "id": "q-chem-rate-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-rate"],
+    "stem": "同一可逆反应中，用不同物质表示的反应速率，其数值一定相同。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["反应速率", "计量数"],
+    "answer": false,
+    "explanation": "错误。同一反应中各物质的反应速率之比等于化学方程式中相应物质的化学计量数之比，例如 $\\mathrm{N_2+3H_2\\rightleftharpoons 2NH_3}$ 中 $v(\\mathrm{N_2}):v(\\mathrm{H_2}):v(\\mathrm{NH_3})=1:3:2$，只有三种物质的计量数恰好相等时数值才相同。易错点：把“速率之比等于计量数之比”误记成“速率相等”；另外速率必须指明具体物质，否则无意义。"
+  },
+  {
+    "id": "q-chem-rate-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-rate"],
+    "stem": "在 $\\mathrm{2SO_2(g)+O_2(g)\\rightleftharpoons 2SO_3(g)}$ 的反应中，某时间段内 $v(\\mathrm{SO_2})=0.40\\ \\mathrm{mol/(L\\cdot min)}$，则同一时间段内 $v(\\mathrm{O_2})=$ ____ $\\mathrm{mol/(L\\cdot min)}$，$v(\\mathrm{SO_3})=$ ____ $\\mathrm{mol/(L\\cdot min)}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["速率换算", "计量数之比"],
+    "blanks": [
+      { "accept": ["0.20", "0.2", "1/5", "0.2mol/(L·min)"], "hint": "$v(\\mathrm{O_2})=\\dfrac{1}{2}v(\\mathrm{SO_2})$" },
+      { "accept": ["0.40", "0.4", "0.4mol/(L·min)"], "hint": "$\\mathrm{SO_3}$ 与 $\\mathrm{SO_2}$ 的计量数相同" }
+    ],
+    "explanation": "由 $v(\\mathrm{SO_2}):v(\\mathrm{O_2}):v(\\mathrm{SO_3})=2:1:2$，得 $v(\\mathrm{O_2})=\\dfrac{1}{2}\\times0.40=0.20\\ \\mathrm{mol/(L\\cdot min)}$，$v(\\mathrm{SO_3})=0.40\\ \\mathrm{mol/(L\\cdot min)}$。易错点：①把 $\\mathrm{O_2}$ 的计量数 1 当成比例因子直接套用，得 0.40；②反过来乘 2 得 0.80；③忽略单位统一，把 $\\mathrm{mol/(L\\cdot s)}$ 与 $\\mathrm{mol/(L\\cdot min)}$ 混用。"
+  },
+  {
+    "id": "q-chem-rate-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-rate"],
+    "stem": "反应 $\\mathrm{4NH_3(g)+5O_2(g)\\rightleftharpoons 4NO(g)+6H_2O(g)}$ 在某一时间段内 $v(\\mathrm{NH_3})=0.80\\ \\mathrm{mol/(L\\cdot min)}$，则同一时间段内 $v(\\mathrm{H_2O})$ 为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["速率计算", "计量数"],
+    "options": [
+      { "key": "A", "text": "$1.2\\ \\mathrm{mol/(L\\cdot min)}$" },
+      { "key": "B", "text": "$0.53\\ \\mathrm{mol/(L\\cdot min)}$" },
+      { "key": "C", "text": "$0.80\\ \\mathrm{mol/(L\\cdot min)}$" },
+      { "key": "D", "text": "$0.67\\ \\mathrm{mol/(L\\cdot min)}$" }
+    ],
+    "answer": "A",
+    "explanation": "同一反应中速率之比等于计量数之比：$\\dfrac{v(\\mathrm{H_2O})}{v(\\mathrm{NH_3})}=\\dfrac{6}{4}$，故 $v(\\mathrm{H_2O})=0.80\\times\\dfrac{6}{4}=1.2\\ \\mathrm{mol/(L\\cdot min)}$，A 正确。B 是把比例颠倒（$\\times\\dfrac{4}{6}$）所得；C 误以为同一反应中各物质速率相同；D 是用 $\\mathrm{O_2}$ 的计量数 5（$0.80\\times\\dfrac{5}{6}$）所得。做题时先写清“未知量之比 = 计量数之比”，再代数据。"
+  },
+  {
+    "id": "q-chem-rate-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-rate"],
+    "stem": "关于化学反应速率，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["反应速率", "概念辨析", "多选"],
+    "options": [
+      { "key": "A", "text": "化学反应速率取正值，表示单位时间内反应物浓度的减少量或生成物浓度的增加量" },
+      { "key": "B", "text": "固体和纯液体的浓度可视为常数，一般不用它们表示反应速率" },
+      { "key": "C", "text": "增大压强一定能加快所有化学反应的速率" },
+      { "key": "D", "text": "同一反应中，各物质的反应速率之比等于化学方程式中相应物质的化学计量数之比" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：$v=\\dfrac{\\Delta c}{\\Delta t}$ 取正号，方向另作说明。B 对：固体、纯液体的“浓度”是常数，其量的变化体现在质量或表面积上，故不用于表示速率（但增大固体表面积可加快反应）。C 错：没有气体参加的反应（如溶液中的反应）改变压强对速率几乎无影响；恒容下充入惰性气体，总压增大而各组分分压不变，速率也不变。D 对：这是由反应过程中各物质按计量数同步消耗与生成决定的。易错点：把“改变压强”等同于“一定改变速率”。"
+  },
+  {
+    "id": "q-chem-collision-theory-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-collision-theory"],
+    "stem": "升高温度使反应速率加快，主要原因是分子平均动能增大，活化分子百分数增加，有效碰撞次数增多。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["有效碰撞", "温度"],
+    "answer": true,
+    "explanation": "正确。温度升高时分子运动加快，具有足够能量的分子所占比例（活化分子百分数）显著增大，单位时间内有效碰撞次数增多，速率加快。注意：升温并不降低活化能（活化能由反应本身决定），改变的只是“达到活化能的分子比例”。易错点：误说“升温使活化能减小”。"
+  },
+  {
+    "id": "q-chem-collision-theory-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-collision-theory"],
+    "stem": "某温度下，密闭容器内活化分子占分子总数的 $2\\%$；升高温度后该比例变为 $5\\%$（假设体系内分子总数不变），则容器内活化分子数变为原来的 ____ 倍。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["活化分子百分数", "计算"],
+    "blanks": [
+      { "accept": ["2.5", "2.5倍", "5/2", "2.50"], "hint": "$\\dfrac{5\\%}{2\\%}$" }
+    ],
+    "explanation": "分子总数不变时，活化分子数与活化分子百分数成正比，倍数 $=\\dfrac{5\\%}{2\\%}=2.5$。易错点：把百分数之差 $5\\%-2\\%=3\\%$ 当作倍数；或忘记“分子总数不变”这一前提——若升温同时引起分子数变化（如体积膨胀），则需分别计算分子总数。"
+  },
+  {
+    "id": "q-chem-collision-theory-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-collision-theory"],
+    "stem": "下列关于催化剂的说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["催化剂", "活化能"],
+    "options": [
+      { "key": "A", "text": "催化剂改变反应历程、降低反应的活化能，使活化分子百分数增大" },
+      { "key": "B", "text": "催化剂能降低反应的反应热 $\\Delta H$，使反应更易进行" },
+      { "key": "C", "text": "催化剂能提高可逆反应的平衡转化率" },
+      { "key": "D", "text": "催化剂只加快正反应速率，对逆反应速率无影响" }
+    ],
+    "answer": "A",
+    "explanation": "A 正确：催化剂提供活化能更小的反应途径（改变反应历程），使活化分子百分数增大，正、逆反应速率同等程度加快。B 错：$\\Delta H$ 只由始态与终态决定，催化剂不改变 $\\Delta H$。C 错：催化剂同等加快正逆速率，平衡不移动，转化率不变。D 错：催化剂对正、逆反应速率影响相同，这正是平衡不移动的原因。易错点：把“催化剂提高速率”延伸成“提高转化率”。"
+  },
+  {
+    "id": "q-chem-collision-theory-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-collision-theory"],
+    "stem": "根据有效碰撞理论，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["有效碰撞", "影响因素", "多选"],
+    "options": [
+      { "key": "A", "text": "只有能量足够且取向合适的分子之间的碰撞才可能是有效碰撞" },
+      { "key": "B", "text": "增大反应物浓度，单位体积内活化分子数增多，单位时间内有效碰撞次数增多" },
+      { "key": "C", "text": "催化剂参与化学反应、改变反应历程，从而降低反应的活化能" },
+      { "key": "D", "text": "升高温度使反应的活化能减小，所以反应速率加快" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：有效碰撞需同时满足“能量足够”和“取向合适”两个条件。B 对：浓度增大使单位体积内分子总数与活化分子数同比例增大，有效碰撞增多。C 对：催化剂先与反应物作用再重新生成，走过一条活化能更低的途径。D 错：升温不改变活化能，改变的是分子的能量分布，使活化分子百分数增大。易错点：把“升温加快”简单归因于“活化能降低”，与催化剂的作用混为一谈。"
+  },
+  {
+    "id": "q-chem-equilibrium-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-equilibrium"],
+    "stem": "对于密闭容器中的反应 $\\mathrm{N_2(g)+3H_2(g)\\rightleftharpoons 2NH_3(g)}$，下列叙述能说明该反应已达到化学平衡状态的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["平衡标志", "动态平衡"],
+    "options": [
+      { "key": "A", "text": "正反应和逆反应都已停止" },
+      { "key": "B", "text": "$v_{\\text{正}}(\\mathrm{NH_3})=v_{\\text{逆}}(\\mathrm{NH_3})\\neq 0$，且各组分浓度不再变化" },
+      { "key": "C", "text": "$\\mathrm{N_2}$、$\\mathrm{H_2}$、$\\mathrm{NH_3}$ 的浓度之比为 $1:3:2$" },
+      { "key": "D", "text": "每消耗 $1\\ \\mathrm{mol}\\ \\mathrm{N_2}$ 的同时消耗 $3\\ \\mathrm{mol}\\ \\mathrm{H_2}$" }
+    ],
+    "answer": "B",
+    "explanation": "B 正确：平衡的本质是同种物质的正、逆反应速率相等且不为零，宏观上各组分浓度保持不变。A 错：化学平衡是动态平衡，反应并未停止。C 错：浓度比等于计量数比只是某些起始配比下的巧合，与是否平衡无关。D 错：消耗 $\\mathrm{N_2}$ 与消耗 $\\mathrm{H_2}$ 都是正反应方向，二者永远按 $1:3$ 同步进行，不能说明平衡。判断平衡要看“一正一逆、速率相等”或“变量不再变化”，不能只看同向速率。"
+  },
+  {
+    "id": "q-chem-equilibrium-2",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-equilibrium"],
+    "stem": "对于给定的可逆反应，化学平衡常数 $K$ 只与温度有关，与反应物浓度、压强、是否使用催化剂无关。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["平衡常数", "温度"],
+    "answer": true,
+    "explanation": "正确。$K$ 是温度的函数：改变浓度、压强只改变 $Q$，使平衡移动，但达到新平衡时 $K$ 不变；催化剂同等加快正逆反应，也不改变 $K$。只有改变温度（或改变反应本身）才会改变 $K$。易错点：认为“加压后 $\\mathrm{NH_3}$ 浓度变大，所以 $K$ 变大”——浓度变化被平衡移动补偿，$K$ 依旧只由温度决定。"
+  },
+  {
+    "id": "q-chem-equilibrium-3",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-equilibrium"],
+    "stem": "某温度下，在 $1\\ \\mathrm{L}$ 的密闭容器中发生 $\\mathrm{H_2(g)+I_2(g)\\rightleftharpoons 2HI(g)}$。起始时 $c(\\mathrm{H_2})=c(\\mathrm{I_2})=1.0\\ \\mathrm{mol/L}$，达到平衡时 $c(\\mathrm{HI})=1.2\\ \\mathrm{mol/L}$，则该温度下的平衡常数 $K=$ ____。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["平衡常数", "三段式"],
+    "blanks": [
+      { "accept": ["9", "9.0", "9.00"], "hint": "先求平衡时 $c(\\mathrm{H_2})$ 与 $c(\\mathrm{I_2})$，再代入 $K=\\dfrac{c^2(\\mathrm{HI})}{c(\\mathrm{H_2})c(\\mathrm{I_2})}$" }
+    ],
+    "explanation": "$\\mathrm{HI}$ 增加 $1.2\\ \\mathrm{mol/L}$，按 $1:1:2$ 关系，$\\mathrm{H_2}$、$\\mathrm{I_2}$ 各消耗 $0.6\\ \\mathrm{mol/L}$，平衡时 $c(\\mathrm{H_2})=c(\\mathrm{I_2})=1.0-0.6=0.4\\ \\mathrm{mol/L}$。$K=\\dfrac{c^2(\\mathrm{HI})}{c(\\mathrm{H_2})\\,c(\\mathrm{I_2})}=\\dfrac{1.2^2}{0.4\\times0.4}=\\dfrac{1.44}{0.16}=9$。易错点：①直接用起始浓度 $1.0$ 代入分母得 $1.44$；②忘记平方得 $1.2/0.16=7.5$；③把 $\\mathrm{I_2}$ 当作固体不写入表达式（本题中 $\\mathrm{I_2}$ 为气态，必须写入）。"
+  },
+  {
+    "id": "q-chem-equilibrium-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-equilibrium"],
+    "stem": "关于化学平衡状态与平衡常数，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["平衡常数", "平衡状态", "多选"],
+    "options": [
+      { "key": "A", "text": "书写 $K$ 的表达式时，纯固体和纯液体的浓度不写入" },
+      { "key": "B", "text": "达到化学平衡时各组分浓度保持不变，说明正、逆反应都已停止" },
+      { "key": "C", "text": "同一温度下，$K$ 越大，说明正反应进行的程度越大" },
+      { "key": "D", "text": "对放热反应，升高温度，平衡常数 $K$ 减小" }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 对：纯固体、纯液体的浓度视为常数，已并入常数中。B 错：平衡是动态平衡，正、逆反应仍在进行，只是速率相等。C 对：$K$ 大表示平衡时生成物浓度相对更大，反应进行得更完全。D 对：放热反应升温平衡逆向移动，生成物减少、反应物增多，$K$ 减小（吸热反应则相反）。易错点：把“浓度不变”理解为“反应停止”；忽略 $K$ 随温度变化的方向与 $\\Delta H$ 的符号有关。"
+  },
+  {
+    "id": "q-chem-equilibrium-shift-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-equilibrium-shift"],
+    "stem": "使用催化剂可以加快反应速率、缩短达到平衡的时间，但不能使化学平衡发生移动。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["催化剂", "平衡移动"],
+    "answer": true,
+    "explanation": "正确。催化剂同等程度地降低正、逆反应的活化能，正、逆速率按相同倍数增大，$v_{\\text{正}}$ 与 $v_{\\text{逆}}$ 仍相等，故平衡不移动，各组分平衡浓度与转化率都不变，只是达到平衡所需时间缩短。易错点：认为“催化剂能提高产率”——它提高的是单位时间的产量（生产效率），不是平衡转化率。"
+  },
+  {
+    "id": "q-chem-equilibrium-shift-2",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-equilibrium-shift"],
+    "stem": "反应 $\\mathrm{N_2(g)+3H_2(g)\\rightleftharpoons 2NH_3(g)}$ $\\Delta H<0$ 已达平衡。恒温下将容器体积压缩为原来的一半，平衡将（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["压强", "勒夏特列原理"],
+    "options": [
+      { "key": "A", "text": "向正反应方向移动" },
+      { "key": "B", "text": "向逆反应方向移动" },
+      { "key": "C", "text": "不移动" },
+      { "key": "D", "text": "先向正反应方向移动，后向逆反应方向移动" }
+    ],
+    "answer": "A",
+    "explanation": "压缩体积使各组分浓度、压强同时增大，平衡向气体分子数减少的方向（即正反应方向，$4\\to2$）移动，A 正确。注意恒温下 $K$ 不变，移动的结果是 $\\mathrm{NH_3}$ 的物质的量增大、体积分数增大，但 $\\mathrm{NH_3}$ 的浓度仍比压缩瞬间有所下降——“减弱”不等于“抵消”。若改为恒温恒容充入惰性气体，则各组分分压不变，平衡不移动。"
+  },
+  {
+    "id": "q-chem-equilibrium-shift-3",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-equilibrium-shift"],
+    "stem": "反应 $\\mathrm{N_2(g)+3H_2(g)\\rightleftharpoons 2NH_3(g)}$ $\\Delta H<0$ 已达平衡。其他条件不变，升高温度后平衡向 ____ 方向移动（填“正反应”或“逆反应”），平衡常数 $K$ ____（填“增大”或“减小”）。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["温度", "平衡常数"],
+    "blanks": [
+      { "accept": ["逆反应", "逆向", "左", "向左"], "hint": "升温向吸热方向移动" },
+      { "accept": ["减小", "变小", "降低"], "hint": "放热反应升温，$K$ 减小" }
+    ],
+    "explanation": "该反应 $\\Delta H<0$ 为放热反应，正反应放热、逆反应吸热。升温时平衡向吸热方向即逆反应方向移动，$\\mathrm{NH_3}$ 减少，故 $K=\\dfrac{c^2(\\mathrm{NH_3})}{c(\\mathrm{N_2})\\,c^3(\\mathrm{H_2})}$ 减小。易错点：①把“升温加快正反应速率”误当作“平衡正移”；②只写 $K$ “改变”而不判断增减方向。升温时正、逆速率都增大，但逆反应增大得更多。"
+  },
+  {
+    "id": "q-chem-equilibrium-shift-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-equilibrium-shift"],
+    "stem": "根据勒夏特列原理，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["勒夏特列原理", "转化率", "多选"],
+    "options": [
+      { "key": "A", "text": "平衡向减弱这种改变的方向移动，但不能完全抵消这种改变" },
+      { "key": "B", "text": "恒温恒容下向已达平衡的体系中充入惰性气体，平衡不移动" },
+      { "key": "C", "text": "催化剂能缩短达到平衡的时间，但不改变平衡状态" },
+      { "key": "D", "text": "增大某一反应物的浓度，该反应物自身的转化率一定增大" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：移动只能“减弱”改变，新平衡时被改变的量仍偏离原值。B 对：恒容充惰性气体，总压增大但各反应组分分压（浓度）不变，速率与平衡均不变。C 对：催化剂只改变速率不影响平衡。D 错：增大 $A$ 的浓度，平衡正移使 $B$ 的转化率增大，而 $A$ 自身的转化率通常减小（分母增大得比分消耗更多）。易错点：把“充惰性气体使压强增大”一律当作“加压，平衡向气体分子数减少方向移动”——只有恒温恒压下充惰性气体（体积增大、分压降低）才会引起移动。"
+  },
+  {
+    "id": "q-chem-equilibrium-calc-1",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-equilibrium-calc"],
+    "stem": "恒容密闭容器中发生 $\\mathrm{2SO_2(g)+O_2(g)\\rightleftharpoons 2SO_3(g)}$。起始时 $c(\\mathrm{SO_2})=2.0\\ \\mathrm{mol/L}$、$c(\\mathrm{O_2})=1.0\\ \\mathrm{mol/L}$，达到平衡时 $c(\\mathrm{SO_3})=1.2\\ \\mathrm{mol/L}$，则 $\\mathrm{SO_2}$ 的平衡转化率为 ____。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["转化率", "三段式"],
+    "blanks": [
+      { "accept": ["60%", "60", "0.6", "60％"], "hint": "$\\alpha=\\dfrac{\\text{转化量}}{\\text{起始量}}\\times100\\%$" }
+    ],
+    "explanation": "生成 $\\mathrm{SO_3}$ $1.2\\ \\mathrm{mol/L}$，按计量数 $2:1:2$，消耗 $\\mathrm{SO_2}$ $1.2\\ \\mathrm{mol/L}$。$\\alpha(\\mathrm{SO_2})=\\dfrac{1.2}{2.0}\\times100\\%=60\\%$。易错点：①分母误用平衡时的浓度 $0.8$，得 $150\\%$；②用 $\\mathrm{O_2}$ 的起始浓度作分母（$\\mathrm{O_2}$ 消耗 $0.6$，应得 $60\\%$ 的却是 $\\mathrm{SO_2}$ 的转化率，两者数值恰好相同但概念不同）；③未乘 $100\\%$。"
+  },
+  {
+    "id": "q-chem-equilibrium-calc-2",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-equilibrium-calc"],
+    "stem": "某温度下反应 $\\mathrm{H_2(g)+I_2(g)\\rightleftharpoons 2HI(g)}$ 的平衡常数 $K=9$。某时刻测得容器内 $c(\\mathrm{H_2})=c(\\mathrm{I_2})=0.5\\ \\mathrm{mol/L}$、$c(\\mathrm{HI})=2.0\\ \\mathrm{mol/L}$，此时该反应（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["浓度商", "反应方向"],
+    "options": [
+      { "key": "A", "text": "向正反应方向进行" },
+      { "key": "B", "text": "向逆反应方向进行" },
+      { "key": "C", "text": "已达平衡状态" },
+      { "key": "D", "text": "无法判断，还需知道容器体积" }
+    ],
+    "answer": "B",
+    "explanation": "计算浓度商：$Q=\\dfrac{c^2(\\mathrm{HI})}{c(\\mathrm{H_2})\\,c(\\mathrm{I_2})}=\\dfrac{2.0^2}{0.5\\times0.5}=\\dfrac{4}{0.25}=16$。$Q=16>K=9$，故反应向逆反应方向进行，$\\mathrm{HI}$ 分解、$\\mathrm{H_2}$ 与 $\\mathrm{I_2}$ 生成，直至 $Q$ 减小到等于 $K$。D 是干扰项：$K$、$Q$ 都用浓度表示，浓度已直接给出，与体积无关。常见错误：把 $Q>K$ 记成“正移”。"
+  },
+  {
+    "id": "q-chem-equilibrium-calc-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-equilibrium-calc"],
+    "stem": "某温度下反应 $\\mathrm{CO(g)+H_2O(g)\\rightleftharpoons CO_2(g)+H_2(g)}$ 的平衡常数 $K=1.0$。在 $1\\ \\mathrm{L}$ 密闭容器中起始充入 $\\mathrm{CO}$ 和 $\\mathrm{H_2O}$ 各 $1.0\\ \\mathrm{mol}$，达到平衡时 $\\mathrm{CO}$ 的转化率为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["转化率计算", "平衡常数"],
+    "options": [
+      { "key": "A", "text": "$50\\%$" },
+      { "key": "B", "text": "$25\\%$" },
+      { "key": "C", "text": "$75\\%$" },
+      { "key": "D", "text": "$100\\%$" }
+    ],
+    "answer": "A",
+    "explanation": "设 $\\mathrm{CO}$ 转化了 $x\\ \\mathrm{mol/L}$，则平衡时 $c(\\mathrm{CO})=c(\\mathrm{H_2O})=1-x$，$c(\\mathrm{CO_2})=c(\\mathrm{H_2})=x$。$K=\\dfrac{x\\cdot x}{(1-x)(1-x)}=\\left(\\dfrac{x}{1-x}\\right)^2=1.0$，解得 $\\dfrac{x}{1-x}=1$，$x=0.5$，转化率 $=\\dfrac{0.5}{1.0}\\times100\\%=50\\%$。B、C 是开方时把比例写错（如 $(1-x)/x=1$ 之外的错误变形）或误把 $K$ 当成 $x$ 所得；D 错在认为 $K=1$ 时反应进行到底。注意本题 $\\Delta n=0$，$K$ 与体积无关，选项不需体积信息。"
+  },
+  {
+    "id": "q-chem-equilibrium-calc-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-equilibrium-calc"],
+    "stem": "关于平衡常数、浓度商与转化率的计算，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["浓度商", "转化率", "多选"],
+    "options": [
+      { "key": "A", "text": "温度不变时改变压强使平衡移动，平衡常数 $K$ 保持不变" },
+      { "key": "B", "text": "恒温恒容下按原比例再充入反应物，对气体分子数变化的反应相当于加压，转化率按加压的影响方向变化" },
+      { "key": "C", "text": "当 $Q>K$ 时反应向逆反应方向进行，随反应进行 $Q$ 不断减小直至等于 $K$" },
+      { "key": "D", "text": "平衡常数越大，该反应的化学反应速率一定越大" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：$K$ 只是温度的函数，压强改变的是 $Q$ 而非 $K$。B 对：恒温恒容按比例加料，相当于把原体系压缩（各组分浓度同倍数增大），对 $\\Delta n\\neq0$ 的反应平衡按加压方向移动，转化率随之改变。C 对：$Q>K$ 时逆反应占优，$Q$ 单调减小直到 $Q=K$ 建立新平衡。D 错：$K$ 反映反应的限度（热力学），速率反映快慢（动力学），二者无必然联系——如常温下 $\\mathrm{H_2}$ 与 $\\mathrm{O_2}$ 化合的 $K$ 极大，但不点燃时几乎不反应。"
+  },
+  {
+    "id": "q-chem-equilibrium-image-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-equilibrium-image"],
+    "stem": "某可逆反应 $mA(\\mathrm{g})+nB(\\mathrm{g})\\rightleftharpoons pC(\\mathrm{g})$ 的 $\\Delta H<0$。其他条件相同时，测得 $C$ 的体积分数随时间变化的图像：曲线 $T_1$ 先达到水平（先拐先平），且 $T_1$ 平衡时 $C$ 的体积分数低于 $T_2$。则 $T_1$ 与 $T_2$ 的大小关系是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["图像分析", "先拐先平"],
+    "options": [
+      { "key": "A", "text": "$T_1>T_2$" },
+      { "key": "B", "text": "$T_1<T_2$" },
+      { "key": "C", "text": "$T_1=T_2$" },
+      { "key": "D", "text": "仅凭图像无法比较" }
+    ],
+    "answer": "A",
+    "explanation": "“先拐先平”说明该条件下反应速率快，温度较高，故 $T_1>T_2$。再验证：$\\Delta H<0$ 为放热反应，升温平衡逆向移动，$C$ 的体积分数应较低，与“$T_1$ 平衡时 $C\\%$ 更低”一致，两条信息相互印证。若两步结论矛盾（如高温反而 $C\\%$ 更高），则说明题目中温度与 $\\Delta H$ 的组合不成立，需重新审题。易错点：只看曲线平台高低就断定温度高低。"
+  },
+  {
+    "id": "q-chem-equilibrium-image-2",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-equilibrium-image"],
+    "stem": "在化学平衡图像中，先达到平衡（先拐先平）的那条曲线，对应的温度一定更高。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["图像分析", "先拐先平"],
+    "answer": false,
+    "explanation": "错误。“先拐先平”只说明该条件下反应速率更快，可能是温度更高，也可能是压强更大（对有气体参加的反应），还可能是使用了催化剂。判断时还必须结合曲线的其他信息（如平台高低反映平衡转化程度）才能确定是哪种因素。易错点：把“先拐先平”不假思索地等同于“温度高”。"
+  },
+  {
+    "id": "q-chem-equilibrium-image-3",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-equilibrium-image"],
+    "stem": "某可逆反应 $aA(\\mathrm{g})+bB(\\mathrm{g})\\rightleftharpoons cC(\\mathrm{g})$ 在恒温下进行。图像显示：增大压强后曲线先达到水平（先拐先平），且新条件下平衡时 $C$ 的体积分数增大。由此判断正反应是气体分子数 ____（填“减少”或“增加”）的反应。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["压强", "图像分析"],
+    "blanks": [
+      { "accept": ["减少", "减小", "变少"], "hint": "加压向气体分子数减少的方向移动" }
+    ],
+    "explanation": "恒温加压时速率加快，曲线先拐先平；平衡时 $C$ 的体积分数增大，说明平衡向正反应方向移动。加压平衡向气体分子数减少的方向移动，故正反应是气体分子数减少的反应，即 $a+b>c$。易错点：只由“先拐先平”判定加压，却忘记用平台高低（平衡转化程度）判断移动方向；或把“向气体分子数减少方向移动”记成“向体积增大方向移动”。"
+  },
+  {
+    "id": "q-chem-equilibrium-image-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-equilibrium-image"],
+    "stem": "分析化学平衡图像时，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["图像分析", "方法", "多选"],
+    "options": [
+      { "key": "A", "text": "先看横、纵坐标的含义与单位，再看起点、拐点与平台" },
+      { "key": "B", "text": "其他条件相同时，曲线先拐先平对应温度较高或压强较大" },
+      { "key": "C", "text": "使用催化剂只改变达到平衡的时间，不改变平衡时百分含量曲线的平台高度" },
+      { "key": "D", "text": "两条曲线的平台越高，说明该条件下的反应速率越大" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：坐标含义不同结论可能完全相反（如纵坐标是反应物转化率还是生成物体积分数）。B 对：先拐先平表示速率快，对应更高温度或更大压强（或使用催化剂）。C 对：催化剂不移动平衡，平台位置不变，只是更早到达平台。D 错：平台高低反映平衡时的转化程度（与 $K$ 和条件有关），速率快慢看的是曲线斜率或到达平台的时间。易错点：把“平台高”与“速率大”混为一谈。"
+  },
+  {
+    "id": "q-chem-industrial-conditions-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-industrial-conditions"],
+    "stem": "工业合成氨 $\\mathrm{N_2(g)+3H_2(g)\\rightleftharpoons 2NH_3(g)}$ $\\Delta H<0$ 实际采用约 $400\\sim500\\,^{\\circ}\\mathrm{C}$ 的温度，其主要原因是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["合成氨", "温度选择"],
+    "options": [
+      { "key": "A", "text": "该温度下平衡常数 $K$ 最大，氨的平衡转化率最高" },
+      { "key": "B", "text": "兼顾反应速率与催化剂活性：温度过低速率太慢、铁触媒活性也低" },
+      { "key": "C", "text": "高温有利于放热反应正向进行，可提高平衡转化率" },
+      { "key": "D", "text": "该温度下氨气容易液化，便于分离" }
+    ],
+    "answer": "B",
+    "explanation": "合成氨放热，从平衡角度看低温有利，但温度过低反应速率太慢、铁触媒活性低，工业生产必须在“转化率”与“速率”之间折中，故取 $400\\sim500\\,^{\\circ}\\mathrm{C}$，B 正确。A 错：$K$ 在低温时更大；C 错：升温使放热反应平衡逆向移动，转化率下降；D 错：氨的液化靠加压或降温冷却，不是选择该温度的理由。"
+  },
+  {
+    "id": "q-chem-industrial-conditions-2",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-industrial-conditions"],
+    "stem": "合成氨反应中增大压强有利于提高氨的平衡含量，因此工业生产中压强越高越好。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["合成氨", "压强选择"],
+    "answer": false,
+    "explanation": "错误。从平衡与速率看，增大压强确实有利（$4$ 体积气体变为 $2$ 体积，且加压加快反应），但压强越高对设备耐压强度、材质和动力消耗的要求越高，成本急剧上升。因此工业上实际采用约 $10\\sim30\\ \\mathrm{MPa}$ 的中等压强，而非越高越好。易错点：把“有利于平衡”直接等同于“生产中应取极值”。"
+  },
+  {
+    "id": "q-chem-industrial-conditions-3",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-industrial-conditions"],
+    "stem": "工业合成氨反应 $\\mathrm{N_2(g)+3H_2(g)\\rightleftharpoons 2NH_3(g)}$ $\\Delta H<0$。仅从化学平衡移动的角度考虑，应选择 ____（填“高温”或“低温”）和 ____（填“高压”或“低压”）。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["合成氨", "平衡移动"],
+    "blanks": [
+      { "accept": ["低温", "低"], "hint": "放热反应，降温向正反应方向移动" },
+      { "accept": ["高压", "高"], "hint": "正反应气体分子数减少，加压向正反应方向移动" }
+    ],
+    "explanation": "该反应 $\\Delta H<0$（放热），降温使平衡向正反应方向移动；正反应气体分子数由 4 减为 2，加压使平衡向正反应方向移动。故单从平衡看应“低温、高压”。但低温使速率过慢、催化剂活性不足，实际采用 $400\\sim500\\,^{\\circ}\\mathrm{C}$、$10\\sim30\\ \\mathrm{MPa}$、铁触媒，体现“综合权衡”的工业思想。易错点：只答“低温高压”而不理解实际条件为何偏离理论最优。"
+  },
+  {
+    "id": "q-chem-industrial-conditions-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-industrial-conditions"],
+    "stem": "关于工业合成氨的生产条件，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["合成氨", "综合条件", "多选"],
+    "options": [
+      { "key": "A", "text": "增大压强可提高氨的平衡含量，但受设备耐压能力与动力成本限制" },
+      { "key": "B", "text": "将生成的液氨及时分离，有利于平衡向正反应方向移动，提高原料转化率" },
+      { "key": "C", "text": "未反应的 $\\mathrm{N_2}$、$\\mathrm{H_2}$ 循环使用，可提高原料的总利用率" },
+      { "key": "D", "text": "温度越高铁触媒活性越强，因此应尽可能提高温度以提高产量" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：加压既加快速率又使平衡正移，但设备与能耗成本随之升高。B 对：分离出 $\\mathrm{NH_3}$ 使生成物浓度降低，平衡正移。C 对：循环利用未反应原料是提高总转化率（原料利用率）的标准做法。D 错：温度过高时平衡逆向移动、氨含量下降，且催化剂可能烧结失活，故取 $400\\sim500\\,^{\\circ}\\mathrm{C}$。工业条件选择的原则是：转化率、速率、催化剂活性、成本四者兼顾。"
+  },
+  {
+    "id": "q-chem-equilibrium-calc-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-equilibrium-calc", "chem-equilibrium"],
+    "stem": "某温度下，在 $1\\ \\mathrm{L}$ 的密闭容器中发生反应 $\\mathrm{H_2(g)+I_2(g)\\rightleftharpoons 2HI(g)}$。起始时充入 $\\mathrm{H_2}$ 和 $\\mathrm{I_2}$ 各 $1.0\\ \\mathrm{mol}$，达到平衡时测得 $\\mathrm{HI}$ 为 $1.2\\ \\mathrm{mol}$。\n\n（1）用三段式列出各物质的起始、转化、平衡浓度，求平衡时 $c(\\mathrm{H_2})$、$c(\\mathrm{I_2})$；\n（2）求该温度下的平衡常数 $K$；\n（3）求 $\\mathrm{H_2}$ 的平衡转化率；\n（4）保持温度不变，将容器体积压缩为 $0.5\\ \\mathrm{L}$，$K$ 是否改变？$\\mathrm{HI}$ 的体积分数如何变化？简述理由。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["三段式", "平衡常数", "转化率"],
+    "rubric": [
+      { "text": "列出三段式：$\\mathrm{HI}$ 增加 $1.2\\ \\mathrm{mol/L}$，$\\mathrm{H_2}$、$\\mathrm{I_2}$ 各消耗 $0.6\\ \\mathrm{mol/L}$，得平衡浓度 $c(\\mathrm{H_2})=c(\\mathrm{I_2})=0.4\\ \\mathrm{mol/L}$", "score": 3 },
+      { "text": "代入 $K=\\dfrac{c^2(\\mathrm{HI})}{c(\\mathrm{H_2})c(\\mathrm{I_2})}$，求得 $K=\\dfrac{1.44}{0.16}=9$", "score": 3 },
+      { "text": "求得 $\\mathrm{H_2}$ 转化率 $\\alpha=\\dfrac{0.6}{1.0}\\times100\\%=60\\%$", "score": 2 },
+      { "text": "指出 $K$ 只与温度有关故不变；该反应 $\\Delta n=0$，加压平衡不移动，$\\mathrm{HI}$ 的体积分数不变（仍为 $\\dfrac{1.2}{2.0}=60\\%$）", "score": 3 }
+    ],
+    "reference": "（1）三段式（单位 $\\mathrm{mol/L}$）：\n$\\mathrm{H_2}$：起始 $1.0$，转化 $-0.6$，平衡 $0.4$；\n$\\mathrm{I_2}$：起始 $1.0$，转化 $-0.6$，平衡 $0.4$；\n$\\mathrm{HI}$：起始 $0$，转化 $+1.2$，平衡 $1.2$。\n（2）$K=\\dfrac{c^2(\\mathrm{HI})}{c(\\mathrm{H_2})\\,c(\\mathrm{I_2})}=\\dfrac{1.2^2}{0.4\\times0.4}=9$。\n（3）$\\alpha(\\mathrm{H_2})=\\dfrac{0.6}{1.0}\\times100\\%=60\\%$。\n（4）$K$ 不变（$K$ 只随温度改变）。压缩体积后各组分浓度同倍数增大，$Q=\\dfrac{(2c)^2}{(2c)(2c)}=K$ 仍成立，故平衡不移动；$\\mathrm{HI}$ 的体积分数保持 $\\dfrac{1.2}{0.4+0.4+1.2}=60\\%$ 不变（物质的量分数与体积分数在恒温恒压下相同，此处恒容亦等于物质的量分数）。",
+    "maxScore": 11,
+    "explanation": "本题是“三段式—平衡常数—转化率—条件改变”的标准链条。关键点有三：①三段式的“转化量”由计量数关系从已知物质推出，本反应 $\\mathrm{HI}$ 的生成量是 $\\mathrm{H_2}$ 消耗量的 2 倍；②$K$ 只能用平衡浓度，不能用起始浓度，且必须写气态 $\\mathrm{I_2}$（本题 $\\mathrm{I_2}$ 为气态，不可漏写）；③第（4）问考查 $K$ 的温度依赖性与 $\\Delta n=0$ 时压强不影响平衡，答“$K$ 不变、平衡不移动、体积分数不变”时务必给出理由。常见失分：把 $K$ 算成 $1.2/0.16=7.5$（漏平方）；转化率分母误用平衡浓度；认为加压后 $\\mathrm{HI}$ 体积分数增大。"
+  },
+  {
+    "id": "q-chem-equilibrium-shift-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-equilibrium-shift", "chem-industrial-conditions"],
+    "stem": "工业合成氨的反应为 $\\mathrm{N_2(g)+3H_2(g)\\rightleftharpoons 2NH_3(g)}$ $\\Delta H=-92.4\\ \\mathrm{kJ/mol}$。一定条件下该反应在恒容密闭容器中已达平衡。\n\n（1）升高温度，平衡向哪个方向移动？平衡常数 $K$ 和 $\\mathrm{NH_3}$ 的体积分数分别如何变化？\n（2）恒温恒容下再充入 $1\\ \\mathrm{mol}\\ \\mathrm{N_2}$，平衡如何移动？$\\mathrm{N_2}$ 的转化率、$\\mathrm{H_2}$ 的转化率、$\\mathrm{NH_3}$ 的物质的量分别如何变化？\n（3）恒温恒压下充入惰性气体（如氩气），平衡向哪个方向移动？说明理由。\n（4）结合（1）（2）说明：为什么工业上不采用低温高压的“理论最优”条件，而选择约 $400\\sim500\\,^{\\circ}\\mathrm{C}$、$10\\sim30\\ \\mathrm{MPa}$？",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["平衡移动", "合成氨", "条件选择"],
+    "rubric": [
+      { "text": "（1）升温平衡向逆反应方向（吸热方向）移动，$K$ 减小，$\\mathrm{NH_3}$ 的体积分数减小", "score": 2 },
+      { "text": "（2）充入 $\\mathrm{N_2}$ 后平衡向正反应方向移动；$\\mathrm{N_2}$ 自身转化率减小，$\\mathrm{H_2}$ 转化率增大，$\\mathrm{NH_3}$ 的物质的量增大", "score": 3 },
+      { "text": "（3）恒温恒压充惰性气体使容器体积增大、各组分分压减小，平衡向气体分子数增多的方向（逆反应方向）移动", "score": 3 },
+      { "text": "（4）低温高压虽有利于平衡正移，但低温速率过慢、铁触媒活性低，压强过高对设备与动力要求过高，故取折中条件", "score": 3 }
+    ],
+    "reference": "（1）该反应放热，升温平衡向吸热的逆反应方向移动，$\\mathrm{NH_3}$ 减少、$\\mathrm{N_2}$ 与 $\\mathrm{H_2}$ 增多，故 $K=\\dfrac{c^2(\\mathrm{NH_3})}{c(\\mathrm{N_2})\\,c^3(\\mathrm{H_2})}$ 减小，$\\mathrm{NH_3}$ 的体积分数减小。\n（2）增大 $\\mathrm{N_2}$ 浓度，平衡向正反应方向移动；此时 $\\mathrm{H_2}$ 被消耗得更多，其转化率增大，$\\mathrm{NH_3}$ 的物质的量增大；而 $\\mathrm{N_2}$ 加入量大于其被额外消耗的量，故 $\\mathrm{N_2}$ 自身转化率减小。\n（3）恒温恒压下充入惰性气体，为维持压强不变容器体积增大，各反应组分浓度（分压）减小，相当于“减压”，平衡向气体分子数增多的方向即逆反应方向移动，$\\mathrm{NH_3}$ 含量降低。\n（4）低温、高压虽然使平衡正移、氨的平衡含量高，但温度过低反应速率太慢且铁触媒活性不足，单位时间产量反而低；压强过高则设备耐压要求与压缩动力成本急增。工业上取 $400\\sim500\\,^{\\circ}\\mathrm{C}$（保证速率与催化剂活性）与 $10\\sim30\\ \\mathrm{MPa}$（兼顾转化率与成本），并及时分离液氨、循环使用未反应原料，以实现综合效益最优。",
+    "maxScore": 11,
+    "explanation": "本题考查勒夏特列原理在真实体系中的综合运用，四个小问分别对应温度、浓度、恒压充惰性气体、工业条件四类高频考点。（2）的判断要点是区分“平衡移动方向”和“某物质自身转化率”：增大某反应物浓度，平衡正移，其他反应物转化率增大，而该物质自身转化率减小。（3）的关键是恒温恒压充惰性气体等价于“体积增大、分压降低”，与恒容充惰性气体（分压不变、不移动）形成对照。（4）要体现“转化率—速率—催化剂活性—成本”的权衡，而不是简单背结论。常见失分：把升温后“正逆速率都增大”当作平衡正移；把恒压充惰性气体与恒容充惰性气体混为一谈；第（4）问只写“条件折中”而不指出具体原因。"
+  }
+]

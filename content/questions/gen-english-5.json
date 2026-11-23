@@ -1,0 +1,1081 @@
+[
+  {
+    "id": "q-eng-grammar-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-grammar"],
+    "stem": "判断下列说法是否正确：英语简单句中通常只能有一个谓语动词，若还要表达第二个动作，须借助并列连词、从句或非谓语形式来处理。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["句子结构", "谓语", "非谓语"],
+    "answer": true,
+    "explanation": "正确。英语简单句的核心是「一个主语 + 一个谓语」，出现第二个动词时只有三条合法出路：①用并列连词 and/but/or 连接两个谓语（He got up and went out.）；②用从句把第二个动作降级（When he got up, he went out.）；③用非谓语形式（Getting up, he went out.）。最常见的病句是 “He got up went out.” 或 “I like play basketball.”——两个谓语直接并置，或谓语后接动词原形。判断句子是否合法，先数谓语动词个数，再看它们之间有没有连词或从句标记。"
+  },
+  {
+    "id": "q-eng-grammar-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-grammar"],
+    "stem": "句子成分包括主语、谓语、____（说明动作的承受者或对象）、表语、定语、状语、补语等。在 “He gave me a book.” 中，me 作 ____，a book 作直接宾语。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["句子成分", "双宾语"],
+    "blanks": [
+      { "accept": ["宾语", "宾 语"], "hint": "动作的承受者，常位于及物动词之后" },
+      { "accept": ["间接宾语", "间宾"], "hint": "双宾语中指「人」的那个宾语，通常在前" }
+    ],
+    "explanation": "第一空填「宾语」：主语发出动作，宾语承受动作，如 I like music. 中的 music。第二空填「间接宾语」：give、show、tell、lend、send 等动词可带双宾语，指人的通常在前作间接宾语，指物的在后作直接宾语，即 give sb. sth.；也可改写为 give sth. to sb.。判断成分时抓两个锚点：谓语动词是什么，以及名词与动词之间是「发出」还是「承受」关系。"
+  },
+  {
+    "id": "q-eng-grammar-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-grammar"],
+    "stem": "在句子 “The children are playing football in the park.” 中，斜体部分 in the park 作（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["状语", "句子成分"],
+    "options": [
+      { "key": "A", "text": "定语" },
+      { "key": "B", "text": "状语" },
+      { "key": "C", "text": "表语" },
+      { "key": "D", "text": "宾语补足语" }
+    ],
+    "answer": "B",
+    "explanation": "in the park 说明动作 playing 发生的地点，修饰谓语，因此是地点状语。区分的要点是看它修饰谁：修饰名词、说明「什么样的」是定语（the boy in the park 中的 in the park 修饰 boy）；放在系动词后说明主语身份或状态是表语（He is in the park.）；补充说明宾语的状态是宾补（We found him in the park.）。同一个介词短语在不同句子里成分可能不同，必须结合它修饰的对象判断。"
+  },
+  {
+    "id": "q-eng-grammar-4",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-grammar"],
+    "stem": "下列句子中，属于「主语 + 谓语 + 宾语 + 宾语补足语」结构的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["句型", "宾补"],
+    "options": [
+      { "key": "A", "text": "The soup tastes delicious." },
+      { "key": "B", "text": "She found the room empty." },
+      { "key": "C", "text": "The children are playing football." },
+      { "key": "D", "text": "He runs very fast." }
+    ],
+    "answer": "B",
+    "explanation": "B 中 found 是谓语，the room 是宾语，empty 补充说明 the room 的状态，是宾语补足语，属「主谓宾补」。A 是「主系表」：tastes 是系动词，delicious 是表语，不是宾补；C 是「主谓宾」：playing football 整体作谓语动词短语，football 是 playing 的宾语；D 是「主谓状」：fast 修饰 runs 作状语。区分宾补与状语的关键：宾补与宾语之间能加 be 动词构成逻辑主谓关系（the room was empty），状语则不能。"
+  },
+  {
+    "id": "q-eng-tense-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-tense"],
+    "stem": "判断下列说法是否正确：在时间状语从句和条件状语从句中，如果主句用一般将来时，从句通常用一般现在时表示将来。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["时态", "主将从现", "状语从句"],
+    "answer": true,
+    "explanation": "正确，这就是常说的「主将从现」。如 I will call you as soon as I arrive.（不用 will arrive）、If it rains tomorrow, we will stay at home.（不用 will rain）。这条规则只适用于由 when、while、as soon as、until、before、after、if、unless、in case 等引导的状语从句；宾语从句则不受限制，如 I don't know if he will come. 中 will come 是正确的。做题时先判断从句性质，再决定是否能把将来时「降级」为一般现在时。"
+  },
+  {
+    "id": "q-eng-tense-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-tense"],
+    "stem": "用括号内动词的适当形式填空：\n(1) By the time we got to the cinema, the film ____ (begin).\n(2) Look! The children ____ (play) football on the playground.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["过去完成时", "现在进行时"],
+    "blanks": [
+      { "accept": ["had begun"], "hint": "表示在过去某一时间之前已经发生，即「过去的过去」" },
+      { "accept": ["are playing"], "hint": "Look! 提示动作此刻正在进行" }
+    ],
+    "explanation": "(1) 填 had begun：by the time 引导的从句用了一般过去时 got，主句动作发生在其之前，用过去完成时 had done。(2) 填 are playing：Look! 是现在进行时的典型标志，表示说话瞬间正在发生。时态判断的基本方法是先找时间参照点（now／过去某点／将来某点），再确定动作与该参照点的先后关系；只背「by the time 用完成时」而不看参照点，遇到 By the time he comes, I will have finished. 就会误判。"
+  },
+  {
+    "id": "q-eng-tense-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-tense"],
+    "stem": "— Did you catch the train? — No, it ____ when I got to the station.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["过去完成时", "时态呼应"],
+    "options": [
+      { "key": "A", "text": "has left" },
+      { "key": "B", "text": "had left" },
+      { "key": "C", "text": "left" },
+      { "key": "D", "text": "was leaving" }
+    ],
+    "answer": "B",
+    "explanation": "火车开走发生在「我到达车站」（got）之前，是过去的过去，用过去完成时 had left。A 的现在完成时以现在为参照，与 got to the station 冲突；C 的一般过去时只说明过去发生，无法体现与 got 的先后；D 的过去进行时强调当时正在进行，与 when I got there 想表达的「已经开走」不符。这类题先锁定参照点 got，再把动作放到参照点之前，答案只能是 had done。"
+  },
+  {
+    "id": "q-eng-tense-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-tense"],
+    "stem": "下列句子中，时态使用正确的有（　）——注意时间状语与完成时的搭配。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["时态", "完成时", "时间状语"],
+    "options": [
+      { "key": "A", "text": "I have seen him yesterday." },
+      { "key": "B", "text": "She has lived here since 2010." },
+      { "key": "C", "text": "We were having dinner when the phone rang." },
+      { "key": "D", "text": "He will call you as soon as he arrives." }
+    ],
+    "answer": ["B", "C", "D"],
+    "explanation": "B 正确：since 2010 表示从过去持续到现在，与现在完成时搭配。C 正确：过去进行时表示过去某时正在进行的背景动作，when 从句用一般过去时表示突然发生的动作。D 正确：as soon as 引导时间状语从句，遵循「主将从现」。A 错误：yesterday 是明确的过去时间点，与现在完成时不能共存，应改为 I saw him yesterday.。常见误区是把「已经做过」一律用完成时，而忽略了明确过去时间状语必须用一般过去时的限制。"
+  },
+  {
+    "id": "q-eng-voice-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-voice"],
+    "stem": "判断下列说法是否正确：不及物动词和系动词一般没有被动语态，happen、appear、belong to、consist of 等只能用主动形式表达被动含义。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["语态", "不及物动词", "被动语态"],
+    "answer": true,
+    "explanation": "正确。被动语态的前提是动词能带宾语（及物），不及物动词后面没有宾语，自然无法「把宾语提前作主语」。所以 The accident was happened last night. 是典型病句，应改为 The accident happened last night.。belong to（属于）、consist of（由……组成）、date from（追溯到）、break out（爆发）同样是「主动形式、被动含义」，不能说 *is belonged to、*is consisted of。做语态题先问两个问题：动词及物吗？主语是动作的承受者吗？两者都成立才用 be + 过去分词。"
+  },
+  {
+    "id": "q-eng-voice-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-voice"],
+    "stem": "把下列句子改为被动语态：\nThey will finish the work tomorrow.\n→ The work ____ by them tomorrow.（用 finish 的适当形式）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["被动语态", "一般将来时"],
+    "blanks": [
+      { "accept": ["will be finished"], "hint": "will + be + 过去分词，注意 be 不能省略" }
+    ],
+    "explanation": "答案为 will be finished。被动语态的构成是「be 的各种时态形式 + 过去分词」，一般将来时的 be 要写成 will be，再加 finish 的过去分词 finished。最常见的错误是漏掉 be，写成 *will finished，或把 will 后的 be 误写成 been/is。判断步骤：①找原句宾语 the work 作新主语；②保留原时态 will；③动词变过去分词；④原主语用 by 引出。"
+  },
+  {
+    "id": "q-eng-voice-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-voice"],
+    "stem": "A new library ____ in our school next year.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["被动语态", "时态语态结合"],
+    "options": [
+      { "key": "A", "text": "is built" },
+      { "key": "B", "text": "will be built" },
+      { "key": "C", "text": "will build" },
+      { "key": "D", "text": "has been built" }
+    ],
+    "answer": "B",
+    "explanation": "next year 表明一般将来时；library 是被建造的对象，与 build 构成被动关系，故用 will be built。A 是一般现在时被动，与 next year 冲突；C 是主动语态，图书馆不能自己建；D 是现在完成时被动，与将来时间状语矛盾。此题的典型错解正是 C——只注意到「将要建」而忽略了主被动关系，说明做时态语态题必须两个维度同时判断。"
+  },
+  {
+    "id": "q-eng-voice-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-voice"],
+    "stem": "下列句子中，被动语态使用正确的有（　）——注意不及物动词与固定结构。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["语态", "特殊结构", "易错"],
+    "options": [
+      { "key": "A", "text": "The book was written by Lu Xun." },
+      { "key": "B", "text": "The accident was happened last night." },
+      { "key": "C", "text": "He is said to be a good teacher." },
+      { "key": "D", "text": "The problem is being discussed now." }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 正确：write 及物，书是被写的对象，用过去分词。C 正确：It is said that... / sb. is said to do... 是固定被动结构，表示「据说」。D 正确：现在进行时的被动是 is/are being done，注意不能写成 is being discussing。B 错误：happen 是不及物动词，没有被动形式，应改为 The accident happened last night.。判断被动是否成立，先确认动词及物、主语是动作承受者，再检查 be 与过去分词是否都到位。"
+  },
+  {
+    "id": "q-eng-participle-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-participle"],
+    "stem": "____ from the top of the hill, the city looks beautiful.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["非谓语", "过去分词作状语"],
+    "options": [
+      { "key": "A", "text": "Seen" },
+      { "key": "B", "text": "Seeing" },
+      { "key": "C", "text": "To see" },
+      { "key": "D", "text": "Having seen" }
+    ],
+    "answer": "A",
+    "explanation": "句中主语是 the city，城市是「被看」的对象，与 see 构成被动关系，故用过去分词 Seen 作状语。B、D 都是主动形式，逻辑主语只能是「看」的人，与 the city 不搭；C 不定式作状语多表示目的，此处不表目的。非谓语作状语的核心判断是「逻辑主语 + 主动/被动 + 先后」三要素：先找句子主语，再判断它与该动作是主动还是被动关系。"
+  },
+  {
+    "id": "q-eng-participle-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-participle"],
+    "stem": "用括号内动词的适当形式填空：\n____ (walk) along the street, I met an old friend of mine.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["非谓语", "现在分词作状语"],
+    "blanks": [
+      { "accept": ["Walking"], "hint": "主语 I 与 walk 是主动关系，且两个动作同时发生" }
+    ],
+    "explanation": "填 Walking。句子主语 I 与 walk 是主动关系，且「沿街走」与「遇见朋友」几乎同时发生，用现在分词一般式作时间状语，相当于 While I was walking along the street。若强调先走后遇，可用 Having walked。易错点是误填 Walked——过去分词要求主语与动词构成被动关系，而 I 是主动走的人，用被动就讲不通。"
+  },
+  {
+    "id": "q-eng-participle-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-participle"],
+    "stem": "The problem ____ at the meeting now is of great importance.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["非谓语", "现在分词被动式作定语"],
+    "options": [
+      { "key": "A", "text": "discussed" },
+      { "key": "B", "text": "discussing" },
+      { "key": "C", "text": "being discussed" },
+      { "key": "D", "text": "to discuss" }
+    ],
+    "answer": "C",
+    "explanation": "now 表明讨论正在进行，problem 是被讨论的对象，故用现在分词被动式 being discussed 作后置定语，意为「正在被讨论的问题」。A 的过去分词只表示被动或完成，不能体现「正在进行」；B 是主动形式，problem 不能主动讨论；D 不定式表示将要讨论。三者的区别可概括为：to be discussed（将要被讨论）／being discussed（正在被讨论）／discussed（已经被讨论）。"
+  },
+  {
+    "id": "q-eng-participle-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-participle"],
+    "stem": "下列关于非谓语动词的说法，正确的有（　）——注意其时间含义与逻辑主语。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["非谓语", "概念辨析"],
+    "options": [
+      { "key": "A", "text": "现在分词作状语时，其逻辑主语必须与句子主语一致" },
+      { "key": "B", "text": "过去分词作定语时，与被修饰词之间通常是被动或完成关系" },
+      { "key": "C", "text": "动词不定式作宾语时，总是表示已经发生的动作" },
+      { "key": "D", "text": "动词 -ing 形式可以在句中作主语、宾语和表语" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：分词作状语时逻辑主语默认是句子主语，否则就是「悬垂分词」病句，如 Walking in the street, a car hit me. 应改为 Walking in the street, I was hit by a car.。B 正确：a broken window（被打破的窗户）、the fallen leaves（已落的叶子）都是被动或完成关系。D 正确：Swimming is good for health.（主语）、I enjoy reading.（宾语）、His job is teaching.（表语）。C 错误：不定式通常表示将要发生或具体某一次的动作，如 I want to go home.；表示已发生要用完成式 to have done。"
+  },
+  {
+    "id": "q-eng-participle-form-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-participle-form"],
+    "stem": "判断下列说法是否正确：动词不定式一般表示将要发生或具体一次的动作，现在分词一般表示主动、进行，过去分词一般表示被动、完成。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["非谓语", "形式与意义"],
+    "answer": true,
+    "explanation": "正确，这是非谓语三种基本形式的意义分工。不定式 to do 带「将来、目的、一次」的色彩（I have a lot of work to do.）；现在分词 doing 表主动、进行（the man standing there）；过去分词 done 表被动、完成（the work finished yesterday）。掌握这张「形式—意义」对照表，多数非谓语题可以靠逻辑主语和主动被动两步推出来；但要注意完成式 having done、被动式 being done 等复合形式承担更精细的时间与语态信息。"
+  },
+  {
+    "id": "q-eng-participle-form-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-participle-form"],
+    "stem": "用括号内动词的正确非谓语形式填空：\n(1) He wants ____ (go) abroad for further study.\n(2) I enjoy ____ (read) novels in my spare time.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["非谓语", "固定搭配"],
+    "blanks": [
+      { "accept": ["to go"], "hint": "want 后接不定式作宾语" },
+      { "accept": ["reading"], "hint": "enjoy 后接动名词作宾语" }
+    ],
+    "explanation": "(1) 填 to go：want、hope、wish、decide、plan、expect 等动词后接不定式作宾语。(2) 填 reading：enjoy、mind、finish、avoid、practise、suggest、consider 等动词后接动名词作宾语。这是非谓语最基础也最高频的考点，必须成组记忆。特别提醒：remember/forget/regret 后接 to do 与 doing 意义不同（remember to do 记得去做；remember doing 记得做过），不能死记一条规则套用。"
+  },
+  {
+    "id": "q-eng-participle-form-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-participle-form"],
+    "stem": "____ his homework, he went out to play basketball.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["非谓语", "完成式作状语"],
+    "options": [
+      { "key": "A", "text": "Finished" },
+      { "key": "B", "text": "Having finished" },
+      { "key": "C", "text": "Finishing" },
+      { "key": "D", "text": "To finish" }
+    ],
+    "answer": "B",
+    "explanation": "「完成作业」发生在「出去打球」之前，且主语 he 是主动完成作业的人，用现在分词完成式 Having finished 作时间状语，相当于 After he had finished his homework。A 是被动形式，he 不能「被完成」；C 的一般式暗示两个动作同时，与句中先后逻辑不符；D 表目的，逻辑不通。分词完成式的使用条件就是「动作先于谓语发生 + 主动」，这是区分一般式与完成式的关键。"
+  },
+  {
+    "id": "q-eng-participle-form-4",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-participle-form"],
+    "stem": "It is no use ____ over spilt milk.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["非谓语", "动名词", "固定句型"],
+    "options": [
+      { "key": "A", "text": "to cry" },
+      { "key": "B", "text": "crying" },
+      { "key": "C", "text": "cry" },
+      { "key": "D", "text": "cried" }
+    ],
+    "answer": "B",
+    "explanation": "It is no use / no good / useless doing sth. 是固定句型，意为「做某事没有用」，用动名词作真正主语，It 是形式主语。A 的不定式在该句型中不成立；C、D 不能作主语。类似句型还有 It is worth doing（值得做）、It is a waste of time doing（浪费时间做）。注意与 It is + adj. + to do（It is important to learn English.）区分：前者是固定搭配，后者才是通用的不定式作主语结构。"
+  },
+  {
+    "id": "q-eng-participle-special-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-participle-special"],
+    "stem": "The man ____ in the chair was my uncle.",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["非谓语", "易错点", "过去分词作定语"],
+    "options": [
+      { "key": "A", "text": "seated" },
+      { "key": "B", "text": "seating" },
+      { "key": "C", "text": "sat" },
+      { "key": "D", "text": "being seated" }
+    ],
+    "answer": "A",
+    "explanation": "seat 是及物动词，常用 be seated 表示「坐着」这一状态，故用过去分词 seated 作后置定语，相当于 who was seated。B 的 seating 若作定语需带宾语（the man seating himself）；C 的 sat 是谓语动词形式，此处已有谓语 was，不能再用；D 的 being seated 强调正在进行的被动动作，与静态描述不搭。同类易错词还有 dressed（穿着）、lost（迷路）、hidden（躲藏），都要用过去分词表状态。"
+  },
+  {
+    "id": "q-eng-participle-special-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-participle-special"],
+    "stem": "用括号内动词的适当形式填空：\n____ (give) more time, we could have done the work better.（表示假设条件）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["非谓语", "过去分词作条件状语"],
+    "blanks": [
+      { "accept": ["Given"], "hint": "we 与 give 是被动关系，相当于 If we had been given more time" }
+    ],
+    "explanation": "填 Given。该句省略了 if，用过去分词短语表示虚拟条件：Given more time = If we had been given more time。we 是「被给予时间」的对象，与 give 构成被动关系，故用过去分词。若写成 Giving，逻辑主语就变成「给时间的人」，与 we 矛盾。这类「过去分词表条件」结构还有 Compared with...、Faced with...、Seen from...，都是高考高频考点。"
+  },
+  {
+    "id": "q-eng-participle-special-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-participle-special"],
+    "stem": "____ in 1636, Harvard is one of the oldest universities in the United States.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["非谓语", "过去分词作状语"],
+    "options": [
+      { "key": "A", "text": "Founded" },
+      { "key": "B", "text": "Founding" },
+      { "key": "C", "text": "To found" },
+      { "key": "D", "text": "Being founded" }
+    ],
+    "answer": "A",
+    "explanation": "Harvard 是「被创建」的对象，与 found（创建）构成被动关系，且创建发生在 1636 年这一过去时间，用过去分词 Founded 作时间状语。B 是主动形式，哈佛不能自己创建自己；C 表目的；D 强调「正在被创建」，与历史事实不符。此类题的判断口诀：主语 + 动词 = 主动还是被动？被动一律用过去分词，无需考虑时态。"
+  },
+  {
+    "id": "q-eng-participle-special-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-participle-special"],
+    "stem": "下列句子中，非谓语动词使用正确的有（　）——注意独立主格与被动关系。",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["非谓语", "独立主格", "易错"],
+    "options": [
+      { "key": "A", "text": "Weather permitting, we will go hiking tomorrow." },
+      { "key": "B", "text": "Having been told many times, he still made the same mistake." },
+      { "key": "C", "text": "Seeing from the moon, the earth looks like a blue ball." },
+      { "key": "D", "text": "The meeting to be held tomorrow is very important." }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：Weather permitting 是独立主格结构，weather 自带逻辑主语，permit 用主动现在分词，表示「如果天气允许」。B 正确：he 是「被告知」的对象，用现在分词完成被动式表示先于谓语发生的被动动作。D 正确：不定式被动式 to be held 表示「将要被举行」。C 错误：地球是「被看」的对象，应为 Seen from the moon，用主动的 Seeing 会造成悬垂分词。独立主格与被动分词是本节两大易错点，判断时先找逻辑主语，再定主动被动。"
+  },
+  {
+    "id": "q-eng-noun-clause-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-noun-clause"],
+    "stem": "____ he will come to the party is still unknown.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["名词性从句", "主语从句", "whether"],
+    "options": [
+      { "key": "A", "text": "If" },
+      { "key": "B", "text": "Whether" },
+      { "key": "C", "text": "That" },
+      { "key": "D", "text": "What" }
+    ],
+    "answer": "B",
+    "explanation": "从句位于句首作主语，表示「他是否来」，须用 Whether。if 虽然也能表示「是否」，但不能引导位于句首的主语从句；C 的 That 虽可引导主语从句，但表示「他来」这一事实，与句末 unknown（不知道）的语义需要「是否」相冲突；D 的 What 在从句中须充当成分，而 he will come 已完整。记忆要点：句首主语从句表「是否」只用 whether。"
+  },
+  {
+    "id": "q-eng-noun-clause-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-noun-clause"],
+    "stem": "填入恰当的连接词：\nThe question is ____ we can finish the task on time.（表示「是否」）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["名词性从句", "表语从句"],
+    "blanks": [
+      { "accept": ["whether"], "hint": "表语从句表示「是否」，只能用 whether" }
+    ],
+    "explanation": "填 whether。is 后是表语从句，表示「我们能否按时完成任务」，须用 whether 引导。表语从句中不能使用 if，这是 whether 与 if 的固定分工之一：主语从句（句首）、表语从句、同位语从句、介词宾语从句以及后接 or not 时，都只能用 whether。可以记成「if 只管动词后的宾语从句」，其余场合一律用 whether，能避开绝大多数陷阱。"
+  },
+  {
+    "id": "q-eng-noun-clause-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-noun-clause"],
+    "stem": "It is said ____ he has gone abroad for further study.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["名词性从句", "形式主语", "that"],
+    "options": [
+      { "key": "A", "text": "that" },
+      { "key": "B", "text": "what" },
+      { "key": "C", "text": "whether" },
+      { "key": "D", "text": "if" }
+    ],
+    "answer": "A",
+    "explanation": "It 是形式主语，真正的主语是 he has gone abroad 这一从句，从句结构完整、不缺成分，故用 that 引导，且 that 在此不能省略。B 的 what 须在从句中充当主语或宾语，此处无空缺；C、D 表「是否」，与句意「据说他已出国」不符。注意区分 It is said that...（据说……）与 It is not known whether...（还不知道是否……），前者用 that，后者用 whether，句意决定连接词。"
+  },
+  {
+    "id": "q-eng-noun-clause-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-noun-clause"],
+    "stem": "下列关于名词性从句的说法，正确的有（　）——注意 whether 与 if 的分工。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["名词性从句", "语序", "whether"],
+    "options": [
+      { "key": "A", "text": "主语从句、宾语从句、表语从句、同位语从句都属于名词性从句" },
+      { "key": "B", "text": "宾语从句必须用陈述语序，不能用疑问语序" },
+      { "key": "C", "text": "whether 和 if 在所有名词性从句中都可以互换" },
+      { "key": "D", "text": "that 引导主语从句并位于句首时，不可以省略" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：四类从句在句中充当名词能充当的成分（主语、宾语、表语、同位语），合称名词性从句。B 正确：I don't know where he lives. 中 where he lives 是陈述语序，写成 *where does he live 即错。D 正确：That he passed the exam made us happy. 中句首的 that 起标志作用，不能省略。C 错误：if 不能引导句首主语从句、表语从句、同位语从句，也不能跟在介词后或与 or not 直接连用，这些场合只能用 whether。"
+  },
+  {
+    "id": "q-eng-attr-clause-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-attr-clause"],
+    "stem": "判断下列说法是否正确：关系代词 that 既可指人也可指物，但不能用在介词之后，也不能引导非限制性定语从句。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["定语从句", "关系代词", "that"],
+    "answer": true,
+    "explanation": "正确。that 的适用范围确实较宽（the man that helped me / the book that I bought），但有两条硬约束：①介词后只能用 which/whom，如 the house in which he lives，不能说 *in that；②非限制性定语从句（用逗号隔开、起补充说明作用）只能用 which/who，如 Beijing, which is the capital of China, ...。此外，先行词为 all、everything、nothing、the only、the first 等时通常优先用 that。"
+  },
+  {
+    "id": "q-eng-attr-clause-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-attr-clause"],
+    "stem": "填入恰当的关系词：\n(1) This is the house ____ we lived in last year.\n(2) The girl ____ is wearing a red dress is my sister.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["定语从句", "关系代词"],
+    "blanks": [
+      { "accept": ["which", "that"], "hint": "先行词是物，关系词在从句中作介词 in 的宾语" },
+      { "accept": ["who", "that"], "hint": "先行词是人，关系词在从句中作主语" }
+    ],
+    "explanation": "(1) 填 which 或 that：先行词 the house 指物，关系词在从句中作 lived in 的宾语，用 which/that 均可。(2) 填 who 或 that：先行词 the girl 指人，关系词在从句中作主语，用 who/that。选择关系词的三步法：①找先行词是人是物；②看关系词在从句中作什么成分（主、宾、状语）；③检查是否在介词后或非限制性从句中。第 (1) 题若去掉句末的 in，则须用 where。"
+  },
+  {
+    "id": "q-eng-attr-clause-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-attr-clause"],
+    "stem": "I still remember the day ____ we first met in that small town.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["定语从句", "关系副词", "when"],
+    "options": [
+      { "key": "A", "text": "which" },
+      { "key": "B", "text": "when" },
+      { "key": "C", "text": "where" },
+      { "key": "D", "text": "what" }
+    ],
+    "answer": "B",
+    "explanation": "先行词 the day 表示时间，关系词在从句 we first met 中作时间状语（相当于 on that day），故用关系副词 when。A 的 which 需在从句中作主语或宾语，而 we first met 已完整；C 的 where 指地点；D 的 what 不引导定语从句。判断关系副词的口诀：先行词表时间用 when、表地点用 where、表原因用 why，且关系词在从句中作状语——若作主宾成分则仍用 which/that。"
+  },
+  {
+    "id": "q-eng-attr-clause-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-attr-clause"],
+    "stem": "下列句子中，定语从句使用正确的有（　）——注意关系代词与多余宾语。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["定语从句", "易错", "关系代词"],
+    "options": [
+      { "key": "A", "text": "He is the man who helped me yesterday." },
+      { "key": "B", "text": "This is the book which I bought it yesterday." },
+      { "key": "C", "text": "The city where I was born is beautiful." },
+      { "key": "D", "text": "All that glitters is not gold." }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 正确：who 指人并在从句中作主语，结构完整。C 正确：where 引导定语从句修饰 the city，相当于 in which。D 正确：先行词为 all 时关系代词用 that，且 that 在从句中作主语。B 错误：关系代词 which 已在从句中作 bought 的宾语，句末的 it 重复，应删去。这是定语从句最高频的错误——「关系代词 + 多余代词」，检查时数一数从句里动词的宾语是否已经出现。"
+  },
+  {
+    "id": "q-eng-adv-clause-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-adv-clause"],
+    "stem": "判断下列说法是否正确：so that 引导目的状语从句时，从句中常含 can、could、may、might 等情态动词；引导结果状语从句时则可以不带情态动词，且主句与从句之间常加逗号。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["状语从句", "目的与结果", "so that"],
+    "answer": true,
+    "explanation": "正确。目的状语从句的 so that 表示「以便」，从句是尚未实现的目标，故常与 can/could/may/might/will 连用：He got up early so that he could catch the first bus.。结果状语从句的 so that 表示「结果」，所述已发生，通常不带情态动词，且前面常有逗号：He got up late, so that he missed the bus.。区分二者的实用办法：看从句内容是「想要达到」还是「已经造成」。"
+  },
+  {
+    "id": "q-eng-adv-clause-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-adv-clause"],
+    "stem": "填入恰当的连词：\n____ he was seriously ill, he still came to school on time.（表示让步）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["状语从句", "让步", "although"],
+    "blanks": [
+      { "accept": ["Although", "Though", "Even though"], "hint": "表示「虽然、尽管」，注意主句不能再加 but" }
+    ],
+    "explanation": "填 Although（或 Though / Even though）。句子前半句表示让步「尽管病得很重」，后半句「仍按时到校」。最关键的易错点是：although/though 与 but 不能同时出现在一个句子里，即 *Although he was ill, but he came. 是病句，二者只能留一个。同理 because 与 so 也不能连用。中文习惯「虽然……但是……」，直译到英语就会双标记，这是母语负迁移的典型表现。"
+  },
+  {
+    "id": "q-eng-adv-clause-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-adv-clause"],
+    "stem": "He had no sooner arrived home ____ it began to rain heavily.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["状语从句", "固定搭配", "no sooner"],
+    "options": [
+      { "key": "A", "text": "when" },
+      { "key": "B", "text": "than" },
+      { "key": "C", "text": "then" },
+      { "key": "D", "text": "as" }
+    ],
+    "answer": "B",
+    "explanation": "no sooner ... than ... 是固定搭配，意为「一……就……」，故填 than。与之同义的还有 hardly/scarcely ... when ...，注意搭配对象不同：no sooner 配 than，hardly 配 when，二者不能混用。C 的 then 不是连词，无法引导从句；A 的 when 属于误配。当 no sooner 置于句首时还要部分倒装：No sooner had he arrived home than it began to rain.，本题未倒装，故用正常语序。"
+  },
+  {
+    "id": "q-eng-adv-clause-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-adv-clause"],
+    "stem": "下列状语从句中，连词使用正确的有（　）——注意关联词的搭配与重复。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["状语从句", "关联词", "易错"],
+    "options": [
+      { "key": "A", "text": "Because it was raining, so we stayed at home." },
+      { "key": "B", "text": "As soon as he arrives, he will call you." },
+      { "key": "C", "text": "Although he is young, he knows a lot." },
+      { "key": "D", "text": "Such was the force of the explosion that all the windows were broken." }
+    ],
+    "answer": ["B", "C", "D"],
+    "explanation": "B 正确：as soon as 引导时间状语从句，主句用将来时、从句用一般现在时，符合「主将从现」。C 正确：although 引导让步从句，主句不再加 but。D 正确：such ... that 引导结果状语从句，此处 such 置于句首引起完全倒装，还原为 The force of the explosion was such that...。A 错误：because 与 so 语义重复，不能同时使用，应删去 so 或改为 It was raining, so we stayed at home.。这类「双关联词」错误是中文直译的高发区。"
+  },
+  {
+    "id": "q-eng-clause-compare-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-clause-compare"],
+    "stem": "判断下列说法是否正确：It is ... that ... 结构既可能是强调句，也可能是主语从句或其他句式，区分办法是去掉 It is 和 that 后看剩余部分能否独立成句。",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["从句辨析", "强调句", "句式识别"],
+    "answer": true,
+    "explanation": "正确。以 It was in the park that I met him. 为例，去掉 It was 和 that 后剩 in the park I met him，加上适当成分可还原为 I met him in the park，句子成立，故是强调句。而 It is a fact that he is honest. 去掉后剩 a fact he is honest，无法还原成合法句，故是主语从句（It 为形式主语）。这一「还原法」还能顺带判断被强调的成分：还原后该成分在原句中的位置（主语、宾语还是状语）即为强调对象。"
+  },
+  {
+    "id": "q-eng-clause-compare-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-clause-compare"],
+    "stem": "用 where 或 that 填空：\n(1) This is the place ____ he was born.\n(2) This is the place ____ he visited last year.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["从句辨析", "关系副词与关系代词"],
+    "blanks": [
+      { "accept": ["where"], "hint": "从句 he was born 结构完整，缺地点状语" },
+      { "accept": ["that", "which"], "hint": "visited 缺宾语，关系词须在从句中作宾语" }
+    ],
+    "explanation": "(1) 填 where：he was born 已是完整的主谓结构，只缺「在那里」这一地点状语，故用关系副词 where。(2) 填 that/which：visited 是及物动词，后面缺宾语，关系词须在从句中作宾语，故用关系代词 that/which。这是「先行词相同、关系词不同」的经典对比：判断依据不是先行词本身，而是关系词在从句中充当什么成分——作状语用 where/when/why，作主宾用 which/that/who。"
+  },
+  {
+    "id": "q-eng-clause-compare-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-clause-compare"],
+    "stem": "It was in the street ____ I met an old classmate yesterday.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["从句辨析", "强调句"],
+    "options": [
+      { "key": "A", "text": "that" },
+      { "key": "B", "text": "where" },
+      { "key": "C", "text": "which" },
+      { "key": "D", "text": "when" }
+    ],
+    "answer": "A",
+    "explanation": "去掉 It was 和空格处的 that 后得 in the street I met an old classmate yesterday，还原语序为 I met an old classmate in the street yesterday，句子完整，说明这是强调句，强调地点状语 in the street，故用 that。B 的 where 是定语从句关系副词，需要一个先行词（如 the street where I met him），而此处 the street 前已有介词 in，不是先行词；C、D 同理不成立。辨别强调句与定语从句，先看有没有先行词，再用还原法验证。"
+  },
+  {
+    "id": "q-eng-clause-compare-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-clause-compare"],
+    "stem": "下列句子中，从句类型判断与使用均正确的有（　）——注意同位语从句与宾语从句的区别。",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["从句辨析", "同位语从句", "表语从句"],
+    "options": [
+      { "key": "A", "text": "The news that our team had won excited everyone.（同位语从句）" },
+      { "key": "B", "text": "It is a fact that he is honest.（主语从句）" },
+      { "key": "C", "text": "This is the school where he studied ten years ago.（定语从句）" },
+      { "key": "D", "text": "I don't know that he will come or not.（宾语从句）" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 正确：that 从句说明 the news 的具体内容，是同位语从句，且 that 不作成分。B 正确：It 为形式主语，that 从句是真正主语。C 正确：where 引导定语从句修饰 the school，在从句中作地点状语。D 错误：or not 要求与 whether 搭配，应为 I don't know whether he will come or not.。辨析同位语从句与定语从句的实用技巧：同位语从句的 that 不作任何成分且不可用 which 替换；定语从句的 that 必须在从句中充当主宾成分。"
+  },
+  {
+    "id": "q-eng-modal-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-modal"],
+    "stem": "判断下列说法是否正确：must 表示肯定推测时，其否定推测应使用 can't，而不是 mustn't；mustn't 的含义是「禁止」。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["情态动词", "推测", "must"],
+    "answer": true,
+    "explanation": "正确。表示推测时，肯定用 must（一定）、否定用 can't（不可能）、疑问用 can（可能……吗）。mustn't 与推测无关，它表示「禁止、不许」，如 You mustn't smoke here.。所以「他一定在家」是 He must be at home.，「他不可能在家」是 He can't be at home.，绝不能说 *He mustn't be at home.。过去情况的推测则用 must have done / can't have done，这是本节最高频的考点组合。"
+  },
+  {
+    "id": "q-eng-modal-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-modal"],
+    "stem": "填入恰当的情态动词：\n(1) — ____ I use your dictionary? — Yes, please.\n(2) He ____ be at home, for the light in his room is on.",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["情态动词", "请求许可", "推测"],
+    "blanks": [
+      { "accept": ["May", "Can", "Could"], "hint": "征求许可，语气客气" },
+      { "accept": ["must"], "hint": "有客观依据的肯定推测，意为「一定」" }
+    ],
+    "explanation": "(1) 填 May / Can / Could：向对方请求许可，三者都可，May 最正式，Could 最委婉。(2) 填 must：灯亮着是客观依据，据此作出肯定推测，意为「他一定在家」。若表示「可能」用 may/might，表示「不可能」用 can't。区分 must（有把握）与 may（把握不大）的差别，是情态动词推测题的得分关键：题干里常给出「灯亮着」「地面湿了」这类线索，提示高把握度。"
+  },
+  {
+    "id": "q-eng-modal-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-modal"],
+    "stem": "You ____ have told me earlier; I could have helped you.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["情态动词", "虚拟", "should have done"],
+    "options": [
+      { "key": "A", "text": "must" },
+      { "key": "B", "text": "should" },
+      { "key": "C", "text": "would" },
+      { "key": "D", "text": "might" }
+    ],
+    "answer": "B",
+    "explanation": "should have done 表示「本应该做而没做」，含责备、遗憾意味；后句 I could have helped you 进一步印证对方「本该早点告诉我」。A 的 must have done 表示对过去的肯定推测，与责备语气不符；C 的 would have done 常用于虚拟条件句的主句（would have helped），不用于这种责备句；D 的 might have done 表示「本来可能」，语气是可能性而非应该。掌握「情态动词 + have done」的四种含义（must 推测 / should 责备 / could 能力或可能 / needn't 本不必）就能快速排除。"
+  },
+  {
+    "id": "q-eng-modal-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-modal"],
+    "stem": "下列句子中，情态动词使用正确的有（　）——注意推测与禁止的区别。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["情态动词", "推测", "易错"],
+    "options": [
+      { "key": "A", "text": "He must be ill, for he looks pale." },
+      { "key": "B", "text": "It can't be true." },
+      { "key": "C", "text": "You mustn't have seen him yesterday, for he was away." },
+      { "key": "D", "text": "May you succeed in the coming exam!" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：must 表有依据的肯定推测。B 正确：can't 表「不可能」，是 must 推测的否定对应形式。D 正确：May + 主语 + 动词原形 表示祝愿，是固定用法。C 错误：对过去的否定推测应使用 can't have done，而 mustn't 只表示禁止，不能用于推测，应改为 You can't have seen him yesterday, for he was away.。记住一条铁律：mustn't 永远不表推测，推测的否定只能用 can't。"
+  },
+  {
+    "id": "q-eng-subjunctive-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-subjunctive"],
+    "stem": "If I ____ you, I would accept the offer without hesitation.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["虚拟语气", "与现在事实相反"],
+    "options": [
+      { "key": "A", "text": "am" },
+      { "key": "B", "text": "was" },
+      { "key": "C", "text": "were" },
+      { "key": "D", "text": "be" }
+    ],
+    "answer": "C",
+    "explanation": "这是与现在事实相反的虚拟条件句，从句用一般过去时，be 动词一律用 were（即使主语是 I），主句用 would/could/might + 动词原形。故填 were，完整句为 If I were you, I would accept the offer.。B 的 was 在正式书面语中不符合虚拟语气的规范；A、D 是陈述语气形式。记住「现在虚拟：过去式 + were」，这是虚拟语气最基础的一类。"
+  },
+  {
+    "id": "q-eng-subjunctive-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-subjunctive"],
+    "stem": "用括号内动词的适当形式填空：\nIf he ____ (come) earlier, he would have caught the train.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["虚拟语气", "与过去事实相反"],
+    "blanks": [
+      { "accept": ["had come"], "hint": "与过去事实相反，从句用 had + 过去分词" }
+    ],
+    "explanation": "填 had come。主句 would have caught 表明这是与过去事实相反的虚拟，从句须用过去完成时 had done。三类虚拟条件句的搭配要成组记忆：与现在相反（did/were → would do）、与过去相反（had done → would have done）、与将来相反（were to do / should do → would do）。本题只需看到主句的 would have done，就能反推从句用 had done。"
+  },
+  {
+    "id": "q-eng-subjunctive-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-subjunctive"],
+    "stem": "The teacher demanded that every student ____ quiet during the exam.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["虚拟语气", "should 省略", "宾语从句"],
+    "options": [
+      { "key": "A", "text": "keep" },
+      { "key": "B", "text": "kept" },
+      { "key": "C", "text": "will keep" },
+      { "key": "D", "text": "are keeping" }
+    ],
+    "answer": "A",
+    "explanation": "demand、insist、require、request、order、suggest、propose 等表示「要求、建议、命令」的动词，其后的宾语从句用虚拟语气（should + 动词原形），且 should 通常省略，故填 keep。B 的过去式、C 的将来时、D 的进行时都不符合该结构。注意 insist 有两个含义：表「坚持认为」时用陈述语气（He insisted that he was right.），表「坚决要求」时才用虚拟语气，需结合语境判断。"
+  },
+  {
+    "id": "q-eng-subjunctive-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-subjunctive"],
+    "stem": "下列句子中，虚拟语气使用正确的有（　）——注意从句时态与主句的配合。",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["虚拟语气", "wish", "as if"],
+    "options": [
+      { "key": "A", "text": "It is necessary that he (should) go there at once." },
+      { "key": "B", "text": "I wish I had listened to your advice." },
+      { "key": "C", "text": "He talks as if he were an expert in this field." },
+      { "key": "D", "text": "If I would have more money, I would buy that car." }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 正确：It is necessary/important/strange that... 结构中从句用 (should) + 动词原形。B 正确：wish 后接过去完成时表示对过去的遗憾。C 正确：as if 引导的从句与现在事实相反时用过去式，be 用 were。D 错误：与现在事实相反的虚拟条件句中，从句不能用 would，应改为 If I had more money, I would buy that car.。常见误区是把主句的 would 误搬到从句，记住「从句不用 would」这条规则即可。"
+  },
+  {
+    "id": "q-eng-agreement-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-agreement"],
+    "stem": "判断下列说法是否正确：each、every、either、neither 以及「one of + 复数名词」作主语时，谓语动词通常用单数形式。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["主谓一致", "单数谓语"],
+    "answer": true,
+    "explanation": "正确。each、every、either、neither 都强调「个体」，作主语时谓语用单数：Each of the students has a dictionary.；neither 单独作主语也是单数。one of + 复数名词作主语时，真正的主语是 one，谓语用单数：One of my friends is a doctor.。但要特别注意：如果 one of + 复数名词后面跟定语从句，从句的谓语通常按复数名词用复数，如 He is one of the students who have passed the exam.，这是本节最经典的陷阱。"
+  },
+  {
+    "id": "q-eng-agreement-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-agreement"],
+    "stem": "用括号内 be 动词的适当形式填空：\n(1) Neither he nor I ____ (be) right about this matter.\n(2) The number of students in our school ____ (be) increasing year by year.",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["主谓一致", "就近原则", "the number of"],
+    "blanks": [
+      { "accept": ["am"], "hint": "neither...nor 遵循就近原则，靠近 I，用 am" },
+      { "accept": ["is"], "hint": "the number of 表示「……的数量」，谓语用单数" }
+    ],
+    "explanation": "(1) 填 am：neither...nor... 连接两个主语时遵循「就近原则」，谓语与最近的主语 I 保持一致。(2) 填 is：the number of + 复数名词表示「……的数量」，中心词是 number，谓语用单数；若是 a number of + 复数名词（许多），谓语才用复数。这两个结构只差一个冠词，却是高频陷阱，可以记「the number 单数、a number 复数」。"
+  },
+  {
+    "id": "q-eng-agreement-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-agreement"],
+    "stem": "Neither the teacher nor the students ____ the answer to this question.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["主谓一致", "就近原则"],
+    "options": [
+      { "key": "A", "text": "know" },
+      { "key": "B", "text": "knows" },
+      { "key": "C", "text": "is knowing" },
+      { "key": "D", "text": "has known" }
+    ],
+    "answer": "A",
+    "explanation": "neither...nor... 连接主语时遵循就近原则，靠近谓语的是 the students（复数），故用复数形式 know。B 的单数形式是本题最常见的错解——只看到 neither 就判定单数，忽略了就近原则。C 的 know 是状态动词，一般不用进行时；D 的现在完成时与语境不符。同类还有 either...or...、not only...but also...、there be 句型，都遵循就近原则。"
+  },
+  {
+    "id": "q-eng-agreement-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-agreement"],
+    "stem": "下列句子中，主谓一致正确的有（　）——注意集合名词与表整体概念的短语。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["主谓一致", "集合名词", "易错"],
+    "options": [
+      { "key": "A", "text": "Each of the students has a dictionary." },
+      { "key": "B", "text": "The police are looking for the missing child." },
+      { "key": "C", "text": "Ten years are a long time for a person to wait." },
+      { "key": "D", "text": "Not only he but also I am interested in the topic." }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：each of + 复数名词作主语，谓语用单数 has。B 正确：police、people、cattle 等形式上是单数但表复数意义，谓语用复数。D 正确：not only...but also... 遵循就近原则，靠近 I，用 am。C 错误：表示时间、距离、金额、重量的复数名词作主语并被视作一个整体时，谓语用单数，应改为 Ten years is a long time...。集合名词要分清「表整体」还是「表成员」，这是判断单复数的关键。"
+  },
+  {
+    "id": "q-eng-inversion-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-inversion"],
+    "stem": "Not until he failed the exam ____ the importance of hard work.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["倒装", "部分倒装", "not until"],
+    "options": [
+      { "key": "A", "text": "he realized" },
+      { "key": "B", "text": "did he realize" },
+      { "key": "C", "text": "he did realize" },
+      { "key": "D", "text": "realized he" }
+    ],
+    "answer": "B",
+    "explanation": "Not until 置于句首时，主句要用部分倒装，即把助动词提到主语前，故为 did he realize。A 是正常语序，未倒装；C 虽然出现了 did，但词序未倒装，只是强调用法；D 是完全倒装，此处不适用。注意倒装的是主句，not until 引导的从句本身不倒装（until he failed the exam 保持陈述语序）。类似触发部分倒装的还有 never、seldom、hardly、only + 状语等。"
+  },
+  {
+    "id": "q-eng-inversion-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-inversion"],
+    "stem": "填入恰当的助动词：\nNever ____ I seen such a beautiful place before.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["倒装", "部分倒装", "完成时"],
+    "blanks": [
+      { "accept": ["have"], "hint": "Never 置于句首，完成时结构 have done 中的 have 提前" }
+    ],
+    "explanation": "填 have。Never 置于句首引起部分倒装，把助动词提到主语 I 之前；句中 seen 是过去分词，说明原本是现在完成时 I have never seen，倒装后为 Never have I seen。易错点是误填 did——若填 did，后面的动词就要用原形 see，而句中已是 seen。部分倒装的本质是「只提前助动词，实义动词留在原位」，因此必须先还原原句时态，再移动助动词。"
+  },
+  {
+    "id": "q-eng-inversion-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-inversion"],
+    "stem": "____ he come tomorrow, we would hold a meeting to discuss it.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["倒装", "虚拟条件句", "should"],
+    "options": [
+      { "key": "A", "text": "If" },
+      { "key": "B", "text": "Should" },
+      { "key": "C", "text": "Would" },
+      { "key": "D", "text": "Were" }
+    ],
+    "answer": "B",
+    "explanation": "主句 would hold 表明这是虚拟条件句，从句省略 if 后须倒装。原句为 If he should come tomorrow，省略 if 后把 should 提到主语前，得 Should he come tomorrow。C 的 Would 不用于从句；D 的 Were 只用于「与现在/过去事实相反」的倒装（Were he here / Had he come）；A 的 If 后不能直接接倒装语序。虚拟条件句省略 if 的三种倒装要成组记：Were + 主语、Had + 主语 + done、Should + 主语 + do。"
+  },
+  {
+    "id": "q-eng-inversion-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-inversion"],
+    "stem": "下列句子中，倒装结构使用正确的有（　）——注意完全倒装与部分倒装的区别。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["倒装", "完全倒装", "部分倒装"],
+    "options": [
+      { "key": "A", "text": "Only when he came back did we know the truth." },
+      { "key": "B", "text": "Here comes the bus." },
+      { "key": "C", "text": "Hardly had he arrived when it began to rain." },
+      { "key": "D", "text": "So tired he was that he fell asleep at once." }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 正确：Only + 状语从句置于句首，主句部分倒装 did we know。B 正确：Here/There 置于句首且主语为名词时用完全倒装，但主语是代词时不倒装（Here he comes.）。C 正确：Hardly...when... 固定搭配，hardly 置句首引起部分倒装 had he arrived。D 错误：so + 形容词置于句首应完全倒装，改为 So tired was he that he fell asleep at once.。判断倒装是否成立，一看触发词位置，二看助动词是否提前到位。"
+  },
+  {
+    "id": "q-eng-emphasis-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-emphasis"],
+    "stem": "判断下列说法是否正确：强调句 It is/was + 被强调部分 + that/who + 其余部分 可以强调主语、宾语和状语，但不能直接强调谓语动词，强调谓语要用助动词 do/does/did。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["强调", "强调句", "助动词"],
+    "answer": true,
+    "explanation": "正确。强调句的被强调成分可以是主语（It was Tom that broke the window.）、宾语（It was the window that Tom broke.）或状语（It was yesterday that Tom broke the window.），但不能把谓语直接放进 It is ... that 框架。要强调谓语，需用助动词：He did come yesterday.（他昨天确实来了）、Do be careful!。另外，强调句不能用 It is ... that ... 强调表语之外的形容词短语作谓语的情况，需改用 What ... is ... 等其他手段。"
+  },
+  {
+    "id": "q-eng-emphasis-2",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-emphasis"],
+    "stem": "It was in the small park near our school ____ I first met my best friend.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["强调", "强调句", "that"],
+    "options": [
+      { "key": "A", "text": "where" },
+      { "key": "B", "text": "that" },
+      { "key": "C", "text": "which" },
+      { "key": "D", "text": "when" }
+    ],
+    "answer": "B",
+    "explanation": "去掉 It was 和空格处的 that 后得 in the small park I first met my best friend，还原语序后句子完整，说明这是强调句，强调地点状语 in the small park，故用 that。A 的 where 用于定语从句，需要先行词（如 the park where I met him），而本题的 park 前有介词 in 且已被强调框架包裹；C、D 同理不成立。用「还原法」可以迅速区分强调句与定语从句。"
+  },
+  {
+    "id": "q-eng-emphasis-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-emphasis"],
+    "stem": "It was not until midnight ____ he finally went to bed.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["强调", "not until", "强调句"],
+    "options": [
+      { "key": "A", "text": "when" },
+      { "key": "B", "text": "that" },
+      { "key": "C", "text": "which" },
+      { "key": "D", "text": "as" }
+    ],
+    "answer": "B",
+    "explanation": "这是强调 not until 时间状语的强调句，固定结构为 It was not until ... that ...，故用 that。注意与倒装句的区别：Not until midnight did he go to bed. 用倒装，而 It was not until midnight that he went to bed. 用强调句，两者都不能写成 *It was not until midnight when...。掌握「强调用 that、倒装用助动词」这一对应关系，可以避免两类句式的混淆。"
+  },
+  {
+    "id": "q-eng-emphasis-4",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-emphasis"],
+    "stem": "下列句子中，属于强调句的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["强调", "句式识别"],
+    "options": [
+      { "key": "A", "text": "It is important that we should learn English well." },
+      { "key": "B", "text": "It was in Shanghai that the important meeting was held." },
+      { "key": "C", "text": "It is said that he has moved to another city." },
+      { "key": "D", "text": "It was raining heavily when we left the office." }
+    ],
+    "answer": "B",
+    "explanation": "B 去掉 It was 和 that 后得 in Shanghai the important meeting was held，还原为 The important meeting was held in Shanghai，句子完整，是强调句，强调地点状语。A 是 It is + adj. + that 从句，that 从句是真正主语，非强调句；C 是 It is said that... 固定被动态，非强调句；D 中的 It 指天气，是普通代词，与强调无关。识别强调句的唯一可靠方法是还原法，不能只看有没有 It is ... that。"
+  },
+  {
+    "id": "q-eng-prep-article-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-prep-article"],
+    "stem": "He is ____ honest boy, and everyone in the class likes him.",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["冠词", "不定冠词", "an"],
+    "options": [
+      { "key": "A", "text": "a" },
+      { "key": "B", "text": "an" },
+      { "key": "C", "text": "the" },
+      { "key": "D", "text": "不填" }
+    ],
+    "answer": "B",
+    "explanation": "honest 的拼写以辅音字母 h 开头，但 h 不发音，首个音素是元音音素 /ɒ/，故用 an。不定冠词 a/an 的选择依据是读音而非字母：an hour、an honest man、an honour，但 a university、a useful book、a European country（首音为 /j/ 等辅音）。C 的 the 表特指，此处首次提及且泛指「一个诚实的男孩」；D 单数可数名词前不能不加冠词。"
+  },
+  {
+    "id": "q-eng-prep-article-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-prep-article"],
+    "stem": "填入恰当的冠词：\n____ sun rises in ____ east and sets in the west.",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["冠词", "定冠词", "the"],
+    "blanks": [
+      { "accept": ["The"], "hint": "世界上独一无二的事物前用定冠词" },
+      { "accept": ["the"], "hint": "方位名词前用定冠词" }
+    ],
+    "explanation": "两空都填 the。太阳是世界上独一无二的事物，用定冠词 the；方位名词（the east、the west、the south、the north）也固定用 the。这条规则还适用于 the moon、the earth、the sky、the universe 等。注意「独一无二」与「首次提及用 a/an」是两条不同的规则：前者靠常识判断唯一性，后者靠上下文的引入关系。"
+  },
+  {
+    "id": "q-eng-prep-article-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-prep-article"],
+    "stem": "I bought ____ useful dictionary and ____ interesting storybook yesterday.",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["冠词", "a/an 辨析"],
+    "options": [
+      { "key": "A", "text": "a; an" },
+      { "key": "B", "text": "an; a" },
+      { "key": "C", "text": "a; a" },
+      { "key": "D", "text": "an; an" }
+    ],
+    "answer": "A",
+    "explanation": "useful 首音是 /j/（辅音音素），用 a；interesting 首音是 /ɪ/（元音音素），用 an，故选 A。这是 a/an 选择最典型的对比：字母与读音不一致的还有 university（/j/，用 a）、European（/j/，用 a）、hour（/aʊ/，用 an）、honest（/ɒ/，用 an）。判断时先读出单词的第一个音素，再决定用哪个冠词，切勿只看首字母。"
+  },
+  {
+    "id": "q-eng-prep-article-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-prep-article"],
+    "stem": "下列短语中，冠词使用正确的有（　）——注意固定搭配中冠词的取舍。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["冠词", "固定搭配", "易错"],
+    "options": [
+      { "key": "A", "text": "play the piano" },
+      { "key": "B", "text": "go to the school to study（表示「去上学」）" },
+      { "key": "C", "text": "in the morning" },
+      { "key": "D", "text": "have a good time" }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 正确：演奏乐器时，乐器名词前用定冠词，play the piano / the violin。C 正确：表示一天中某段时间的固定短语用 the，in the morning / in the afternoon / in the evening（但 at night、at noon 不用）。D 正确：have a good time 是固定搭配，用不定冠词。B 错误：表示「去上学」这一抽象活动时应说 go to school，不加冠词；加 the 则表示「去那所学校」这一具体地点。零冠词的固定搭配还有 go to bed、in hospital、by bus 等。"
+  },
+  {
+    "id": "q-eng-tense-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-tense", "eng-voice"],
+    "stem": "用括号内动词的适当形式填空，并在每空后简要说明所判断的时态与语态依据。\n(1) The bridge ____ (build) last year.\n(2) By the end of last month, he ____ (finish) the work.\n(3) Don't worry. The problem ____ (solve) soon.\n(4) Look! The children ____ (play) football on the playground.\n(5) He said he ____ (be) to Beijing twice.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["时态", "语态", "综合"],
+    "rubric": [
+      { "text": "第 (1) 空：was built，正确判断一般过去时 + 被动语态（桥是被建的对象）", "score": 2 },
+      { "text": "第 (2) 空：had finished，正确判断过去完成时（截止到过去某一时间点已完成）", "score": 2 },
+      { "text": "第 (3) 空：will be solved，正确判断一般将来时 + 被动语态", "score": 2 },
+      { "text": "第 (4) 空：are playing，正确判断现在进行时（Look! 提示此刻正在发生）", "score": 2 },
+      { "text": "第 (5) 空：had been，正确判断过去完成时表「到过去某时为止的经历」，并保持间接引语时态呼应", "score": 2 }
+    ],
+    "reference": "(1) was built：last year 表示过去，bridge 是被建造的对象，用一般过去时被动。\n(2) had finished：by the end of last month 以过去为参照点，动作在此之前完成，用过去完成时。\n(3) will be solved：soon 表示将来，problem 是被解决的对象，用一般将来时被动。\n(4) are playing：Look! 提示说话瞬间正在进行的动作，用现在进行时。\n(5) had been：主句 said 是过去时，从句表示「到那时为止去过北京两次」的经历，用过去完成时，have been to 变为 had been to。",
+    "maxScore": 10,
+    "explanation": "本题把时态与语态放在一起考，核心方法是两步走：第一步定时态（找时间参照点：last year、by the end of last month、soon、Look!、said 后的间接引语），第二步定语态（主语是动作的发出者还是承受者）。第 (1)(3) 两空都是「将来/过去 + 被动」的组合，最容易漏掉 be；第 (5) 空是双重难点，既要看出「去过两次」用 have been to 的完成态，又要受主句 said 影响改为过去完成时。评分时除了看答案，还要看能否说清判断依据。"
+  },
+  {
+    "id": "q-eng-subjunctive-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-subjunctive", "eng-inversion"],
+    "stem": "按要求完成下列各题。\n(1) 填空：If I ____ (be) more careful then, I would not have made such a silly mistake.\n(2) 将 (1) 改为省略连词的倒装句：____ I been more careful then, I would not have made such a silly mistake.\n(3) 填空：He suggested that we ____ (set) off early the next morning.\n(4) 分析下面句子的倒装原因：Not until he came back did we know the truth.",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["虚拟语气", "倒装", "综合"],
+    "rubric": [
+      { "text": "(1) 填 had been，正确判断与过去事实相反的虚拟条件句从句用过去完成时，且 be 动词用 had been", "score": 2 },
+      { "text": "(2) 正确写出 Had，说明省略 if 后把 had 提前构成倒装", "score": 3 },
+      { "text": "(3) 填 (should) set，正确识别 suggest 表「建议」时从句用虚拟语气（should + 动词原形）", "score": 2 },
+      { "text": "(4) 指出 Not until 置于句首引起主句部分倒装，助动词 did 提前，从句本身不倒装", "score": 3 }
+    ],
+    "reference": "(1) had been：主句 would not have made 表明与过去事实相反，从句用 had done，be 动词写作 had been。\n(2) Had：省略 if 后，把助动词 had 提到主语 I 之前，构成 Had I been...。\n(3) (should) set：suggest 表示「建议」时，宾语从句用虚拟语气 should + 动词原形，should 可省略。\n(4) Not until 引导的时间状语置于句首，主句须部分倒装，把助动词 did 提到主语 we 之前；not until 从句内部保持陈述语序。",
+    "maxScore": 10,
+    "explanation": "本题把虚拟语气与倒装两大难点结合，是语法综合能力的试金石。第 (1)(2) 两问考同一个句子：与过去相反的虚拟用 had done，省略 if 后把 had 提前倒装，两步必须都对。第 (3) 问要注意 suggest 的双重含义——表「建议」用虚拟语气，表「暗示、表明」用陈述语气。第 (4) 问考查倒装的触发条件与范围：只倒装主句，不倒装从句。评分重点在于能否说清「为什么用这个形式」，而不只是填对答案。"
+  }
+]

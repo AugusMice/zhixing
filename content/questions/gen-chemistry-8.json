@@ -1,0 +1,459 @@
+[
+  {
+    "id": "q-chem-lab-safety-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-lab-safety"],
+    "stem": "判断下列说法是否正确：稀释浓硫酸时，应将水沿烧杯内壁缓缓注入浓硫酸中，并不断用玻璃棒搅拌。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["浓硫酸稀释", "酸入水", "基本操作"],
+    "answer": false,
+    "explanation": "顺序说反了。浓硫酸溶于水会放出大量热，且密度比水大，若把水注入浓硫酸，水会浮在上层、局部受热迅速沸腾，带着酸液飞溅伤人。正确操作是「酸入水」：把浓硫酸沿烧杯内壁缓缓注入水中，并用玻璃棒不断搅拌，使产生的热量及时扩散。若需大量稀释，还应把烧杯放在冷水浴中。"
+  },
+  {
+    "id": "q-chem-lab-safety-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-lab-safety"],
+    "stem": "浓硫酸不慎沾到皮肤上，应立即用大量水冲洗，再涂上质量分数为 $3\\%\\sim5\\%$ 的 ____ 溶液（填化学式）。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["浓硫酸灼伤", "事故处理", "碳酸氢钠"],
+    "blanks": [
+      {
+        "accept": ["NaHCO3", "NaHCO₃", "碳酸氢钠", "小苏打", "NaHCO3溶液", "碳酸氢钠溶液"],
+        "hint": "不能用 NaOH 这类强碱，否则会造成二次灼伤"
+      }
+    ],
+    "explanation": "浓硫酸沾到皮肤上的处理顺序是「先大量水冲、后涂弱碱」：先用大量流动的水把酸冲掉并降温，再涂 $3\\%\\sim5\\%$ 的 $\\mathrm{NaHCO_3}$ 溶液中和残留的酸。切记不能先用布擦（会把酸抹开、扩大灼伤面），也不能直接涂强碱 $\\mathrm{NaOH}$（强碱同样腐蚀皮肤，属于二次伤害）。若是浓碱沾到皮肤，则用大量水冲洗后涂硼酸溶液。"
+  },
+  {
+    "id": "q-chem-lab-safety-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-lab-safety"],
+    "stem": "下列实验操作正确的是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["基本操作", "酒精灯", "闻气味"],
+    "options": [
+      { "key": "A", "text": "用嘴吹灭燃着的酒精灯" },
+      { "key": "B", "text": "给试管里的液体加热时，让试管口对着自己，以便观察现象" },
+      { "key": "C", "text": "闻气体气味时，用手在瓶口轻轻扇动，使极少量的气体飘入鼻孔" },
+      { "key": "D", "text": "把鼻孔凑到集气瓶口去闻气体的气味" }
+    ],
+    "answer": "C",
+    "explanation": "C 是教材规定的「扇闻法」：用手轻轻扇动，让少量气体飘进鼻孔，既能辨别气味又不会吸入过量。A 错：用嘴吹可能把火焰吹进灯内引燃酒精，正确做法是用灯帽盖灭（盖灭后需再打开一次，防止冷却后盖子被吸住）。B 错：加热时试管口对着自己或他人，液体暴沸喷出会伤人，管口应斜向上、不对人。D 错：直接把鼻孔凑到瓶口，遇上 $\\mathrm{Cl_2}$、$\\mathrm{SO_2}$ 等有毒气体极易中毒。"
+  },
+  {
+    "id": "q-chem-lab-safety-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-lab-safety"],
+    "stem": "下列对实验事故的处理方法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["事故处理", "钠着火", "重金属盐中毒"],
+    "options": [
+      { "key": "A", "text": "浓碱沾到皮肤上，用较多水冲洗后再涂上硼酸溶液" },
+      { "key": "B", "text": "金属钠着火时，用泡沫灭火器扑灭" },
+      { "key": "C", "text": "温度计不慎打碎，洒落的水银用硫粉覆盖" },
+      { "key": "D", "text": "误服重金属盐溶液，立即饮用大量牛奶或蛋清" }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 对：浓碱灼伤后先用水冲稀、降温，再涂弱酸（硼酸）中和，与浓酸灼伤后涂碳酸氢钠溶液正好对应。B 错：钠着火生成 $\\mathrm{Na_2O_2}$ 并大量放热，泡沫灭火器喷出的水和 $\\mathrm{CO_2}$ 都会与钠、过氧化钠反应（$2\\mathrm{Na}+2\\mathrm{H_2O}=2\\mathrm{NaOH}+\\mathrm{H_2}\\uparrow$，$2\\mathrm{Na_2O_2}+2\\mathrm{H_2O}=4\\mathrm{NaOH}+\\mathrm{O_2}\\uparrow$），反而助燃甚至引起爆炸，正确做法是用干燥沙土覆盖。C 对：硫粉与汞常温下即可化合生成难挥发的 $\\mathrm{HgS}$，防止汞蒸气中毒。D 对：牛奶、蛋清中的蛋白质与重金属离子结合变性，可减轻人体蛋白质被破坏的程度，是急救的常规做法（随后仍需就医）。"
+  },
+  {
+    "id": "q-chem-separation-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-separation"],
+    "stem": "用蒸馏法分离乙醇和水的混合物时，温度计水银球的位置应（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["蒸馏", "温度计位置", "分离提纯"],
+    "options": [
+      { "key": "A", "text": "插入液面以下，但不接触烧瓶底部" },
+      { "key": "B", "text": "与蒸馏烧瓶支管口下沿相平" },
+      { "key": "C", "text": "位于蒸馏烧瓶的中部空间" },
+      { "key": "D", "text": "只要穿过橡皮塞伸入烧瓶即可，位置不限" }
+    ],
+    "answer": "B",
+    "explanation": "蒸馏时温度计测的是「馏出蒸气的温度」，只有水银球与支管口下沿相平，读数才等于正在馏出的蒸气的沸点，才能据此判断馏分是否纯净。A 测的是液体的温度，它会随蒸馏进行不断升高，无法反映馏出物沸点；C 处于瓶内空间中部，既不在液面也不在支管口，读数无意义；D 显然错误，位置不当读数即失真。配套要点：冷凝水应下进上出，烧瓶中要加碎瓷片（或沸石）防暴沸。"
+  },
+  {
+    "id": "q-chem-separation-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-separation"],
+    "stem": "选择适当的分离方法填空：分离乙醇和水的混合物（二者互溶、沸点不同）应使用 ____；分离植物油和水（二者互不相溶、会分层）应使用 ____。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["蒸馏", "分液", "分离方法选择"],
+    "blanks": [
+      {
+        "accept": ["蒸馏", "蒸馏法", "分馏"],
+        "hint": "互溶液体、沸点不同 → 利用沸点差异"
+      },
+      {
+        "accept": ["分液", "分液法", "萃取分液"],
+        "hint": "互不相溶、会分层 → 利用密度差与不溶性"
+      }
+    ],
+    "explanation": "选择分离方法的依据是「待分离物质性质的差异」：乙醇与水互溶但沸点差别较大（约 $78\\ ^\\circ\\mathrm{C}$ 与 $100\\ ^\\circ\\mathrm{C}$），用蒸馏；植物油与水互不相溶、静置分层，用分液漏斗分液。注意区分几个易混手段：过滤分离不溶固体与液体；蒸发（结晶）从溶液中得到溶质；萃取利用溶质在两种互不相溶溶剂中溶解度不同，把溶质从原溶剂转移到另一种溶剂中；重结晶用于提纯溶解度随温度变化大的固体。"
+  },
+  {
+    "id": "q-chem-separation-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-separation"],
+    "stem": "用分液漏斗分离两种互不相溶的液体时，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["分液漏斗", "检漏", "上层液体"],
+    "options": [
+      { "key": "A", "text": "分液漏斗使用前不必检漏，只要干净即可" },
+      { "key": "B", "text": "静置分层后，下层液体从下口放出，上层液体也从下口放出" },
+      { "key": "C", "text": "下层液体从下口放出，上层液体应从上口倒出" },
+      { "key": "D", "text": "为提高效率，可直接剧烈振荡，不必打开活塞放气" }
+    ],
+    "answer": "C",
+    "explanation": "C 是分液的关键操作：下层液体经下口放出（放完后立即关闭活塞），上层液体必须从上口倒出，否则上层液体会被残留在漏斗内壁和活塞孔中的下层液体污染。A 错：分液漏斗带活塞，使用前必须检漏（加少量水、倒转、观察是否渗漏），这是所有带活塞仪器（分液漏斗、滴定管）的通用要求。B 错：上下层一起从下口放，等于没有分开。D 错：振荡后漏斗内压强增大，必须打开活塞放气，否则塞子可能被顶开、液体喷出。"
+  },
+  {
+    "id": "q-chem-separation-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-separation"],
+    "stem": "除去括号中的少量杂质，所选试剂和操作方法都正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["除杂", "洗气", "除杂三原则"],
+    "options": [
+      { "key": "A", "text": "$\\mathrm{NaCl}$ 溶液（$\\mathrm{Na_2CO_3}$）——加入适量稀盐酸后蒸发" },
+      { "key": "B", "text": "$\\mathrm{CO_2}$（$\\mathrm{HCl}$）——通过盛有饱和 $\\mathrm{NaHCO_3}$ 溶液的洗气瓶" },
+      { "key": "C", "text": "乙醇（水）——加入新制 $\\mathrm{CaO}$ 后蒸馏" },
+      { "key": "D", "text": "甲烷（乙烯）——通入酸性 $\\mathrm{KMnO_4}$ 溶液洗气" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：$\\mathrm{Na_2CO_3}+2\\mathrm{HCl}=2\\mathrm{NaCl}+\\mathrm{H_2O}+\\mathrm{CO_2}\\uparrow$，适量盐酸恰好把碳酸钠转化为氯化钠，再蒸发除水，不引入新杂质。B 对：$\\mathrm{HCl}$ 与 $\\mathrm{NaHCO_3}$ 反应生成 $\\mathrm{CO_2}$，既除掉氯化氢又不减少主体，且不引入新杂质；此时不能用 $\\mathrm{NaOH}$ 溶液（会连 $\\mathrm{CO_2}$ 一起吸收）。C 对：$\\mathrm{CaO}$ 与少量水反应生成 $\\mathrm{Ca(OH)_2}$，再蒸馏即可得无水乙醇。D 错：酸性 $\\mathrm{KMnO_4}$ 会把乙烯氧化成 $\\mathrm{CO_2}$，虽然除去了乙烯，却给甲烷中引入了新杂质 $\\mathrm{CO_2}$；应改用溴水（乙烯加成生成液态的 1,2-二溴乙烷留在洗液中，甲烷不反应）。除杂三原则：不引入新杂质、不减少主体、现象明显易分离。"
+  },
+  {
+    "id": "q-chem-gas-prep-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-gas-prep"],
+    "stem": "实验室制备下列气体时，发生装置需要「固体 + 液体、加热」型的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["发生装置", "气体制备", "反应条件"],
+    "options": [
+      { "key": "A", "text": "用 $\\mathrm{H_2O_2}$ 溶液与 $\\mathrm{MnO_2}$ 制 $\\mathrm{O_2}$" },
+      { "key": "B", "text": "用锌粒与稀硫酸制 $\\mathrm{H_2}$" },
+      { "key": "C", "text": "用 $\\mathrm{MnO_2}$ 与浓盐酸制 $\\mathrm{Cl_2}$" },
+      { "key": "D", "text": "用大理石与稀盐酸制 $\\mathrm{CO_2}$" }
+    ],
+    "answer": "C",
+    "explanation": "发生装置由「反应物状态 + 是否需要加热」决定。A、B、D 都是固体与液体在常温下反应，用「固体 + 液体、不加热」型（试管或锥形瓶 + 长颈漏斗）；C 中 $\\mathrm{MnO_2}$ 与浓盐酸需加热才反应，属于「固体 + 液体、加热」型，要圆底烧瓶、石棉网和酒精灯。反应式为 $\\mathrm{MnO_2}+4\\mathrm{HCl}(\\text{浓})\\xrightarrow{\\ \\Delta\\ }\\mathrm{MnCl_2}+\\mathrm{Cl_2}\\uparrow+2\\mathrm{H_2O}$。由于浓盐酸易挥发，所得 $\\mathrm{Cl_2}$ 中混有 $\\mathrm{HCl}$ 和水蒸气，需先经饱和食盐水除 $\\mathrm{HCl}$、再经浓硫酸干燥。"
+  },
+  {
+    "id": "q-chem-gas-prep-2",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-gas-prep"],
+    "stem": "判断下列说法是否正确：因为 $\\mathrm{Cl_2}$ 能溶于水，所以实验室收集 $\\mathrm{Cl_2}$ 时不能用排水法，而应用向上排空气法。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["收集装置", "排水法", "氯气"],
+    "answer": true,
+    "explanation": "说法正确。收集方法由气体的密度和水溶性共同决定：$\\mathrm{Cl_2}$ 的密度约为空气的 2.5 倍，用向上排空气法；它又能溶于水（常温下 1 体积水约溶解 2 体积 $\\mathrm{Cl_2}$）并与水反应（$\\mathrm{Cl_2}+\\mathrm{H_2O}=\\mathrm{HCl}+\\mathrm{HClO}$），故不能用排水法。若既要减少溶解损失又想得到较纯气体，可改用排饱和食盐水法。收集时导管应伸到集气瓶底部以排尽空气，验满用湿润的淀粉-$\\mathrm{KI}$ 试纸放在瓶口（变蓝即满）。"
+  },
+  {
+    "id": "q-chem-gas-prep-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-gas-prep"],
+    "stem": "实验室用氯化铵与熟石灰共热制取氨气，反应为 $2\\mathrm{NH_4Cl}+\\mathrm{Ca(OH)_2}\\xrightarrow{\\ \\Delta\\ }\\mathrm{CaCl_2}+2\\mathrm{NH_3}\\uparrow+2\\mathrm{H_2O}$。若要制得 $0.20\\ \\mathrm{mol}$ 的 $\\mathrm{NH_3}$，理论上至少需要 $\\mathrm{Ca(OH)_2}$ 的物质的量为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["氨气制备", "物质的量计算", "方程式配平"],
+    "options": [
+      { "key": "A", "text": "$0.05\\ \\mathrm{mol}$" },
+      { "key": "B", "text": "$0.10\\ \\mathrm{mol}$" },
+      { "key": "C", "text": "$0.20\\ \\mathrm{mol}$" },
+      { "key": "D", "text": "$0.40\\ \\mathrm{mol}$" }
+    ],
+    "answer": "B",
+    "explanation": "由配平的方程式读出比例：$n[\\mathrm{Ca(OH)_2}]:n(\\mathrm{NH_3})=1:2$，故 $n[\\mathrm{Ca(OH)_2}]=0.20\\ \\mathrm{mol}\\div2=0.10\\ \\mathrm{mol}$，选 B。典型错解：C 项是误把比例当成 $1:1$（看到 $\\mathrm{Ca(OH)_2}$ 系数为 1 就直接照搬氨气的量）；D 项是把比例用反（$0.20\\times2$）；A 项是把倍数算成了除以 4。注意本题必须先确认方程式已配平：$2\\mathrm{NH_4Cl}+\\mathrm{Ca(OH)_2}=\\mathrm{CaCl_2}+2\\mathrm{NH_3}\\uparrow+2\\mathrm{H_2O}$，两边 N、H、Cl、Ca、O 原子数均相等。"
+  },
+  {
+    "id": "q-chem-gas-prep-4",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-gas-prep"],
+    "stem": "实验室制取并收集干燥的氨气：应选用 ____ 作干燥剂（填试剂名称），收集方法是 ____。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["氨气干燥", "向下排空气法", "气体收集"],
+    "blanks": [
+      {
+        "accept": ["碱石灰", "生石灰", "NaOH固体", "氢氧化钠", "氢氧化钠固体", "碱性干燥剂"],
+        "hint": "氨气是碱性气体，只能用碱性或中性干燥剂"
+      },
+      {
+        "accept": ["向下排空气法", "向下排空气", "排空气法（向下）", "向下排空气法收集"],
+        "hint": "相对分子质量 17 < 29，且极易溶于水"
+      }
+    ],
+    "explanation": "干燥剂的选择遵循「不与被干燥气体反应」：$\\mathrm{NH_3}$ 是碱性气体，可用碱石灰、生石灰等碱性干燥剂；不能用浓硫酸、$\\mathrm{P_2O_5}$ 等酸性干燥剂（会与氨反应生成盐），也不能用无水 $\\mathrm{CaCl_2}$（会形成 $\\mathrm{CaCl_2\\cdot8NH_3}$ 而把氨「吃掉」）。收集方面，$\\mathrm{NH_3}$ 的相对分子质量为 17，小于空气的 29，且极易溶于水（1 体积水可溶约 700 体积氨），因此只能用向下排空气法：导管伸入试管底部，试管口塞一团疏松棉花以减少对流、提高纯度。"
+  },
+  {
+    "id": "q-chem-qualitative-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-qualitative"],
+    "stem": "检验溶液中是否含有 $\\mathrm{SO_4^{2-}}$ 时，先加入稀盐酸酸化，再加入 $\\mathrm{BaCl_2}$ 溶液。先加稀盐酸的主要目的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["硫酸根检验", "酸化", "干扰排除"],
+    "options": [
+      { "key": "A", "text": "排除 $\\mathrm{CO_3^{2-}}$、$\\mathrm{SO_3^{2-}}$、$\\mathrm{Ag^+}$ 等的干扰" },
+      { "key": "B", "text": "加快 $\\mathrm{BaSO_4}$ 沉淀的生成速率" },
+      { "key": "C", "text": "使溶液中的 $\\mathrm{SO_4^{2-}}$ 全部转化为 $\\mathrm{HSO_4^-}$" },
+      { "key": "D", "text": "增强溶液的导电性，便于观察沉淀" }
+    ],
+    "answer": "A",
+    "explanation": "直接加 $\\mathrm{BaCl_2}$ 时，$\\mathrm{CO_3^{2-}}$、$\\mathrm{SO_3^{2-}}$ 也会生成白色沉淀 $\\mathrm{BaCO_3}$、$\\mathrm{BaSO_3}$，$\\mathrm{Ag^+}$ 则生成白色 $\\mathrm{AgCl}$，现象与 $\\mathrm{BaSO_4}$ 无法区分。先加稀盐酸可排除 $\\mathrm{CO_3^{2-}}$、$\\mathrm{SO_3^{2-}}$（其钡盐溶于盐酸，加酸后不再产生沉淀）；对 $\\mathrm{Ag^+}$ 则要单独考虑——因为盐酸本身引入 $\\mathrm{Cl^-}$，若怀疑含 $\\mathrm{Ag^+}$，应先取原液加盐酸看是否有白色沉淀。B、D 与检验原理无关；C 错误，强酸性条件下 $\\mathrm{SO_4^{2-}}$ 主要仍以 $\\mathrm{SO_4^{2-}}$ 形式存在（$\\mathrm{HSO_4^-}$ 只是部分电离），且检验需要的是 $\\mathrm{SO_4^{2-}}$ 而不是把它转化掉。另一个常考点：不能用稀硝酸酸化，因为硝酸会把 $\\mathrm{SO_3^{2-}}$ 氧化为 $\\mathrm{SO_4^{2-}}$，造成误判。"
+  },
+  {
+    "id": "q-chem-qualitative-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-qualitative"],
+    "stem": "向含 $\\mathrm{Fe^{3+}}$ 的溶液中滴加 $\\mathrm{KSCN}$ 溶液，溶液变为 ____ 色；检验 $\\mathrm{NH_4^+}$ 时，加入 $\\mathrm{NaOH}$ 溶液并加热，用湿润的 ____ 色石蕊试纸检验产生的气体。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["铁离子检验", "铵根检验", "特征现象"],
+    "blanks": [
+      {
+        "accept": ["血红", "红", "血红色", "红褐"],
+        "hint": "$\\mathrm{Fe^{3+}}$ 与 $\\mathrm{SCN^-}$ 形成血红色配合物，是特征反应"
+      },
+      {
+        "accept": ["红", "红色"],
+        "hint": "氨气溶于水显碱性，使红色石蕊试纸变蓝"
+      }
+    ],
+    "explanation": "第一空：$\\mathrm{Fe^{3+}}$ 与 $\\mathrm{SCN^-}$ 生成血红色配合物，灵敏度高，是检验 $\\mathrm{Fe^{3+}}$ 的特征反应；注意 $\\mathrm{Fe^{2+}}$ 遇 $\\mathrm{KSCN}$ 不变红，所以该反应可用来区分 $\\mathrm{Fe^{2+}}$ 与 $\\mathrm{Fe^{3+}}$。第二空：$\\mathrm{NH_4^+}+\\mathrm{OH^-}\\xrightarrow{\\ \\Delta\\ }\\mathrm{NH_3}\\uparrow+\\mathrm{H_2O}$，放出的氨气使湿润的红色石蕊试纸变蓝（必须湿润，否则 $\\mathrm{NH_3}$ 无法生成 $\\mathrm{NH_3\\cdot H_2O}$ 而显不出碱性）；检验时必须加热，否则氨气逸出太少、现象不明显。"
+  },
+  {
+    "id": "q-chem-qualitative-3",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-qualitative"],
+    "stem": "判断下列说法是否正确：向某无色溶液中加入 $\\mathrm{BaCl_2}$ 溶液产生白色沉淀，再加入稀盐酸后沉淀不溶解，即可证明原溶液中一定含有 $\\mathrm{SO_4^{2-}}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["硫酸根检验", "氯化银干扰", "结论严密性"],
+    "answer": false,
+    "explanation": "结论不严密。若原溶液中含有 $\\mathrm{Ag^+}$，加入 $\\mathrm{BaCl_2}$ 会生成 $\\mathrm{AgCl}$ 白色沉淀，而 $\\mathrm{AgCl}$ 既不溶于水也不溶于稀盐酸，现象与 $\\mathrm{BaSO_4}$ 完全相同，无法区分。改进方法：先取原液加稀盐酸酸化（此时若出现白色沉淀或白色浑浊，说明可能含 $\\mathrm{Ag^+}$），取上层清液（或过滤后的滤液）再滴加 $\\mathrm{BaCl_2}$，只有出现不溶于盐酸的白色沉淀才能确认 $\\mathrm{SO_4^{2-}}$。规范表述应是「先加稀盐酸酸化，再加 $\\mathrm{BaCl_2}$ 溶液」，顺序不能颠倒。"
+  },
+  {
+    "id": "q-chem-qualitative-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-qualitative"],
+    "stem": "下列检验方案能达到相应实验目的的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["离子检验", "焰色试验", "淀粉碘化钾试纸"],
+    "options": [
+      { "key": "A", "text": "检验 $\\mathrm{Na_2SO_4}$ 溶液中的 $\\mathrm{SO_4^{2-}}$：先加稀盐酸酸化，再加 $\\mathrm{BaCl_2}$ 溶液，出现白色沉淀" },
+      { "key": "B", "text": "检验 $\\mathrm{Cl_2}$：用湿润的淀粉-$\\mathrm{KI}$ 试纸靠近集气瓶口，试纸变蓝" },
+      { "key": "C", "text": "鉴别 $\\mathrm{MgCl_2}$ 溶液和 $\\mathrm{AlCl_3}$ 溶液：分别滴加过量 $\\mathrm{NaOH}$ 溶液" },
+      { "key": "D", "text": "检验 $\\mathrm{NaCl}$ 溶液中的 $\\mathrm{Na^+}$：做焰色试验时透过蓝色钴玻璃观察火焰呈黄色" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：先酸化排除 $\\mathrm{CO_3^{2-}}$、$\\mathrm{SO_3^{2-}}$ 干扰，再加钡盐，白色沉淀即为 $\\mathrm{BaSO_4}$，这是检验 $\\mathrm{SO_4^{2-}}$ 的标准顺序。B 对：$\\mathrm{Cl_2}+2\\mathrm{KI}=2\\mathrm{KCl}+\\mathrm{I_2}$，生成的碘使淀粉变蓝，灵敏且现象明显。C 对：$\\mathrm{Mg^{2+}}+2\\mathrm{OH^-}=\\mathrm{Mg(OH)_2}\\downarrow$（白色沉淀，不溶于过量 $\\mathrm{NaOH}$）；$\\mathrm{Al^{3+}}+4\\mathrm{OH^-}=\\mathrm{AlO_2^-}+2\\mathrm{H_2O}$（先沉淀后溶解），两者现象不同，可以鉴别。D 错：蓝色钴玻璃的作用是滤去黄光，专门用于排除 $\\mathrm{Na^+}$ 的干扰去观察 $\\mathrm{K^+}$ 的紫色；检验 $\\mathrm{Na^+}$ 时直接观察黄色火焰即可，透过钴玻璃反而看不到黄色。"
+  },
+  {
+    "id": "q-chem-quantitative-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-quantitative"],
+    "stem": "用 $0.1000\\ \\mathrm{mol/L}$ 的标准盐酸滴定 $25.00\\ \\mathrm{mL}$ 未知浓度的 $\\mathrm{NaOH}$ 溶液。滴定前平视读取初读数，滴定后俯视读取末读数，其他操作均正确。则测得的 $c(\\mathrm{NaOH})$（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["误差分析", "滴定管读数", "俯视仰视"],
+    "options": [
+      { "key": "A", "text": "偏高" },
+      { "key": "B", "text": "偏低" },
+      { "key": "C", "text": "无影响" },
+      { "key": "D", "text": "无法判断" }
+    ],
+    "answer": "B",
+    "explanation": "由 $c(\\mathrm{NaOH})=\\dfrac{c(\\mathrm{HCl})\\cdot V(\\mathrm{HCl})}{V(\\mathrm{NaOH})}$ 可知，结果只取决于读出的盐酸体积 $V(\\mathrm{HCl})=\\text{末读数}-\\text{初读数}$。滴定管的 0 刻度在上端、数值自上而下增大，俯视时视线与液面的交点落在管壁刻度上偏「高」的位置，读到的数值偏小，于是末读数偏小、$V(\\mathrm{HCl})$ 偏小，最终结果偏低。口诀：滴定管「仰大俯小」，量筒「仰小俯大」——两者结论相反，根源就在于刻度方向相反。注意若换成量筒量取待测液，俯视则会使所取待测液体积偏大，结论又会反过来。"
+  },
+  {
+    "id": "q-chem-quantitative-2",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-quantitative"],
+    "stem": "取 $25.00\\ \\mathrm{mL}$ 待测 $\\mathrm{NaOH}$ 溶液于锥形瓶中，用 $0.1000\\ \\mathrm{mol/L}$ 的盐酸滴定至终点，消耗盐酸 $20.00\\ \\mathrm{mL}$。该 $\\mathrm{NaOH}$ 溶液的物质的量浓度为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["中和滴定计算", "物质的量浓度", "有效数字"],
+    "options": [
+      { "key": "A", "text": "$0.0800\\ \\mathrm{mol/L}$" },
+      { "key": "B", "text": "$0.1000\\ \\mathrm{mol/L}$" },
+      { "key": "C", "text": "$0.1250\\ \\mathrm{mol/L}$" },
+      { "key": "D", "text": "$0.0125\\ \\mathrm{mol/L}$" }
+    ],
+    "answer": "A",
+    "explanation": "$n(\\mathrm{HCl})=0.1000\\ \\mathrm{mol/L}\\times0.02000\\ \\mathrm{L}=2.000\\times10^{-3}\\ \\mathrm{mol}$，由 $\\mathrm{HCl}+\\mathrm{NaOH}=\\mathrm{NaCl}+\\mathrm{H_2O}$ 得 $n(\\mathrm{NaOH})=2.000\\times10^{-3}\\ \\mathrm{mol}$，故 $c=\\dfrac{2.000\\times10^{-3}\\ \\mathrm{mol}}{0.02500\\ \\mathrm{L}}=0.0800\\ \\mathrm{mol/L}$，选 A。典型错解：C 项 $0.1250$ 是把体积比倒过来算（$0.1000\\times25.00\\div20.00$）；D 项 $0.0125$ 是忘了把 $\\mathrm{mL}$ 换算成 $\\mathrm{L}$ 时又错移了一位小数点（多除了 10）；B 项直接把标准液浓度照抄。滴定计算要养成「先算物质的量、再用 $c=n/V$、体积一律用 $\\mathrm{L}$」的习惯。"
+  },
+  {
+    "id": "q-chem-quantitative-3",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-quantitative"],
+    "stem": "用已知浓度的标准盐酸滴定待测 $\\mathrm{NaOH}$ 溶液：滴定管在装入标准液前必须用 ____ 润洗 $2\\sim3$ 次；而锥形瓶 ____（填「需要」或「不需要」）用待测液润洗。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["滴定操作", "润洗", "误差来源"],
+    "blanks": [
+      {
+        "accept": ["标准盐酸", "标准液", "标准盐酸溶液", "待装液", "盐酸"],
+        "hint": "润洗液的浓度必须与将要装入的液体相同"
+      },
+      {
+        "accept": ["不需要", "不需", "不用", "不需润洗"],
+        "hint": "润洗锥形瓶会使待测物的量偏多"
+      }
+    ],
+    "explanation": "滴定管洗净后必须用待装的标准液润洗 $2\\sim3$ 次，否则管内残留的蒸馏水会把标准液稀释，导致消耗体积偏大、结果偏高。锥形瓶则恰恰相反：只能洗净，不能用待测液润洗。若用待测液润洗，瓶内待测物的物质的量会比移取的更多，同样使耗酸偏多、结果偏高；而洗净后残留的少量蒸馏水只改变浓度、不改变待测物的物质的量，对结果没有影响。这条「滴定管要润洗、锥形瓶不润洗」的对比是误差分析的高频考点。"
+  },
+  {
+    "id": "q-chem-quantitative-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-quantitative"],
+    "stem": "用标准盐酸滴定待测 $\\mathrm{NaOH}$ 溶液（以酚酞为指示剂），下列操作会使测得的 $c(\\mathrm{NaOH})$ 偏高的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["误差分析", "气泡", "读数误差"],
+    "options": [
+      { "key": "A", "text": "滴定前平视读数，滴定后俯视读数" },
+      { "key": "B", "text": "锥形瓶用待测 $\\mathrm{NaOH}$ 溶液润洗后再加入待测液" },
+      { "key": "C", "text": "滴定管尖嘴处滴定前有气泡，滴定后气泡消失" },
+      { "key": "D", "text": "滴定终点读数时仰视滴定管液面" }
+    ],
+    "answer": ["B", "C", "D"],
+    "explanation": "误差分析的统一思路：先判断该操作使读出的 $V(\\mathrm{HCl})$ 偏大还是偏小，再用 $c(\\mathrm{NaOH})=\\dfrac{c(\\mathrm{HCl})\\cdot V(\\mathrm{HCl})}{V(\\mathrm{NaOH})}$ 判断结果。B 使瓶内 $\\mathrm{NaOH}$ 偏多，消耗盐酸偏多，$V$ 偏大 → 偏高。C 中气泡占据的体积在滴定过程中被标准液逐渐填充，末读数比实际消耗体积偏大 → 偏高。D 中滴定管仰视读数偏大（0 刻度在上，数值向下增大），末读数偏大 → 偏高。A 中俯视使末读数偏小，$V$ 偏小 → 偏低，故 A 不符合题意。补充：若指示剂改用甲基橙，终点现象为溶液由黄色变为橙色且半分钟内不褪色。"
+  },
+  {
+    "id": "q-chem-experiment-design-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-experiment-design"],
+    "stem": "下列实验方案能达到相应实验目的的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["方案评价", "pH试纸", "除杂"],
+    "options": [
+      { "key": "A", "text": "用湿润的 pH 试纸测定新制氯水的 pH" },
+      { "key": "B", "text": "用 $\\mathrm{BaCl_2}$ 溶液鉴别 $\\mathrm{Na_2SO_4}$ 溶液和 $\\mathrm{Na_2SO_3}$ 溶液" },
+      { "key": "C", "text": "用饱和 $\\mathrm{NaHCO_3}$ 溶液除去 $\\mathrm{CO_2}$ 中混有的 $\\mathrm{HCl}$" },
+      { "key": "D", "text": "用加热的方法除去 $\\mathrm{NaHCO_3}$ 固体中混有的少量 $\\mathrm{Na_2CO_3}$" }
+    ],
+    "answer": "C",
+    "explanation": "C 可行：$\\mathrm{HCl}+\\mathrm{NaHCO_3}=\\mathrm{NaCl}+\\mathrm{H_2O}+\\mathrm{CO_2}\\uparrow$，既除去了氯化氢又增加了主体 $\\mathrm{CO_2}$，不引入新杂质。A 错：氯水中含 $\\mathrm{HClO}$，具有强漂白性，会把 pH 试纸先变红后褪色，无法与标准比色卡对照；测氯水的 pH 应使用 pH 计。B 错：$\\mathrm{SO_4^{2-}}$ 与 $\\mathrm{SO_3^{2-}}$ 遇 $\\mathrm{Ba^{2+}}$ 都生成白色沉淀，现象相同不能鉴别；应改为各取少量滴加稀盐酸，产生有刺激性气味气体的是 $\\mathrm{Na_2SO_3}$。D 错：$\\mathrm{NaHCO_3}$ 受热分解（$2\\mathrm{NaHCO_3}\\xrightarrow{\\ \\Delta\\ }\\mathrm{Na_2CO_3}+\\mathrm{H_2O}+\\mathrm{CO_2}\\uparrow$）而 $\\mathrm{Na_2CO_3}$ 稳定，加热会除掉主体、留下杂质，方向完全反了；正确做法是向固体中通入足量 $\\mathrm{CO_2}$。评价方案时要抓三个角度：原理是否科学、是否引入干扰、主体是否被破坏。"
+  },
+  {
+    "id": "q-chem-experiment-design-2",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-experiment-design"],
+    "stem": "判断下列说法是否正确：在探究某一因素对化学反应速率的影响时，对照实验之间只能有一个条件不同，其余条件必须完全相同。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["控制变量", "对照实验", "方案设计"],
+    "answer": true,
+    "explanation": "说法正确，这就是控制变量法（单一变量原则）。若同时改变温度和浓度，反应速率的变化就说不清是哪个因素引起的，实验结论失效。例如探究浓度对 $\\mathrm{Na_2S_2O_3}$ 与稀硫酸反应速率的影响时，两组实验的 $\\mathrm{Na_2S_2O_3}$ 浓度可以不同，但温度、体积、硫酸浓度、观察方式（如出现浑浊所需时间）都必须相同。此外对照实验还应遵循可重复、现象明显、安全性好的原则；比较催化剂的实验则要保证催化剂只有「有/无」这一个变量不同。"
+  },
+  {
+    "id": "q-chem-experiment-design-3",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-experiment-design"],
+    "stem": "用 $\\mathrm{FeSO_4}$ 溶液与 $\\mathrm{NaOH}$ 溶液反应制备 $\\mathrm{Fe(OH)_2}$ 并观察其白色沉淀时，为减少 $\\mathrm{Fe^{2+}}$ 被空气氧化，可采取的措施有（　）",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["氢氧化亚铁制备", "防氧化", "方案设计"],
+    "options": [
+      { "key": "A", "text": "用煮沸后迅速冷却的蒸馏水配制两种溶液" },
+      { "key": "B", "text": "将滴管尖端插入 $\\mathrm{FeSO_4}$ 溶液液面以下，再挤出 $\\mathrm{NaOH}$ 溶液" },
+      { "key": "C", "text": "在 $\\mathrm{FeSO_4}$ 溶液液面上覆盖一层植物油（或苯）" },
+      { "key": "D", "text": "把 $\\mathrm{NaOH}$ 溶液敞口放置一段时间后再使用" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：煮沸可赶走水中溶解的 $\\mathrm{O_2}$，冷却后使用可减少氧化剂来源（同时避免高温影响）。B 对：把滴管伸入液面以下，避免液滴穿过空气时把氧气带进体系，这是教材上制备 $\\mathrm{Fe(OH)_2}$ 的规范操作。C 对：油层（或苯层）隔绝空气，是长期保存 $\\mathrm{Fe^{2+}}$ 溶液的常用手段。D 错：$\\mathrm{NaOH}$ 溶液敞口放置会吸收空气中的 $\\mathrm{CO_2}$ 生成 $\\mathrm{Na_2CO_3}$（$2\\mathrm{NaOH}+\\mathrm{CO_2}=\\mathrm{Na_2CO_3}+\\mathrm{H_2O}$），同时溶入更多 $\\mathrm{O_2}$，既引入杂质又加速氧化。本题的思维模型是「找出所有可能接触氧气的环节，逐一隔绝」：溶氧（煮沸）、进样途径（插入液面）、液面暴露（油封）。"
+  },
+  {
+    "id": "q-chem-experiment-design-4",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-experiment-design", "chem-gas-prep"],
+    "stem": "实验室用 $\\mathrm{MnO_2}$ 与浓盐酸制取纯净、干燥的 $\\mathrm{Cl_2}$ 并处理尾气。下列装置连接顺序最合理的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["装置连接顺序", "除杂与干燥", "尾气处理"],
+    "options": [
+      { "key": "A", "text": "发生装置 → 饱和食盐水 → 浓硫酸 → 向上排空气收集 → $\\mathrm{NaOH}$ 溶液吸收" },
+      { "key": "B", "text": "发生装置 → 浓硫酸 → 饱和食盐水 → 向下排空气收集 → $\\mathrm{NaOH}$ 溶液吸收" },
+      { "key": "C", "text": "发生装置 → 饱和食盐水 → 浓硫酸 → 排水法收集 → 直接排入空气" },
+      { "key": "D", "text": "发生装置 → $\\mathrm{NaOH}$ 溶液 → 浓硫酸 → 向上排空气收集 → 直接排入空气" }
+    ],
+    "answer": "A",
+    "explanation": "连接顺序遵循「先除杂、后干燥、再收集、末处理」。$\\mathrm{Cl_2}$ 中混有挥发出的 $\\mathrm{HCl}$ 和水蒸气：先用饱和食盐水除 $\\mathrm{HCl}$（$\\mathrm{Cl_2}$ 在饱和食盐水中溶解度小，损失少），再用浓硫酸干燥；若把干燥放在除杂之前，气体通过食盐水时又会带出水汽，前功尽弃（B 即犯此错）。$\\mathrm{Cl_2}$ 密度大于空气，用向上排空气法（B 用向下排空气错误）。$\\mathrm{Cl_2}$ 有毒，必须进行尾气处理，用 $\\mathrm{NaOH}$ 溶液吸收：$\\mathrm{Cl_2}+2\\mathrm{NaOH}=\\mathrm{NaCl}+\\mathrm{NaClO}+\\mathrm{H_2O}$（C、D 直接排空错误）。$\\mathrm{Cl_2}$ 溶于水且与水反应，不能用排水法收集（C 亦错）。D 把 $\\mathrm{NaOH}$ 放在最前面，会把生成的 $\\mathrm{Cl_2}$ 全部吸收，根本收集不到产品。"
+  },
+  {
+    "id": "q-chem-quantitative-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-quantitative", "chem-experiment-design"],
+    "stem": "某同学用酸碱中和滴定法测定白醋（设除醋酸外其他成分不与 $\\mathrm{NaOH}$ 反应）中醋酸的物质的量浓度，操作如下：\n\n①用____（填仪器名称）准确量取 $20.00\\ \\mathrm{mL}$ 白醋于锥形瓶中，滴入 2 滴酚酞溶液；\n②用 $0.1000\\ \\mathrm{mol/L}$ 的 $\\mathrm{NaOH}$ 标准溶液滴定，达到终点时消耗 $\\mathrm{NaOH}$ 溶液 $22.40\\ \\mathrm{mL}$。\n\n请回答：\n(1) 补全①中的仪器名称，并说明该锥形瓶是否需要再用白醋润洗，简述理由；\n(2) 计算该白醋中醋酸的物质的量浓度（写出计算过程，结果保留 4 位有效数字）；\n(3) 若滴定前滴定管尖嘴处有气泡、滴定后气泡消失，其他操作均正确，测定结果将偏高还是偏低？说明理由。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["中和滴定", "误差分析", "物质的量浓度计算"],
+    "rubric": [
+      { "text": "答出「酸式滴定管」，并说明醋酸显酸性、会腐蚀碱式滴定管的橡胶管", "score": 2 },
+      { "text": "说明锥形瓶不需要用白醋润洗，理由是润洗会使瓶内醋酸偏多、耗碱偏多、结果偏高", "score": 1 },
+      { "text": "正确求出 n(NaOH)=0.1000×0.02240=2.240×10⁻³ mol，并依据 1:1 关系算出 c(CH₃COOH)=0.1120 mol/L", "score": 3 },
+      { "text": "判断结果偏高，并说明气泡所占体积被标准液填充使末读数偏大、V(NaOH) 偏大", "score": 2 }
+    ],
+    "reference": "(1) 酸式滴定管（醋酸溶液显酸性，会腐蚀碱式滴定管的橡胶管，故不能用碱式滴定管）。锥形瓶不需要用白醋润洗：若用待测液润洗，瓶内醋酸的物质的量会多于移取的量，消耗的 NaOH 偏多，测得结果偏高；洗净后残留的少量蒸馏水只稀释浓度、不改变醋酸的物质的量，对结果无影响。\n(2) n(NaOH) = c·V = 0.1000 mol/L × 0.02240 L = 2.240×10⁻³ mol。\n由 CH₃COOH + NaOH = CH₃COONa + H₂O 知 n(CH₃COOH) = n(NaOH) = 2.240×10⁻³ mol，\nc(CH₃COOH) = 2.240×10⁻³ mol ÷ 0.02000 L = 0.1120 mol/L。\n(3) 偏高。滴定前尖嘴处的气泡占据了一部分体积，滴定过程中这部分体积被标准液填充，使末读数比实际消耗的标准液体积偏大，即 V(NaOH) 偏大；由 c(醋酸) = c(NaOH)·V(NaOH)/V(醋酸) 可知结果偏高。",
+    "maxScore": 8,
+    "explanation": "本题把滴定操作、计算与误差分析串成一条线。仪器选择的关键是「待测液的性质」：醋酸是酸，只能用酸式滴定管，碱式滴定管的橡胶管会被酸腐蚀。润洗的判断可用通式记忆——装什么液体就用什么液体润洗（滴定管），锥形瓶一律不润洗。计算部分必须先算物质的量再用 c=n/V，体积统一换算成 L，最后注意有效数字为 4 位（0.1120）。误差分析只需盯住一个量：读出的标准液体积偏大则结果偏高，气泡体积被填充、尖嘴残留液滴被计入等都属于「末读数虚增」。"
+  },
+  {
+    "id": "q-chem-experiment-design-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-experiment-design", "chem-separation"],
+    "stem": "实验室要以「含少量 $\\mathrm{K_2SO_4}$ 和泥沙的 $\\mathrm{KCl}$ 粗品」为原料，制得纯净的 $\\mathrm{KCl}$ 晶体。已知 $\\mathrm{K_2SO_4}$ 与 $\\mathrm{KCl}$ 均易溶于水，$\\mathrm{BaSO_4}$ 不溶于水和盐酸，$\\mathrm{BaCO_3}$ 不溶于水但溶于盐酸。请回答：\n\n(1) 除去 $\\mathrm{SO_4^{2-}}$ 应选用的试剂是什么？写出对应的化学方程式。加入该试剂时为何要「稍过量」？\n(2) 加入除杂试剂后，还需要一步操作除去过量的除杂试剂，写出所用的试剂和化学方程式。\n(3) 写出从粗品到纯净 $\\mathrm{KCl}$ 晶体的完整操作步骤顺序（用「溶解」「过滤」「蒸发结晶」等术语表述）。\n(4) 有同学提出「先把混合物蒸干得到固体，再过滤除去泥沙更省事」，请评价该观点。",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["除杂方案设计", "过滤", "蒸发结晶"],
+    "rubric": [
+      { "text": "选出 BaCl₂ 溶液，写出配平的 K₂SO₄ + BaCl₂ = BaSO₄↓ + 2KCl，并说明稍过量是为了使 SO₄²⁻ 沉淀完全", "score": 2 },
+      { "text": "用 K₂CO₃ 溶液除去过量的 Ba²⁺，写出配平的 BaCl₂ + K₂CO₃ = BaCO₃↓ + 2KCl", "score": 3 },
+      { "text": "给出正确顺序：溶解 → 加过量 BaCl₂ → 加适量 K₂CO₃ → 过滤 → 滤液加稀盐酸至不再产生气泡 → 蒸发结晶；并指出蒸发至出现较多固体时停止加热、用余热蒸干", "score": 3 },
+      { "text": "评价该观点不合理：泥沙与 KCl 混在一起后是固体与固体的混合物，无法用过滤分离，且杂质会被包裹在晶体内；必须先过滤除去不溶性杂质再蒸发", "score": 2 }
+    ],
+    "reference": "(1) 选用 BaCl₂ 溶液。K₂SO₄ + BaCl₂ = BaSO₄↓ + 2KCl。稍过量是为了把 SO₄²⁻ 尽可能沉淀完全（除杂剂过量才能保证杂质除尽，且过量部分随后可除去、不引入新杂质）。\n(2) 加入适量 K₂CO₃ 溶液除去过量的 Ba²⁺：BaCl₂ + K₂CO₃ = BaCO₃↓ + 2KCl。\n(3) 溶解 → 加入稍过量 BaCl₂ 溶液 → 加入适量 K₂CO₃ 溶液 → 过滤（除去泥沙、BaSO₄ 和 BaCO₃）→ 向滤液中滴加稀盐酸至不再产生气泡（除去过量的 CO₃²⁻）→ 蒸发结晶（蒸发至出现较多固体时停止加热，用余热蒸干）。\n(4) 不合理。蒸发后泥沙与 KCl 晶体混在一起，属于固体与固体的混合物，过滤只能分离不溶固体与液体，无法把它们分开；而且杂质会被包裹在晶体内部，后续难以除去。正确顺序必须是「先过滤除去不溶性杂质、再蒸发结晶」。",
+    "maxScore": 10,
+    "explanation": "这是一道典型的「除杂 + 分离提纯」综合设计题，考查三条主线。其一是试剂选择：除 $\\mathrm{SO_4^{2-}}$ 只能用钡盐，且为保证不引入新的阴离子杂质，应选 $\\mathrm{BaCl_2}$ 而不是 $\\mathrm{Ba(NO_3)_2}$。其二是过量的处理：除杂剂必须稍过量才能除尽杂质，但过量的 $\\mathrm{Ba^{2+}}$ 本身又是新杂质，必须再用 $\\mathrm{K_2CO_3}$ 把它沉淀掉，且 $\\mathrm{K_2CO_3}$ 必须加在 $\\mathrm{BaCl_2}$ 之后（顺序颠倒则过量的 $\\mathrm{Ba^{2+}}$ 留在溶液中）；最后用稀盐酸除去过量 $\\mathrm{CO_3^{2-}}$，此时溶液中的阳离子只剩 $\\mathrm{K^+}$，阴离子只剩 $\\mathrm{Cl^-}$。其三是操作顺序：过滤必须在蒸发之前，因为过滤只能分离「不溶固体 + 液体」，对固体混合物无能为力。蒸发时「出现较多固体即停止加热、用余热蒸干」是为了防止晶体局部过热飞溅或分解。"
+  }
+]

@@ -1,0 +1,505 @@
+[
+  {
+    "id": "q-math-set-1",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": ["math-set"],
+    "stem": "判断下列说法是否正确：空集是任何集合的真子集。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["空集", "子集与真子集"],
+    "answer": false,
+    "explanation": "空集是任何集合的子集，但只是任何**非空**集合的真子集。真子集要求 $A\\subseteq B$ 且 $A\\ne B$，而 $\\varnothing\\subseteq\\varnothing$ 且两者相等，所以 $\\varnothing$ 不是自身的真子集。该说法把「子集」与「真子集」混为一谈，错误。"
+  },
+  {
+    "id": "q-math-set-2",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": ["math-set"],
+    "stem": "已知集合 $A=\\{x\\mid -1<x\\le 3\\}$，$B=\\{x\\mid x\\ge 2\\}$，全集为 $\\mathbb{R}$。下列结论正确的是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["交并补", "区间表示"],
+    "options": [
+      { "key": "A", "text": "$A\\cap B=[2,3]$" },
+      { "key": "B", "text": "$A\\cup B=(-1,+\\infty)$" },
+      { "key": "C", "text": "$A\\subseteq B$" },
+      { "key": "D", "text": "$\\complement_{\\mathbb{R}}B=(-\\infty,2)$" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A：公共部分是 $2\\le x\\le 3$，两个端点都能取到（$2\\in B$ 且 $-1<2\\le 3$，$3\\in A$），故 $A\\cap B=[2,3]$，正确。B：并集覆盖 $-1$ 右侧全部实数，且 $-1$ 取不到，故 $(-1,+\\infty)$，正确。C：$x=\\frac32\\in A$ 但 $\\frac32<2$，不在 $B$ 中，错误。D：$B$ 的补集是 $x<2$，即 $(-\\infty,2)$；注意 $2$ 属于 $B$，故右端不闭合，正确。补集端点是否包含，取决于该端点是否属于原集合。"
+  },
+  {
+    "id": "q-math-set-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-set"],
+    "stem": "集合 $A=\\{1,2,3\\}$ 的子集个数为（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["子集个数", "计数"],
+    "options": [
+      { "key": "A", "text": "$6$" },
+      { "key": "B", "text": "$7$" },
+      { "key": "C", "text": "$8$" },
+      { "key": "D", "text": "$9$" }
+    ],
+    "answer": "C",
+    "explanation": "含 $n$ 个元素的有限集有 $2^{n}$ 个子集，每个元素都有「取」与「不取」两种选择，故 $2^{3}=8$ 个。其中真子集 $7$ 个（去掉自身），非空真子集 $6$ 个（再去掉空集）。选 $7$ 是漏掉空集，选 $6$ 是把「非空真子集」当成了「子集」。"
+  },
+  {
+    "id": "q-math-set-4",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-set"],
+    "stem": "已知集合 $A=\\{1,2\\}$，$B=\\{1,a\\}$，若 $B\\subseteq A$，则实数 $a$ 的取值集合是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["子集", "含参集合", "互异性"],
+    "options": [
+      { "key": "A", "text": "$\\{2\\}$" },
+      { "key": "B", "text": "$\\{1,2\\}$" },
+      { "key": "C", "text": "$\\{1\\}$" },
+      { "key": "D", "text": "$\\varnothing$" }
+    ],
+    "answer": "B",
+    "explanation": "$B\\subseteq A$ 要求 $B$ 的每个元素都属于 $A$：元素 $1\\in A$ 已成立，于是只需 $a\\in A$，即 $a=1$ 或 $a=2$。当 $a=1$ 时由元素的互异性 $B=\\{1\\}$，仍有 $\\{1\\}\\subseteq\\{1,2\\}$，符合题意。只答 $\\{2\\}$ 是默认了 $a\\ne 1$，属于漏解；含参集合的题目必须回代检验互异性。"
+  },
+  {
+    "id": "q-math-logic-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-logic"],
+    "stem": "「$x>1$」是「$x>0$」的（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["充分条件", "必要条件"],
+    "options": [
+      { "key": "A", "text": "充分不必要条件" },
+      { "key": "B", "text": "必要不充分条件" },
+      { "key": "C", "text": "充要条件" },
+      { "key": "D", "text": "既不充分也不必要条件" }
+    ],
+    "answer": "A",
+    "explanation": "$x>1\\Rightarrow x>0$，故充分；取 $x=\\tfrac12$，满足 $x>0$ 但不满足 $x>1$，故不必要。集合视角更直观：$(1,+\\infty)\\subsetneq(0,+\\infty)$，真子集对应「充分不必要」，小范围推出大范围。"
+  },
+  {
+    "id": "q-math-logic-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-logic"],
+    "stem": "「$a>b$」是「$a^{2}>b^{2}$」的 ____ 条件（填「充分不必要」「必要不充分」「充要」「既不充分也不必要」之一）。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["充分必要条件", "举反例"],
+    "blanks": [
+      {
+        "accept": ["既不充分也不必要", "既不充分又不必要"],
+        "hint": "试取 $a=1,b=-2$ 与 $a=-2,b=1$ 这两组反例"
+      }
+    ],
+    "explanation": "$a^{2}>b^{2}\\iff|a|>|b|$，与 $a>b$ 之间没有蕴含关系。取 $a=1,b=-2$：$a>b$ 但 $1<4$，不充分；取 $a=-2,b=1$：$a^{2}>b^{2}$ 但 $a<b$，不必要。判断时优先举反例，不要凭「平方后变大」的直觉。"
+  },
+  {
+    "id": "q-math-logic-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-logic"],
+    "stem": "在 $\\triangle ABC$ 中，「$\\sin A=\\sin B$」是「$A=B$」的（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["充要条件", "三角形内角"],
+    "options": [
+      { "key": "A", "text": "充分不必要条件" },
+      { "key": "B", "text": "必要不充分条件" },
+      { "key": "C", "text": "充要条件" },
+      { "key": "D", "text": "既不充分也不必要条件" }
+    ],
+    "answer": "C",
+    "explanation": "必要性显然。充分性：$A,B\\in(0,\\pi)$，$\\sin A=\\sin B$ 给出 $A=B$ 或 $A=\\pi-B$；若 $A=\\pi-B$，则 $C=\\pi-A-B=0$，不是三角形的内角，舍去，故 $A=B$。这里「在三角形中」这个前提是关键——若只给 $A,B\\in\\mathbb{R}$，结论就退化为必要不充分。"
+  },
+  {
+    "id": "q-math-logic-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": ["math-logic"],
+    "stem": "下列结论正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["充分必要条件", "集合包含"],
+    "options": [
+      { "key": "A", "text": "「$x^{2}=1$」是「$x=1$」的必要不充分条件" },
+      { "key": "B", "text": "「$a>0$ 且 $b>0$」是「$ab>0$」的充分不必要条件" },
+      { "key": "C", "text": "「$\\sqrt{x}=1$」是「$x=1$」的充分不必要条件" },
+      { "key": "D", "text": "「$x\\in A$」是「$x\\in A\\cap B$」的必要不充分条件" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A：$x=1\\Rightarrow x^{2}=1$，反之 $x=-1$ 为反例，故为必要不充分，正确。B：$a>0,b>0\\Rightarrow ab>0$；而 $a=b=-1$ 时 $ab>0$ 却不满足，故充分不必要，正确。C：$\\sqrt{x}=1\\iff x=1$，是充要条件，把「充要」说成「充分不必要」错误——这是最常见的失分点。D：$A\\cap B\\subseteq A$，故 $x\\in A\\cap B\\Rightarrow x\\in A$（必要）；而 $x\\in A$ 时不保证 $x\\in B$（不充分），正确。"
+  },
+  {
+    "id": "q-math-logic-quantifier-1",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": ["math-logic-quantifier"],
+    "stem": "判断下列说法是否正确：命题「$\\forall x\\in\\mathbb{R},\\ x^{2}\\ge 0$」的否定是「$\\exists x\\in\\mathbb{R},\\ x^{2}<0$」。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["全称命题", "命题否定"],
+    "answer": true,
+    "explanation": "全称命题的否定规则是「改量词、否结论」：$\\forall\\to\\exists$，$\\ge\\to<$，范围「$x\\in\\mathbb{R}$」保持不变，故否定式写法正确。补充：原命题为真，其否定是假命题；但判断「否定形式写得对不对」与「否定命题真假」是两件事，本题只看形式。"
+  },
+  {
+    "id": "q-math-logic-quantifier-2",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-logic-quantifier"],
+    "stem": "命题「$\\exists x>0,\\ x^{2}-x-2=0$」的否定是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["存在命题", "命题否定"],
+    "options": [
+      { "key": "A", "text": "$\\exists x>0,\\ x^{2}-x-2\\ne 0$" },
+      { "key": "B", "text": "$\\forall x>0,\\ x^{2}-x-2\\ne 0$" },
+      { "key": "C", "text": "$\\forall x\\le 0,\\ x^{2}-x-2\\ne 0$" },
+      { "key": "D", "text": "$\\exists x\\le 0,\\ x^{2}-x-2\\ne 0$" }
+    ],
+    "answer": "B",
+    "explanation": "只改量词（$\\exists\\to\\forall$）并否定结论（$=0\\to\\ne 0$），条件「$x>0$」原样保留。A 忘了改量词；C、D 把范围也否定了——被否定的是命题，不是定义域，这是最高频的错误。"
+  },
+  {
+    "id": "q-math-logic-quantifier-3",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-logic-quantifier"],
+    "stem": "若命题「$\\forall x\\in[1,2],\\ x^{2}-a\\ge 0$」是真命题，则实数 $a$ 的取值范围是 ____。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["恒成立", "分离参数"],
+    "blanks": [
+      {
+        "accept": ["(-∞,1]", "(-∞，1]", "a≤1", "a<=1"],
+        "hint": "$a$ 不超过 $x^{2}$ 在 $[1,2]$ 上的最小值"
+      }
+    ],
+    "explanation": "命题等价于 $a\\le x^{2}$ 对一切 $x\\in[1,2]$ 成立，即 $a\\le (x^{2})_{\\min}=1$，故 $a\\in(-\\infty,1]$（$a=1$ 时 $x=1$ 处取等号，可以取到）。易错：误用最大值 $4$ 得 $a\\le 4$，那是「存在 $x$ 使 $x^{2}\\ge a$」的答案。恒成立对应最小值，能成立对应最大值。"
+  },
+  {
+    "id": "q-math-logic-quantifier-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": ["math-logic-quantifier"],
+    "stem": "已知命题 $p$：$\\forall x\\in[1,2],\\ x^{2}-a\\ge 0$；命题 $q$：$\\exists x\\in\\mathbb{R},\\ x^{2}+2ax+2-a=0$。下列结论正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["量词", "判别式", "命题真假"],
+    "options": [
+      { "key": "A", "text": "$p$ 为真命题时，$a\\le 1$" },
+      { "key": "B", "text": "$p$ 为假命题时，$a>1$" },
+      { "key": "C", "text": "$q$ 为真命题的充要条件是 $a\\le -2$ 或 $a\\ge 1$" },
+      { "key": "D", "text": "当 $p,q$ 同时为真命题时，$a\\le -2$" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "$p$ 真 $\\iff a\\le (x^{2})_{\\min}=1$，A 正确；$p$ 假即其否定「$\\exists x\\in[1,2],\\ x^{2}<a$」为真，而 $x^{2}$ 在 $[1,2]$ 上能取到的最小值为 $1$，故等价于 $a>1$，B 正确。$q$ 真 $\\iff\\Delta=4a^{2}-4(2-a)\\ge 0\\iff a^{2}+a-2\\ge 0\\iff(a+2)(a-1)\\ge 0\\iff a\\le -2$ 或 $a\\ge 1$，C 正确。同时为真：$\\{a\\le 1\\}\\cap\\{a\\le -2\\text{ 或 }a\\ge 1\\}=\\{a\\le -2\\}\\cup\\{a=1\\}$，D 漏掉 $a=1$，错误。"
+  },
+  {
+    "id": "q-math-inequality-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-inequality"],
+    "stem": "不等式 $x^{2}-5x+6<0$ 的解集是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["一元二次不等式", "解集"],
+    "options": [
+      { "key": "A", "text": "$(2,3)$" },
+      { "key": "B", "text": "$[2,3]$" },
+      { "key": "C", "text": "$(-\\infty,2)\\cup(3,+\\infty)$" },
+      { "key": "D", "text": "$(1,6)$" }
+    ],
+    "answer": "A",
+    "explanation": "因式分解 $(x-2)(x-3)<0$，二次项系数为正、开口向上，「小于零取两根之间」，得 $2<x<3$，即 $(2,3)$。因不等式是严格小于，两端点不能取，故 B 错；C 是不等式「$>0$」的解集；D 是把两根之积误当作端点。"
+  },
+  {
+    "id": "q-math-inequality-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-inequality"],
+    "stem": "若 $a<b<0$，则 $\\dfrac{1}{a}$ ____ $\\dfrac{1}{b}$（填 $>$ 或 $<$）。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["不等式性质", "取倒数"],
+    "blanks": [
+      { "accept": [">", "＞", "大于", "1/a>1/b"], "hint": "取 $a=-3,\\ b=-1$ 代入验证" }
+    ],
+    "explanation": "取 $a=-3,b=-1$：$\\frac1a=-\\frac13$，$\\frac1b=-1$，而 $-\\frac13>-1$，故填 $>$。严格证明：$\\frac1a-\\frac1b=\\frac{b-a}{ab}$，由 $b>a$ 得 $b-a>0$，由 $a<b<0$ 得 $ab>0$，故差为正。易错：只记住「同向不等式取倒数要变号」，却没注意本题两个数同为负、取倒数后大小关系反而保持。"
+  },
+  {
+    "id": "q-math-inequality-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-inequality"],
+    "stem": "不等式 $\\dfrac{x-1}{x+2}\\le 0$ 的解集是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["分式不等式", "端点开闭"],
+    "options": [
+      { "key": "A", "text": "$[-2,1]$" },
+      { "key": "B", "text": "$(-2,1]$" },
+      { "key": "C", "text": "$[-2,1)$" },
+      { "key": "D", "text": "$(-2,1)$" }
+    ],
+    "answer": "B",
+    "explanation": "商非正等价于积非正且分母不为零：$(x-1)(x+2)\\le 0$ 且 $x\\ne -2$。前者给出 $-2\\le x\\le 1$，去掉 $x=-2$ 得 $(-2,1]$。$x=1$ 使分子为零、分式值为 $0$，可以取；$x=-2$ 使分母为零，必须舍去。"
+  },
+  {
+    "id": "q-math-inequality-4",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": ["math-inequality"],
+    "stem": "已知不等式 $x^{2}+ax+b<0$ 的解集是 $(1,2)$，则下列结论正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["三个二次", "韦达定理"],
+    "options": [
+      { "key": "A", "text": "$a=-3$" },
+      { "key": "B", "text": "$b=2$" },
+      { "key": "C", "text": "不等式 $x^{2}-ax+b<0$ 的解集是 $(-2,-1)$" },
+      { "key": "D", "text": "不等式 $bx^{2}+ax+1>0$ 的解集是 $\\mathbb{R}$" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "解集为 $(1,2)$ 说明 $1,2$ 是 $x^{2}+ax+b=0$ 的两根且开口向上。由韦达定理 $1+2=-a$、$1\\times 2=b$，得 $a=-3$，$b=2$，A、B 正确。C：代入得 $x^{2}+3x+2<0$，即 $(x+1)(x+2)<0$，解集 $(-2,-1)$，正确。D：$2x^{2}-3x+1>0$，即 $(2x-1)(x-1)>0$，解集为 $(-\\infty,\\tfrac12)\\cup(1,+\\infty)$；其判别式 $9-8=1>0$，图象与 $x$ 轴有两交点，不可能恒正，错误。"
+  },
+  {
+    "id": "q-math-basic-ineq-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-basic-ineq"],
+    "stem": "若 $x>0$，则 $x+\\dfrac{4}{x}$ 的最小值为（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["基本不等式", "求最值"],
+    "options": [
+      { "key": "A", "text": "$2$" },
+      { "key": "B", "text": "$4$" },
+      { "key": "C", "text": "$8$" },
+      { "key": "D", "text": "不存在" }
+    ],
+    "answer": "B",
+    "explanation": "$x>0$，由 $a+b\\ge 2\\sqrt{ab}$ 得 $x+\\frac4x\\ge 2\\sqrt{x\\cdot\\frac4x}=2\\times 2=4$，等号当 $x=\\frac4x$ 即 $x=2$ 时成立，故最小值 $4$。选 $2$ 是把 $2\\sqrt{ab}$ 中的 $\\sqrt{4}$ 又开了一次根；选 $8$ 是漏掉开方。"
+  },
+  {
+    "id": "q-math-basic-ineq-2",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-basic-ineq"],
+    "stem": "若 $a>0$，$b>0$，且 $a+b=1$，则 $\\dfrac{1}{a}+\\dfrac{1}{b}$ 的最小值为 ____。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["常数代换", "基本不等式"],
+    "blanks": [
+      { "accept": ["4"], "hint": "把 $1$ 换成 $a+b$ 后展开" }
+    ],
+    "explanation": "常数代换：$\\frac1a+\\frac1b=\\left(\\frac1a+\\frac1b\\right)(a+b)=2+\\frac ba+\\frac ab\\ge 2+2\\sqrt{\\frac ba\\cdot\\frac ab}=4$，等号当 $a=b=\\frac12$ 时成立，故最小值为 $4$。也可用「$\\frac1a+\\frac1b\\ge\\frac{4}{a+b}=4$」。常见错误是不做代换、直接对 $\\frac1a+\\frac1b$ 套公式而落到 $2\\sqrt{\\frac{1}{ab}}$，但 $ab$ 并不固定。"
+  },
+  {
+    "id": "q-math-basic-ineq-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-basic-ineq"],
+    "stem": "若 $x<0$，则 $x+\\dfrac{1}{x}$ 的最大值为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["基本不等式", "一正条件"],
+    "options": [
+      { "key": "A", "text": "$2$" },
+      { "key": "B", "text": "$-2$" },
+      { "key": "C", "text": "$-1$" },
+      { "key": "D", "text": "不存在" }
+    ],
+    "answer": "B",
+    "explanation": "令 $t=-x>0$，则 $x+\\frac1x=-\\left(t+\\frac1t\\right)\\le -2$，等号当 $t=1$ 即 $x=-1$ 时成立，故最大值是 $-2$。直接用 $a+b\\ge 2\\sqrt{ab}$ 会得 $x+\\frac1x\\ge 2$，错在 $x<0$ 时不满足基本不等式的「一正」条件，正负号要整体提出。"
+  },
+  {
+    "id": "q-math-basic-ineq-4",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": ["math-basic-ineq"],
+    "stem": "判断下列说法是否正确：若 $a,b\\in\\mathbb{R}$ 且 $ab>0$，则 $a+b\\ge 2\\sqrt{ab}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["基本不等式条件", "反例"],
+    "answer": false,
+    "explanation": "基本不等式 $a+b\\ge 2\\sqrt{ab}$ 要求 $a>0$ 且 $b>0$。$ab>0$ 只说明 $a,b$ 同号，同负时不成立：取 $a=b=-1$，$ab=1$，而 $a+b=-2<2=2\\sqrt{ab}$。此时正确结论是 $a+b\\le -2\\sqrt{ab}$。"
+  },
+  {
+    "id": "q-math-abs-ineq-1",
+    "subjectId": "math",
+    "type": "judge",
+    "kpIds": ["math-abs-ineq"],
+    "stem": "判断下列说法是否正确：不等式 $|x|<a$ 的解集是 $(-a,a)$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["绝对值不等式", "含参讨论"],
+    "answer": false,
+    "explanation": "结论只在 $a>0$ 时成立。$a=0$ 时 $|x|<0$ 无解，解集为 $\\varnothing$；$a<0$ 时同样无解（$|x|\\ge 0>a$）。题干未限制 $a>0$，故说法错误。含参数的不等式必须先讨论参数符号，再写解集形式。"
+  },
+  {
+    "id": "q-math-abs-ineq-2",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-abs-ineq"],
+    "stem": "不等式 $|2x-1|<3$ 的解集是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["绝对值不等式", "等价转化"],
+    "options": [
+      { "key": "A", "text": "$(-1,2)$" },
+      { "key": "B", "text": "$(-2,1)$" },
+      { "key": "C", "text": "$(1,2)$" },
+      { "key": "D", "text": "$(-1,1)$" }
+    ],
+    "answer": "A",
+    "explanation": "$|2x-1|<3\\iff -3<2x-1<3\\iff -2<2x<4\\iff -1<x<2$，即 $(-1,2)$。B 是两边各减 $1$ 而不是各加 $1$ 造成的错解；注意最后除以 $2$ 时三边都要除。"
+  },
+  {
+    "id": "q-math-abs-ineq-3",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-abs-ineq"],
+    "stem": "式子 $|x-1|+|x-2|$ 的最小值是 ____。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["绝对值", "几何意义", "最值"],
+    "blanks": [
+      { "accept": ["1"], "hint": "看成数轴上点 $x$ 到 $1$ 与到 $2$ 的距离之和" }
+    ],
+    "explanation": "几何意义：数轴上点 $x$ 到点 $1$、点 $2$ 的距离之和，当 $x$ 落在两者之间时取最小值 $|2-1|=1$。代数验证：$x<1$ 时为 $3-2x>1$；$1\\le x\\le 2$ 时恒等于 $1$；$x>2$ 时为 $2x-3>1$。故最小值 $1$，在 $x\\in[1,2]$ 上取到。"
+  },
+  {
+    "id": "q-math-abs-ineq-4",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-abs-ineq"],
+    "stem": "若不等式 $|x+1|+|x-3|\\ge a$ 对一切实数 $x$ 恒成立，则实数 $a$ 的最大值为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["恒成立", "绝对值最值"],
+    "options": [
+      { "key": "A", "text": "$4$" },
+      { "key": "B", "text": "$3$" },
+      { "key": "C", "text": "$2$" },
+      { "key": "D", "text": "$1$" }
+    ],
+    "answer": "A",
+    "explanation": "恒成立 $\\iff a\\le f_{\\min}$，其中 $f(x)=|x+1|+|x-3|$ 表示数轴上 $x$ 到 $-1$ 与到 $3$ 的距离之和，最小值等于两点间距离 $|3-(-1)|=4$（当 $x\\in[-1,3]$ 时取到）。故 $a\\le 4$，最大值 $4$。选 $2$ 是把「距离之和的最小值」误当成「两定点间距离的一半」。"
+  },
+  {
+    "id": "q-math-ineq-comprehensive-1",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-ineq-comprehensive"],
+    "stem": "若对任意 $x\\in[1,3]$，不等式 $x^{2}-ax+1\\ge 0$ 恒成立，则实数 $a$ 的取值范围是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["恒成立", "分离参数", "对勾函数"],
+    "options": [
+      { "key": "A", "text": "$a\\le 2$" },
+      { "key": "B", "text": "$a\\ge 2$" },
+      { "key": "C", "text": "$a\\le \\dfrac{10}{3}$" },
+      { "key": "D", "text": "$a\\ge \\dfrac{10}{3}$" }
+    ],
+    "answer": "A",
+    "explanation": "分离参数：$x\\in[1,3]$ 时 $x>0$，不等式等价于 $a\\le x+\\dfrac1x$ 恒成立，故 $a\\le\\left(x+\\dfrac1x\\right)_{\\min}$。函数 $x+\\dfrac1x$ 在 $[1,+\\infty)$ 上单调递增（$x\\ge1$ 时 $1-\\frac1{x^2}\\ge0$），最小值在 $x=1$ 处为 $2$，所以 $a\\le2$。选 $\\frac{10}{3}$ 是错把端点 $x=3$ 处的最大值当成最小值——恒成立要看最小值。"
+  },
+  {
+    "id": "q-math-ineq-comprehensive-2",
+    "subjectId": "math",
+    "type": "multiple",
+    "kpIds": ["math-ineq-comprehensive", "math-abs-ineq"],
+    "stem": "已知函数 $f(x)=|x-1|+|x+2|$，命题 $p$：$\\forall x\\in\\mathbb{R},\\ f(x)>a$；命题 $q$：$\\exists x\\in\\mathbb{R},\\ f(x)\\le a$。下列结论正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["恒成立", "能成立", "命题真假"],
+    "options": [
+      { "key": "A", "text": "$p$ 为真命题的充要条件是 $a<3$" },
+      { "key": "B", "text": "$q$ 为真命题的充要条件是 $a\\ge 3$" },
+      { "key": "C", "text": "$p$ 与 $q$ 不可能同时为真命题" },
+      { "key": "D", "text": "$p$ 为真命题时，$a$ 的最大值为 $3$" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "$f(x)$ 表示数轴上 $x$ 到 $1$ 与到 $-2$ 的距离之和，最小值为 $|1-(-2)|=3$（当 $x\\in[-2,1]$ 取到），且 $f$ 无上界。$p$ 真 $\\iff a<f_{\\min}=3$，A 正确；$q$ 真 $\\iff a\\ge f_{\\min}=3$，B 正确；两条件互补且互斥，C 正确。D 错：$a<3$ 没有最大值（边界 $3$ 取不到，因为 $p$ 是严格不等号）；「恒成立」问题中严格不等号与不严格不等号的端点处理必须区分。"
+  },
+  {
+    "id": "q-math-ineq-comprehensive-3",
+    "subjectId": "math",
+    "type": "single",
+    "kpIds": ["math-ineq-comprehensive", "math-basic-ineq"],
+    "stem": "若 $x>0$，则 $x+\\dfrac{4}{x+1}$ 的最小值为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["配凑", "基本不等式", "等号条件"],
+    "options": [
+      { "key": "A", "text": "$3$" },
+      { "key": "B", "text": "$4$" },
+      { "key": "C", "text": "$5$" },
+      { "key": "D", "text": "$\\dfrac{9}{2}$" }
+    ],
+    "answer": "A",
+    "explanation": "配凑成积为定值：$x+\\dfrac{4}{x+1}=(x+1)+\\dfrac{4}{x+1}-1\\ge2\\sqrt{4}-1=3$，等号当 $x+1=\\dfrac{4}{x+1}$ 即 $x=1$ 时成立（符合 $x>0$），最小值 $3$。选 $4$ 是直接对 $x+\\frac4x$ 套公式，忽略了分母是 $x+1$；更关键的是错误解法对应的等号条件 $x=2$ 与原式的最值点 $x=1$ 不一致，等号取不到。"
+  },
+  {
+    "id": "q-math-ineq-comprehensive-4",
+    "subjectId": "math",
+    "type": "fill",
+    "kpIds": ["math-ineq-comprehensive"],
+    "stem": "若不等式 $x^{2}-4x+a>0$ 对任意实数 $x$ 恒成立，则实数 $a$ 的取值范围是 ____。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["恒成立", "判别式"],
+    "blanks": [
+      {
+        "accept": ["(4,+∞)", "(4，+∞)", "a>4", "a＞4"],
+        "hint": "开口向上，只需判别式小于零（注意是严格小于）"
+      }
+    ],
+    "explanation": "二次项系数 $1>0$，图象开口向上，恒正 $\\iff\\Delta=16-4a<0\\iff a>4$，即 $a\\in(4,+\\infty)$。易错：写成 $\\Delta\\le0$ 得 $a\\ge4$，但 $a=4$ 时 $x^{2}-4x+4=(x-2)^{2}$ 在 $x=2$ 处等于 $0$，不满足「$>0$ 恒成立」。"
+  },
+  {
+    "id": "q-math-basic-ineq-5",
+    "subjectId": "math",
+    "type": "short",
+    "kpIds": ["math-basic-ineq", "math-ineq-comprehensive"],
+    "stem": "已知 $a>0$，$b>0$，且 $a+b=2$。\n(1) 求 $ab$ 的最大值，并指出取最大值时 $a,b$ 的值；\n(2) 求 $\\dfrac{1}{a}+\\dfrac{4}{b}$ 的最小值，并指出取最小值时 $a,b$ 的值。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["基本不等式", "常数代换", "最值"],
+    "rubric": [
+      { "text": "由 $ab\\le\\left(\\dfrac{a+b}{2}\\right)^{2}=1$ 得 $ab$ 的最大值为 $1$", "score": 3 },
+      { "text": "指出 (1) 的等号条件 $a=b=1$，说明此时确实取到", "score": 2 },
+      { "text": "对 (2) 作常数代换：$\\dfrac1a+\\dfrac4b=\\dfrac12(a+b)\\left(\\dfrac1a+\\dfrac4b\\right)=\\dfrac12\\left(5+\\dfrac ba+\\dfrac{4a}{b}\\right)$", "score": 3 },
+      { "text": "用基本不等式得下界 $\\dfrac12(5+4)=\\dfrac92$，并由 $\\dfrac ba=\\dfrac{4a}{b}$ 结合 $a+b=2$ 解得 $a=\\dfrac23,\\ b=\\dfrac43$，结论完整", "score": 2 }
+    ],
+    "reference": "(1) 由基本不等式 $a+b\\ge2\\sqrt{ab}$ 得 $2\\ge2\\sqrt{ab}$，即 $ab\\le1$，等号当 $a=b=1$ 时成立，故 $ab$ 的最大值为 $1$。\n(2) 由 $a+b=2$ 得 $\\dfrac12(a+b)=1$，于是\n$$\\frac1a+\\frac4b=\\frac12(a+b)\\left(\\frac1a+\\frac4b\\right)=\\frac12\\left(1+\\frac ba+\\frac{4a}{b}+4\\right)=\\frac12\\left(5+\\frac ba+\\frac{4a}{b}\\right).$$\n因为 $a,b>0$，所以 $\\dfrac ba+\\dfrac{4a}{b}\\ge2\\sqrt{4}=4$，从而 $\\dfrac1a+\\dfrac4b\\ge\\dfrac12(5+4)=\\dfrac92$。\n等号成立需 $\\dfrac ba=\\dfrac{4a}{b}$，即 $b=2a$；代入 $a+b=2$ 得 $a=\\dfrac23,\\ b=\\dfrac43$，此时 $\\dfrac1a+\\dfrac4b=\\dfrac32+3=\\dfrac92$，最小值确为 $\\dfrac92$。",
+    "maxScore": 10,
+    "explanation": "本题考查基本不等式的两个核心技巧：和定求积的最大值（(1)）与常数代换（(2)）。第 (2) 问的关键是把常数 $1$ 用 $\\frac12(a+b)$ 表示，使分子分母的「次数」匹配，从而出现 $\\frac ba$ 与 $\\frac{4a}b$ 的乘积为定值 $4$。评分时特别注意两点：一是必须写出等号成立条件并回代验证（只写「$\\ge\\frac92$」不说明取等，最多得一半分）；二是 $\\frac ba+\\frac{4a}b\\ge4$ 中的 $4$ 来自 $2\\sqrt{\\frac ba\\cdot\\frac{4a}b}=2\\times2$，漏开方会误得 $2$。"
+  },
+  {
+    "id": "q-math-ineq-comprehensive-5",
+    "subjectId": "math",
+    "type": "short",
+    "kpIds": ["math-abs-ineq", "math-ineq-comprehensive"],
+    "stem": "已知函数 $f(x)=|x-1|+|x+3|$。\n(1) 求 $f(x)$ 的最小值；\n(2) 解不等式 $f(x)\\le 6$；\n(3) 若 $f(x)\\ge a$ 对一切实数 $x$ 恒成立，求实数 $a$ 的取值范围。",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["绝对值不等式", "零点分段", "恒成立"],
+    "rubric": [
+      { "text": "用数轴距离（或零点分段）说明 $f(x)$ 的最小值为 $4$，并指出取到的范围 $x\\in[-3,1]$", "score": 3 },
+      { "text": "以 $-3,1$ 为分点讨论，正确写出 $f(x)$ 的三段表达式", "score": 2 },
+      { "text": "解 $f(x)\\le6$ 得 $x\\in[-4,2]$，端点开闭正确", "score": 3 },
+      { "text": "把恒成立转化为 $a\\le f_{\\min}=4$，得 $a\\le4$", "score": 2 }
+    ],
+    "reference": "(1) $f(x)=|x-1|+|x+3|$ 表示数轴上点 $x$ 到 $1$ 与到 $-3$ 的距离之和，当 $x\\in[-3,1]$ 时取最小值 $|1-(-3)|=4$，故 $f_{\\min}=4$。\n(2) 零点分段：\n$$f(x)=\\begin{cases}-2x-2, & x<-3,\\\\ 4, & -3\\le x\\le1,\\\\ 2x+2, & x>1.\\end{cases}$$\n当 $x<-3$ 时，$-2x-2\\le6$ 得 $x\\ge-4$，故 $-4\\le x<-3$；当 $-3\\le x\\le1$ 时 $f(x)=4\\le6$ 恒成立；当 $x>1$ 时 $2x+2\\le6$ 得 $x\\le2$，故 $1<x\\le2$。\n综上，解集为 $[-4,2]$。\n(3) $f(x)\\ge a$ 恒成立 $\\iff a\\le f_{\\min}=4$，故 $a\\in(-\\infty,4]$。",
+    "maxScore": 10,
+    "explanation": "本题把绝对值不等式的三种典型处理串在一起：几何意义求最值、零点分段解不等式、恒成立转化为最值。第 (1) 问若只在 $x\\in[-3,1]$ 上验证「等于 $4$」还不够，需说明区间外严格大于 $4$。第 (2) 问最易错在分段边界：$x=-4$ 与 $x=2$ 都能取等号（因为原不等式是 $\\le$），而分段点 $-3$、$1$ 归属哪一段不影响结果但必须前后一致。第 (3) 问的等价关系是 $a\\le f_{\\min}$，不要写成 $a\\le f_{\\max}$——那是「存在 $x$ 使 $f(x)\\ge a$」的答案。"
+  }
+]

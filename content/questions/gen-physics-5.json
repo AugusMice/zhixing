@@ -1,0 +1,709 @@
+[
+  {
+    "id": "q-phy-magnetic-field-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-magnetic-field"],
+    "stem": "磁感线是闭合曲线，因此在磁场中两条磁感线可以相交。",
+    "difficulty": 1,
+    "source": "自编练习",
+    "tags": ["磁感线", "磁场方向"],
+    "answer": false,
+    "explanation": "磁感线有两个基本性质：一是**闭合**，磁体外部由 N 极到 S 极、内部由 S 极到 N 极，永不相交也不中断；二是**不相交**，因为某点的磁场方向只有一个，若两条磁感线在该点相交，就等于说该点同时有两个磁场方向，自相矛盾。所以「磁感线闭合」与「磁感线可以相交」不能同时成立，命题为假。易错点：把「闭合」误当成「可以绕回原处相交」。"
+  },
+  {
+    "id": "q-phy-magnetic-field-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-magnetic-field"],
+    "stem": "一根长 $L=0.50\\ \\text{m}$ 的直导线通有 $I=2.0\\ \\text{A}$ 的电流，垂直放入匀强磁场中，测得它受到的安培力 $F=0.40\\ \\text{N}$，则该处的磁感应强度 $B=$ ____ $\\text{T}$；若把导线转到与磁场方向平行的位置，导线受到的安培力为 ____ $\\text{N}$。",
+    "difficulty": 1,
+    "source": "自编练习",
+    "tags": ["磁感应强度定义", "B=F/IL"],
+    "blanks": [
+      { "accept": ["0.4", "0.40", "0.400"], "hint": "导线与磁场垂直，直接用 $B=\\dfrac{F}{IL}$，注意代入 $I$ 与 $L$ 的乘积" },
+      { "accept": ["0", "0.0"], "hint": "导线与磁场平行时，$\\theta=0^\\circ$，而 $F=BIL\\sin\\theta$" }
+    ],
+    "explanation": "导线与磁场垂直时 $B=\\dfrac{F}{IL}=\\dfrac{0.40}{2.0\\times0.50}\\ \\text{T}=0.40\\ \\text{T}$，这是磁感应强度的定义式（要求电流元垂直于磁场）。当导线转到与磁场平行时，电流方向与磁场方向的夹角为 $0^\\circ$，安培力 $F=BIL\\sin0^\\circ=0$，即平行放置的导线不受安培力。易错点：把 $B=\\frac{F}{IL}$ 当成 $B$ 与 $F$ 成正比（定义式不是决定式，$B$ 由磁场本身决定）；或忘记 $\\sin\\theta$ 而认为平行时仍有 $0.40\\ \\text{N}$。"
+  },
+  {
+    "id": "q-phy-magnetic-field-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-magnetic-field"],
+    "stem": "关于磁场和磁感线，下列说法正确的是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["磁感线", "磁场方向"],
+    "options": [
+      { "key": "A", "text": "磁感线上某点的切线方向就是该点的磁场方向" },
+      { "key": "B", "text": "磁感线是磁场中真实存在的曲线，可以用实验直接观察到" },
+      { "key": "C", "text": "在磁场中，两条磁感线可以相交" },
+      { "key": "D", "text": "磁感应强度的方向与放在该点的小磁针 S 极受力方向相同" }
+    ],
+    "answer": "A",
+    "explanation": "A 对：规定磁感线上某点的切线方向为该点的磁场方向（也是小磁针 N 极在该点的受力方向）。B 错：磁感线是为形象描述磁场而假想的曲线，真实存在的是磁场本身，实验只能显示铁屑排列的图案，不能「看到」磁感线。C 错：磁场中每点只有一个方向，磁感线相交会导致同一点出现两个方向，故磁感线不相交。D 错：小磁针 N 极受力方向才是磁场方向，S 极受力方向与磁场方向相反。易错点：把 S 极受力方向当作磁场方向，这是本题最常见的错选。"
+  },
+  {
+    "id": "q-phy-magnetic-field-4",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-magnetic-field"],
+    "stem": "下列关于磁感应强度 $B$ 的说法中，正确的是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["磁感应强度", "定义式", "矢量"],
+    "options": [
+      { "key": "A", "text": "由 $B=\\dfrac{F}{IL}$ 可知，$B$ 与 $F$ 成正比，与 $IL$ 成反比" },
+      { "key": "B", "text": "若一段通电导线在某处不受安培力，则该处的 $B$ 一定为零" },
+      { "key": "C", "text": "$B$ 由磁场本身决定，与是否放入通电导线无关" },
+      { "key": "D", "text": "$B$ 是标量，只有大小没有方向" }
+    ],
+    "answer": "C",
+    "explanation": "A 错：$B=\\dfrac{F}{IL}$ 是定义式（用比值定义物理量），$B$ 由产生磁场的磁体或电流决定，与检验电流元无关，不能说成正比、成反比。B 错：导线与磁场平行时 $F=0$，但 $B\\neq0$，所以「不受力」推不出「$B$ 为零」。C 对。D 错：磁感应强度是矢量，方向为该点小磁针 N 极受力方向。易错点：把定义式当决定式（A），以及用「不受力」判断「无磁场」（B），后者与「速度与磁场平行时洛伦兹力为零」是同一类错误。"
+  },
+
+  {
+    "id": "q-phy-ampere-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-ampere"],
+    "stem": "把一段通电直导线放在磁场中，若导线不受安培力作用，则该处的磁感应强度一定为零。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["安培力", "平行情形"],
+    "answer": false,
+    "explanation": "安培力 $F=BIL\\sin\\theta$，$\\theta$ 是电流方向与磁场方向的夹角。当导线与磁场平行（$\\theta=0^\\circ$ 或 $180^\\circ$）时 $\\sin\\theta=0$，$F=0$，但此时 $B$ 完全可以不为零。所以「不受安培力」只能推出「导线与磁场平行或 $B=0$」，不能断言 $B=0$，命题为假。易错点：只记住 $F=BIL$，把「$F=0$」直接等价于「$B=0$」。正确说法是：导线垂直于磁场放置且不受力时，才能判定该处 $B=0$。"
+  },
+  {
+    "id": "q-phy-ampere-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-ampere"],
+    "stem": "长 $L=0.50\\ \\text{m}$ 的直导线通有 $I=2.0\\ \\text{A}$ 的电流，放在 $B=0.40\\ \\text{T}$ 的匀强磁场中。当导线与磁场方向垂直时，安培力 $F=$ ____ $\\text{N}$；当导线与磁场方向成 $30^\\circ$ 角时，安培力 $F'=$ ____ $\\text{N}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["安培力大小", "夹角"],
+    "blanks": [
+      { "accept": ["0.4", "0.40"], "hint": "垂直时 $\\sin\\theta=1$，$F=BIL$" },
+      { "accept": ["0.2", "0.20"], "hint": "$\\theta$ 取电流与磁场的夹角 $30^\\circ$，$\\sin30^\\circ=\\dfrac12$" }
+    ],
+    "explanation": "垂直时 $F=BIL=0.40\\times2.0\\times0.50\\ \\text{N}=0.40\\ \\text{N}$。成 $30^\\circ$ 角时 $F'=BIL\\sin30^\\circ=0.40\\times\\dfrac12\\ \\text{N}=0.20\\ \\text{N}$。易错点：把 $\\theta$ 取成导线与磁场平面的夹角（若如此会误用 $\\cos30^\\circ$ 得 $0.35\\ \\text{N}$），或漏掉 $\\sin\\theta$ 直接写 $0.40\\ \\text{N}$。请牢记 $\\theta$ 的定义：**电流方向与磁场方向的夹角**。"
+  },
+  {
+    "id": "q-phy-ampere-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-ampere"],
+    "stem": "在竖直向下的匀强磁场中，有一段水平放置的通电直导线，电流方向由南向北。导线所受安培力的方向为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["左手定则", "安培力方向"],
+    "options": [
+      { "key": "A", "text": "向东" },
+      { "key": "B", "text": "向西" },
+      { "key": "C", "text": "竖直向上" },
+      { "key": "D", "text": "竖直向下" }
+    ],
+    "answer": "B",
+    "explanation": "用左手定则：让磁感线垂直穿入掌心——磁场竖直向下，掌心应朝上；四指指向电流方向，即由南向北；此时拇指指向西，故安培力向西。也可用矢量判定：$\\vec F\\propto\\vec I\\times\\vec B$，取东、北、上为 $x,y,z$ 轴正方向，则 $\\vec I$ 沿 $+y$、$\\vec B$ 沿 $-z$，$\\vec y\\times(-\\vec z)=-\\vec x$，即向西。易错点：把磁感线「穿出」掌心（掌心朝下），结果方向判断相反得向东；或误以为安培力必与电流、磁场都垂直却分不清是向上还是向下——本题中安培力一定在水平面内，C、D 本身就不可能。"
+  },
+  {
+    "id": "q-phy-ampere-4",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-ampere"],
+    "stem": "一根弯成半圆形的导线（半径 $r=0.10\\ \\text{m}$）置于垂直纸面向里的匀强磁场 $B=0.50\\ \\text{T}$ 中，导线中通有 $I=2.0\\ \\text{A}$ 的电流，则它所受安培力的大小为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["有效长度", "弯曲导线"],
+    "options": [
+      { "key": "A", "text": "$0.10\\ \\text{N}$" },
+      { "key": "B", "text": "$0.20\\ \\text{N}$" },
+      { "key": "C", "text": "$0.31\\ \\text{N}$" },
+      { "key": "D", "text": "$0.40\\ \\text{N}$" }
+    ],
+    "answer": "B",
+    "explanation": "匀强磁场中弯曲导线所受安培力等于「有效长度」——即导线两端点连线长度——所受的安培力：半圆两端点间距为直径 $2r=0.20\\ \\text{m}$，故 $F=BI\\cdot 2r=0.50\\times2.0\\times0.20\\ \\text{N}=0.20\\ \\text{N}$。C 项 $0.31\\ \\text{N}$ 是把弧长 $\\pi r=0.314\\ \\text{m}$ 当作长度代入得到的典型错解；D 项是把「直径」误取为 $2\\times2r=0.40\\ \\text{m}$。易错点：以为导线越长受力越大，忽略安培力只看首末位置这一等效结论（该结论仅适用于匀强磁场）。"
+  },
+
+  {
+    "id": "q-phy-lorentz-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-lorentz"],
+    "stem": "洛伦兹力既能改变带电粒子的速度方向，也能改变其速度大小。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["洛伦兹力", "不做功"],
+    "answer": false,
+    "explanation": "洛伦兹力 $\\vec F=q\\vec v\\times\\vec B$，由叉乘性质可知 $\\vec F$ 始终垂直于速度 $\\vec v$。力与速度垂直，力的方向上的位移为零，故洛伦兹力对粒子**不做功**，粒子的动能与速率都不变，只改变速度的方向。所以命题中「也能改变速度大小」错误，整个命题为假。易错点：把洛伦兹力与电场力混淆——电场力沿电场方向，可以做功、可以改变速率；洛伦兹力永远不做功。"
+  },
+  {
+    "id": "q-phy-lorentz-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-lorentz"],
+    "stem": "一个电子以 $v=2.0\\times10^{6}\\ \\text{m/s}$ 的速度垂直射入 $B=0.10\\ \\text{T}$ 的匀强磁场，已知电子电荷量 $e=1.6\\times10^{-19}\\ \\text{C}$，则它受到的洛伦兹力大小为 ____ $\\text{N}$；若该电子沿磁场方向运动，则它受到的洛伦兹力为 ____ $\\text{N}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["洛伦兹力大小", "平行情形"],
+    "blanks": [
+      { "accept": ["3.2×10^-14", "3.2e-14", "3.2*10^-14", "3.2\\times10^{-14}", "3.2E-14"], "hint": "垂直入射 $\\sin\\theta=1$，$F=qvB=1.6\\times10^{-19}\\times2.0\\times10^{6}\\times0.10$" },
+      { "accept": ["0", "0.0"], "hint": "速度与磁场平行时 $\\theta=0^\\circ$，$\\sin\\theta=0$" }
+    ],
+    "explanation": "垂直射入时 $F=qvB=1.6\\times10^{-19}\\times2.0\\times10^{6}\\times0.10\\ \\text{N}=3.2\\times10^{-14}\\ \\text{N}$。沿磁场方向运动时速度与磁场平行，$\\theta=0^\\circ$，$F=qvB\\sin0^\\circ=0$。易错点：①数量级算错，把 $10^{-19}\\times10^{6}$ 写成 $10^{-25}$ 之外的量级；②忘记题中 $v$ 与 $B$ 垂直、$\\sin\\theta=1$；③以为「电子带负电所以平行时也有力」——电性只影响方向，不影响 $\\sin\\theta$ 的取值。"
+  },
+  {
+    "id": "q-phy-lorentz-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-lorentz"],
+    "stem": "一个电子沿纸面向右运动，匀强磁场方向垂直纸面向里，则电子所受洛伦兹力的方向为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["左手定则", "负电荷", "洛伦兹力方向"],
+    "options": [
+      { "key": "A", "text": "竖直向上" },
+      { "key": "B", "text": "竖直向下" },
+      { "key": "C", "text": "垂直纸面向里" },
+      { "key": "D", "text": "电子不受洛伦兹力" }
+    ],
+    "answer": "B",
+    "explanation": "先用左手定则判断「正电荷」的受力：磁场垂直纸面向里，掌心朝外（朝向读者），四指指向电子运动方向（向右），拇指向上，即正电荷受力竖直向上。电子带负电，受力方向与正电荷相反，故**竖直向下**。也可用 $\\vec F=q\\vec v\\times\\vec B$：取右为 $+x$、上为 $+y$、外为 $+z$，则 $\\vec v$ 沿 $+x$、$\\vec B$ 沿 $-z$，$\\vec x\\times(-\\vec z)=+\\vec y$，$q<0$ 使结果反号为 $-\\vec y$，向下。易错点：忘记电子带负电而选 A——这是本题最主要的陷阱；C 项错误在于洛伦兹力一定垂直于 $\\vec v$ 与 $\\vec B$ 所决定的平面，不可能与 $\\vec B$ 同向。"
+  },
+  {
+    "id": "q-phy-lorentz-4",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-lorentz"],
+    "stem": "一质子以 $v=1.0\\times10^{6}\\ \\text{m/s}$ 的速度射入 $B=0.50\\ \\text{T}$ 的匀强磁场，速度方向与磁场方向成 $30^\\circ$ 角，质子电荷量 $q=1.6\\times10^{-19}\\ \\text{C}$，则质子所受洛伦兹力的大小为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["洛伦兹力大小", "夹角"],
+    "options": [
+      { "key": "A", "text": "$0$" },
+      { "key": "B", "text": "$4.0\\times10^{-14}\\ \\text{N}$" },
+      { "key": "C", "text": "$6.9\\times10^{-14}\\ \\text{N}$" },
+      { "key": "D", "text": "$8.0\\times10^{-14}\\ \\text{N}$" }
+    ],
+    "answer": "B",
+    "explanation": "$F=qvB\\sin\\theta=1.6\\times10^{-19}\\times1.0\\times10^{6}\\times0.50\\times\\sin30^\\circ\\ \\text{N}=8.0\\times10^{-14}\\times0.5\\ \\text{N}=4.0\\times10^{-14}\\ \\text{N}$。D 项漏掉 $\\sin30^\\circ$（把它当垂直入射）；C 项误用 $\\cos30^\\circ$；A 项误以为「与磁场不垂直就没有力」——只要不平行就有力，只是比垂直时小。易错点：$\\theta$ 必须取速度与磁场的夹角，且当 $\\theta\\neq90^\\circ$ 时洛伦兹力只是改变速度的垂直于磁场方向的分量，粒子做螺旋运动而非圆周运动。"
+  },
+
+  {
+    "id": "q-phy-charged-particle-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-charged-particle"],
+    "stem": "带电粒子垂直射入匀强磁场后做匀速圆周运动，其运动周期与射入时的速度大小无关。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["周期与速度无关", "匀速圆周运动"],
+    "answer": true,
+    "explanation": "由 $qvB=\\dfrac{mv^2}{r}$ 得 $r=\\dfrac{mv}{qB}$，半径随速度增大而增大；而 $T=\\dfrac{2\\pi r}{v}=\\dfrac{2\\pi m}{qB}$，$v$ 在化简中被消掉，故**周期只由 $m,q,B$ 决定，与速度无关**。这正是回旋加速器能把粒子不断加速的物理基础（交流电源频率不必随速度改变）。易错点：凭直觉认为「跑得快，转一圈更快」，从而误判周期变小；实际是半径按比例变大，绕行一周时间不变。命题正确。"
+  },
+  {
+    "id": "q-phy-charged-particle-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-charged-particle"],
+    "stem": "一质量 $m=3.2\\times10^{-27}\\ \\text{kg}$、电荷量 $q=1.6\\times10^{-19}\\ \\text{C}$ 的粒子以 $v=1.0\\times10^{7}\\ \\text{m/s}$ 的速度垂直射入 $B=0.50\\ \\text{T}$ 的匀强磁场，它做圆周运动的半径 $r=$ ____ $\\text{m}$，周期 $T\\approx$ ____ $\\text{s}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["半径公式", "周期公式"],
+    "blanks": [
+      { "accept": ["0.4", "0.40"], "hint": "$r=\\dfrac{mv}{qB}=\\dfrac{3.2\\times10^{-27}\\times1.0\\times10^{7}}{1.6\\times10^{-19}\\times0.50}$" },
+      { "accept": ["2.5×10^-7", "2.5e-7", "2.5*10^-7", "2.5\\times10^{-7}", "2.5E-7", "2.51×10^-7"], "hint": "$T=\\dfrac{2\\pi m}{qB}=\\dfrac{2\\pi\\times3.2\\times10^{-27}}{1.6\\times10^{-19}\\times0.50}$，分子分母先约分再代入 $\\pi$" }
+    ],
+    "explanation": "$r=\\dfrac{mv}{qB}=\\dfrac{3.2\\times10^{-27}\\times1.0\\times10^{7}}{1.6\\times10^{-19}\\times0.50}\\ \\text{m}=\\dfrac{3.2\\times10^{-20}}{8.0\\times10^{-20}}\\ \\text{m}=0.40\\ \\text{m}$。$T=\\dfrac{2\\pi m}{qB}=\\dfrac{2\\pi\\times3.2\\times10^{-27}}{8.0\\times10^{-20}}\\ \\text{s}=2\\pi\\times4.0\\times10^{-8}\\ \\text{s}\\approx2.5\\times10^{-7}\\ \\text{s}$。易错点：①$qB$ 联乘时漏乘 $0.50$，把分母写成 $1.6\\times10^{-19}$，半径会变成 $0.2\\ \\text{m}$；②周期算出 $8\\pi\\times10^{-8}$ 后忘记乘 $\\pi$ 的近似值，或把 $\\pi$ 取 $3$ 导致 $2.4$ 与 $2.5$ 之争——保留两位有效数字即 $2.5\\times10^{-7}\\ \\text{s}$。"
+  },
+  {
+    "id": "q-phy-charged-particle-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-charged-particle"],
+    "stem": "两个电荷量相同的粒子，质量之比为 $m_1:m_2=1:2$，以相同的动能垂直射入同一匀强磁场，则它们做圆周运动的半径之比 $r_1:r_2$ 为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["半径比", "动能与动量"],
+    "options": [
+      { "key": "A", "text": "$1:2$" },
+      { "key": "B", "text": "$1:\\sqrt2$" },
+      { "key": "C", "text": "$\\sqrt2:1$" },
+      { "key": "D", "text": "$2:1$" }
+    ],
+    "answer": "B",
+    "explanation": "由 $E_k=\\dfrac12mv^2$ 得 $v=\\sqrt{\\dfrac{2E_k}{m}}$，代入 $r=\\dfrac{mv}{qB}=\\dfrac{\\sqrt{2mE_k}}{qB}$。在 $q$、$B$、$E_k$ 都相同的条件下 $r\\propto\\sqrt m$，故 $r_1:r_2=\\sqrt1:\\sqrt2=1:\\sqrt2\\approx1:1.41$。D 项 $2:1$ 是把 $r\\propto m$ 直接套用（误以为动能相同则 $v$ 相同，忽略了 $v\\propto1/\\sqrt m$）；C 项是把正反比弄颠倒（若改为「相同动量」则 $r\\propto1/m$，答案才反过来）。易错点：动能相同与速度相同不能混为一谈。"
+  },
+  {
+    "id": "q-phy-charged-particle-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-charged-particle"],
+    "stem": "关于带电粒子在匀强磁场中的运动，下列说法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["匀速圆周运动", "螺旋线", "多选"],
+    "options": [
+      { "key": "A", "text": "垂直射入时，洛伦兹力提供向心力，粒子做匀速圆周运动" },
+      { "key": "B", "text": "轨道半径 $r=\\dfrac{mv}{qB}$，速度越大半径越大" },
+      { "key": "C", "text": "周期 $T=\\dfrac{2\\pi m}{qB}$，速度越大周期越长" },
+      { "key": "D", "text": "若速度方向与磁场方向成锐角，粒子的轨迹是螺旋线" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：洛伦兹力始终垂直速度、不做功，大小恒为 $qvB$，恰好充当向心力，粒子做匀速圆周运动。B 对：由 $qvB=\\frac{mv^2}{r}$ 得 $r=\\frac{mv}{qB}$，半径与速度成正比。C 错：$T=\\frac{2\\pi m}{qB}$ 与速度无关，速度增大时半径按比例增大，周期不变。D 对：速度可分解为平行磁场的 $v_\\parallel$（不受力、匀速直线）与垂直磁场的 $v_\\perp$（圆周运动），合成为等螺距螺旋线。易错点：C 项把「半径随速度增大」错误地延伸到周期上，这是本知识点最典型的错误。"
+  },
+  {
+    "id": "q-phy-charged-particle-5",
+    "subjectId": "physics",
+    "type": "short",
+    "kpIds": ["phy-charged-particle", "phy-lorentz"],
+    "stem": "一质量 $m=6.4\\times10^{-27}\\ \\text{kg}$、电荷量 $q=3.2\\times10^{-19}\\ \\text{C}$ 的带电粒子，以 $v=1.0\\times10^{6}\\ \\text{m/s}$ 的速度垂直射入 $B=0.20\\ \\text{T}$ 的匀强磁场，运动中只受洛伦兹力作用。\n\n（1）求粒子做圆周运动的半径 $r$ 和周期 $T$；\n（2）若粒子从 $A$ 点进入磁场，速度方向转过 $90^\\circ$ 后从 $B$ 点射出，求这段运动的时间 $t$ 以及 $A$、$B$ 两点间的距离；\n（3）求洛伦兹力在这段运动中对粒子做的功，并说明粒子的动能如何变化。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["半径与周期", "圆心角", "洛伦兹力不做功"],
+    "rubric": [
+      { "text": "由 $qvB=\\dfrac{mv^2}{r}$ 得 $r=\\dfrac{mv}{qB}$，代入数据得 $r=0.10\\ \\text{m}$", "score": 3 },
+      { "text": "写出 $T=\\dfrac{2\\pi m}{qB}$，代入数据得 $T\\approx6.3\\times10^{-7}\\ \\text{s}$", "score": 2 },
+      { "text": "由圆心角 $90^\\circ=\\dfrac{\\pi}{2}$ 得 $t=\\dfrac{T}{4}\\approx1.6\\times10^{-7}\\ \\text{s}$，并由几何关系得 $AB=\\sqrt2\\,r\\approx0.14\\ \\text{m}$", "score": 3 },
+      { "text": "指出洛伦兹力始终垂直于速度、不做功，做功为零，粒子速率与动能均不变", "score": 2 }
+    ],
+    "reference": "（1）$r=\\dfrac{mv}{qB}=\\dfrac{6.4\\times10^{-27}\\times1.0\\times10^{6}}{3.2\\times10^{-19}\\times0.20}\\ \\text{m}=\\dfrac{6.4\\times10^{-21}}{6.4\\times10^{-20}}\\ \\text{m}=0.10\\ \\text{m}$。\n$T=\\dfrac{2\\pi m}{qB}=\\dfrac{2\\pi\\times6.4\\times10^{-27}}{6.4\\times10^{-20}}\\ \\text{s}=2\\pi\\times10^{-7}\\ \\text{s}\\approx6.3\\times10^{-7}\\ \\text{s}$。\n（2）速度方向转过 $90^\\circ$，对应圆心角 $\\theta=90^\\circ=\\dfrac{\\pi}{2}$，故 $t=\\dfrac{\\theta}{2\\pi}T=\\dfrac{T}{4}\\approx1.6\\times10^{-7}\\ \\text{s}$。$A$、$B$ 为圆弧上相隔 $90^\\circ$ 圆心角的两点，弦长 $AB=2r\\sin45^\\circ=\\sqrt2\\,r\\approx1.41\\times0.10\\ \\text{m}\\approx0.14\\ \\text{m}$。\n（3）洛伦兹力方向始终与速度垂直，故 $W=0$；由动能定理 $\\Delta E_k=W=0$，粒子速率和动能都保持不变。",
+    "maxScore": 10,
+    "explanation": "本题是「找圆心、定半径、求圆心角」这一标准套路的最小完整版。第（1）问直接套 $r=\\frac{mv}{qB}$、$T=\\frac{2\\pi m}{qB}$，注意先约分再代 $\\pi$ 可避免数量级错误。第（2）问的关键是把「速度方向转过 $90^\\circ$」翻译成「圆心角 $90^\\circ$」，从而 $t=\\frac{\\theta}{2\\pi}T=\\frac{T}{4}$；弦长用 $2r\\sin\\frac{\\theta}{2}$，不要写成弧长 $\\frac{\\pi}{2}r\\approx0.157\\ \\text{m}$（题目问的是两点间距离，是直线段）。第（3）问考查洛伦兹力不做功这一根本性质。常见失分：把 $t$ 算成 $T$ 或 $\\frac{T}{2}$；用弧长代替弦长；认为「粒子被偏转说明受力做功、动能变化」。"
+  },
+
+  {
+    "id": "q-phy-induction-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-induction"],
+    "stem": "穿过闭合回路的磁通量越大，回路中的感应电流就越大。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["感应电流条件", "磁通量变化率"],
+    "answer": false,
+    "explanation": "感应电动势由磁通量的**变化率**决定：$E=n\\dfrac{\\Delta\\Phi}{\\Delta t}$，再由 $I=\\dfrac{E}{R}$ 得感应电流。磁通量 $\\Phi$ 很大但保持不变时，$\\Delta\\Phi=0$，感应电流为零；反之 $\\Phi$ 很小但变化很快时电流可以很大。所以「磁通量越大电流越大」错误，命题为假。易错点：把 $\\Phi$、$\\Delta\\Phi$、$\\dfrac{\\Delta\\Phi}{\\Delta t}$ 三个量混为一谈，这是本章最高频的概念性错误。"
+  },
+  {
+    "id": "q-phy-induction-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-induction"],
+    "stem": "闭合回路中产生感应电流的条件是：穿过回路的 ____ 发生变化；如果回路不闭合，即使该量发生变化，回路中也只会产生 ____ 而不会产生感应电流。",
+    "difficulty": 1,
+    "source": "自编练习",
+    "tags": ["产生条件", "感应电动势"],
+    "blanks": [
+      { "accept": ["磁通量", "磁通量Φ", "磁通"], "hint": "条件是「穿过回路的磁通量发生变化」，注意是变化而不是存在" },
+      { "accept": ["感应电动势", "电动势"], "hint": "回路不闭合时电荷无法定向移动形成电流，但电源（电动势）依然存在" }
+    ],
+    "explanation": "产生感应电流的完整条件是：①回路**闭合**；②穿过回路的**磁通量发生变化**。二者缺一不可。若回路不闭合，磁通量变化时仍有感应电动势（相当于存在一个电源），但电荷不能形成持续定向移动，所以没有感应电流。易错点：把「有磁场」「有磁通量」当作条件（如匀强磁场中静止的线框，磁通量很大却无电流）；或漏掉「闭合」这一条件。"
+  },
+  {
+    "id": "q-phy-induction-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-induction"],
+    "stem": "一闭合矩形线框放在匀强磁场中，线框平面与磁场方向垂直。下列操作中线框内**不会**产生感应电流的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["磁通量变化", "平动"],
+    "options": [
+      { "key": "A", "text": "线框沿磁场方向平动" },
+      { "key": "B", "text": "线框绕垂直于磁场的轴匀速转动" },
+      { "key": "C", "text": "线框从磁场区域平移到磁场外" },
+      { "key": "D", "text": "线框在磁场中被均匀拉大，面积增大" }
+    ],
+    "answer": "A",
+    "explanation": "匀强磁场中，磁通量 $\\Phi=BS\\cos\\theta$（$\\theta$ 为线框平面法线与磁场的夹角）。A：沿磁场方向平动时 $B$、$S$、$\\theta$ 均不变，$\\Phi$ 不变，**无感应电流**，符合题意。B：转动使 $\\theta$ 变化，$\\cos\\theta$ 变化，$\\Phi$ 变化，有电流（这正是交流发电机的原理）。C：线框移出磁场时 $B$ 由有变无，$\\Phi$ 减小到零，有电流。D：$S$ 增大使 $\\Phi$ 增大，有电流。易错点：以为「只要线框在动就有电流」——在匀强磁场中平动（无论沿什么方向）磁通量都不变；也常误选 B，忘记 $\\theta$ 变化会改变磁通量。"
+  },
+  {
+    "id": "q-phy-induction-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-induction"],
+    "stem": "关于电磁感应现象，下列说法正确的有（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["感应条件", "电动势", "多选"],
+    "options": [
+      { "key": "A", "text": "磁通量发生变化是产生感应电动势的原因，回路闭合时才有感应电流" },
+      { "key": "B", "text": "导体在磁场中运动，回路中就一定有感应电流" },
+      { "key": "C", "text": "磁通量变化越快，产生的感应电动势越大" },
+      { "key": "D", "text": "回路不闭合时，磁通量发生变化仍会产生感应电动势" }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 对：磁通量变化产生感应电动势，这是「因」；回路闭合才形成感应电流，这是「果」的条件。B 错：导体运动但未切割磁感线（如沿磁感线方向平动）、或回路不闭合、或回路虽闭合但磁通量不变时，都没有感应电流。C 对：$E=n\\frac{\\Delta\\Phi}{\\Delta t}$，电动势正比于磁通量的变化率。D 对：不闭合时只是没有电流，电动势（相当于开路电压）依然存在。易错点：把「导体运动」当作充分条件（B），或认为「没有电流就没有电动势」（否定 D）。"
+  },
+
+  {
+    "id": "q-phy-faraday-1",
+    "subjectId": "physics",
+    "type": "judge",
+    "kpIds": ["phy-faraday"],
+    "stem": "由 $E=n\\dfrac{\\Delta\\Phi}{\\Delta t}$ 可知，感应电动势的大小与磁通量 $\\Phi$ 的大小成正比。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["法拉第定律", "变化率"],
+    "answer": false,
+    "explanation": "法拉第定律中 $E$ 正比于 $\\dfrac{\\Delta\\Phi}{\\Delta t}$，即磁通量的**变化率**，而不是磁通量 $\\Phi$ 本身。只要 $\\Phi$ 恒定（无论多大），$\\Delta\\Phi=0$，$E=0$；反之 $\\Phi$ 很小但急剧变化时 $E$ 可以很大。所以「与 $\\Phi$ 成正比」错误，命题为假。易错点：把公式中出现的 $\\Delta\\Phi$ 看漏成 $\\Phi$；类似的混淆还有把 $\\Delta\\Phi$（变化量）与 $\\dfrac{\\Delta\\Phi}{\\Delta t}$（变化率）等同。"
+  },
+  {
+    "id": "q-phy-faraday-2",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-faraday"],
+    "stem": "匝数 $n=100$ 的线圈面积 $S=0.020\\ \\text{m}^2$，线圈平面与磁场垂直。若磁感应强度在 $\\Delta t=0.10\\ \\text{s}$ 内由 $0.20\\ \\text{T}$ 均匀增大到 $0.60\\ \\text{T}$，则穿过线圈的磁通量变化量 $\\Delta\\Phi=$ ____ $\\text{Wb}$，线圈中产生的感应电动势 $E=$ ____ $\\text{V}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["磁通量变化量", "感应电动势计算"],
+    "blanks": [
+      { "accept": ["8×10^-3", "8e-3", "8*10^-3", "0.008", "8\\times10^{-3}", "8E-3"], "hint": "$\\Delta\\Phi=\\Delta B\\cdot S=(0.60-0.20)\\times0.020$，注意面积是单匝的" },
+      { "accept": ["8", "8.0"], "hint": "$E=n\\dfrac{\\Delta\\Phi}{\\Delta t}=100\\times\\dfrac{8\\times10^{-3}}{0.10}$，不要漏掉匝数 $n$" }
+    ],
+    "explanation": "$\\Delta B=0.60-0.20=0.40\\ \\text{T}$，$\\Delta\\Phi=\\Delta B\\cdot S=0.40\\times0.020\\ \\text{Wb}=8.0\\times10^{-3}\\ \\text{Wb}$。$E=n\\dfrac{\\Delta\\Phi}{\\Delta t}=100\\times\\dfrac{8.0\\times10^{-3}}{0.10}\\ \\text{V}=8.0\\ \\text{V}$。易错点：①用 $0.60$ 或 $0.20$ 单独代入，忘记取差值；②漏掉匝数 $n=100$，得 $0.08\\ \\text{V}$；③把面积乘以匝数（$nS$），这是常见误解——$\\Phi$ 是穿过**一匝**的磁通量，匝数体现在 $E=n\\frac{\\Delta\\Phi}{\\Delta t}$ 的系数上。"
+  },
+  {
+    "id": "q-phy-faraday-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-faraday"],
+    "stem": "长 $L=0.40\\ \\text{m}$ 的导体棒 $OA$ 绕端点 $O$ 在垂直于匀强磁场的平面内以角速度 $\\omega=10\\ \\text{rad/s}$ 匀速转动，磁感应强度 $B=0.50\\ \\text{T}$，则 $OA$ 两端间的感应电动势大小为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["旋转切割", "E=BL²ω/2"],
+    "options": [
+      { "key": "A", "text": "$0.20\\ \\text{V}$" },
+      { "key": "B", "text": "$0.40\\ \\text{V}$" },
+      { "key": "C", "text": "$0.80\\ \\text{V}$" },
+      { "key": "D", "text": "$1.60\\ \\text{V}$" }
+    ],
+    "answer": "B",
+    "explanation": "棒上各点速度不同（$v=\\omega r$，$r$ 为到 $O$ 的距离），应取平均速度 $\\bar v=\\dfrac{0+\\omega L}{2}=\\dfrac{\\omega L}{2}$，故 $E=BL\\bar v=\\dfrac12BL^2\\omega=\\dfrac12\\times0.50\\times0.40^2\\times10\\ \\text{V}=0.40\\ \\text{V}$。C 项 $0.80\\ \\text{V}$ 是漏掉 $\\dfrac12$（把整根棒当成速度 $\\omega L$ 平动切割）的典型错解；A 项是把 $L$ 误取为 $0.20\\ \\text{m}$；D 项多乘了 2。易错点：旋转切割必须用平均速度，不能直接用端点速度 $\\omega L$。"
+  },
+  {
+    "id": "q-phy-faraday-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-faraday"],
+    "stem": "关于法拉第电磁感应定律，下列说法正确的有（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["平均电动势", "切割公式", "多选"],
+    "options": [
+      { "key": "A", "text": "$E=n\\dfrac{\\Delta\\Phi}{\\Delta t}$ 求出的是 $\\Delta t$ 内的平均感应电动势" },
+      { "key": "B", "text": "磁通量的变化量越大，感应电动势越大" },
+      { "key": "C", "text": "导体棒切割磁感线时 $E=BLv\\sin\\theta$，$\\theta$ 为速度方向与磁场方向的夹角" },
+      { "key": "D", "text": "线圈匝数越多，相同的磁通量变化率产生的感应电动势越大" }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 对：用 $\\Delta\\Phi/\\Delta t$ 算的是时间间隔内的**平均**感应电动势，只有当变化率恒定时它才等于瞬时值。B 错：决定电动势的是变化率 $\\Delta\\Phi/\\Delta t$，变化量大但耗时长时电动势可能很小。C 对：$v\\sin\\theta$ 正是速度中垂直于磁场的分量，$\\theta$ 取 $\\vec v$ 与 $\\vec B$ 的夹角；当棒、速度、磁场三者相互垂直时 $\\theta=90^\\circ$，退化为常用的 $E=BLv$。D 对：$E$ 与匝数 $n$ 成正比。易错点：B 项把「变化量」当成「变化率」；C 项则常把 $\\theta$ 误认为「棒与磁场的夹角」或「棒与速度的夹角」——一定记住 $\\theta$ 是**速度方向与磁场方向**的夹角。"
+  },
+
+  {
+    "id": "q-phy-lenz-1",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-lenz"],
+    "stem": "楞次定律的内容是：感应电流的磁场总要 ____ 引起感应电流的磁通量的变化。这一规律常被概括为口诀「____」。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["楞次定律", "增反减同"],
+    "blanks": [
+      { "accept": ["阻碍", "阻碍（阻碍而不是阻止）", "防碍"], "hint": "用词要准确：是「阻碍」而不是「阻止」" },
+      { "accept": ["增反减同", "增反减同、来拒去留"], "hint": "四个字：磁通量增加时感应磁场与原磁场反向，减少时同向" }
+    ],
+    "explanation": "楞次定律的标准表述是：感应电流的磁场总要**阻碍**引起感应电流的磁通量的变化。口诀「增反减同」：原磁通量增加时，感应电流的磁场与原磁场方向相反；原磁通量减少时，两者方向相同。「来拒去留」则是它在力上的表现——磁体靠近时线圈排斥它，远离时线圈吸引它。易错点：把「阻碍」写成「阻止」——感应电流只能延缓变化、不能阻止变化（否则能量守恒被破坏）；另一处错误是把口诀记成「增同减反」。"
+  },
+  {
+    "id": "q-phy-lenz-2",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-lenz"],
+    "stem": "把条形磁铁的 N 极竖直向下插入水平放置的闭合线圈，从上往下看，线圈中感应电流的方向以及线圈对磁铁的作用力为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["楞次定律应用", "安培定则", "来拒去留"],
+    "options": [
+      { "key": "A", "text": "逆时针方向，排斥磁铁" },
+      { "key": "B", "text": "顺时针方向，排斥磁铁" },
+      { "key": "C", "text": "逆时针方向，吸引磁铁" },
+      { "key": "D", "text": "顺时针方向，吸引磁铁" }
+    ],
+    "answer": "A",
+    "explanation": "分两步：①**判磁场方向**：N 极向下插入，穿过线圈向下的磁通量增加，由楞次定律（增反）知感应电流的磁场方向**向上**；②**判电流方向**：由安培定则，线圈内部磁场向上时，从上往下看电流为**逆时针**。③**判作用力**：由「来拒去留」，磁铁靠近时线圈排斥它（力向上），阻碍其靠近。故 A 正确。易错点：把「从上往下看」与「从下往上看」弄混（从下往上看逆时针会变成顺时针）；或把楞次定律直接用于力而忘记「阻碍相对运动」的方向是「远离」。"
+  },
+  {
+    "id": "q-phy-lenz-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-lenz"],
+    "stem": "一个闭合铜环用细线悬挂，一根条形磁铁沿铜环的轴线从左向右快速靠近铜环，则铜环将（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["来拒去留", "相对运动"],
+    "options": [
+      { "key": "A", "text": "保持静止不动" },
+      { "key": "B", "text": "向右摆动，远离磁铁" },
+      { "key": "C", "text": "向左摆动，靠近磁铁" },
+      { "key": "D", "text": "先向右摆动，后向左摆动" }
+    ],
+    "answer": "B",
+    "explanation": "磁铁靠近使穿过铜环的磁通量增大，环中产生感应电流；由楞次定律的推广形式「来拒去留」，感应电流的磁场要阻碍磁铁与环之间的相对运动，故磁铁靠近时环被**排斥**。磁铁自左方靠近，环受到的排斥力方向向右，因此铜环向右摆动、远离磁铁。A 项忽略了感应电流受到的安培力；C 项把「阻碍靠近」误解为「吸引靠近」；D 项凭空添加了后半段。易错点：只看「磁通量增加」就断定环「向左」运动，而不去分析安培力的实际方向。"
+  },
+  {
+    "id": "q-phy-lenz-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-lenz"],
+    "stem": "关于楞次定律，下列说法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["阻碍而非阻止", "能量守恒", "多选"],
+    "options": [
+      { "key": "A", "text": "感应电流的磁场总是阻碍引起感应电流的磁通量的变化" },
+      { "key": "B", "text": "「阻碍」就是「阻止」，磁通量的变化最终会被完全阻止" },
+      { "key": "C", "text": "磁铁插入线圈时线圈受到排斥，磁铁拔出时线圈受到吸引" },
+      { "key": "D", "text": "判断感应电流方向时，可先用楞次定律定出感应电流的磁场方向，再用安培定则确定电流方向" }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 对：这是楞次定律的原文，核心是「阻碍变化」。B 错：阻碍不等于阻止，若变化被完全阻止，就不会再有感应电流，也就没有安培力阻碍，逻辑上自相矛盾；从能量看，感应电流的焦耳热来自机械能，正因变化未被阻止才能持续输出电能。C 对：即「来拒去留」。D 对：这是标准的判断流程——楞次定律定磁场的「方向」，安培定则把磁场方向翻译成电流方向。易错点：B 项是最具迷惑性的一项，判断依据是能量守恒；此外还有同学认为「阻碍」就是「反向」，忽略了「减同时」的情形。"
+  },
+
+  {
+    "id": "q-phy-induction-model-1",
+    "subjectId": "physics",
+    "type": "fill",
+    "kpIds": ["phy-induction-model"],
+    "stem": "匝数 $n=100$、总电阻 $R=0.50\\ \\Omega$ 的线圈，穿过它的磁通量在 $\\Delta t$ 内变化了 $\\Delta\\Phi=1.0\\times10^{-3}\\ \\text{Wb}$，则通过导线横截面的电荷量 $q=$ ____ $\\text{C}$；$q$ 的大小与所经历的时间 $\\Delta t$ ____（选填「有关」或「无关」）。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["感应电荷量", "q=nΔΦ/R"],
+    "blanks": [
+      { "accept": ["0.2", "0.20"], "hint": "$q=\\bar I\\Delta t=\\dfrac{n\\Delta\\Phi}{R}$，注意 $\\Delta t$ 在推导中被约掉" },
+      { "accept": ["无关"], "hint": "由 $q=\\dfrac{n\\Delta\\Phi}{R}$ 可见 $q$ 只与 $n$、$\\Delta\\Phi$、$R$ 有关" }
+    ],
+    "explanation": "由 $\\bar E=n\\dfrac{\\Delta\\Phi}{\\Delta t}$、$\\bar I=\\dfrac{\\bar E}{R}$ 得 $q=\\bar I\\Delta t=\\dfrac{n\\Delta\\Phi}{R}=\\dfrac{100\\times1.0\\times10^{-3}}{0.50}\\ \\text{C}=0.20\\ \\text{C}$。式中 $\\Delta t$ 被约掉，说明**电荷量只取决于磁通量的变化量、匝数和总电阻，与变化快慢（时间）无关**，这是求电荷量的常用技巧。易错点：①直接用 $q=It$ 却不知道该用哪个 $I$（要用平均电流）；②忘记匝数 $n$ 得 $0.002\\ \\text{C}$；③误答「有关」，把电荷量与电动势、电流混为一谈。"
+  },
+  {
+    "id": "q-phy-induction-model-2",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-induction-model"],
+    "stem": "光滑水平导轨间距 $L=0.40\\ \\text{m}$，处于竖直向下的匀强磁场 $B=0.50\\ \\text{T}$ 中，导轨左端接阻值 $R=0.20\\ \\Omega$ 的电阻。质量 $m=0.10\\ \\text{kg}$ 的导体棒垂直放在导轨上，用水平恒力 $F=0.10\\ \\text{N}$ 由静止拉它向右运动，导轨与棒的电阻均不计。则棒最终匀速运动的速度大小为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["收尾速度", "F=B²L²v/R"],
+    "options": [
+      { "key": "A", "text": "$0.10\\ \\text{m/s}$" },
+      { "key": "B", "text": "$0.50\\ \\text{m/s}$" },
+      { "key": "C", "text": "$1.0\\ \\text{m/s}$" },
+      { "key": "D", "text": "$2.0\\ \\text{m/s}$" }
+    ],
+    "answer": "B",
+    "explanation": "棒加速后感应电动势 $E=BLv$、电流 $I=\\dfrac{BLv}{R}$、安培力 $F_A=BIL=\\dfrac{B^2L^2v}{R}$（方向与运动方向相反）。当 $F_A=F$ 时速度不再增大，达到最大速度（收尾速度）：$v=\\dfrac{FR}{B^2L^2}=\\dfrac{0.10\\times0.20}{0.50^2\\times0.40^2}\\ \\text{m/s}=\\dfrac{0.020}{0.040}\\ \\text{m/s}=0.50\\ \\text{m/s}$。A 项是把分母写成 $BL$（漏一次幂）得到的 $0.10\\ \\text{m/s}$；C、D 项是数量级算错（如把 $B^2L^2$ 算成 $0.01$）。易错点：$B$、$L$ 各出现两次，容易只乘一次；以及忘记「匀速」意味着合力为零。"
+  },
+  {
+    "id": "q-phy-induction-model-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-induction-model"],
+    "stem": "长 $L=0.50\\ \\text{m}$ 的导体棒在 $B=0.40\\ \\text{T}$ 的匀强磁场中以 $v=2.0\\ \\text{m/s}$ 的速度垂直切割磁感线做匀速运动，回路总电阻 $R=0.20\\ \\Omega$，其余电阻不计。则维持棒匀速运动所需外力的功率为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电磁感应能量", "外力功率"],
+    "options": [
+      { "key": "A", "text": "$0.16\\ \\text{W}$" },
+      { "key": "B", "text": "$0.40\\ \\text{W}$" },
+      { "key": "C", "text": "$0.80\\ \\text{W}$" },
+      { "key": "D", "text": "$1.60\\ \\text{W}$" }
+    ],
+    "answer": "C",
+    "explanation": "$E=BLv=0.40\\times0.50\\times2.0\\ \\text{V}=0.40\\ \\text{V}$，$I=\\dfrac{E}{R}=\\dfrac{0.40}{0.20}\\ \\text{A}=2.0\\ \\text{A}$，电功率 $P=EI=0.40\\times2.0\\ \\text{W}=0.80\\ \\text{W}$。匀速运动时外力做功全部转化为电能，故外力功率也为 $0.80\\ \\text{W}$（可用 $F_A=BIL=0.40\\ \\text{N}$、$P=F_Av=0.80\\ \\text{W}$ 验算）。A 项 $0.16\\ \\text{W}$ 是误算 $E^2$（漏除以 $R$）；B 项 $0.40\\ \\text{W}$ 是误用 $P=Ev$ 或 $P=E$；D 项多乘 2。易错点：把「外力功率」与「安培力功率」割裂，忘记匀速时二者大小相等（一正一负）。"
+  },
+  {
+    "id": "q-phy-induction-model-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-induction-model"],
+    "stem": "关于电磁感应中的电荷量与能量，下列说法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["电荷量", "焦耳热", "能量转化"],
+    "options": [
+      { "key": "A", "text": "感应电荷量 $q=\\dfrac{n\\Delta\\Phi}{R}$，与所用时间无关" },
+      { "key": "B", "text": "电磁感应中产生的电能由其他形式的能转化而来" },
+      { "key": "C", "text": "回路中只有电阻发热时，克服安培力做的功等于回路产生的焦耳热" },
+      { "key": "D", "text": "感应电荷量与线圈的匝数无关" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：由 $q=\\bar I\\Delta t=\\frac{n\\Delta\\Phi}{R}$ 可见时间被约去。B 对：发电机中机械能转化为电能，这是能量守恒的体现，也解释了为什么必须持续做功才能维持感应电流。C 对：由动能定理与能量守恒，克服安培力做的功等于回路中产生的电能，纯电阻时全部变成焦耳热。D 错：$q$ 与 $n$ 成正比（$n\\Delta\\Phi$），匝数越多电荷量越大。易错点：把 $q$ 与 $E$（电动势）混淆，认为「匝数越多电动势越大但电荷量不变」；实际上 $E$ 与 $n$ 成正比，$q=n\\Delta\\Phi/R$ 也与 $n$ 成正比。"
+  },
+  {
+    "id": "q-phy-induction-model-5",
+    "subjectId": "physics",
+    "type": "short",
+    "kpIds": ["phy-induction-model", "phy-faraday", "phy-lenz"],
+    "stem": "水平平行导轨间距 $L=0.50\\ \\text{m}$，处于竖直向下的匀强磁场 $B=0.50\\ \\text{T}$ 中，导轨左端接阻值 $R=0.50\\ \\Omega$ 的电阻。质量 $m=0.20\\ \\text{kg}$ 的导体棒垂直放在导轨上，棒的电阻及摩擦均不计。某时刻给棒一个向右的初速度 $v_0=4.0\\ \\text{m/s}$。\n\n（1）求棒刚开始运动时回路中的感应电动势 $E$ 和感应电流 $I$；\n（2）求此时棒所受安培力 $F$ 的大小和方向，以及棒的加速度 $a$；\n（3）求从开始到棒静止的过程中电阻 $R$ 上产生的焦耳热 $Q$，并说明棒最终为什么会静止。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["切割电动势", "安培力", "能量守恒"],
+    "rubric": [
+      { "text": "由 $E=BLv_0$ 得 $E=1.0\\ \\text{V}$，再由 $I=\\dfrac{E}{R}$ 得 $I=2.0\\ \\text{A}$", "score": 3 },
+      { "text": "由 $F=BIL$ 得 $F=0.50\\ \\text{N}$，并用楞次定律说明安培力方向与速度方向相反（向左）", "score": 2 },
+      { "text": "由牛顿第二定律得 $a=\\dfrac{F}{m}=2.5\\ \\text{m/s}^2$，方向向左（减速）", "score": 2 },
+      { "text": "由能量守恒得 $Q=\\dfrac12mv_0^2=1.6\\ \\text{J}$，并说明安培力随速度减小而减小、速度为零时安培力为零，故棒最终静止", "score": 3 }
+    ],
+    "reference": "（1）$E=BLv_0=0.50\\times0.50\\times4.0\\ \\text{V}=1.0\\ \\text{V}$，$I=\\dfrac{E}{R}=\\dfrac{1.0}{0.50}\\ \\text{A}=2.0\\ \\text{A}$。\n（2）$F=BIL=0.50\\times2.0\\times0.50\\ \\text{N}=0.50\\ \\text{N}$。由楞次定律，感应电流的磁场阻碍磁通量增加，棒所受安培力阻碍其向右运动，故方向**水平向左**。$a=\\dfrac{F}{m}=\\dfrac{0.50}{0.20}\\ \\text{m/s}^2=2.5\\ \\text{m/s}^2$，方向向左，棒做减速运动。\n（3）棒的动能最终全部转化为电能并变成焦耳热（导轨、棒电阻不计，摩擦不计）：$Q=\\dfrac12mv_0^2=\\dfrac12\\times0.20\\times4.0^2\\ \\text{J}=1.6\\ \\text{J}$。因 $F=\\dfrac{B^2L^2v}{R}$ 随速度减小而减小，棒做加速度逐渐减小的减速运动；$v=0$ 时 $F=0$，此后棒保持静止。",
+    "maxScore": 10,
+    "explanation": "本题是「单棒切割」模型的标准三问：电动势—安培力—能量。第（1）问是 $E=BLv$ 与欧姆定律的直接应用；第（2）问的难点在方向判断，可用两步：先用楞次定律判断「阻碍相对运动」得到安培力与速度反向，也可用右手定则判电流方向再用左手定则判安培力；注意 $a=\\frac{F}{m}$ 用的是**安培力**（合力），方向与速度相反即减速。第（3）问抓住能量守恒：初动能全部变成焦耳热，$Q=\\frac12mv_0^2$，切勿用 $Q=I^2Rt$（电流是变化的，且 $t$ 未知）。常见失分：把 $F=BIL$ 中的 $I$ 用成初值之后又当成恒定，误算 $Q=Fs$；或用动量定理求 $Q$ 时漏掉「只有安培力做功」这一前提；以及只答「速度减为零」而不说明「安培力随速度减小而减小」这一动力学原因。"
+  },
+
+  {
+    "id": "q-phy-ac-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-ac"],
+    "stem": "某正弦式交变电流的瞬时值表达式为 $e=311\\sin(100\\pi t)\\ \\text{V}$，则它的有效值为（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["有效值", "峰值"],
+    "options": [
+      { "key": "A", "text": "$311\\ \\text{V}$" },
+      { "key": "B", "text": "$220\\ \\text{V}$" },
+      { "key": "C", "text": "$155\\ \\text{V}$" },
+      { "key": "D", "text": "$110\\ \\text{V}$" }
+    ],
+    "answer": "B",
+    "explanation": "由表达式读出峰值 $E_m=311\\ \\text{V}$，正弦式交变电流的有效值 $E=\\dfrac{E_m}{\\sqrt2}=\\dfrac{311}{1.414}\\ \\text{V}\\approx220\\ \\text{V}$，这就是常说的「220 V 市电」——它指的是有效值。A 项是峰值；C 项 $\\dfrac{E_m}{2}$ 是误把「半」当成 $\\dfrac{1}{\\sqrt2}$；D 项是 $\\dfrac{E_m}{2\\sqrt2}$，无依据。易错点：把峰值当有效值（A，最多人选错）；以及把「有效值 = 峰值/√2」误用到**非正弦**交流电上。"
+  },
+  {
+    "id": "q-phy-ac-2",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-ac"],
+    "stem": "某正弦式交变电流的瞬时值表达式为 $i=2\\sin(100\\pi t)\\ \\text{A}$，则该交变电流的频率和周期分别为（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["角速度", "频率", "周期"],
+    "options": [
+      { "key": "A", "text": "$50\\ \\text{Hz}$，$0.02\\ \\text{s}$" },
+      { "key": "B", "text": "$100\\ \\text{Hz}$，$0.01\\ \\text{s}$" },
+      { "key": "C", "text": "$50\\ \\text{Hz}$，$0.01\\ \\text{s}$" },
+      { "key": "D", "text": "$100\\ \\text{Hz}$，$0.02\\ \\text{s}$" }
+    ],
+    "answer": "A",
+    "explanation": "由 $i=I_m\\sin\\omega t$ 得 $\\omega=100\\pi\\ \\text{rad/s}$。由 $\\omega=2\\pi f$ 得 $f=\\dfrac{\\omega}{2\\pi}=\\dfrac{100\\pi}{2\\pi}\\ \\text{Hz}=50\\ \\text{Hz}$，再由 $T=\\dfrac1f=0.02\\ \\text{s}$。B 项把 $100\\pi$ 中的 $100$ 直接当频率（漏除 $2\\pi$）；C、D 项是 $f$ 与 $T$ 的对应关系配错（$50\\ \\text{Hz}$ 对应 $0.02\\ \\text{s}$，不是 $0.01\\ \\text{s}$）。易错点：$\\omega=100\\pi$ 中 $\\pi$ 已经在数值里，$f=\\omega/2\\pi=50$ 而不是 $100$；另一常见错误是把周期与频率的乘积记成 2。"
+  },
+  {
+    "id": "q-phy-ac-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-ac"],
+    "stem": "某交变电流的波形为方波：前半个周期电流恒为 $4.0\\ \\text{A}$，后半个周期电流为零。则该交变电流的有效值为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["非正弦有效值", "热效应", "方波"],
+    "options": [
+      { "key": "A", "text": "$1.4\\ \\text{A}$" },
+      { "key": "B", "text": "$2.0\\ \\text{A}$" },
+      { "key": "C", "text": "$2.8\\ \\text{A}$" },
+      { "key": "D", "text": "$4.0\\ \\text{A}$" }
+    ],
+    "answer": "C",
+    "explanation": "有效值按**热效应**定义：设周期为 $T$、电阻为 $R$，则一个周期内产生的热量 $Q=I^2RT$ 应等于分段热量之和。前 $\\dfrac T2$ 内 $Q_1=(4.0)^2R\\cdot\\dfrac T2=8RT$，后 $\\dfrac T2$ 内 $Q_2=0$，故 $I^2RT=8RT$，$I=\\sqrt8\\ \\text{A}\\approx2.8\\ \\text{A}$（即 $\\dfrac{4.0}{\\sqrt2}$）。A 项 $1.4\\ \\text{A}$ 是再把 $2.8$ 除以 $\\sqrt2$（重复开方）；B 项 $2.0\\ \\text{A}$ 是按算术平均 $\\dfrac{4.0+0}{2}$ 算的——平均值不等于有效值；D 项是峰值。易错点：直接套 $I=\\dfrac{I_m}{\\sqrt2}$（对非正弦不成立），或用平均值代替有效值。"
+  },
+  {
+    "id": "q-phy-ac-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-ac"],
+    "stem": "关于交变电流，下列说法正确的有（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["有效值定义", "正弦交流", "多选"],
+    "options": [
+      { "key": "A", "text": "正弦式交变电流的有效值等于峰值的 $\\dfrac{1}{\\sqrt2}$" },
+      { "key": "B", "text": "任何交变电流的有效值都等于峰值除以 $\\sqrt2$" },
+      { "key": "C", "text": "交变电流的有效值是根据电流的热效应定义的" },
+      { "key": "D", "text": "角速度 $\\omega$ 与频率 $f$ 的关系为 $\\omega=2\\pi f$" }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 对：只有正弦（余弦）式交变电流才有 $I=\\dfrac{I_m}{\\sqrt2}$ 这一简洁关系。B 错：有效值必须按定义逐一计算，波形不同结果不同——三角波为 $\\dfrac{I_m}{\\sqrt3}$，半波整流的正弦电流为 $\\dfrac{I_m}{2}$，方波又要另算（本题上一道题中「半周期为 $I_m$、半周期为零」的方波有效值恰为 $\\dfrac{I_m}{\\sqrt2}$，这只是该波形下的巧合结果，不能推广）。C 对：这正是有效值的定义——让交流与直流分别通过同一电阻，若在相同时间内产生相同热量，则该直流的数值就是交流的有效值。D 对：$\\omega=2\\pi f=\\dfrac{2\\pi}{T}$。易错点：B 项是最典型的过度推广，「除 $\\sqrt2$」只对正弦式成立。"
+  },
+
+  {
+    "id": "q-phy-transformer-1",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-transformer"],
+    "stem": "理想变压器原、副线圈的匝数比为 $n_1:n_2=10:1$，原线圈接 $220\\ \\text{V}$ 的交流电，则副线圈两端的电压为（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["电压比", "匝数比"],
+    "options": [
+      { "key": "A", "text": "$2.2\\ \\text{V}$" },
+      { "key": "B", "text": "$22\\ \\text{V}$" },
+      { "key": "C", "text": "$220\\ \\text{V}$" },
+      { "key": "D", "text": "$2200\\ \\text{V}$" }
+    ],
+    "answer": "B",
+    "explanation": "理想变压器 $\\dfrac{U_1}{U_2}=\\dfrac{n_1}{n_2}$，故 $U_2=U_1\\cdot\\dfrac{n_2}{n_1}=220\\times\\dfrac{1}{10}\\ \\text{V}=22\\ \\text{V}$。这是降压变压器。D 项 $2200\\ \\text{V}$ 是把匝数比倒过来（$\\times10$），相当于把降压当成升压；A 项多除了一个 10；C 项认为电压不变。易错点：搞反 $\\dfrac{n_1}{n_2}$ 与 $\\dfrac{U_1}{U_2}$ 的对应关系——记住「匝数多的那一侧电压高」。"
+  },
+  {
+    "id": "q-phy-transformer-2",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-transformer"],
+    "stem": "理想变压器原线圈 $n_1=1100$ 匝，副线圈 $n_2=220$ 匝，原线圈接 $220\\ \\text{V}$ 的交流电，副线圈接 $R=11\\ \\Omega$ 的电阻。则原线圈中的电流为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["电流比", "功率相等", "负载决定电流"],
+    "options": [
+      { "key": "A", "text": "$0.20\\ \\text{A}$" },
+      { "key": "B", "text": "$0.80\\ \\text{A}$" },
+      { "key": "C", "text": "$4.0\\ \\text{A}$" },
+      { "key": "D", "text": "$16\\ \\text{A}$" }
+    ],
+    "answer": "B",
+    "explanation": "先求副线圈电压：$U_2=U_1\\cdot\\dfrac{n_2}{n_1}=220\\times\\dfrac{220}{1100}\\ \\text{V}=44\\ \\text{V}$。副线圈电流由负载决定：$I_2=\\dfrac{U_2}{R}=\\dfrac{44}{11}\\ \\text{A}=4.0\\ \\text{A}$。再由 $\\dfrac{I_1}{I_2}=\\dfrac{n_2}{n_1}$ 得 $I_1=4.0\\times\\dfrac{220}{1100}\\ \\text{A}=0.80\\ \\text{A}$（也可用 $P_1=P_2$：$U_2I_2=176\\ \\text{W}$，$I_1=\\dfrac{176}{220}\\ \\text{A}=0.80\\ \\text{A}$ 验算）。A 项是把匝数比用错方向（$4.0\\times\\frac{1}{20}$）；C 项直接拿 $I_2$；D 项是 $4.0\\times4$ 之类的错误。易错点：先算 $I_1$ 再推 $I_2$——副线圈电流由负载和 $U_2$ 决定，不能由原线圈「凭空」决定。"
+  },
+  {
+    "id": "q-phy-transformer-3",
+    "subjectId": "physics",
+    "type": "single",
+    "kpIds": ["phy-transformer"],
+    "stem": "在远距离输电中，若输送的电功率一定，把输电电压提高到原来的 10 倍，则输电线路上的功率损耗变为原来的（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["远距离输电", "线路损耗"],
+    "options": [
+      { "key": "A", "text": "$\\dfrac{1}{10}$" },
+      { "key": "B", "text": "$\\dfrac{1}{100}$" },
+      { "key": "C", "text": "$\\dfrac{1}{1000}$" },
+      { "key": "D", "text": "不变" }
+    ],
+    "answer": "B",
+    "explanation": "输送功率 $P=UI$ 一定，电压升为 10 倍则线路电流 $I=\\dfrac{P}{U}$ 降为 $\\dfrac{1}{10}$。线路损耗 $P_{\\text{损}}=I^2R_{\\text{线}}$，故变为原来的 $\\left(\\dfrac{1}{10}\\right)^2=\\dfrac{1}{100}$。这正是高压输电的意义：提高电压可大幅降低线路损耗。A 项只考虑了电流降为 $1/10$ 而忘记平方；C 项把平方算成三次方；D 项以为损耗与电压无关。易错点：用 $P_{\\text{损}}=\\dfrac{U^2}{R}$ 分析——这里的 $U$ 是**线路上的电压降** $\\Delta U=IR$，不是输电电压，混淆二者必错。"
+  },
+  {
+    "id": "q-phy-transformer-4",
+    "subjectId": "physics",
+    "type": "multiple",
+    "kpIds": ["phy-transformer"],
+    "stem": "关于理想变压器，下列说法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["变压器原理", "功率与频率", "多选"],
+    "options": [
+      { "key": "A", "text": "变压器只能改变交流电压，不能改变交流电的频率" },
+      { "key": "B", "text": "理想变压器的输入功率等于输出功率" },
+      { "key": "C", "text": "升压变压器的原线圈匝数多于副线圈匝数" },
+      { "key": "D", "text": "副线圈中的电流由负载和副线圈电压共同决定" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：变压器依靠电磁感应工作，原线圈必须通交流电才能产生变化的磁通量；它改变电压、电流，但不改变频率（频率由电源决定）。B 对：理想变压器无能量损失（无铜损铁损），$P_1=P_2$。C 错：升压要求 $U_2>U_1$，由 $\\dfrac{U_1}{U_2}=\\dfrac{n_1}{n_2}$ 知应 $n_2>n_1$，即副线圈匝数更多。D 对：$U_2$ 由 $U_1$ 和匝数比确定，$I_2=\\dfrac{U_2}{R}$ 由负载决定，再由 $I_1=\\dfrac{n_2}{n_1}I_2$ 反推原线圈电流。易错点：C 项把升压/降压的匝数关系记反；以及误认为变压器能改变功率或频率——这是「变压器」一章最常见的两个概念错误。"
+  }
+]

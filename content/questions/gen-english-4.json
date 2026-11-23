@@ -1,0 +1,309 @@
+[
+  {
+    "id": "q-eng-cloze-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-cloze"],
+    "stem": "判断下列说法是否正确：完形填空的四个选项通常词性相同，单单从语法上看大多都能填进句子，因此决定答案的主要是上下文的语义与逻辑，而不是孤立的语法判断。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["完形填空", "解题步骤", "语境"],
+    "answer": true,
+    "explanation": "说法正确。高考完形填空的四个选项一般词性一致（同为动词、名词、形容词或副词），句子在语法上往往都成立，命题者正是用这种方式把「语法能不能填」这一层屏蔽掉，逼考生依靠语义和逻辑判断。例如 ____ the problem，四个选项都可以是动词，但只有 address 能与 problem 搭配出“处理”的意思。因此正确流程是：先通读全文抓住大意和情感基调，再逐空结合前后文作答，最后把答案代回复读。只凭单句语法或语感秒选，是完形失分的最主要原因。"
+  },
+  {
+    "id": "q-eng-cloze-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-cloze"],
+    "stem": "阅读下面短文，在横线处填入一个恰当的词（每空一词）：\n\nLast winter a heavy storm cut off the power in the village for three days. Neighbours who had barely spoken before knocked on each other's doors, sharing candles, soup and blankets. For three nights the whole street ate together by candlelight. Years later, the children who were small then still speak of those nights as the ____ ones of their childhood.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["通读抓大意", "语境定词", "完形填空"],
+    "blanks": [
+      {
+        "accept": ["warmest"],
+        "hint": "先从全文定基调：停电、互助、共进晚餐，整体是温情的；空格前有 the、后有 ones，需要形容词最高级"
+      }
+    ],
+    "explanation": "答案 warmest。这道题演示完形的正确顺序：先通读，把握全文基调——暴风雪、停电、邻里互助、烛光晚餐，整体是温暖的回忆；再回到空格，the ____ ones of their childhood 要求一个形容词，且 the 与 ones 之间通常用最高级，candlelight、sharing、ate together 又都指向“温暖”，所以填 warmest。若不通读，只盯住那一句，很容易填成 best、happiest 之类的泛词；它们虽然说得通，却丢掉了前文反复铺垫的 candlelight 这一具体意象。判断时要靠前文的同义复现（candles、candlelight、warmth）而不是凭空想象。"
+  },
+  {
+    "id": "q-eng-cloze-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-cloze"],
+    "stem": "完形填空节选：She had failed the test twice, but she did not ____. Instead, she asked the teacher for extra practice. 四个选项都能与 did not 搭配，最符合上下文的一项是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["短语辨析", "上下文", "完形填空"],
+    "options": [
+      { "key": "A", "text": "give up" },
+      { "key": "B", "text": "give away" },
+      { "key": "C", "text": "give out" },
+      { "key": "D", "text": "give off" }
+    ],
+    "answer": "A",
+    "explanation": "答案是 give up（放弃）。判断的关键是后一句 Instead, she asked the teacher for extra practice——Instead 表示与前文相反或替代，说明她失败两次后的反应不是放弃，而是主动请教，于是前一句应表达“没有放弃”。give away 是“赠送、泄露”，give out 是“分发、耗尽”，give off 是“散发（气味、光）”，三者都无法与 failed twice 形成合理的语义对照。做题时先抓 Instead 这类逻辑信号词，再判断短语的及物性和搭配对象，不要只凭“看着顺眼”选。"
+  },
+  {
+    "id": "q-eng-cloze-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-cloze"],
+    "stem": "关于完形填空的解题方法，下列说法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["解题策略", "复现", "检查"],
+    "options": [
+      { "key": "A", "text": "首句通常不设空，往往交代人物、时间、场景或主题，应认真读，作为理解全文的起点" },
+      { "key": "B", "text": "若某个选项与上下文的某个词构成同义或近义复现，往往是答案的重要线索" },
+      { "key": "C", "text": "遇到没有把握的空，应当立刻凭第一印象选定，之后不要回看，以免把对的改成错的" },
+      { "key": "D", "text": "全部填完后应把所选答案代回原文通读一遍，检查语义、时态和逻辑是否连贯" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：完形首句不设空是常见命题方式，它承担“定调”功能，读懂首句就能预判全文走向。B 正确：同义复现是完形最核心的线索之一，如后文出现 repaired、reused，前面就很可能是 reduce waste 一类的表达。D 正确：代回复读可以发现时态跳跃、人称不一致、逻辑断裂等问题。C 错误：完形的答案由上下文决定，第一印象恰恰是最容易出错的地方，遇到不确定的空应标记待定，用后文线索反推，最后统一复查。多选题容易漏选，可用“先排错、再核对每项能否在文中找到依据”的方式。"
+  },
+  {
+    "id": "q-eng-cloze-context-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-cloze-context"],
+    "stem": "判断下列说法是否正确：完形填空中，只要把空格所在的句子读通，确认语法正确、单句语义通顺，这个选项就一定是正确答案。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["上下文逻辑", "句间关系", "易错点"],
+    "answer": false,
+    "explanation": "错误。完形填空考的是“语篇”，不是“单句”。四个选项在单句层面往往都通顺，真正决定答案的是句与句、段与段之间的关系：因果、转折、并列、递进，以及同义复现和反义对照。例如 The team lost again. ____, no one gave up. 单句里填 However 和 Therefore 都语法正确、句意也能勉强说通，但只有 However 才与前句形成“失利—不放弃”的反差。因此判断时必须把空格放回段落，先问“这一句与上一句是什么关系”，再定词。"
+  },
+  {
+    "id": "q-eng-cloze-context-2",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-cloze-context"],
+    "stem": "The instructions looked simple. ____, almost everyone in the class got the first question wrong. 填入最恰当的一项是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["转折关系", "逻辑连接", "上下文逻辑"],
+    "options": [
+      { "key": "A", "text": "Therefore" },
+      { "key": "B", "text": "However" },
+      { "key": "C", "text": "Besides" },
+      { "key": "D", "text": "Similarly" }
+    ],
+    "answer": "B",
+    "explanation": "答案是 However。前句说“说明看起来很简单”，后句说“几乎每个人第一题都做错了”，两者是明显的反差，必须用表转折的连接副词。Therefore 表结果，逻辑上恰好相反；Besides 表递进补充；Similarly 表类比，都读不通。判定步骤：先不看选项，自己概括前后两句的关系（简单 ↔ 出错），再挑表达该关系的连接词。这类题还常与标点配合考查——However 后接逗号独立使用，不能像 but 那样直接连接两个分句。"
+  },
+  {
+    "id": "q-eng-cloze-context-3",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-cloze-context"],
+    "stem": "根据上下文补全句子中的空格（填一个三字母动词）：\n\nSales had fallen for three years. Then, in 2023, they began to ____ again, and by 2025 they had climbed back to their old level.",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["同义复现", "语义呼应", "上下文逻辑"],
+    "blanks": [
+      {
+        "accept": ["rise"],
+        "hint": "与后文 climbed back（回升）构成同义复现；began to 后接动词原形，三字母"
+      }
+    ],
+    "explanation": "答案 rise。空格处需要与后文 climbed back 呼应的动词：前文 fell for three years 是下降，Then、again 提示转向，climbed back 明确是回升，因此填表示“上升”的三字母动词 rise。这是典型的同义复现线索——答案不必与前文用同一个词，而是用另一个词表达同一方向。注意 rise 是不及物动词，过去式 rose、过去分词 risen，不要误填及物的 raise（需要宾语）；同时 began to 后接原形，不能写成 rose。"
+  },
+  {
+    "id": "q-eng-cloze-context-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-cloze-context"],
+    "stem": "完形填空中，下列哪些属于可以利用的上下文线索（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["线索类型", "复现", "解释说明"],
+    "options": [
+      { "key": "A", "text": "同义复现：后文用另一个词表达与空格相同的意思，如 repaired 对应 fix" },
+      { "key": "B", "text": "反义对照：but、instead、rather than 等词提示前后意思相反" },
+      { "key": "C", "text": "解释说明：冒号、破折号后面的内容往往就是对前面空格的解释" },
+      { "key": "D", "text": "汉语直译：把空格处的中文意思逐字翻成英文就是答案" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A、B、C 都是完形中真实可用的线索：同义复现靠词汇重复与替换，反义对照靠转折词和 instead、rather than 这类结构，解释说明则常由冒号、破折号、that is、in other words 引出，后文往往直接给出答案的同义解释。D 错误：逐字直译会产出中文式英语，如把“对……负责”译成 be responsible of、把“参加”译成 join in the activity 之外的生造搭配；正确做法是先判断词性与句子成分，再看英语的固定搭配和语篇逻辑。多选题建议逐项回到原文找支撑，找不到文本依据的选项不要选。"
+  },
+  {
+    "id": "q-eng-cloze-vocab-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-cloze-vocab"],
+    "stem": "The new policy will ____ the way small shops do business. 填入最恰当的一项是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["近义辨析", "affect", "词性"],
+    "options": [
+      { "key": "A", "text": "effect" },
+      { "key": "B", "text": "affect" },
+      { "key": "C", "text": "effort" },
+      { "key": "D", "text": "afford" }
+    ],
+    "answer": "B",
+    "explanation": "答案是 affect（动词，影响）。空格前有 will，后接名词短语 the way...，需要及物动词，affect 正好合适。effect 主要作名词表示“影响、效果”（have an effect on），作动词时意为“实现、使发生”，宾语通常是 change、reform 这类结果，不说 effect the way shops do business。effort 是名词“努力”，afford 是“负担得起”，词性与句意都不符。辨析 affect 与 effect 的通用办法：先看空格需要动词还是名词，再看有没有 have an effect on、take effect 这类固定结构。"
+  },
+  {
+    "id": "q-eng-cloze-vocab-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-cloze-vocab"],
+    "stem": "用括号内单词的正确形式或恰当的介词填空：The school provides students ____ free lunch every day. ／ The new library will be of great ____ to the whole town. （beneficial）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["固定搭配", "词性转换", "provide"],
+    "blanks": [
+      {
+        "accept": ["with"],
+        "hint": "provide sb with sth 是固定搭配，表示“向某人提供某物”"
+      },
+      {
+        "accept": ["benefit"],
+        "hint": "of great + 名词，beneficial 的名词形式是 benefit"
+      }
+    ],
+    "explanation": "第一空 with：provide 的常用结构是 provide sb with sth 或 provide sth for sb，本句是 students 在前，故用 with；注意不要按中文“给某人提供”写成 provide sb sth（那是 give 的用法）。第二空 benefit：of great 后面必须接名词，beneficial 的名词形式是 benefit，be of great benefit to 意为“对……大有好处”。这类题的关键是先确定空格需要的词性和句子成分，再调取固定搭配，最后检查拼写；benefit 不要写成 *benifit，也不要误填 beneficial 造成词性冲突。"
+  },
+  {
+    "id": "q-eng-cloze-vocab-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-cloze-vocab"],
+    "stem": "Prices have ____ sharply since the fuel tax was introduced. 填入最恰当的一项是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["近义动词", "及物性", "rise"],
+    "options": [
+      { "key": "A", "text": "risen" },
+      { "key": "B", "text": "raised" },
+      { "key": "C", "text": "arisen" },
+      { "key": "D", "text": "aroused" }
+    ],
+    "answer": "A",
+    "explanation": "答案是 risen。主语 prices 是“上涨”的承受者而非施动者，需要不及物动词 rise，have 后接过去分词 risen（rise-rose-risen）。raise 是及物动词“提高、举起”，必须带宾语，如 raise prices（提价），放在这里语法不通；arise 是不及物动词，但意为“（问题、情况）出现、产生”，如 problems arise，不用于价格；arouse 意为“唤起（情感、兴趣）”，同样及物。四个词词形接近，命题人正是用及物性与词义设置干扰，判断时先看空格后有没有宾语、主语是施动还是受动。"
+  },
+  {
+    "id": "q-eng-cloze-vocab-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-cloze-vocab"],
+    "stem": "关于完形填空中常见的近义词辨析，下列说法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["形近词", "词性转换", "辨析方法"],
+    "options": [
+      { "key": "A", "text": "respectful 意为“恭敬的”，respectable 意为“体面的、值得尊敬的”，二者的对象相反" },
+      { "key": "B", "text": "两个词中文释义接近时，只记中文意思就够了，不必管搭配和及物性" },
+      { "key": "C", "text": "adapt 表示“适应、改编”，adopt 表示“采纳、收养”，拼写只差一个字母，容易混" },
+      { "key": "D", "text": "economic 意为“经济的”，economical 意为“节约的、划算的”，不可互换" }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 正确：respectful 是“对人恭敬的”（be respectful to sb），respectable 是“值得尊敬的、体面的”，一个描述态度，一个描述评价，方向不同。C 正确：adapt /əˈdæpt/ 与 adopt /əˈdɒpt/ 拼写和读音都接近，但意思分别是“适应、改编”和“采纳、收养”，是高频干扰项。D 正确：economic 修饰与经济有关的事物（economic growth），economical 表示省钱、划算（an economical car）。B 错误：完形恰恰考搭配、及物性和感情色彩，如 provide sb with sth、affect 与 effect 的词性差异，只记中文释义无法区分。多选题失分多在漏选，可逐项找反例来验证。"
+  },
+  {
+    "id": "q-eng-cloze-collocation-1",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-cloze-collocation"],
+    "stem": "判断下列说法是否正确：英语的介词搭配可以按中文习惯直译，所以“对……负责”写成 be responsible of 也是可以接受的。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["介词搭配", "固定搭配", "易错点"],
+    "answer": false,
+    "explanation": "错误。英语介词属于固定搭配，不能按中文习惯类推。“对……负责”是 be responsible for sth / be responsible to sb，用 of 属于典型的中文式搭配错误。类似的还有 be interested in（不是 on）、depend on（不是 to）、be afraid of、insist on、be good at 等。“负责”在中文里是“对……”，学生便顺手写成 of，这正是命题人设置干扰的方式。复习时应以“动词/形容词 + 介词”为单位成组记忆，遇到不确定的搭配先回忆同根词的典型例句，而不是逐字翻译。"
+  },
+  {
+    "id": "q-eng-cloze-collocation-2",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-cloze-collocation"],
+    "stem": "The manager insisted ____ checking every figure before the report was sent out. 填入最恰当的一项是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["insist on", "动名词", "介词搭配"],
+    "options": [
+      { "key": "A", "text": "on" },
+      { "key": "B", "text": "in" },
+      { "key": "C", "text": "to" },
+      { "key": "D", "text": "for" }
+    ],
+    "answer": "A",
+    "explanation": "答案是 on。insist on doing sth 是固定搭配，意为“坚持做某事”，介词后接动名词 checking。insist 还有 insist that 从句的用法（insist that sb (should) do），但不能说 insist to do，也不能用 in、for。判断时先确认空格后是动名词 checking，说明需要介词；再回忆 insist 的固定结构。同类的“动词 + on + doing”还有 depend on、focus on、congratulate sb on、apologize to sb for sth 等，建议按介词归类成组记忆，避免中文式类推。"
+  },
+  {
+    "id": "q-eng-cloze-collocation-3",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-cloze-collocation"],
+    "stem": "____ from the top of the hill, the small town looks like a green carpet. 填入最恰当的一项是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["非谓语", "分词作状语", "主被动"],
+    "options": [
+      { "key": "A", "text": "Seen" },
+      { "key": "B", "text": "Seeing" },
+      { "key": "C", "text": "To see" },
+      { "key": "D", "text": "Having seen" }
+    ],
+    "answer": "A",
+    "explanation": "答案是 Seen。空格所在部分是分词短语作状语，其逻辑主语必须与主句主语一致。主句主语是 the small town，小镇是“被看”的对象，与 see 构成被动关系，所以用过去分词 Seen。若用 Seeing 或 Having seen，逻辑主语就变成了小镇“主动去看”，句子不通；To see 表目的，同样要求主句主语是看的施动者，也不符合。判断口诀：先找主句主语，再判断该主语与分词是主动还是被动，主动用 -ing、被动用 -ed，最后核对时态先后。"
+  },
+  {
+    "id": "q-eng-cloze-collocation-4",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-cloze-collocation"],
+    "stem": "下列有关英语固定搭配与介词用法的说法，正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["固定搭配", "动名词", "介词"],
+    "options": [
+      { "key": "A", "text": "be responsible for sth 表示“对某事负责”，介词用 for" },
+      { "key": "B", "text": "insist on doing sth 中 on 后面接动名词，不能接动词原形" },
+      { "key": "C", "text": "look forward to hear from you 是正确表达，to 后接动词原形" },
+      { "key": "D", "text": "介词后面接动词时，一般应使用动名词形式" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 正确：responsible 后固定用 for 接负责的对象，responsible to sb 则表示“对某人负责（汇报）”。B 正确：insist on 的 on 是介词，后接 doing，如 insist on checking。D 正确：介词后接动词一律用动名词，如 be good at swimming、instead of complaining。C 错误：look forward to 中的 to 是介词而非不定式符号，正确表达是 look forward to hearing from you；同类还有 be used to doing、devote oneself to doing、pay attention to doing，是高频陷阱。判断 to 是介词还是不定式符号，可看 to 后能否换成名词或代词。"
+  },
+  {
+    "id": "q-eng-cloze-context-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-cloze-context", "eng-cloze"],
+    "stem": "阅读下面短文，完成（1）（2）两小题。\n\nFor years the old bookshop on the corner had been losing money. The owner, Mr Hale, refused to close it. “A town without a bookshop,” he said, “is a town without a memory.” Then a group of students began coming in every Friday afternoon to read aloud to children. Word spread, coffee was added, and soon the shop was (1)____ again. Mr Hale never (2)____ the reason for the change. He simply kept the door open and the lights on, (3)____ for whoever might walk in. Looking back, the students say they were not trying to (4)____ a business; they just wanted somewhere warm to read.\n\n（1）为（1）—（4）各填一个恰当的词，并指出每空所依据的上下文线索（同义复现／反义对照／解释说明／搭配）。\n（2）文中最后一句 “they just wanted somewhere warm to read” 与前文哪一处形成呼应？这种呼应如何帮助你确定第（1）空的词义方向？",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["完形语篇", "上下文线索", "呼应"],
+    "rubric": [
+      { "text": "（1）四空填入语义合理的词，如 (1) busy / crowded / full of people，(2) explained / understood / worked out，(3) waiting / ready，(4) save / rescue，且词性与句子成分相符", "score": 4 },
+      { "text": "（1）能逐空指出线索类型，如 (1) 与前文 losing money 构成反义对照、(2) 与 kept the door open 构成解释说明、(3) 与 kept...on 的持续状态呼应、(4) 与 business 搭配", "score": 3 },
+      { "text": "（2）准确指出与第一段 “a town without a bookshop is a town without a memory” 或 “read aloud to children” 的呼应，并说明这种呼应把全文基调定为温情、非功利，从而排除 commercial、profitable 一类词", "score": 3 }
+    ],
+    "reference": "（1）示例：(1) busy（也可 crowded / full of people）；(2) explained（也可 understood / worked out）；(3) waiting（也可 ready）；(4) save（也可 rescue）。(1) 与前文 losing money 形成反义对照，说明书店由冷清转为热闹；(2) 后文 He simply kept the door open 是对“没有去分析原因”的解释说明；(3) 与 kept the door open and the lights on 的持续状态呼应，表示“等着”；(4) 与 a business 搭配，且与后文 not... just wanted somewhere warm 形成对照。（2）最后一句与第一段 Mr Hale 的话 “A town without a bookshop is a town without a memory” 以及学生们来给孩子朗读这一情节形成呼应：全文把书店定位为记忆与温暖的场所，而非赚钱的生意。正因为这层呼应，第（1）空只能取“热闹、有人气”这一方向，不能填 profitable（赚钱的）之类偏离基调的词。",
+    "maxScore": 10,
+    "explanation": "本题把完形的“先通读定基调、再逐空找线索”完整走一遍。第（1）问四空分别对应四种线索：losing money 与后来的热闹是反义对照；He simply kept the door open 是对“没有深究原因”的解释说明；kept...on 与 waiting 是状态的延续；not trying to ____ a business 则是动宾搭配。第（2）问考呼应分析：首段“没有书店的城镇就是没有记忆的城镇”与末句“只想有个温暖的地方读书”共同锁定了全文温情、非功利的基调，这正是判断 (1) 空不能填 profitable、commercial 的依据。评分时重在看线索是否指认准确，而非用词唯一。"
+  },
+  {
+    "id": "q-eng-cloze-vocab-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-cloze-vocab", "eng-cloze-collocation"],
+    "stem": "下面四个句子各有一处用词或搭配错误，请完成（1）（2）两小题。\n\n(1) The noise outside really effected my concentration.\n(2) The sun raises in the east and sets in the west.\n(3) It took her a month to adopt herself to the new school.\n(4) This small car is very economic on fuel.\n\n（1）逐句改正错误，并用一句话说明理由（指出词性、及物性或固定搭配）。\n（2）用 affect 和 effect 各写一个语法正确、词性正确的句子。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["形近词辨析", "及物性", "改错"],
+    "rubric": [
+      { "text": "四处错误全部改正：effected→affected；raises→rises；adopt→adapt；economic→economical", "score": 4 },
+      { "text": "理由准确：affect 是动词“影响”而 effect 多为名词；raise 及物、rise 不及物；adapt oneself to 是“适应”的固定搭配；economical 才表示“省油的、节约的”", "score": 4 },
+      { "text": "affect 与 effect 各造一句，词性与句意均正确（如 The rain affected the game. / The rain had no effect on the game.）", "score": 2 }
+    ],
+    "reference": "（1）(1) effected → affected：此处需要动词“影响”，affect 是动词，effect 作“影响”讲时是名词。(2) raises → rises：太阳“升起”是不及物动作，用 rise（rise-rose-risen）；raise 是及物动词，必须带宾语。(3) adopt → adapt：adapt oneself to sth 表示“使自己适应某事”，adopt 意为“采纳、收养”。(4) economic → economical：economical 表示“节约的、省油的”，economic 意为“经济的、经济上的”。（2）示例：The long drought seriously affected the harvest.（affect 作及物动词）／ The new rule had little effect on students' daily life.（effect 作名词，have an effect on）",
+    "maxScore": 10,
+    "explanation": "本题把完形与语法填空中最高频的四组形近词放在一起辨析。核心判据有三条：一是词性，affect 是动词、effect 通常作名词，故 (1) 只能用 affected；二是及物性，rise 不及物、raise 及物，(2) 主语 the sun 后无宾语，只能用 rises；三是固定搭配，adapt oneself to 不能写成 adopt oneself to；四是词义分工，economical 表“节约的”，economic 表“经济的”。第（2）问要求造句，是为了检验是否真正掌握词性而非只记住中文释义——只写中文意思相近的句子不算过关。"
+  }
+]

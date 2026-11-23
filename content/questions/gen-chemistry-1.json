@@ -1,0 +1,468 @@
+[
+  {
+    "id": "q-chem-basic-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-basic"],
+    "stem": "下列物质中属于纯净物的是（　）",
+    "difficulty": 1,
+    "source": "自编练习",
+    "tags": ["纯净物", "混合物", "物质分类"],
+    "options": [
+      { "key": "A", "text": "盐酸" },
+      { "key": "B", "text": "冰水混合物" },
+      { "key": "C", "text": "漂白粉" },
+      { "key": "D", "text": "空气" }
+    ],
+    "answer": "B",
+    "explanation": "判断纯净物的唯一标准是「是否只由一种物质组成」，与它由几种元素组成无关。冰水混合物中只有 $\\mathrm{H_2O}$ 一种物质，只是状态不同，属于纯净物。盐酸是 $\\mathrm{HCl}$ 的水溶液、漂白粉是 $\\mathrm{Ca(ClO)_2}$ 与 $\\mathrm{CaCl_2}$ 等的混合物、空气是多种气体的混合物，三者都是混合物。注意「冰水混合物」这个名字容易让人误以为有两种物质。"
+  },
+  {
+    "id": "q-chem-basic-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-basic"],
+    "stem": "按分散质粒子直径的大小，分散系可分为溶液、胶体和浊液三类，其中胶体分散质粒子的直径范围是 ____ $\\mathrm{nm}$（只填范围，如 $a\\sim b$）。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["分散系", "胶体", "粒子直径"],
+    "blanks": [
+      {
+        "accept": ["1~100", "1-100", "1～100", "1—100", "1nm~100nm", "1 nm ~ 100 nm", "1至100"],
+        "hint": "小于 $1\\ \\mathrm{nm}$ 为溶液，大于 $100\\ \\mathrm{nm}$ 为浊液"
+      }
+    ],
+    "explanation": "分散质粒子直径小于 $1\\ \\mathrm{nm}$ 的分散系是溶液，介于 $1\\sim100\\ \\mathrm{nm}$ 之间的是胶体，大于 $100\\ \\mathrm{nm}$ 的是浊液。这个「粒径」是胶体区别于溶液和浊液的本质原因，也是胶体具有丁达尔效应、能透过滤纸而不能透过半透膜的根本原因。注意区分「本质区别」（粒径）与「外观特征」（丁达尔效应）。"
+  },
+  {
+    "id": "q-chem-basic-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-basic"],
+    "stem": "下列各组物质中，按「单质、氧化物、酸、碱、盐」的顺序排列的是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["物质分类", "酸碱盐", "氧化物"],
+    "options": [
+      { "key": "A", "text": "液氧、干冰、硫酸、纯碱、食盐" },
+      { "key": "B", "text": "水银、氧化铁、硝酸、烧碱、胆矾" },
+      { "key": "C", "text": "金刚石、二氧化硅、盐酸、氢氧化钾、硫酸铜" },
+      { "key": "D", "text": "臭氧、氧化钠、生石灰、碳酸、氯化铵" }
+    ],
+    "answer": "B",
+    "explanation": "逐项核对：B 中水银是金属单质、氧化铁（$\\mathrm{Fe_2O_3}$）是氧化物、硝酸是酸、烧碱（$\\mathrm{NaOH}$）是碱、胆矾（$\\mathrm{CuSO_4\\cdot5H_2O}$）是盐，顺序完全吻合。A 的第四项纯碱是 $\\mathrm{Na_2CO_3}$，虽名带「碱」，但电离出的阴离子是 $\\mathrm{CO_3^{2-}}$ 而不是 $\\mathrm{OH^-}$，属于盐。C 的第三项盐酸是 $\\mathrm{HCl}$ 的水溶液，属于混合物，而酸必须是纯净物。D 的第三项生石灰（$\\mathrm{CaO}$）是氧化物而不是酸。可见命名俗名是最大干扰点。"
+  },
+  {
+    "id": "q-chem-basic-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-basic"],
+    "stem": "下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["纯净物判断", "氧化物", "胶体本质"],
+    "options": [
+      { "key": "A", "text": "只由一种元素组成的物质一定是纯净物" },
+      { "key": "B", "text": "含有氧元素的化合物一定是氧化物" },
+      { "key": "C", "text": "溶液一定是均一、稳定的混合物" },
+      { "key": "D", "text": "胶体区别于溶液的本质原因是分散质粒子直径不同" }
+    ],
+    "answer": ["C", "D"],
+    "explanation": "A 错：$\\mathrm{O_2}$ 与 $\\mathrm{O_3}$ 混合后只含氧元素，却是混合物；同种元素可以组成不同单质。B 错：氧化物要求只含两种元素且其中一种是氧，$\\mathrm{H_2SO_4}$ 含氧但不属于氧化物。C 对：溶液的定义即为均一、稳定的混合物，均一稳定正是它区别于浊液之处。D 对：粒径 $1\\sim100\\ \\mathrm{nm}$ 是胶体的本质特征，丁达尔效应只是由此派生的现象。两个正确项分别考「组成」和「本质」，都要靠定义而不是靠印象判断。"
+  },
+  {
+    "id": "q-chem-electrolyte-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-electrolyte"],
+    "stem": "判断下列说法是否正确：铜丝能导电，所以铜是电解质。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["电解质定义", "单质", "导电本质"],
+    "answer": false,
+    "explanation": "电解质的前提是「化合物」，铜是单质，既不是电解质也不是非电解质，属于两个概念之外的情形。铜能导电是因为其中存在自由电子，而电解质导电靠的是自身电离出的离子（水溶液或熔融状态下）。同类易错项还有：$\\mathrm{NaCl}$ 溶液（混合物）、石墨（单质），都不能叫电解质。"
+  },
+  {
+    "id": "q-chem-electrolyte-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-electrolyte"],
+    "stem": "有下列物质：①$\\mathrm{Cu}$　②$\\mathrm{NaCl}$ 固体　③$\\mathrm{NaCl}$ 溶液　④$\\mathrm{CO_2}$　⑤$\\mathrm{NH_3\\cdot H_2O}$　⑥$\\mathrm{BaSO_4}$　⑦酒精　⑧$\\mathrm{SO_3}$。其中属于电解质的是 ____，属于非电解质的是 ____（均填序号）。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电解质", "非电解质", "强弱电解质"],
+    "blanks": [
+      {
+        "accept": ["②⑤⑥", "② ⑤ ⑥", "②⑤⑥.", "②、⑤、⑥"],
+        "hint": "先排除单质①和混合物③，再判断④⑧自身能否电离"
+      },
+      {
+        "accept": ["④⑦⑧", "④ ⑦ ⑧", "④⑦⑧.", "④、⑦、⑧"],
+        "hint": "$\\mathrm{CO_2}$、$\\mathrm{SO_3}$ 溶于水导电，但导电的是它们与水反应生成的酸"
+      }
+    ],
+    "explanation": "①$\\mathrm{Cu}$ 是单质、③是混合物，二者既不是电解质也不是非电解质，先排除。②$\\mathrm{NaCl}$ 固体、⑥$\\mathrm{BaSO_4}$ 虽溶于水后导电性弱（$\\mathrm{BaSO_4}$ 难溶），但熔融时能电离导电，都是电解质；⑤$\\mathrm{NH_3\\cdot H_2O}$ 是弱碱，部分电离，仍是电解质。④$\\mathrm{CO_2}$、⑧$\\mathrm{SO_3}$ 自身不电离，溶液导电靠生成的 $\\mathrm{H_2CO_3}$、$\\mathrm{H_2SO_4}$，故为非电解质；⑦酒精不电离，也是非电解质。核心是「自身能否电离」，而不是「溶液能否导电」。"
+  },
+  {
+    "id": "q-chem-electrolyte-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-electrolyte"],
+    "stem": "将等体积、等物质的量浓度（均为 $0.1\\ \\mathrm{mol\\cdot L^{-1}}$）的下列溶液分别接入同一导电性实验装置，灯泡最亮的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["导电能力", "强弱电解质", "离子浓度"],
+    "options": [
+      { "key": "A", "text": "醋酸溶液" },
+      { "key": "B", "text": "$\\mathrm{NaCl}$ 溶液" },
+      { "key": "C", "text": "$\\mathrm{CaCl_2}$ 溶液" },
+      { "key": "D", "text": "蔗糖溶液" }
+    ],
+    "answer": "C",
+    "explanation": "溶液导电能力取决于自由离子的浓度和所带电荷。醋酸是弱电解质，只部分电离，离子浓度远小于 $0.1\\ \\mathrm{mol\\cdot L^{-1}}$；$\\mathrm{NaCl}$ 完全电离，离子总浓度约 $0.2\\ \\mathrm{mol\\cdot L^{-1}}$；$\\mathrm{CaCl_2}$ 完全电离且含二价离子，离子总浓度约 $0.3\\ \\mathrm{mol\\cdot L^{-1}}$，故最亮；蔗糖是非电解质，溶液几乎不导电。常见错误是认为「弱电解质的稀溶液一定不导电」或只比较溶质浓度而忽略一个化学式电离出的离子个数。"
+  },
+  {
+    "id": "q-chem-electrolyte-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-electrolyte"],
+    "stem": "关于电解质及其溶液，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电解质溶液", "导电能力", "非电解质"],
+    "options": [
+      { "key": "A", "text": "电解质的水溶液一定能导电" },
+      { "key": "B", "text": "强电解质溶液的导电能力一定强于弱电解质溶液" },
+      { "key": "C", "text": "$\\mathrm{CO_2}$ 的水溶液能导电，但 $\\mathrm{CO_2}$ 属于非电解质" },
+      { "key": "D", "text": "电解质溶液导电时，发生定向移动的是离子" }
+    ],
+    "answer": ["C", "D"],
+    "explanation": "A 错：$\\mathrm{BaSO_4}$ 是电解质，但难溶于水，其饱和溶液中离子浓度极小，几乎不导电——电解质与否看「能否电离」，导电强弱看「离子浓度」。B 错：导电能力由离子浓度决定，极稀的盐酸导电能力可以弱于较浓的醋酸溶液，强、弱电解质只描述电离程度。C 对：$\\mathrm{CO_2}$ 自身不电离，导电的是 $\\mathrm{H_2CO_3}$，故 $\\mathrm{CO_2}$ 是非电解质。D 对：电解质溶液靠离子定向移动导电，金属靠自由电子，二者载体不同。"
+  },
+  {
+    "id": "q-chem-formula-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-formula"],
+    "stem": "$\\mathrm{Fe_3O_4}$ 中铁元素的化合价是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["化合价", "Fe3O4", "平均价态"],
+    "options": [
+      { "key": "A", "text": "只有 $+2$ 价" },
+      { "key": "B", "text": "只有 $+3$ 价" },
+      { "key": "C", "text": "平均为 $+\\dfrac{8}{3}$ 价，实际不存在该价态" },
+      { "key": "D", "text": "既有 $+2$ 价又有 $+3$ 价" }
+    ],
+    "answer": "D",
+    "explanation": "$\\mathrm{Fe_3O_4}$ 可看作 $\\mathrm{FeO\\cdot Fe_2O_3}$，即 1 个 $\\mathrm{Fe^{2+}}$ 和 2 个 $\\mathrm{Fe^{3+}}$，所以铁元素同时显 $+2$ 价和 $+3$ 价。若机械套用「代数和为零」，得 $3x+4\\times(-2)=0$，$x=+\\dfrac{8}{3}$，这只是平均价态，化学上并不存在分数价态的离子。类似的还有 $\\mathrm{Pb_3O_4}$。做题时要先看该物质是否为「混合价态」的复合氧化物。"
+  },
+  {
+    "id": "q-chem-formula-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-formula"],
+    "stem": "某元素 R 的氧化物化学式为 $\\mathrm{R_2O_3}$，测得其中 R 与 O 的质量比为 $7:3$，则 R 的相对原子质量为 ____，R 在该氧化物中的化合价为 ____。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["相对原子质量", "化合价", "质量比"],
+    "blanks": [
+      {
+        "accept": ["56", "56.0"],
+        "hint": "设 R 的相对原子质量为 $M$，列 $\\dfrac{2M}{3\\times16}=\\dfrac{7}{3}$"
+      },
+      {
+        "accept": ["+3", "正3", "3", "+3价", "+3 价"],
+        "hint": "代数和为零：$2x+3\\times(-2)=0$"
+      }
+    ],
+    "explanation": "设 R 的相对原子质量为 $M$，则 $\\dfrac{2M}{3\\times16}=\\dfrac{7}{3}$，即 $\\dfrac{2M}{48}=\\dfrac{7}{3}$，解得 $2M=112$，$M=56$，该元素为铁。再由化合价代数和为零：$2x+3\\times(-2)=0$，得 $x=+3$。易错点：① 把 $\\mathrm{R_2O_3}$ 中氧的个数写成 2；② 求出 $M$ 后忘记化合价与化学式下标的关系，误写成 $+2$；③ 直接用 $7:3$ 当作原子个数比。"
+  },
+  {
+    "id": "q-chem-formula-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-formula"],
+    "stem": "$\\mathrm{Fe_2O_3}$ 中铁元素的质量分数约为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["质量分数", "相对分子质量", "计算"],
+    "options": [
+      { "key": "A", "text": "$35\\%$" },
+      { "key": "B", "text": "$70\\%$" },
+      { "key": "C", "text": "$77.8\\%$" },
+      { "key": "D", "text": "$30\\%$" }
+    ],
+    "answer": "B",
+    "explanation": "$M(\\mathrm{Fe_2O_3})=56\\times2+16\\times3=160$，铁元素质量分数 $=\\dfrac{112}{160}=70\\%$。选 A 是只算了一个铁原子（$\\dfrac{56}{160}=35\\%$）；选 C 是把 $\\mathrm{FeO}$ 的数据（$\\dfrac{56}{72}\\approx77.8\\%$）张冠李戴；选 D 算的是氧元素的质量分数（$\\dfrac{48}{160}=30\\%$）。做这类题先写准相对分子质量，再确认分子是「几个该原子」。"
+  },
+  {
+    "id": "q-chem-formula-4",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-formula"],
+    "stem": "判断下列说法是否正确：化合物中各元素化合价的代数和为零，因此 $\\mathrm{Na_2O_2}$ 中氧元素的化合价为 $-2$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["过氧化钠", "化合价", "易错点"],
+    "answer": false,
+    "explanation": "前半句「代数和为零」是对的，但推出的结论错了。设氧为 $x$：$2\\times(+1)+2x=0$，得 $x=-1$，$\\mathrm{Na_2O_2}$ 中氧为 $-1$ 价，其中含有过氧根 $\\mathrm{O_2^{2-}}$。类似地，$\\mathrm{H_2O_2}$ 中氧也是 $-1$ 价，$\\mathrm{Fe_3O_4}$ 中铁是 $+2$、$+3$ 混合价态。不能一见氧就写 $-2$，要用代数和规则反推。"
+  },
+  {
+    "id": "q-chem-mole-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-mole"],
+    "stem": "下列关于物质的量的说法正确的是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["物质的量", "摩尔", "阿伏加德罗常数"],
+    "options": [
+      { "key": "A", "text": "物质的量就是物质的质量" },
+      { "key": "B", "text": "$1\\ \\mathrm{mol}$ 任何物质都约含有 $6.02\\times10^{23}$ 个原子" },
+      { "key": "C", "text": "摩尔是物质的量的单位，$1\\ \\mathrm{mol}$ 任何粒子的粒子数都约为 $6.02\\times10^{23}$" },
+      { "key": "D", "text": "$1\\ \\mathrm{mol}$ $\\mathrm{H_2O}$ 的质量是 $18\\ \\mathrm{g\\cdot mol^{-1}}$" }
+    ],
+    "answer": "C",
+    "explanation": "A 错：物质的量是表示粒子多少的物理量，单位是摩尔，与质量是两个不同的物理量。B 错：$1\\ \\mathrm{mol}$ 任何物质含 $N_A$ 个「微粒」，但微粒可以是分子、原子或离子；$1\\ \\mathrm{mol}$ $\\mathrm{H_2O}$ 含 $2N_A$ 个氢原子，不是 $N_A$ 个原子。C 对：这是摩尔的定义要点，且必须指明微粒种类。D 错：$18\\ \\mathrm{g\\cdot mol^{-1}}$ 是摩尔质量，质量应为 $18\\ \\mathrm{g}$，单位混用是高频失分点。"
+  },
+  {
+    "id": "q-chem-mole-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-mole"],
+    "stem": "标准状况下，$11.2\\ \\mathrm{L}$ 的 $\\mathrm{CO_2}$ 气体，其物质的量为 ____ $\\mathrm{mol}$，质量为 ____ $\\mathrm{g}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["气体摩尔体积", "摩尔质量", "标准状况"],
+    "blanks": [
+      {
+        "accept": ["0.5", "0.50", "1/2"],
+        "hint": "$n=\\dfrac{V}{V_m}=\\dfrac{11.2}{22.4}$"
+      },
+      {
+        "accept": ["22", "22.0", "22g", "22 g"],
+        "hint": "$m=nM$，$M(\\mathrm{CO_2})=44\\ \\mathrm{g\\cdot mol^{-1}}$"
+      }
+    ],
+    "explanation": "标准状况下 $V_m=22.4\\ \\mathrm{L\\cdot mol^{-1}}$，故 $n=\\dfrac{11.2}{22.4}=0.5\\ \\mathrm{mol}$；$M(\\mathrm{CO_2})=12+16\\times2=44\\ \\mathrm{g\\cdot mol^{-1}}$，$m=nM=0.5\\times44=22\\ \\mathrm{g}$。注意 $22.4\\ \\mathrm{L\\cdot mol^{-1}}$ 只适用于标准状况下的气体，若改为「常温常压」或「$\\mathrm{H_2O}$」，就不能直接除。"
+  },
+  {
+    "id": "q-chem-mole-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-mole"],
+    "stem": "标准状况下，将 $4.48\\ \\mathrm{L}$ $\\mathrm{CO_2}$ 缓缓通入足量 $\\mathrm{NaOH}$ 溶液中，气体被完全吸收。生成的 $\\mathrm{Na_2CO_3}$ 的质量为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["摩尔计算", "化学方程式计算", "CO2与碱"],
+    "options": [
+      { "key": "A", "text": "$10.6\\ \\mathrm{g}$" },
+      { "key": "B", "text": "$21.2\\ \\mathrm{g}$" },
+      { "key": "C", "text": "$42.4\\ \\mathrm{g}$" },
+      { "key": "D", "text": "$8.4\\ \\mathrm{g}$" }
+    ],
+    "answer": "B",
+    "explanation": "$n(\\mathrm{CO_2})=\\dfrac{4.48}{22.4}=0.2\\ \\mathrm{mol}$。足量 $\\mathrm{NaOH}$ 中反应为 $\\mathrm{CO_2+2NaOH=Na_2CO_3+H_2O}$，$\\mathrm{CO_2}$ 与 $\\mathrm{Na_2CO_3}$ 的系数比为 $1:1$，故 $n(\\mathrm{Na_2CO_3})=0.2\\ \\mathrm{mol}$，$m=0.2\\times106=21.2\\ \\mathrm{g}$。错解分析：A 是把 $n$ 算成 $0.1\\ \\mathrm{mol}$（误用 $V_m=44.8$）；C 是以为 $1\\ \\mathrm{mol}$ $\\mathrm{CO_2}$ 生成 $2\\ \\mathrm{mol}$ $\\mathrm{Na_2CO_3}$；D 是错把产物当成 $\\mathrm{NaHCO_3}$（$0.1\\times84$，还漏了系数关系）。解题关键是先写对方程式再定系数比。"
+  },
+  {
+    "id": "q-chem-mole-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-mole"],
+    "stem": "设 $N_A$ 为阿伏加德罗常数的值，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["阿伏加德罗常数", "气体摩尔体积", "电子转移"],
+    "options": [
+      { "key": "A", "text": "标准状况下，$22.4\\ \\mathrm{L}$ 水中含有的分子数为 $N_A$" },
+      { "key": "B", "text": "$1\\ \\mathrm{mol}$ $\\mathrm{Na}$ 完全反应生成 $\\mathrm{Na_2O_2}$ 时，失去的电子数为 $N_A$" },
+      { "key": "C", "text": "$0.1\\ \\mathrm{mol\\cdot L^{-1}}$ 的 $\\mathrm{NaCl}$ 溶液中含有 $\\mathrm{Na^+}$ 的数目为 $0.1N_A$" },
+      { "key": "D", "text": "常温常压下，$16\\ \\mathrm{g}$ $\\mathrm{O_2}$ 和 $\\mathrm{O_3}$ 的混合气体中含有的氧原子数为 $N_A$" }
+    ],
+    "answer": ["B", "D"],
+    "explanation": "A 错：标准状况下水是液体，不能用 $22.4\\ \\mathrm{L\\cdot mol^{-1}}$ 换算，这是 $N_A$ 题最常见的陷阱。B 对：每个 $\\mathrm{Na}$ 由 $0$ 价升到 $+1$ 价，$1\\ \\mathrm{mol}$ $\\mathrm{Na}$ 失去 $1\\ \\mathrm{mol}$ 电子，与产物是 $\\mathrm{Na_2O}$ 还是 $\\mathrm{Na_2O_2}$ 无关（$\\mathrm{Na_2O_2}$ 中 Na 仍是 $+1$ 价）。C 错：只给浓度不给溶液体积，无法求粒子数。D 对：$\\mathrm{O_2}$ 与 $\\mathrm{O_3}$ 都只含氧原子，$16\\ \\mathrm{g}$ 混合气体中氧原子的物质的量 $=\\dfrac{16}{16}=1\\ \\mathrm{mol}$，与二者比例无关。"
+  },
+  {
+    "id": "q-chem-solution-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-solution"],
+    "stem": "关于物质的量浓度 $c=\\dfrac{n}{V}$，下列说法正确的是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["物质的量浓度", "溶液体积", "概念辨析"],
+    "options": [
+      { "key": "A", "text": "$V$ 是溶剂的体积" },
+      { "key": "B", "text": "将 $1\\ \\mathrm{mol}$ $\\mathrm{NaCl}$ 溶于 $1\\ \\mathrm{L}$ 水中，所得溶液的浓度为 $1\\ \\mathrm{mol\\cdot L^{-1}}$" },
+      { "key": "C", "text": "$V$ 是溶液的体积，单位通常取 $\\mathrm{L}$" },
+      { "key": "D", "text": "从 $1\\ \\mathrm{L}$ $1\\ \\mathrm{mol\\cdot L^{-1}}$ 的 $\\mathrm{NaCl}$ 溶液中取出 $100\\ \\mathrm{mL}$，其浓度变为 $0.1\\ \\mathrm{mol\\cdot L^{-1}}$" }
+    ],
+    "answer": "C",
+    "explanation": "$c=n/V$ 中的 $V$ 必须是溶液的体积，而不是溶剂（水）的体积。B 正是利用这一点设错：$1\\ \\mathrm{mol}$ $\\mathrm{NaCl}$ 溶于 $1\\ \\mathrm{L}$ 水后，溶液体积大于 $1\\ \\mathrm{L}$，浓度小于 $1\\ \\mathrm{mol\\cdot L^{-1}}$。D 错：溶液是均一、稳定的，取出任意体积，浓度都不变（只是溶质的物质的量按比例减少）。A、C 互斥，抓住定义即可。"
+  },
+  {
+    "id": "q-chem-solution-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-solution"],
+    "stem": "将 $4.0\\ \\mathrm{g}$ $\\mathrm{NaOH}$ 固体溶于水配成 $500\\ \\mathrm{mL}$ 溶液，所得溶液的物质的量浓度为 ____ $\\mathrm{mol\\cdot L^{-1}}$；从中取出 $50\\ \\mathrm{mL}$，其中含 $\\mathrm{NaOH}$ 的质量为 ____ $\\mathrm{g}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["物质的量浓度", "溶液均一性", "计算"],
+    "blanks": [
+      {
+        "accept": ["0.2", "0.20", "1/5"],
+        "hint": "$n=\\dfrac{4.0}{40}=0.1\\ \\mathrm{mol}$，再除以溶液体积 $0.5\\ \\mathrm{L}$"
+      },
+      {
+        "accept": ["0.4", "0.40"],
+        "hint": "取出后浓度不变，$m=cVM$"
+      }
+    ],
+    "explanation": "$n(\\mathrm{NaOH})=\\dfrac{4.0}{40}=0.1\\ \\mathrm{mol}$，$c=\\dfrac{0.1}{0.5}=0.2\\ \\mathrm{mol\\cdot L^{-1}}$。取出 $50\\ \\mathrm{mL}$ 后浓度仍为 $0.2\\ \\mathrm{mol\\cdot L^{-1}}$（溶液均一稳定），其中 $n=0.2\\times0.05=0.01\\ \\mathrm{mol}$，$m=0.01\\times40=0.4\\ \\mathrm{g}$。也可用比例：$50\\ \\mathrm{mL}$ 是总量的 $\\dfrac{1}{10}$，故质量是 $4.0\\ \\mathrm{g}$ 的 $\\dfrac{1}{10}$，即 $0.4\\ \\mathrm{g}$。易错点是取出一部分后误以为浓度改变。"
+  },
+  {
+    "id": "q-chem-solution-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-solution"],
+    "stem": "用 $\\mathrm{NaCl}$ 固体配制 $100\\ \\mathrm{mL}$ $0.1\\ \\mathrm{mol\\cdot L^{-1}}$ 的 $\\mathrm{NaCl}$ 溶液，下列操作会使所配溶液浓度偏高的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["溶液配制", "误差分析", "定容"],
+    "options": [
+      { "key": "A", "text": "定容时俯视容量瓶刻度线" },
+      { "key": "B", "text": "转移溶液后未洗涤烧杯和玻璃棒" },
+      { "key": "C", "text": "定容时仰视容量瓶刻度线" },
+      { "key": "D", "text": "容量瓶洗净后内壁残留少量蒸馏水" }
+    ],
+    "answer": "A",
+    "explanation": "浓度 $c=\\dfrac{n}{V}$，误差分析要么看 $n$ 变没变，要么看 $V$ 偏大还是偏小。A：俯视刻度线时视线向下，液面实际未到刻度就已「看起来」齐平，$V$ 偏小，$c$ 偏高。B：未洗涤会使部分溶质残留，$n$ 偏小，$c$ 偏低。C：仰视时液面超过刻度，$V$ 偏大，$c$ 偏低。D：容量瓶中残留的少量水不改变溶质的物质的量，定容时以刻度为准，对浓度无影响。口诀：俯视偏高、仰视偏低，且只影响定容体积。"
+  },
+  {
+    "id": "q-chem-solution-4",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-solution"],
+    "stem": "判断下列说法是否正确：容量瓶既能用来溶解固体，也能长期存放配好的溶液。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["容量瓶", "仪器使用", "实验规范"],
+    "answer": false,
+    "explanation": "容量瓶是配制准确浓度溶液的专用量器，瓶上只标有温度和容积，两项功能都不能干：①不能用来溶解固体或稀释浓溶液，因为溶解放热或吸热会使溶液体积与标定温度下的体积不符，且可能损坏瓶体；②不能长期存放溶液，尤其不能存放碱性溶液（$\\mathrm{NaOH}$ 会腐蚀磨口玻璃）和见光易分解的溶液。正确做法是溶解、冷却后在烧杯中完成，再转移到容量瓶，配好后转入试剂瓶贴标签保存。"
+  },
+  {
+    "id": "q-chem-ion-equation-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-ion-equation"],
+    "stem": "下列离子方程式书写正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["离子方程式", "拆写规则", "配平"],
+    "options": [
+      { "key": "A", "text": "$\\mathrm{CO_3^{2-}+2H^+=CO_2\\uparrow+H_2O}$（碳酸钙与盐酸反应）" },
+      { "key": "B", "text": "$\\mathrm{2Fe+6H^+=2Fe^{3+}+3H_2\\uparrow}$（铁与稀盐酸反应）" },
+      { "key": "C", "text": "$\\mathrm{Ba^{2+}+SO_4^{2-}=BaSO_4\\downarrow}$（氢氧化钡与稀硫酸反应）" },
+      { "key": "D", "text": "$\\mathrm{Cl_2+2OH^-=Cl^-+ClO^-+H_2O}$（氯气与氢氧化钠溶液反应）" }
+    ],
+    "answer": "D",
+    "explanation": "A 错：$\\mathrm{CaCO_3}$ 难溶于水，必须写化学式，正确式为 $\\mathrm{CaCO_3+2H^+=Ca^{2+}+H_2O+CO_2\\uparrow}$。B 错：铁与稀盐酸（非氧化性酸）只生成 $\\mathrm{Fe^{2+}}$，正确式为 $\\mathrm{Fe+2H^+=Fe^{2+}+H_2\\uparrow}$。C 错：还生成了水，正确式为 $\\mathrm{Ba^{2+}+2OH^-+2H^++SO_4^{2-}=BaSO_4\\downarrow+2H_2O}$，属「漏写产物」。D 对：氯气在碱中歧化，配平后原子守恒（Cl 2、O 2、H 2），电荷守恒（左 $-2$，右 $-1-1=-2$）。"
+  },
+  {
+    "id": "q-chem-ion-equation-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-ion-equation"],
+    "stem": "写出下列反应的离子方程式：\n(1) 稀硫酸与氢氧化钠溶液反应：____；\n(2) 大理石（$\\mathrm{CaCO_3}$）与稀盐酸反应：____。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["离子方程式书写", "中和反应", "难溶物"],
+    "blanks": [
+      {
+        "accept": ["H+ + OH- = H2O", "H++OH-=H2O", "H⁺+OH⁻=H₂O", "H+ + OH- = H2O（或 H++OH-=H2O）"],
+        "hint": "$\\mathrm{Na^+}$、$\\mathrm{SO_4^{2-}}$ 是旁观离子，删去"
+      },
+      {
+        "accept": ["CaCO3 + 2H+ = Ca2+ + H2O + CO2↑", "CaCO3+2H+=Ca2++H2O+CO2↑", "CaCO3 + 2H+ = Ca2+ + CO2↑ + H2O", "CaCO3+2H+=Ca2++CO2↑+H2O"],
+        "hint": "难溶物写化学式，气体标箭头"
+      }
+    ],
+    "explanation": "(1) 硫酸与氢氧化钠都是强电解质且可溶，全部拆成离子，$\\mathrm{Na^+}$ 与 $\\mathrm{SO_4^{2-}}$ 未参加反应，删去后得 $\\mathrm{H^++OH^-=H_2O}$——这正是所有强酸强碱中和反应的实质。(2) $\\mathrm{CaCO_3}$ 难溶于水，写化学式；盐酸拆成 $\\mathrm{H^+}$ 与 $\\mathrm{Cl^-}$，$\\mathrm{Cl^-}$ 旁观删去，得 $\\mathrm{CaCO_3+2H^+=Ca^{2+}+H_2O+CO_2\\uparrow}$。检查：Ca、C 各 1，O 3，H 2，电荷左 $+2$、右 $+2$，均守恒。"
+  },
+  {
+    "id": "q-chem-ion-equation-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-ion-equation"],
+    "stem": "向 $\\mathrm{NaHCO_3}$ 溶液中加入过量澄清石灰水，反应的离子方程式为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["离子方程式", "相对量", "石灰水"],
+    "options": [
+      { "key": "A", "text": "$\\mathrm{HCO_3^-+Ca^{2+}+OH^-=CaCO_3\\downarrow+H_2O}$" },
+      { "key": "B", "text": "$\\mathrm{2HCO_3^-+Ca^{2+}+2OH^-=CaCO_3\\downarrow+CO_3^{2-}+2H_2O}$" },
+      { "key": "C", "text": "$\\mathrm{HCO_3^-+OH^-=CO_3^{2-}+H_2O}$" },
+      { "key": "D", "text": "$\\mathrm{Ca^{2+}+2HCO_3^-=CaCO_3\\downarrow+CO_2\\uparrow+H_2O}$" }
+    ],
+    "answer": "A",
+    "explanation": "石灰水过量，意味着 $\\mathrm{Ca^{2+}}$ 与 $\\mathrm{OH^-}$ 都充足，应以 $\\mathrm{NaHCO_3}$（少量）为基准按 $1:1$ 配比：$\\mathrm{NaHCO_3+Ca(OH)_2=CaCO_3\\downarrow+NaOH+H_2O}$，删去旁观离子 $\\mathrm{Na^+}$ 后得 A，电荷左 $(-1)+(+2)+(-1)=0$，右为 $0$，守恒。B 是「石灰水少量、$\\mathrm{NaHCO_3}$ 过量」时的写法，两问极易混淆，判断基准要抓住「谁过量、以不足者为基准」。C 漏写了 $\\mathrm{CaCO_3}$ 沉淀，只发生了酸碱中和，不符合实际。D 凭空放出 $\\mathrm{CO_2}$，且电荷不守恒（左 $+1$）。"
+  },
+  {
+    "id": "q-chem-ion-equation-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-ion-equation"],
+    "stem": "关于离子方程式，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["离子方程式意义", "守恒关系", "弱电解质"],
+    "options": [
+      { "key": "A", "text": "强酸、强碱和可溶性盐在离子方程式中应拆写成离子形式" },
+      { "key": "B", "text": "离子方程式两边必须同时满足原子守恒和电荷守恒" },
+      { "key": "C", "text": "醋酸与碳酸钠溶液反应可写成 $\\mathrm{2H^++CO_3^{2-}=CO_2\\uparrow+H_2O}$" },
+      { "key": "D", "text": "一个离子方程式只能表示一个具体的化学反应" }
+    ],
+    "answer": ["A", "B"],
+    "explanation": "A 对：拆写规则的核心是「强酸、强碱、可溶性盐拆成离子；弱电解质、难溶物、气体、氧化物、水写化学式」。B 对：这是检查离子方程式是否正确的两条硬标准，缺一不可。C 错：醋酸是弱电解质，必须写化学式，正确式为 $\\mathrm{CH_3COOH+CO_3^{2-}=CH_3COO^-+HCO_3^-}$（弱酸不能完全置换碳酸根）。D 错：离子方程式表示的是「一类」反应，如 $\\mathrm{H^++OH^-=H_2O}$ 可表示所有强酸与强碱的中和反应，这也正是它的价值所在。"
+  },
+  {
+    "id": "q-chem-solution-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-solution", "chem-mole"],
+    "stem": "实验室需要配制 $480\\ \\mathrm{mL}$ $0.10\\ \\mathrm{mol\\cdot L^{-1}}$ 的 $\\mathrm{CuSO_4}$ 溶液，提供的试剂是 $\\mathrm{CuSO_4\\cdot5H_2O}$ 固体（$M=250\\ \\mathrm{g\\cdot mol^{-1}}$）。\n(1) 应选用什么规格的容量瓶？简述理由。\n(2) 需称取 $\\mathrm{CuSO_4\\cdot5H_2O}$ 固体的质量是多少？\n(3) 若定容时俯视刻度线，所配溶液的浓度会偏高还是偏低？请说明原因。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["溶液配制", "容量瓶", "误差分析"],
+    "rubric": [
+      { "text": "选用 $500\\ \\mathrm{mL}$ 容量瓶，并说明容量瓶规格中没有 $480\\ \\mathrm{mL}$，只能选略大于所配体积的规格", "score": 2 },
+      { "text": "按 $0.500\\ \\mathrm{L}$ 计算溶质：$n=0.500\\times0.10=0.050\\ \\mathrm{mol}$", "score": 2 },
+      { "text": "由 $m=nM$ 得 $m=0.050\\times250=12.5\\ \\mathrm{g}$", "score": 2 },
+      { "text": "判断为偏高，并说明俯视使液面未达刻度、溶液体积偏小", "score": 2 }
+    ],
+    "reference": "(1) 容量瓶的常见规格为 $100$、$250$、$500$、$1000\\ \\mathrm{mL}$，没有 $480\\ \\mathrm{mL}$ 规格，只能选择容积略大于所配体积且最接近的 $500\\ \\mathrm{mL}$ 容量瓶，按 $500\\ \\mathrm{mL}$ 溶液来配制。\n(2) 溶质的物质的量\n$$n(\\mathrm{CuSO_4})=cV=0.10\\ \\mathrm{mol\\cdot L^{-1}}\\times0.500\\ \\mathrm{L}=0.050\\ \\mathrm{mol}.$$\n由 $\\mathrm{CuSO_4\\cdot5H_2O}$ 与 $\\mathrm{CuSO_4}$ 的物质的量相等，\n$$m=0.050\\ \\mathrm{mol}\\times250\\ \\mathrm{g\\cdot mol^{-1}}=12.5\\ \\mathrm{g}.$$\n(3) 偏高。定容时俯视刻度线，视线斜向下，看到液面与刻度线齐平时实际液面还低于刻度线，即溶液体积 $V$ 偏小。由 $c=\\dfrac{n}{V}$，$n$ 不变而 $V$ 偏小，故浓度偏高。",
+    "maxScore": 8,
+    "explanation": "本题把「溶液配制」与「摩尔计算」串起来考。三个关键判断：① 容量瓶规格必须「大于等于所配体积且最接近」，$480\\ \\mathrm{mL}$ 只能配成 $500\\ \\mathrm{mL}$，绝不能按 $480\\ \\mathrm{mL}$ 去算——若用 $0.48\\ \\mathrm{L}$ 计算会得到 $0.048\\ \\mathrm{mol}$、$12.0\\ \\mathrm{g}$，这是最常见的错误；② 称量的是结晶水合物，摩尔质量要用 $250$ 而不是 $160$，误用 $160$ 会得 $8.0\\ \\mathrm{g}$；③ 误差分析只盯住 $n$ 与 $V$，俯视对应 $V$ 偏小、浓度偏高，与「仰视偏低」成对记忆。完整流程还应包含：称量→溶解→冷却→转移→洗涤（$2\\sim3$ 次，洗涤液一并转入）→定容→摇匀。"
+  },
+  {
+    "id": "q-chem-ion-equation-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-ion-equation", "chem-mole"],
+    "stem": "常温下，向 $150\\ \\mathrm{mL}$ $2.0\\ \\mathrm{mol\\cdot L^{-1}}$ 的 $\\mathrm{NaOH}$ 溶液中缓缓通入 $\\mathrm{CO_2}$ 气体（忽略溶液体积变化）。\n(1) 当通入少量 $\\mathrm{CO_2}$ 时，写出反应的离子方程式；\n(2) 当通入过量 $\\mathrm{CO_2}$ 时，写出反应的离子方程式；\n(3) 若充分反应后溶液中 $\\mathrm{Na_2CO_3}$ 与 $\\mathrm{NaHCO_3}$ 的物质的量相等，求通入 $\\mathrm{CO_2}$ 在标准状况下的体积。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["离子方程式", "相对量", "守恒计算"],
+    "rubric": [
+      { "text": "(1) 写出 $\\mathrm{CO_2+2OH^-=CO_3^{2-}+H_2O}$，并指明 $\\mathrm{CO_2}$ 少量时碱过量", "score": 2 },
+      { "text": "(2) 写出 $\\mathrm{CO_2+OH^-=HCO_3^-}$，并指出过量 $\\mathrm{CO_2}$ 会继续与 $\\mathrm{CO_3^{2-}}$ 反应生成 $\\mathrm{HCO_3^-}$", "score": 2 },
+      { "text": "(3) 用钠守恒列 $2x+x=0.30\\ \\mathrm{mol}$，解得 $x=0.10\\ \\mathrm{mol}$", "score": 2 },
+      { "text": "(3) 用碳守恒得 $n(\\mathrm{CO_2})=0.20\\ \\mathrm{mol}$，算出 $V=4.48\\ \\mathrm{L}$", "score": 2 }
+    ],
+    "reference": "解：(1) $\\mathrm{CO_2}$ 少量时 $\\mathrm{NaOH}$ 过量，生成正盐：\n$$\\mathrm{CO_2+2OH^-=CO_3^{2-}+H_2O}.$$\n(2) $\\mathrm{CO_2}$ 过量时最终生成酸式盐：\n$$\\mathrm{CO_2+OH^-=HCO_3^-},$$\n此时先发生的反应生成的 $\\mathrm{CO_3^{2-}}$ 也会继续转化：$\\mathrm{CO_3^{2-}+CO_2+H_2O=2HCO_3^-}$。\n(3) $n(\\mathrm{NaOH})=0.150\\ \\mathrm{L}\\times2.0\\ \\mathrm{mol\\cdot L^{-1}}=0.30\\ \\mathrm{mol}$。设 $n(\\mathrm{Na_2CO_3})=n(\\mathrm{NaHCO_3})=x$，由钠原子守恒：\n$$2x+x=0.30\\ \\mathrm{mol}\\ \\Rightarrow\\ x=0.10\\ \\mathrm{mol}.$$\n由碳原子守恒，通入的 $\\mathrm{CO_2}$ 全部进入溶液中的碳酸盐：\n$$n(\\mathrm{CO_2})=n(\\mathrm{Na_2CO_3})+n(\\mathrm{NaHCO_3})=0.10+0.10=0.20\\ \\mathrm{mol},$$\n$$V(\\mathrm{CO_2})=0.20\\ \\mathrm{mol}\\times22.4\\ \\mathrm{L\\cdot mol^{-1}}=4.48\\ \\mathrm{L}.$$",
+    "maxScore": 8,
+    "explanation": "本题考「相对量决定产物」这一离子方程式的核心难点，再用守恒法完成定量计算。判断要点：(1) 与 (2) 的差别只在 $\\mathrm{CO_2}$ 与 $\\mathrm{OH^-}$ 的配比——少量时按 $1:2$ 生成 $\\mathrm{CO_3^{2-}}$，过量时按 $1:1$ 生成 $\\mathrm{HCO_3^-}$，两个方程式都可用「以不足者为基准」来校验电荷与原子守恒。第 (3) 问不需要写总方程式再解方程组，用两条守恒最快：钠守恒定出各组分物质的量，碳守恒把 $\\mathrm{CO_2}$ 与碳酸盐直接联系起来。常见错误：① 把 (1)(2) 写反；② 第 (3) 问误把 $x$ 当作 $\\mathrm{CO_2}$ 的量，得 $0.10\\ \\mathrm{mol}$、$2.24\\ \\mathrm{L}$；③ 漏乘 $V_m$ 或直接用质量计算。可用极端情形验算：$\\mathrm{CO_2}$ 从 $0$ 增到 $0.15\\ \\mathrm{mol}$ 时产物由纯 $\\mathrm{Na_2CO_3}$ 过渡，$0.20\\ \\mathrm{mol}$ 时恰好二者等量，$0.30\\ \\mathrm{mol}$ 时全为 $\\mathrm{NaHCO_3}$，$4.48\\ \\mathrm{L}$ 落在合理区间内。"
+  }
+]

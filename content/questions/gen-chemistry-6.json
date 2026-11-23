@@ -1,0 +1,435 @@
+[
+  {
+    "id": "q-chem-electrochem-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-electrochem"],
+    "stem": "在原电池和电解池中，发生氧化反应的电极都可以称为负极。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["电极判断", "氧化反应"],
+    "answer": false,
+    "explanation": "错误。原电池中失电子、发生氧化反应的一极是负极；电解池中失电子、发生氧化反应的电极是阳极（与电源正极相连），其负极是与电源负极相连、发生还原反应的阴极。所以“发生氧化反应”只能说明它“失电子”，究竟叫负极还是阳极，要看装置类型。可与“还原反应”对照记忆：原电池正极＝电解池阴极＝得电子＝还原。"
+  },
+  {
+    "id": "q-chem-electrochem-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-electrochem"],
+    "stem": "以锌片、铜片和稀硫酸构成原电池，工作一段时间后外电路共通过 $0.20\\ \\mathrm{mol}$ 电子。则溶解的锌的物质的量为 ____ $\\mathrm{mol}$，正极上生成的氢气在标准状况下的体积为 ____ $\\mathrm{L}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电子守恒", "原电池计算"],
+    "blanks": [
+      { "accept": ["0.10", "0.1"], "hint": "负极 $\\mathrm{Zn-2e^-=Zn^{2+}}$，电子与 Zn 的比为 $2:1$" },
+      { "accept": ["2.24"], "hint": "$\\mathrm{2H^++2e^-=H_2\\uparrow}$，电子与 $\\mathrm{H_2}$ 的比为 $2:1$，再用 $V_m=22.4\\ \\mathrm{L/mol}$" }
+    ],
+    "explanation": "负极 $\\mathrm{Zn-2e^-=Zn^{2+}}$，$0.20\\ \\mathrm{mol}$ 电子对应 $0.10\\ \\mathrm{mol}$ Zn；正极 $\\mathrm{2H^++2e^-=H_2\\uparrow}$，$0.20\\ \\mathrm{mol}$ 电子生成 $0.10\\ \\mathrm{mol}$ $\\mathrm{H_2}$，$V=0.10\\times22.4=2.24\\ \\mathrm{L}$。易错点：①把电子数直接当成金属的物质的量，得 $0.20\\ \\mathrm{mol}$；②忘记 $\\mathrm{H_2}$ 是双原子分子，用 $0.20\\times22.4=4.48\\ \\mathrm{L}$；③把 Zn 的摩尔质量 $65$ 与物质的量混淆。"
+  },
+  {
+    "id": "q-chem-electrochem-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-electrochem"],
+    "stem": "将锌片和铜片用导线连接后插入盛有 $\\mathrm{CuSO_4}$ 溶液的烧杯中，构成原电池。下列描述正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["原电池现象", "电极反应"],
+    "options": [
+      { "key": "A", "text": "锌片为负极，锌片逐渐溶解，铜片上析出红色固体" },
+      { "key": "B", "text": "铜片为负极，铜片逐渐溶解，锌片上析出红色固体" },
+      { "key": "C", "text": "电子由铜片经导线流向锌片" },
+      { "key": "D", "text": "溶液中 $\\mathrm{SO_4^{2-}}$ 向铜片移动" }
+    ],
+    "answer": "A",
+    "explanation": "Zn 比 Cu 活泼，Zn 失电子作负极：$\\mathrm{Zn-2e^-=Zn^{2+}}$，锌片质量减小；$\\mathrm{Cu^{2+}}$ 在铜片上得电子析出：$\\mathrm{Cu^{2+}+2e^-=Cu}$，故铜片上出现红色固体，A 对。B 把正负极弄反。电子只在外电路中由负极（Zn）流向正极（Cu），C 方向颠倒。溶液中阴离子向负极（锌片）移动、阳离子向正极（铜片）移动，D 说反了。注意本题中铜电极本身不参与反应，只作导体承接 $\\mathrm{Cu^{2+}}$ 的还原。"
+  },
+  {
+    "id": "q-chem-electrochem-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-electrochem"],
+    "stem": "关于原电池和电解池，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["离子移动", "电子流向", "多选"],
+    "options": [
+      { "key": "A", "text": "原电池中阳离子移向正极，阴离子移向负极" },
+      { "key": "B", "text": "电解池中与电源负极相连的电极是阴极，发生还原反应" },
+      { "key": "C", "text": "原电池放电时，负极的质量一定减小" },
+      { "key": "D", "text": "电子只能通过电极和导线（外电路）移动，不能在电解质溶液中通过" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：内电路中阳离子向正极、阴离子向负极定向移动，以维持电荷平衡。B 对：阴极是还原反应场所，与电源负极相连。C 错：负极不一定减重，如铅蓄电池放电时负极 $\\mathrm{Pb}$ 转化为难溶的 $\\mathrm{PbSO_4}$ 附着在电极上，质量反而增大；燃料电池的负极是通入燃料的惰性电极，本身质量几乎不变。D 对：溶液中靠离子定向移动导电，电子不进入溶液。易错点：把“负极被氧化”直接等同于“负极变轻”。"
+  },
+  {
+    "id": "q-chem-galvanic-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-galvanic"],
+    "stem": "下列组合能构成原电池的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["形成条件", "闭合回路"],
+    "options": [
+      { "key": "A", "text": "两片铜片用导线连接后插入稀硫酸中" },
+      { "key": "B", "text": "锌片和铜片用导线连接后插入无水乙醇中" },
+      { "key": "C", "text": "锌片和石墨棒用导线连接后插入稀硫酸中" },
+      { "key": "D", "text": "锌片和铜片分别插入两个盛稀硫酸的烧杯中，用导线把两电极相连，两杯溶液之间没有盐桥" }
+    ],
+    "answer": "C",
+    "explanation": "构成原电池需同时满足：两个活泼性不同的电极、电解质溶液、闭合回路、能自发进行的氧化还原反应。A 两极材料相同，无电势差；B 乙醇是非电解质，溶液不导电；D 缺少盐桥，两溶液不连通，内电路断开，只有外电路不能构成闭合回路；C 中 Zn 与石墨活泼性不同，稀硫酸为电解质，Zn 失电子被氧化，$\\mathrm{H^+}$ 在石墨上得电子，可以构成原电池。易错点：只注意“两个电极＋导线”，忽略“内电路也要闭合”。"
+  },
+  {
+    "id": "q-chem-galvanic-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-galvanic"],
+    "stem": "由 $\\mathrm{Zn|ZnSO_4}$ 半电池与 $\\mathrm{Cu|CuSO_4}$ 半电池经盐桥连接组成原电池。工作时，盐桥中的阳离子移向____（填“锌”或“铜”）电极；若外电路转移 $0.020\\ \\mathrm{mol}$ 电子，锌电极质量减少 ____ $\\mathrm{g}$（$M(\\mathrm{Zn})=65\\ \\mathrm{g\\cdot mol^{-1}}$）。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["盐桥", "电荷平衡", "质量计算"],
+    "blanks": [
+      { "accept": ["铜", "铜电极", "Cu"], "hint": "阳离子移向正极区，$\\mathrm{Cu}$ 是正极" },
+      { "accept": ["0.65"], "hint": "$0.020\\ \\mathrm{mol}$ 电子对应 $0.010\\ \\mathrm{mol}$ Zn" }
+    ],
+    "explanation": "Zn 作负极失去电子，$\\mathrm{Zn^{2+}}$ 增多使溶液正电荷过剩；$\\mathrm{Cu^{2+}}$ 在铜电极上得电子析出，正电荷减少。盐桥中的阳离子（如 $\\mathrm{K^+}$）移向正极区（铜半电池）、阴离子移向负极区，使两溶液都保持电中性并接通内电路，故第一空填“铜”。$0.020\\ \\mathrm{mol}$ 电子对应 $0.010\\ \\mathrm{mol}$ Zn 溶解，$m=0.010\\times65=0.65\\ \\mathrm{g}$。易错点：①把阳离子移动方向记反；②忽略电子与 Zn 的 $2:1$ 关系，算成 $1.30\\ \\mathrm{g}$。"
+  },
+  {
+    "id": "q-chem-galvanic-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-galvanic"],
+    "stem": "$\\mathrm{Zn|ZnSO_4||CuSO_4|Cu}$ 原电池工作一段时间后，锌电极质量减少 $6.5\\ \\mathrm{g}$（$M(\\mathrm{Zn})=65\\ \\mathrm{g\\cdot mol^{-1}}$）。则外电路中通过的电子物质的量为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["原电池计算", "电子数"],
+    "options": [
+      { "key": "A", "text": "$0.05\\ \\mathrm{mol}$" },
+      { "key": "B", "text": "$0.10\\ \\mathrm{mol}$" },
+      { "key": "C", "text": "$0.20\\ \\mathrm{mol}$" },
+      { "key": "D", "text": "$0.40\\ \\mathrm{mol}$" }
+    ],
+    "answer": "C",
+    "explanation": "$n(\\mathrm{Zn})=\\dfrac{6.5}{65}=0.10\\ \\mathrm{mol}$，负极反应 $\\mathrm{Zn-2e^-=Zn^{2+}}$，每溶解 $1\\ \\mathrm{mol}$ Zn 转移 $2\\ \\mathrm{mol}$ 电子，故 $n(\\mathrm{e^-})=0.20\\ \\mathrm{mol}$，C 正确。A 是把 $n(\\mathrm{Zn})$ 又除以 2；B 是直接把 Zn 的物质的量当作电子数（漏乘 2）；D 是错误地乘了 4。核对思路：先用 $n=m/M$ 求金属物质的量，再乘以每摩尔金属对应的电子数，最后与轨道中“转移电子总数”对应。"
+  },
+  {
+    "id": "q-chem-galvanic-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-galvanic"],
+    "stem": "关于原电池的构成与工作原理，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["正负极判断", "内电路", "多选"],
+    "options": [
+      { "key": "A", "text": "原电池中，正极材料的活泼性一定弱于负极材料" },
+      { "key": "B", "text": "原电池放电时，溶液中的阳离子向正极移动" },
+      { "key": "C", "text": "原电池的正极是电子流入的一极，该极上发生还原反应" },
+      { "key": "D", "text": "在 $\\mathrm{Zn-Cu}$ 稀硫酸原电池中，铜电极本身不参与电极反应，只起导电作用" }
+    ],
+    "answer": ["B", "C", "D"],
+    "explanation": "A 错：燃料电池的正极是通入 $\\mathrm{O_2}$ 的惰性电极（石墨、铂等），谈不上“比负极活泼”；判断正负极的依据是反应类型（失电子为负极），材料的活泼性顺序只在“两种金属作电极”这一特殊情形下才成立。B 对：内电路中阳离子向正极迁移。C 对：电子由负极经外电路流入正极，正极上氧化剂得电子被还原。D 对：稀硫酸中铜不反应，铜电极只提供 $\\mathrm{H^+}$ 得电子的场所并传导电子。易错点：把“金属活动性顺序”当成判断一切原电池正负极的万能规则。"
+  },
+  {
+    "id": "q-chem-electrolysis-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-electrolysis"],
+    "stem": "电解池中与电源正极相连的电极是阳极，发生氧化反应；电解时溶液中的阳离子向阴极移动。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["阴阳极", "离子移动"],
+    "answer": true,
+    "explanation": "正确。电解池中阳极接电源正极，电子由阳极流出，阳极上物质失电子被氧化；阴极接电源负极，溶液中的阳离子移向阴极并在阴极得电子被还原。与原电池对照：原电池“负极＝氧化”，电解池“阳极＝氧化”，名称不同、本质相同（都是失电子）。易错点：把电解池的阳极误称为负极，或认为阳离子移向阳极。"
+  },
+  {
+    "id": "q-chem-electrolysis-2",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-electrolysis"],
+    "stem": "用石墨作电极，分别电解下列溶液，通电一段时间后，阴极上析出金属单质的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["放电顺序", "阴极产物"],
+    "options": [
+      { "key": "A", "text": "$\\mathrm{NaCl}$ 溶液" },
+      { "key": "B", "text": "$\\mathrm{CuSO_4}$ 溶液" },
+      { "key": "C", "text": "稀硫酸" },
+      { "key": "D", "text": "$\\mathrm{NaOH}$ 溶液" }
+    ],
+    "answer": "B",
+    "explanation": "阴极上阳离子得电子，水溶液中常见阳离子的放电顺序大致为 $\\mathrm{Ag^+>Cu^{2+}>H^+>Na^+}$（受浓度和电极材料影响，但 $\\mathrm{Na^+}$ 在水溶液中极难放电）。$\\mathrm{NaCl}$ 溶液、稀硫酸、$\\mathrm{NaOH}$ 溶液的阴极都是 $\\mathrm{H^+}$ 得电子放出 $\\mathrm{H_2}$：$\\mathrm{2H_2O+2e^-=H_2\\uparrow+2OH^-}$；只有 $\\mathrm{CuSO_4}$ 溶液的阴极是 $\\mathrm{Cu^{2+}+2e^-=Cu}$，析出红色铜。易错点：误以为含 $\\mathrm{Na^+}$ 的溶液阴极会析出钠；实际要电解熔融 $\\mathrm{NaCl}$ 才能得到金属钠。"
+  },
+  {
+    "id": "q-chem-electrolysis-3",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-electrolysis"],
+    "stem": "用惰性电极电解足量 $\\mathrm{CuSO_4}$ 溶液，当阴极增重 $3.2\\ \\mathrm{g}$ 时（$M(\\mathrm{Cu})=64\\ \\mathrm{g\\cdot mol^{-1}}$），电路中转移电子 ____ $\\mathrm{mol}$，阳极上放出的氧气在标准状况下的体积为 ____ $\\mathrm{L}$。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["电解计算", "电子守恒"],
+    "blanks": [
+      { "accept": ["0.10", "0.1"], "hint": "$n(\\mathrm{Cu})=0.050\\ \\mathrm{mol}$，$\\mathrm{Cu^{2+}+2e^-=Cu}$" },
+      { "accept": ["0.56"], "hint": "$\\mathrm{2H_2O-4e^-=O_2\\uparrow+4H^+}$，电子与 $\\mathrm{O_2}$ 的比为 $4:1$" }
+    ],
+    "explanation": "$n(\\mathrm{Cu})=\\dfrac{3.2}{64}=0.050\\ \\mathrm{mol}$；阴极 $\\mathrm{Cu^{2+}+2e^-=Cu}$，故 $n(\\mathrm{e^-})=0.10\\ \\mathrm{mol}$。阳极 $\\mathrm{2H_2O-4e^-=O_2\\uparrow+4H^+}$，$n(\\mathrm{O_2})=\\dfrac{0.10}{4}=0.025\\ \\mathrm{mol}$，$V=0.025\\times22.4=0.56\\ \\mathrm{L}$。易错点：①忘记 $\\mathrm{Cu^{2+}}$ 得 2 个电子，算成 $0.05\\ \\mathrm{mol}$；②阳极按每分子 2 个电子算，得 $1.12\\ \\mathrm{L}$；③忽略“足量 $\\mathrm{CuSO_4}$”，以为阳极会析出铜。"
+  },
+  {
+    "id": "q-chem-electrolysis-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-electrolysis"],
+    "stem": "关于电解原理的应用，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["电解精炼", "电镀", "多选"],
+    "options": [
+      { "key": "A", "text": "电解精炼铜时，粗铜作阳极、纯铜作阴极，电解质溶液中 $\\mathrm{Cu^{2+}}$ 的浓度基本不变" },
+      { "key": "B", "text": "电镀时，镀件作阴极，镀层金属作阳极，电镀液中含有镀层金属的离子" },
+      { "key": "C", "text": "用惰性电极电解饱和食盐水，阳极上产生氢气" },
+      { "key": "D", "text": "电解池工作时，电子由电源负极经外电路流向阴极，再由阳极经外电路流回电源正极" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：阳极粗铜溶解（$\\mathrm{Cu-2e^-=Cu^{2+}}$），阴极纯铜析出（$\\mathrm{Cu^{2+}+2e^-=Cu}$），杂质的影响使 $c(\\mathrm{Cu^{2+}})$ 略有变化，但总体基本不变。B 对：电镀要求镀层金属阳离子在镀件上还原，故镀件接电源负极作阴极。C 错：饱和食盐水的阳极是 $\\mathrm{Cl^-}$ 放电，$\\mathrm{2Cl^--2e^-=Cl_2\\uparrow}$；阴极才放出 $\\mathrm{H_2}$，总反应为 $\\mathrm{2NaCl+2H_2O=2NaOH+H_2\\uparrow+Cl_2\\uparrow}$（电解条件）。D 对：电子不进入溶液，只能在外电路与电极中移动。易错点：把阴阳极产物记混。"
+  },
+  {
+    "id": "q-chem-electrode-equation-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-electrode-equation"],
+    "stem": "关于电极反应式的书写，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["书写规则", "介质"],
+    "options": [
+      { "key": "A", "text": "碱性介质中配平电极反应式时，用 $\\mathrm{H^+}$ 和 $\\mathrm{H_2O}$ 补平原子" },
+      { "key": "B", "text": "只要原子守恒，电极反应式两边的电荷可以不相等" },
+      { "key": "C", "text": "酸性介质中用 $\\mathrm{H_2O}$ 和 $\\mathrm{H^+}$ 配平原子，并保证两边电荷代数和相等" },
+      { "key": "D", "text": "同一电极反应式在酸性、碱性介质中的书写形式相同" }
+    ],
+    "answer": "C",
+    "explanation": "书写步骤：先定电极、定介质、定得失电子数，再补 H、O 并检查电荷守恒。酸性介质用 $\\mathrm{H^+}$ 与 $\\mathrm{H_2O}$ 配平（如 $\\mathrm{O_2+4H^++4e^-=2H_2O}$），碱性介质用 $\\mathrm{OH^-}$ 与 $\\mathrm{H_2O}$ 配平（如 $\\mathrm{O_2+2H_2O+4e^-=4OH^-}$），故 A 错、D 错（介质不同，产物与配平离子都不同）。B 错：电极反应式必须同时满足原子守恒与电荷守恒，这也是检查书写是否正确的主要手段。"
+  },
+  {
+    "id": "q-chem-electrode-equation-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-electrode-equation"],
+    "stem": "以 KOH 溶液为电解质的甲烷燃料电池，负极反应式为 $\\mathrm{CH_4+10OH^--8e^-=CO_3^{2-}+7H_2O}$。标准状况下消耗 $2.24\\ \\mathrm{L}$ $\\mathrm{CH_4}$ 时，外电路转移电子 ____ $\\mathrm{mol}$。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["燃料电池", "电子转移"],
+    "blanks": [
+      { "accept": ["0.80", "0.8"], "hint": "$1\\ \\mathrm{mol}$ $\\mathrm{CH_4}$ 失去 $8\\ \\mathrm{mol}$ 电子" }
+    ],
+    "explanation": "$n(\\mathrm{CH_4})=\\dfrac{2.24}{22.4}=0.10\\ \\mathrm{mol}$，由负极反应式知 $1\\ \\mathrm{mol}$ $\\mathrm{CH_4}$ 失去 $8\\ \\mathrm{mol}$ 电子，故 $n(\\mathrm{e^-})=0.80\\ \\mathrm{mol}$。也可用化合价验证：$\\mathrm{CH_4}$ 中 C 为 $-4$ 价，$\\mathrm{CO_3^{2-}}$ 中 C 为 $+4$ 价，升 8 价即失 8 个电子。易错点：①只按 C 升 4 价算，得 $0.40\\ \\mathrm{mol}$；②把体积当成质量；③误以为电子数等于气体的物质的量（$0.10\\ \\mathrm{mol}$）。"
+  },
+  {
+    "id": "q-chem-electrode-equation-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-electrode-equation"],
+    "stem": "下列电极反应式书写正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["电极反应式", "正误判断"],
+    "options": [
+      { "key": "A", "text": "钢铁发生吸氧腐蚀时，正极：$\\mathrm{O_2+2H_2O+4e^-=4OH^-}$" },
+      { "key": "B", "text": "碱性锌锰电池负极：$\\mathrm{Zn-2e^-=Zn^{2+}}$" },
+      { "key": "C", "text": "酸性氢氧燃料电池正极：$\\mathrm{O_2+2H_2O+4e^-=4OH^-}$" },
+      { "key": "D", "text": "用惰性电极电解饱和食盐水，阳极：$\\mathrm{2H_2O-2e^-=H_2\\uparrow+2OH^-}$" }
+    ],
+    "answer": "A",
+    "explanation": "A 正确：中性或弱酸性环境中钢铁发生吸氧腐蚀，$\\mathrm{O_2}$ 在正极得电子并结合水生成 $\\mathrm{OH^-}$，原子与电荷均守恒。B 错：碱性介质中 $\\mathrm{Zn^{2+}}$ 会与 $\\mathrm{OH^-}$ 结合，应写成 $\\mathrm{Zn+2OH^--2e^-=ZnO+H_2O}$。C 错：酸性介质中不能出现 $\\mathrm{OH^-}$，正确式为 $\\mathrm{O_2+4H^++4e^-=2H_2O}$。D 错：阳极是 $\\mathrm{Cl^-}$ 放电，$\\mathrm{2Cl^--2e^-=Cl_2\\uparrow}$，D 所写的是阴极反应。判断技巧：先看产物与介质是否匹配，再查电荷守恒。"
+  },
+  {
+    "id": "q-chem-electrode-equation-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-electrode-equation"],
+    "stem": "关于电极反应式的书写与配平，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["配平", "电荷守恒", "多选"],
+    "options": [
+      { "key": "A", "text": "书写前应先确定电极、介质和得失电子数，再配平原子与电荷" },
+      { "key": "B", "text": "原电池的负极反应式与正极反应式中，转移电子数必须相等，相加才能得到总反应式" },
+      { "key": "C", "text": "碱性条件下 $\\mathrm{Fe(OH)_2}$ 被氧化为 $\\mathrm{Fe(OH)_3}$ 的电极反应式为 $\\mathrm{Fe(OH)_2+OH^--e^-=Fe(OH)_3}$" },
+      { "key": "D", "text": "金属电极（如 Zn、Cu）在电极反应式中一律写成离子形式" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：这是书写电极反应式的固定流程，顺序颠倒是常见失分原因。B 对：两极转移电子数相等，相加时电子才能消去，得到不带电子的总反应式。C 对：左边电荷为 $-1$，右边为 $-1$，H、O 原子数也相等，配平正确。D 错：金属电极本身是固体单质，应写化学式（如 $\\mathrm{Zn-2e^-=Zn^{2+}}$），只有溶液中的易溶强电解质才拆成离子；难溶物、气体、水同样不能拆。"
+  },
+  {
+    "id": "q-chem-corrosion-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-corrosion"],
+    "stem": "钢铁在潮湿的空气中主要发生析氢腐蚀，其负极反应式为 $\\mathrm{Fe-2e^-=Fe^{2+}}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["吸氧腐蚀", "析氢腐蚀"],
+    "answer": false,
+    "explanation": "错误。钢铁在潮湿空气中主要发生吸氧腐蚀（正极 $\\mathrm{O_2+2H_2O+4e^-=4OH^-}$），只有在酸性较强的环境中才以析氢腐蚀为主（正极 $\\mathrm{2H^++2e^-=H_2\\uparrow}$）。两种腐蚀的负极反应相同，都是 $\\mathrm{Fe-2e^-=Fe^{2+}}$，所以题中负极反应式本身没错，错在“主要发生析氢腐蚀”。易错点：见到“潮湿空气”就写析氢腐蚀。"
+  },
+  {
+    "id": "q-chem-corrosion-2",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-corrosion"],
+    "stem": "钢铁在潮湿的空气中发生电化学腐蚀时，正极的电极反应式是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["吸氧腐蚀", "正极反应"],
+    "options": [
+      { "key": "A", "text": "$\\mathrm{2H^++2e^-=H_2\\uparrow}$" },
+      { "key": "B", "text": "$\\mathrm{O_2+2H_2O+4e^-=4OH^-}$" },
+      { "key": "C", "text": "$\\mathrm{Fe-2e^-=Fe^{2+}}$" },
+      { "key": "D", "text": "$\\mathrm{4OH^--4e^-=O_2\\uparrow+2H_2O}$" }
+    ],
+    "answer": "B",
+    "explanation": "潮湿空气呈中性或弱酸性，发生吸氧腐蚀：负极 $\\mathrm{Fe-2e^-=Fe^{2+}}$，正极 $\\mathrm{O_2+2H_2O+4e^-=4OH^-}$，B 正确。A 是析氢腐蚀（强酸性介质）的正极反应；C 是负极反应；D 是 $\\mathrm{OH^-}$ 在阳极放电的形式，与腐蚀过程方向相反。腐蚀产物还会继续被氧化：$\\mathrm{4Fe(OH)_2+O_2+2H_2O=4Fe(OH)_3}$，脱水后生成铁锈（主要成分为 $\\mathrm{Fe_2O_3\\cdot xH_2O}$）。"
+  },
+  {
+    "id": "q-chem-corrosion-3",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-corrosion"],
+    "stem": "牺牲阳极的阴极保护法中，被保护的钢铁设备作____极；外加电流法中，被保护的金属应与电源的____极相连。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["金属防护", "牺牲阳极", "外加电流"],
+    "blanks": [
+      { "accept": ["正", "正极"], "hint": "活泼金属作负极被腐蚀，钢铁作正极受保护" },
+      { "accept": ["负", "负极"], "hint": "被保护金属作阴极，接电源负极" }
+    ],
+    "explanation": "牺牲阳极法把更活泼的金属（Zn、Mg 等）与钢铁相连，活泼金属作负极被腐蚀，钢铁作正极（阴极）受到保护；外加电流法把被保护金属接电源负极，使其成为阴极、表面富集电子而不被氧化，另用石墨或废铁作阳极。易错点：把“牺牲阳极”理解成“牺牲被保护的金属”，以及把外加电流法的接线极性弄反（接正极会加速腐蚀）。"
+  },
+  {
+    "id": "q-chem-corrosion-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-corrosion"],
+    "stem": "关于金属的腐蚀与防护，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["腐蚀类型", "镀层", "多选"],
+    "options": [
+      { "key": "A", "text": "化学腐蚀与电化学腐蚀常同时发生，其中电化学腐蚀更普遍、危害更大" },
+      { "key": "B", "text": "镀锌铁板镀层破损后，锌比铁活泼先被腐蚀，铁仍受到保护" },
+      { "key": "C", "text": "镀锡铁板镀层破损后，由于锡比铁活泼，铁仍受到保护" },
+      { "key": "D", "text": "在钢中加入铬、镍等元素制成不锈钢，可提高其耐腐蚀性" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：电化学腐蚀形成原电池，腐蚀速率远大于化学腐蚀。B 对：Zn 比 Fe 活泼，破损处 Zn 作负极被腐蚀，Fe 作正极被保护，这正是镀锌板（白铁）耐用的原因。C 错：Sn 比 Fe 不活泼，破损后 Fe 作负极被腐蚀，腐蚀反而加快。D 对：合金化改变表面组成，使表面形成致密氧化膜，提高耐蚀性。易错点：只看“镀层是否破损”，不看两种金属的相对活泼性。"
+  },
+  {
+    "id": "q-chem-new-battery-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-new-battery"],
+    "stem": "以 KOH 溶液为电解质溶液的氢氧燃料电池工作时，下列判断正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["燃料电池", "碱性介质"],
+    "options": [
+      { "key": "A", "text": "通入氧气的一极发生氧化反应" },
+      { "key": "B", "text": "负极反应式为 $\\mathrm{H_2+2OH^--2e^-=2H_2O}$" },
+      { "key": "C", "text": "溶液中的 $\\mathrm{OH^-}$ 向正极移动" },
+      { "key": "D", "text": "每消耗 $1\\ \\mathrm{mol}$ $\\mathrm{H_2}$，外电路转移 $1\\ \\mathrm{mol}$ 电子" }
+    ],
+    "answer": "B",
+    "explanation": "燃料电池中燃料在负极被氧化、氧化剂在正极被还原，故 A 错（通 $\\mathrm{O_2}$ 的一极是正极）。B 对：碱性介质中 $\\mathrm{H_2}$ 失电子后与 $\\mathrm{OH^-}$ 结合成水，两边电荷均为 $-2$，原子守恒。C 错：阴离子向负极移动、阳离子向正极移动。D 错：$\\mathrm{H_2}$ 中 H 由 $0$ 价变为 $+1$ 价，$1\\ \\mathrm{mol}$ $\\mathrm{H_2}$ 转移 $2\\ \\mathrm{mol}$ 电子。总反应为 $\\mathrm{2H_2+O_2=2H_2O}$，生成的水使 KOH 溶液变稀，pH 逐渐减小。"
+  },
+  {
+    "id": "q-chem-new-battery-2",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-new-battery"],
+    "stem": "某二次电池放电时的总反应为 $\\mathrm{Pb+PbO_2+2H_2SO_4=2PbSO_4+2H_2O}$。下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["二次电池", "铅蓄电池", "充放电"],
+    "options": [
+      { "key": "A", "text": "放电时 $\\mathrm{PbO_2}$ 作负极，被氧化" },
+      { "key": "B", "text": "放电时每转移 $2\\ \\mathrm{mol}$ 电子，消耗 $2\\ \\mathrm{mol}$ $\\mathrm{H_2SO_4}$" },
+      { "key": "C", "text": "充电时，$\\mathrm{Pb}$ 电极应与电源正极相连" },
+      { "key": "D", "text": "放电过程中，溶液中 $\\mathrm{H_2SO_4}$ 的浓度增大" }
+    ],
+    "answer": "B",
+    "explanation": "放电时 Pb 失电子作负极：$\\mathrm{Pb-2e^-+SO_4^{2-}=PbSO_4}$；$\\mathrm{PbO_2}$ 得电子作正极：$\\mathrm{PbO_2+2e^-+4H^++SO_4^{2-}=PbSO_4+2H_2O}$，A 错（正极发生还原）。由总反应知转移 $2\\ \\mathrm{mol}$ 电子时消耗 $2\\ \\mathrm{mol}$ $\\mathrm{H_2SO_4}$，B 对。充电时原电池变电解池，放电时的负极 Pb 作阴极、接电源负极，C 错。放电消耗 $\\mathrm{H_2SO_4}$ 又生成水，$c(\\mathrm{H_2SO_4})$ 减小，D 错。"
+  },
+  {
+    "id": "q-chem-new-battery-3",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-new-battery"],
+    "stem": "以 KOH 溶液为电解质的甲烷燃料电池，负极反应式为 $\\mathrm{CH_4+10OH^--8e^-=CO_3^{2-}+7H_2O}$。标准状况下消耗 $2.24\\ \\mathrm{L}$ $\\mathrm{CH_4}$ 时，外电路转移电子 ____ $\\mathrm{mol}$；正极消耗的 $\\mathrm{O_2}$ 为 ____ $\\mathrm{mol}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["燃料电池计算", "电子守恒"],
+    "blanks": [
+      { "accept": ["0.80", "0.8"], "hint": "$1\\ \\mathrm{mol}$ $\\mathrm{CH_4}$ 失去 $8\\ \\mathrm{mol}$ 电子" },
+      { "accept": ["0.20", "0.2"], "hint": "$\\mathrm{O_2+2H_2O+4e^-=4OH^-}$" }
+    ],
+    "explanation": "$n(\\mathrm{CH_4})=0.10\\ \\mathrm{mol}$，由负极反应式知 $1\\ \\mathrm{mol}$ $\\mathrm{CH_4}$ 转移 $8\\ \\mathrm{mol}$ 电子，故 $n(\\mathrm{e^-})=0.80\\ \\mathrm{mol}$。正极 $\\mathrm{O_2+2H_2O+4e^-=4OH^-}$，$n(\\mathrm{O_2})=\\dfrac{0.80}{4}=0.20\\ \\mathrm{mol}$。也可由总反应 $\\mathrm{CH_4+2O_2+2OH^-=CO_3^{2-}+3H_2O}$ 直接读出 $\\mathrm{CH_4}$ 与 $\\mathrm{O_2}$ 为 $1:2$。易错点：①把 C 的化合价变化算成 4；②忘记 $\\mathrm{O_2}$ 得 4 个电子，算成 $0.80\\ \\mathrm{mol}$；③按 $1:1$ 直接算出 $0.10\\ \\mathrm{mol}$。"
+  },
+  {
+    "id": "q-chem-new-battery-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-new-battery"],
+    "stem": "关于新型电池与燃料电池，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["燃料电池", "锂离子电池", "多选"],
+    "options": [
+      { "key": "A", "text": "燃料电池中，燃料在负极发生氧化反应，氧化剂在正极发生还原反应" },
+      { "key": "B", "text": "燃料电池不经过燃烧（热机）过程，能量转化效率高于燃料直接燃烧发电" },
+      { "key": "C", "text": "锂离子电池放电时，$\\mathrm{Li^+}$ 从负极材料中脱出并嵌入正极材料" },
+      { "key": "D", "text": "二次电池充电时，放电时的负极作阳极" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：这是燃料电池的通则，与电解质种类无关，介质只影响电极反应式的写法。B 对：燃料电池把化学能直接转化为电能，不受热机效率（卡诺循环）的限制。C 对：锂离子电池放电时 $\\mathrm{Li^+}$ 从负极（如石墨层间）脱嵌，经电解液迁移并嵌入正极材料（如 $\\mathrm{LiCoO_2}$），充电时逆向进行。D 错：充电时放电负极作阴极、接电源负极，放电正极作阳极，故“负极作阳极”错误。易错点：把充电时的电极名称与放电时直接对应。"
+  },
+  {
+    "id": "q-chem-galvanic-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-galvanic", "chem-electrochem"],
+    "stem": "某同学用锌片、铜片、$1.0\\ \\mathrm{mol\\cdot L^{-1}}$ 的 $\\mathrm{ZnSO_4}$ 溶液、$1.0\\ \\mathrm{mol\\cdot L^{-1}}$ 的 $\\mathrm{CuSO_4}$ 溶液和盐桥组装原电池：Zn 片插入 $\\mathrm{ZnSO_4}$ 溶液，Cu 片插入 $\\mathrm{CuSO_4}$ 溶液，两溶液用盐桥连接，Zn、Cu 两电极用导线连接。\n(1) 指出该电池的正、负极，并写出两极的电极反应式和总反应式。\n(2) 说明盐桥的作用。\n(3) 若外电路中通过 $0.20\\ \\mathrm{mol}$ 电子，求负极和正极的质量变化（$M(\\mathrm{Zn})=65\\ \\mathrm{g\\cdot mol^{-1}}$，$M(\\mathrm{Cu})=64\\ \\mathrm{g\\cdot mol^{-1}}$）。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["原电池", "盐桥", "电子守恒"],
+    "rubric": [
+      { "text": "判断 Zn 为负极、Cu 为正极，并写出负极反应式 $\\mathrm{Zn-2e^-=Zn^{2+}}$", "score": 2 },
+      { "text": "写出正极反应式 $\\mathrm{Cu^{2+}+2e^-=Cu}$ 与总反应式 $\\mathrm{Zn+Cu^{2+}=Zn^{2+}+Cu}$", "score": 2 },
+      { "text": "说明盐桥既接通内电路形成闭合回路，又通过离子迁移使两溶液保持电中性", "score": 2 },
+      { "text": "由 $0.20\\ \\mathrm{mol}$ 电子算出 $0.10\\ \\mathrm{mol}$ Zn 溶解、质量减少 $6.5\\ \\mathrm{g}$，$0.10\\ \\mathrm{mol}$ Cu 析出、质量增加 $6.4\\ \\mathrm{g}$", "score": 2 }
+    ],
+    "reference": "(1) Zn 比 Cu 活泼，Zn 失电子被氧化，作负极：\n$$\\mathrm{Zn-2e^-=Zn^{2+}}$$\n$\\mathrm{Cu^{2+}}$ 在 Cu 电极上得电子被还原，Cu 作正极：\n$$\\mathrm{Cu^{2+}+2e^-=Cu}$$\n总反应：\n$$\\mathrm{Zn+Cu^{2+}=Zn^{2+}+Cu}$$\n(2) 盐桥中的阳离子移向正极区（$\\mathrm{CuSO_4}$ 溶液）、阴离子移向负极区（$\\mathrm{ZnSO_4}$ 溶液），中和两极区积累的电荷，使两溶液保持电中性；同时接通内电路，与外电路一起构成闭合回路，保证电池持续放电。\n(3) $n(\\mathrm{e^-})=0.20\\ \\mathrm{mol}$。\n负极：$n(\\mathrm{Zn})=\\dfrac{0.20}{2}=0.10\\ \\mathrm{mol}$，$m=0.10\\times65=6.5\\ \\mathrm{g}$，即负极质量减少 $6.5\\ \\mathrm{g}$；\n正极：$n(\\mathrm{Cu})=0.10\\ \\mathrm{mol}$，$m=0.10\\times64=6.4\\ \\mathrm{g}$，即正极质量增加 $6.4\\ \\mathrm{g}$。",
+    "maxScore": 8,
+    "explanation": "本题把原电池的构成、电极判断、盐桥原理与电子守恒计算串在一起。三个要点：①电极判断看反应类型而不是看导线接在哪边——失电子的 Zn 是负极；②盐桥有“接通内电路”和“维持电中性”两个作用，只答“导电”并不完整；③两极转移电子数相等，用 $n(\\mathrm{e^-})$ 除以 2 得金属的物质的量，再乘摩尔质量，忘记除以 2 会得 $13.0\\ \\mathrm{g}$、$12.8\\ \\mathrm{g}$。补充：若把 Zn、Cu 直接插入同一 $\\mathrm{CuSO_4}$ 溶液（无盐桥），Zn 表面会直接发生置换反应，虽仍有电流但效率低，这正是双液电池加盐桥更接近理想原电池的原因。"
+  },
+  {
+    "id": "q-chem-electrode-equation-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-electrode-equation", "chem-electrolysis"],
+    "stem": "用惰性电极电解 $500\\ \\mathrm{mL}$ $0.40\\ \\mathrm{mol\\cdot L^{-1}}$ 的 $\\mathrm{CuSO_4}$ 溶液（忽略溶液体积变化）。\n(1) 写出阳极、阴极的电极反应式和电解的总反应方程式。\n(2) 当阴极增重 $1.28\\ \\mathrm{g}$ 时，阳极上生成的气体在标准状况下的体积是多少？\n(3) 此时溶液中 $c(\\mathrm{H^+})$ 是多少（假设只发生上述电解反应）？",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["电解", "电极反应式", "溶液pH"],
+    "rubric": [
+      { "text": "写出阴极 $\\mathrm{Cu^{2+}+2e^-=Cu}$ 与阳极 $\\mathrm{2H_2O-4e^-=O_2\\uparrow+4H^+}$", "score": 2 },
+      { "text": "写出总反应 $\\mathrm{2CuSO_4+2H_2O=2Cu+O_2\\uparrow+2H_2SO_4}$（电解条件），或离子形式 $\\mathrm{2Cu^{2+}+2H_2O=2Cu+O_2\\uparrow+4H^+}$", "score": 2 },
+      { "text": "由 $1.28\\ \\mathrm{g}$ Cu 得 $n(\\mathrm{Cu})=0.020\\ \\mathrm{mol}$、$n(\\mathrm{e^-})=0.040\\ \\mathrm{mol}$，进而 $n(\\mathrm{O_2})=0.010\\ \\mathrm{mol}$、$V=0.224\\ \\mathrm{L}$", "score": 2 },
+      { "text": "由阳极反应得 $n(\\mathrm{H^+})=0.040\\ \\mathrm{mol}$，$c(\\mathrm{H^+})=\\dfrac{0.040}{0.500}=0.080\\ \\mathrm{mol\\cdot L^{-1}}$", "score": 2 }
+    ],
+    "reference": "(1) 阴极：$\\mathrm{Cu^{2+}+2e^-=Cu}$；阳极：$\\mathrm{2H_2O-4e^-=O_2\\uparrow+4H^+}$。\n总反应：$\\mathrm{2CuSO_4+2H_2O=2Cu+O_2\\uparrow+2H_2SO_4}$（电解条件），离子形式为 $\\mathrm{2Cu^{2+}+2H_2O=2Cu+O_2\\uparrow+4H^+}$。\n(2) $n(\\mathrm{Cu})=\\dfrac{1.28}{64}=0.020\\ \\mathrm{mol}$，$n(\\mathrm{e^-})=2\\times0.020=0.040\\ \\mathrm{mol}$。\n由 $\\mathrm{2H_2O-4e^-=O_2\\uparrow+4H^+}$ 得 $n(\\mathrm{O_2})=\\dfrac{0.040}{4}=0.010\\ \\mathrm{mol}$，\n$$V(\\mathrm{O_2})=0.010\\times22.4=0.224\\ \\mathrm{L}.$$\n(3) 阳极每转移 $1\\ \\mathrm{mol}$ 电子生成 $1\\ \\mathrm{mol}$ $\\mathrm{H^+}$，故 $n(\\mathrm{H^+})=0.040\\ \\mathrm{mol}$，\n$$c(\\mathrm{H^+})=\\frac{0.040\\ \\mathrm{mol}}{0.500\\ \\mathrm{L}}=0.080\\ \\mathrm{mol\\cdot L^{-1}}.$$",
+    "maxScore": 8,
+    "explanation": "本题按“判断放电物质→写电极反应式→电子守恒计算”的顺序设问。①$\\mathrm{CuSO_4}$ 溶液中阴极是 $\\mathrm{Cu^{2+}}$ 放电（析铜），阳极是水（$\\mathrm{OH^-}$）放电（放氧），所以溶液逐渐变酸，这是总反应中出现 $\\mathrm{H_2SO_4}$ 的原因；②“阴极增重”是解题入口，$n(\\mathrm{e^-})=2n(\\mathrm{Cu})=4n(\\mathrm{O_2})$，一个电子守恒式同时解决第 (2) 问；③$\\mathrm{H^+}$ 全部来自阳极反应，$n(\\mathrm{H^+})=n(\\mathrm{e^-})$，不要用总反应中 $\\mathrm{Cu}$ 与 $\\mathrm{H^+}$ 的计量数硬凑。易错点：①把阳极写成 $\\mathrm{Cu-2e^-=Cu^{2+}}$（那是电解精炼铜时粗铜作阳极的情形，本题阳极为惰性电极）；②误按 $2\\ \\mathrm{e^-}$ 对应 $1\\ \\mathrm{O_2}$，得 $0.448\\ \\mathrm{L}$；③算出 $0.040\\ \\mathrm{mol}$ 后忘记除以溶液体积 $0.500\\ \\mathrm{L}$。可验算：$n(\\mathrm{CuSO_4})=0.20\\ \\mathrm{mol}$，远大于消耗的 $0.020\\ \\mathrm{mol}$，“只发生上述反应”的前提成立。"
+  }
+]

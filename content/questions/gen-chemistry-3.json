@@ -1,0 +1,367 @@
+[
+  {
+    "id": "q-chem-reaction-types-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-reaction-types"],
+    "stem": "判断：置换反应中一定有单质参加并有单质生成，因此置换反应一定是氧化还原反应；而复分解反应中各元素化合价均不改变，所以复分解反应一定不是氧化还原反应。",
+    "answer": true,
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["反应类型", "置换反应", "复分解反应"],
+    "explanation": "正确。置换反应的通式是 $\\mathrm{A+BC=AC+B}$，单质中元素的化合价为 0，进入化合物后必然取非零价（或反之），化合价一定发生变化，故一定是氧化还原反应。复分解反应是两种化合物相互交换成分生成另外两种化合物，如 $\\mathrm{NaOH+HCl=NaCl+H_2O}$、$\\mathrm{AgNO_3+NaCl=AgCl\\downarrow+NaNO_3}$，反应前后各元素化合价都不变，因此一定不是氧化还原反应。易错点：把“有单质参加”当作氧化还原反应的判据——$\\mathrm{3O_2=2O_3}$ 有单质参加却没有化合价变化，并不是氧化还原反应；判断的唯一标准是“有无元素化合价的升降（电子转移）”。"
+  },
+  {
+    "id": "q-chem-reaction-types-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-reaction-types"],
+    "stem": "复分解反应能够发生的条件是：生成____、____或弱电解质（如水）。因此 $\\mathrm{NaNO_3}$ 溶液与 $\\mathrm{KCl}$ 溶液混合时不发生反应。",
+    "blanks": [
+      { "accept": ["沉淀", "沉淀物", "难溶物"], "hint": "如 $\\mathrm{AgCl}$、$\\mathrm{BaSO_4}$" },
+      { "accept": ["气体", "挥发性气体", "挥发性物质"], "hint": "如 $\\mathrm{CO_2}$、$\\mathrm{H_2S}$" }
+    ],
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["复分解反应", "反应条件", "离子反应"],
+    "explanation": "复分解反应的实质是溶液中的离子结合成沉淀、气体或弱电解质（如水、醋酸等），使某些离子的浓度显著减小，反应才能向前进行。三个典型例子：$\\mathrm{AgNO_3+NaCl=AgCl\\downarrow+NaNO_3}$（生成沉淀）、$\\mathrm{CaCO_3+2HCl=CaCl_2+H_2O+CO_2\\uparrow}$（生成气体）、$\\mathrm{NaOH+HCl=NaCl+H_2O}$（生成弱电解质水）。$\\mathrm{NaNO_3}$ 与 $\\mathrm{KCl}$ 交换成分后得到 $\\mathrm{NaCl}$ 与 $\\mathrm{KNO_3}$，二者都易溶且都是强电解质，既无沉淀、气体，也无弱电解质生成，四种离子共存，故不发生反应。易错点：把“生成盐和水”笼统当作复分解发生的条件——只有生成水（弱电解质）才算，生成两种可溶性强电解质不算。"
+  },
+  {
+    "id": "q-chem-reaction-types-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-reaction-types"],
+    "stem": "下列反应中，既属于化合反应又属于氧化还原反应的是（　）",
+    "options": [
+      { "key": "A", "text": "$\\mathrm{C+O_2 \\xrightarrow{\\text{点燃}} CO_2}$" },
+      { "key": "B", "text": "$\\mathrm{CaO+H_2O=Ca(OH)_2}$" },
+      { "key": "C", "text": "$\\mathrm{2H_2O_2 \\xrightarrow{\\mathrm{MnO_2}} 2H_2O+O_2\\uparrow}$" },
+      { "key": "D", "text": "$\\mathrm{NaOH+HCl=NaCl+H_2O}$" }
+    ],
+    "answer": "A",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["化合反应", "交叉分类", "氧化还原"],
+    "explanation": "分类角度不同，同一个反应可以同时挂多个“标签”。A 中两种物质生成一种物质，属于化合反应；同时 C 由 0 价升到 +4 价、O 由 0 价降到 −2 价，有化合价升降，属于氧化还原反应，符合题意。B 是化合反应，但 Ca、O、H 的化合价都没有变化（Ca 为 +2、O 为 −2、H 为 +1），不是氧化还原反应。C 是一种物质生成两种物质，属分解反应；虽为氧化还原反应（O 由 −1 价歧化为 0 价和 −2 价），但不符合“化合”。D 是复分解反应，一定不是氧化还原反应。做题顺序：先按“反应物与生成物的种类”定基本类型，再按“有无化合价变化”定是否氧化还原，两步互不干扰。"
+  },
+  {
+    "id": "q-chem-reaction-types-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-reaction-types", "chem-redox"],
+    "stem": "关于化学反应的类型，下列说法正确的有（　）",
+    "options": [
+      { "key": "A", "text": "有单质参加的反应一定是氧化还原反应" },
+      { "key": "B", "text": "置换反应一定是氧化还原反应" },
+      { "key": "C", "text": "复分解反应一定不是氧化还原反应" },
+      { "key": "D", "text": "化合反应一定是氧化还原反应" }
+    ],
+    "answer": ["B", "C"],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["反应类型辨析", "单质", "化合价"],
+    "explanation": "B、C 正确：置换反应中单质与化合物反应生成新的单质与新的化合物，元素化合价必然改变，故一定是氧化还原反应；复分解反应只是两种化合物互换成分，各元素化合价均不变，故一定不是氧化还原反应。A 错误：$\\mathrm{3O_2=2O_3}$（同素异形体之间的转化）有单质参加，但氧元素化合价始终为 0，不是氧化还原反应。D 错误：$\\mathrm{CaO+H_2O=Ca(OH)_2}$、$\\mathrm{SO_3+H_2O=H_2SO_4}$ 都是化合反应，却没有化合价变化。要点：“有单质参加或生成”只是氧化还原反应常见的伴随现象，真正的判据只有一条——反应前后有无元素化合价的升降。"
+  },
+  {
+    "id": "q-chem-redox-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-redox"],
+    "stem": "下列反应中，水既作氧化剂又作还原剂的是（　）",
+    "options": [
+      { "key": "A", "text": "$\\mathrm{2Na+2H_2O=2NaOH+H_2\\uparrow}$" },
+      { "key": "B", "text": "$\\mathrm{2F_2+2H_2O=4HF+O_2}$" },
+      { "key": "C", "text": "$\\mathrm{CaO+H_2O=Ca(OH)_2}$" },
+      { "key": "D", "text": "$\\mathrm{2H_2O \\xrightarrow{\\text{通电}} 2H_2\\uparrow+O_2\\uparrow}$" }
+    ],
+    "answer": "D",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["氧化剂", "还原剂", "电解水"],
+    "explanation": "D 中水是唯一被电解的物质：H 由 +1 价降到 0 价（得电子，水作氧化剂），O 由 −2 价升到 0 价（失电子，水作还原剂），故水既是氧化剂又是还原剂。A 中 H 由 +1 价降到 0 价，水作氧化剂，Na 作还原剂。B 中 O 由 −2 价升到 0 价，水作还原剂，$\\mathrm{F_2}$ 作氧化剂。C 中各元素化合价均未改变，属非氧化还原反应，水既不是氧化剂也不是还原剂。判断某物质在反应中扮演什么角色，只需看它所含元素的化合价：升高是还原剂（被氧化），降低是氧化剂（被还原），不变则不参与电子转移。易错点：见到“水”就想当然地认为它只起溶剂作用，忽略它也可能被电解。"
+  },
+  {
+    "id": "q-chem-redox-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-redox"],
+    "stem": "实验室制氯气的反应为 $\\mathrm{MnO_2+4HCl(\\text{浓}) \\xrightarrow{\\Delta} MnCl_2+Cl_2\\uparrow+2H_2O}$。该反应中，被氧化的 HCl 占参加反应 HCl 总量的 ____；以 $1\\ \\mathrm{mol}$ $\\mathrm{MnO_2}$ 计，转移电子的物质的量为 ____ $\\mathrm{mol}$。",
+    "blanks": [
+      { "accept": ["1/2", "0.5", "50%", "50％", "二分之一", "一半"], "hint": "4 个 HCl 中只有 2 个的 Cl 变成 $\\mathrm{Cl_2}$" },
+      { "accept": ["2", "2mol", "2 mol"], "hint": "Mn 由 +4 降到 +2，得 2 个电子" }
+    ],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["电子转移", "被氧化的量", "双线桥"],
+    "explanation": "该反应中 Mn 由 +4 价降到 +2 价（得 2 个电子，$\\mathrm{MnO_2}$ 作氧化剂），Cl 由 −1 价升到 0 价（每个 Cl 失 1 个电子）。4 个 HCl 中只有 2 个的 Cl 被氧化成 $\\mathrm{Cl_2}$，另外 2 个仍以 $\\mathrm{Cl^-}$ 形式存在于 $\\mathrm{MnCl_2}$ 中（起“酸”的作用），故被氧化的 HCl 占 $\\dfrac{2}{4}=\\dfrac{1}{2}$。以 $1\\ \\mathrm{mol}$ $\\mathrm{MnO_2}$ 计，Mn 得 $2\\ \\mathrm{mol}$ 电子，同时 2 mol Cl 共失 $2\\ \\mathrm{mol}$ 电子，故转移电子数为 $2\\ \\mathrm{mol}$——“转移电子数”指得失电子的总数，不是把得与失相加成 4 mol。易错点：①误认为 4 mol HCl 全部被氧化，于是答“全部”或“4 mol 电子”；②把“被氧化的 HCl”与“起还原剂作用的 HCl”分开考虑——本题中起还原剂作用的就是被氧化的那 2 mol。"
+  },
+  {
+    "id": "q-chem-redox-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-redox"],
+    "stem": "已知：① $\\mathrm{2Fe^{3+}+2I^-=2Fe^{2+}+I_2}$；② $\\mathrm{2Fe^{2+}+Br_2=2Fe^{3+}+2Br^-}$。据此判断，$\\mathrm{Br_2}$、$\\mathrm{Fe^{3+}}$、$\\mathrm{I_2}$ 的氧化性由强到弱的顺序是（　）",
+    "options": [
+      { "key": "A", "text": "$\\mathrm{Br_2>Fe^{3+}>I_2}$" },
+      { "key": "B", "text": "$\\mathrm{Fe^{3+}>Br_2>I_2}$" },
+      { "key": "C", "text": "$\\mathrm{I_2>Fe^{3+}>Br_2}$" },
+      { "key": "D", "text": "$\\mathrm{Br_2>I_2>Fe^{3+}}$" }
+    ],
+    "answer": "A",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["氧化性强弱", "氧化剂", "氧化产物"],
+    "explanation": "规律：氧化剂的氧化性 > 氧化产物的氧化性。①中 $\\mathrm{Fe^{3+}}$ 作氧化剂、$\\mathrm{I_2}$ 是氧化产物，得 $\\mathrm{Fe^{3+}>I_2}$；②中 $\\mathrm{Br_2}$ 作氧化剂、$\\mathrm{Fe^{3+}}$ 是氧化产物，得 $\\mathrm{Br_2>Fe^{3+}}$。合并得 $\\mathrm{Br_2>Fe^{3+}>I_2}$，选 A。也可用还原性反向记忆：还原性 $\\mathrm{I^->Fe^{2+}>Br^-}$，还原性越弱，其对应的氧化态氧化性越强。易错点：①把“氧化剂”与“氧化产物”的强弱关系记反，得出 $\\mathrm{I_2>Fe^{3+}}$；②在②中误把 $\\mathrm{Fe^{2+}}$ 当成氧化剂——它实际是还原剂，被 $\\mathrm{Br_2}$ 氧化成 $\\mathrm{Fe^{3+}}$。"
+  },
+  {
+    "id": "q-chem-redox-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-redox"],
+    "stem": "向 $\\mathrm{Na_2O_2}$ 中通入 $\\mathrm{CO_2}$，发生反应 $\\mathrm{2Na_2O_2+2CO_2=2Na_2CO_3+O_2}$。关于该反应，下列说法正确的有（　）",
+    "options": [
+      { "key": "A", "text": "$\\mathrm{Na_2O_2}$ 既是氧化剂又是还原剂" },
+      { "key": "B", "text": "每生成 $1\\ \\mathrm{mol}$ $\\mathrm{O_2}$ 转移 $2\\ \\mathrm{mol}$ 电子" },
+      { "key": "C", "text": "$\\mathrm{CO_2}$ 在该反应中作氧化剂" },
+      { "key": "D", "text": "每消耗 $2\\ \\mathrm{mol}$ $\\mathrm{Na_2O_2}$ 转移 $4\\ \\mathrm{mol}$ 电子" }
+    ],
+    "answer": ["A", "B"],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["歧化反应", "过氧化钠", "电子转移数目"],
+    "explanation": "$\\mathrm{Na_2O_2}$ 中氧为 −1 价，介于 0 价与 −2 价之间，处于“中间价态”。反应中一部分 $\\mathrm{O^{-1}}$ 升到 0 价生成 $\\mathrm{O_2}$（失电子），另一部分降到 −2 价进入 $\\mathrm{Na_2CO_3}$（得电子），同一物质中同种元素既被氧化又被还原，属歧化反应，故 A 正确。以 $2\\ \\mathrm{mol}$ $\\mathrm{Na_2O_2}$ 计：2 mol $\\mathrm{O^{-1}}$ 失 2 mol 电子变成 $\\mathrm{O_2}$，另 2 mol $\\mathrm{O^{-1}}$ 得 2 mol 电子变成 $\\mathrm{CO_3^{2-}}$，转移电子为 $2\\ \\mathrm{mol}$；生成 $1\\ \\mathrm{mol}$ $\\mathrm{O_2}$ 恰好对应 $2\\ \\mathrm{mol}$ 电子，故 B 正确、D 错误。C 错误：$\\mathrm{CO_2}$ 中 C 为 +4 价、O 为 −2 价，反应前后均未改变，它只提供碳和部分氧，不是氧化剂。要点：歧化反应中“转移电子数”只算一个方向的总数，不能把得、失相加。"
+  },
+  {
+    "id": "q-chem-redox-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-redox", "chem-reaction-types"],
+    "stem": "实验室常用 $\\mathrm{MnO_2}$ 与浓盐酸共热制取氯气，反应式（未配平）为：\n\n$\\mathrm{MnO_2+HCl(\\text{浓}) \\xrightarrow{\\Delta} MnCl_2+Cl_2\\uparrow+H_2O}$\n\n请回答：\n\n（1）标出反应前后 Mn、Cl 元素的化合价，指出氧化剂和还原剂，并说明被氧化的 HCl 占参加反应 HCl 总量的比例；\n\n（2）配平该化学方程式，并注明反应条件；\n\n（3）用单线桥法标出电子转移的方向和数目（写出转移电子的总数）；\n\n（4）若反应中转移 $1\\ \\mathrm{mol}$ 电子，标准状况下生成 $\\mathrm{Cl_2}$ 的体积是多少？\n\n（5）写出该反应的离子方程式。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["氧化还原配平", "单线桥", "离子方程式", "氯气制备"],
+    "rubric": [
+      { "text": "指出 Mn 由 +4 价降到 +2 价、Cl 由 −1 价升到 0 价；$\\mathrm{MnO_2}$ 作氧化剂、HCl 作还原剂；被氧化的 HCl 占 $\\dfrac{1}{2}$", "score": 2 },
+      { "text": "配平为 $\\mathrm{MnO_2+4HCl(\\text{浓}) \\xrightarrow{\\Delta} MnCl_2+Cl_2\\uparrow+2H_2O}$，标注加热条件与气体符号", "score": 2 },
+      { "text": "单线桥由 Cl 指向 Mn，桥上标 $2e^-$，方向与数目均正确", "score": 2 },
+      { "text": "由 $\\mathrm{Cl_2\\sim 2e^-}$ 得生成 $0.5\\ \\mathrm{mol}$ $\\mathrm{Cl_2}$，$V=0.5\\times22.4=11.2\\ \\mathrm{L}$", "score": 2 },
+      { "text": "离子方程式 $\\mathrm{MnO_2+4H^++2Cl^- \\xrightarrow{\\Delta} Mn^{2+}+Cl_2\\uparrow+2H_2O}$，原子与电荷均守恒", "score": 2 }
+    ],
+    "reference": "（1）反应前 Mn 为 +4 价（$\\mathrm{MnO_2}$）、Cl 为 −1 价（HCl）；反应后 Mn 为 +2 价（$\\mathrm{MnCl_2}$）、部分 Cl 为 0 价（$\\mathrm{Cl_2}$）。Mn 化合价降低被还原，$\\mathrm{MnO_2}$ 是氧化剂；Cl 化合价升高被氧化，HCl 是还原剂。4 mol HCl 中只有 2 mol 的 Cl 被氧化，另 2 mol 以 $\\mathrm{Cl^-}$ 形式与 $\\mathrm{Mn^{2+}}$ 结合成盐，故被氧化的 HCl 占 $\\dfrac{1}{2}$。\n\n（2）$\\mathrm{MnO_2+4HCl(\\text{浓}) \\xrightarrow{\\Delta} MnCl_2+Cl_2\\uparrow+2H_2O}$。检验：Mn 1=1，O 2=2，H 4=4，Cl 4=2+2，原子守恒。\n\n（3）单线桥：箭头由 HCl 中的 Cl 指向 $\\mathrm{MnO_2}$ 中的 Mn，桥上标 $\\mathbf{2e^-}$（即 2 mol 电子由 2 mol $\\mathrm{Cl^-}$ 转移给 1 mol $\\mathrm{Mn^{4+}}$）。注意单线桥不写“得失”，只画一条从还原剂元素指向氧化剂元素的箭头。\n\n（4）关系式 $\\mathrm{Cl_2 \\sim 2e^-}$，转移 $1\\ \\mathrm{mol}$ 电子时 $n(\\mathrm{Cl_2})=0.5\\ \\mathrm{mol}$，$V=0.5\\ \\mathrm{mol}\\times22.4\\ \\mathrm{L/mol}=11.2\\ \\mathrm{L}$（标准状况）。\n\n（5）$\\mathrm{MnO_2+4H^++2Cl^- \\xrightarrow{\\Delta} Mn^{2+}+Cl_2\\uparrow+2H_2O}$。检验：Mn 1=1；O 2=2；H 4=4；Cl 2=2；电荷左边 $4(+1)+2(-1)=+2$，右边 $+2$，电荷守恒。",
+    "maxScore": 10,
+    "explanation": "本题把“标价态—配平—电子转移表示—定量关系—离子方程式”串成一条完整链条，是氧化还原反应最典型的综合考法。关键点有四：①判断氧化剂、还原剂只看化合价升降，不以物质“看起来像酸还是像碱”为准，HCl 在此既显酸性又显还原性；②“被氧化的 HCl 只占一半”是高频陷阱，必须用配平后的系数说明，不能凭 4 mol 全被氧化；③单线桥与双线桥的规范不同——单线桥从还原剂中失电子的元素指向氧化剂中得电子的元素，桥上只标电子总数；④写离子方程式时 $\\mathrm{MnO_2}$ 难溶、$\\mathrm{H_2O}$ 为弱电解质，均不拆，浓盐酸拆成 $\\mathrm{H^+}$ 与 $\\mathrm{Cl^-}$，且必须同时检查原子守恒与电荷守恒。常见失分：配平时把 $\\mathrm{H_2O}$ 的系数写成 4；第（4）问把 $n(\\mathrm{Cl_2})$ 直接取 1 mol 得 22.4 L；第（5）问漏写加热条件或把 $\\mathrm{MnO_2}$ 拆成离子。"
+  },
+  {
+    "id": "q-chem-enthalpy-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-enthalpy"],
+    "stem": "判断：热化学方程式中化学计量数加倍时，$\\Delta H$ 也随之加倍；同时因为 $\\Delta H$ 只由始态和终态决定，书写热化学方程式时不必注明温度和压强。",
+    "answer": false,
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["热化学方程式", "焓变", "状态标注"],
+    "explanation": "前半句正确、后半句错误，故整体错误。$\\Delta H$ 与化学计量数成比例：$\\mathrm{H_2(g)+\\frac{1}{2}O_2(g)=H_2O(l)}$ 的 $\\Delta H=-285.8\\ \\mathrm{kJ/mol}$，计量数加倍后为 $-571.6\\ \\mathrm{kJ/mol}$。但热化学方程式必须注明温度和压强（未注明时通常指 25 ℃、101 kPa），因为 $\\Delta H$ 的数值随温度而变；还必须注明各物质的聚集状态，$\\mathrm{H_2O(l)}$ 与 $\\mathrm{H_2O(g)}$ 对应的 $\\Delta H$ 相差约 $44\\ \\mathrm{kJ/mol}$。易错点：把“$\\Delta H$ 只与始态、终态有关”误推为“与温度无关”——盖斯定律说的是与反应途径无关，不是说与温度无关。"
+  },
+  {
+    "id": "q-chem-enthalpy-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-enthalpy"],
+    "stem": "已知 $\\mathrm{N\\equiv N}$ 键能为 $946\\ \\mathrm{kJ/mol}$、$\\mathrm{H{-}H}$ 键能为 $436\\ \\mathrm{kJ/mol}$、$\\mathrm{N{-}H}$ 键能为 $391\\ \\mathrm{kJ/mol}$。则 $\\mathrm{N_2(g)+3H_2(g)=2NH_3(g)}$ 的 $\\Delta H=$ ____ $\\mathrm{kJ/mol}$。",
+    "blanks": [
+      { "accept": ["-92", "−92", "－92", "-92.0", "-92kJ/mol", "-92 kJ/mol"], "hint": "$\\Delta H=\\sum E_{\\text{断键}}-\\sum E_{\\text{成键}}$，注意 $\\mathrm{NH_3}$ 有 3 个 N—H 键且系数为 2" }
+    ],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["键能计算", "焓变", "合成氨"],
+    "explanation": "用键能计算：$\\Delta H=\\sum E_{\\text{断键}}-\\sum E_{\\text{成键}}$。断键需吸收：1 mol $\\mathrm{N\\equiv N}$ 与 3 mol $\\mathrm{H{-}H}$，共 $946+3\\times436=946+1308=2254\\ \\mathrm{kJ}$；成键放出：2 mol $\\mathrm{NH_3}$ 含 6 mol $\\mathrm{N{-}H}$ 键，共 $6\\times391=2346\\ \\mathrm{kJ}$。故 $\\Delta H=2254-2346=-92\\ \\mathrm{kJ/mol}$，为放热反应，与工业合成氨的 $-92.4\\ \\mathrm{kJ/mol}$ 相符。易错点：①把 $\\mathrm{NH_3}$ 的 N—H 键按 3 mol 计算（漏乘系数 2），得 $2254-1173=+1081$；②把公式记成“成键减断键”，符号取反得 $+92$；③漏写负号或单位。"
+  },
+  {
+    "id": "q-chem-enthalpy-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-enthalpy"],
+    "stem": "已知 $\\mathrm{2H_2(g)+O_2(g)=2H_2O(l)}$ $\\Delta H=-571.6\\ \\mathrm{kJ/mol}$。下列热化学方程式书写正确的是（　）",
+    "options": [
+      { "key": "A", "text": "$\\mathrm{H_2(g)+\\frac{1}{2}O_2(g)=H_2O(l)}$ $\\Delta H=-285.8\\ \\mathrm{kJ/mol}$" },
+      { "key": "B", "text": "$\\mathrm{2H_2(g)+O_2(g)=2H_2O(g)}$ $\\Delta H=-571.6\\ \\mathrm{kJ/mol}$" },
+      { "key": "C", "text": "$\\mathrm{H_2(g)+\\frac{1}{2}O_2(g)=H_2O(l)}$ $\\Delta H=+285.8\\ \\mathrm{kJ/mol}$" },
+      { "key": "D", "text": "$\\mathrm{2H_2O(l)=2H_2(g)+O_2(g)}$ $\\Delta H=-571.6\\ \\mathrm{kJ/mol}$" }
+    ],
+    "answer": "A",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["热化学方程式", "计量数", "聚集状态"],
+    "explanation": "A 正确：方程式各物质的计量数都除以 2，$\\Delta H$ 也除以 2，得 $-285.8\\ \\mathrm{kJ/mol}$，状态标注（液态水）与原式一致。B 错：产物写成 $\\mathrm{H_2O(g)}$，气态水凝结为液态水还要放热，故生成气态水时放出的热量应小于 $571.6\\ \\mathrm{kJ}$（约 $483.6\\ \\mathrm{kJ}$），数值不符。C 错：氢气燃烧放热，$\\Delta H$ 应为负值，符号写反。D 错：这是原式的逆反应，$\\Delta H$ 应取相反数，即 $+571.6\\ \\mathrm{kJ/mol}$。审题要三看：计量数与 $\\Delta H$ 是否成比例、物质状态是否标注正确、正逆反应的符号是否对应。"
+  },
+  {
+    "id": "q-chem-enthalpy-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-enthalpy"],
+    "stem": "关于反应热与焓变，下列说法正确的有（　）",
+    "options": [
+      { "key": "A", "text": "需要加热才能发生的反应一定是吸热反应" },
+      { "key": "B", "text": "放热反应的 $\\Delta H<0$，且 $\\Delta H$ 的绝对值与化学计量数成正比" },
+      { "key": "C", "text": "酸碱中和反应都是放热反应" },
+      { "key": "D", "text": "同温同压下，$\\mathrm{H_2(g)+Cl_2(g)=2HCl(g)}$ 与 $\\mathrm{H_2(g)+Cl_2(g)=2HCl(l)}$ 的 $\\Delta H$ 相同" }
+    ],
+    "answer": ["B", "C"],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["放热吸热", "中和热", "聚集状态"],
+    "explanation": "B 正确：$\\Delta H=$ 生成物总焓 $-$ 反应物总焓，放热反应的生成物总焓更低，$\\Delta H<0$；计量数加倍，$\\Delta H$ 也加倍。C 正确：中和反应的实质是 $\\mathrm{H^++OH^-=H_2O}$，形成 O—H 键放出的能量大于断裂水合离子间作用所需的能量，故均为放热反应。A 错：反应吸热还是放热由始态与终态的焓差决定，与“是否需要加热引发”无关——煤的燃烧需要点燃，却是典型的放热反应；$\\mathrm{Ba(OH)_2\\cdot 8H_2O}$ 与 $\\mathrm{NH_4Cl}$ 的反应常温即可进行，却是吸热反应。D 错：$\\mathrm{HCl(g)}$ 液化会放热，故生成液态 HCl 时放出的热量更多、$\\Delta H$ 更负，两者不相等。"
+  },
+  {
+    "id": "q-chem-hess-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-hess"],
+    "stem": "已知：① $\\mathrm{C(s)+O_2(g)=CO_2(g)}$ $\\Delta H_1=-393.5\\ \\mathrm{kJ/mol}$；② $\\mathrm{C(s)+\\frac{1}{2}O_2(g)=CO(g)}$ $\\Delta H_2=-110.5\\ \\mathrm{kJ/mol}$。则 $\\mathrm{CO(g)+\\frac{1}{2}O_2(g)=CO_2(g)}$ 的 $\\Delta H$ 为（　）",
+    "options": [
+      { "key": "A", "text": "$-283.0\\ \\mathrm{kJ/mol}$" },
+      { "key": "B", "text": "$-504.0\\ \\mathrm{kJ/mol}$" },
+      { "key": "C", "text": "$+283.0\\ \\mathrm{kJ/mol}$" },
+      { "key": "D", "text": "$-221.0\\ \\mathrm{kJ/mol}$" }
+    ],
+    "answer": "A",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["盖斯定律", "CO燃烧热", "方程式叠加"],
+    "explanation": "目标反应可由已知反应线性组合得到：① $-$ ②，即 $\\mathrm{(C+O_2)-(C+\\frac{1}{2}O_2)=CO_2-CO}$，整理得 $\\mathrm{CO+\\frac{1}{2}O_2=CO_2}$，故 $\\Delta H=\\Delta H_1-\\Delta H_2=-393.5-(-110.5)=-283.0\\ \\mathrm{kJ/mol}$，选 A。B 是把两式相加（$-504.0$），相当于求 $\\mathrm{2C+\\frac{3}{2}O_2=CO+CO_2}$；C 是符号取反；D 是把 $1\\ \\mathrm{mol}$ CO 的燃烧热误当成 $2\\times110.5=221$ 之类换算错误。也可记成“CO 的燃烧热 $=$ C 的燃烧热 $-$ CO 的生成热”，因为二者之差正是把 CO 再氧化成 $\\mathrm{CO_2}$ 的那一步。"
+  },
+  {
+    "id": "q-chem-hess-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-hess"],
+    "stem": "已知：① $\\mathrm{N_2(g)+O_2(g)=2NO(g)}$ $\\Delta H_1=+180.5\\ \\mathrm{kJ/mol}$；② $\\mathrm{2NO(g)+O_2(g)=2NO_2(g)}$ $\\Delta H_2=-114.2\\ \\mathrm{kJ/mol}$。则 $\\mathrm{N_2(g)+2O_2(g)=2NO_2(g)}$ 的 $\\Delta H=$ ____ $\\mathrm{kJ/mol}$。",
+    "blanks": [
+      { "accept": ["66.3", "+66.3", "＋66.3", "66.3kJ/mol", "66.3 kJ/mol"], "hint": "两式相加，消去中间产物 NO 后 $\\Delta H=\\Delta H_1+\\Delta H_2$" }
+    ],
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["盖斯定律", "消去中间产物", "吸热"],
+    "explanation": "把两式相加：$\\mathrm{N_2+O_2+2NO+O_2=2NO+2NO_2}$，两边同时消去 $\\mathrm{2NO}$，得 $\\mathrm{N_2+2O_2=2NO_2}$，故 $\\Delta H=\\Delta H_1+\\Delta H_2=+180.5+(-114.2)=+66.3\\ \\mathrm{kJ/mol}$。结果为正，说明由 $\\mathrm{N_2}$ 与 $\\mathrm{O_2}$ 生成 $\\mathrm{NO_2}$ 总体吸热，这正是汽车发动机高温下才能生成氮氧化物的原因。易错点：①把 ① 的 $\\Delta H$ 写成负值——$\\mathrm{N_2}$ 与 $\\mathrm{O_2}$ 化合生成 NO 需要打开 $\\mathrm{N\\equiv N}$ 强键，是吸热的；②忘记消去中间产物 NO，导致拼出的方程式与目标不符；③把加法做成减法，得 $-114.2-180.5=-294.7$。"
+  },
+  {
+    "id": "q-chem-hess-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-hess"],
+    "stem": "已知：① $\\mathrm{CH_4(g)+2O_2(g)=CO_2(g)+2H_2O(l)}$ $\\Delta H_1=-890.3\\ \\mathrm{kJ/mol}$；② $\\mathrm{2H_2(g)+O_2(g)=2H_2O(l)}$ $\\Delta H_2=-571.6\\ \\mathrm{kJ/mol}$；③ $\\mathrm{C(s)+O_2(g)=CO_2(g)}$ $\\Delta H_3=-393.5\\ \\mathrm{kJ/mol}$。则 $\\mathrm{C(s)+2H_2(g)=CH_4(g)}$ 的 $\\Delta H$ 为（　）",
+    "options": [
+      { "key": "A", "text": "$-74.8\\ \\mathrm{kJ/mol}$" },
+      { "key": "B", "text": "$+74.8\\ \\mathrm{kJ/mol}$" },
+      { "key": "C", "text": "$-965.1\\ \\mathrm{kJ/mol}$" },
+      { "key": "D", "text": "$-1855.4\\ \\mathrm{kJ/mol}$" }
+    ],
+    "answer": "A",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["盖斯定律", "甲烷生成热", "三步叠加"],
+    "explanation": "目标反应 $=$ ③ $+$ ② $- $ ①：左边为 $\\mathrm{C+O_2+2H_2+O_2-(CH_4+2O_2)=C+2H_2-CH_4}$，右边为 $\\mathrm{CO_2+2H_2O-(CO_2+2H_2O)=0}$，恰好拼出 $\\mathrm{C+2H_2=CH_4}$。故 $\\Delta H=\\Delta H_3+\\Delta H_2-\\Delta H_1=-393.5+(-571.6)-(-890.3)=-74.8\\ \\mathrm{kJ/mol}$，选 A。B 是符号取反；C 只叠加了 ②③ 而漏掉 ①（$-965.1$），拼出的式子里根本没有 $\\mathrm{CH_4}$，不是目标反应；D 把三式全部相加（$-1855.4$）。数量级也可用常识校验：甲烷是最稳定的烃，由单质生成它应温和放热（约 $-75\\ \\mathrm{kJ/mol}$），不可能是几百千焦。"
+  },
+  {
+    "id": "q-chem-hess-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-hess", "chem-enthalpy"],
+    "stem": "关于盖斯定律及其应用，下列说法正确的有（　）",
+    "options": [
+      { "key": "A", "text": "反应热只与反应的始态和终态有关，与反应途径无关" },
+      { "key": "B", "text": "热化学方程式可以像代数式一样相加减，$\\Delta H$ 同步进行相同的运算" },
+      { "key": "C", "text": "叠加热化学方程式时，若同一物质的状态不同（如 $\\mathrm{H_2O(l)}$ 与 $\\mathrm{H_2O(g)}$），不影响叠加结果" },
+      { "key": "D", "text": "利用盖斯定律可以计算难以直接测定的反应热，如 $\\mathrm{C(s)+\\frac{1}{2}O_2(g)=CO(g)}$" }
+    ],
+    "answer": ["A", "B", "D"],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["盖斯定律", "状态函数", "叠加规则"],
+    "explanation": "A、B 正是盖斯定律的内容与使用规则：焓是状态函数，$\\Delta H$ 只取决于始态与终态；对方程式乘系数、相加减时，$\\Delta H$ 必须做完全相同的运算。D 正确：碳燃烧很难控制只生成 CO，但可由 $\\mathrm{C\\to CO_2}$（①）与 $\\mathrm{CO\\to CO_2}$（②）两个易于测定的反应相减求得，这正是盖斯定律的典型用途。C 错误：不同聚集状态的物质焓不同，$\\mathrm{H_2O(l)}$ 与 $\\mathrm{H_2O(g)}$ 不能相互抵消，叠加前必须把各物质的状态标注清楚并保持一致，否则结果会偏差数十千焦每摩尔。易错点：叠加时只顾“消物质”而忽略状态与系数；或把“与途径无关”误解为“与温度、状态无关”。"
+  },
+  {
+    "id": "q-chem-hess-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-hess", "chem-enthalpy"],
+    "stem": "已知 25 ℃、101 kPa 下：\n\n① $\\mathrm{CH_4(g)+2O_2(g)=CO_2(g)+2H_2O(l)}$ $\\Delta H_1=-890.3\\ \\mathrm{kJ/mol}$\n\n② $\\mathrm{H_2(g)+\\frac{1}{2}O_2(g)=H_2O(l)}$ $\\Delta H_2=-285.8\\ \\mathrm{kJ/mol}$\n\n③ $\\mathrm{C(s)+O_2(g)=CO_2(g)}$ $\\Delta H_3=-393.5\\ \\mathrm{kJ/mol}$\n\n请回答：\n\n（1）用盖斯定律求 $\\mathrm{C(s)+2H_2(g)=CH_4(g)}$ 的 $\\Delta H$，写出叠加过程；\n\n（2）判断①式能否表示 $\\mathrm{CH_4}$ 的燃烧热，并说明“燃烧热”定义中的两个关键限定；\n\n（3）若把①式中的 $\\mathrm{H_2O(l)}$ 改为 $\\mathrm{H_2O(g)}$，$\\Delta H$ 的绝对值将增大还是减小？简述理由；\n\n（4）已知 $1\\ \\mathrm{g}$ $\\mathrm{CH_4}$ 完全燃烧放出 $55.6\\ \\mathrm{kJ}$ 热量，求 $\\mathrm{CH_4}$ 的摩尔燃烧热，并与①式比较。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["盖斯定律", "燃烧热", "聚集状态", "摩尔燃烧热"],
+    "rubric": [
+      { "text": "写出叠加方案 ③ $+$ 2×② $-$ ①，并说明中间产物 $\\mathrm{CO_2}$ 与 $\\mathrm{H_2O}$ 被消去，得到 $\\mathrm{C(s)+2H_2(g)=CH_4(g)}$", "score": 3 },
+      { "text": "代入得 $\\Delta H=-393.5+2\\times(-285.8)-(-890.3)=-74.8\\ \\mathrm{kJ/mol}$", "score": 2 },
+      { "text": "判断①式可以表示 $\\mathrm{CH_4}$ 的燃烧热；指出两个限定：可燃物为 $1\\ \\mathrm{mol}$ 纯物质、完全燃烧生成稳定氧化物（$\\mathrm{H_2O}$ 必须为液态）", "score": 2 },
+      { "text": "改为 $\\mathrm{H_2O(g)}$ 后放出的热量减少，$|\\Delta H|$ 减小；原因是气态水凝结为液态水还要放热", "score": 2 },
+      { "text": "摩尔燃烧热 $=55.6\\times16\\approx890\\ \\mathrm{kJ/mol}$，与①式的 $890.3\\ \\mathrm{kJ/mol}$ 基本一致", "score": 1 }
+    ],
+    "reference": "（1）目标反应 $=$ ③ $+$ 2×② $-$ ①。验证：左边 $\\mathrm{C+O_2+2H_2+O_2-(CH_4+2O_2)=C+2H_2-CH_4}$，右边 $\\mathrm{CO_2+2H_2O-(CO_2+2H_2O)=0}$，整理即 $\\mathrm{C(s)+2H_2(g)=CH_4(g)}$。故 $\\Delta H=\\Delta H_3+2\\Delta H_2-\\Delta H_1=-393.5+2\\times(-285.8)-(-890.3)=-74.8\\ \\mathrm{kJ/mol}$。\n\n（2）可以。①式中 $\\mathrm{CH_4}$ 为 $1\\ \\mathrm{mol}$，且完全燃烧生成 $\\mathrm{CO_2(g)}$ 与 $\\mathrm{H_2O(l)}$ 这两种稳定氧化物，符合燃烧热的定义。两个关键限定是：①可燃物必须是 $1\\ \\mathrm{mol}$ 纯物质（不能是混合物，也不能是 $2\\ \\mathrm{mol}$）；②必须完全燃烧且生成稳定氧化物，水必须是液态。\n\n（3）$|\\Delta H|$ 减小。$\\mathrm{H_2O(g)}$ 凝结为 $\\mathrm{H_2O(l)}$ 还要放出热量，故生成气态水时放出的热量少于生成液态水时，$\\Delta H$ 的绝对值变小（约少 $2\\times44=88\\ \\mathrm{kJ}$）。\n\n（4）$M(\\mathrm{CH_4})=16\\ \\mathrm{g/mol}$，$1\\ \\mathrm{mol}$ $\\mathrm{CH_4}$ 完全燃烧放热 $55.6\\ \\mathrm{kJ/g}\\times16\\ \\mathrm{g/mol}\\approx890\\ \\mathrm{kJ/mol}$，即摩尔燃烧热约为 $890\\ \\mathrm{kJ/mol}$，与①式的 $890.3\\ \\mathrm{kJ/mol}$ 一致（差异来自有效数字与测量条件）。",
+    "maxScore": 10,
+    "explanation": "本题以甲烷为中心，把盖斯定律、燃烧热概念、聚集状态对 $\\Delta H$ 的影响、摩尔燃烧热的换算串成一体。第（1）问的关键是“先配平系数再运算”：②式只有 1 mol $\\mathrm{H_2}$，要用 2 倍才能与目标中的 $\\mathrm{2H_2}$ 对应，而 ① 必须取逆号以消去 $\\mathrm{CH_4}$；只把三个 $\\Delta H$ 相加是最常见的错误。第（2）问要落到“$1\\ \\mathrm{mol}$”和“稳定氧化物、水为液态”两个限定上，只答“能”不得分。第（3）问考查状态差异，注意 $\\Delta H$ 是负值，说“绝对值减小”才准确，直接说“$\\Delta H$ 增大”容易与符号混淆。第（4）问是单位换算，$\\mathrm{kJ/g}\\times\\mathrm{g/mol}=\\mathrm{kJ/mol}$，用结果反过来校验①式，体现“数据自洽”的意识。"
+  },
+  {
+    "id": "q-chem-activation-energy-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-activation-energy"],
+    "stem": "判断：催化剂通过降低反应的活化能来加快反应速率，同时使反应的 $\\Delta H$ 减小、平衡常数增大。",
+    "answer": false,
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["催化剂", "活化能", "平衡常数"],
+    "explanation": "错误。催化剂确实通过提供活化能更低的反应途径来加快反应速率，但它不改变反应的始态与终态，因此 $\\Delta H$ 不变；又因为它同等程度地降低正、逆反应的活化能，正、逆速率按相同倍数增大，平衡不移动，平衡常数 $K$ 也不变。催化剂改变的只有“达到平衡所需的时间”。易错点：把“降低活化能”与“降低焓变”混为一谈——活化能是动力学量（决定反应快慢），$\\Delta H$ 是热力学量（决定吸放热与平衡限度），二者相互独立。"
+  },
+  {
+    "id": "q-chem-activation-energy-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-activation-energy"],
+    "stem": "某反应分两步进行：第一步活化能为 $80\\ \\mathrm{kJ/mol}$，第二步活化能为 $20\\ \\mathrm{kJ/mol}$。则该反应的决速步是第____步；加入合适的催化剂后，反应速率将____（填“加快”或“减慢”）。",
+    "blanks": [
+      { "accept": ["一", "第一步", "第1步", "1"], "hint": "活化能最大的一步最慢，是决速步" },
+      { "accept": ["加快", "增大", "变大", "提高"], "hint": "催化剂降低活化能，使活化分子百分数增大" }
+    ],
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["决速步", "活化能", "催化剂"],
+    "explanation": "多步反应中，活化能最大的一步反应最慢，整个反应的速率由它决定，称为决速步。第一步活化能 $80\\ \\mathrm{kJ/mol}$ 远大于第二步的 $20\\ \\mathrm{kJ/mol}$，故决速步是第一步。催化剂能降低反应的活化能（通常优先降低决速步的活化能），使活化分子百分数增大，反应速率加快。注意：催化剂改变的是反应历程（步数与各步活化能），不改变总反应的 $\\Delta H$，也不改变平衡状态。易错点：把“活化能大”理解为“反应快”——恰好相反，活化能越大，能达到活化状态的分子比例越小，反应越慢。"
+  },
+  {
+    "id": "q-chem-activation-energy-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-activation-energy"],
+    "stem": "某反应的正反应活化能为 $50\\ \\mathrm{kJ/mol}$，$\\Delta H=-30\\ \\mathrm{kJ/mol}$。则该反应的逆反应活化能为（　）",
+    "options": [
+      { "key": "A", "text": "$80\\ \\mathrm{kJ/mol}$" },
+      { "key": "B", "text": "$20\\ \\mathrm{kJ/mol}$" },
+      { "key": "C", "text": "$30\\ \\mathrm{kJ/mol}$" },
+      { "key": "D", "text": "$50\\ \\mathrm{kJ/mol}$" }
+    ],
+    "answer": "A",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["活化能", "焓变", "能量图"],
+    "explanation": "由关系式“$\\Delta H=E_{\\text{a,正}}-E_{\\text{a,逆}}$”得 $E_{\\text{a,逆}}=E_{\\text{a,正}}-\\Delta H=50-(-30)=80\\ \\mathrm{kJ/mol}$，选 A。能量图上的几何意义：反应物能量 $+$ 正反应活化能 $=$ 过渡态能量，过渡态能量 $-$ 生成物能量 $=$ 逆反应活化能；放热反应的生成物能量低于反应物，故逆反应活化能更大，二者之差恰为 $|\\Delta H|$。B 是把 $50-30$ 直接相减（符号处理错，忽略了 $\\Delta H$ 为负）；C 误把 $|\\Delta H|$ 当作逆反应活化能；D 误认为正、逆反应活化能相等——只有在 $\\Delta H=0$ 时才成立。"
+  },
+  {
+    "id": "q-chem-activation-energy-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-activation-energy"],
+    "stem": "关于催化剂与活化能，下列说法正确的有（　）",
+    "options": [
+      { "key": "A", "text": "催化剂参与化学反应，通过改变反应历程降低反应的活化能" },
+      { "key": "B", "text": "催化剂同等程度地降低正、逆反应的活化能，使正、逆反应速率同等加快" },
+      { "key": "C", "text": "使用催化剂可以提高可逆反应的平衡转化率" },
+      { "key": "D", "text": "催化剂可以改变反应的焓变，使反应更容易发生" }
+    ],
+    "answer": ["A", "B"],
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["催化剂", "反应历程", "平衡"],
+    "explanation": "A 正确：催化剂先与反应物结合形成中间体，再在后续步骤中重新释放，相当于另开一条活化能更低的途径，所以它“参与”了反应但最终不被消耗。B 正确：由于 $\\Delta H$ 固定不变，正、逆反应活化能的降低量必然相同，因而正、逆速率按相同倍数增大。C 错误：正、逆速率同等加快，平衡不移动，转化率不变；催化剂提高的是单位时间的产量（生产效率），不是平衡产率。D 错误：$\\Delta H$ 只由始态与终态决定，催化剂不改变它。易错点：把“催化剂使反应更容易进行”曲解为“使反应放热更多”或“使平衡右移”。"
+  }
+]

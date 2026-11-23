@@ -1,0 +1,306 @@
+[
+  {
+    "id": "q-eng-writing-app-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-writing-app"],
+    "stem": "关于应用文写作（书信、通知、演讲稿、倡议书等），下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["应用文", "审题", "文体特征"],
+    "options": [
+      { "key": "A", "text": "应用文以抒发个人情感为主要目的，语言越抒情、描写越细腻越好" },
+      { "key": "B", "text": "动笔前应先审题，明确写作对象、写作目的、主要时态和人称" },
+      { "key": "C", "text": "应用文的得分主要看词数，只要写满规定词数就能拿高分" },
+      { "key": "D", "text": "应用文可以完全套用背过的范文，不必考虑题目给出的具体情境" }
+    ],
+    "answer": "B",
+    "explanation": "应用文的本质是「实用交际」：写给谁、为什么写、写什么事，都要先想清楚，所以审题四要素（对象、目的、时态、人称）是第一步。A 错在目的——抒情描写是记叙文、散文的特征，应用文要求简洁、清楚、得体。C 错在评分维度——得分看要点覆盖、格式规范、语言准确得体、行文连贯，词数只是下限，写满却空洞照样低分。D 错在套作——题目情境中的对象、目的、要点一变，照搬范文就会出现要点错位、语气不符，甚至答非所问。"
+  },
+  {
+    "id": "q-eng-writing-app-2",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-writing-app"],
+    "stem": "判断下列说法是否正确：写应用文时，只要语言优美、句式高级，遗漏题目中的一两个要点也不会明显影响得分。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["应用文", "要点覆盖", "评分标准"],
+    "answer": false,
+    "explanation": "错。应用文通常按「要点覆盖、格式规范、语言准确得体、行文连贯」分项给分，其中要点覆盖排在最前面：题目给的每一条要点都对应具体分值，漏一条就直接丢掉该条的分，语言再漂亮也补不回来。更麻烦的是，漏要点往往连带造成内容偏题——阅卷老师看到正文里没有题目要求的信息，会判为「内容不完整」而不是「语言优秀」。正确做法是动笔前把要点逐条圈出列成提纲，写完后逐条打勾核对。"
+  },
+  {
+    "id": "q-eng-writing-app-3",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-writing-app"],
+    "stem": "写应用文之前审题，下列要素需要先确定的有（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["应用文", "审题要素", "时态人称"],
+    "options": [
+      { "key": "A", "text": "写作对象是谁（如校长、外教、笔友），据此决定语气的正式程度" },
+      { "key": "B", "text": "写作目的是什么（邀请、感谢、道歉、通知），据此决定开头句式" },
+      { "key": "C", "text": "事情发生在何时（已发生、将发生），据此决定主要时态" },
+      { "key": "D", "text": "全文必须用上至少三个高级词汇和两个倒装句" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A、B、C 正是审题四要素中的三项（第四项是「以谁的身份写」，决定第一人称 I 还是 We）。对象决定语气：给校长要正式委婉，给笔友可以轻松。目的决定开头：邀请用 I am writing to invite you to ...，致谢用 I am writing to thank you for ...。时间决定时态：通知将来活动用一般将来时或将来时的被动，描述已完成的事用一般过去时。D 错：高级词汇与倒装句属于锦上添花，不是审题要素；评分标准从不要求固定数量的高级结构，为用而用反而容易写出搭配错误。"
+  },
+  {
+    "id": "q-eng-writing-app-4",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-writing-app"],
+    "stem": "你校英语社团要在校园公告栏张贴一份英文材料，告知全校同学招募新成员的时间、地点与报名方式。最合适的文体是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["应用文", "文体判断", "通知"],
+    "options": [
+      { "key": "A", "text": "a notice" },
+      { "key": "B", "text": "a thank-you letter" },
+      { "key": "C", "text": "a diary entry" },
+      { "key": "D", "text": "a book review" }
+    ],
+    "answer": "A",
+    "explanation": "判断文体看三件事：写给谁、为什么写、以什么方式发布。本题面向全校同学、目的是告知招募事项、发布方式是张贴在公告栏，完全符合通知（notice）的特征：有标题点明事项，正文交代时间、地点、要求与报名方式，落款是发布单位与日期。B 感谢信写给特定的帮助者，C 日记是私人记录、读者只有自己，D 书评是介绍与评价一本书——三者都与「面向全体、公开告知」不符。"
+  },
+  {
+    "id": "q-eng-writing-app-format-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-writing-app-format"],
+    "stem": "英文正式书信的常规结构顺序是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["应用文格式", "书信结构"],
+    "options": [
+      { "key": "A", "text": "正文 — 称呼 — 结束语 — 签名" },
+      { "key": "B", "text": "称呼 — 正文 — 结束语 — 签名" },
+      { "key": "C", "text": "称呼 — 结束语 — 正文 — 签名" },
+      { "key": "D", "text": "签名 — 称呼 — 正文 — 结束语" }
+    ],
+    "answer": "B",
+    "explanation": "书信四部分顺序是固定的：先顶格写称呼（Dear Mr. Smith,）并加逗号，再分段写正文，正文之后另起一行写结束语（Yours sincerely, / Best wishes,）并加逗号，最后在结束语下方签名。A 把称呼与正文颠倒，C 把结束语提到正文之前，D 完全倒序，都是阅卷中一眼可见的格式错误。补充一个高频考点：知道对方姓名用 Yours sincerely，只知 Dear Sir/Madam 时用 Yours faithfully。"
+  },
+  {
+    "id": "q-eng-writing-app-format-2",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-writing-app-format"],
+    "stem": "在正式英文书信中，署名之前通常写结束语「______ sincerely,」（意为「您真诚的」），该词首字母须大写。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["应用文格式", "结束语", "书信"],
+    "blanks": [
+      {
+        "accept": ["Yours", "yours"],
+        "hint": "Yours sincerely 是固定搭配，意为「您真诚的」"
+      }
+    ],
+    "explanation": "Yours sincerely 是英文正式书信最常见的结束语，首字母大写，末尾跟逗号，然后另起一行签名。同类表达还有 Yours faithfully（不知对方姓名时）、Yours truly、Best wishes（较随意）。常见错误：写成 Your sincerely（少一个 s，把「您的」和「您真诚的」混为一谈）、把逗号写成句号、把结束语和签名挤在同一行、或者在结束语前空出两三行。"
+  },
+  {
+    "id": "q-eng-writing-app-format-3",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-writing-app-format"],
+    "stem": "判断下列说法是否正确：英文通知与英文书信一样，都需要写称呼（如 Dear students,）和写作者的私人签名。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["应用文格式", "通知", "格式辨析"],
+    "answer": false,
+    "explanation": "错。通知是「一对多」的公开告知，常规组成部分是标题（Notice 或事件名称）、正文（时间、地点、活动内容、要求）、发布单位、发布日期，一般不需要称呼，落款写单位（如 the English Club / the Students' Union）而不是个人签名。把书信的称呼、Yours sincerely、个人签名硬套到通知上，是格式分最常见的丢分点。反过来也要注意：书信必须有称呼和签名，不能因为「简洁」而省略。"
+  },
+  {
+    "id": "q-eng-writing-app-format-4",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-writing-app-format"],
+    "stem": "下列各项中，不属于英文通知必备组成部分的是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["应用文格式", "通知要素"],
+    "options": [
+      { "key": "A", "text": "标题，点明通知的事项" },
+      { "key": "B", "text": "正文，交代时间、地点、活动内容与要求" },
+      { "key": "C", "text": "发布单位与发布日期" },
+      { "key": "D", "text": "收信人本人的手写签名" }
+    ],
+    "answer": "D",
+    "explanation": "通知的必备成分是标题、正文、发布单位、发布日期，A、B、C 缺一不可；D 不属于通知成分——通知面向全体读者，不需要也做不到让每个收信人签名，落款只需单位与日期。常见错误有两种：一是照搬书信格式，加上 Dear all 和 Yours sincerely；二是漏写发布日期，导致读者无法判断信息是否过期。"
+  },
+  {
+    "id": "q-eng-writing-app-content-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-writing-app-content"],
+    "stem": "题目要求你给外教 Mr. Brown 写一封邀请信，邀请他参加本周五的英语角。下列内容最应该出现在开头段的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["要点覆盖", "开头段", "写作目的"],
+    "options": [
+      { "key": "A", "text": "英语角的具体流程与游戏环节" },
+      { "key": "B", "text": "写信的目的：邀请他参加本周五的英语角" },
+      { "key": "C", "text": "你过去一年学习英语的详细经历" },
+      { "key": "D", "text": "学校建校以来的历史沿革" }
+    ],
+    "answer": "B",
+    "explanation": "应用文开头段的通用功能是「开门见山说明写作目的」，本题就是 I am writing to invite you to our English Corner this Friday. 这样一句话交代清楚写给谁、为什么写。A 属于主体段细节，放在开头会挤掉目的句，让读者读完第一段还不知道你要干什么；C、D 与写作目的无关，属于典型的凑字数偏题，既不加分还可能被判内容不切题。合理结构：开头点目的 → 主体逐条落实要点 → 结尾表达期待或感谢。"
+  },
+  {
+    "id": "q-eng-writing-app-content-2",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-writing-app-content"],
+    "stem": "为使应用文要点齐全又不偏题，下列做法正确的有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["要点覆盖", "写作提纲", "结尾"],
+    "options": [
+      { "key": "A", "text": "动笔前把题目要求逐条圈出、列成提纲，写完后逐条打勾核对" },
+      { "key": "B", "text": "为提高内容的丰富度，补充与主题无关的个人经历" },
+      { "key": "C", "text": "每个要点至少用一句话落实，重要要点可再补一句细节或理由" },
+      { "key": "D", "text": "结尾用一句话回应写作目的，如表达期待回复或感谢" }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 是防漏要点最有效的手段，把「写作」变成「核对清单」。C 说明要点覆盖不等于罗列关键词——每个要点要成句、有信息量，重要处补一句细节（何时、何地、怎么做）才显得内容充实。D 使首尾呼应、结构完整，也是应用文结尾的常规功能。B 错：评分看的是题目要点是否落实，不是词数或内容多少；无关内容既不加分，还会挤占篇幅导致真正的要点写不细，严重时被判偏题。"
+  },
+  {
+    "id": "q-eng-writing-app-content-3",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-writing-app-content"],
+    "stem": "邀请信的开头常用句式：「I am writing to ______ you to our English Corner.」（邀请，填动词原形）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["邀请信", "开头句", "固定搭配"],
+    "blanks": [
+      {
+        "accept": ["invite"],
+        "hint": "invite sb. to sth. 邀请某人参加某活动"
+      }
+    ],
+    "explanation": "invite 构成 invite sb. to + 活动／地点，是本句的唯一搭配：invite you to our English Corner。注意 invite 后面直接接人，不能写成 invite to you；同类高频句还有 I would like to invite you to ... / We are pleased to invite you to ...。拼写易错为 invate、invitee（受试者），以及把 to 漏掉写成 invite you our English Corner。"
+  },
+  {
+    "id": "q-eng-writing-app-content-4",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-writing-app-content"],
+    "stem": "题目要求写一则通知，内容必须包括「活动时间、活动地点、活动内容」三项。下列正文（节选）中，要点齐全的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["要点覆盖", "通知", "信息筛选"],
+    "options": [
+      { "key": "A", "text": "The English Corner will be held this Friday." },
+      { "key": "B", "text": "Please come to Room 302 at 4 p.m. this Friday, when we will discuss the novel Jane Eyre together." },
+      { "key": "C", "text": "Our English Corner is very popular among the students of our school." },
+      { "key": "D", "text": "Everyone is welcome to join us and have a good time." }
+    ],
+    "answer": "B",
+    "explanation": "B 同时给出了三项：时间 4 p.m. this Friday、地点 Room 302、内容 discuss the novel Jane Eyre，是最完整的一句。A 只有时间，缺地点与内容；C 是对活动的评价，没有任何可执行的信息；D 是礼貌的欢迎语，同样不含三项要素。判断要点是否齐全的方法很笨但很有效：拿着题目列出的要点，逐条到正文里去找对应信息，找不到的立即补写，而不是凭「读起来挺顺」下判断。"
+  },
+  {
+    "id": "q-eng-writing-app-language-1",
+    "subjectId": "english",
+    "type": "single",
+    "kpIds": ["eng-writing-app-language"],
+    "stem": "同样表达「希望对方参加」，写给校长时最得体的表达是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["语言得体", "语气", "请求句式"],
+    "options": [
+      { "key": "A", "text": "You'd better come to our meeting." },
+      { "key": "B", "text": "I would be grateful if you could attend our meeting." },
+      { "key": "C", "text": "Come to our meeting, will you?" },
+      { "key": "D", "text": "Don't miss our meeting!" }
+    ],
+    "answer": "B",
+    "explanation": "对上级或长辈要用委婉、正式的表达，I would be grateful if you could ... 是典型的礼貌请求句式，把「请对方做」说成「若对方能做我将不胜感激」。A 的 You'd better 在英语里带有劝告甚至警告的意味，对校长使用显得不敬；C 是口语化的附加疑问句，语气过于随意；D 是祈使句加感叹号，像广告口号，强硬且不礼貌。判断是否得体的关键是先看「写作对象与你的关系」，再选相应的句式和情态动词。"
+  },
+  {
+    "id": "q-eng-writing-app-language-2",
+    "subjectId": "english",
+    "type": "judge",
+    "kpIds": ["eng-writing-app-language"],
+    "stem": "判断下列说法是否正确：应用文中为了显示语言水平，应尽量使用复杂长句和生僻词汇，句子越长越容易得高分。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["语言得体", "句式选择", "评分导向"],
+    "answer": false,
+    "explanation": "错。应用文评分首重「准确、得体、连贯」，长句和生僻词只有在用得对的前提下才有价值；一旦出现主谓不一致、时态混乱或搭配错误，扣分比用简单句严重得多。实际高分文章多是长短句结合、连接词清楚、几乎没有语法错误的文章。写作原则是「先求准确，再求变化」：有把握再用高级结构，没把握就用准确简单的句子，宁可朴素也不要出错。"
+  },
+  {
+    "id": "q-eng-writing-app-language-3",
+    "subjectId": "english",
+    "type": "multiple",
+    "kpIds": ["eng-writing-app-language"],
+    "stem": "下列有助于应用文行文连贯、语言得体的做法有（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["语言得体", "连贯", "连接词"],
+    "options": [
+      { "key": "A", "text": "用 Firstly / Besides / Finally 等标志词把主体分层，让读者一眼看清结构" },
+      { "key": "B", "text": "每个句子都用 and 串起来，尽量避免使用其他连接词" },
+      { "key": "C", "text": "代词指代明确，避免同一个 it 或 they 同时指代两个不同对象" },
+      { "key": "D", "text": "交卷前检查时态、主谓一致、拼写与标点" }
+    ],
+    "answer": ["A", "C", "D"],
+    "explanation": "A 提供显性的结构标记，读者能迅速定位层次，这是连贯性最直接的手段。C 是代词衔接的基本要求：指代不清会让读者反复回读，属于「连贯」失分。D 是最后一道防线——应用文篇幅短，一处主谓不一致或时态跳跃就足以拉低整篇档次。B 错：通篇只用 and 会造成句式单调，而且把并列、因果、转折都压成一个 and，逻辑关系反而模糊，这是连贯性差而不是好的表现。"
+  },
+  {
+    "id": "q-eng-writing-app-language-4",
+    "subjectId": "english",
+    "type": "fill",
+    "kpIds": ["eng-writing-app-language"],
+    "stem": "给外教的感谢信结尾常用：「I am writing to ______ you for your generous help.」（感谢，填动词原形）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["感谢信", "语言得体", "固定搭配"],
+    "blanks": [
+      {
+        "accept": ["thank"],
+        "hint": "thank sb. for sth. 因某事感谢某人"
+      }
+    ],
+    "explanation": "thank 构成 thank sb. for sth.，是本句唯一正确的搭配：thank you for your generous help。注意 thank 作动词时后面直接接人，再跟 for + 事由，不能写成 thank for you。同类表达还有 express my thanks / gratitude to you for ...。易错点：把动词写成名词形式 thanks（如 I am writing to thanks you），或漏掉介词 for 写成 thank you your help。"
+  },
+  {
+    "id": "q-eng-writing-app-content-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-writing-app-content", "eng-writing-app-format"],
+    "stem": "下面是你班同学为「英语角招募新成员」写的英文通知草稿。题目要求：①内容须包含招募对象、活动时间与地点、报名方式三项要点；②按通知的格式书写。请完成：(1) 指出草稿遗漏的要点；(2) 指出两处格式错误；(3) 说明应怎样修改。\n\nDear all,\n\nOur English Corner is looking for new members. It is a good place to practise spoken English. We hope you will like it.\n\nYours sincerely,\nLi Hua",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["要点覆盖", "通知格式", "病文诊断"],
+    "rubric": [
+      { "text": "指出遗漏「活动时间与地点」这一要点，并说明通知必须让读者知道何时何地参加", "score": 2 },
+      { "text": "指出遗漏「报名方式」这一要点，并说明应交代报名渠道、截止时间或联系人", "score": 2 },
+      { "text": "指出格式错误一：不应使用称呼 Dear all，且缺少点明事项的标题", "score": 2 },
+      { "text": "指出格式错误二：不应使用书信结束语 Yours sincerely 和个人签名 Li Hua，应改为发布单位（如 the English Club）与发布日期", "score": 2 }
+    ],
+    "reference": "(1) 遗漏的要点：活动时间与地点（何时、在哪个教室或场地举行）；报名方式（向谁报名、用什么方式、截止到哪天）。\n\n(2) 格式错误：① 草稿用了书信称呼 Dear all，且没有标题——通知应有标题点明事项，一般不写称呼；② 草稿以 Yours sincerely 和 Li Hua 收尾，这是私人书信的结束语与签名——通知的落款应是发布单位（如 the English Club）和发布日期。\n\n(3) 修改示例：\n\nNOTICE\n\nNew Members Wanted for the English Club\n\nThe English Club is looking for new members. We meet every Friday from 4 p.m. to 5 p.m. in Room 302, where we practise spoken English through games, discussions and short plays. If you are interested, please send your name and class to Li Hua at lihua@school.cn before next Wednesday.\n\nEveryone is welcome. Come and join us!\n\nThe English Club\nNovember 20, 2026",
+    "maxScore": 8,
+    "explanation": "本题把「要点覆盖」与「格式规范」两件事放在一起考。要点方面，草稿只说「我们在招人、这里不错、希望你喜欢」，三条必需要点中只落实了半条「招募对象」（还没写清面向哪些年级），时间地点、报名方式全部缺失——这正是学生最常犯的错：把通知写成「宣传语」。格式方面，通知不需要称呼，需要标题；落款是单位和日期，不是私人签名。诊断类题目要按「找遗漏—找错位—给改法」三步作答，每指出一处都要说明「为什么错、应改成什么」，只说「格式不对」拿不到满分。"
+  },
+  {
+    "id": "q-eng-writing-app-language-5",
+    "subjectId": "english",
+    "type": "short",
+    "kpIds": ["eng-writing-app-language", "eng-writing-app"],
+    "stem": "下面一段话摘自某同学写给外教 Ms. Green 的邀请信，其中有三处语言不得体或表达不连贯。请逐一指出、改写，并说明理由。\n\nDear Ms. Green,\n\nI want you to come to our English party. You must bring some English songs. And we will have a lot of fun and we will eat cake and we will play games and we hope you like it. I wait for your answer.",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["语言得体", "改写", "连贯"],
+    "rubric": [
+      { "text": "指出 I want you to come 语气过于直接，改写为 I would like to invite you to ... / We would be honoured if you could come to ...，并说明对师长须用委婉请求", "score": 3 },
+      { "text": "指出 You must bring ... 是命令语气，改写为 We would be grateful if you could prepare an English song / You are welcome to bring ...，并说明 must 用于上对下", "score": 3 },
+      { "text": "指出连续用 and 连接造成句式单调、逻辑层次不清，改写为拆句并换用 Besides / What's more / First ... Then ...，同时把 I wait for your answer 改为 I look forward to your reply", "score": 2 }
+    ],
+    "reference": "(1) I want you to come to our English party. → I would like to invite you to our English party. 理由：want sb. to do 是直接表达意愿的说法，对老师显得生硬；I would like to invite you to ... 是邀请信的固定礼貌句式。\n\n(2) You must bring some English songs. → We would be grateful if you could prepare an English song for us. ／ You are welcome to bring some English songs if you like. 理由：must 表示命令与强制，只能用于上对下或规章，对老师使用极不得体；改为请求句或「欢迎……如果愿意」的柔性表达。\n\n(3) And we will have a lot of fun and we will eat cake and we will play games and we hope you like it. → 拆成两句并用连接词分层：We will play games and enjoy some cake together. Besides, there will be a short show prepared by the students. We do hope you will enjoy it. 理由：一句话里连用四个 and，既单调又看不出主次；拆句并换用 Besides / What's more 能让层次清楚。另外 I wait for your answer 宜改为 I look forward to your reply，更符合书信结尾的正式表达。\n\n改写后的整段示例：\nDear Ms. Green,\n\nI would like to invite you to our English party, which will be held in the school hall at 6 p.m. this Friday. We would be grateful if you could prepare an English song for us. There will be games, cake and a short show prepared by the students. We do hope you will enjoy the evening.\n\nI look forward to your reply.\n\nYours sincerely,\nLi Hua",
+    "maxScore": 8,
+    "explanation": "本题考查「得体」与「连贯」两条评分维度。得体看两处：want 与 must 都带有强烈的个人意愿或命令色彩，写给老师必须换成 I would like to ... / I would be grateful if you could ... 这类委婉句，判断依据是「说话人与听话人的地位关系」。连贯看一处：一句话连用四个 and，把并列、递进、总结全压成同一个连接词，读者读不出层次，应拆句并换用 Besides / What's more / do hope 等。改写题的答题格式要写清「原句—改句—理由」三部分，只改写不说明理由通常只能拿一半分。"
+  }
+]

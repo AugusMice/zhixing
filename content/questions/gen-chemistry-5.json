@@ -1,0 +1,493 @@
+[
+  {
+    "id": "q-chem-ions-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-ions"],
+    "stem": "在无色透明溶液中，$\\mathrm{K^+}$、$\\mathrm{Na^+}$、$\\mathrm{NO_3^-}$、$\\mathrm{MnO_4^-}$ 四种离子可以大量共存。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["离子共存", "隐含条件", "溶液颜色"],
+    "answer": false,
+    "explanation": "错误。$\\mathrm{MnO_4^-}$ 在水溶液中呈紫红色，与题干“无色透明溶液”这一隐含条件直接冲突。若把“无色”去掉，这四种离子之间既不生成沉淀、气体，也不发生氧化还原，确实可以大量共存——所以本题考的不是离子反应，而是审题时对颜色、酸碱性、能否与 $\\mathrm{H^+}$ 或 $\\mathrm{OH^-}$ 共存等隐含条件的敏感度。易错点：只看离子间是否反应，漏掉“无色”“由水电离出的 $c(\\mathrm{H^+})$”这类限定语。"
+  },
+  {
+    "id": "q-chem-ions-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-ions"],
+    "stem": "检验某溶液中是否含有 $\\mathrm{SO_4^{2-}}$ 时，应先用 ____ 酸化，再加入 ____ 溶液；若产生不溶于该酸的白色沉淀，即可证明原溶液中含有 $\\mathrm{SO_4^{2-}}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["离子检验", "硫酸根"],
+    "blanks": [
+      { "accept": ["稀盐酸", "盐酸", "HCl", "稀HCl", "稀盐酸(HCl)"], "hint": "不能用硝酸或硫酸酸化" },
+      { "accept": ["BaCl2", "氯化钡", "BaCl₂", "BaCl2溶液"], "hint": "加入可溶性钡盐" }
+    ],
+    "explanation": "顺序必须是“先加稀盐酸酸化，再加 $\\mathrm{BaCl_2}$ 溶液”。先酸化可以排除 $\\mathrm{CO_3^{2-}}$、$\\mathrm{SO_3^{2-}}$、$\\mathrm{PO_4^{3-}}$ 的干扰（它们的钡盐溶于盐酸），同时若溶液中有 $\\mathrm{Ag^+}$，会先以 $\\mathrm{AgCl}$ 形式沉淀而被滤除，避免后面把 $\\mathrm{AgCl}$ 误认成 $\\mathrm{BaSO_4}$。不能用硝酸酸化：硝酸会把 $\\mathrm{SO_3^{2-}}$ 氧化为 $\\mathrm{SO_4^{2-}}$，造成假阳性。也不能先加 $\\mathrm{BaCl_2}$ 后加酸——若存在 $\\mathrm{Ag^+}$，生成的 $\\mathrm{AgCl}$ 也不溶于盐酸，无法与 $\\mathrm{BaSO_4}$ 区分。"
+  },
+  {
+    "id": "q-chem-ions-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-ions"],
+    "stem": "下列各组离子在水溶液中能够大量共存的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["离子共存", "弱电解质", "沉淀"],
+    "options": [
+      { "key": "A", "text": "$\\mathrm{H^+}$、$\\mathrm{Cl^-}$、$\\mathrm{CH_3COO^-}$、$\\mathrm{Na^+}$" },
+      { "key": "B", "text": "$\\mathrm{Ag^+}$、$\\mathrm{NO_3^-}$、$\\mathrm{Cl^-}$、$\\mathrm{K^+}$" },
+      { "key": "C", "text": "$\\mathrm{K^+}$、$\\mathrm{Na^+}$、$\\mathrm{SO_4^{2-}}$、$\\mathrm{NO_3^-}$" },
+      { "key": "D", "text": "$\\mathrm{Na^+}$、$\\mathrm{Cl^-}$、$\\mathrm{HCO_3^-}$、$\\mathrm{OH^-}$" }
+    ],
+    "answer": "C",
+    "explanation": "A 组中 $\\mathrm{H^+}$ 与 $\\mathrm{CH_3COO^-}$ 结合成弱电解质 $\\mathrm{CH_3COOH}$，不能大量共存；B 组中 $\\mathrm{Ag^+}$ 与 $\\mathrm{Cl^-}$ 生成 $\\mathrm{AgCl}$ 沉淀；D 组中 $\\mathrm{HCO_3^-}$ 与 $\\mathrm{OH^-}$ 反应生成 $\\mathrm{CO_3^{2-}}$ 和 $\\mathrm{H_2O}$（$\\mathrm{HCO_3^-+OH^-=CO_3^{2-}+H_2O}$），也不能共存。只有 C 组四种离子彼此不生成沉淀、气体或弱电解质，也不发生氧化还原，可以大量共存。判断顺序建议：先看隐含条件（颜色、酸碱性），再逐对检查“沉淀—气体—弱电解质—氧化还原—双水解”。"
+  },
+  {
+    "id": "q-chem-ions-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-ions"],
+    "stem": "关于常见离子的检验，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["离子检验", "干扰排除", "多选"],
+    "options": [
+      { "key": "A", "text": "检验 $\\mathrm{Cl^-}$ 时先用稀硝酸酸化，再加入 $\\mathrm{AgNO_3}$ 溶液，可排除 $\\mathrm{CO_3^{2-}}$ 的干扰" },
+      { "key": "B", "text": "检验 $\\mathrm{NH_4^+}$ 时，用湿润的红色石蕊试纸靠近试管口，试纸变蓝" },
+      { "key": "C", "text": "检验 $\\mathrm{SO_4^{2-}}$ 时先加 $\\mathrm{BaCl_2}$ 溶液、后加稀盐酸，白色沉淀不溶解即可确认" },
+      { "key": "D", "text": "用焰色试验检验 $\\mathrm{K^+}$ 时，应透过蓝色钴玻璃观察火焰颜色" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：稀硝酸排除 $\\mathrm{CO_3^{2-}}$（生成 $\\mathrm{CO_2}$）、$\\mathrm{OH^-}$（生成 $\\mathrm{Ag_2O}$ 后溶解）等干扰，$\\mathrm{AgCl}$ 不溶于稀硝酸。B 对：$\\mathrm{NH_4^+}$ 与 $\\mathrm{OH^-}$ 加热放出 $\\mathrm{NH_3}$，氨气使湿润的红色石蕊试纸变蓝。C 错：先加 $\\mathrm{BaCl_2}$ 再加盐酸，若原溶液含 $\\mathrm{Ag^+}$，生成的 $\\mathrm{AgCl}$ 同样不溶于盐酸，会被误判为 $\\mathrm{BaSO_4}$；正确顺序是先加稀盐酸酸化、过滤后再加 $\\mathrm{BaCl_2}$。D 对：钾的焰色为紫色，易被钠的黄光掩盖，故透过蓝色钴玻璃滤去黄光后再观察。易错点：把“沉淀不溶解”直接等同于“就是 $\\mathrm{BaSO_4}$”，忽略 $\\mathrm{AgCl}$。"
+  },
+  {
+    "id": "q-chem-weak-electrolyte-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-weak-electrolyte"],
+    "stem": "将 $0.1\\ \\mathrm{mol/L}$ 的 $\\mathrm{CH_3COOH}$ 溶液加水稀释，溶液中 $c(\\mathrm{H^+})$ 减小，而 $\\mathrm{CH_3COOH}$ 的电离度增大。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电离平衡", "稀释", "电离度"],
+    "answer": true,
+    "explanation": "正确。稀释使溶液体积增大、各微粒浓度降低，同时按“越稀越电离”的规律，电离平衡向电离方向移动，电离度增大。两者并不矛盾：电离度是已电离的分子占原有分子的比例，稀释后该比例上升，但溶液体积增大得更快，故 $c(\\mathrm{H^+})$ 仍然减小。定量看，稀溶液中 $c(\\mathrm{H^+})\\approx\\sqrt{K_a c}$，随 $c$ 减小而减小。易错点：认为“电离度增大”就意味着 $c(\\mathrm{H^+})$ 增大，或认为稀释后所有离子浓度都减小（$c(\\mathrm{OH^-})$ 反而是增大的）。"
+  },
+  {
+    "id": "q-chem-weak-electrolyte-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-weak-electrolyte"],
+    "stem": "25 ℃ 时，$0.10\\ \\mathrm{mol/L}$ 的 $\\mathrm{CH_3COOH}$ 溶液中 $c(\\mathrm{H^+})=1.0\\times10^{-3}\\ \\mathrm{mol/L}$。则该溶液中 $\\mathrm{CH_3COOH}$ 的电离度 $\\alpha=$ ____ %，电离常数 $K_a\\approx$ ____。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["电离度", "电离常数", "计算"],
+    "blanks": [
+      { "accept": ["1", "1.0", "1.0%", "1%", "1.00"], "hint": "$\\alpha=\\dfrac{c(\\mathrm{H^+})}{c}$" },
+      { "accept": ["1.0×10^-5", "1.0×10^{-5}", "1.0e-5", "1×10^-5", "10^-5", "1.01×10^-5"], "hint": "$K_a=\\dfrac{c(\\mathrm{H^+})^2}{c-c(\\mathrm{H^+})}$" }
+    ],
+    "explanation": "电离度 $\\alpha=\\dfrac{c(\\mathrm{H^+})}{c(\\mathrm{CH_3COOH})}=\\dfrac{1.0\\times10^{-3}}{0.10}\\times100\\%=1.0\\%$。平衡时 $c(\\mathrm{CH_3COO^-})=c(\\mathrm{H^+})=1.0\\times10^{-3}$，$c(\\mathrm{CH_3COOH})=0.10-1.0\\times10^{-3}=0.099$，故 $K_a=\\dfrac{(1.0\\times10^{-3})^2}{0.099}\\approx1.0\\times10^{-5}$。易错点：①用 $0.10$ 代替平衡浓度作分母，忽略已电离部分（本题影响小，但浓度大、电离度大时必须扣除）；②把 $c(\\mathrm{H^+})$ 直接当成 $\\alpha$ 而不乘 $100\\%$；③对多元弱酸忘记分步电离，把第二步也算进第一步。"
+  },
+  {
+    "id": "q-chem-weak-electrolyte-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-weak-electrolyte"],
+    "stem": "25 ℃ 时，将 pH=3 的 $\\mathrm{CH_3COOH}$ 溶液加水稀释 10 倍，所得溶液的 pH 约为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["pH", "稀释", "弱酸"],
+    "options": [
+      { "key": "A", "text": "等于 4" },
+      { "key": "B", "text": "大于 3 小于 4" },
+      { "key": "C", "text": "等于 2" },
+      { "key": "D", "text": "大于 4" }
+    ],
+    "answer": "B",
+    "explanation": "若为强酸，稀释 10 倍时 $c(\\mathrm{H^+})$ 变为原来的 $\\dfrac{1}{10}$，pH 恰好增大 1（由 3 变为 4）。但 $\\mathrm{CH_3COOH}$ 是弱酸，稀释促进电离，电离出的 $\\mathrm{H^+}$ 有所补偿，$c(\\mathrm{H^+})$ 的减小幅度小于 10 倍，故 pH 增大量小于 1，结果在 3 与 4 之间（实测约 3.5）。A 是按强酸处理所得；C 方向反了；D 是误以为弱酸稀释后反而更酸。这类题的核心结论：强酸、强碱稀释 10 倍 pH 变 1，弱酸弱碱稀释 10 倍 pH 变化小于 1。"
+  },
+  {
+    "id": "q-chem-weak-electrolyte-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-weak-electrolyte"],
+    "stem": "关于弱电解质的电离平衡，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["电离平衡", "电离常数", "同离子效应"],
+    "options": [
+      { "key": "A", "text": "升高温度，弱电解质的电离程度增大，电离常数 $K_a$ 增大" },
+      { "key": "B", "text": "向 $\\mathrm{CH_3COOH}$ 溶液中加入少量 $\\mathrm{CH_3COONa}$ 固体，电离平衡逆向移动，$c(\\mathrm{H^+})$ 减小" },
+      { "key": "C", "text": "加水稀释弱酸溶液时，溶液中所有离子的浓度都减小" },
+      { "key": "D", "text": "多元弱酸分步电离，通常第一步的电离程度远大于第二步" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：弱电解质的电离是吸热的，升温促进电离，$K_a$ 随温度升高而增大（$K_a$ 只与温度有关，与浓度无关）。B 对：加入 $\\mathrm{CH_3COONa}$ 使 $c(\\mathrm{CH_3COO^-})$ 增大，按同离子效应电离平衡左移，$c(\\mathrm{H^+})$ 减小。C 错：稀释时 $c(\\mathrm{H^+})$ 减小，由 $K_w$ 可知 $c(\\mathrm{OH^-})=\\dfrac{K_w}{c(\\mathrm{H^+})}$ 反而增大，并非所有离子浓度都减小。D 对：多元弱酸分步电离，第一步电离出的 $\\mathrm{H^+}$ 抑制后续步骤，且第二步需克服更大的静电引力，故 $K_{a1}\\gg K_{a2}$，比较酸性强弱只看第一步。"
+  },
+  {
+    "id": "q-chem-water-ionization-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-water-ionization"],
+    "stem": "100 ℃ 时纯水的 pH 约为 6，说明该温度下的纯水显弱酸性。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["水的电离", "Kw", "温度"],
+    "answer": false,
+    "explanation": "错误。水的电离吸热，升温使 $K_w$ 增大，100 ℃ 时 $K_w\\approx1\\times10^{-12}$，纯水中 $c(\\mathrm{H^+})=c(\\mathrm{OH^-})=\\sqrt{K_w}=1\\times10^{-6}\\ \\mathrm{mol/L}$，pH=6。pH 小于 7 只是温度升高使中性点左移的结果，纯水中 $c(\\mathrm{H^+})$ 仍等于 $c(\\mathrm{OH^-})$，依然呈中性。判断酸碱性的唯一标准是比较 $c(\\mathrm{H^+})$ 与 $c(\\mathrm{OH^-})$ 的大小，而不是 pH 是否小于 7。易错点：把“pH=7”当作中性的普适判据。"
+  },
+  {
+    "id": "q-chem-water-ionization-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-water-ionization"],
+    "stem": "25 ℃ 时，pH=12 的 $\\mathrm{NaOH}$ 溶液中，由水电离出的 $c(\\mathrm{H^+})=$ ____ $\\mathrm{mol/L}$；pH=3 的盐酸中，由水电离出的 $c(\\mathrm{H^+})=$ ____ $\\mathrm{mol/L}$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["水的电离", "酸碱抑制", "计算"],
+    "blanks": [
+      { "accept": ["1×10^-12", "1.0×10^-12", "1e-12", "10^-12"], "hint": "碱溶液中 $c(\\mathrm{H^+})$ 全部来自水" },
+      { "accept": ["1×10^-11", "1.0×10^-11", "1e-11", "10^-11"], "hint": "酸溶液中 $c(\\mathrm{OH^-})$ 才等于水电离出的量" }
+    ],
+    "explanation": "碱溶液中 $\\mathrm{OH^-}$ 主要来自 $\\mathrm{NaOH}$，$c(\\mathrm{OH^-})=1\\times10^{-2}\\ \\mathrm{mol/L}$，则 $c(\\mathrm{H^+})=\\dfrac{K_w}{c(\\mathrm{OH^-})}=1\\times10^{-12}\\ \\mathrm{mol/L}$，而溶液中的 $\\mathrm{H^+}$ 全部由水电离产生，故由水电离出的 $c(\\mathrm{H^+})=1\\times10^{-12}\\ \\mathrm{mol/L}$。酸溶液中 $c(\\mathrm{H^+})=1\\times10^{-3}$，则 $c(\\mathrm{OH^-})=1\\times10^{-11}$，溶液中的 $\\mathrm{OH^-}$ 全部来自水，水电离出的 $c(\\mathrm{H^+})$ 等于 $c(\\mathrm{OH^-})$，故为 $1\\times10^{-11}\\ \\mathrm{mol/L}$。规律：酸、碱都抑制水的电离，由水电离出的 $c(\\mathrm{H^+})$ 等于溶液中较小的那个离子浓度。易错点：直接把 pH 换算成 $10^{-12}$ 与 $10^{-3}$，或漏掉“由水电离出”这一限定。"
+  },
+  {
+    "id": "q-chem-water-ionization-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-water-ionization"],
+    "stem": "25 ℃ 时，某溶液中由水电离出的 $c(\\mathrm{H^+})=1.0\\times10^{-12}\\ \\mathrm{mol/L}$，则该溶液的 pH 可能是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["水的电离", "pH", "酸碱性判断"],
+    "options": [
+      { "key": "A", "text": "2" },
+      { "key": "B", "text": "12" },
+      { "key": "C", "text": "2 或 12" },
+      { "key": "D", "text": "7" }
+    ],
+    "answer": "C",
+    "explanation": "由水电离出的 $c(\\mathrm{H^+})=1\\times10^{-12}$，说明水的电离受到抑制，溶液可能是酸性的也可能是碱性的。若为酸溶液，$\\mathrm{H^+}$ 主要来自酸，则 $c(\\mathrm{H^+})_{\\text{总}}=\\dfrac{K_w}{1\\times10^{-12}}=1\\times10^{-2}\\ \\mathrm{mol/L}$，pH=2；若为碱溶液，$\\mathrm{OH^-}$ 主要来自碱，$c(\\mathrm{OH^-})=1\\times10^{-2}$，pOH=2，pH=12。两种情况都使水电离出的 $c(\\mathrm{H^+})$ 恰为 $1\\times10^{-12}$，故 pH 可能是 2 或 12。A、B 都只考虑了一种可能；D 的 pH=7 对应水电离出的 $c(\\mathrm{H^+})=1\\times10^{-7}$，与题意不符。关键：看到“由水电离出的”就要想到酸、碱两种情形。"
+  },
+  {
+    "id": "q-chem-water-ionization-4",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-water-ionization"],
+    "stem": "25 ℃ 时，将 $0.010\\ \\mathrm{mol/L}$ 的 $\\mathrm{Ba(OH)_2}$ 溶液与 $0.010\\ \\mathrm{mol/L}$ 的盐酸等体积混合（忽略体积变化，$\\lg 5=0.7$），所得溶液的 pH 约为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["酸碱混合", "pH 计算", "强碱"],
+    "options": [
+      { "key": "A", "text": "7" },
+      { "key": "B", "text": "11.7" },
+      { "key": "C", "text": "12.0" },
+      { "key": "D", "text": "12.3" }
+    ],
+    "answer": "B",
+    "explanation": "$\\mathrm{Ba(OH)_2}$ 是二元强碱，$0.010\\ \\mathrm{mol/L}$ 溶液中 $c(\\mathrm{OH^-})=0.020\\ \\mathrm{mol/L}$；盐酸中 $c(\\mathrm{H^+})=0.010\\ \\mathrm{mol/L}$。等体积混合后体积加倍，剩余 $c(\\mathrm{OH^-})=\\dfrac{0.020-0.010}{2}=0.005\\ \\mathrm{mol/L}=5\\times10^{-3}\\ \\mathrm{mol/L}$，pOH $=-\\lg(5\\times10^{-3})=3-0.7=2.3$，故 pH $=14-2.3=11.7$。A 错：误以为等浓度等体积恰好完全中和，忽略了 $\\mathrm{Ba(OH)_2}$ 能提供 2 倍 $\\mathrm{OH^-}$；C 错：忘记混合后体积加倍，直接用 $0.010$ 算得 pOH=2；D 错：把 $\\mathrm{OH^-}$ 当成 $0.020$ 且漏除 2。解题要点：先算物质的量（注意元数），再除以混合后总体积。"
+  },
+  {
+    "id": "q-chem-salt-hydrolysis-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-salt-hydrolysis"],
+    "stem": "将 $\\mathrm{CH_3COONa}$ 溶液加水稀释，$\\mathrm{CH_3COO^-}$ 的水解程度增大，但溶液的 $c(\\mathrm{OH^-})$ 减小。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["盐类水解", "稀释", "水解程度"],
+    "answer": true,
+    "explanation": "正确。稀释使水解平衡 $\\mathrm{CH_3COO^-+H_2O\\rightleftharpoons CH_3COOH+OH^-}$ 向右移动，水解程度增大（与“越稀越水解”一致）。但体积增大使 $\\mathrm{OH^-}$ 被稀释的程度更大，稀溶液中 $c(\\mathrm{OH^-})\\approx\\sqrt{K_h c}$，随 $c$ 减小而减小，故碱性减弱、pH 减小。规律：升温、稀释都促进水解，但稀释使水解产物的浓度降低。易错点：由“水解程度增大”推出“碱性增强”，把“程度”和“浓度”混为一谈。"
+  },
+  {
+    "id": "q-chem-salt-hydrolysis-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-salt-hydrolysis"],
+    "stem": "明矾 $\\mathrm{KAl(SO_4)_2\\cdot12H_2O}$ 能净水，是因为 $\\mathrm{Al^{3+}}$ 在水中水解生成 ____（填化学式或名称），该物质可吸附水中的悬浮杂质而沉降。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["盐类水解", "明矾净水", "生活应用"],
+    "blanks": [
+      { "accept": ["Al(OH)3", "Al(OH)₃", "氢氧化铝", "Al(OH)3胶体", "氢氧化铝胶体"], "hint": "$\\mathrm{Al^{3+}+3H_2O\\rightleftharpoons Al(OH)_3(\\text{胶体})+3H^+}$" }
+    ],
+    "explanation": "$\\mathrm{Al^{3+}}$ 水解：$\\mathrm{Al^{3+}+3H_2O\\rightleftharpoons Al(OH)_3(\\text{胶体})+3H^+}$，生成的 $\\mathrm{Al(OH)_3}$ 胶体粒子带正电，能吸附水中带负电的悬浮杂质并聚沉，从而达到净水目的。注意两点：①净水是胶体的吸附作用，不是杀菌消毒（杀菌靠 $\\mathrm{Cl_2}$、$\\mathrm{ClO_2}$ 等的氧化性）；②明矾水解使溶液显酸性，故不能与大量碱性物质同用。易错点：把产物写成 $\\mathrm{Al_2O_3}$ 或写成“$\\mathrm{Al(OH)_3}$ 沉淀”而漏掉“胶体”这一关键性质。"
+  },
+  {
+    "id": "q-chem-salt-hydrolysis-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-salt-hydrolysis"],
+    "stem": "下列溶液因水解而显酸性的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["盐类水解", "溶液酸碱性", "易混概念"],
+    "options": [
+      { "key": "A", "text": "$\\mathrm{NaHSO_4}$ 溶液" },
+      { "key": "B", "text": "$\\mathrm{NH_4Cl}$ 溶液" },
+      { "key": "C", "text": "$\\mathrm{Na_2CO_3}$ 溶液" },
+      { "key": "D", "text": "$\\mathrm{NaCl}$ 溶液" }
+    ],
+    "answer": "B",
+    "explanation": "$\\mathrm{NH_4Cl}$ 中 $\\mathrm{NH_4^+}$ 水解：$\\mathrm{NH_4^++H_2O\\rightleftharpoons NH_3\\cdot H_2O+H^+}$，使溶液显酸性，符合题意。A 的 $\\mathrm{NaHSO_4}$ 显酸性是因为它电离出 $\\mathrm{H^+}$（$\\mathrm{NaHSO_4=Na^++H^++SO_4^{2-}}$），属于电离而非水解，是本题最大的干扰项。C 中 $\\mathrm{CO_3^{2-}}$ 水解显碱性；D 中 $\\mathrm{NaCl}$ 为强酸强碱盐，不水解，溶液呈中性。判断口诀：有弱才水解、越弱越水解、谁强显谁性；同时要区分“电离显酸性”与“水解显酸性”。"
+  },
+  {
+    "id": "q-chem-salt-hydrolysis-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-salt-hydrolysis"],
+    "stem": "关于盐类水解，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["盐类水解", "水解规律", "应用"],
+    "options": [
+      { "key": "A", "text": "有弱才水解，无弱不水解，谁强显谁性" },
+      { "key": "B", "text": "配制 $\\mathrm{FeCl_3}$ 溶液时，常加入少量盐酸以抑制 $\\mathrm{Fe^{3+}}$ 的水解" },
+      { "key": "C", "text": "相同浓度的 $\\mathrm{Na_2CO_3}$ 溶液与 $\\mathrm{NaHCO_3}$ 溶液，前者碱性更强" },
+      { "key": "D", "text": "升高温度会抑制盐类水解" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：这是盐类水解的基本规律，强酸弱碱盐显酸性、强碱弱酸盐显碱性、强酸强碱盐不水解。B 对：$\\mathrm{Fe^{3+}}$ 水解使溶液显酸性，加盐酸增大 $c(\\mathrm{H^+})$ 使水解平衡左移，抑制水解、防止溶液变浑浊。C 对：$\\mathrm{CO_3^{2-}}$ 的水解常数 $K_h=\\dfrac{K_w}{K_{a2}}$ 远大于 $\\mathrm{HCO_3^-}$ 的 $K_h=\\dfrac{K_w}{K_{a1}}$，且 $\\mathrm{CO_3^{2-}}$ 带 2 个单位电荷、结合 $\\mathrm{H^+}$ 能力更强，故同浓度时 $\\mathrm{Na_2CO_3}$ 碱性更强。D 错：水解是吸热的（水解可看作中和反应的逆反应），升温促进水解。易错点：把“升温促进电离”的结论生搬硬套却记错方向，或认为水解程度与温度无关。"
+  },
+  {
+    "id": "q-chem-neutralization-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-neutralization"],
+    "stem": "用标准盐酸滴定未知浓度的 $\\mathrm{NaOH}$ 溶液，其他操作均正确，下列操作会使测定结果偏高的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["中和滴定", "误差分析"],
+    "options": [
+      { "key": "A", "text": "锥形瓶用蒸馏水洗净后未干燥，直接加入待测 $\\mathrm{NaOH}$ 溶液" },
+      { "key": "B", "text": "酸式滴定管用蒸馏水洗净后未用标准盐酸润洗" },
+      { "key": "C", "text": "滴定前仰视读数，滴定后俯视读数" },
+      { "key": "D", "text": "滴定过程中有少量待测液溅出锥形瓶" }
+    ],
+    "answer": "B",
+    "explanation": "由 $c(\\mathrm{NaOH})=\\dfrac{c(\\mathrm{HCl})\\cdot V(\\mathrm{HCl})}{V(\\mathrm{NaOH})}$ 可知，凡使消耗的标准液体积读数偏大的操作，都会使结果偏高。B 中滴定管未润洗，内壁残留的蒸馏水稀释了标准盐酸，需多消耗体积才能达到终点，$V(\\mathrm{HCl})$ 偏大，结果偏高。A 中锥形瓶残留蒸馏水不改变待测 $\\mathrm{NaOH}$ 的物质的量，只稀释了溶液，无影响（这是最常见的“假误差”）。C 中滴定前仰视读数偏大、滴定后俯视读数偏小，两者之差 $V$ 偏小，结果偏低。D 中待测液损失，消耗标准液偏少，结果偏低。记忆方法：只有影响“物质的量”或“读数之差”的操作才产生误差。"
+  },
+  {
+    "id": "q-chem-neutralization-2",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-neutralization"],
+    "stem": "用 $0.1\\ \\mathrm{mol/L}$ 的盐酸滴定未知浓度的 $\\mathrm{NaOH}$ 溶液，最宜选用的指示剂是（　）",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["中和滴定", "指示剂选择"],
+    "options": [
+      { "key": "A", "text": "只能选酚酞" },
+      { "key": "B", "text": "只能选甲基橙" },
+      { "key": "C", "text": "酚酞或甲基橙均可" },
+      { "key": "D", "text": "石蕊" }
+    ],
+    "answer": "C",
+    "explanation": "强酸滴定强碱，滴定终点时溶液由碱性突变为中性附近（pH 恰为 7），而滴定突跃范围很宽（约 pH 4.3~9.7），酚酞（变色范围 8.2~10.0）和甲基橙（3.1~4.4）的变色区间都落在突跃范围内，故两者均可选。实际操作中多用酚酞，因为由红变无色更容易观察。D 的石蕊变色范围宽（5~8）且颜色变化不明显（红—紫—蓝），不作为滴定指示剂。规律：指示剂的变色范围应尽量落在滴定突跃范围内；强酸滴定弱碱只能选甲基橙，强碱滴定弱酸只能选酚酞。"
+  },
+  {
+    "id": "q-chem-neutralization-3",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-neutralization"],
+    "stem": "用 $0.1000\\ \\mathrm{mol/L}$ 的 $\\mathrm{NaOH}$ 标准液滴定 $25.00\\ \\mathrm{mL}$ 未知浓度的盐酸，达到滴定终点时消耗 $\\mathrm{NaOH}$ 溶液 $20.00\\ \\mathrm{mL}$，则盐酸的浓度为 ____ $\\mathrm{mol/L}$。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["中和滴定", "浓度计算"],
+    "blanks": [
+      { "accept": ["0.0800", "0.08", "0.080", "8.00×10^-2", "0.0800mol/L"], "hint": "$c_{\\text{待}}=\\dfrac{c_{\\text{标}}V_{\\text{标}}}{V_{\\text{待}}}$" }
+    ],
+    "explanation": "由 $\\mathrm{HCl+NaOH=NaCl+H_2O}$ 知两者物质的量相等，故 $c(\\mathrm{HCl})=\\dfrac{c(\\mathrm{NaOH})V(\\mathrm{NaOH})}{V(\\mathrm{HCl})}=\\dfrac{0.1000\\times20.00}{25.00}=0.0800\\ \\mathrm{mol/L}$。注意有效数字：标准液浓度 0.1000 与体积读数均保留 4 位有效数字，结果应写 $0.0800\\ \\mathrm{mol/L}$（不是 0.08）。易错点：①把体积比倒置成 $\\dfrac{25.00}{20.00}$ 得 0.125；②忘记 0.1000 与 0.100 的区别导致有效数字丢失；③滴定管读数未估读到 0.01 mL 引起体积误读。"
+  },
+  {
+    "id": "q-chem-neutralization-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-neutralization"],
+    "stem": "关于酸碱中和滴定的操作，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["中和滴定", "基本操作", "多选"],
+    "options": [
+      { "key": "A", "text": "滴定管使用前要检查是否漏液，并用待装液润洗 2~3 次" },
+      { "key": "B", "text": "滴定终点应判断为：滴入最后半滴标准液后，溶液颜色发生突变且半分钟内不恢复" },
+      { "key": "C", "text": "读数时应平视凹液面最低处，且读数需精确到 0.01 mL" },
+      { "key": "D", "text": "量取待测液时用普通量筒比用移液管更准确" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：滴定管要检查活塞或橡皮管是否漏液，并用待装液润洗，否则残留的水会稀释标准液造成系统误差。B 对：终点是“颜色突变且半分钟内不褪色”，强调半分钟是为了排除局部过量造成的暂态变色。C 对：滴定管最小分度为 0.1 mL，需估读到 0.01 mL，读数时视线与凹液面最低处相平。D 错：移液管（或吸量管）精度为 0.01 mL 级，量筒只有 0.1 mL 级，量取待测液应用移液管。易错点：把“滴定管润洗”的对象与“锥形瓶不润洗”混淆——锥形瓶绝不能用待测液润洗。"
+  },
+  {
+    "id": "q-chem-precipitation-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-precipitation"],
+    "stem": "25 ℃ 时 $K_{sp}(\\mathrm{AgCl})=1.8\\times10^{-10}$。在 $0.10\\ \\mathrm{mol/L}$ 的 $\\mathrm{NaCl}$ 溶液中，$\\mathrm{AgCl}$ 的溶解度约为（　）（单位 $\\mathrm{mol/L}$）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["Ksp", "同离子效应", "溶解度计算"],
+    "options": [
+      { "key": "A", "text": "$1.8\\times10^{-9}$" },
+      { "key": "B", "text": "$1.3\\times10^{-5}$" },
+      { "key": "C", "text": "$1.8\\times10^{-10}$" },
+      { "key": "D", "text": "$1.8\\times10^{-8}$" }
+    ],
+    "answer": "A",
+    "explanation": "设溶解度为 $s$，则 $c(\\mathrm{Ag^+})=s$，$c(\\mathrm{Cl^-})=0.10+s\\approx0.10$（同离子效应使 $s$ 极小）。由 $K_{sp}=c(\\mathrm{Ag^+})c(\\mathrm{Cl^-})$ 得 $s=\\dfrac{1.8\\times10^{-10}}{0.10}=1.8\\times10^{-9}\\ \\mathrm{mol/L}$。B 是纯水中的溶解度 $\\sqrt{K_{sp}}=1.3\\times10^{-5}$，是忘记同离子效应（或照搬水溶液公式）的典型错误；C 直接取了 $K_{sp}$ 的数值作溶解度，混淆了量纲；D 数量级错。结论：同离子效应使难溶物溶解度显著减小，饱和溶液中“某离子浓度”不能简单开方。"
+  },
+  {
+    "id": "q-chem-precipitation-2",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-precipitation"],
+    "stem": "下列操作中，能使 $\\mathrm{AgCl}$ 沉淀溶解的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["沉淀溶解平衡", "沉淀转化", "配位"],
+    "options": [
+      { "key": "A", "text": "加入少量 $\\mathrm{NaCl}$ 固体" },
+      { "key": "B", "text": "加入 $\\mathrm{Na_2S}$ 溶液" },
+      { "key": "C", "text": "加入氨水" },
+      { "key": "D", "text": "加入稀硝酸" }
+    ],
+    "answer": "C",
+    "explanation": "加入氨水后发生配位反应 $\\mathrm{Ag^++2NH_3\\cdot H_2O=[Ag(NH_3)_2]^++2H_2O}$，$c(\\mathrm{Ag^+})$ 大幅降低，使 $Q_c<K_{sp}$，$\\mathrm{AgCl}$ 不断溶解，故 C 正确。A 中 $c(\\mathrm{Cl^-})$ 增大，同离子效应使平衡左移，沉淀更不易溶解。B 中生成更难溶的 $\\mathrm{Ag_2S}$（$K_{sp}$ 极小），属于“沉淀转化”而非使 $\\mathrm{AgCl}$ 溶解，现象是白色沉淀变为黑色沉淀。D 中稀硝酸不与 $\\mathrm{AgCl}$ 反应（$\\mathrm{AgCl}$ 不溶于稀硝酸），沉淀不溶解。判断标准：只有使 $Q_c<K_{sp}$ 的操作才能让沉淀溶解，包括降低某离子浓度（配位、生成弱电解质）和消耗阴离子。"
+  },
+  {
+    "id": "q-chem-precipitation-3",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-precipitation"],
+    "stem": "25 ℃ 时 $K_{sp}(\\mathrm{AgCl})=1.8\\times10^{-10}$。$\\mathrm{AgCl}$ 饱和溶液（纯水中）中 $c(\\mathrm{Ag^+})=$ ____ $\\mathrm{mol/L}$（结果保留两位有效数字）。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["Ksp", "溶解度", "开方计算"],
+    "blanks": [
+      { "accept": ["1.3×10^-5", "1.3e-5", "1.34×10^-5", "1.34e-5", "1.3×10^{-5}"], "hint": "$c(\\mathrm{Ag^+})=\\sqrt{K_{sp}}$" }
+    ],
+    "explanation": "$\\mathrm{AgCl(s)\\rightleftharpoons Ag^++Cl^-}$，纯水中 $c(\\mathrm{Ag^+})=c(\\mathrm{Cl^-})=s$，故 $K_{sp}=s^2$，$s=\\sqrt{1.8\\times10^{-10}}=\\sqrt{1.8}\\times10^{-5}\\approx1.34\\times10^{-5}\\ \\mathrm{mol/L}$，保留两位有效数字得 $1.3\\times10^{-5}$。易错点：①忘记开方，直接答 $1.8\\times10^{-10}$；②开方只对系数、漏掉 $10^{-10}$ 的指数处理，答成 $1.34\\times10^{-10}$；③忽略有效数字要求，写成 1.342×10⁻⁵。对于 $\\mathrm{A_aB_b}$ 型难溶物，$s=\\sqrt[a+b]{\\dfrac{K_{sp}}{a^a b^b}}$，不能一律开平方。"
+  },
+  {
+    "id": "q-chem-precipitation-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-precipitation"],
+    "stem": "关于沉淀溶解平衡与溶度积，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["Ksp", "沉淀转化", "温度影响"],
+    "options": [
+      { "key": "A", "text": "$K_{sp}$ 只与难溶电解质本身的性质和温度有关，与离子浓度无关" },
+      { "key": "B", "text": "向 $\\mathrm{BaSO_4}$ 饱和溶液中加入少量 $\\mathrm{Na_2SO_4}$ 固体，$\\mathrm{BaSO_4}$ 的溶解度减小" },
+      { "key": "C", "text": "某溶液中 $Q_c>K_{sp}$ 时，会有沉淀析出" },
+      { "key": "D", "text": "升高温度，所有难溶电解质的 $K_{sp}$ 都增大" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：$K_{sp}$ 是平衡常数，只取决于难溶物本性（结构、键型）和温度，改变离子浓度只会改变 $Q_c$ 而不会改变 $K_{sp}$。B 对：加入 $\\mathrm{SO_4^{2-}}$ 产生同离子效应，平衡左移，溶解度减小。C 对：$Q_c>K_{sp}$ 为过饱和，体系将析出沉淀直至 $Q_c=K_{sp}$。D 错：溶解过程多数吸热，升温 $K_{sp}$ 增大，但少数（如 $\\mathrm{Ca(OH)_2}$）溶解放热，升温 $K_{sp}$ 反而减小，故“所有都增大”过于绝对。易错点：把“$K_{sp}$ 小”直接等同于“溶解度小”——只有组成类型相同时才能这样比较，如 $\\mathrm{AgCl}$（1:1）与 $\\mathrm{Ag_2CrO_4}$（2:1）不能直接比。"
+  },
+  {
+    "id": "q-chem-ion-concentration-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-ion-concentration"],
+    "stem": "$0.1\\ \\mathrm{mol/L}$ 的 $\\mathrm{Na_2CO_3}$ 溶液中：$c(\\mathrm{Na^+})=2c(\\mathrm{CO_3^{2-}})+2c(\\mathrm{HCO_3^-})+2c(\\mathrm{H_2CO_3})$。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["离子浓度", "物料守恒", "碳酸钠"],
+    "answer": true,
+    "explanation": "正确，这是物料守恒（原子守恒）。溶液中含碳微粒共有 $\\mathrm{CO_3^{2-}}$、$\\mathrm{HCO_3^-}$、$\\mathrm{H_2CO_3}$ 三种，由碳原子守恒得 $c(\\mathrm{CO_3^{2-}})+c(\\mathrm{HCO_3^-})+c(\\mathrm{H_2CO_3})=0.1\\ \\mathrm{mol/L}$；又 $\\mathrm{Na_2CO_3}$ 中钠与碳的物质的量之比为 2:1，故 $c(\\mathrm{Na^+})=2\\left[c(\\mathrm{CO_3^{2-}})+c(\\mathrm{HCO_3^-})+c(\\mathrm{H_2CO_3})\\right]$，即题中等式。易错点：把物料守恒与电荷守恒混淆，或在物料守恒中漏掉 $\\mathrm{H_2CO_3}$（水解生成的弱酸分子）这一项。"
+  },
+  {
+    "id": "q-chem-ion-concentration-2",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-ion-concentration"],
+    "stem": "$0.1\\ \\mathrm{mol/L}$ 的 $\\mathrm{CH_3COONa}$ 溶液中，各离子浓度由大到小的顺序正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["离子浓度", "盐类水解", "大小比较"],
+    "options": [
+      { "key": "A", "text": "$c(\\mathrm{Na^+})>c(\\mathrm{CH_3COO^-})>c(\\mathrm{OH^-})>c(\\mathrm{H^+})$" },
+      { "key": "B", "text": "$c(\\mathrm{Na^+})>c(\\mathrm{CH_3COO^-})>c(\\mathrm{H^+})>c(\\mathrm{OH^-})$" },
+      { "key": "C", "text": "$c(\\mathrm{CH_3COO^-})>c(\\mathrm{Na^+})>c(\\mathrm{OH^-})>c(\\mathrm{H^+})$" },
+      { "key": "D", "text": "$c(\\mathrm{Na^+})>c(\\mathrm{OH^-})>c(\\mathrm{CH_3COO^-})>c(\\mathrm{H^+})$" }
+    ],
+    "answer": "A",
+    "explanation": "$\\mathrm{CH_3COO^-}$ 水解：$\\mathrm{CH_3COO^-+H_2O\\rightleftharpoons CH_3COOH+OH^-}$，水解程度很小，故 $c(\\mathrm{CH_3COO^-})$ 只比 $c(\\mathrm{Na^+})$ 略小；水解产生 $\\mathrm{OH^-}$ 使溶液显碱性，$c(\\mathrm{OH^-})>c(\\mathrm{H^+})$。因此顺序为 $c(\\mathrm{Na^+})>c(\\mathrm{CH_3COO^-})>c(\\mathrm{OH^-})>c(\\mathrm{H^+})$，A 正确。B 把 $\\mathrm{H^+}$ 放在 $\\mathrm{OH^-}$ 前，等于说溶液显酸性，与水解事实矛盾；C 误认为阴离子多于阳离子，违反电荷守恒（阳离子总电荷必等于阴离子总电荷，$\\mathrm{Na^+}$ 必须排第一）；D 高估了水解程度，认为 $\\mathrm{OH^-}$ 超过未水解的 $\\mathrm{CH_3COO^-}$。口诀：弱酸强碱盐“钠在前、弱酸根次之、$\\mathrm{OH^-}$ 第三、$\\mathrm{H^+}$ 最后”。"
+  },
+  {
+    "id": "q-chem-ion-concentration-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-ion-concentration"],
+    "stem": "25 ℃ 时，将等体积、等浓度的 $\\mathrm{CH_3COOH}$ 溶液与 $\\mathrm{CH_3COONa}$ 溶液混合，测得混合液显酸性。则混合液中离子浓度关系正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["离子浓度", "缓冲溶液", "电荷守恒"],
+    "options": [
+      { "key": "A", "text": "$c(\\mathrm{CH_3COO^-})>c(\\mathrm{Na^+})>c(\\mathrm{H^+})>c(\\mathrm{OH^-})$" },
+      { "key": "B", "text": "$c(\\mathrm{Na^+})>c(\\mathrm{CH_3COO^-})>c(\\mathrm{OH^-})>c(\\mathrm{H^+})$" },
+      { "key": "C", "text": "$c(\\mathrm{CH_3COO^-})>c(\\mathrm{Na^+})>c(\\mathrm{OH^-})>c(\\mathrm{H^+})$" },
+      { "key": "D", "text": "$c(\\mathrm{Na^+})=c(\\mathrm{CH_3COO^-})$" }
+    ],
+    "answer": "A",
+    "explanation": "混合后 $\\mathrm{CH_3COOH}$ 与 $\\mathrm{CH_3COO^-}$ 构成缓冲体系。溶液显酸性说明 $\\mathrm{CH_3COOH}$ 的电离程度大于 $\\mathrm{CH_3COO^-}$ 的水解程度，净结果使 $c(\\mathrm{CH_3COO^-})$ 增大、$c(\\mathrm{CH_3COOH})$ 减小，故 $c(\\mathrm{CH_3COO^-})>c(\\mathrm{Na^+})$；再结合电荷守恒 $c(\\mathrm{Na^+})+c(\\mathrm{H^+})=c(\\mathrm{CH_3COO^-})+c(\\mathrm{OH^-})$ 与 $c(\\mathrm{H^+})>c(\\mathrm{OH^-})$，可推出 $c(\\mathrm{CH_3COO^-})-c(\\mathrm{Na^+})=c(\\mathrm{H^+})-c(\\mathrm{OH^-})>0$，结论自洽。C 把 $\\mathrm{OH^-}$ 排在 $\\mathrm{H^+}$ 前，与“显酸性”矛盾；B 相当于水解占优（显碱性）的情形；D 若两者相等则 $c(\\mathrm{H^+})=c(\\mathrm{OH^-})$，溶液只能呈中性。解题套路：先由酸碱性判断电离与水解谁占优，再用电荷守恒校验。"
+  },
+  {
+    "id": "q-chem-ion-concentration-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-ion-concentration"],
+    "stem": "关于溶液中离子浓度的关系，下列说法正确的是（　）",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["离子浓度", "电荷守恒", "水解"],
+    "options": [
+      { "key": "A", "text": "$\\mathrm{NaHCO_3}$ 溶液中：$c(\\mathrm{Na^+})+c(\\mathrm{H^+})=c(\\mathrm{HCO_3^-})+2c(\\mathrm{CO_3^{2-}})+c(\\mathrm{OH^-})$" },
+      { "key": "B", "text": "向 $0.1\\ \\mathrm{mol/L}$ 氨水中加入少量 $\\mathrm{NH_4Cl}$ 固体，$\\dfrac{c(\\mathrm{NH_4^+})}{c(\\mathrm{NH_3\\cdot H_2O})}$ 增大" },
+      { "key": "C", "text": "等浓度的 $\\mathrm{NH_4Cl}$ 溶液与 $\\mathrm{NH_4HSO_4}$ 溶液相比，前者 $c(\\mathrm{NH_4^+})$ 更大" },
+      { "key": "D", "text": "向 $0.1\\ \\mathrm{mol/L}$ 盐酸中加入等体积 $0.1\\ \\mathrm{mol/L}$ 氨水，所得溶液中 $c(\\mathrm{NH_4^+})>c(\\mathrm{Cl^-})>c(\\mathrm{H^+})>c(\\mathrm{OH^-})$" }
+    ],
+    "answer": ["A", "B"],
+    "explanation": "A 对：这是 $\\mathrm{NaHCO_3}$ 溶液的电荷守恒，$\\mathrm{CO_3^{2-}}$ 带 2 个单位负电荷，系数必须为 2，逐项核对每个离子的电荷数即可。B 对：$K_b=\\dfrac{c(\\mathrm{NH_4^+})c(\\mathrm{OH^-})}{c(\\mathrm{NH_3\\cdot H_2O})}$，故 $\\dfrac{c(\\mathrm{NH_4^+})}{c(\\mathrm{NH_3\\cdot H_2O})}=\\dfrac{K_b}{c(\\mathrm{OH^-})}$；加入 $\\mathrm{NH_4^+}$ 使电离平衡左移、$c(\\mathrm{OH^-})$ 减小，该比值增大。C 错：$\\mathrm{NH_4HSO_4}$ 电离出的 $\\mathrm{H^+}$ 抑制 $\\mathrm{NH_4^+}$ 水解，使 $c(\\mathrm{NH_4^+})$ 更大，故应为后者更大。D 错：等物质的量盐酸与氨水恰好完全反应生成 $\\mathrm{NH_4Cl}$，$\\mathrm{NH_4^+}$ 水解使 $c(\\mathrm{Cl^-})>c(\\mathrm{NH_4^+})$，正确顺序为 $c(\\mathrm{Cl^-})>c(\\mathrm{NH_4^+})>c(\\mathrm{H^+})>c(\\mathrm{OH^-})$。本题的核心是：电荷守恒要配系数，浓度比值要回到平衡常数去分析。"
+  },
+  {
+    "id": "q-chem-salt-hydrolysis-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-salt-hydrolysis", "chem-ion-concentration"],
+    "stem": "25 ℃ 时，$K_w=1.0\\times10^{-14}$，$K_a(\\mathrm{CH_3COOH})=1.8\\times10^{-5}$。现有 $0.10\\ \\mathrm{mol/L}$ 的 $\\mathrm{CH_3COONa}$ 溶液。\n\n（1）写出 $\\mathrm{CH_3COO^-}$ 水解的离子方程式，并求水解常数 $K_h$；\n（2）求溶液中 $c(\\mathrm{OH^-})$ 和 pH（已知 $\\sqrt{5.6}=2.4$，$\\lg 7.5=0.87$，结果保留一位小数）；\n（3）将 $\\mathrm{Na^+}$、$\\mathrm{CH_3COO^-}$、$\\mathrm{OH^-}$、$\\mathrm{H^+}$、$\\mathrm{CH_3COOH}$ 按浓度由大到小排序；\n（4）写出该溶液的物料守恒式与电荷守恒式。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["盐类水解", "水解常数", "离子浓度"],
+    "rubric": [
+      { "text": "写出 $\\mathrm{CH_3COO^-+H_2O\\rightleftharpoons CH_3COOH+OH^-}$，并由 $K_h=\\dfrac{K_w}{K_a}$ 求得 $K_h=5.6\\times10^{-10}$", "score": 3 },
+      { "text": "由 $c(\\mathrm{OH^-})=\\sqrt{K_h c}$ 求得 $c(\\mathrm{OH^-})=7.5\\times10^{-6}\\ \\mathrm{mol/L}$，进而 $\\mathrm{pOH}=5.1$、$\\mathrm{pH}=8.9$", "score": 3 },
+      { "text": "排序正确：$c(\\mathrm{Na^+})>c(\\mathrm{CH_3COO^-})>c(\\mathrm{OH^-})>c(\\mathrm{CH_3COOH})>c(\\mathrm{H^+})$", "score": 2 },
+      { "text": "物料守恒：$c(\\mathrm{Na^+})=c(\\mathrm{CH_3COO^-})+c(\\mathrm{CH_3COOH})$；电荷守恒：$c(\\mathrm{Na^+})+c(\\mathrm{H^+})=c(\\mathrm{CH_3COO^-})+c(\\mathrm{OH^-})$", "score": 2 }
+    ],
+    "reference": "（1）$\\mathrm{CH_3COO^-+H_2O\\rightleftharpoons CH_3COOH+OH^-}$，$K_h=\\dfrac{c(\\mathrm{CH_3COOH})\\,c(\\mathrm{OH^-})}{c(\\mathrm{CH_3COO^-})}=\\dfrac{K_w}{K_a}=\\dfrac{1.0\\times10^{-14}}{1.8\\times10^{-5}}=5.6\\times10^{-10}$。\n（2）水解程度很小，$c(\\mathrm{CH_3COO^-})\\approx0.10\\ \\mathrm{mol/L}$，由 $c(\\mathrm{OH^-})=\\sqrt{K_h c}=\\sqrt{5.6\\times10^{-10}\\times0.10}=\\sqrt{5.6\\times10^{-11}}\\approx7.5\\times10^{-6}\\ \\mathrm{mol/L}$。$\\mathrm{pOH}=-\\lg(7.5\\times10^{-6})=6-0.87=5.13$，故 $\\mathrm{pH}=14-5.13\\approx8.9$。\n（3）由质子守恒 $c(\\mathrm{OH^-})=c(\\mathrm{CH_3COOH})+c(\\mathrm{H^+})$ 知 $c(\\mathrm{OH^-})>c(\\mathrm{CH_3COOH})>c(\\mathrm{H^+})$；水解程度小，$c(\\mathrm{CH_3COO^-})$ 略小于 $c(\\mathrm{Na^+})$。故 $c(\\mathrm{Na^+})>c(\\mathrm{CH_3COO^-})>c(\\mathrm{OH^-})>c(\\mathrm{CH_3COOH})>c(\\mathrm{H^+})$。\n（4）物料守恒：$c(\\mathrm{Na^+})=c(\\mathrm{CH_3COO^-})+c(\\mathrm{CH_3COOH})$；电荷守恒：$c(\\mathrm{Na^+})+c(\\mathrm{H^+})=c(\\mathrm{CH_3COO^-})+c(\\mathrm{OH^-})$。",
+    "maxScore": 10,
+    "explanation": "本题把水解常数、pH 计算与离子浓度排序串成一条完整链条，是“盐类水解”板块的典型综合题。（1）的关键是识别 $K_h=K_w/K_a$ 的来源：水解是中和反应的逆过程，故其平衡常数等于 $K_w$ 与弱酸电离常数之商。（2）用近似式 $c(\\mathrm{OH^-})=\\sqrt{K_h c}$，并注意检验近似条件（$c(\\mathrm{OH^-})\\ll c$）；算出的 pH 约 8.9，说明强碱弱酸盐溶液显碱性但碱性很弱。（3）最易失分：不少学生漏掉 $\\mathrm{CH_3COOH}$，或把它排在 $\\mathrm{OH^-}$ 之前。正确依据是质子守恒 $c(\\mathrm{OH^-})=c(\\mathrm{CH_3COOH})+c(\\mathrm{H^+})$，由于水解产生的 $\\mathrm{OH^-}$ 一部分与 $\\mathrm{H^+}$ 结合，故 $c(\\mathrm{CH_3COOH})$ 略小于 $c(\\mathrm{OH^-})$ 而远大于 $c(\\mathrm{H^+})$。（4）要分清“物料守恒按元素守恒列”“电荷守恒按电荷数配系数列”，两者不能混用。"
+  },
+  {
+    "id": "q-chem-neutralization-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-neutralization", "chem-water-ionization"],
+    "stem": "25 ℃ 时，用 $0.1000\\ \\mathrm{mol/L}$ 的 $\\mathrm{NaOH}$ 溶液滴定 $20.00\\ \\mathrm{mL}$ 某浓度的 $\\mathrm{CH_3COOH}$ 溶液，已知 $K_a(\\mathrm{CH_3COOH})=1.8\\times10^{-5}$，$K_w=1.0\\times10^{-14}$，$\\lg 1.34=0.13$，$\\lg 1.8=0.26$，$\\lg 5.3=0.72$。\n\n（1）滴定前测得 $c(\\mathrm{CH_3COOH})\\approx0.1000\\ \\mathrm{mol/L}$，求该溶液的 pH；\n（2）加入 $10.00\\ \\mathrm{mL}$ $\\mathrm{NaOH}$ 溶液时（半终点），求溶液的 pH；\n（3）加入 $20.00\\ \\mathrm{mL}$ $\\mathrm{NaOH}$ 溶液时（终点），求溶液的 pH；\n（4）本滴定应选酚酞还是甲基橙作指示剂？说明理由。",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["中和滴定", "滴定曲线", "指示剂"],
+    "rubric": [
+      { "text": "（1）由 $c(\\mathrm{H^+})=\\sqrt{K_a c}=\\sqrt{1.8\\times10^{-6}}=1.34\\times10^{-3}$ 求得 pH $=2.9$", "score": 3 },
+      { "text": "（2）半终点时 $\\mathrm{CH_3COOH}$ 与 $\\mathrm{CH_3COO^-}$ 物质的量相等，为缓冲溶液，pH $=\\mathrm{p}K_a=4.7$", "score": 3 },
+      { "text": "（3）终点生成 $0.0500\\ \\mathrm{mol/L}$ 的 $\\mathrm{CH_3COONa}$，由 $K_h=\\dfrac{K_w}{K_a}$ 与 $c(\\mathrm{OH^-})=\\sqrt{K_h c}$ 求得 $c(\\mathrm{OH^-})=5.3\\times10^{-6}$，pH $=8.7$", "score": 4 },
+      { "text": "（4）选酚酞，因为终点 pH 约 8.7 落在酚酞变色范围 8.2~10.0 内，而甲基橙 3.1~4.4 与之相差太远", "score": 2 }
+    ],
+    "reference": "（1）$\\mathrm{CH_3COOH}$ 部分电离，$c(\\mathrm{H^+})=\\sqrt{K_a c}=\\sqrt{1.8\\times10^{-5}\\times0.1000}=\\sqrt{1.8\\times10^{-6}}\\approx1.34\\times10^{-3}\\ \\mathrm{mol/L}$，pH $=-\\lg(1.34\\times10^{-3})=3-0.13=2.9$。\n（2）加入 $10.00\\ \\mathrm{mL}$ 时，一半 $\\mathrm{CH_3COOH}$ 被中和，混合液中 $c(\\mathrm{CH_3COOH})\\approx c(\\mathrm{CH_3COO^-})$，由 $K_a=\\dfrac{c(\\mathrm{H^+})c(\\mathrm{CH_3COO^-})}{c(\\mathrm{CH_3COOH})}$ 得 $c(\\mathrm{H^+})\\approx K_a$，故 pH $=\\mathrm{p}K_a=-\\lg(1.8\\times10^{-5})=5-0.26=4.74\\approx4.7$。\n（3）加入 $20.00\\ \\mathrm{mL}$ 恰好完全反应，溶液为 $\\mathrm{CH_3COONa}$，$c=\\dfrac{0.1000\\times20.00}{40.00}=0.0500\\ \\mathrm{mol/L}$。$K_h=\\dfrac{K_w}{K_a}=\\dfrac{1.0\\times10^{-14}}{1.8\\times10^{-5}}=5.6\\times10^{-10}$，$c(\\mathrm{OH^-})=\\sqrt{K_h c}=\\sqrt{5.6\\times10^{-10}\\times0.0500}=\\sqrt{2.8\\times10^{-11}}\\approx5.3\\times10^{-6}\\ \\mathrm{mol/L}$，$\\mathrm{pOH}=6-0.72=5.28$，pH $=14-5.28=8.72\\approx8.7$。\n（4）应选酚酞。终点 pH 约 8.7，酚酞的变色范围 8.2~10.0 覆盖该点，且颜色由无色变浅红，突变明显；甲基橙变色范围 3.1~4.4，在 pH 8.7 时早已呈黄色，无法指示终点。",
+    "maxScore": 12,
+    "explanation": "本题完整复现了强碱滴定弱酸的滴定曲线三大关键点：起点、半终点、终点。起点用 $c(\\mathrm{H^+})=\\sqrt{K_a c}$ 的弱酸近似式；半终点出现等量弱酸与弱酸根，构成缓冲溶液，此时 pH 只由 $K_a$ 决定（pH $=\\mathrm{p}K_a$），与浓度无关——这是最易被忽视的结论；终点溶液是弱酸强碱盐，必须用水解常数 $K_h=K_w/K_a$ 再开方求 $c(\\mathrm{OH^-})$，得到的 pH 约 8.7 大于 7，正好解释了“强碱滴定弱酸终点显碱性、只能选酚酞”的原因。常见失分：①（1）中直接按强酸算得 pH=1；②（2）中忘记总体积变为 30 mL 而对浓度做错误修正（其实两者浓度比为 1:1，pH 与浓度无关，但结论要有体积变化的意识）；③（3）中把终点的 $c$ 仍按 0.1000 代入，未除以稀释后的总体积 40 mL，导致 pH 偏小；④（4）只写“选酚酞”而不说明变色范围与终点 pH 的匹配关系。"
+  }
+]

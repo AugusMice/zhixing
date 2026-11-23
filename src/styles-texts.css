@@ -1,0 +1,583 @@
+/* ---------------- 古诗文栏目 ---------------- */
+
+.text-view {
+  padding-bottom: calc(var(--nav-h) + 32px);
+}
+
+.text-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 4px 0 18px;
+}
+
+.text-search {
+  width: 100%;
+  padding: 11px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--text);
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+}
+
+.text-search:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.text-group {
+  margin-bottom: 22px;
+}
+
+.text-group-title {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0 0 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.text-group-title span {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--none);
+}
+
+.text-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 14px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--panel);
+  cursor: pointer;
+  transition: border-color 0.16s ease, transform 0.16s ease;
+}
+
+.text-card:active {
+  transform: scale(0.995);
+}
+
+@media (hover: hover) {
+  .text-card:hover {
+    border-color: var(--line-strong);
+  }
+}
+
+.text-card-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.text-card-head h3 {
+  margin: 0;
+  font-size: 15.5px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.text-meta {
+  margin: 0;
+  font-size: 12px;
+  color: var(--none);
+}
+
+.text-quote {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: var(--text);
+  opacity: 0.72;
+  line-height: 1.7;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.text-card-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+  font-size: 11.5px;
+  color: var(--none);
+}
+
+.text-go {
+  color: var(--accent);
+}
+
+.text-tag {
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-size: 10.5px;
+  line-height: 18px;
+  color: var(--warn);
+  background: rgba(255, 196, 107, 0.13);
+  border: 1px solid rgba(255, 196, 107, 0.28);
+  white-space: nowrap;
+}
+
+.text-tag--genre {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-color: rgba(122, 162, 255, 0.3);
+}
+
+.text-tag--soft {
+  color: var(--none);
+  background: transparent;
+  border-color: var(--line);
+}
+
+/* 详情页 */
+
+.text-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  margin-bottom: 18px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.text-hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.text-hero-stats {
+  display: flex;
+  gap: 14px;
+  font-size: 12px;
+  color: var(--none);
+}
+
+.text-section {
+  margin-bottom: 22px;
+}
+
+.text-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.text-section-head h2 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+
+.text-section-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.text-hint {
+  font-size: 11.5px;
+  color: var(--none);
+}
+
+.text-body {
+  padding: 16px 16px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(122, 162, 255, 0.05), transparent 60%),
+    var(--panel-solid);
+  transition: filter 0.2s ease;
+}
+
+.text-body.is-masked {
+  background: var(--panel);
+}
+
+.text-line {
+  margin: 0 0 8px;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  font-family: 'Songti SC', 'Noto Serif SC', 'Source Han Serif SC', serif;
+  transition: color 0.2s ease;
+}
+
+.text-line:last-child {
+  margin-bottom: 0;
+}
+
+.text-body.is-masked .text-line.is-hidden {
+  color: transparent;
+  text-shadow: 0 0 9px rgba(180, 200, 255, 0.55);
+  cursor: pointer;
+  user-select: none;
+}
+
+.text-body.is-masked .text-line.is-hidden:hover {
+  text-shadow: 0 0 12px rgba(180, 200, 255, 0.8);
+}
+
+.text-famous {
+  background: linear-gradient(180deg, transparent 62%, rgba(122, 162, 255, 0.32) 62%);
+  color: inherit;
+  padding: 0 1px;
+}
+
+.text-translation {
+  margin-top: 10px;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px dashed var(--line-strong);
+  background: transparent;
+}
+
+.text-translation p {
+  margin: 0 0 8px;
+  font-size: 13px;
+  line-height: 1.85;
+  color: var(--none);
+}
+
+.text-translation p:last-child {
+  margin-bottom: 0;
+}
+
+.text-famous-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.text-famous-list li {
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  border-left: 2px solid var(--accent);
+  background: var(--accent-soft);
+  font-size: 14px;
+  line-height: 1.8;
+  font-family: 'Songti SC', 'Noto Serif SC', serif;
+}
+
+.text-notes {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.text-note {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 10px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+}
+
+.text-note:last-child {
+  border-bottom: none;
+}
+
+.text-note dt {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.text-note dd {
+  margin: 0;
+  color: var(--text);
+  opacity: 0.86;
+  line-height: 1.75;
+}
+
+.text-hardchars {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.text-hardchars li {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.text-hardchars b {
+  flex: 0 0 auto;
+  min-width: 30px;
+  text-align: center;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: rgba(255, 125, 140, 0.12);
+  color: var(--bad);
+  font-family: 'Songti SC', serif;
+}
+
+.text-hardchars span {
+  color: var(--text);
+  opacity: 0.82;
+}
+
+.text-appreciation {
+  padding: 4px 2px;
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+.text-exam-note {
+  display: flex;
+  gap: 10px;
+  padding: 12px 14px;
+  margin-bottom: 22px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 196, 107, 0.26);
+  background: rgba(255, 196, 107, 0.08);
+}
+
+.text-exam-note svg {
+  flex: 0 0 auto;
+  color: var(--warn);
+}
+
+.text-exam-note strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  color: var(--warn);
+  letter-spacing: 0.04em;
+}
+
+.text-exam-note p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--text);
+  opacity: 0.88;
+}
+
+.text-question-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.text-question {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--text);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.text-question:active {
+  border-color: var(--accent);
+}
+
+.text-question-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.text-question-type {
+  font-size: 11px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.text-done {
+  margin-left: auto;
+  font-size: 11px;
+  color: var(--ok);
+}
+
+.text-question-stem {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+/* 科目页入口 */
+.hub-card--texts .hub-card-emoji {
+  color: var(--warn);
+}
+.text-drill {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(110, 168, 254, 0.16), rgba(199, 146, 234, 0.12));
+  border: 1px solid rgba(110, 168, 254, 0.28);
+}
+
+.text-drill-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.text-drill-main strong {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.text-drill-main p {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--text-dim);
+}
+
+.text-drill .btn {
+  flex: none;
+}
+.subject-texts-entry {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  margin: 14px 0 4px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 143, 171, 0.3);
+  background: linear-gradient(135deg, rgba(255, 143, 171, 0.16), rgba(110, 168, 254, 0.1));
+  color: var(--text);
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+}
+
+.subject-texts-entry > span {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 14.5px;
+}
+
+.subject-texts-entry em {
+  font-style: normal;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+
+/* ---------- 古诗文启用开关 ---------- */
+.text-enable-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 2px 0 4px;
+  font-size: 12.5px;
+  color: var(--text-3);
+}
+.text-enable-bar b {
+  color: var(--text-1);
+  font-variant-numeric: tabular-nums;
+}
+.text-enable-actions {
+  display: flex;
+  gap: 6px;
+}
+.text-card-tags {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.text-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px 3px 6px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-3);
+  font-size: 11px;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: border-color 0.16s ease, background 0.16s ease, color 0.16s ease;
+}
+.text-toggle-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--text-4, rgba(255, 255, 255, 0.25));
+  box-shadow: none;
+  transition: background 0.16s ease, box-shadow 0.16s ease;
+}
+.text-toggle.is-on {
+  border-color: rgba(94, 224, 192, 0.55);
+  background: rgba(94, 224, 192, 0.12);
+  color: #a9f0dd;
+}
+.text-toggle.is-on .text-toggle-dot {
+  background: #5ee0c0;
+  box-shadow: 0 0 8px rgba(94, 224, 192, 0.8);
+}
+.text-card.is-off {
+  opacity: 0.52;
+  filter: saturate(0.45);
+}
+.text-card.is-off:hover {
+  opacity: 0.72;
+}
+.text-drill-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+@media (max-width: 420px) {
+  .text-enable-bar {
+    font-size: 12px;
+  }
+}

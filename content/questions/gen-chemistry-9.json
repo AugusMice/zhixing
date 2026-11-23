@@ -1,0 +1,369 @@
+[
+  {
+    "id": "q-chem-process-basic-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-process-basic"],
+    "stem": "工艺流程中的“焙烧”和“蒸发浓缩”都是通过加热除去体系中的水，二者的作用完全相同。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["焙烧", "蒸发浓缩", "流程环节"],
+    "answer": false,
+    "explanation": "错误。蒸发浓缩只除去溶剂水，溶质本身不发生化学反应，目的是使溶液变浓以便结晶；焙烧是固体物料在高温下发生分解、氧化或还原等化学反应，物质的组成会改变，例如 $\\mathrm{CaCO_3\\xrightarrow{\\Delta}CaO+CO_2\\uparrow}$、$\\mathrm{4FeS_2+11O_2\\xrightarrow{\\Delta}2Fe_2O_3+8SO_2}$。易错点：只看到“加热”就认为作用相同，忽略了蒸发只发生物理变化、焙烧发生化学变化这一本质区别。"
+  },
+  {
+    "id": "q-chem-process-basic-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-process-basic"],
+    "stem": "分析无机工艺流程题的一般主线是：原料预处理 → ____（用酸、碱或盐溶液把目标元素从原料中溶出）→ 除杂与转化 → ____（或蒸发结晶、灼烧）→ 目标产品。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["流程主线", "浸出", "结晶"],
+    "blanks": [
+      { "accept": ["浸出", "浸取", "酸浸", "碱浸", "溶解浸出"], "hint": "把目标元素从固相转入溶液的操作" },
+      { "accept": ["结晶", "冷却结晶", "蒸发结晶", "结晶析出"], "hint": "使目标溶质以晶体形式析出的操作" }
+    ],
+    "explanation": "第一空填“浸出”（酸浸、碱浸是它的具体形式）：用溶剂把目标元素从矿石或废料中溶出，实现与不溶杂质的初步分离。第二空填“结晶”：从净化后的溶液中得到固体产品，溶解度随温度变化大的用冷却结晶，变化小的用蒸发结晶。易错点：①把“过滤”当成主线的独立环节——过滤只是固液分离手段，服务于浸出、除杂、结晶各步；②把“除杂”与“浸出”次序颠倒，必须先浸出才能对溶液中的离子除杂。"
+  },
+  {
+    "id": "q-chem-process-basic-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-process-basic"],
+    "stem": "下列措施中，能提高固体原料的浸出率但不能提高浸出速率的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["浸出率", "浸出速率"],
+    "options": [
+      { "key": "A", "text": "将矿石粉碎并过筛，减小颗粒粒径" },
+      { "key": "B", "text": "适当升高浸出温度并不断搅拌" },
+      { "key": "C", "text": "增大浸出剂（如硫酸）的浓度" },
+      { "key": "D", "text": "延长浸出时间" }
+    ],
+    "answer": "D",
+    "explanation": "D 正确：延长浸出时间让反应进行得更充分，最终溶出的目标元素更多，即提高浸出率；但单位时间内溶出的量（速率）不变。A、B、C 都能加快反应速率：粉碎增大固液接触面积，升温提高分子能量，搅拌减小扩散阻力，增大浸出剂浓度提高单位体积内反应物量，三者同时也提高浸出率。易错点：混淆“浸出率”（最终溶出比例，看结果）与“浸出速率”（单位时间溶出量，看快慢），这是流程题的高频辨析点。"
+  },
+  {
+    "id": "q-chem-process-basic-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-process-basic", "chem-process-purify"],
+    "stem": "关于无机工艺流程题的分析方法，下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["流程分析", "循环利用", "多选"],
+    "options": [
+      { "key": "A", "text": "分析流程时应先确定原料的主要成分与目标元素的存在形式，再逐段判断所加试剂使哪些离子被溶解、沉淀或转化" },
+      { "key": "B", "text": "判断某物质能否“循环利用”的依据是：它在后续步骤中生成，又能返回前面某一步作反应物或浸出剂" },
+      { "key": "C", "text": "流程中产生的副产物、废液只要不属于目标产物，就可以直接排放，不必考虑回收与环保要求" },
+      { "key": "D", "text": "判断“水洗”“酸洗”某固体的作用时，应结合上一步反应带入的可溶性杂质离子来分析" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：流程题的通用解法是“看原料—定目标—逐段推试剂作用”，先明确谁要溶、谁要沉。B 对：循环利用的物质必然同时满足“后步生成”和“前步可用”两个条件，如联合制碱中循环的 $\\mathrm{CO_2}$、流程中返回浸出的母液。C 错：废液、废渣需处理达标后排放，其中常含有价金属或酸碱性物质，应回收利用，这正是流程题“绿色化学”的考查点。D 对：洗涤的目的通常是除去表面吸附的可溶性杂质，因此必须先弄清上一步带了哪些离子，例如用 $\\mathrm{BaCl_2}$ 沉淀 $\\mathrm{SO_4^{2-}}$ 后洗涤是为了除去 $\\mathrm{Cl^-}$。"
+  },
+  {
+    "id": "q-chem-process-leach-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-process-leach"],
+    "stem": "用硫酸浸出矿石时，酸的浓度越大浸出率越高，因此生产中应尽可能使用浓硫酸以提高浸出率。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["酸浸", "浓度选择"],
+    "answer": false,
+    "explanation": "错误。酸浓度过大带来一系列问题：①浓硫酸氧化性强，会把 $\\mathrm{Fe^{2+}}$ 等氧化并可能产生 $\\mathrm{SO_2}$ 等有害气体；②对设备腐蚀严重，稀释时剧烈放热，操作危险；③选择性变差，杂质（如 $\\mathrm{Al_2O_3}$、$\\mathrm{CaO}$ 等）大量溶出，增加后续除杂负担；④后续调 pH 需消耗大量碱，成本上升。生产上应通过实验确定“浸出率高、杂质少、成本低”的适宜酸浓度，常配以适当温度、粒度和搅拌条件。易错点：把“浓度越大速率越快”直接推广为“浓度越大越好”。"
+  },
+  {
+    "id": "q-chem-process-leach-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-process-leach"],
+    "stem": "已知 $K_{sp}[\\mathrm{Fe(OH)_3}]=1.0\\times10^{-38}$。某浸出液中 $c(\\mathrm{Fe^{3+}})=1.0\\times10^{-5}\\ \\mathrm{mol/L}$，欲使 $\\mathrm{Fe^{3+}}$ 恰好开始沉淀，需将溶液的 pH 调至 ____。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["溶度积", "pH调控", "水解沉淀"],
+    "blanks": [
+      { "accept": ["3", "3.0", "pH=3", "pH＝3"], "hint": "由 $K_{sp}=c(\\mathrm{Fe^{3+}})\\cdot c^3(\\mathrm{OH^-})$ 先求 $c(\\mathrm{OH^-})$" }
+    ],
+    "explanation": "由 $K_{sp}=c(\\mathrm{Fe^{3+}})\\cdot c^3(\\mathrm{OH^-})$ 得 $c^3(\\mathrm{OH^-})=\\dfrac{1.0\\times10^{-38}}{1.0\\times10^{-5}}=1.0\\times10^{-33}$，故 $c(\\mathrm{OH^-})=1.0\\times10^{-11}\\ \\mathrm{mol/L}$，$\\mathrm{pOH}=11$，$\\mathrm{pH}=14-11=3$。即 pH 达到 3 时 $\\mathrm{Fe^{3+}}$ 开始沉淀，实际除铁常控 pH 3.2~4 使其沉淀完全。易错点：①忘记对 $c(\\mathrm{OH^-})$ 开三次方，直接取 $10^{-33}$ 或 $10^{-16.5}$；②算出 pOH 后忘记用 14 减去；③把“恰好开始沉淀”与“沉淀完全”（一般指残余浓度 $\\le10^{-5}\\ \\mathrm{mol/L}$）混淆，题目已给定该浓度，故答案即为开始沉淀的临界 pH。"
+  },
+  {
+    "id": "q-chem-process-leach-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-process-leach", "chem-process-purify"],
+    "stem": "某浸出液中含有 $\\mathrm{Fe^{2+}}$、$\\mathrm{Al^{3+}}$、$\\mathrm{Mg^{2+}}$，工艺要求除去铁、铝而保留镁。下列方案最合理的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["氧化除铁", "调pH", "试剂选择"],
+    "options": [
+      { "key": "A", "text": "直接加入 $\\mathrm{NaOH}$ 溶液调 pH 至 12，过滤除去沉淀" },
+      { "key": "B", "text": "先加入适量 $\\mathrm{H_2O_2}$ 将 $\\mathrm{Fe^{2+}}$ 氧化为 $\\mathrm{Fe^{3+}}$，再加入 $\\mathrm{MgO}$ 调 pH 至 4~5，过滤" },
+      { "key": "C", "text": "先加入适量 $\\mathrm{H_2O_2}$ 将 $\\mathrm{Fe^{2+}}$ 氧化，再加入 $\\mathrm{NaOH}$ 调 pH 至 12，过滤" },
+      { "key": "D", "text": "加入过量铁粉将 $\\mathrm{Fe^{3+}}$ 还原后过滤" }
+    ],
+    "answer": "B",
+    "explanation": "B 正确：$\\mathrm{Fe^{2+}}$ 在 pH 较低时难以沉淀完全，先用 $\\mathrm{H_2O_2}$ 氧化为 $\\mathrm{Fe^{3+}}$（$2\\mathrm{Fe^{2+}}+\\mathrm{H_2O_2}+2\\mathrm{H^+}=2\\mathrm{Fe^{3+}}+2\\mathrm{H_2O}$），再调 pH 至 4~5，$\\mathrm{Fe^{3+}}$、$\\mathrm{Al^{3+}}$ 以氢氧化物完全沉淀，而 $\\mathrm{Mg^{2+}}$ 约在 pH 9.4 才开始沉淀，得以保留；用 $\\mathrm{MgO}$（或 $\\mathrm{MgCO_3}$）调 pH 时生成 $\\mathrm{Mg^{2+}}$，不引入新杂质。A、C 均调至 pH 12，$\\mathrm{Mg(OH)_2}$ 也沉淀，目标离子损失。D 引入大量 $\\mathrm{Fe^{2+}}$，且铁粉消耗酸使 pH 升高但不除铁，反而带入新杂质。易错点：只记“调 pH 除铁”而忽略 $\\mathrm{Fe^{2+}}$ 需先氧化；或忽视调 pH 试剂本身不能引入杂质。"
+  },
+  {
+    "id": "q-chem-process-leach-4",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-process-leach"],
+    "stem": "某流程用稀硫酸与 $\\mathrm{H_2O_2}$ 的混合液浸出含铜废料中的铜，测得铜的浸出率随温度升高先增大，超过 $60\\,^{\\circ}\\mathrm{C}$ 后明显下降。对“下降”原因的分析，最合理的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["温度影响", "双氧水分解", "浸出率曲线"],
+    "options": [
+      { "key": "A", "text": "$\\mathrm{H_2O_2}$ 受热分解，氧化能力减弱，铜不能被充分氧化溶解" },
+      { "key": "B", "text": "温度升高使硫酸挥发加快，溶液中 $\\mathrm{H^+}$ 浓度增大" },
+      { "key": "C", "text": "温度升高使铜的金属活动性增强，更难被氧化" },
+      { "key": "D", "text": "温度升高使硫酸铜的溶解度减小，生成的 $\\mathrm{Cu^{2+}}$ 重新析出" }
+    ],
+    "answer": "A",
+    "explanation": "A 正确：$\\mathrm{H_2O_2}$ 受热易分解（$2\\mathrm{H_2O_2}\\xlongequal{\\Delta}2\\mathrm{H_2O}+\\mathrm{O_2}\\uparrow$），温度过高时氧化剂迅速耗尽，单质铜无法被氧化为 $\\mathrm{Cu^{2+}}$（$\\mathrm{Cu}+\\mathrm{H_2O_2}+2\\mathrm{H^+}=\\mathrm{Cu^{2+}}+2\\mathrm{H_2O}$），浸出率随之下降。B 错：硫酸是难挥发性酸，加热不会明显挥发。C 错：金属活动性是元素本身的性质，不随温度改变。D 错：硫酸铜溶解度随温度升高而增大，不会因升温析出。易错点：见到“先升后降”就笼统答“温度过高副反应增多”，应结合具体试剂的挥发性、热稳定性（$\\mathrm{H_2O_2}$、$\\mathrm{NH_3\\cdot H_2O}$、$\\mathrm{HNO_3}$ 等）指出机理。"
+  },
+  {
+    "id": "q-chem-process-purify-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-process-purify"],
+    "stem": "要除去 $\\mathrm{CuCl_2}$ 溶液中混有的少量 $\\mathrm{FeCl_2}$，下列方法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["除杂原则", "氧化调pH", "试剂选择"],
+    "options": [
+      { "key": "A", "text": "加入过量铁粉，充分反应后过滤" },
+      { "key": "B", "text": "先加入适量 $\\mathrm{H_2O_2}$（或通入适量 $\\mathrm{Cl_2}$），再加入 $\\mathrm{CuO}$ 调 pH 至 3~4，过滤" },
+      { "key": "C", "text": "加入 $\\mathrm{NaOH}$ 溶液至沉淀完全，过滤" },
+      { "key": "D", "text": "加入过量锌粉，充分反应后过滤" }
+    ],
+    "answer": "B",
+    "explanation": "B 正确：先氧化（$2\\mathrm{Fe^{2+}}+\\mathrm{H_2O_2}+2\\mathrm{H^+}=2\\mathrm{Fe^{3+}}+2\\mathrm{H_2O}$），再加 $\\mathrm{CuO}$ 消耗 $\\mathrm{H^+}$ 使 pH 升至 3~4，$\\mathrm{Fe^{3+}}$ 完全沉淀为 $\\mathrm{Fe(OH)_3}$，$\\mathrm{Cu^{2+}}$ 不沉淀；$\\mathrm{CuO}$ 溶解后生成 $\\mathrm{Cu^{2+}}$，不引入新杂质。A 错：铁粉把 $\\mathrm{Cu^{2+}}$ 还原为铜，损失目标产物，且引入 $\\mathrm{Fe^{2+}}$。C 错：$\\mathrm{NaOH}$ 使 $\\mathrm{Cu^{2+}}$ 也生成 $\\mathrm{Cu(OH)_2}$ 沉淀，目标物全部损失。D 错：锌比铜活泼，置换出铜并引入 $\\mathrm{Zn^{2+}}$ 新杂质。易错点：除杂必须同时满足“不引入新杂质、不损失目标产物、易分离”，A、C、D 各违反其中一条。"
+  },
+  {
+    "id": "q-chem-process-purify-2",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-process-purify"],
+    "stem": "已知 $K_{sp}(\\mathrm{AgCl})=1.8\\times10^{-10}$，$K_{sp}(\\mathrm{AgI})=8.5\\times10^{-17}$。向 $\\mathrm{AgCl}$ 悬浊液中滴加 $\\mathrm{KI}$ 溶液，白色沉淀逐渐转化为黄色沉淀，反应 $\\mathrm{AgCl(s)+I^-(aq)\\rightleftharpoons AgI(s)+Cl^-(aq)}$ 的平衡常数 $K=$ ____（用科学计数法表示，保留两位有效数字）。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["沉淀转化", "溶度积", "平衡常数"],
+    "blanks": [
+      { "accept": ["2.1×10^6", "2.1*10^6", "2.1e6", "2.1×10⁶", "2.1×10^6", "2.1×106", "2.1E6"], "hint": "$K=\\dfrac{K_{sp}(\\mathrm{AgCl})}{K_{sp}(\\mathrm{AgI})}$" }
+    ],
+    "explanation": "$K=\\dfrac{c(\\mathrm{Cl^-})}{c(\\mathrm{I^-})}=\\dfrac{c(\\mathrm{Cl^-})\\,c(\\mathrm{Ag^+})}{c(\\mathrm{I^-})\\,c(\\mathrm{Ag^+})}=\\dfrac{K_{sp}(\\mathrm{AgCl})}{K_{sp}(\\mathrm{AgI})}=\\dfrac{1.8\\times10^{-10}}{8.5\\times10^{-17}}\\approx2.1\\times10^{6}$。$K$ 很大说明转化进行得很完全，故 $\\mathrm{AgCl}$ 遇 $\\mathrm{I^-}$ 会转为更难溶的 $\\mathrm{AgI}$。易错点：①把比值颠倒得 $\\approx4.7\\times10^{-7}$；②误把两个 $K_{sp}$ 相加或相减；③忘记“保留两位有效数字”，写成 $2.1176\\times10^{6}$。规律：沉淀转化反应的 $K$ 等于两物质 $K_{sp}$ 之比（同类型难溶物）。"
+  },
+  {
+    "id": "q-chem-process-purify-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-process-purify"],
+    "stem": "用 $\\mathrm{BaCl_2}$ 溶液沉淀 $\\mathrm{SO_4^{2-}}$ 后过滤得到 $\\mathrm{BaSO_4}$，沉淀需用水洗涤。检验沉淀是否已洗涤干净，应取最后一次洗涤液，滴加（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["沉淀洗涤", "检验方法", "氯离子"],
+    "options": [
+      { "key": "A", "text": "$\\mathrm{AgNO_3}$ 溶液，若无白色沉淀生成则已洗净" },
+      { "key": "B", "text": "$\\mathrm{BaCl_2}$ 溶液，若无白色沉淀生成则已洗净" },
+      { "key": "C", "text": "稀盐酸，若有气泡产生则已洗净" },
+      { "key": "D", "text": "紫色石蕊试液，若变红则已洗净" }
+    ],
+    "answer": "A",
+    "explanation": "A 正确：洗涤的目的是除去沉淀表面吸附的可溶性杂质，本体系中可溶杂质是过量的 $\\mathrm{BaCl_2}$（含 $\\mathrm{Cl^-}$）及 $\\mathrm{NaCl}$ 等，故检验 $\\mathrm{Cl^-}$ 即可——取最后一次洗涤液加 $\\mathrm{AgNO_3}$，无白色沉淀说明 $\\mathrm{Cl^-}$ 已洗净。B 错：洗涤液中本就不该有 $\\mathrm{SO_4^{2-}}$（已沉淀完全），用 $\\mathrm{BaCl_2}$ 检验无意义，且会引入待检离子。C、D 与杂质离子无关。易错点：检验对象选错——必须针对“上一步带入的可溶性杂质离子”，而不是被沉淀的离子；另外必须取“最后一次”洗涤液，否则残留浓度高会误判。"
+  },
+  {
+    "id": "q-chem-process-purify-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-process-purify"],
+    "stem": "关于物质提纯（除杂），下列说法正确的是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["除杂原则", "试剂选择", "多选"],
+    "options": [
+      { "key": "A", "text": "除杂应遵循“不增（不引入新杂质）、不减（不损失目标产物）、易分离、易复原”的原则" },
+      { "key": "B", "text": "为除去 $\\mathrm{KNO_3}$ 溶液中的少量 $\\mathrm{K_2SO_4}$，可加入适量 $\\mathrm{Ba(NO_3)_2}$ 溶液后过滤" },
+      { "key": "C", "text": "为除去 $\\mathrm{CO_2}$ 中混有的少量 $\\mathrm{SO_2}$，可将气体通过盛有饱和 $\\mathrm{NaHCO_3}$ 溶液的洗气瓶" },
+      { "key": "D", "text": "为除去 $\\mathrm{NaCl}$ 溶液中的 $\\mathrm{Na_2CO_3}$，可加入适量稀硫酸后加热" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：这是除杂的四条基本原则，也是判断任何除杂方案是否合理的标准。B 对：$\\mathrm{Ba(NO_3)_2+K_2SO_4=BaSO_4\\downarrow+2KNO_3}$，引入的 $\\mathrm{NO_3^-}$ 与 $\\mathrm{K^+}$ 本就是目标溶液的组成离子，不算新杂质。C 对：$\\mathrm{SO_2+2NaHCO_3=Na_2SO_3+2CO_2+H_2O}$，$\\mathrm{SO_2}$ 被吸收且生成 $\\mathrm{CO_2}$，饱和 $\\mathrm{NaHCO_3}$ 又不吸收 $\\mathrm{CO_2}$，符合“不减”。D 错：加稀硫酸会引入 $\\mathrm{SO_4^{2-}}$ 这一新杂质，应改用适量稀盐酸（$\\mathrm{Na_2CO_3+2HCl=2NaCl+H_2O+CO_2\\uparrow}$）。易错点：只看“能否除去杂质”而不检查“是否引入新杂质”，B 与 D 的差别正在于此。"
+  },
+  {
+    "id": "q-chem-process-crystallize-1",
+    "subjectId": "chemistry",
+    "type": "judge",
+    "kpIds": ["chem-process-crystallize"],
+    "stem": "溶解度随温度变化不大的固体溶质（如 $\\mathrm{NaCl}$）一般采用蒸发结晶；溶解度随温度升高明显增大的溶质（如 $\\mathrm{KNO_3}$）一般采用降温结晶。",
+    "difficulty": 2,
+    "source": "自编练习",
+    "tags": ["结晶方式", "溶解度曲线"],
+    "answer": true,
+    "explanation": "正确。选择结晶方式的依据是溶解度随温度变化的幅度：$\\mathrm{NaCl}$ 的溶解度受温度影响很小，降温时几乎不析出，只能靠蒸发溶剂使其达到饱和而结晶；$\\mathrm{KNO_3}$ 的溶解度随温度升高急剧增大，先加热浓缩成高温饱和溶液再降温，就能析出大量晶体，效率高且纯度高。易错点：对“溶解度随温度升高而减小”的物质（如 $\\mathrm{Ca(OH)_2}$）仍套用降温结晶，实际上它应蒸发结晶（升温反而析出）。"
+  },
+  {
+    "id": "q-chem-process-crystallize-2",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-process-crystallize"],
+    "stem": "重结晶得到的 $\\mathrm{KNO_3}$ 晶体需要用少量冰水洗涤，其主要目的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["洗涤晶体", "冰水洗涤"],
+    "options": [
+      { "key": "A", "text": "洗去晶体表面吸附的可溶性杂质，同时因温度低而减少晶体的溶解损失" },
+      { "key": "B", "text": "使晶体中的结晶水脱去，得到无水 $\\mathrm{KNO_3}$" },
+      { "key": "C", "text": "使小晶体溶解后重新析出，从而增大晶体颗粒" },
+      { "key": "D", "text": "中和晶体表面残留的酸，防止产品显酸性" }
+    ],
+    "answer": "A",
+    "explanation": "A 正确：洗涤的作用是除去晶体表面附着的母液和可溶性杂质；用冰水而非室温水，是因为低温下 $\\mathrm{KNO_3}$ 溶解度更小，洗涤造成的溶解损失更少。B 错：$\\mathrm{KNO_3}$ 本身不含结晶水，且洗涤不能“脱去结晶水”。C 错：洗涤液量少且立即过滤，不会发生“小晶体溶解再析出长大”。D 错：$\\mathrm{KNO_3}$ 重结晶体系不残留酸，洗涤目的与中和无关。易错点：回答“用冰水洗涤”只写“减少溶解损失”而漏掉“除去表面杂质”，或只写“除杂”而漏掉“减少损失”——两个目的要同时答出。"
+  },
+  {
+    "id": "q-chem-process-crystallize-3",
+    "subjectId": "chemistry",
+    "type": "fill",
+    "kpIds": ["chem-process-crystallize"],
+    "stem": "从 $\\mathrm{CuSO_4}$ 溶液中获得 $\\mathrm{CuSO_4\\cdot5H_2O}$ 晶体，应先将溶液蒸发浓缩至 ____，再冷却结晶、过滤、洗涤、干燥；若把溶液直接蒸干，得到的固体主要是 ____（填化学式）。",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["蒸发浓缩", "结晶水合物", "操作步骤"],
+    "blanks": [
+      { "accept": ["出现晶膜", "溶液表面出现晶膜", "有晶膜出现", "出现晶膜时", "表面出现晶膜"], "hint": "蒸发到什么现象就该停止加热" },
+      { "accept": ["CuSO4", "CuSO₄", "硫酸铜"], "hint": "受热时结晶水会失去" }
+    ],
+    "explanation": "第一空填“出现晶膜”：蒸发浓缩不能蒸干，看到溶液表面出现一层晶膜就停止加热，再冷却使晶体大量析出，这样得到的是含结晶水的 $\\mathrm{CuSO_4\\cdot5H_2O}$。第二空填 $\\mathrm{CuSO_4}$：直接蒸干时温度较高，$\\mathrm{CuSO_4\\cdot5H_2O}$ 逐步失去结晶水变成白色 $\\mathrm{CuSO_4}$，所以“蒸发至干”得不到胆矾。易错点：①把“蒸发至干”当作标准操作，导致结晶水合物失水、可溶性杂质全部残留；②误以为蒸干得到 $\\mathrm{CuSO_4\\cdot H_2O}$ 或 $\\mathrm{Cu(OH)_2}$。"
+  },
+  {
+    "id": "q-chem-process-crystallize-4",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-process-crystallize"],
+    "stem": "用蒸发结晶法从含少量 $\\mathrm{KNO_3}$ 的 $\\mathrm{NaCl}$ 溶液中提取 $\\mathrm{NaCl}$，需在蒸发过程中趁热过滤，其主要原因是（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["趁热过滤", "蒸发结晶", "纯度"],
+    "options": [
+      { "key": "A", "text": "防止 $\\mathrm{NaCl}$ 因温度降低而大量溶解，减少产品损失" },
+      { "key": "B", "text": "防止温度降低时 $\\mathrm{KNO_3}$ 随 $\\mathrm{NaCl}$ 一起析出，降低产品纯度" },
+      { "key": "C", "text": "提高溶液的沸点，从而加快蒸发速率" },
+      { "key": "D", "text": "防止 $\\mathrm{NaCl}$ 在高温下分解变质" }
+    ],
+    "answer": "B",
+    "explanation": "B 正确：$\\mathrm{NaCl}$ 溶解度受温度影响小，蒸发时先析出；$\\mathrm{KNO_3}$ 溶解度随温度升高增大很多，热溶液中仍大量溶解，若冷却后再过滤，$\\mathrm{KNO_3}$ 会与 $\\mathrm{NaCl}$ 一同析出而混入产品，故必须趁热过滤把 $\\mathrm{KNO_3}$ 留在母液中。A 错：$\\mathrm{NaCl}$ 溶解度随温度降低只是略减，且趁热过滤反而会带走少量溶解的 $\\mathrm{NaCl}$，目的不是“防溶解”。C 错：趁热过滤不改变沸点，也不加快蒸发。D 错：$\\mathrm{NaCl}$ 性质稳定，高温不分解。易错点：混淆“趁热过滤”（目的在分离溶解度受温度影响差别大的两种可溶物，保住母液中的易溶物）与“冷却结晶后过滤”（目的在析出目标物）。"
+  },
+  {
+    "id": "q-chem-process-calc-1",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-process-calc"],
+    "stem": "用 100 g 含 $\\mathrm{Fe_2O_3}$ 80%（质量分数）的赤铁矿（杂质不参与反应）冶炼铁，理论上可得铁 56 g。实际得到铁 50.4 g，则铁的产率为（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["产率", "理论产量", "质量分数"],
+    "options": [
+      { "key": "A", "text": "$90\\%$" },
+      { "key": "B", "text": "$63\\%$" },
+      { "key": "C", "text": "$56\\%$" },
+      { "key": "D", "text": "$50.4\\%$" }
+    ],
+    "answer": "A",
+    "explanation": "产率 $=\\dfrac{\\text{实际产量}}{\\text{理论产量}}\\times100\\%=\\dfrac{50.4\\ \\mathrm{g}}{56\\ \\mathrm{g}}\\times100\\%=90\\%$，A 正确。验算理论产量：$m(\\mathrm{Fe_2O_3})=100\\times80\\%=80\\ \\mathrm{g}$，$n=\\dfrac{80}{160}=0.5\\ \\mathrm{mol}$，由 $\\mathrm{Fe_2O_3}$ 中铁原子守恒得 $n(\\mathrm{Fe})=1\\ \\mathrm{mol}$，$m=56\\ \\mathrm{g}$。B 错：$50.4/80=63\\%$，把矿石质量当成了理论产量，漏乘 $\\mathrm{Fe_2O_3}$ 中铁的质量分数与换算关系。C 错：$56/100=56\\%$，用理论产量除以矿石质量，量纲不匹配。D 错：$50.4/100=50.4\\%$，同样分母错误。易错点：产率的分母必须是“理论产量”，不是原料质量。"
+  },
+  {
+    "id": "q-chem-process-calc-2",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-process-calc"],
+    "stem": "关于工艺流程题的产率、纯度与物料衡算，下列说法正确的是（　）",
+    "difficulty": 3,
+    "source": "自编练习",
+    "tags": ["产率", "纯度", "物料守恒", "多选"],
+    "options": [
+      { "key": "A", "text": "产率 $=\\dfrac{\\text{实际产量}}{\\text{理论产量}}\\times100\\%$，理论产量应由原料中目标元素的物质的量按计量关系换算得到" },
+      { "key": "B", "text": "纯度 $=\\dfrac{\\text{纯物质质量}}{\\text{样品总质量}}\\times100\\%$，与产率是两个不同的物理量" },
+      { "key": "C", "text": "计算产率时，把流程中循环利用的物料重复计入原料投入量，会使产率偏高" },
+      { "key": "D", "text": "副反应、过滤与洗涤损失、结晶不完全等都会使实际产率低于理论值" }
+    ],
+    "answer": ["A", "B", "D"],
+    "explanation": "A 对：产率的分母必须是按化学计量关系算出的“理论产量”，通常用目标元素守恒从原料一路推到底。B 对：产率衡量“转化效率”（实际/理论），纯度衡量“产品干净程度”（纯物/样品），二者互不替代，产品可以产率高而纯度低。C 错：循环物料只是“重复使用”而非“新增投入”，重复计入会虚增分母，使计算出的产率偏低（而非偏高），物料衡算应以“新鲜投入”为准。D 对：凡造成目标元素流失或转化不完全的因素都会降低实际产量，从而降低产率。易错点：把 C 的“偏高/偏低”方向判断错，或把产率与纯度混为一谈。"
+  },
+  {
+    "id": "q-chem-process-calc-3",
+    "subjectId": "chemistry",
+    "type": "single",
+    "kpIds": ["chem-process-calc", "chem-process-purify"],
+    "stem": "称取某 $\\mathrm{FeSO_4\\cdot7H_2O}$ 样品 30.0 g，溶于水后加入足量 $\\mathrm{BaCl_2}$ 溶液，经过滤、洗涤、干燥后得到 $\\mathrm{BaSO_4}$ 沉淀 23.3 g。已知 $M(\\mathrm{BaSO_4})=233\\ \\mathrm{g/mol}$，$M(\\mathrm{FeSO_4\\cdot7H_2O})=278\\ \\mathrm{g/mol}$，则该样品中 $\\mathrm{FeSO_4\\cdot7H_2O}$ 的质量分数为（　）",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["纯度计算", "沉淀法", "物质的量"],
+    "options": [
+      { "key": "A", "text": "$92.7\\%$" },
+      { "key": "B", "text": "$77.7\\%$" },
+      { "key": "C", "text": "$100\\%$" },
+      { "key": "D", "text": "$83.4\\%$" }
+    ],
+    "answer": "A",
+    "explanation": "$n(\\mathrm{BaSO_4})=\\dfrac{23.3}{233}=0.100\\ \\mathrm{mol}$，由 $\\mathrm{SO_4^{2-}}$ 守恒得 $n(\\mathrm{FeSO_4\\cdot7H_2O})=0.100\\ \\mathrm{mol}$，其质量 $=0.100\\times278=27.8\\ \\mathrm{g}$，故质量分数 $=\\dfrac{27.8}{30.0}\\times100\\%\\approx92.7\\%$，A 正确。B 错：$\\dfrac{23.3}{30.0}=77.7\\%$，用沉淀质量直接除以样品质量，没有换算成目标物。C 错：误认为沉淀完全即样品纯净。D 错：$\\dfrac{25.0}{30.0}=83.4\\%$，是 $M$ 取错（如误用 $\\mathrm{FeSO_4}$ 的 152）导致的典型错解。易错点：①不做“沉淀物质的量→目标物质的量”的换算；②忘记乘摩尔质量直接比较质量；③分母用错（应用样品总质量）。"
+  },
+  {
+    "id": "q-chem-process-calc-4",
+    "subjectId": "chemistry",
+    "type": "multiple",
+    "kpIds": ["chem-process-calc", "chem-process-leach"],
+    "stem": "某流程以含 $\\mathrm{Al_2O_3}$、$\\mathrm{Fe_2O_3}$、$\\mathrm{SiO_2}$ 的铝土矿为原料制备 $\\mathrm{Al_2O_3}$：先用过量 $\\mathrm{NaOH}$ 溶液浸出，过滤后向滤液中通入过量 $\\mathrm{CO_2}$，过滤得 $\\mathrm{Al(OH)_3}$，再灼烧。下列说法正确的是（　）",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["碱浸", "两性氧化物", "流程综合", "多选"],
+    "options": [
+      { "key": "A", "text": "碱浸时 $\\mathrm{Al_2O_3}$ 与 $\\mathrm{SiO_2}$ 溶解进入滤液，$\\mathrm{Fe_2O_3}$ 不溶而留在滤渣中" },
+      { "key": "B", "text": "向滤液中通入过量 $\\mathrm{CO_2}$ 可将 $\\mathrm{AlO_2^-}$ 转化为 $\\mathrm{Al(OH)_3}$ 沉淀：$\\mathrm{AlO_2^-+CO_2+2H_2O=Al(OH)_3\\downarrow+HCO_3^-}$" },
+      { "key": "C", "text": "灼烧 $\\mathrm{Al(OH)_3}$ 制得 $\\mathrm{Al_2O_3}$，反应为 $\\mathrm{2Al(OH)_3\\xrightarrow{\\Delta}Al_2O_3+3H_2O}$" },
+      { "key": "D", "text": "$\\mathrm{SiO_2}$ 也被碱溶解，但它不会进入最终产品，因此对产品纯度没有影响" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A 对：$\\mathrm{Al_2O_3}$ 是两性氧化物，$\\mathrm{Al_2O_3+2OH^-+3H_2O=2[Al(OH)_4]^-}$；$\\mathrm{SiO_2}$ 是酸性氧化物，$\\mathrm{SiO_2+2OH^-=SiO_3^{2-}+H_2O}$；$\\mathrm{Fe_2O_3}$ 不与碱反应，留在滤渣中，这正是碱法（拜耳法）分离铁的原理。B 对：通入过量 $\\mathrm{CO_2}$ 时碳酸只到 $\\mathrm{HCO_3^-}$ 阶段，方程式与配平均正确，且 $\\mathrm{CO_2}$ 过量可避免 $\\mathrm{Al(OH)_3}$ 重新溶解。C 对：灼烧是标准的热分解反应。D 错：$\\mathrm{SiO_2}$ 溶出的 $\\mathrm{SiO_3^{2-}}$ 在通 $\\mathrm{CO_2}$ 酸化时会生成硅酸（$\\mathrm{SiO_3^{2-}+CO_2+H_2O=H_2SiO_3\\downarrow+CO_3^{2-}}$）混入 $\\mathrm{Al(OH)_3}$，是真实存在的杂质来源，故工业上需控制碱浸条件并除硅。易错点：认为“不是目标产物就不影响纯度”，忽视杂质元素与目标元素在后续步骤中共沉淀。"
+  },
+  {
+    "id": "q-chem-process-calc-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-process-calc", "chem-process-purify"],
+    "stem": "以废铜渣（主要含 Cu、$\\mathrm{CuO}$、$\\mathrm{Fe_2O_3}$、$\\mathrm{SiO_2}$）为原料制备 $\\mathrm{CuSO_4\\cdot5H_2O}$ 的流程如下：废铜渣 $\\xrightarrow{\\text{稀硫酸、}H_2O_2\\text{浸出}}$ 过滤 $\\rightarrow$ 滤液 $\\xrightarrow{\\text{调 pH 除铁}}$ 过滤 $\\rightarrow$ 滤液 $\\xrightarrow{\\text{蒸发浓缩、冷却结晶、过滤、洗涤}}$ $\\mathrm{CuSO_4\\cdot5H_2O}$。\n\n（1）写出浸出时 $\\mathrm{CuO}$、$\\mathrm{Fe_2O_3}$ 与稀硫酸反应的离子方程式，并指出滤渣的主要成分。\n（2）说明 $\\mathrm{H_2O_2}$ 在浸出中的两个作用，并写出单质铜被氧化溶解的离子方程式。\n（3）调 pH 除铁时应选用的试剂是什么？说明选择的理由。\n（4）取 100.0 g 废铜渣（其中铜元素共 0.600 mol），最终得到 $\\mathrm{CuSO_4\\cdot5H_2O}$（$M=250\\ \\mathrm{g/mol}$）晶体 120.0 g，求铜的产率。",
+    "difficulty": 5,
+    "source": "自编练习",
+    "tags": ["综合流程", "氧化浸出", "调pH", "产率"],
+    "rubric": [
+      { "text": "两个离子方程式正确：$\\mathrm{CuO+2H^+=Cu^{2+}+H_2O}$、$\\mathrm{Fe_2O_3+6H^+=2Fe^{3+}+3H_2O}$；滤渣主要为 $\\mathrm{SiO_2}$ 及未反应的 Cu", "score": 2 },
+      { "text": "指出 $\\mathrm{H_2O_2}$ 的两个作用（氧化单质铜使其溶解、把 $\\mathrm{Fe^{2+}}$ 氧化为 $\\mathrm{Fe^{3+}}$ 便于沉淀除铁）并写出 $\\mathrm{Cu+H_2O_2+2H^+=Cu^{2+}+2H_2O}$", "score": 3 },
+      { "text": "选用 $\\mathrm{CuO}$（或 $\\mathrm{Cu(OH)_2}$、$\\mathrm{CuCO_3}$），理由是消耗 $\\mathrm{H^+}$ 提高 pH 使 $\\mathrm{Fe^{3+}}$ 完全沉淀且不引入新杂质", "score": 2 },
+      { "text": "产率：$n(\\mathrm{CuSO_4\\cdot5H_2O})=\\dfrac{120.0}{250}=0.480\\ \\mathrm{mol}$，产率 $=\\dfrac{0.480}{0.600}\\times100\\%=80.0\\%$", "score": 3 }
+    ],
+    "reference": "（1）$\\mathrm{CuO+2H^+=Cu^{2+}+H_2O}$；$\\mathrm{Fe_2O_3+6H^+=2Fe^{3+}+3H_2O}$。$\\mathrm{SiO_2}$ 不与稀硫酸反应，单质铜在无氧化剂时也不与稀硫酸反应，故滤渣主要为 $\\mathrm{SiO_2}$ 和未反应的 Cu。\n（2）作用一：将难溶于稀硫酸的单质铜氧化为 $\\mathrm{Cu^{2+}}$，提高铜的浸出率，$\\mathrm{Cu+H_2O_2+2H^+=Cu^{2+}+2H_2O}$；作用二：将溶液中可能存在的 $\\mathrm{Fe^{2+}}$ 氧化为 $\\mathrm{Fe^{3+}}$（$2\\mathrm{Fe^{2+}}+\\mathrm{H_2O_2}+2\\mathrm{H^+}=2\\mathrm{Fe^{3+}}+2\\mathrm{H_2O}$），因为 $\\mathrm{Fe^{3+}}$ 在 pH 3~4 即可沉淀完全，而 $\\mathrm{Fe^{2+}}$ 需更高 pH 且易被带入产品。\n（3）选用 $\\mathrm{CuO}$（也可用 $\\mathrm{Cu(OH)_2}$、$\\mathrm{CuCO_3}$）：它们与 $\\mathrm{H^+}$ 反应生成 $\\mathrm{Cu^{2+}}$ 和 $\\mathrm{H_2O}$（或 $\\mathrm{CO_2}$），既降低 $c(\\mathrm{H^+})$ 使 pH 升至 3~4、让 $\\mathrm{Fe^{3+}}$ 以 $\\mathrm{Fe(OH)_3}$ 完全沉淀，又不引入新的杂质离子；若用 $\\mathrm{NaOH}$，则引入 $\\mathrm{Na^+}$ 且易使 $\\mathrm{Cu(OH)_2}$ 共沉淀。\n（4）$n(\\mathrm{CuSO_4\\cdot5H_2O})=\\dfrac{120.0\\ \\mathrm{g}}{250\\ \\mathrm{g/mol}}=0.480\\ \\mathrm{mol}$，由铜元素守恒，产率 $=\\dfrac{0.480}{0.600}\\times100\\%=80.0\\%$。",
+    "maxScore": 10,
+    "explanation": "本题把“浸出—除铁—结晶”的主线与产率计算串起来，是流程题的标准骨架。关键点：①单质铜不与稀硫酸反应，必须靠 $\\mathrm{H_2O_2}$（或通入空气）氧化，这是学生最容易漏写的一步；②除铁前必须把 $\\mathrm{Fe^{2+}}$ 氧化为 $\\mathrm{Fe^{3+}}$，否则 $\\mathrm{Fe^{2+}}$ 在 pH 3~4 不能沉淀完全；③调 pH 试剂要选能“消耗 $\\mathrm{H^+}$ 而不引入新杂质”的物质，$\\mathrm{CuO}$、$\\mathrm{Cu(OH)_2}$、$\\mathrm{CuCO_3}$ 均符合；④产率的分母是由原料中铜元素算出的理论产量 $0.600\\ \\mathrm{mol}$（折合 $150.0\\ \\mathrm{g}$ 晶体），不能直接用投料质量。常见失分：把滤渣只写 $\\mathrm{SiO_2}$ 而漏掉未反应的铜；$\\mathrm{Cu}$ 与稀硫酸反应的方程式写错（违反金属活动性顺序）；产率用 $\\dfrac{120.0}{100.0}$ 计算；离子方程式未配平电荷。"
+  },
+  {
+    "id": "q-chem-process-leach-5",
+    "subjectId": "chemistry",
+    "type": "short",
+    "kpIds": ["chem-process-leach", "chem-process-crystallize"],
+    "stem": "某菱镁矿主要成分为 $\\mathrm{MgCO_3}$（质量分数 84%），含少量 $\\mathrm{FeCO_3}$ 和 $\\mathrm{SiO_2}$。以其为原料制备 $\\mathrm{MgSO_4\\cdot7H_2O}$ 的流程为：菱镁矿粉 $\\xrightarrow{\\text{稀硫酸浸出}}$ 过滤 $\\rightarrow$ 滤液 $\\xrightarrow{H_2O_2}$ $\\xrightarrow{\\text{加 MgO 调 pH}}$ 过滤 $\\rightarrow$ 滤液 $\\xrightarrow{\\text{蒸发浓缩、冷却结晶、过滤、洗涤、干燥}}$ $\\mathrm{MgSO_4\\cdot7H_2O}$。已知 $M(\\mathrm{MgCO_3})=84\\ \\mathrm{g/mol}$，$M(\\mathrm{MgSO_4\\cdot7H_2O})=246\\ \\mathrm{g/mol}$。\n\n（1）写出浸出时 $\\mathrm{MgCO_3}$ 与稀硫酸反应的化学方程式，并指出滤渣的主要成分。\n（2）加入 $\\mathrm{H_2O_2}$ 的目的是什么？写出对应的离子方程式。\n（3）为什么用 $\\mathrm{MgO}$ 而不用 $\\mathrm{NaOH}$ 调 pH？pH 应控制在什么范围？说明理由。\n（4）写出由滤液获得 $\\mathrm{MgSO_4\\cdot7H_2O}$ 的具体操作，并说明为什么不能把溶液蒸发至干。\n（5）取菱镁矿 100 g，实际得到 $\\mathrm{MgSO_4\\cdot7H_2O}$ 196.8 g，求产率。",
+    "difficulty": 4,
+    "source": "自编练习",
+    "tags": ["酸浸", "氧化除铁", "蒸发结晶", "产率"],
+    "rubric": [
+      { "text": "（1）$\\mathrm{MgCO_3+H_2SO_4=MgSO_4+CO_2\\uparrow+H_2O}$；滤渣主要为 $\\mathrm{SiO_2}$", "score": 2 },
+      { "text": "（2）将 $\\mathrm{Fe^{2+}}$ 氧化为 $\\mathrm{Fe^{3+}}$：$2\\mathrm{Fe^{2+}}+\\mathrm{H_2O_2}+2\\mathrm{H^+}=2\\mathrm{Fe^{3+}}+2\\mathrm{H_2O}$", "score": 2 },
+      { "text": "（3）用 $\\mathrm{MgO}$ 可消耗 $\\mathrm{H^+}$ 而不引入新杂质（生成 $\\mathrm{Mg^{2+}}$ 是目标离子）；控 pH 4~5，使 $\\mathrm{Fe^{3+}}$ 完全沉淀而 $\\mathrm{Mg^{2+}}$ 不沉淀", "score": 3 },
+      { "text": "（4）蒸发浓缩至出现晶膜，冷却结晶，过滤，用冰水（或少量冷水、乙醇）洗涤，低温干燥；不能蒸干是因为 $\\mathrm{MgSO_4\\cdot7H_2O}$ 受热会失去结晶水，且可溶性杂质会全部残留", "score": 2 },
+      { "text": "（5）$n(\\mathrm{MgCO_3})=\\dfrac{100\\times84\\%}{84}=1.0\\ \\mathrm{mol}$，理论产量 $=1.0\\times246=246\\ \\mathrm{g}$，产率 $=\\dfrac{196.8}{246}\\times100\\%=80.0\\%$", "score": 2 }
+    ],
+    "reference": "（1）$\\mathrm{MgCO_3+H_2SO_4=MgSO_4+CO_2\\uparrow+H_2O}$（离子方程式 $\\mathrm{MgCO_3+2H^+=Mg^{2+}+CO_2\\uparrow+H_2O}$）。$\\mathrm{SiO_2}$ 不与稀硫酸反应，滤渣主要为 $\\mathrm{SiO_2}$。\n（2）浸出时 $\\mathrm{FeCO_3}$ 也被溶解生成 $\\mathrm{Fe^{2+}}$，加 $\\mathrm{H_2O_2}$ 将其氧化为 $\\mathrm{Fe^{3+}}$，以便在较低 pH 下沉淀除去：$2\\mathrm{Fe^{2+}}+\\mathrm{H_2O_2}+2\\mathrm{H^+}=2\\mathrm{Fe^{3+}}+2\\mathrm{H_2O}$。\n（3）$\\mathrm{MgO+2H^+=Mg^{2+}+H_2O}$，消耗 $\\mathrm{H^+}$ 的同时只生成目标离子 $\\mathrm{Mg^{2+}}$，不引入新杂质；若用 $\\mathrm{NaOH}$ 会引入 $\\mathrm{Na^+}$，且碱性过强时 $\\mathrm{Mg(OH)_2}$ 也可能析出。pH 控制在 4~5：$\\mathrm{Fe^{3+}}$ 在 pH≈3.2 即沉淀完全，而 $\\mathrm{Mg^{2+}}$ 约在 pH 9.4 才开始沉淀，该区间既能除铁又不损失镁。\n（4）蒸发浓缩至溶液表面出现晶膜，停止加热，冷却结晶，过滤，用少量冰水（或冷乙醇）洗涤晶体，低温干燥。不能蒸干的原因：$\\mathrm{MgSO_4\\cdot7H_2O}$ 在较高温度下会逐步失去结晶水生成 $\\mathrm{MgSO_4\\cdot H_2O}$ 或无水 $\\mathrm{MgSO_4}$，且母液中的可溶性杂质会随蒸干全部留在产品中。\n（5）$n(\\mathrm{MgCO_3})=\\dfrac{100\\ \\mathrm{g}\\times84\\%}{84\\ \\mathrm{g/mol}}=1.0\\ \\mathrm{mol}$，由镁元素守恒，理论产量 $m=1.0\\times246=246\\ \\mathrm{g}$，产率 $=\\dfrac{196.8}{246}\\times100\\%=80.0\\%$。",
+    "maxScore": 11,
+    "explanation": "本题考查“酸浸—氧化—调 pH—结晶”的完整链条，是流程题中最常见的组合。要点：①碳酸盐与酸反应生成 $\\mathrm{CO_2}$，注意方程式配平与气体符号；②$\\mathrm{Fe^{2+}}$ 必须先氧化，因为 $\\mathrm{Fe(OH)_2}$ 沉淀完全所需 pH 高、且易被氧化，实际操作难以控制；③调 pH 试剂的“不引入杂质”原则要落实到具体离子——$\\mathrm{MgO}$ 生成 $\\mathrm{Mg^{2+}}$ 属于目标离子，故合格；④pH 区间的判断依据是两种离子沉淀完全的 pH 差（$\\mathrm{Fe^{3+}}$ 约 3.2，$\\mathrm{Mg^{2+}}$ 约 9.4）；⑤结晶操作必须写全“蒸发浓缩至出现晶膜—冷却结晶—过滤—洗涤—干燥”，并说明结晶水合物不能蒸干；⑥产率分母为理论产量 $246\\ \\mathrm{g}$，不是矿石质量。常见失分：滤渣漏写 $\\mathrm{SiO_2}$ 或误写 $\\mathrm{Fe(OH)_3}$；$\\mathrm{H_2O_2}$ 氧化方程式未配平电荷；调 pH 理由只写“除铁”而未解释“不引入杂质”；产率误算为 $\\dfrac{196.8}{100}=196.8\\%$。"
+  }
+]

@@ -1,0 +1,45 @@
+# ── 白名单式忽略：工作区里只把项目自身文件纳入版本库 ──
+# 本机工作区还放着很多与项目无关的临时目录，用白名单可以保证
+# 以后新增任何杂物都不会被误提交。
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/CONTRIBUTING.md
+!/index.html
+!/package.json
+!/package-lock.json
+!/tsconfig.json
+!/vite.config.ts
+!/start-zhixing.cmd
+!/start-zhixing.ps1
+!/src/
+!/content/
+!/public/
+!/docs/
+!/scripts/
+
+# ── 白名单目录内部仍然忽略的东西 ──
+node_modules/
+dist/
+.vite/
+*.local
+.DS_Store
+Thumbs.db
+
+# 开发与验证产物
+shots/
+.tmp-esbuild/
+work/
+.edge-profile*/
+.chrome-profile*/
+
+# 真题卷（扫描图体积大且有版权考虑，不进仓库；本地自行放置，见 docs/paper-import.md）
+/content/papers/
+/public/papers/
+
+# 一次性的修复脚本，留本地不入库
+scripts/repair_canvas*.py
+scripts/restore_mojibake.py
+scripts/fix_encoding.py
+scripts/check_encoding.py
