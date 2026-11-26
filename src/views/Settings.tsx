@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { useApp } from '../state/AppState';
 import { computeCivilization } from '../engine/game';
 import {
@@ -7,7 +7,7 @@ import {
   resetProgress,
   updateSettings,
 } from '../engine/store';
-import { dateKey, pct } from '../lib/format';
+import { dateKey, pct, relativeTime } from '../lib/format';
 import { navigate } from '../lib/router';
 import { Icon } from '../components/Icon';
 import { PageHeader, Ring, SectionHead, Sheet } from '../components/ui';
@@ -124,36 +124,54 @@ function Segmented<T extends string>({
 }
 
 export function Settings() {
-  const { data, questions, kpStats, content, update, toast, startSession } = useApp();
+  const { data, questions, kpStats, content, update, toast, startSession, sync, syncNow, logout: doLogout } = useApp();
   const civ = computeCivilization(data, questions, kpStats);
   const [confirmReset, setConfirmReset] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
-  const [account, setAccount] = useState<{ sub: string; provider: string; name: string; login: string; avatar: string | null } | null>(null);
-  const [authBusy, setAuthBusy] = useState(true);
-  const [authError, setAuthError] = useState('');
+  const [logoutBusy, setLogoutBusy] = useState(false);
+  const [logoutError, setLogoutError] = useState('');
 
-  useEffect(() => {
-    let active = true;
-    fetch('/api/auth/me', { cache: 'no-store', credentials: 'same-origin' })
-      .then((response) => response.ok ? response.json() : Promise.reject(new Error('登录状态查询失败')))
-      .then((result) => { if (active) setAccount(result.user ?? null); })
-      .catch(() => { if (active) setAuthError('登录服务暂不可用；本机学习数据不受影响。'); })
-      .finally(() => { if (active) setAuthBusy(false); });
-    return () => { active = false; };
-  }, []);
+  const account = sync.user;
+  const authBusy = !sync.authChecked || logoutBusy;
+  const authError = logoutError || sync.authError;
 
   const logout = async () => {
-    setAuthBusy(true);
+    setLogoutBusy(true);
+    setLogoutError('');
     try {
-      await fetch('/api/auth/logout', { method: 'POST', credentials: 'same-origin' });
-      setAccount(null);
-      setAuthError('');
+      await doLogout();
+      toast('已退出登录');
     } catch {
-      setAuthError('退出失败，请重试。');
+      setLogoutError('退出失败，请重试。');
     } finally {
-      setAuthBusy(false);
+      setLogoutBusy(false);
     }
   };
+
+  const handleManualSync = async () => {
+    const res = await syncNow();
+    if (!res.ok) {
+      toast(res.error || '同步失败');
+      return;
+    }
+    if (res.pulled && res.pushed) {
+      toast('已与云端双向合并同步');
+    } else if (res.pulled) {
+      toast('已拉取并合并云端最新进度');
+    } else if (res.pushed) {
+      toast('本地进度已同步到云端');
+    } else {
+      toast('已是最新，无需更新');
+    }
+  };
+
+  const syncHint = (() => {
+    if (sync.status === 'syncing') return '正在与云端合并同步…';
+    if (sync.status === 'error') return sync.message || '同步失败，本机数据不受影响';
+    if (sync.dirty) return '有本地改动，等待自动上传';
+    if (sync.lastSyncedAt > 0) return `已自动同步 · ${relativeTime(sync.lastSyncedAt)}`;
+    return '已开启多设备自动合并同步';
+  })();
 
   const patch = (value: Partial<SettingsType>) => {
     update((d) => updateSettings(d, value));
@@ -223,12 +241,12 @@ export function Settings() {
       </section>
 
       <section className="block">
-        <SectionHead title="账号" hint="登录只用于身份识别；学习进度仍保存在本机" />
+        <SectionHead title="账号与同步" hint="登录后自动在多设备间合并同步学习进度与真题记录" />
         <div className="card settings-card">
           <div className="setting-row">
             <div className="setting-text">
-              <strong>{authBusy ? '正在检查登录状态…' : account ? (account.name || account.login || '已登录') : '未登录'}</strong>
-              <span>{account ? `已通过 ${account.provider} 登录（${account.sub}）` : '登录 wris.me 账号；当前版本尚未开启云端进度同步。'}</span>
+              <strong>{!sync.authChecked ? '正在检查登录状态…' : account ? (account.name || account.login || '已登录') : '未登录'}</strong>
+              <span>{account ? `已通过 ${account.provider} 登录（${account.sub}）` : '登录 wris.me 账号以开启多设备云端自动同步。'}</span>
             </div>
             {account ? (
               <button className="btn btn--ghost btn--sm" disabled={authBusy} onClick={() => void logout()}>退出登录</button>
@@ -236,6 +254,21 @@ export function Settings() {
               <a className={`btn btn--primary btn--sm${authBusy ? ' is-disabled' : ''}`} href={authBusy ? undefined : '/api/auth/login'} aria-disabled={authBusy}>使用 wris.me 登录</a>
             )}
           </div>
+          {account && (
+            <div className="setting-row">
+              <div className="setting-text">
+                <strong>云端同步</strong>
+                <span>{syncHint}</span>
+              </div>
+              <button
+                className="btn btn--ghost btn--sm"
+                disabled={sync.status === 'syncing'}
+                onClick={() => void handleManualSync()}
+              >
+                {sync.status === 'syncing' ? '同步中…' : '立即同步'}
+              </button>
+            </div>
+          )}
           {authError && <p className="auth-note" role="status">{authError}</p>}
         </div>
       </section>
@@ -331,7 +364,7 @@ export function Settings() {
       </section>
 
       <section className="block">
-        <SectionHead title="数据" hint="进度只保存在本机浏览器，换设备请手动导出" />
+        <SectionHead title="数据" hint={account ? '已开启云端自动合并同步；也可随时导出本地备份' : '进度只保存在本机浏览器，登录后可云端同步或手动导出'} />
         <div className="card settings-card">
           <button className="setting-row setting-action" onClick={doExport}>
             <div className="setting-text">
@@ -399,7 +432,7 @@ export function Settings() {
           <div className="setting-row">
             <div className="setting-text">
               <strong>知星</strong>
-              <span>离线优先 · wris.me 登录可选 · 学习数据仍仅保存在本机</span>
+              <span>离线优先 · wris.me 账号登录 · 学习进度与真题记录云端同步</span>
             </div>
             <span className="quiet small">v0.7</span>
           </div>

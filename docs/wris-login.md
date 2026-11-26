@@ -1,6 +1,6 @@
-# 知星 wris.me 登录（香港服务器 Node.js 部署）
+# 知星 wris.me 登录与云端进度同步（香港服务器 Node.js 部署）
 
-本阶段只建立账号身份，不同步学习进度；学习记录仍保存在设备 IndexedDB。
+知星已接入 `wris.me` 登录并通过 `wris-data`（Cloudflare Worker D1 + R2）实现学习进度与真题记录的多设备自动合并同步。
 
 ## 1. 知星服务端环境变量（`.env`）
 
@@ -12,8 +12,10 @@
 - `ZHIXING_REDIRECT_URI=https://zhistar.aux.wris.me/api/auth/callback`
 - `WRIS_AUTH_ORIGIN=https://auth.wris.me`
 - `WRIS_BRIDGE_URL=https://auth.wris.me/api/bridge`
+- `WRIS_SYNC_URL=https://api.wris.me/zhixing/sync`
 - `ZHIXING_SESSION_SECRET`：至少 32 字符随机 secret，用于签发知星 HttpOnly 会话。
 - `ZHIXING_EXCHANGE_SECRET`：至少 32 字符随机 secret，知星服务端 -> `auth.wris.me` 的兑换代理密钥。
+- `ZHIXING_SYNC_SECRET`：至少 32 字符随机 secret，知星服务端 -> `wris-data`（`api.wris.me`）的数据同步代理密钥。
 
 可用 `openssl rand -base64 32` 生成随机值；不要使用 `VITE_` 前缀。
 

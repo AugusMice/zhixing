@@ -1,4 +1,4 @@
-import { createStore, del, get, set } from 'idb-keyval';
+import { createStore, del, get, keys, set } from 'idb-keyval';
 import type { Paper, PaperQuestion } from './index';
 
 export interface PaperExamSession {
@@ -21,7 +21,22 @@ export interface PaperExamSession {
 }
 
 const store = createStore('zhixing-db', 'kv');
-const keyOf = (paperId: string) => `paper-exam:${paperId}`;
+const KEY_PREFIX = 'paper-exam:';
+const keyOf = (paperId: string) => `${KEY_PREFIX}${paperId}`;
+
+const examListeners = new Set<(event: { type: 'save' | 'clear'; paperId: string; at: number }) => void>();
+
+export function onPaperExamMutation(
+  fn: (event: { type: 'save' | 'clear'; paperId: string; at: number }) => void,
+): () => void {
+  examListeners.add(fn);
+  return () => examListeners.delete(fn);
+}
+
+function emitExamMutation(type: 'save' | 'clear', paperId: string) {
+  const at = Date.now();
+  for (const fn of examListeners) fn({ type, paperId, at });
+}
 
 export function choiceQuestions(questions: PaperQuestion[]): PaperQuestion[] {
   return questions.filter((question) => question.type === 'single');
@@ -61,6 +76,7 @@ export async function loadPaperExam(paperId: string): Promise<PaperExamSession |
 export async function savePaperExam(session: PaperExamSession): Promise<void> {
   try {
     await set(keyOf(session.paperId), session, store);
+    emitExamMutation('save', session.paperId);
   } catch {
     // IndexedDB 不可用时仍允许本次作答，只是不能续考。
   }
@@ -69,6 +85,49 @@ export async function savePaperExam(session: PaperExamSession): Promise<void> {
 export async function clearPaperExam(paperId: string): Promise<void> {
   try {
     await del(keyOf(paperId), store);
+    emitExamMutation('clear', paperId);
+  } catch {
+    // ignore
+  }
+}
+
+export async function loadAllPaperExams(): Promise<Record<string, PaperExamSession>> {
+  const out: Record<string, PaperExamSession> = {};
+  try {
+    const allKeys = await keys(store);
+    const examKeys = allKeys.filter(
+      (k): k is string => typeof k === 'string' && k.startsWith(KEY_PREFIX),
+    );
+    await Promise.all(
+      examKeys.map(async (k) => {
+        const value = await get<PaperExamSession>(k, store);
+        if (value && typeof value.paperId === 'string') {
+          out[value.paperId] = value;
+        }
+      }),
+    );
+  } catch {
+    // ignore
+  }
+  return out;
+}
+
+export async function replaceAllPaperExams(
+  exams: Record<string, PaperExamSession>,
+): Promise<void> {
+  try {
+    const allKeys = await keys(store);
+    const existingKeys = new Set(
+      allKeys.filter((k): k is string => typeof k === 'string' && k.startsWith(KEY_PREFIX)),
+    );
+    for (const [paperId, session] of Object.entries(exams)) {
+      const k = keyOf(paperId);
+      existingKeys.delete(k);
+      await set(k, session, store);
+    }
+    for (const staleKey of existingKeys) {
+      await del(staleKey, store);
+    }
   } catch {
     // ignore
   }

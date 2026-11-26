@@ -24,6 +24,10 @@ export function getBridgeUrl() {
   return trimSlash(process.env.WRIS_BRIDGE_URL) || `${getAuthOrigin()}/api/bridge`;
 }
 
+export function getSyncUrl() {
+  return trimSlash(process.env.WRIS_SYNC_URL) || 'https://api.wris.me/zhixing/sync';
+}
+
 export function getRedirectUri() {
   return String(process.env.ZHIXING_REDIRECT_URI || '').trim() || `${getAppOrigin()}/api/auth/callback`;
 }

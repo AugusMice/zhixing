@@ -9,6 +9,7 @@ import loginHandler from './api/auth/login.js';
 import callbackHandler from './api/auth/callback.js';
 import meHandler from './api/auth/me.js';
 import logoutHandler from './api/auth/logout.js';
+import syncHandler from './api/sync.js';
 import { getAppOrigin, getAuthOrigin, getBridgeUrl, getRedirectUri, json } from './api/auth/shared.js';
 
 const gzipAsync = promisify(gzip);
@@ -40,11 +41,12 @@ const MIME_TYPES = {
 const COMPRESSIBLE_EXTS = new Set(['.html', '.js', '.mjs', '.css', '.json', '.webmanifest', '.svg', '.txt', '.map']);
 const NO_CACHE_FILES = new Set(['index.html', 'sw.js', 'manifest.webmanifest']);
 
-const AUTH_ROUTES = {
+const API_ROUTES = {
   '/api/auth/login': loginHandler,
   '/api/auth/callback': callbackHandler,
   '/api/auth/me': meHandler,
   '/api/auth/logout': logoutHandler,
+  '/api/sync': syncHandler,
 };
 
 /**
@@ -217,9 +219,9 @@ export function createZhixingServer({ distDir = DEFAULT_DIST_DIR } = {}) {
         return res.end(JSON.stringify({ ok: true, service: 'zhixing', origin: getAppOrigin() }));
       }
 
-      const authHandler = AUTH_ROUTES[pathname];
-      if (authHandler) {
-        await authHandler(req, res);
+      const apiHandler = API_ROUTES[pathname];
+      if (apiHandler) {
+        await apiHandler(req, res);
         return;
       }
 

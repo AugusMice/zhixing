@@ -13,6 +13,16 @@ import { computeKpStats } from '../engine/mastery';
 import { buildSession, type PlanContext } from '../engine/planner';
 import { createSession } from '../engine/session';
 import { loadData, saveData, setSession } from '../engine/store';
+import {
+  getSyncState,
+  initSync,
+  logoutAndClearSync,
+  subscribeSyncState,
+  syncNow,
+  trackAppDataChange,
+  type SyncRunResult,
+  type SyncState,
+} from '../engine/syncClient';
 import type {
   AppData,
   KpStat,
@@ -34,6 +44,9 @@ interface AppContextValue {
   startSession: (mode: SessionMode, config: SessionConfig) => boolean;
   startQueue: (label: string, qids: string[], mode?: SessionMode) => boolean;
   toast: (message: string) => void;
+  sync: SyncState;
+  syncNow: () => Promise<SyncRunResult>;
+  logout: () => Promise<void>;
 }
 
 const AppContext = createContext<AppContextValue | null>(null);
@@ -76,16 +89,33 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
 function ProviderInner({ initial, children }: { initial: AppData; children: ReactNode }) {
   const [data, setData] = useState<AppData>(initial);
+  const dataRef = useRef<AppData>(data);
+  dataRef.current = data;
+  const [sync, setSync] = useState<SyncState>(() => getSyncState());
   const [toastMsg, setToastMsg] = useState<string | null>(null);
   const toastTimer = useRef<number | undefined>(undefined);
 
   const update = useCallback((updater: (current: AppData) => AppData) => {
     setData((current) => {
       const next = updater(current);
-      void saveData(next);
+      if (next !== current) {
+        void saveData(next);
+        trackAppDataChange(current, next);
+      }
       return next;
     });
   }, []);
+
+  useEffect(() => subscribeSyncState(setSync), []);
+
+  useEffect(
+    () =>
+      initSync({
+        getAppData: () => dataRef.current,
+        applyMergedAppData: (merged) => setData(merged),
+      }),
+    [],
+  );
 
   const toast = useCallback((message: string) => {
     setToastMsg(message);
@@ -200,6 +230,9 @@ function ProviderInner({ initial, children }: { initial: AppData; children: Reac
     startSession,
     startQueue,
     toast,
+    sync,
+    syncNow,
+    logout: logoutAndClearSync,
   };
 
   return (

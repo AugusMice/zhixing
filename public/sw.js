@@ -1,5 +1,5 @@
 /* 知星 Service Worker：应用外壳缓存 + 静态资源 stale-while-revalidate */
-const CACHE = 'zhixing-v31';
+const CACHE = 'zhixing-v32';
 const CORE = [
   './',
   './index.html',
