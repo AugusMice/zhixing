@@ -1,0 +1,26 @@
+# Vercel 上传忽略清单（存在本文件时，CLI 不再使用 .gitignore）
+# 目的：只上传构建所需文件，但保留 public/papers（真题卷图片，构建产物里要用）
+.git
+.github
+node_modules
+dist
+.vite
+.tmp-esbuild
+shots
+work
+_summary_work
+latency
+web-search-recovery
+dsh-desearch-x-search
+dsh-jailbreak-*
+jailbreak-install-backup-*
+_记忆基座
+真题库试验
+Obsidian For Deepseek
+.edge-profile*
+.chrome-profile*
+*.exe
+*.tar.gz
+_tmp_*
+_asar_probe.cjs
+*.log

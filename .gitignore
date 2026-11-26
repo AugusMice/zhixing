@@ -13,6 +13,8 @@
 !/server.mjs
 !/tsconfig.json
 !/vite.config.ts
+!/vercel.json
+!/.vercelignore
 !/start-zhixing.cmd
 !/start-zhixing.ps1
 !/src/
@@ -47,3 +49,6 @@ scripts/repair_canvas*.py
 scripts/restore_mojibake.py
 scripts/fix_encoding.py
 scripts/check_encoding.py
+
+.vercel
+.env*
