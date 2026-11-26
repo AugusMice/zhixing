@@ -36,3 +36,24 @@ test('callback sets host-only session after code exchange', async () => {
     assert.doesNotMatch(result.headers['Set-Cookie'][1], /Domain=/);
   } finally { fetchMock.mock.restore(); globalThis.fetch = original; }
 });
+
+test('callback works with raw Node req.url query string and sends new redirectUri', async () => {
+  const original = globalThis.fetch;
+  const token = signSession({ sub: 'google:user-2', provider: 'google' });
+  const expectedUser = (await import('../api/auth/shared.js')).verifySession(token);
+  let capturedBody = null;
+  let capturedUrl = null;
+  const fetchMock = mock.method(globalThis, 'fetch', async (url, init) => {
+    capturedUrl = url;
+    capturedBody = JSON.parse(init.body);
+    return Response.json({ user: expectedUser });
+  });
+  try {
+    const state = 'node-http-state-12345678901234567890';
+    const result = res();
+    await handler({ method: 'GET', url: `/api/auth/callback?code=raw-code&state=${state}`, headers: { cookie: `${TX_COOKIE}=${state}` } }, result);
+    assert.equal(result.statusCode, 302);
+    assert.equal(capturedUrl, 'https://auth.wris.me/api/bridge/exchange');
+    assert.equal(capturedBody.redirectUri, 'https://zhistar.aux.wris.me/api/auth/callback');
+  } finally { fetchMock.mock.restore(); globalThis.fetch = original; }
+});

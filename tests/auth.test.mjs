@@ -30,7 +30,7 @@ test('退出清除 host-only session cookie 且拒绝跨站来源', () => {
   logout({ method: 'POST', headers: { origin: 'https://evil.example' } }, denied);
   assert.equal(denied.statusCode, 403);
   const ok = response();
-  logout({ method: 'POST', headers: { origin: 'https://zhistar.aux.wstudio.work' } }, ok);
+  logout({ method: 'POST', headers: { origin: 'https://zhistar.aux.wris.me' } }, ok);
   assert.match(ok.headers['Set-Cookie'], /HttpOnly; Secure; SameSite=Lax/);
   assert.doesNotMatch(ok.headers['Set-Cookie'], /Domain=/);
 });

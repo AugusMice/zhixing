@@ -4,11 +4,13 @@
 /*
 !/.gitignore
 !/.gitattributes
+!/.env.example
 !/README.md
 !/CONTRIBUTING.md
 !/index.html
 !/package.json
 !/package-lock.json
+!/server.mjs
 !/tsconfig.json
 !/vite.config.ts
 !/start-zhixing.cmd

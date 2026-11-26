@@ -1,11 +1,46 @@
 import { createHmac, randomBytes, timingSafeEqual } from 'node:crypto';
 
+export const DEFAULT_APP_ORIGIN = 'https://zhistar.aux.wris.me';
 export const AUTH_ORIGIN = 'https://auth.wris.me';
-export const REDIRECT_URI = 'https://zhistar.aux.wstudio.work/api/auth/callback';
+export const REDIRECT_URI = `${DEFAULT_APP_ORIGIN}/api/auth/callback`;
 export const CLIENT_ID = 'zhixing';
 export const TX_COOKIE = '__Host-zx_auth_tx';
 export const SESSION_COOKIE = '__Host-zx_session';
 export const SESSION_TTL = 7 * 24 * 60 * 60;
+
+function trimSlash(url) {
+  return String(url || '').trim().replace(/\/+$/, '');
+}
+
+export function getAppOrigin() {
+  return trimSlash(process.env.ZHIXING_ORIGIN || process.env.APP_ORIGIN) || DEFAULT_APP_ORIGIN;
+}
+
+export function getAuthOrigin() {
+  return trimSlash(process.env.WRIS_AUTH_ORIGIN) || AUTH_ORIGIN;
+}
+
+export function getBridgeUrl() {
+  return trimSlash(process.env.WRIS_BRIDGE_URL) || `${getAuthOrigin()}/api/bridge`;
+}
+
+export function getRedirectUri() {
+  return String(process.env.ZHIXING_REDIRECT_URI || '').trim() || `${getAppOrigin()}/api/auth/callback`;
+}
+
+export function getClientId() {
+  return String(process.env.ZHIXING_CLIENT_ID || '').trim() || CLIENT_ID;
+}
+
+export function parseQuery(req) {
+  if (req.query && typeof req.query === 'object') return req.query;
+  try {
+    const url = new URL(req.url || '/', 'http://localhost');
+    return Object.fromEntries(url.searchParams.entries());
+  } catch {
+    return {};
+  }
+}
 
 export function secret(name) {
   const value = process.env[name];
@@ -26,7 +61,7 @@ export function clearCookie(name) {
 }
 
 export function parseCookies(req) {
-  const header = req.headers.cookie || '';
+  const header = req.headers?.cookie || '';
   return Object.fromEntries(header.split(';').map((part) => {
     const index = part.indexOf('=');
     return index < 0 ? ['', ''] : [part.slice(0, index).trim(), part.slice(index + 1).trim()];

@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc --noEmit && vite build",
+    "start": "node server.mjs",
     "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.mjs",
     "check": "tsc --noEmit",
     "check:texts": "node scripts/check-texts.mjs",
     "check:content": "node scripts/check-content.mjs && node scripts/check-texts.mjs && node scripts/check-qbank-quality.mjs",

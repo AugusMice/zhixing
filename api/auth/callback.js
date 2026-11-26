@@ -1,8 +1,23 @@
-import { AUTH_ORIGIN, CLIENT_ID, REDIRECT_URI, SESSION_COOKIE, TX_COOKIE, clearCookie, json, parseCookies, secret, signSession } from './shared.js';
+import { timingSafeEqual } from 'node:crypto';
+import {
+  SESSION_COOKIE,
+  SESSION_TTL,
+  TX_COOKIE,
+  clearCookie,
+  cookie,
+  getBridgeUrl,
+  getClientId,
+  getRedirectUri,
+  json,
+  parseCookies,
+  parseQuery,
+  secret,
+  signSession,
+} from './shared.js';
 
 export default async function handler(req, res) {
   if (req.method !== 'GET') return json(res, 405, { error: 'method_not_allowed' });
-  const query = req.query || {};
+  const query = parseQuery(req);
   const code = typeof query.code === 'string' ? query.code : '';
   const state = typeof query.state === 'string' ? query.state : '';
   const cookies = parseCookies(req);
@@ -14,14 +29,14 @@ export default async function handler(req, res) {
   }
   res.setHeader('Referrer-Policy', 'no-referrer');
   try {
-    const response = await fetch(`${AUTH_ORIGIN}/api/bridge/exchange`, {
+    const response = await fetch(`${getBridgeUrl()}/exchange`, {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
         authorization: `Bearer ${secret('ZHIXING_EXCHANGE_SECRET')}`,
         cookie: `${TX_COOKIE}=${txCookie}`,
       },
-      body: JSON.stringify({ code, clientId: CLIENT_ID, redirectUri: REDIRECT_URI, state }),
+      body: JSON.stringify({ code, clientId: getClientId(), redirectUri: getRedirectUri(), state }),
       signal: AbortSignal.timeout(8000),
     });
     if (!response.ok) throw new Error('Authorization code was rejected');
@@ -34,7 +49,7 @@ export default async function handler(req, res) {
       login: String(user.login || '').slice(0, 200),
       avatar: typeof user.avatar === 'string' ? user.avatar.slice(0, 1000) : null,
     });
-    res.setHeader('Set-Cookie', [clearCookie(TX_COOKIE), `__Host-zx_session=${session}; Path=/; Max-Age=604800; HttpOnly; Secure; SameSite=Lax`]);
+    res.setHeader('Set-Cookie', [clearCookie(TX_COOKIE), cookie(SESSION_COOKIE, session, SESSION_TTL)]);
     res.setHeader('Cache-Control', 'no-store');
     res.statusCode = 302;
     res.setHeader('Location', '/#/settings');
@@ -47,5 +62,5 @@ export default async function handler(req, res) {
 
 function safeEqual(a, b) {
   if (a.length !== b.length || !/^[A-Za-z0-9_-]+$/.test(a) || !/^[A-Za-z0-9_-]+$/.test(b)) return false;
-  return a === b;
+  return timingSafeEqual(Buffer.from(a), Buffer.from(b));
 }
