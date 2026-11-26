@@ -1,5 +1,5 @@
 /* 知星 Service Worker：应用外壳缓存 + 静态资源 stale-while-revalidate */
-const CACHE = 'zhixing-v29';
+const CACHE = 'zhixing-v30';
 const CORE = [
   './',
   './index.html',
@@ -36,6 +36,8 @@ self.addEventListener('fetch', (event) => {
 
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
+  // API 包含身份与认证回调，绝不进入 Service Worker 缓存。
+  if (url.pathname.startsWith('/api/')) return;
 
   // 页面导航：网络优先，离线时回退到缓存的应用外壳
   if (request.mode === 'navigate') {

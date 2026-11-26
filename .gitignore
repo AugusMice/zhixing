@@ -14,6 +14,8 @@
 !/start-zhixing.cmd
 !/start-zhixing.ps1
 !/src/
+!/api/
+!/tests/
 !/content/
 !/public/
 !/docs/

@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useApp } from '../state/AppState';
 import { computeCivilization } from '../engine/game';
 import {
@@ -128,6 +128,32 @@ export function Settings() {
   const civ = computeCivilization(data, questions, kpStats);
   const [confirmReset, setConfirmReset] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
+  const [account, setAccount] = useState<{ sub: string; provider: string; name: string; login: string; avatar: string | null } | null>(null);
+  const [authBusy, setAuthBusy] = useState(true);
+  const [authError, setAuthError] = useState('');
+
+  useEffect(() => {
+    let active = true;
+    fetch('/api/auth/me', { cache: 'no-store', credentials: 'same-origin' })
+      .then((response) => response.ok ? response.json() : Promise.reject(new Error('登录状态查询失败')))
+      .then((result) => { if (active) setAccount(result.user ?? null); })
+      .catch(() => { if (active) setAuthError('登录服务暂不可用；本机学习数据不受影响。'); })
+      .finally(() => { if (active) setAuthBusy(false); });
+    return () => { active = false; };
+  }, []);
+
+  const logout = async () => {
+    setAuthBusy(true);
+    try {
+      await fetch('/api/auth/logout', { method: 'POST', credentials: 'same-origin' });
+      setAccount(null);
+      setAuthError('');
+    } catch {
+      setAuthError('退出失败，请重试。');
+    } finally {
+      setAuthBusy(false);
+    }
+  };
 
   const patch = (value: Partial<SettingsType>) => {
     update((d) => updateSettings(d, value));
@@ -194,6 +220,24 @@ export function Settings() {
         <p className="profile-note">
           文明等级来自学习经验；之后接入游戏系统时，这份档案会直接变成你的势力初始状态。
         </p>
+      </section>
+
+      <section className="block">
+        <SectionHead title="账号" hint="登录只用于身份识别；学习进度仍保存在本机" />
+        <div className="card settings-card">
+          <div className="setting-row">
+            <div className="setting-text">
+              <strong>{authBusy ? '正在检查登录状态…' : account ? (account.name || account.login || '已登录') : '未登录'}</strong>
+              <span>{account ? `已通过 ${account.provider} 登录（${account.sub}）` : '登录 wris.me 账号；当前版本尚未开启云端进度同步。'}</span>
+            </div>
+            {account ? (
+              <button className="btn btn--ghost btn--sm" disabled={authBusy} onClick={() => void logout()}>退出登录</button>
+            ) : (
+              <a className={`btn btn--primary btn--sm${authBusy ? ' is-disabled' : ''}`} href={authBusy ? undefined : '/api/auth/login'} aria-disabled={authBusy}>使用 wris.me 登录</a>
+            )}
+          </div>
+          {authError && <p className="auth-note" role="status">{authError}</p>}
+        </div>
       </section>
 
       <section className="block">
@@ -355,7 +399,7 @@ export function Settings() {
           <div className="setting-row">
             <div className="setting-text">
               <strong>知星</strong>
-              <span>离线优先 · 无账号 · 无上传</span>
+              <span>离线优先 · wris.me 登录可选 · 学习数据仍仅保存在本机</span>
             </div>
             <span className="quiet small">v0.7</span>
           </div>
